@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · CH-02 — Ten Chiefs, No Boss, No Voter | Bruin Watch</title>
+<meta name="description" content="Chapter 2 shows why no single entity inside UC can fix the police system from the inside and governance of the University of California police system.">
+<meta property="og:title" content="Act I · CH-02 — Ten Chiefs, No Boss, No Voter | Bruin Watch">
+<meta property="og:description" content="Chapter 2 shows why no single entity inside UC can fix the police system from the inside and governance of the University of California police system.">
+<meta property="og:type" content="article">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE}
+body{font-family:'Source Sans Pro',Calibri,Arial,sans-serif;background:#e8edf2;margin:0;padding:0}
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:center}
+.nav-bottom-inner{display:flex;align-items:stretch;justify-content:center;min-width:max-content;margin:0 auto}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:32px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:80px;font-weight:900;letter-spacing:8px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:6px;line-height:1.05}
+.series-subtitle{font-family:'Bebas Neue',sans-serif;font-size:40px;font-weight:900;letter-spacing:6px;text-transform:uppercase;color:#fff;margin-bottom:6px;line-height:1.1}
+.series-report{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.85);margin-bottom:4px;line-height:1.5}
+.series-commission{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:16px;line-height:1.5}
+.chapter-number{font-family:'Source Sans Pro',sans-serif;font-size:34px;font-weight:900;letter-spacing:4px;text-transform:uppercase;color:#fff;margin-bottom:10px}
+.ch-of{font-size:20px;font-weight:600;text-transform:lowercase;vertical-align:middle;margin:0 6px;color:#fff}
+.chapter-title{font-family:'Libre Baskerville',Georgia,serif;font-size:32px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:16px auto;display:block}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.cover-meta{width:100%;padding:20px 0;background:rgba(0,0,0,.15);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border-top:1px solid rgba(253,181,21,.25)}
+.cover-meta-inner{max-width:960px;width:100%;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 40px}
+.cover-meta p{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;color:#fff;text-align:center;line-height:1.6}
+.cover-meta strong{color:var(--uc-gold)}
+.cover-meta p.cover-disclaimer{font-family:'Source Sans Pro',Calibri,Arial,sans-serif!important;font-size:14.5px!important;font-weight:300!important;color:#dde8f4!important;text-align:justify!important;hyphens:auto;max-width:820px;width:100%;margin:6px auto;padding:10px 0;line-height:1.8;border-top:1px solid rgba(253,181,21,.35);border-bottom:1px solid rgba(253,181,21,.35)}
+.cover-copyright{width:100%;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:400;color:#fff;margin-top:4px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.disclaimer{max-width:780px;margin:50px auto 40px;padding:24px 32px;text-align:center;font-style:italic;font-size:13.5px;color:#666;line-height:1.8;border-top:1px solid #ddd;border-bottom:1px solid #ddd;font-family:'Libre Baskerville',Georgia,serif}
+.content{max-width:860px;margin:0 auto;padding:0 30px 60px;font-family:'Libre Baskerville',Georgia,serif}
+.report-container{max-width:860px;margin:0 auto;padding:0 30px 60px;font-family:'Libre Baskerville',Georgia,serif;font-size:15px;color:#333;line-height:1.75}
+h2.section-title{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#003262;margin:50px 0 10px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.toc{background:#f5f0e8;border:1px solid #d4c9b8;padding:2rem 2.5rem;margin:50px 30px 50px}.toc h2{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;color:#003262;margin-bottom:20px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.toc-entry{display:flex;align-items:baseline;padding:6px 0;border-bottom:1px dotted #ccc}
+.toc-num{font-family:'Source Sans Pro',sans-serif;font-weight:600;color:#003262;min-width:60px}
+.toc-title a{color:#003262;text-decoration:none;font-size:15px}
+.toc-title a:hover{text-decoration:underline}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#003262;margin:50px 0 10px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.sub-heading{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;color:#003262;margin:30px 0 10px}
+p.body-text{font-size:17px;color:#333;margin-bottom:16px;line-height:1.75}
+.key-finding{background:#FFF8E1;border-left:4px solid #FDB515;padding:16px 20px;margin:20px 0 30px;font-size:18px;line-height:1.7}
+.key-finding strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.source-note{border:1px solid #FDB515;border-left:4px solid #FDB515;background:#FFFEF8;padding:16px 20px;margin:24px 0;font-size:18px;line-height:1.7}
+.source-note strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.source-note a{color:#0563C1;word-break:break-all;text-decoration:underline}
+table.info-table{width:100%;border-collapse:collapse;margin:20px 0 30px;font-size:14px}
+table.info-table thead th{background:#003262;color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:1px;padding:12px 14px;text-align:left;border:1px solid #002244}
+table.info-table tbody td{padding:12px 14px;border:1px solid #ddd;vertical-align:top;line-height:1.6}
+table.info-table tbody tr:nth-child(even){background:#E8EEF4}
+table.info-table tbody tr:nth-child(odd){background:#fff}
+table.info-table a{color:#0563C1;word-break:break-all}
+.campus-header{font-family:'Source Sans Pro',sans-serif;font-size:20px;font-weight:700;color:#fff;background:#003262;padding:12px 20px;margin:40px 0 16px;border-left:5px solid #FDB515}
+.campus-summary{background:#f5f0e8;border:1px solid #d4c9b8;padding:14px 18px;margin-bottom:20px;font-size:14px;line-height:1.65}
+.pathway-box{background:#FAF6F0;border:1px solid #D4C9B8;border-left:4px solid #003262;padding:18px 22px;margin:18px 0 26px}
+.pathway-box .pw-title{font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:16px;color:#003262;margin-bottom:8px}
+.pathway-box .pw-auth{font-family:'Source Sans Pro',sans-serif;font-size:13px;color:#555;margin-bottom:8px}
+.pathway-box .pw-body{font-size:14px;line-height:1.7;margin-bottom:8px}
+.pathway-box .pw-how{font-size:13px;line-height:1.6;color:#444}
+.pathway-box .pw-how strong{color:#003262}
+.pathway-box a{color:#0563C1;word-break:break-all;text-decoration:underline}
+.statute-box{background:#FAF6F0;border:1px solid #D4C9B8;padding:16px 20px;margin:16px 0 24px;font-size:14px;line-height:1.7}
+.statute-box .statute-label{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:#003262;display:block;margin-bottom:6px}
+.appendix-heading{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#003262;margin:50px 0 10px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.appendix-category{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;color:#003262;margin:24px 0 10px}
+.appendix-entry{font-size:16px;line-height:1.7;margin-bottom:6px;padding-left:16px;text-indent:-16px}
+.appendix-entry a{color:#0563C1;word-break:break-all;text-decoration:underline}
+.source-id{font-weight:700;color:#003262}
+.page-footer{max-width:860px;margin:40px auto 30px;padding:16px 30px 0;border-top:2px solid #FDB515;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:12px;color:#888;line-height:1.6}
+.submission-block{background:var(--uc-blue);padding:24px 30px;margin:32px 0 0}
+.submission-block p{font-size:16px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:8px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:20px 48px;text-align:center;font-size:14px;color:rgba(255,255,255,0.5);line-height:1.8;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+.doc-footer strong{color:rgba(255,255,255,0.8)}
+@media(max-width:768px){.series-title{font-size:52px}.chapter-title{font-size:32px}.cover-content{padding:36px 20px}}
+@media print{.nav-wrap{display:none!important}.cover-page{page-break-after:always}}
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn active">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a><a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a><a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+</div>
+</nav>
+</div>
+<div class="cover-page">
+<div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Behave Like Heroes</div>
+<div class="series-subtitle">Law &mdash; Without Enforcement</div>
+<div class="series-report">A Public Complaint Report to POST</div>
+<div class="series-commission">California Commission on Peace Officer Standards and Training</div>
+<div class="chapter-number" style="color: #FDB515;">Chapter 02<span class="ch-of" style="color: #FDB515;">of</span>&nbsp;05</div>
+<h1 class="chapter-title">Ten Chiefs, No Boss, No Voter &mdash; The Governance Structure That Blocks Accountability</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">Regents Authority &mdash; Chancellor Oversight &mdash; Ten Independent Departments &mdash; No Elected Officials in the Chain of Command &mdash; The Governance Structure That Creates the Accountability Gap</p>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+<div class="chapter-body">
+
+<!-- REPORT BODY -->
+<div class="report-container">
+
+  <!-- TABLE OF CONTENTS -->
+  <div class="toc">
+    <h2>Table of Contents</h2>
+      <div class="toc-entry"><span class="toc-num">I.</span><span class="toc-title"><a href="#section1">Ten Independent Departments, No Unified Command</a></span></div>
+  <div class="toc-entry"><span class="toc-num">II.</span><span class="toc-title"><a href="#section2">The Delegation Chain: Regents &rarr; President &rarr; Chancellor &rarr; Chief of Police</a></span></div>
+  <div class="toc-entry"><span class="toc-num">III.</span><span class="toc-title"><a href="#section3">The Coordinator of Police Services and the Council of Chiefs</a></span></div>
+  <div class="toc-entry"><span class="toc-num">IV.</span><span class="toc-title"><a href="#section4">The &ldquo;Gold Book&rdquo;: Universitywide Police Policies and Administrative Procedures</a></span></div>
+  <div class="toc-entry"><span class="toc-num">V.</span><span class="toc-title"><a href="#section5">The 2021 Gold Book Revision and Academic Senate Opposition</a></span></div>
+  <div class="toc-entry"><span class="toc-num">VI.</span><span class="toc-title"><a href="#section6">The Director of Community Safety: A New Systemwide Position</a></span></div>
+  <div class="toc-entry"><span class="toc-num">VII.</span><span class="toc-title"><a href="#section7">Campus-Level Police Governance: The Chancellor&rsquo;s Authority</a></span></div>
+  <div class="toc-entry"><span class="toc-num">VIII.</span><span class="toc-title"><a href="#section8">Specialized Units, Support Functions, and Shared Infrastructure</a></span></div>
+  <div class="toc-entry"><span class="toc-num">IX.</span><span class="toc-title"><a href="#section9">Significance for POST Regulatory Review</a></span></div>
+  <div class="toc-entry"><span class="toc-num"></span><span class="toc-title"><a href="#appendix">Source Appendix</a></span></div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       CHAPTER OPENER — THE LEDE IN PLAIN ENGLISH
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="key-finding" style="background:#003262;border-left:4px solid #FDB515;padding:28px 32px;margin:30px 0 40px;">
+    <p style="font-size:20px;line-height:1.6;color:#ffffff;margin:0 0 14px;font-family:'Libre Baskerville',Georgia,serif;font-weight:700;">There is no Chief of the UCPD &mdash; and the one systemwide police position UC created in 2022 was given a different name on purpose.</p>
+    <p style="font-size:16px;line-height:1.75;color:#ffffff;margin:0 0 12px;">In July 2022, UC appointed Jody Stiger as its first-ever <em>Director of Community Safety</em>, reporting to the Office of the President. The title matters. Stiger is a <strong>director</strong>, not a <strong>chief</strong>. He coordinates. He does not command. The ten campus chiefs did not start reporting to him. They still report to their Chancellors. They still hire, fire, discipline, and deploy on their own authority.</p>
+    <p style="font-size:16px;line-height:1.75;color:#ffffff;margin:0 0 12px;">UC&rsquo;s own 2022 appointment announcement called the position an answer to gaps the Coordinator of Police Services and the Council of Chiefs had failed to fill. That is an admission &mdash; written by UC &mdash; that the system did not have systemwide command in 2021. And the fix UC chose did not create systemwide command in 2022 either. It created a systemwide advisor.</p>
+    <p style="font-size:16px;line-height:1.75;color:#ffffff;margin:0;">That is the accountability gap. Ten separate police departments. Ten separate chiefs. Ten separate chancellors. Eighteen unelected Regents above them. One systemwide director with no line authority over any of it. This chapter shows you the org chart.</p>
+  </div>
+
+  <!-- SECTION I -->
+  <h2 class="section-title" id="section1">I. Ten Independent Departments, No Unified Command</h2>
+
+  <p>The UC police system is structured as ten independent campus police departments, each operating under the authority of its respective campus chancellor. There is no single "chief of the UCPD" and no unified, centralized command structure across the system. Instead, each campus department operates as an autonomous law enforcement agency with its own chief of police, its own Standard Operating Policies, and its own chain of command.</p>
+
+  <p>This decentralized structure is a direct consequence of the University of California's constitutional autonomy under Article IX, Section 9, combined with the Regents' delegation of campus governance to individual chancellors. Each campus police department is, for regulatory and operational purposes, a separate law enforcement agency — subject to POST certification independently, maintaining its own internal affairs files independently, and reporting to POST independently.</p>
+
+  <p>As documented in Part 9 of this report series (The Ten Campus Police Departments: Alphabetical Dossiers), the ten departments vary significantly in size, budget, staffing, operational complexity, and documented incident history. The largest departments (UC Berkeley, UCLA, UC Davis) employ dozens of sworn officers and maintain specialized units; the smallest (UC Merced, UCSF) operate with minimal staffing and limited operational scope. Despite these differences, all ten departments derive their authority from the same statutory framework (Education Code &sect; 92600 and Penal Code &sect; 830.2(b)) and are subject to the same POST regulatory requirements.</p>
+
+  <div class="source-note">
+    Source: Wikipedia, "University of California police departments," at <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">en.wikipedia.org</a>; Universitywide Police Policies and Administrative Procedures, University of California, effective January 7, 2011, as cited in UAW 2865 Research Working Group, "Policing in the University of California," February 2021.
+  </div>
+
+  <!-- SECTION II -->
+  <h2 class="section-title" id="section2">II. The Delegation Chain: Regents &rarr; President &rarr; Chancellor &rarr; Chief of Police</h2>
+
+  <p>The governance structure for UC police departments is established by the Standing Orders of the Regents of the University of California. The delegation chain proceeds as follows:</p>
+
+  <div class="statute-box">
+    <div class="statute-label">Standing Order 100.4 &mdash; Duties of the President</div>
+    <p>Standing Order 100.4 provides for the delegation of authority for governance of the University to the President. The President of the University holds broad authority over institutional operations, including the authority to issue systemwide policies applicable to all ten campuses. The President may redelegate certain authority to chancellors and other UC officers through Presidential Delegations of Authority, UC policy, or Business and Finance Bulletins.</p>
+  </div>
+
+  <div class="statute-box">
+    <div class="statute-label">Standing Order 100.6 &mdash; Duties of the Chancellors</div>
+    <p>Standing Order 100.6(a) states: "The Chancellor shall be responsible for the organization and operation of the campus, its internal administration, and its discipline." This Standing Order provides for the governance of each campus to its respective Chancellor, including responsibility for all campus operations — which includes the campus police department.</p>
+  </div>
+
+  <p>The practical chain of command for each campus police department therefore flows as follows:</p>
+
+  <p style="text-align: center; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; color: var(--primary); font-size: 1rem; margin: 1.5rem 0;">Board of Regents &rarr; UC President &rarr; Campus Chancellor &rarr; Vice Chancellor for Administration (or equivalent) &rarr; Chief of Police &rarr; Command Staff &rarr; Sworn Officers</p>
+
+  <p>The University of California Office of the President's Delegation of Authority DA-2106, issued to all Chancellors, confirms this framework. DA-2106 states: "The Standing Orders of the Regents 100.4 and 100.6 provide for the delegation of authority for governance of the University to the President and for the governance of a campus to each Chancellor." DA-2106 then delegates to each Chancellor "authority to enter into written agreements with local law enforcement agencies consistent with Section 67381 of the Education Code," which requires written agreements identifying either the campus or local law enforcement agency as having operational responsibility for the investigation of Part 1 violent crimes and delineating the specific geographical boundaries of each agency's operational responsibility.</p>
+
+  <p>The Universitywide Police Policies and Administrative Procedures (the "Gold Book") confirms this governance structure: "Responsibility for security and law enforcement at each campus is assigned to the Chancellors who are responsible for campus organization, operation, internal administration and discipline. The Chancellor, at each campus, has established a" police department operating under this delegated authority.</p>
+
+  <div class="source-note">
+    Source: Standing Orders of the Regents, 100.4 and 100.6, at <a href="https://regents.universityofcalifornia.edu/governance/standing-orders/so1004.html" target="_blank">regents.universityofcalifornia.edu</a>; UC Irvine, Standing Order 100.6(a), at <a href="http://www.policies.uci.edu/delegations/ida615.php" target="_blank">policies.uci.edu</a>; UCOP Delegation of Authority DA-2106, at <a href="https://policy.ucop.edu/_files/da/da2106.html" target="_blank">policy.ucop.edu</a>; Universitywide Police Policies and Administrative Procedures, hosted at <a href="https://dev.police.uci.edu/how-do-i/_img/uc-universitywide-police-policies-and-administrative-procedures.pdf" target="_blank">police.uci.edu (PDF)</a>.
+  </div>
+
+  <!-- SECTION III -->
+  <h2 class="section-title" id="section3">III. The Coordinator of Police Services and the Council of Chiefs</h2>
+
+  <p>Although the ten departments operate autonomously, the UC system maintains two coordination mechanisms at the systemwide level: the Office of the Coordinator of Police Services and the Council of Chiefs of Police.</p>
+
+  <p>The Gold Book describes the Office of the Coordinator of Police Services as follows: "The Office of the President is responsible for the Universitywide coordination of certain University police services functions. This responsibility is executed through the Office of the Coordinator of Police Services and includes coordination of the development of employee selection, training and performance standards, collection and dissemination of crime prevention information, liaison with other agencies in the Criminal Justice System, organization planning for inter-campus mutual assistance and development of police services policies and standards."</p>
+
+  <p>One chief of police is selected as the departments' central coordinator. The coordinator is responsible for compiling crime statistics from each campus, as required by the federal Jeanne Clery Disclosure of Campus Security Policy and Campus Crime Statistics Act (the "Clery Act"), and for ensuring that the various departments are operating within the UCPD's mission. The coordinator does not, however, dictate the day-to-day operations of any department.</p>
+
+  <p>The Council of Chiefs — formally designated the UC Council of Chiefs of Police or the Systemwide Council of Chiefs of Police — meets quarterly at rotating campus locations. The Council serves as the primary consultative body for systemwide police policy development. As documented in the 2021 Gold Book revision process, proposed policy changes were developed "in consultation with the UC Chiefs of Police and UC Legal" and were "reviewed by the Federated University Police Officers Association (FUPOA) and revisions were made based on those conversations." The policies were described as having been "approved by both the UC Chiefs of Police and FUPOA" before being submitted for systemwide review.</p>
+
+  <p>As of the 2021 Gold Book revision, UC Davis Chief of Police Joseph Farrow served as the "systemwide convener of the chiefs of police," as documented in the search committee composition for the Director of Community Safety position.</p>
+
+  <div class="source-note">
+    Source: Universitywide Police Policies and Administrative Procedures ("Gold Book"), Chapter 2, Paragraph 203, hosted at <a href="https://dev.police.uci.edu/how-do-i/_img/uc-universitywide-police-policies-and-administrative-procedures.pdf" target="_blank">police.uci.edu (PDF)</a>; UC Academic Senate, "Gold Book Systemwide Review," at <a href="https://senate.universityofcalifornia.edu/_files/underreview/gold-book-systemwide-review.pdf" target="_blank">senate.universityofcalifornia.edu (PDF)</a>; UCOP, "Jody Stiger Appointed UC's First Systemwide Director of Community Safety," at <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/reports-and-updates/jody-stiger-appointed-ucs-first-systemwide-director-of-community-safety.html" target="_blank">ucop.edu</a>; Wikipedia, "University of California police departments," at <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">en.wikipedia.org</a>.
+  </div>
+
+  <!-- SECTION IV -->
+  <h2 class="section-title" id="section4">IV. The &ldquo;Gold Book&rdquo;: Universitywide Police Policies and Administrative Procedures</h2>
+
+  <p>The Universitywide Police Policies and Administrative Procedures — commonly referred to within the UC system as the "Gold Book" — is the primary systemwide policy document governing all ten UC campus police departments. The Gold Book was made effective January 7, 2011, and has been updated periodically since that date. It establishes baseline policy standards applicable to all ten campus departments in areas including use of force, mutual aid, personnel standards, reporting requirements, uniform specifications, and equipment standards. Individual campus departments may supplement but not contravene these systemwide policies.</p>
+
+  <p>The UC Berkeley Police Department's own policy manual defines the Gold Book in its glossary: "Goldbook / PP&P — Universitywide Police Policies and Administrative Procedures." The Gold Book is referenced throughout individual campus policy manuals as the authoritative systemwide standard against which campus-level policies must be measured.</p>
+
+  <p>The Gold Book is organized into numbered chapters. Among the chapters documented through publicly available sources are: Chapter 2 (Organization and Administration), Chapter 8 (Use of Force), Chapter 13 (Universitywide Mutual Aid), and chapters addressing body-worn video, systemwide response teams, and concealed carry weapons — the latter three added as new chapters during the 2021 revision process.</p>
+
+  <p>The Gold Book specifies operational details down to the level of uniform specifications. The document hosted by UC Irvine's police department includes specifications for the "Uniform Hat," stating: "Material shall be 100% wool. The fabric shall be dyed to match the standard Los Angeles Police Department shade." This level of detail confirms that the Gold Book functions as a comprehensive operational manual, not merely a statement of general principles.</p>
+
+  <div class="source-note">
+    Source: Universitywide Police Policies and Administrative Procedures ("Gold Book"), effective January 7, 2011, hosted at <a href="https://dev.police.uci.edu/how-do-i/_img/uc-universitywide-police-policies-and-administrative-procedures.pdf" target="_blank">police.uci.edu (PDF)</a>; UC Berkeley Police Department Policy Manual, at <a href="https://ucpd.berkeley.edu/sites/default/files/university_of_california_berkeley_police_department_policy_manual.pdf" target="_blank">ucpd.berkeley.edu (PDF)</a>; UAW 2865 Research Working Group, "Policing in the University of California," February 2021, pp. 8&ndash;10.
+  </div>
+
+  <!-- SECTION V -->
+  <h2 class="section-title" id="section5">V. The 2021 Gold Book Revision and Academic Senate Opposition</h2>
+
+  <p>In March 2021, the UC Office of the President initiated a systemwide review of proposed revisions to the Gold Book. The review was described by UCOP as "required by university policy and recent state legislative changes." The proposed revisions addressed four areas: (A) the Use of Force policy (updated based on legislative changes in Assembly Bill 392 and Senate Bill 230), (B) a new Body Worn Video policy (providing a systemwide approach to body-worn cameras purchased and distributed to campuses in 2019/2020), (C) a new Systemwide Response Teams policy (creating specialized response teams for crowd management situations), and (D) a new Concealed Carry Weapons policy (drafted on the recommendation of the Systemwide Council of Chiefs of Police "to adopt a systemwide and consistent policy on the issuance of concealed carry weapons to qualified retired police officers").</p>
+
+  <p>The comment period for the proposed revisions closed on May 7, 2021. The review was coordinated through the Policy Coordination Office. The proposed revisions had been developed "in consultation with the UC Chiefs of Police and UC Legal" and reviewed by FUPOA, with revisions made based on those conversations.</p>
+
+  <p>The UC Academic Senate's response to the proposed Gold Book revisions was sharply critical. The Academic Senate's systemwide response, transmitted by Academic Council, stated: "The Senate strongly opposes the proposed Gold Book policies. We consider them to be inappropriate for a university environment and inconsistent with current national conversations about policing and UC's own internal discussions about campus safety." The Senate noted that "following the killing of George Floyd and many others in spring of 2020, UC faculty, students, and staff have called for changes to UC policing and public safety policies and practices." The Academic Senate's Committee on Demonstrations and Student Actions reviewed the four proposed policies and reported its findings "with unanimous support of the committee."</p>
+
+  <p>All ten Academic Senate divisions and three systemwide committees (UCFW, UCEP, and UCAADE) submitted comments on the proposed revisions. The Academic Senate leadership also received "several emails from individual faculty members expressing strong opposition to the updated use of force policy and new body worn audio, systemwide response team, and concealed carry weapons policies." Members noted that "the policies and procedures fail to engage with current debates regarding" policing reform.</p>
+
+  <p>The February 2023 ECAS systemwide audit subsequently found that the Gold Book "was considered outdated by campus police departments" and that "UC did not have a current systemwide policy governing police department use-of-force reporting." The audit documented that "an interim systemwide draft policy had been awaiting UC systemwide approval since 2019" — four years at the time of the audit — and that local use-of-force policies were "inconsistent across locations and did not address important requirements, including Senate Bill 16 requirements for records retention."</p>
+
+  <div class="source-note">
+    Source: UC Santa Cruz News, "UC systemwide review of revisions to the University Police Policies and Administrative Procedures (Gold Book)," March 2021, at <a href="https://news.ucsc.edu/2021/03/uc-policy-review-police-policies-procedures.html" target="_blank">news.ucsc.edu</a>; UCOP, "Tune in March 24 for Part 2 of the UC Campus Safety Symposium," March 2021, at <a href="https://link.ucop.edu/2021/03/23/tune-in-march-24-for-part-2-of-the-uc-campus-safety-symposium/" target="_blank">link.ucop.edu</a>; UC Academic Senate, "Gold Book Systemwide Review" (Senate response), at <a href="https://senate.universityofcalifornia.edu/_files/underreview/gold-book-systemwide-review.pdf" target="_blank">senate.universityofcalifornia.edu (PDF)</a>; UC Academic Senate, systemwide response to Gold Book revisions, at <a href="https://senate.universityofcalifornia.edu/_files/reports/mg-md-gold-book-revisions.pdf" target="_blank">senate.universityofcalifornia.edu (PDF)</a>; UC San Diego Academic Senate, "Proposed Revisions to the Universitywide Police Policies and Administrative Procedures," at <a href="https://senate.ucsd.edu/current-affairs/news-announcements/proposed-revisions-to-the-universitywide-police-policies-and-administrative-procedures/" target="_blank">senate.ucsd.edu</a>; UC Office of Ethics, Compliance and Audit Services (ECAS), "UC Police Personnel Complaints Process and Use of Force Reporting," Systemwide Final Report, February 15, 2023, at <a href="https://auditreports.ucop.edu" target="_blank">auditreports.ucop.edu</a>.
+  </div>
+
+  <!-- SECTION VI -->
+  <h2 class="section-title" id="section6">VI. The Director of Community Safety: A New Systemwide Position</h2>
+
+  <p>In July 2022, the University of California appointed Jody Stiger as its first full-time Director of Community Safety, a newly created systemwide position reporting to the UC Office of the President. UC President Michael V. Drake stated: "We chose Jody for this role because he is a thoughtful, effective leader and a nationally recognized expert in community and civilian oversight of law enforcement agencies. He has a long history of outreach and broad engagement with communities of color, providing educational seminars on constitutional rights."</p>
+
+  <p>Stiger's background, as documented by UCOP, included service as the aide to the Inspector General of the Los Angeles Police Commission, where his duties included "revising the department's system for investigating use of force, workplace and community complaints and increasing oversight." He had previously "worked with POST (Peace Officer Standards and Training) in revising their Basic Academy Workbook to incorporate procedural justice into statewide training for officers in California and advised the University on trainings." Stiger is a veteran of the U.S. Marine Corps and served as an officer for seven years in the Los Angeles Police Department, followed by eight years as a sergeant "where he partnered extensively with business and community leaders and conducted reviews and oversight of all use of force incidents." He is the president of the Oscar Joel Bryant Foundation, representing African American law enforcement officers.</p>
+
+  <p>UCOP stated that Stiger's "early focus will be to work with campus leadership to continue the full implementation of the UC Community Safety Plan. He will be working with campuses to promote ongoing community engagement, implement a tiered response model, build consistent and transparent data processes, and establish and sustain independent, civilian campus police accountability bodies. One of his early priorities will be to convene a working group and lead the work to update the 'gold book' (more formally, the Universitywide Police Policies and Administrative Procedures document) to UC's policy standards and format."</p>
+
+  <p>The search committee for the Director of Community Safety position included, among others: Alex Bustamante, Senior Vice President, Ethics, Compliance and Audit Services, UCOP; Joseph Farrow, Chief of Police, UC Davis and systemwide convener of the chiefs of police; Jerome Mayer-Cantú, Principal Counsel, Litigation, UC Legal, UCOP; and Phillip Van Saun, Executive Director, Risk, Security and Resilience, Risk Services, UCOP.</p>
+
+  <div class="source-note">
+    Source: UCOP, "Jody Stiger Appointed UC's First Systemwide Director of Community Safety," July 2022, at <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/reports-and-updates/jody-stiger-appointed-ucs-first-systemwide-director-of-community-safety.html" target="_blank">ucop.edu</a>.
+  </div>
+
+  <!-- SECTION VII -->
+  <h2 class="section-title" id="section7">VII. Campus-Level Police Governance: The Chancellor&rsquo;s Authority</h2>
+
+  <p>At the campus level, the Chancellor holds ultimate authority over the police department through the delegation chain documented in Section II of this chapter. The Chancellor's authority encompasses the appointment and removal of the chief of police, the approval of campus-level police policies that supplement the Gold Book, and the allocation of budget resources to the department.</p>
+
+  <p>The practical significance of this governance structure was illustrated by the 21st Century Policing Solutions (21CP) review of UCLA PD following the 2024 encampment response. The 21CP review found that UCLA administrators "shut out campus police from key meetings and planning" and that UCLA "functionally exclud[ed] police from planning and engagement but then ask[ed] law enforcement to engage once tensions have escalated to violence." The review concluded that UCLA had no plans for how to respond to campus disruptions at the time of the encampment, and that "other law enforcement agencies noted it seemed like 'no one was in charge.'" These findings document the practical consequences of a governance structure in which the chancellor holds authority over the police department but may not exercise that authority through established command protocols.</p>
+
+  <p>The UC delegation framework permits chancellors to redelegate certain authority to subordinate officers. As documented by UC Santa Cruz's Policy Office: "If a written delegation does not explicitly disallow or limit redelegation, the presumption is that the authority may be redelegated. Redelegated authority must be granted and exercised consistent with the terms and conditions of the original delegation and with applicable laws, regulations, and University policies." UC Merced's Administrative Policy Office confirms: "Authority is issued to the position title and is reassigned automatically when someone leaves the position."</p>
+
+  <div class="source-note">
+    Source: 21st Century Policing Solutions, Review of UCLA PD, presented to Board of Regents November 14, 2024; UC Santa Cruz Policy Office, "Delegations of Authority," at <a href="https://policy.ucsc.edu/what-is-a-delegation-of-authority/" target="_blank">policy.ucsc.edu</a>; UC Merced Administrative Policy Office, "Delegations of Authority," at <a href="https://policies.ucmerced.edu/delegations" target="_blank">policies.ucmerced.edu</a>.
+  </div>
+
+  <!-- SECTION VIII -->
+  <h2 class="section-title" id="section8">VIII. Specialized Units, Support Functions, and Shared Infrastructure</h2>
+
+  <p>Despite their operational autonomy, the ten UC police departments share certain infrastructure and maintain similar organizational structures. As documented by the Wikipedia entry for University of California police departments, the departments "share a central mission and philosophy, including that of community oriented policing. The departments maintain communication with each other, frequently call upon each other for mutual aid, and share a standard uniform, duty gear, and radio system."</p>
+
+  <p>Standard organizational components maintained by each department include a Communications Division (the police dispatch center and 9-1-1 access point for each UC campus) and a Detective Division (to investigate crimes and other cases reported by citizens and patrol officers). Most departments also maintain a Community Service Officer (CSO) program — non-sworn student employees who perform night escorts, building checks, and general citizen assistance.</p>
+
+  <p>Several departments maintain more specialized units. These include, across various campuses: Emergency Medical Services (EMS), Bomb Squad, Crime Prevention Units, Special Response Teams, Crime Labs, Dignitary Protection Units, and Negotiation and Entry Teams. The Gold Book's 2021 revision included a new Systemwide Response Teams (SRT) policy creating specialized response teams for crowd management situations, with SRT Coordinators responsible for ensuring training compliance across campuses.</p>
+
+  <p>The first universitywide coordinator, Chief William P. Beall, became the chief at UC Berkeley on May 1, 1969. In addition to his duties at Berkeley, Chief Beall became the first university-wide coordinator of the nine-campus police department system (UC Merced was not established until 2005). Chief Beall oversaw the instituting and managing of uniform system-wide policies governing recruiting, training, personnel, and performance standards.</p>
+
+  <div class="source-note">
+    Source: Wikipedia, "University of California police departments," at <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">en.wikipedia.org</a>; UC Academic Senate, "Gold Book Systemwide Review," SRT policy provisions, at <a href="https://senate.universityofcalifornia.edu/_files/underreview/gold-book-systemwide-review.pdf" target="_blank">senate.universityofcalifornia.edu (PDF)</a>.
+  </div>
+
+  <!-- SECTION IX -->
+  <h2 class="section-title" id="section9">IX. Significance for POST Regulatory Review</h2>
+
+  <p>The governance structure documented in this chapter has direct implications for POST's regulatory oversight.</p>
+
+  <p>The decentralized structure — ten autonomous departments, each reporting to a different chancellor, with no unified command — means that policy compliance is dependent on ten separate chains of authority rather than a single institutional decision-maker. A systemwide policy failure does not necessarily indicate a single point of failure; it may indicate ten parallel failures in implementation, each traceable to a different campus governance structure.</p>
+
+  <p>The documented history of the Gold Book — originally issued in 2011, considered "outdated" by campus police departments as of the 2023 ECAS audit, with an interim use-of-force policy awaiting systemwide approval for four years, opposed by the Academic Senate as "inappropriate for a university environment," and assigned to a newly created Director of Community Safety for updating — documents a governance process in which the primary systemwide policy instrument governing UC police operations underwent prolonged institutional paralysis during a period of significant legislative change (SB 2, AB 392, SB 230, SB 16).</p>
+
+  <p>The creation of the Director of Community Safety position in 2022, while representing an institutional response to governance gaps, also represents an acknowledgment that the existing coordination structure — the Coordinator of Police Services and the Council of Chiefs — was insufficient to address the systemic issues documented in multiple external reviews, lawsuits, and audit findings described in Parts 9 and 10 of this report series.</p>
+
+  <div class="source-note">
+    Source: This section synthesizes the documented facts presented in Sections I through VIII of this chapter. No additional sources are cited.
+  </div>
+
+  <!-- SOURCE APPENDIX -->
+  <div class="appendix-section" id="appendix">
+    <h2>Source Appendix</h2>
+
+    <p style="font-size: 0.88rem; text-align: center; color: var(--text-secondary); margin-bottom: 1.5rem;"><em>All sources below are independently verifiable. URLs are provided where available.</em></p>
+
+    <div class="appendix-category">A. University of California Governance Documents</div>
+
+    <div class="source-entry">
+      <span class="source-id">[G-1]</span> Standing Orders of the Regents of the University of California, 100.4 and 100.6. <a href="https://regents.universityofcalifornia.edu/governance/standing-orders/so1004.html" target="_blank">regents.universityofcalifornia.edu</a>.
+    </div>
+
+    <div class="source-entry">
+      <span class="source-id">[G-2]</span> UCOP Delegation of Authority DA-2106 (delegation to Chancellors for law enforcement agreements). <a href="https://policy.ucop.edu/_files/da/da2106.html" target="_blank">policy.ucop.edu</a>.
+    </div>
+
+    <div class="source-entry">
+      <span class="source-id">[G-3]</span> UC Irvine, Standing Order 100.6(a), IDA615 &mdash; Authority to Act for the Chancellor. <a href="http://www.policies.uci.edu/delegations/ida615.php" target="_blank">policies.uci.edu</a>.
+    </div>
+
+    <div class="source-entry">
+      <span class="source-id">[G-4]</span> UC Santa Cruz Policy Office, "Delegations of Authority." <a href="https://policy.ucsc.edu/what-is-a-delegation-of-authority/" target="_blank">policy.ucsc.edu</a>.
+    </div>
+
+    <div class="source-entry">
+      <span class="source-id">[G-5]</span> UC Merced Administrative Policy Office, "Delegations of Authority." <a href="https://policies.ucmerced.edu/delegations" target="_blank">policies.ucmerced.edu</a>.
+    </div>
+
+    <div class="appendix-category">B. Gold Book and Systemwide Policy Sources</div>
+
+    <div class="source-entry">
+      <span class="source-id">[P-1]</span> Universitywide Police Policies and Administrative Procedures ("Gold Book"), effective January 7, 2011. Full document hosted at <a href="https://dev.police.uci.edu/how-do-i/_img/uc-universitywide-police-policies-and-administrative-procedures.pdf" target="_blank">police.uci.edu (PDF)</a>.
+    </div>
+
+    <div class="source-entry">
+      <span class="source-id">[P-2]</span> UC Santa Cruz News, "UC systemwide review of revisions to the University Police Policies and Administrative Procedures (Gold Book)," March 2021. <a href="https://news.ucsc.edu/2021/03/uc-policy-review-police-policies-procedures.html" target="_blank">news.ucsc.edu</a>.
+    </div>
+
+    <div class="source-entry">
+      <span class="source-id">[P-3]</span> UC Academic Senate, "Gold Book Systemwide Review" (proposed revisions and FUPOA/Chiefs consultation). <a href="https://senate.universityofcalifornia.edu/_files/underreview/gold-book-systemwide-review.pdf" target="_blank">senate.universityofcalifornia.edu (PDF)</a>.
+    </div>
+
+    <div class="source-entry">
+      <span class="source-id">[P-4]</span> UC Academic Senate, Systemwide Response to Gold Book Revisions (opposition letter). <a href="https://senate.universityofcalifornia.edu/_files/reports/mg-md-gold-book-revisions.pdf" target="_blank">senate.universityofcalifornia.edu (PDF)</a>.
+    </div>
+
+    <div class="source-entry">
+      <span class="source-id">[P-5]</span> UC San Diego Academic Senate, "Proposed Revisions to the Universitywide Police Policies and Administrative Procedures." <a href="https://senate.ucsd.edu/current-affairs/news-announcements/proposed-revisions-to-the-universitywide-police-policies-and-administrative-procedures/" target="_blank">senate.ucsd.edu</a>.
+    </div>
+
+    <div class="source-entry">
+      <span class="source-id">[P-6]</span> UCOP, "Tune in March 24 for Part 2 of the UC Campus Safety Symposium," March 2021. <a href="https://link.ucop.edu/2021/03/23/tune-in-march-24-for-part-2-of-the-uc-campus-safety-symposium/" target="_blank">link.ucop.edu</a>.
+    </div>
+
+    <div class="appendix-category">C. Campus Police Department Sources</div>
+
+    <div class="source-entry">
+      <span class="source-id">[C-1]</span> UC Berkeley Police Department Policy Manual (including Gold Book glossary definition). <a href="https://ucpd.berkeley.edu/sites/default/files/university_of_california_berkeley_police_department_policy_manual.pdf" target="_blank">ucpd.berkeley.edu (PDF)</a>.
+    </div>
+
+    <div class="appendix-category">D. UCOP Administrative Sources</div>
+
+    <div class="source-entry">
+      <span class="source-id">[A-1]</span> UCOP, "Jody Stiger Appointed UC's First Systemwide Director of Community Safety," July 2022. <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/reports-and-updates/jody-stiger-appointed-ucs-first-systemwide-director-of-community-safety.html" target="_blank">ucop.edu</a>.
+    </div>
+
+    <div class="appendix-category">E. Audit and Review Sources</div>
+
+    <div class="source-entry">
+      <span class="source-id">[E-1]</span> UC Office of Ethics, Compliance and Audit Services (ECAS), "UC Police Personnel Complaints Process and Use of Force Reporting," Systemwide Final Report, February 15, 2023. <a href="https://auditreports.ucop.edu" target="_blank">auditreports.ucop.edu</a>.
+    </div>
+
+    <div class="source-entry">
+      <span class="source-id">[E-2]</span> 21st Century Policing Solutions, Review of UCLA PD, presented to Board of Regents November 14, 2024.
+    </div>
+
+    <div class="appendix-category">F. Academic and Research Sources</div>
+
+    <div class="source-entry">
+      <span class="source-id">[F-1]</span> UAW 2865 Research Working Group, "Policing in the University of California: Racialized Policing and Ties to the Prison Industrial Complex," February 2021. <a href="https://uaw2865.org" target="_blank">uaw2865.org (PDF)</a>.
+    </div>
+
+    <div class="appendix-category">G. Reference Sources</div>
+
+    <div class="source-entry">
+      <span class="source-id">[R-1]</span> Wikipedia, "University of California police departments." <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">en.wikipedia.org</a>.
+    </div>
+
+
+  </div>
+
+</div>
+
+<div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Behave Like Heroes &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>
+
+
+</div>
+
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn active">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a><a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a><a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+</div>
+</nav>
+</div>
+</body>
+</html>

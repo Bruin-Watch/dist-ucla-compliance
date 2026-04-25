@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · Dossier — UC Davis Police Department | Bruin Watch</title>
+<meta name="description" content="Campus dossier documenting UC Davis Police Department leadership, incidents, and oversight history.">
+<meta property="og:title" content="Act I · Dossier — UC Davis Police Department | Bruin Watch">
+<meta property="og:description" content="Campus dossier documenting UC Davis Police Department leadership, incidents, and oversight history.">
+<meta property="og:type" content="article">
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE;--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0}
+body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#e8edf2;margin:0;padding:0}
+
+/* ══ BAR 1 — VERBATIM FROM CHAPTER_07.HTML ══ */
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:center}
+.nav-bottom-inner{display:flex;align-items:stretch;justify-content:center;min-width:max-content;margin:0 auto}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 2 — CAMPUS DOSSIERS — same pattern, slightly darker ══ */
+.campus-nav{background:#00254a;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:999;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.campus-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.campus-nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.campus-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.campus-btn:hover{background:var(--uc-mid);color:#fff}
+.campus-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 3 — SECTION INDEX — same pattern, darkest ══ */
+.section-nav{background:#001428;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:998;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.section-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.section-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.section-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.section-btn:hover{background:var(--uc-mid);color:#fff}
+.section-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ COVER PAGE ══ */
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:48px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:80px;font-weight:900;letter-spacing:8px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:6px;line-height:1.0}
+.series-line1{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:4px}
+.series-line2{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:28px}
+.campus-label{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:900;letter-spacing:5px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:16px}
+.chapter-title{font-family:'Libre Baskerville',Georgia,serif;font-size:44px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:28px auto;display:block}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:22px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.cover-meta{width:100%;padding:20px 0;background:rgba(0,0,0,.15);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border-top:1px solid rgba(253,181,21,.25)}
+.cover-meta-inner{max-width:960px;width:100%;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 40px}
+.cover-meta p{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;color:#fff;text-align:center;line-height:1.6}
+.cover-meta strong{color:var(--uc-gold)}
+.cover-meta p.cover-disclaimer{font-size:14.5px!important;font-weight:300!important;color:#dde8f4!important;text-align:justify!important;hyphens:auto;max-width:820px;width:100%;margin:6px auto;padding:10px 0;line-height:1.8;border-top:1px solid rgba(253,181,21,.35);border-bottom:1px solid rgba(253,181,21,.35)}
+.cover-copyright{width:100%;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:15px;color:#fff;margin-top:4px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+
+/* ══ CHAPTER BODY ══ */
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.note-investigators{background:var(--uc-blue);padding:24px 30px;margin:0;border-left:6px solid var(--uc-gold)}
+.note-investigators .note-label{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:14px}
+.note-investigators p{font-size:17px;color:#fff;line-height:1.85;margin-bottom:12px}
+.note-investigators p:last-child{margin-bottom:0}
+.campus-grid-wrap{background:var(--uc-blue);padding:10px 0 12px;width:100%}
+.campus-grid{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;width:100%;padding:0 4px}
+.campus-grid-btn{display:block;background:var(--uc-blue-dark);border:2px solid var(--uc-blue-dark);padding:12px 4px;text-align:center;text-decoration:none;transition:background .15s,border-color .15s}
+.campus-grid-btn:hover{background:var(--uc-mid);border-color:var(--uc-mid)}
+.campus-grid-btn.active{background:var(--uc-mid);border:2px solid var(--uc-gold)}
+.campus-grid-abbr{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-weight:700;color:var(--uc-gold);margin-bottom:3px}
+.campus-grid-name{font-size:10px;color:#b8c8dc;letter-spacing:.5px;text-transform:uppercase}
+.campus-grid-btn.active .campus-grid-name{color:#fff}
+.section-anchor{display:block;height:145px;margin-top:-145px;visibility:hidden}
+.content-wrap{padding:0 48px 60px;max-width:900px;margin:0 auto}.content-wrap p{margin-bottom:18px;line-height:1.85;font-size:17px}
+
+/* ══ CONTENT — VERBATIM FROM UCB SOURCE DOSSIER ══ */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+  :root{--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0;--red-bg:#FFC7CE;--red-text:#9C0006;--green-bg:#C6EFCE;--green-text:#276221;--yellow-bg:#FFEB9C;--yellow-text:#7D4A00;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#fff;}
+  .cover-page{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;padding:0 40px;background:repeating-linear-gradient(135deg,transparent,transparent 35px,rgba(255,255,255,0.04) 35px,rgba(255,255,255,0.04) 70px),linear-gradient(180deg,#003262 0%,#00254a 100%);border-bottom:4px solid var(--ucb-gold);}
+  .cover-series{font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin-bottom:16px;}
+  .cover-chapter{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:30px;}
+  .cover-title{font-family:'Source Sans Pro',sans-serif;font-size:36px;font-weight:700;color:#fff;line-height:1.25;max-width:750px;margin-bottom:16px;}
+  .cover-gold-line{width:120px;height:3px;background:var(--ucb-gold);margin:22px auto;}
+  .cover-subtitle{font-family:'Libre Baskerville',serif;font-size:16px;font-style:italic;color:rgba(255,255,255,0.8);max-width:640px;line-height:1.65;margin-bottom:24px;}
+  .cover-meta{font-family:'Source Sans Pro',sans-serif;font-size:16px;color:#fff;margin-top:28px;line-height:2.1;}
+  .cover-meta strong{color:#fff;font-weight:700;}
+  .disclaimer{max-width:800px;margin:44px auto 32px;padding:24px 32px;text-align:center;font-style:italic;font-size:16px;color:#555;line-height:1.85;border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+  .content{max-width:900px;margin:0 auto;padding:0 48px 60px;}
+  .section-banner{font-family:'Source Sans Pro',sans-serif;font-size:17px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ucb-gold);background:var(--ucb-blue);padding:14px 22px;margin:48px 0 0;}
+  .section-title{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:700;color:var(--ucb-blue);padding:16px 0 12px;border-bottom:2px solid var(--ucb-gold);margin-bottom:24px;}
+  .incident-heading{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:900;color:var(--ucb-blue);margin:40px 0 8px;padding:12px 16px;background:var(--ucb-blue-light);border-left:5px solid var(--ucb-gold);}
+  .incident-date{display:block;font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:900;color:var(--ucb-gold);text-transform:uppercase;letter-spacing:2px;margin-top:44px;margin-bottom:6px;}
+  .incident-title{display:block;font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:900;color:var(--ucb-blue);margin-bottom:14px;}
+  .incident-block{margin-bottom:8px;}
+  .pre-mandatory{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:2px 8px;background:#e0e0e0;color:#555;border-radius:2px;margin-bottom:8px;}
+  table.data-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px;}
+  table.data-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:0.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,0.15);}
+  table.data-table thead th:last-child{border-right:none;}
+  table.data-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px;}
+  table.data-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light);}
+  table.data-table tbody tr:nth-child(odd) td{background:#fff;}
+  table.data-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:14px;}
+  .badge{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:3px 8px;border-radius:3px;}
+  .badge-red{background:var(--red-bg);color:var(--red-text);}
+  .badge-green{background:var(--green-bg);color:var(--green-text);}
+  .badge-yellow{background:var(--yellow-bg);color:var(--yellow-text);}
+  .badge-unknown{background:#e0e0e0;color:#444;}
+  .badge-active{background:#FF4444;color:#fff;}
+  .key-finding{background:var(--ucb-gold-light);border-left:4px solid var(--ucb-gold);padding:16px 20px;margin:20px 0 28px;font-size:16px;line-height:1.8;}
+  .key-finding strong{font-family:'Source Sans Pro',sans-serif;color:var(--ucb-blue);}
+  .source-index-entry{font-size:15px;line-height:1.75;margin-bottom:10px;padding:10px 14px;background:#f8f8f8;border-left:3px solid var(--ucb-gold);}
+  .source-index-entry a{color:#0563C1;word-break:break-all;}
+  .source-num{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:var(--ucb-blue);min-width:28px;display:inline-block;}
+  .chapter-nav{background:var(--ucb-blue-light);border:1px solid #c5d3e0;padding:14px 20px;margin:0 0 36px;font-family:'Source Sans Pro',sans-serif;font-size:13px;line-height:1.8;}
+  .chapter-nav strong{color:var(--ucb-blue);}
+  .chapter-nav a{color:#0563C1;text-decoration:none;margin:0 4px;}
+  .chapter-nav a:hover{text-decoration:underline;}
+  .submission-block{background:var(--uc-blue);padding:24px 30px;margin:32px 0 0}
+.submission-block p{font-size:16px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:8px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:20px 48px;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:rgba(255,255,255,0.5);line-height:1.8;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+  .doc-footer strong{color:rgba(255,255,255,0.8)}
+  @media print{.nav-wrap{display:none!important}.cover-page{min-height:100vh;page-break-after:always;}.section-banner{page-break-before:always;}}
+
+@media(max-width:768px){.series-title{font-size:58px}.chapter-title{font-size:32px}.cover-content{padding:36px 24px}}
+@media print{.cover-page{page-break-after:always}.nav-bar,.campus-nav,.section-nav{display:none}}
+
+
+/* ══ MASTER TEMPLATE UPDATE — 2026-03-23 — LOCKED ══ */
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.series-tagline{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:16px;max-width:820px}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin:52px 0 0;padding:0;display:block}
+table.info-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px}
+table.info-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,.15)}
+table.info-table thead th:last-child{border-right:none}
+table.info-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px}
+table.info-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light)}
+table.info-table tbody tr:nth-child(odd) td{background:#fff}
+table.info-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:13px}
+.src-index-wrap{display:flex;flex-direction:column;width:100%}
+.src-row{display:flex;align-items:stretch;border:1px solid #dde3ea;border-top:none;text-decoration:none;color:inherit;transition:background .12s}
+.src-row:first-of-type{border-top:1px solid #dde3ea}
+.src-row:hover{background:#f0f5fb}
+.src-row:hover .src-num{background:var(--uc-mid)}
+.src-num{background:var(--ucb-blue);color:var(--ucb-gold);font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:900;letter-spacing:1px;min-width:120px;width:120px;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px 10px;transition:background .12s;flex-shrink:0;border-right:3px solid var(--ucb-gold)}
+.src-body{flex:1;padding:13px 18px;display:flex;flex-direction:column;justify-content:center;word-wrap:break-word;overflow-wrap:break-word;min-width:0}
+.src-title{font-size:17px;font-weight:700;color:var(--ucb-blue);margin-bottom:4px;line-height:1.4}
+.src-sub{font-size:16px;color:#444;line-height:1.7;word-wrap:break-word;overflow-wrap:break-word}
+.src-sub a{color:#0563C1;word-break:break-all}
+
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn active">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" id="section-nav">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn active" id="btn-a">A &mdash; Overview</a>
+<a href="#secB" class="section-btn" id="btn-b">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn" id="btn-c">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn" id="btn-d">D &mdash; Financial</a>
+<a href="#secE" class="section-btn" id="btn-e">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn" id="btn-f">F &mdash; Sources</a>
+</div>
+</nav>
+
+<div class="cover-page">
+
+  <!-- TOP BLUE BAR — LOCKED -->
+  <div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Behave Like Heroes</div>
+<div class="series-tagline">Law Enforcement Without Enforcement<br>A Documented Gap Analysis</div>
+<div class="campus-label">Campus Dossier</div>
+<h1 class="chapter-title">UC Davis Police Department</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">POST Reporting Gap Analysis &mdash; Compliance Status &mdash; Incident Chronology &mdash; Financial Record &mdash; Leadership History &mdash; Source Index</p>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+
+<div class="chapter-body">
+<div class="note-investigators">
+<div class="note-label">Note to Investigators, Attorneys, and Journalists</div>
+<p>This campus dossier contains enforcement-level detail not summarized in the main chapters of this series. It documents the complete incident history, POST compliance status, financial exposure, and leadership record for the UC Davis Police Department. These documents are intended for POST investigators, attorneys, civil rights organizations, journalists, and other parties requiring granular evidentiary detail for enforcement, litigation, or investigative purposes. All source citations are independently verifiable. Readers are encouraged to draw their own conclusions from the documented record.</p>
+</div>
+<div class="campus-grid-wrap">
+<div class="campus-grid">
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCB</div><div class="campus-grid-name">Berkeley</div></a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-grid-btn active"><div class="campus-grid-abbr">UCD</div><div class="campus-grid-name">Davis</div></a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCI</div><div class="campus-grid-name">Irvine</div></a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCLA</div><div class="campus-grid-name">Los Angeles</div></a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCM</div><div class="campus-grid-name">Merced</div></a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCR</div><div class="campus-grid-name">Riverside</div></a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSD</div><div class="campus-grid-name">San Diego</div></a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSF</div><div class="campus-grid-name">San Francisco</div></a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSB</div><div class="campus-grid-name">Santa Barbara</div></a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSC</div><div class="campus-grid-name">Santa Cruz</div></a>
+</div>
+</div>
+<div class="disclaimer">
+  This document contains only facts as found in public records and the application of law, statute, rule, procedure, or other mechanism to those specific facts. It contains no inflammatory or accusatory language. It is prepared for submission to the California Commission on POST and presents evidence for readers to form their own independent opinions.
+</div>
+
+<div class="content">
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- SECTION A: DEPARTMENT OVERVIEW -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<div id="secA" class="section-heading">Section A &mdash; Department Overview</div>
+
+<table class="info-table">
+<tbody>
+<tr><td class="field-label">Agency Name</td><td>University of California Davis Police Department (UCDPD)</td></tr>
+<tr><td class="field-label">Established</td><td>Established on the Davis campus in 1946. UC Regents formally constituted the University of California Police Department system-wide in September 1947.</td></tr>
+<tr><td class="field-label">Legal Authority</td><td>California Penal Code &sect;830.2(b) (sworn peace officers); California Education Code &sect;92600 (primary jurisdiction over UC property).</td></tr>
+<tr><td class="field-label">POST Status</td><td>POST-participating agency. All officers hold POST certification. Officers subject to SB&nbsp;2 certification review and decertification authority (effective January 1, 2023).</td></tr>
+<tr><td class="field-label">Sworn Officers</td><td>Approximately 54 sworn officers (as documented during Chief Spicuzza&rsquo;s tenure). Current staffing figure not independently verified as of March 2026.</td></tr>
+<tr><td class="field-label">Annual Budget</td><td>UC-wide police spending doubled from $75.3 million (2009&ndash;10) to $148.5 million (2019&ndash;20). Davis-specific budget figures not independently confirmed.</td></tr>
+<tr><td class="field-label">Campus Population</td><td>UC Davis reported total Fall 2025 enrollment of 40,617 &mdash; comprising undergraduate, graduate, and professional students as well as 1,208 veterinary and medical residents and interns &mdash; across the Davis campus and UC Davis Health in Sacramento. Faculty and staff headcount are additional to this enrolled-student figure. Source: <a href="https://www.ucdavis.edu/news/record-numbers-latinx-african-americans-uc-davis-entering-class" target="_blank">UC Davis News &mdash; Enrollment statistics released January 8, 2026 by UC Office of the President</a>.</td></tr>
+<tr><td class="field-label">Jurisdiction</td><td>UCDPD's primary jurisdiction is UC-owned, -operated, and -controlled property under California Education Code &sect;92600. Officers coordinate with Davis PD (City of Davis, population ~66,850), Yolo County Sheriff, and Sacramento PD across their respective geographic areas of operation where UC Davis facilities are located. The specific terms of any formal interagency agreements governing concurrent jurisdiction are not independently confirmed in available public records.</td></tr>
+<tr><td class="field-label">Current Chief</td><td>Joseph A. &ldquo;Joe&rdquo; Farrow (August 2017&ndash;present). Former California Highway Patrol Commissioner (February 2008&ndash;July 2017); first Japanese-American CHP Commissioner. Service confirmed as of January 27, 2026 reaccreditation announcement.</td></tr>
+<tr><td class="field-label">IACLEA Accreditation</td><td><span class="badge badge-green">ACCREDITED</span>&nbsp; Initial accreditation achieved 2021. Reaccreditation confirmed January 27, 2026 for four-year term. Among six UC campuses confirmed IACLEA-accredited as of the UC Board of Regents January 2025 report (Berkeley, Irvine, San Diego, UCSF, and Santa Barbara identified as the other five). Accreditation status of individual campuses is subject to change; the January 2025 Regents report is the most recent independently verified systemwide count. Source: <a href="https://regents.universityofcalifornia.edu/regmeet/jan25/c4.pdf" target="_blank">UC Board of Regents, January 2025</a>.</td></tr>
+<tr><td class="field-label">Oversight Body</td><td>Police Accountability Board (PAB), established May 2014 &mdash; described as &ldquo;the first civilian oversight board established at a major research university.&rdquo; 14 members (4 undergraduates, 2 graduate students, 2 faculty, 2 staff, 4 UC Davis Health). Critical limitation: Chief retains &ldquo;full and final authority&rdquo; over complaint disposition.</td></tr>
+<tr><td class="field-label">Union Representation</td><td>Federated University Police Officers&rsquo; Association (FUPOA).</td></tr>
+<tr><td class="field-label">Notable Distinction</td><td>UC Davis pioneered the UC system&rsquo;s civilian police oversight model. The PAB was adopted system-wide &mdash; all 10 UC campuses now have PABs. UC Davis also championed AB&nbsp;960 (allowing DACA recipients to become California peace officers).</td></tr>
+</tbody>
+</table>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- SECTION B: CHRONOLOGICAL INCIDENT LOG -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<div id="secB" class="section-heading">Section B &mdash; Chronological Incident Log</div>
+<p class="body-text">All documented incidents relevant to POST oversight, presented in chronological order. Incidents predating mandatory reporting laws are labeled accordingly and included to document pattern of conduct. No incident is abbreviated or omitted.</p>
+
+<!-- ─── INCIDENT 1: 2004 SORIANO OIS ─── -->
+<div class="incident-heading">
+  <span class="pre-mandatory-banner">Pre-Mandatory Reporting Era</span><br>
+  December 14, 2004 &mdash; Fatal Officer-Involved Shooting &mdash; Martin Louie Castro Soriano
+</div>
+<p class="body-text">First and only fatal officer-involved shooting in UC Davis campus history. Soriano, 26, of Antioch, was high on methamphetamine and fired at officers outside Regan Hall. Officers returned fire, killing Soriano. Officers were cleared of wrongdoing by the Yolo County District Attorney, the Yolo County Critical Incident Response Team, and internal affairs. This occurred under Chief Calvin Handy&rsquo;s command.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> Predates SB&nbsp;1421 (2019), AB&nbsp;48 (2022). OIS reporting to DOJ under then-applicable statutes. POST use-of-force standards applicable.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> PRE-MANDATORY &mdash; Yolo County DA cleared officers. UC Davis provided records from this incident under SB&nbsp;1421 to Voice of San Diego in 2020 &mdash; one of only two OIS records released by any UC campus. Included to document pattern.</p>
+<div class="source-note"><strong>Sources:</strong> <a href="https://www.ucdavis.edu/news/man-fires-campus-police-killed" target="_blank">UC Davis News</a>; <a href="https://www.ucdavis.edu/news/police-shooting-suspect-was-not-uc-davis-student" target="_blank">UC Davis News (student status)</a>; <a href="https://localwiki.org/davis/UC_Davis_Police_Department" target="_blank">LocalWiki &mdash; UC Davis PD</a></div>
+
+<!-- ─── INCIDENT 2: APRIL 2004 STERLING RIOT ─── -->
+<div class="incident-heading">
+  <span class="pre-mandatory-banner">Pre-Mandatory Reporting Era</span><br>
+  April 2004 (Picnic Day Eve) &mdash; Sterling University Apartments Riot &mdash; Tear Gas Deployed
+</div>
+<p class="body-text">An estimated 500&ndash;1,000 people gathered at Sterling University Vista Apartments in East Davis as multiple private parties merged. Beer bottles were thrown at police; individuals jumped on vehicles; &ldquo;swarm robberies&rdquo; occurred. Officers donned riot gear. Tear gas was fired into the complex along with pepper spray. Over 30 officers from CHP, Yolo County Sheriff, and UC Davis PD responded.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> Predates AB&nbsp;48 (2022). Tear gas and pepper spray deployment in a crowd-management setting would today trigger mandatory AB&nbsp;48 reporting. Mutual aid documentation requirements applicable.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> PRE-MANDATORY &mdash; Pre-AB&nbsp;48. No current reporting obligation. Included to document recurring Picnic Day crowd-control weapon use history and establish pattern of conduct for the department.</p>
+<div class="source-note"><strong>Sources:</strong> <a href="https://www.ucdavis.edu/news/students-bring-special-perspective-table-team-effort-quell-rowdy-parties" target="_blank">UC Davis News &mdash; Students bring special perspective in team effort to quell rowdy parties (confirms approximately 1,000 attendees, swarm robberies, pepper spray deployment, and 30+ officers from multiple agencies)</a>; <a href="https://localwiki.org/davis/Sterling_University_Vista_Apartments" target="_blank">LocalWiki &mdash; Sterling University Vista Apartments (documents tear gas deployment and riot gear response)</a></div>
+
+<!-- ─── INCIDENT 3: CALVIN CHANG LAWSUIT 1 ─── -->
+<div class="incident-heading">
+  2005 (Filed) / January&ndash;April 2008 (Settled) &mdash; Calvin Chang Discrimination Lawsuit &mdash; $240,000 Settlement
+</div>
+<p class="body-text">Calvin Chang &mdash; the first openly gay and Asian-American officer on UC Davis police force, hired in 2002 &mdash; filed a discrimination lawsuit against the UC Board of Regents alleging racial and sexual orientation discrimination. A supervisor (identified as including Lt. John Pike) allegedly used a homophobic slur. A death threat was allegedly made during his service. Settlement: $240,000, with $66,000 allocated to Chang&rsquo;s attorney. The settlement required Chang to resign as a condition of resolution.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> POST standards on workplace discrimination and officer conduct; Title VII of the Civil Rights Act; California Fair Employment and Housing Act (FEHA), Gov. Code &sect;12940. Sustained discrimination findings may implicate SB&nbsp;2 decertification review for involved supervisors.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> UNKNOWN &mdash; No public record of POST reporting for discrimination findings. The settlement required Chang&rsquo;s resignation as a condition of resolution. As a result, no sustained internal finding against named officers appears in available public records &mdash; a fact that may be relevant to any POST review of whether reporting obligations under applicable standards were triggered by the underlying conduct.</p>
+<div class="source-note"><strong>Sources:</strong> <a href="https://theaggie.org/2011/02/15/former-uc-davis-officer-files-3-million-lawsuit-against-police/" target="_blank">The Aggie, Feb. 15, 2011</a>; Davis Enterprise</div>
+
+<!-- ─── INCIDENT 4: CALVIN CHANG LAWSUIT 2 ─── -->
+<div class="incident-heading">
+  February 2009 (Filed) &mdash; Calvin Chang Second Lawsuit &mdash; $3 Million Sought; Five Claims Survive to Trial
+</div>
+<p class="body-text">Calvin Chang filed a second lawsuit against the UC Regents and Chief Spicuzza alleging breach of the 2008 settlement, ongoing discrimination, and retaliation. The university allegedly falsely reported that he resigned due to misconduct and added negative documents to his personnel file. Chief Spicuzza allegedly attempted to evict him from university housing. UC Davis filed over 100 motions to dismiss; approximately 90% of claims were dismissed by 2012, but five discrimination causes of action survived and proceeded to trial.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> POST standards on officer retaliation; FEHA; Brady/Giglio implications if dishonesty findings were sustained against named officers during this litigation.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> UNKNOWN &mdash; Case proceeded to trial on surviving claims. Final disposition not identified in available public records.</p>
+<div class="source-note"><strong>Source:</strong> <a href="https://theaggie.org/2011/02/15/former-uc-davis-officer-files-3-million-lawsuit-against-police/" target="_blank">The Aggie, Feb. 15, 2011</a></div>
+
+<!-- ─── INCIDENT 5: CHITHIEN LE LAWSUIT ─── -->
+<div class="incident-heading">
+  March 2009 (Filed) &mdash; Chithien Le Discrimination Lawsuit &mdash; Second Discrimination Filing in Same Department
+</div>
+<p class="body-text">Chithien Le, 28, another Asian-American officer, filed suit alleging sexual harassment, racial discrimination, and hostile work environment. Officers allegedly logged onto Le&rsquo;s computer and changed his desktop wallpaper to gay pornography. Officers Rob Stoleo, Shawn Bowers, and Danny Sheffield were specifically named. Le was called &ldquo;the next Calvin Chang&rdquo; as a slur. Despite being nominated for officer of the year after his first year, Le received a termination notice in February 2008.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> POST standards on officer conduct and workplace harassment; Title VII; FEHA. A pattern of discrimination complaints from multiple officers within the same department and timeframe may constitute a systemic issue warranting POST review.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> UNKNOWN &mdash; Final disposition not identified in available public records. Two discrimination lawsuits from separate officers within the same department and overlapping time period establish a documented pattern.</p>
+<div class="source-note"><strong>Source:</strong> <a href="https://theaggie.org/2009/03/10/ucd-police-department-faces-second-discrimination-lawsuit/" target="_blank">The Aggie, March 10, 2009</a></div>
+
+<!-- ─── INCIDENT 6: CLERY OVER-REPORTING ─── -->
+<div class="incident-heading">
+  October 2009 (Disclosed) &mdash; Clery Act Over-Reporting Scandal &mdash; 140% Over-Reporting of Sexual Offenses &mdash; Unprecedented in National History
+</div>
+<p class="body-text">UC Davis disclosed that it had over-reported forcible sexual offenses by 140% for three consecutive years (2005&ndash;2007). Reported totals were 48, 68, and 69 offenses respectively. The correct figures were 21, 23, and 33 &mdash; a total overcount of 108 incidents across the three-year period. The discrepancy was attributed to Jennifer Beeman, director of the Campus Violence Prevention Program (16 years of service), who was placed on leave in December 2008 for improperly charged travel expenses and departed in June 2009.</p>
+<p class="body-text">S. Daniel Carter of Security on Campus stated: &ldquo;completely unprecedented &mdash; we have never seen anything like that before.&rdquo; Each violation carried a potential fine of $27,500; UC Davis was therefore eligible for up to $2.97 million in federal penalties. Ironically, UC Davis had received the inaugural Jeanne Clery National Safe Campus Award in 1996. UC Davis self-reported to both the U.S. Department of Education and the Department of Justice. The subsequent review was overseen by Dolores Stafford (past IACLEA president). No evidence of an actual fine being imposed was located in available public records.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> Clery Act (20 U.S.C. &sect;1092(f)); 34 C.F.R. &sect;668.46. Data integrity requirements. This is a documented compliance failure unique in national Clery Act history, involving over-reporting rather than the typical pattern of under-reporting.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> PARTIALLY COMPLIANT &mdash; UC Davis self-reported to both U.S. Department of Education and Department of Justice. No evidence a fine was actually imposed despite eligibility for up to $2.97 million in penalties.</p>
+<div class="source-note"><strong>Sources:</strong> <a href="https://www.campussafetymagazine.com/news/uc-davis-over-reports-sexual-offenses-by-140/21680/" target="_blank">Campus Safety Magazine, October 2009</a>; <a href="https://www.ucdavis.edu/news/uc-davis-releases-clery-act-crime-statistics" target="_blank">UC Davis News &mdash; Clery Statistics</a></div>
+
+<!-- ─── INCIDENT 7: APRIL 2010 PICNIC DAY ─── -->
+<div class="incident-heading">
+  April 17, 2010 &mdash; Picnic Day Crisis &mdash; 1 Death, 38 Arrests, 60 Citations, 516&ndash;545 Calls for Service
+</div>
+<p class="body-text">The 96th annual Picnic Day turned violent by evening: street fights, assaults on officers, reports of women being groped, reports of gunfire, and widespread property damage. Scott Heinig, a recent UC Davis baseball graduate, died from a head injury sustained at a private house party. Davis PD recorded 38 arrests (30 misdemeanor, 6 felony), 60 citations, and 516&ndash;545 calls for service compared to approximately 100 on a typical weekend. Police were so overwhelmed that they could not respond to many calls during the peak period. The aftermath nearly resulted in permanent cancellation of Picnic Day.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> POST use-of-force reporting (if force used during arrests); Clery Act (campus crime statistics, timely warnings); mutual aid documentation requirements.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> UNKNOWN &mdash; Heinig&rsquo;s death occurred at a private off-campus house party. Available public records do not establish that the event was located on Clery-reportable geography or that it was institutionally affiliated in a manner that would trigger a Clery Act reporting obligation. Whether force used during the 38 arrests was individually reported to POST is not documented in available records. Massive mutual aid mobilization for the subsequent 2011 Picnic Day (64 arrests, 269+ citations) followed as a documented institutional response.</p>
+
+<!-- ─── INCIDENT 8: PEPPER SPRAY ─── -->
+<div class="incident-heading">
+  November 18, 2011 &mdash; Pepper Spray Incident &mdash; International Outrage &mdash; $2.7 Million+ Total Documented Costs
+</div>
+<p class="body-text">On November 18, 2011, during Occupy UC Davis protests on the campus quad, Lt. John Pike and Officer Alexander Lee pepper-sprayed seated, nonviolent student demonstrators at close range with MK-9 pepper spray. Chief Spicuzza initially told the Davis Enterprise she was &ldquo;very proud&rdquo; of officers and falsely claimed that officers had been &ldquo;trapped&rdquo; by protesters &mdash; a characterization subsequently contradicted by video evidence and independent review findings.</p>
+
+<p class="body-text"><strong>Total Documented Costs: approximately $2.7 million+</strong>, broken down as follows:</p>
+<ul style="margin:0 0 14px 24px;font-size:14.5px;line-height:1.85;color:#333;">
+  <li>Kroll investigation (led by former NYPD/LAPD Commissioner William Bratton): $445,879</li>
+  <li>Internal affairs investigations (Van Dermyden Allison Law Corp + Norman A. Traub Associates): $230,256</li>
+  <li>UC systemwide Edley-Robinson report: $320,000</li>
+  <li>UC Berkeley officials&rsquo; salaries/fees for systemwide review: $88,686</li>
+  <li>Crisis management consulting: $119,714</li>
+  <li>Baker v. Katehi class action settlement: $1,000,000 ($30,000 each to 21 named plaintiffs; up to $100,000 additional claimants; $250,000 attorney fees)</li>
+  <li>Pike workers&rsquo; compensation award: $38,056</li>
+  <li>Pike paid leave salary (~8 months on $121,680 annual salary): approximately $81,120</li>
+  <li>Spicuzza paid leave salary (~5 months on $140,417 annual salary): approximately $61,500</li>
+  <li>Officer Alexander Lee paid leave: approximately $38,040</li>
+  <li>Reputation management &mdash; Nevins &amp; Associates of Maryland ($15,000/month, six-month contract beginning January 2013, contracted to &ldquo;eradicate&rdquo; Google references to the incident) plus additional NYC-based consultant: $175,000+</li>
+</ul>
+
+<p class="body-text"><strong>Personnel Chronology:</strong> Chief Spicuzza was placed on paid leave on November 21, 2011; announced her retirement on April 18, 2012 (retirement forced, preserving pension); retired with full benefits before the internal investigation was complete, having drawn approximately $61,500 in paid leave salary during that period. Lt. Pike was fired by Chief Carmichael on July 31, 2012, overruling two separate internal investigations that had recommended lesser discipline. On September 19, 2012, the Yolo County District Attorney declined to prosecute Pike. On October 16, 2013, Pike was awarded $38,056 in workers&rsquo; compensation for &ldquo;psychiatric injuries&rdquo; resulting from threats received after the incident &mdash; approximately $8,000 more than the $30,000 each pepper-sprayed student received in the class action settlement. Officer Alexander Lee departed by July 2012; the circumstances of his departure were never officially confirmed by the department.</p>
+
+<p class="body-text"><strong>Independent Review Findings (Reynoso Task Force, April 11, 2012):</strong> The independent task force, chaired by former California Supreme Court Justice Cruz Reynoso and appointed by UC President Mark G. Yudof, found: (1) the pepper spray deployment &ldquo;should and could have been prevented&rdquo;; (2) Lt. Pike&rsquo;s use of MK-9 pepper spray on seated, non-resisting students was &ldquo;objectively unreasonable&rdquo;; (3) officers used an unauthorized stream-delivery method rather than the policy-approved fog variant; (4) Pike had no clearly defined role in the operations plan yet was responsible for the key decision about the weapon used; (5) Chief Spicuzza&rsquo;s actions were &ldquo;critically flawed&rdquo;; and (6) the department was &ldquo;very dysfunctional.&rdquo;</p>
+
+<p class="body-text"><strong>Internal Investigation Contradiction:</strong> A 76-page internal affairs report dated March 1, 2012, determined that Pike&rsquo;s use of pepper spray was &ldquo;reasonable under the circumstances&rdquo; &mdash; a finding that directly contradicted the Reynoso Task Force&rsquo;s conclusion of &ldquo;objectively unreasonable&rdquo; force. This produced two simultaneous and irreconcilable official findings from the same events.</p>
+
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> POST use-of-force standards; PC &sect;13652 (annual use-of-force reporting); excessive force standard (4th Amendment, Graham v. Connor). Reynoso Task Force found Spicuzza&rsquo;s actions &ldquo;critically flawed&rdquo; and department &ldquo;very dysfunctional.&rdquo; Lt. Pike&rsquo;s termination for excessive force is the type of personnel action that, under applicable POST standards, would require reporting to the Commission. Whether that reporting occurred has not been independently verified in available public records.</p>
+
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> PARTIALLY DOCUMENTED &mdash; Reynoso Task Force report published April 11, 2012. Kroll investigation completed. Internal affairs completed. DA investigation completed. Whether Pike&rsquo;s termination for excessive force was formally reported to POST as required is not independently verified in available records. Spicuzza&rsquo;s retirement before investigation completion may have prevented sustained findings from reaching POST.</p>
+
+<div class="key-finding">
+  <strong>Key Finding &mdash; Contradictory Official Findings:</strong> The internal affairs investigation found Lt. Pike&rsquo;s actions &ldquo;reasonable under the circumstances,&rdquo; while the independent Reynoso Task Force found the same actions &ldquo;objectively unreasonable.&rdquo; Chief Spicuzza retired with full benefits before investigation completion. Whether the findings that ultimately supported termination were reported to POST in the manner required by law is not established by available public records.
+</div>
+
+<div class="source-note"><strong>Sources:</strong> <a href="https://demonstrationreviews.ucdavis.edu/local_resources/pdf_documents/reynoso-report.pdf" target="_blank">Reynoso Task Force Report &mdash; Official PDF (April 11, 2012) &mdash; UC Davis Demonstration Reviews</a>; <a href="https://www.ucdavis.edu/news/use-pepper-spray-not-justified-concludes-task-force" target="_blank">UC Davis News &mdash; Use of pepper spray not justified, concludes Reynoso Task Force</a>; <a href="https://en.wikipedia.org/wiki/UC_Davis_pepper_spray_incident" target="_blank">Wikipedia &mdash; UC Davis Pepper Spray Incident</a>; <a href="https://www.cbsnews.com/news/annette-spicuzza-uc-davis-police-chief-resigning-after-pepper-spray-controversy/" target="_blank">CBS News &mdash; Spicuzza resignation</a>; <a href="https://www.cbsnews.com/sacramento/news/pepper-spray-cop-former-uc-davis-officer-pike-awarded-nearly-40000-in-comp-claim/" target="_blank">CBS Sacramento &mdash; Pike workers&rsquo; comp</a>; <a href="https://www.huffpost.com/entry/uc-davis-pepper-spray_b_1438966" target="_blank">HuffPost &mdash; Pepper spray costs (Prof. Ostertag, UC Davis, public records analysis)</a>; <a href="https://www.spokesman.com/stories/2012/sep/26/uc-agrees-to-pay-1m-to-settle-pepper-spray-suit/" target="_blank">Spokesman-Review &mdash; $1M settlement</a>; <a href="https://www.csmonitor.com/USA/Education/2016/0414/Why-UC-Davis-spent-175-000-to-scrub-references-to-pepper-spray-incident" target="_blank">CS Monitor &mdash; Reputation scrubbing</a></div>
+
+<!-- ─── INCIDENT 9: HOLMES SETTLEMENT ─── -->
+<div class="incident-heading">
+  Pre-2011 (Settled) &mdash; Holmes v. Yolo County / UC Davis &mdash; Protester Arrest Settlement (Attorney: &ldquo;Foreshadowing&rdquo; of 2011)
+</div>
+<p class="body-text">A protester&rsquo;s arrest resulted in a settlement between the plaintiff and the county/UC Davis. The plaintiff&rsquo;s attorney characterized the police actions in this earlier case as &ldquo;foreshadowing&rdquo; of the November 18, 2011 pepper spray incident. The specific settlement dollar amount was not publicly reported.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> POST use-of-force standards; 42 U.S.C. &sect;1983 (civil rights); 4th Amendment. The attorney&rsquo;s characterization suggests a pattern of excessive force predating the 2011 incident.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> UNKNOWN &mdash; Settlement terms are confidential. Whether the underlying use-of-force incident was reported to POST is not documented in available records.</p>
+<div class="source-note"><strong>Source:</strong> <a href="https://www.davisenterprise.com/news/local/crime-fire-courts/county-ucd-settle-over-protesters-arrest/" target="_blank">Davis Enterprise &mdash; County, UCD settle over protester&rsquo;s arrest</a></div>
+
+<!-- ─── INCIDENT 10: PAB ESTABLISHED ─── -->
+<div class="incident-heading">
+  May 2014 &mdash; Police Accountability Board Established &mdash; First at a Major Research University
+</div>
+<p class="body-text">Chief Carmichael established the Police Accountability Board (PAB) as a signature post-pepper-spray reform following recommendations of the Reynoso Task Force. The PAB was described as &ldquo;the first civilian oversight board established at a major research university.&rdquo; Its first public session was held in October 2014. The PAB structure was subsequently adopted system-wide by UC, and all 10 UC campuses now have PABs.</p>
+<p class="body-text"><strong>Documented Limitation:</strong> The PAB&rsquo;s bylaws explicitly provide that the Chief of Police retains &ldquo;full and final authority&rdquo; over complaint disposition. The PAB&rsquo;s sustain rate on investigated allegations through 2021 was documented at 15% &mdash; a figure that has been cited in academic and journalistic reviews of the board&rsquo;s effectiveness.</p>
+<div class="source-note"><strong>Sources:</strong> <a href="https://theaggie.org/2014/10/30/uc-davis-police-accountability-board-holds-first-public-session-of-the-year/" target="_blank">The Aggie, Oct. 30, 2014</a>; <a href="https://www.cbsnews.com/sacramento/news/uc-davis-pepper-spray-saga/" target="_blank">CBS Sacramento &mdash; Pepper Spray Saga / PAB</a>; <a href="https://pab.ucdavis.edu/" target="_blank">PAB website</a>; <a href="https://pab.ucdavis.edu/bylaws" target="_blank">PAB bylaws</a></div>
+
+<!-- ─── INCIDENT 11: TUITION PROTEST 2014 ─── -->
+<div class="incident-heading">
+  November 18, 2014 &mdash; Tuition Protest on Pepper Spray Anniversary &mdash; Deliberate Police Absence
+</div>
+<p class="body-text">On the third anniversary of the pepper spray incident, several hundred students (reported range: 200&ndash;600) rallied on the exact Quad location where the spraying occurred and marched to Mrak Hall. Chancellor Katehi stood on the front steps and engaged directly with protesters. Approximately 20 students spent the night inside Mrak Hall. FOX40 reported: &ldquo;During Tuesday&rsquo;s rally and march, no campus police officers could be seen.&rdquo; Zero arrests were made. Zero force was used.</p>
+<p class="body-text">On November 19, students briefly reoccupied Mrak Hall. On November 24, approximately 300 students walked out, occupied a Bank of America branch on campus, and marched through Olsen Hall &mdash; again with zero police confrontation.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> First Amendment assembly rights. The deliberate non-enforcement strategy represents an institutional response to the 2011 crisis. POST training standards on protest response de-escalation.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> N/A &mdash; No force used, no arrests made. No reporting obligation triggered. Included to document the post-pepper-spray institutional transformation in protest response methodology.</p>
+<div class="source-note"><strong>Source:</strong> <a href="https://fox40.com/2014/11/18/uc-davis-students-rally-against-proposed-tuition-hike/" target="_blank">FOX40, November 18, 2014</a></div>
+
+<!-- ─── INCIDENT 12: AFRICAN AMERICAN ALUMNUS DETAINED ─── -->
+<div class="incident-heading">
+  August 2015 &mdash; African American Alumnus Forcibly Detained at 24-Hour Study Room
+</div>
+<p class="body-text">An African American alumnus was forcibly detained by UC Davis police at a 24-hour study room on campus. The incident fueled Black Lives Matter activism on campus during a period when Davis Stands with Ferguson had been demanding UC divestment from private prisons and disarmament of campus police. A November 3, 2015 protest marched past the UCDPD building. All protests during this period ended without arrests.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> POST standards on bias-based policing; RIPA/AB&nbsp;953 (data collection not yet in effect at time of incident). PC &sect;13519.4 (racial profiling prohibition).</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> UNKNOWN &mdash; No public investigation outcome located. Whether use-of-force during the detention was reported to POST is not documented.</p>
+<div class="source-note"><strong>Sources:</strong> <a href="https://theaggie.org/2015/11/03/uc-davis-police-forcibly-detain-african-american-alumnus-for-using-24-hour-study-room/" target="_blank">The Aggie, November 3, 2015 &mdash; UC Davis police forcibly detain African American alumnus for using 24-hour study room (identifies subject as Fayia Sellu, UC Davis alumnus and UC Berkeley Ph.D. candidate; detention date August 26, 2015 at 1:30 a.m., Shields Library 24-hour reading room; Officers Guerrero and Sheffield; complaint filed with OOC and referred to PAB)</a>; <a href="https://davisvanguard.org/2015/09/studying-while-black-former-student-shaken-by-police-encounter-on-ucd-campus/" target="_blank">Davis Vanguard, September 2015 &mdash; Studying While Black: Former Student Shaken by Police Encounter on UCD Campus</a></div>
+
+<!-- ─── INCIDENT 13: APRIL 2017 PICNIC DAY ─── -->
+<div class="incident-heading">
+  April 2017 (Picnic Day) &mdash; Officers Hospitalized &mdash; Loaded Gun Brandished &mdash; Drive-By Shooting
+</div>
+<p class="body-text">Two police officers were hospitalized after an attack by a &ldquo;hostile&rdquo; crowd on Russell Boulevard during Picnic Day festivities. A man was arrested for brandishing a loaded firearm. A crowd was caught on video vandalizing a woman&rsquo;s car. A drive-by shooting between two vehicles was reported near campus. Off-campus parties drew up to 1,000 people and required 40 officers to disperse.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> POST use-of-force reporting (officer assaults); Clery Act (weapons violations, assaults); PC &sect;13652 (annual use-of-force). Officer assault incidents of this nature are among the categories that may trigger POST use-of-force reporting and Clery Act reporting obligations, subject to the specific statutory criteria applicable at the time of the incident.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> UNKNOWN &mdash; Whether officer hospitalization incidents were individually reported to POST is not documented in available records.</p>
+<div class="source-note"><strong>Note on Sourcing:</strong> A contemporaneous primary news source specifically documenting the officer hospitalizations, loaded firearm arrest, and drive-by shooting described in this incident entry was not independently located in available public records as of this report date. The facts recited are drawn from community documentation of the 2017 Picnic Day events and the UC Davis institutional response record. Researchers are directed to Davis PD and Yolo County Sheriff incident logs for primary verification.</div>
+
+<!-- ─── INCIDENT 14: 2022 STABBING CRISIS ─── -->
+<div class="incident-heading">
+  April&ndash;May 2022 &mdash; Davis Stabbing Crisis &mdash; UC Davis Student Karim Abou Najm Murdered
+</div>
+<p class="body-text">Three stabbings occurred in one week in the City of Davis, including the murder of UC Davis student Karim Abou Najm. Chief Farrow led the police response. City-wide shelter-in-place orders were issued. Suspect Carlos Dominguez was subsequently arrested and charged. The investigation involved intensive multi-agency coordination.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> Clery Act (timely warning/emergency notification for campus-adjacent violence affecting campus community); mutual aid coordination documentation; POST standards on major crime response.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> N/A &mdash; Appears properly handled. Chief Farrow&rsquo;s crisis response was publicly documented. Included for institutional context and leadership record documentation.</p>
+<div class="source-note"><strong>Source:</strong> <a href="https://abc7news.com/amp/post/davis-stabbings-person-of-interest-detained-uc-shelter-in-place-college-senior/13210031/" target="_blank">ABC7 News &mdash; Davis stabbings</a></div>
+
+<!-- ─── INCIDENT 15: MARCH 2023 TPUSA ─── -->
+<div class="incident-heading">
+  March 2023 &mdash; Turning Point USA Event &mdash; Window-Smashing, 2 Arrests, 1 Officer Injured
+</div>
+<p class="body-text">A Turning Point USA event at UC Davis resulted in window-smashing, fighting with police, and two arrests. One officer was injured when jumped from behind during the enforcement action.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> POST use-of-force reporting (officer injured during arrest); Clery Act (campus violence, arrests); PC &sect;13652 (annual use-of-force reporting).</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> UNKNOWN &mdash; Whether the officer injury and use of force during arrests were individually reported to POST is not documented in available records.</p>
+<div class="source-note"><strong>Source:</strong> <a href="https://www.ucdavis.edu/news/controversial-student-led-event-goes-planned" target="_blank">UC Davis News &mdash; TPUSA event, March 2023</a></div>
+
+<!-- ─── INCIDENT 16: 2024 GAZA ENCAMPMENT ─── -->
+<div class="incident-heading">
+  May 6 &ndash; June 20, 2024 (45 Days) &mdash; Gaza Solidarity Encampment &mdash; Zero Arrests, Zero Force Used
+</div>
+<p class="body-text">The UC Davis Gaza solidarity encampment, organized by Davis Popular University for the Liberation of Palestine (UCD PULP) on the Memorial Union Quad, became one of the longest-lasting pro-Palestinian encampments in the national wave of 2024 campus protests &mdash; lasting 45 days, more than double the duration of UC Berkeley&rsquo;s 22-day encampment. The encampment grew from approximately 20 tents at its inception to dozens of tents with approximately 200 participants at peak activity. The five stated demands were: (1) divestment, (2) Koret program cancellation, (3) Palestine studies investment, (4) full amnesty for participants, and (5) Chancellor May&rsquo;s resignation from the Leidos corporate board.</p>
+<p class="body-text">Police made zero arrests during the entire 45-day period. No use of force was employed. No mutual aid agencies were summoned. Police maintained communication through Student Affairs. The encampment ended voluntarily on June 20, 2024. In his June 20 statement, Chancellor May wrote that &ldquo;students remained peaceful throughout the encampment and de-escalated challenging situations.&rdquo; However, organizers (PULP) accused UC Office of the President of blocking any formal written agreement.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> AB&nbsp;48 &mdash; no crowd-control weapons were used, so no AB&nbsp;48 reporting was triggered. First Amendment assembly rights. Clery Act (campus safety reporting). This encampment was a distinct event from the May 24, 2024 weapons discharge incident (documented separately below).</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> N/A &mdash; No force used, no arrests made. No reporting obligation triggered. UC Davis&rsquo;s zero-arrest outcome stands in documented contrast to other UC campus responses: UCLA (~210 arrests), UCSD (64&ndash;65 arrests), UCSC (~80 arrests), UCI (47 arrests).</p>
+<div class="source-note"><strong>Sources:</strong> <a href="https://en.wikipedia.org/wiki/2024_University_of_California,_Davis_pro-Palestinian_campus_occupation" target="_blank">Wikipedia &mdash; 2024 UC Davis Encampment</a>; <a href="https://www.ucdavis.edu/news/2024-campus-climate-updates" target="_blank">UC Davis News &mdash; 2024 Campus Climate Updates</a>; <a href="https://leadership.ucdavis.edu/news/chancellors-statement-status-encampment-june-20" target="_blank">Chancellor May Statement, June 20, 2024</a></div>
+
+<!-- ─── INCIDENT 17: MAY 24 WEAPONS DISCHARGE ─── -->
+<div class="incident-heading">
+  May 24, 2024 (~1:40 a.m.) &mdash; Officer Unintentionally Discharges Service Weapon During Arrest &mdash; Body Camera Footage Exists
+</div>
+<p class="body-text">During the encampment period, a UC Davis police officer unintentionally discharged his service weapon during the arrest of three vandalism suspects who had been spray-painting buildings and campus &ldquo;Egghead&rdquo; sculptures with pro-Palestinian messages. The three suspects identified in records are: Lysandra Dasilva, 31; Nathan Orr, 30; and Cheyenne Xiong, 20, a UC Davis student. No one was injured as a result of the discharge.</p>
+<p class="body-text">Defense attorneys subsequently introduced body camera footage into criminal proceedings, describing it as showing the officer firing at one fleeing suspect &mdash; and characterizing the event as &ldquo;a 20-year-old junior at UC Davis being hunted down and shot at by campus police&rdquo; for alleged spray-painting. This characterization represents the advocacy position of defense counsel as presented in criminal proceedings and does not constitute a judicial finding of fact. The Yolo County District Attorney filed felony charges; a judge later dismissed the grand jury indictment; the DA continued pursuing charges into late 2025. Chief Farrow referred the discharge incident to the Police Accountability Board.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> POST reporting: firearm discharge by an officer is a POST-reportable event. PC &sect;13652 (use-of-force reporting). AB&nbsp;748 (body camera footage disclosure requirements &mdash; footage confirmed to exist per defense attorneys). OIS reporting protocols (though no person was struck). Yolo County DA involvement is documented.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> PARTIALLY DOCUMENTED &mdash; Chief Farrow&rsquo;s referral to PAB is documented. Whether the weapons discharge was formally reported to POST as required by law is not independently verified. Body camera footage exists but its disclosure status under AB&nbsp;748 timelines is unknown from available records.</p>
+<div class="source-note"><strong>Sources:</strong> <a href="https://www.abc10.com/article/news/crime/uc-davis-officer-gun-arrest/103-10e7b957-e122-4bfd-ab8a-107f129f630f" target="_blank">ABC10 &mdash; UC Davis officer gun discharge</a>; <a href="https://www.davisenterprise.com/news/ucd-officers-gun-goes-off-during-arrest/article_cb08b2d4-1a35-11ef-b4b3-ff04afde729a.html" target="_blank">Davis Enterprise &mdash; Officer&rsquo;s gun goes off</a>; <a href="https://yoloda.org/felony-charges-filed-after-vandalism-incident-on-uc-davis-campus/" target="_blank">Yolo County DA &mdash; Felony charges</a>; <a href="https://davisvanguard.org/2025/09/yolo-county-egghead-case/" target="_blank">Davis Vanguard &mdash; Egghead case, Sept. 2025</a></div>
+
+<!-- ─── INCIDENT 18: GROVEMAN FEDERAL LAWSUIT ─── -->
+<div class="incident-heading">
+  May 17, 2024 (Filed) &mdash; Groveman v. UC Davis &mdash; Federal Lawsuit, ADA / First and 14th Amendment Claims
+</div>
+<p class="body-text">Filed by a disabled veteran alleging that the Gaza solidarity encampment violated ADA accessibility requirements as well as First and 14th Amendment rights. Outcome pending as of February 2026.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> ADA (42 U.S.C. &sect;12101 et seq.); First Amendment; 14th Amendment Equal Protection; 42 U.S.C. &sect;1983.</p>
+<p class="body-text"><strong>Status:</strong> PENDING &mdash; Case outcome not resolved as of February 2026.</p>
+<div class="source-note"><strong>Source:</strong> <a href="https://en.wikipedia.org/wiki/2024_University_of_California,_Davis_pro-Palestinian_campus_occupation" target="_blank">Wikipedia &mdash; 2024 UC Davis Encampment</a></div>
+
+<!-- ─── INCIDENT 19: APRIL 2025 TPUSA ─── -->
+<div class="incident-heading">
+  April 3, 2025 &mdash; Turning Point USA Confrontation &mdash; Violence, No Arrests at Scene; Felony Charges Filed November 2025
+</div>
+<p class="body-text">Approximately 40 masked protesters, believed to be affiliated with Cops Off Campus, confronted a Turning Point USA &ldquo;Prove Me Wrong&rdquo; tabling event featuring conservative commentator Brandon Tatum. Protesters pulled down the tent, destroyed camera equipment, and assaulted attendees. Beth Bourne (a UC Davis employee) was struck with an umbrella and punched. Timothy Blank was struck in the face twice.</p>
+<p class="body-text">UC Davis police formed a perimeter but made no arrests at the scene, taking only two assault reports. Chancellor May publicly condemned the violence as &ldquo;appalling.&rdquo; Felony charges were subsequently filed in November 2025: Joanna Clara Sodke, 22, was charged with felony conspiracy to commit a riot and misdemeanor battery (arraigned November 14, 2025, $10,000 bail). Chloe Love Peterson, 22, was charged with felony conspiracy and misdemeanor battery. Critics noted the ironic contrast between the 2011 department&rsquo;s excessive force during peaceful protest and the 2025 department&rsquo;s failure to arrest during active assault.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> Clery Act (timely warning for violent crime occurring on campus); POST use-of-force standards; PC &sect;404/404.6 (riot); PC &sect;242 (battery). The question of whether the failure to make arrests at the scene of violent crime in progress constitutes a POST-reviewable policy failure is not addressed in available public records.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> UNKNOWN &mdash; No public record of POST review for failure to arrest during active assault. Charges were filed 7+ months after the incident. Whether a Clery timely warning was issued for the assault is not independently verified in available records.</p>
+<div class="source-note"><strong>Sources:</strong> <a href="https://www.cbsnews.com/sacramento/news/turning-point-usa-uc-davis-violent-protest-da-felony-charges/" target="_blank">CBS Sacramento &mdash; TPUSA charges, November 2025</a>; <a href="https://www.abc10.com/article/news/local/uc-davis-violent-confrontation-investigation-turning-point/103-53d79dad-90f1-47cd-8a68-a29c0d2f3234" target="_blank">ABC10 &mdash; TPUSA confrontation</a>; <a href="https://yoloda.org/felony-charges-filed-against-sacramento-resident-after-incident-at-turning-point-usa-event-on-uc-davis-campus/" target="_blank">Yolo County DA &mdash; TPUSA felony charges</a></div>
+
+<!-- ─── INCIDENT 20: APRIL 2025 PICNIC DAY SHOOTING ─── -->
+<div class="incident-heading">
+  April 12, 2025 &mdash; Picnic Day Shooting &mdash; 3 Shot, Children Exposed, AR-15-Style Pistol, Federal Charges
+</div>
+<p class="body-text">A shooting occurred at Community Park during a gathering hosted by UC Davis fraternity Phi Beta Sigma featuring rapper Haiti Babii. Three people were shot with non-life-threatening injuries. Children and Little League families were present and exposed to gunfire. Suspect Joseph Allen Davis, 19, was arrested on May 23, 2025, on federal charges. He had fired an &ldquo;AR-15-style pistol.&rdquo; 57 officers responded; 321 calls for service were recorded in a 24-hour period. Davis City Council unanimously formed a Picnic Day safety subcommittee. Major 2026 policy changes followed: a full prohibition on special event permits and doubled police staffing for the event.</p>
+<p class="body-text"><strong>Applicable Law / Reporting Requirement:</strong> Clery Act (timely warning/emergency notification for campus-adjacent shooting); POST reporting requirements for firearm incident response; federal firearms charges indicate ATF/FBI coordination and documentation.</p>
+<p class="body-text"><strong>Reported to POST/DOJ?</strong> UNKNOWN &mdash; Whether UC Davis PD issued a proper Clery timely warning and filed all required POST reports is not independently verified in available records. Federal charges indicate documented ATF/FBI coordination.</p>
+<div class="source-note"><strong>Source:</strong> <a href="https://www.davisenterprise.com/news/update-police-chief-releases-description-of-one-shooting-suspect-updates-city-council/article_208098a5-6e6d-4c07-bf2e-475743d156e5.html" target="_blank">Davis Enterprise &mdash; Picnic Day shooting, April 2025</a></div>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- SECTION C: COMPLIANCE STATUS MATRIX -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<div id="secC" class="section-heading">Section C &mdash; State and Federal Compliance Status Matrix</div>
+
+<table class="info-table">
+<thead><tr><th style="width:18%">Mandate</th><th style="width:22%">Description of Requirement</th><th style="width:14%">Compliance Status</th><th style="width:26%">Factual Basis</th><th style="width:20%">Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td class="field-label">AB 48<br>(PC &sect;&sect;13652, 13652.1)<br>Effective Jan 1, 2022</td>
+  <td>Requires every law enforcement agency to document and publicly report any use of kinetic energy projectiles, chemical agents, or other crowd-control weapons during protest/crowd management. Reports filed with California DOJ.</td>
+  <td><span class="badge badge-red">NON-COMPLIANT</span></td>
+  <td>UCDPD was not listed on the California DOJ&rsquo;s statewide AB&nbsp;48 reporting webpage as of the September 12, 2025 LAist investigation. 9 of 10 UC campus police departments failed to comply; only UCLA complied. Only 32 of 624 total California agencies appeared on the DOJ&rsquo;s AB&nbsp;48 website. UC Davis does maintain compliance with the separate AB&nbsp;481 (military equipment) requirement.</td>
+  <td><a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist, Sept. 12, 2025</a></td>
+</tr>
+<tr>
+  <td class="field-label">Clery Act<br>(20 U.S.C. &sect;1092(f))<br>Effective 1990</td>
+  <td>Requires disclosure of campus crime statistics, daily crime logs, timely warnings, emergency notifications, and annual security reports.</td>
+  <td><span class="badge badge-red">HISTORICALLY NON-COMPLIANT</span></td>
+  <td>October 2009: UC Davis disclosed over-reporting of forcible sexual offenses by 140% for three consecutive years (2005&ndash;2007). Overcount: 108 incidents. Eligible for up to $2.97 million in federal penalties. No fine imposed. UC Davis had received inaugural Jeanne Clery National Safe Campus Award in 1996. Current compliance status not independently audited for the most recent reporting period.</td>
+  <td><a href="https://www.campussafetymagazine.com/news/uc-davis-over-reports-sexual-offenses-by-140/21680/" target="_blank">Campus Safety Magazine, Oct. 2009</a></td>
+</tr>
+<tr>
+  <td class="field-label">SB 1421<br>(PC &sect;832.7)<br>Effective Jan 1, 2019</td>
+  <td>Requires release of records relating to OIS, use of force causing great bodily injury/death, sustained findings of sexual assault, and sustained findings of dishonesty by officers.</td>
+  <td><span class="badge badge-partial">PARTIALLY COMPLIANT &mdash; ABOVE UC AVERAGE (as of May 2020)</span></td>
+  <td>Voice of San Diego (May 12, 2020) found UC Davis was one of only three UC campuses (with UC Merced and UC Santa Barbara) that provided any records under SB&nbsp;1421 as of that date. UC Davis provided records from the 2004 Soriano OIS &mdash; one of only two OIS records released by any UC campus. Six campuses (UCSD, UCB, UCLA, UCI, UCSC, UCSF) provided no records. UC system was aware of 200+ use-of-force incidents but released only two case files total. This compliance finding is based on May 2020 reporting; UC Davis&rsquo;s current SB&nbsp;1421 compliance posture was not independently re-audited for this March 2026 report.</td>
+  <td><a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">Voice of San Diego, May 12, 2020</a></td>
+</tr>
+<tr>
+  <td class="field-label">AB 481<br>(Gov. Code &sect;7070 et seq.)<br>Effective Jan 1, 2022</td>
+  <td>Requires governing body approval for acquisition/use of military equipment and annual use reports.</td>
+  <td><span class="badge badge-green">COMPLIANT</span></td>
+  <td>UCDPD publishes AB&nbsp;481 military equipment reports and hosts a dedicated AB&nbsp;481 compliance page on the department website.</td>
+  <td><a href="https://police.ucdavis.edu/professional-standards/policies/ab481" target="_blank">UC Davis PD &mdash; AB 481 page</a></td>
+</tr>
+<tr>
+  <td class="field-label">AB 748<br>(PC &sect;832.18)<br>Effective July 1, 2019</td>
+  <td>Requires release of body camera footage within 45 days for critical incidents (OIS, in-custody death, use of force causing great bodily injury).</td>
+  <td><span class="badge badge-gray">UNKNOWN &mdash; FOOTAGE EXISTS, DISCLOSURE RECORD UNCLEAR</span></td>
+  <td>Defense attorneys in the May 24, 2024 weapons discharge case introduced body camera footage showing the officer firing at a fleeing suspect. This confirms body cameras were deployed and footage exists. Whether footage was proactively released under AB&nbsp;748 timelines, or surfaced only through criminal defense discovery, is not documented in available records. Additionally, AB&nbsp;748 applies to specified critical incidents (OIS, in-custody death, use of force causing great bodily injury); whether this discharge &mdash; in which no person was struck &mdash; meets the statutory trigger is itself an unresolved legal question not addressed in available public records.</td>
+  <td><a href="https://davisvanguard.org/2025/09/yolo-county-egghead-case/" target="_blank">Davis Vanguard, Sept. 2025</a></td>
+</tr>
+<tr>
+  <td class="field-label">Brady / Giglio<br>Disclosure Obligations</td>
+  <td>Prosecutors must disclose material impeachment evidence about law enforcement witnesses. Agencies must maintain and disclose Brady lists of officers with sustained findings affecting credibility.</td>
+  <td><span class="badge badge-gray">UNKNOWN &mdash; 2011 PERSONNEL ACTIONS RAISE QUESTIONS</span></td>
+  <td>Lt. John Pike was fired for excessive force (July 2012). Two internal investigations found his conduct &ldquo;reasonable&rdquo; before being overruled. Whether Pike&rsquo;s termination and the underlying findings were disclosed to the Yolo County DA&rsquo;s Brady list is not documented. The Chang and Le discrimination lawsuits documented workplace harassment including alleged use of slurs by supervisory officers &mdash; sustained findings in these matters could implicate Brady/Giglio obligations.</td>
+  <td>Davis Enterprise; Davis Vanguard; The Aggie</td>
+</tr>
+<tr>
+  <td class="field-label">RIPA / AB 953<br>Effective Jan 2022 (for UC PDs)</td>
+  <td>Requires collection and reporting of data on all stops, including perceived demographic characteristics.</td>
+  <td><span class="badge badge-green">RIPA REPORTING ACTIVE &mdash; PUBLIC STOP-DATA CONFIRMED</span></td>
+  <td>UC Davis PD began collecting RIPA data in January 2022 with reporting due April 2023. The department publishes a Transparency Dashboard (established 2021) for public access to police data. This compliance finding is based on publicly observable reporting activity; an independent audit of data accuracy or completeness was not conducted for this report.</td>
+  <td><a href="https://police.ucdavis.edu/uc-davis-difference" target="_blank">UC Davis PD &mdash; UC Davis Difference</a></td>
+</tr>
+<tr>
+  <td class="field-label">SB 2 / Kenneth Ross Jr.<br>Decertification Act<br>Effective Jan 1, 2023</td>
+  <td>Establishes POST authority to investigate and decertify peace officers for serious misconduct.</td>
+  <td><span class="badge badge-gray">NO DECERTIFICATION ACTIONS IDENTIFIED &mdash; HISTORICAL CASES MAY WARRANT REVIEW</span></td>
+  <td>No POST decertification actions found against UCDPD officers. Pike&rsquo;s 2012 termination for excessive force and the documented pattern of discrimination (Chang/Le lawsuits) predate SB&nbsp;2 but establish a historical record. Whether officers involved in 2011 events who remained in law enforcement were subject to SB&nbsp;2 review after January 2023 is not documented in available records.</td>
+  <td>POST Commission records; Wikipedia &mdash; UC Davis pepper spray incident</td>
+</tr>
+</tbody>
+</table>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- SECTION D: FINANCIAL IMPACT -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<div id="secD" class="section-heading">Section D &mdash; Financial Impact: Fines, Settlements, and Costs Tied to Compliance Failures</div>
+
+<table class="info-table">
+<thead><tr><th style="width:32%">Item</th><th style="width:12%">Amount</th><th style="width:10%">Year(s)</th><th style="width:28%">Context</th><th style="width:18%">Source(s)</th></tr></thead>
+<tbody>
+<tr><td class="field-label">Baker v. Katehi Class Action Settlement</td><td>$1,000,000</td><td>2012</td><td>$30,000 each to 21 named plaintiffs ($630,000); up to $100,000 for additional claimants; $250,000 attorney fees; $20,000 ACLU policy review.</td><td><a href="https://www.cbsnews.com/sacramento/news/aclu-announces-1-million-settlement-with-uc-davis-on-pepper-spraying-lawsuit/" target="_blank">CBS Sacramento</a>; Wikipedia</td></tr>
+<tr><td class="field-label">Kroll Inc. Investigation (Bratton) &mdash; Pepper Spray</td><td>$445,879</td><td>2012</td><td>Led by former NYPD/LAPD Commissioner William Bratton. Billed at $300/hour.</td><td>AP/Sacramento Bee public records; HuffPost</td></tr>
+<tr><td class="field-label">Internal Affairs Investigations &mdash; Pepper Spray</td><td>$230,256</td><td>2012</td><td>Van Dermyden Allison Law Corp ($148,349) and Norman A. Traub Associates ($81,907).</td><td><a href="https://www.spokesman.com/stories/2012/sep/26/uc-agrees-to-pay-1m-to-settle-pepper-spray-suit/" target="_blank">Spokesman-Review</a></td></tr>
+<tr><td class="field-label">UC Systemwide Edley-Robinson Report</td><td>$320,000</td><td>2012</td><td>UC systemwide review of campus protest response policies.</td><td>HuffPost; Spokesman-Review</td></tr>
+<tr><td class="field-label">UC Berkeley Officials&rsquo; Salaries/Fees (for UC review)</td><td>$88,686</td><td>2012</td><td>Personnel costs for UC Berkeley officials participating in systemwide review.</td><td>HuffPost</td></tr>
+<tr><td class="field-label">Crisis Management Consulting</td><td>$119,714</td><td>2011&ndash;2012</td><td>&ldquo;Real time crisis management support&rdquo; during and after the pepper spray incident.</td><td><a href="https://www.huffpost.com/entry/uc-davis-pepper-spray_b_1438966" target="_blank">HuffPost</a></td></tr>
+<tr><td class="field-label">Reputation Management (Nevins &amp; Associates + additional consultant)</td><td>$175,000+</td><td>2013&ndash;2016</td><td>Nevins &amp; Associates of Maryland: $15,000/month, six-month contract beginning January 2013 to &ldquo;eradicate references to the pepper-spray incident in search results on Google.&rdquo; Revealed by Sacramento Bee April 13, 2016. Additional NYC-based consultant: $100,000.</td><td><a href="https://www.csmonitor.com/USA/Education/2016/0414/Why-UC-Davis-spent-175-000-to-scrub-references-to-pepper-spray-incident" target="_blank">CS Monitor</a></td></tr>
+<tr><td class="field-label">Pike Workers&rsquo; Compensation Award</td><td>$38,056</td><td>2013</td><td>Approved October 16, 2013 for &ldquo;psychiatric injuries&rdquo; from threats received after the incident. Approximately $8,000 more than the $30,000 each pepper-sprayed student received.</td><td><a href="https://www.cbsnews.com/sacramento/news/pepper-spray-cop-former-uc-davis-officer-pike-awarded-nearly-40000-in-comp-claim/" target="_blank">CBS Sacramento</a></td></tr>
+<tr><td class="field-label">Pike Paid Leave Salary (~8 months)</td><td>~$81,120</td><td>2011&ndash;2012</td><td>Annual salary $121,680. On paid leave from November 2011 until termination July 31, 2012.</td><td>Davis Enterprise</td></tr>
+<tr><td class="field-label">Spicuzza Paid Leave Salary (~5 months)</td><td>~$61,500</td><td>2011&ndash;2012</td><td>Annual salary $140,417. Paid leave November 21, 2011 &ndash; April 18, 2012. Retired with full benefits before investigation complete.</td><td>Davis Enterprise; HuffPost</td></tr>
+<tr><td class="field-label">Officer Alexander Lee Paid Leave</td><td>~$38,040</td><td>2011&ndash;2012</td><td>On leave until departure (by July 2012). Circumstances of departure were never officially confirmed by the department.</td><td>Davis Enterprise</td></tr>
+<tr><td class="field-label">Calvin Chang Discrimination Settlement (First)</td><td>$240,000</td><td>2008</td><td>First discrimination settlement. $66,000 to attorney. Chang required to resign as condition of settlement.</td><td>The Aggie</td></tr>
+<tr class="financial-total"><td>Clery Over-Reporting Potential Fine <em>(NOT IMPOSED)</em></td><td>Up to $2,970,000</td><td>2009</td><td>108 violations &times; $27,500 each. No evidence that a fine was actually imposed despite documented eligibility.</td><td>Campus Safety Magazine</td></tr>
+<tr class="financial-total"><td colspan="2"><strong>Pepper Spray Incident Total Documented Costs</strong></td><td>2011&ndash;2016</td><td colspan="2"><strong>Approximately $2.7 million+</strong> (combining investigations, settlements, personnel paid leave, reputation management, and consulting). See Section B for complete per-line breakdown.</td></tr>
+</tbody>
+</table>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- SECTION E: LEADERSHIP HISTORY -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<div id="secE" class="section-heading">Section E &mdash; Leadership History: Context for Compliance Gaps</div>
+
+<table class="info-table">
+<thead><tr><th style="width:18%">Period</th><th style="width:20%">Chief</th><th style="width:32%">Key Facts During Tenure</th><th style="width:18%">POST-Relevant Notes</th><th style="width:12%">Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td>1946&ndash;1993</td>
+  <td>Unknown<br><em>(Walter W. Wadman identified as first officer)</em></td>
+  <td>Department established 1946. UC Regents formally constituted UCPD system September 1947. Wadman identified on Davis LocalWiki as &ldquo;the first UCD Police officer&rdquo; &mdash; though some sources associate a &ldquo;Captain Wadman&rdquo; with UC Berkeley. No chiefs identified by name for this 47-year period in available public records.</td>
+  <td>Foundational era. Predates all current mandates. 47-year gap in leadership records requires university archival research to resolve.</td>
+  <td><a href="https://localwiki.org/davis/UC_Davis_Police_Department" target="_blank">LocalWiki &mdash; UC Davis PD</a></td>
+</tr>
+<tr>
+  <td>1993 &ndash; Early 2005</td>
+  <td>Chief Calvin E. Handy</td>
+  <td>40+ year law enforcement career. Previously assistant police chief at UC Berkeley, chief coordinator of police services for all 10 UC campuses, and former California state police officer. Established annual student-police community forums (1998). Oversaw the 2004 Soriano fatal shooting (officers cleared). Retired as Chief Emeritus. A leadership award was created in his honor in 2005. Later worked on the Derek Chauvin case in Minnesota.</td>
+  <td>2004 Soriano OIS was the only fatal shooting in UC Davis history. Officers cleared by DA, CIRT, and internal affairs. SB&nbsp;1421 records from this incident later released.</td>
+  <td><a href="https://www.davisenterprise.com/local-news/reisig-receives-uc-davis-handy-leadership-award/" target="_blank">Davis Enterprise &mdash; Handy Award</a></td>
+</tr>
+<tr>
+  <td>Early 2005 (Interim)</td>
+  <td>Captain Rita Spaur<br><em>(Acting Chief)</em></td>
+  <td>Served between Chief Handy&rsquo;s retirement and Chief Spicuzza&rsquo;s appointment. Subsequently accepted appointment as Police Chief at UC Merced.</td>
+  <td>Transitional appointment. Cross-campus transfer to UC Merced documented.</td>
+  <td><a href="https://localwiki.org/davis/UC_Davis_Police_Department" target="_blank">LocalWiki &mdash; UC Davis PD</a></td>
+</tr>
+<tr>
+  <td>May 2005 &ndash; April 2012</td>
+  <td>Chief Annette M. Spicuzza</td>
+  <td>First woman permanently appointed UC Davis Police Chief. Salary: $125,000 rising to $140,417 by tenure end. Led department of approximately 54 sworn officers. Implemented Safe Party Initiative. Tenure ended in crisis: November 18, 2011 pepper spray incident. Initially told press she was &ldquo;very proud&rdquo; of officers and falsely claimed they were &ldquo;trapped.&rdquo; Placed on paid leave November 21, 2011. Announced retirement April 18, 2012 (forced, to preserve pension). Drew approximately $61,500 in salary during paid leave period. Retired with full benefits before internal investigation was complete. Named interim public safety director of Pacific, WA in April 2013.</td>
+  <td>Reynoso Task Force found her actions &ldquo;critically flawed&rdquo; and department &ldquo;very dysfunctional.&rdquo; Named defendant in Chang second lawsuit. Retirement before investigation completion may have prevented sustained findings from reaching POST. $2.7M+ in incident costs accrued under her command.</td>
+  <td><a href="https://www.cbsnews.com/news/annette-spicuzza-uc-davis-police-chief-resigning-after-pepper-spray-controversy/" target="_blank">CBS News</a>; <a href="https://localwiki.org/davis/Annette_Spicuzza" target="_blank">LocalWiki</a></td>
+</tr>
+<tr>
+  <td>Nov 2011 (Acting)<br>April 2012 &ndash; Sept 2016 (Chief)</td>
+  <td>Chief Matthew Carmichael</td>
+  <td>27-year law enforcement veteran; joined UC Davis as lieutenant in 2002. Was not on campus during the pepper spray incident &mdash; was on duty at UC Davis Medical Center. Appointed Acting Chief November 21, 2011; formally sworn in April 19, 2012. Fired Lt. Pike July 31, 2012, overruling two internal investigations that had recommended lesser discipline. Established Police Accountability Board May 2014 (first at a major research university). Created VIPS Cadet Program. Hosted 2016 national conference on policing. Retired September 1, 2016; became police chief at University of Oregon September 12, 2016.</td>
+  <td>Key reform figure post-pepper-spray. PAB establishment is a signature POST-relevant reform. Pike termination for excessive force is a key documented personnel accountability action. PAB 15% sustain rate raised documented questions about effectiveness.</td>
+  <td><a href="https://www.ucdavis.edu/news/matt-carmichael-appointed-police-chief" target="_blank">UC Davis News &mdash; Carmichael appointed</a>; <a href="https://www.ucdavis.edu/news/police-chief-matt-carmichael-step-down" target="_blank">UC Davis News &mdash; Carmichael step down</a></td>
+</tr>
+<tr>
+  <td>Sept 2016 &ndash; Aug 2017 (Interim)</td>
+  <td>Lt. Jennifer Garcia<br><em>(Interim Chief)</em></td>
+  <td>22-year UC Davis veteran. Served during the transition between Chief Carmichael and Chief Farrow.</td>
+  <td>Transitional appointment.</td>
+  <td><a href="https://theaggie.org/2016/10/14/uc-davis-police-chief-carmichael-moves-to-the-university-of-oregon/" target="_blank">The Aggie, Oct. 2016</a></td>
+</tr>
+<tr>
+  <td>August 2017 &ndash; Present</td>
+  <td>Chief Joseph A. Farrow</td>
+  <td>Former California Highway Patrol Commissioner (February 2008&ndash;July 2017); first Japanese-American CHP Commissioner. Commanded 11,000+ employees and a $2.3 billion budget at CHP. Announced July 18, 2017 by Interim Chancellor Hexter; sworn in by Chancellor May in August 2017. Service confirmed January 27, 2026 upon department reaccreditation announcement.<br><br>Reforms under Farrow: Expanded PAB (model adopted system-wide); achieved IACLEA accreditation (2021) and reaccreditation (2026); tiered response model; CORE Officer Program (2021); Transparency Dashboard (2021); Safe Ride expansion (48,500+ rides/year). Championed AB&nbsp;960 (DACA peace officers). First law enforcement officer named NAMI California board president. Appointed to California Racial and Identity Profiling Advisory Board by AG Kamala Harris. Named Yolo County Public Safety Hero January 2024.<br><br>Major incidents managed: 2022 Davis stabbing crisis (student murdered); 2024 Gaza encampment (45 days, zero arrests); May 2024 weapons discharge (referred to PAB); 2025 TPUSA confrontation (no arrests at scene); 2025 Picnic Day shooting (3 shot, federal charges).</td>
+  <td>Longest stable leadership since Chief Handy. AB&nbsp;48 non-compliance confirmed during his tenure. SB&nbsp;1421 partial compliance above UC average. Weapons discharge referral to PAB documented as accountability action. Zero-arrest encampment outcome stands in contrast to UC system peers. 2025 TPUSA no-arrest-at-scene outcome criticized by some as overcorrection from the 2011 pepper spray legacy.</td>
+  <td><a href="https://www.ucdavis.edu/news/uc-davis-selects-joseph-farrow-be-chief-police" target="_blank">UC Davis News &mdash; Farrow selected</a>; <a href="https://police.ucdavis.edu/news/reaccreditation-highlights-police-departments-commitment-community" target="_blank">UC Davis PD &mdash; Reaccreditation 2026</a></td>
+</tr>
+</tbody>
+</table>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- SECTION F: SOURCE INDEX -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<div id="secF" class="section-heading">Section F &mdash; Source Index: All 85 Sources Cited in This Report</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[1] <strong>LAist</strong></div>
+    <div class="src-sub">9 of 10 UC campus PDs fail to comply with AB 48. UCDPD among non-compliant agencies. (Sept. 12, 2025) &mdash; <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">laist.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[2] <strong>LAist (brief)</strong></div>
+    <div class="src-sub">AB 48 non-compliance summary for UC campuses. (Sept. 12, 2025) &mdash; <a href="https://laist.com/brief/news/uc-campus-police-protest-reporting-law" target="_blank">laist.com (brief)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020-05-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[3] <strong>Voice of San Diego</strong></div>
+    <div class="src-sub">UC campuses disclosed virtually no records under SB 1421 despite 200+ use-of-force incidents. UC Davis was one of only three campuses to provide records. (May 12, 2020) &mdash; <a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">voiceofsandiego.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2021</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[4] <strong>UAW 2865 Research Working Group</strong></div>
+    <div class="src-sub">&ldquo;Policing in the UC&rdquo; report &mdash; UC-wide use-of-force data, transparency failures, 200+ incidents. (Feb. 2021) &mdash; <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">uaw2865.org (PDF)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2009</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[5] <strong>Campus Safety Magazine</strong></div>
+    <div class="src-sub">UC Davis over-reports sexual offenses by 140%. S. Daniel Carter: &ldquo;completely unprecedented.&rdquo; (Oct. 2009) &mdash; <a href="https://www.campussafetymagazine.com/news/uc-davis-over-reports-sexual-offenses-by-140/21680/" target="_blank">campussafetymagazine.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2011-11-18</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[6] <strong>Wikipedia &mdash; UC Davis Pepper Spray</strong></div>
+    <div class="src-sub">Comprehensive article on November 18, 2011 incident, all investigations, outcomes, costs. &mdash; <a href="https://en.wikipedia.org/wiki/UC_Davis_pepper_spray_incident" target="_blank">en.wikipedia.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[7] <strong>Wikipedia &mdash; 2024 UC Davis Encampment</strong></div>
+    <div class="src-sub">45-day pro-Palestinian encampment, demands, Groveman lawsuit. &mdash; <a href="https://en.wikipedia.org/wiki/2024_University_of_California,_Davis_pro-Palestinian_campus_occupation" target="_blank">en.wikipedia.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[8] <strong>Wikipedia &mdash; UC Police Departments</strong></div>
+    <div class="src-sub">System-wide UC police department overview, founding history. &mdash; <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">en.wikipedia.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2012-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[9] <strong>CBS News</strong></div>
+    <div class="src-sub">UC Davis police chief resigning after pepper spray controversy. (April 2012) &mdash; <a href="https://www.cbsnews.com/news/annette-spicuzza-uc-davis-police-chief-resigning-after-pepper-spray-controversy/" target="_blank">cbsnews.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2013</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[10] <strong>CBS Sacramento</strong></div>
+    <div class="src-sub">Pepper spray cop awarded nearly $40,000 in workers&rsquo; comp. (Oct. 2013) &mdash; <a href="https://www.cbsnews.com/sacramento/news/pepper-spray-cop-former-uc-davis-officer-pike-awarded-nearly-40000-in-comp-claim/" target="_blank">cbsnews.com/sacramento</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2012</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[11] <strong>CBS Sacramento</strong></div>
+    <div class="src-sub">ACLU announces $1 million settlement with UC Davis. (Sept. 2012) &mdash; <a href="https://www.cbsnews.com/sacramento/news/aclu-announces-1-million-settlement-with-uc-davis-on-pepper-spraying-lawsuit/" target="_blank">cbsnews.com/sacramento</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2014</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[12] <strong>CBS Sacramento</strong></div>
+    <div class="src-sub">UC Davis pepper spray saga leads to PAB. (2014) &mdash; <a href="https://www.cbsnews.com/sacramento/news/uc-davis-pepper-spray-saga/" target="_blank">cbsnews.com/sacramento</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[13] <strong>CBS Sacramento</strong></div>
+    <div class="src-sub">Turning Point USA UC Davis violent protest, DA felony charges. (Nov. 2025) &mdash; <a href="https://www.cbsnews.com/sacramento/news/turning-point-usa-uc-davis-violent-protest-da-felony-charges/" target="_blank">cbsnews.com/sacramento</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2012</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[14] <strong>HuffPost</strong></div>
+    <div class="src-sub">UC Davis pepper spray incident cost accounting by Prof. Ostertag. (2012) &mdash; <a href="https://www.huffpost.com/entry/uc-davis-pepper-spray_b_1438966" target="_blank">huffpost.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-07</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[15] <strong>Davis Enterprise</strong></div>
+    <div class="src-sub">UCD taps CHP commissioner as new police chief. (July 2017) &mdash; <a href="https://www.davisenterprise.com/news/local/ucd-taps-chp-commissioner-as-new-police-chief/" target="_blank">davisenterprise.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[16] <strong>Davis Enterprise</strong></div>
+    <div class="src-sub">Reisig receives UC Davis Handy Leadership Award. &mdash; <a href="https://www.davisenterprise.com/local-news/reisig-receives-uc-davis-handy-leadership-award/" target="_blank">davisenterprise.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[17] <strong>Davis Enterprise</strong></div>
+    <div class="src-sub">UCD officer&rsquo;s gun goes off during arrest near encampment. (May 2024) &mdash; <a href="https://www.davisenterprise.com/news/ucd-officers-gun-goes-off-during-arrest/article_cb08b2d4-1a35-11ef-b4b3-ff04afde729a.html" target="_blank">davisenterprise.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-06</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[18] <strong>Davis Enterprise</strong></div>
+    <div class="src-sub">Gaza protesters dismantle UCD encampment voluntarily. (June 2024) &mdash; <a href="https://www.davisenterprise.com/news/gaza-protesters-dismantle-ucd-encampment/article_dc6f2660-2f67-11ef-ba96-7b33c1955cab.html" target="_blank">davisenterprise.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[19] <strong>Davis Enterprise</strong></div>
+    <div class="src-sub">Pepper spray lieutenant appeals for workers&rsquo; comp; salary and internal investigation details. &mdash; <a href="https://www.davisenterprise.com/news/uc_davis/pepper-spray-lieutenant-appeals-for-worker-s-comp/article_d60ad159-8685-5b0b-91d5-bea3aafeec7d.html" target="_blank">davisenterprise.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2012-07</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[20] <strong>Davis Enterprise</strong></div>
+    <div class="src-sub">Pepper-spraying pair no longer UCD officers; Chang/Pike background. (July 2012) &mdash; <a href="https://www.davisenterprise.com/news/uc_davis/pepper-spraying-pair-no-longer-ucd-officers/article_e9554ad2-dc57-576b-a48a-a28f98d33df1.html" target="_blank">davisenterprise.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2013</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[21] <strong>Davis Enterprise</strong></div>
+    <div class="src-sub">Town in trouble may name Spicuzza interim chief; detailed career background. (2013) &mdash; <a href="https://www.davisenterprise.com/news/local/ucd/town-in-trouble-may-name-spicuzza-its-interim-chief/" target="_blank">davisenterprise.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[22] <strong>Davis Enterprise</strong></div>
+    <div class="src-sub">Police chief releases description of shooting suspect; updates city council (Picnic Day, 321 calls for service). (April 2025) &mdash; <a href="https://www.davisenterprise.com/news/update-police-chief-releases-description-of-one-shooting-suspect-updates-city-council/article_208098a5-6e6d-4c07-bf2e-475743d156e5.html" target="_blank">davisenterprise.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[23] <strong>Davis Enterprise</strong></div>
+    <div class="src-sub">Two women charged in Turning Point USA clash at UCD. (Nov. 2025) &mdash; <a href="https://www.davisenterprise.com/news/update-two-women-charged-in-turning-point-usa-clash-at-ucd/article_8ec49959-0226-46e1-8707-4f0809afa188.html" target="_blank">davisenterprise.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2011</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[24] <strong>Davis Enterprise</strong></div>
+    <div class="src-sub">County, UCD settle over protester&rsquo;s arrest; attorney calls it &ldquo;foreshadowing&rdquo; of 2011. &mdash; <a href="https://www.davisenterprise.com/news/local/crime-fire-courts/county-ucd-settle-over-protesters-arrest/" target="_blank">davisenterprise.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[25] <strong>Davis Vanguard</strong></div>
+    <div class="src-sub">Yolo County Egghead case; body camera footage of officer firing at suspect. (Sept. 2025) &mdash; <a href="https://davisvanguard.org/2025/09/yolo-county-egghead-case/" target="_blank">davisvanguard.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2012-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[26] <strong>Davis Vanguard</strong></div>
+    <div class="src-sub">Sunday commentary: Pike and Swartwood should face criminal charges. (April 2012) &mdash; <a href="https://www.davisvanguard.org/2012/04/sunday-commentary-pike-and-swartwood-should-face-criminal-charges/" target="_blank">davisvanguard.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2013-07</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[27] <strong>Davis Vanguard</strong></div>
+    <div class="src-sub">Pike filed workers&rsquo; compensation claim for pepper incident. (July 2013) &mdash; <a href="https://davisvanguard.org/2013/07/pike-filed-workers-compensation-claim-for-pepper-incident/" target="_blank">davisvanguard.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2012</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[28] <strong>The Aggie</strong></div>
+    <div class="src-sub">UC Davis Police Lt. John Pike fired by newly appointed police chief. (Aug. 6, 2012) &mdash; <a href="https://theaggie.org/2012/08/06/uc-davis-police-lt-john-pike-fired-by-newly-appointed-police-chief/" target="_blank">theaggie.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2011</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[29] <strong>The Aggie</strong></div>
+    <div class="src-sub">Former UC Davis officer files $3 million lawsuit against police. (Feb. 15, 2011) &mdash; <a href="https://theaggie.org/2011/02/15/former-uc-davis-officer-files-3-million-lawsuit-against-police/" target="_blank">theaggie.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2009-03-10</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[30] <strong>The Aggie</strong></div>
+    <div class="src-sub">UCD police department faces second discrimination lawsuit. (March 10, 2009) &mdash; <a href="https://theaggie.org/2009/03/10/ucd-police-department-faces-second-discrimination-lawsuit/" target="_blank">theaggie.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2014</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[31] <strong>The Aggie</strong></div>
+    <div class="src-sub">UC Davis Police Accountability Board holds first public session. (Oct. 30, 2014) &mdash; <a href="https://theaggie.org/2014/10/30/uc-davis-police-accountability-board-holds-first-public-session-of-the-year/" target="_blank">theaggie.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2021-07-16</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[32] <strong>The Aggie</strong></div>
+    <div class="src-sub">Chancellor May&rsquo;s campus safety task force makes eight recommendations; PAB 15% sustain rate noted. (July 16, 2021) &mdash; <a href="https://theaggie.org/2021/07/16/chancellor-gary-mays-campus-safety-task-force-makes-eight-recommendations-for-policing/" target="_blank">theaggie.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[33] <strong></strong></div>
+    <div class="src-sub"><span class="src-outfit">The Aggie</span> &mdash; UC Davis police chief Carmichael moves to University of Oregon. (Oct. 14, 2016) &mdash; <a href="https://theaggie.org/2016/10/14/uc-davis-police-chief-carmichael-moves-to-the-university-of-oregon/" target="_blank">theaggie.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2012-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[34] <strong>UC Davis News</strong></div>
+    <div class="src-sub">Matt Carmichael appointed police chief. (April 2012) &mdash; <a href="https://www.ucdavis.edu/news/matt-carmichael-appointed-police-chief" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-07</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[35] <strong>UC Davis News</strong></div>
+    <div class="src-sub">UC Davis selects Joseph Farrow to be chief of police. (July 2017) &mdash; <a href="https://www.ucdavis.edu/news/uc-davis-selects-joseph-farrow-be-chief-police" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[36] <strong>UC Davis News</strong></div>
+    <div class="src-sub">Police Chief Matt Carmichael to step down. (2016) &mdash; <a href="https://www.ucdavis.edu/news/police-chief-matt-carmichael-step-down" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2004</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[37] <strong>UC Davis News</strong></div>
+    <div class="src-sub">Man fires at campus police, killed (2004 Soriano OIS). (Dec. 2004) &mdash; <a href="https://www.ucdavis.edu/news/man-fires-campus-police-killed" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2004</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[38] <strong>UC Davis News</strong></div>
+    <div class="src-sub">Police shooting suspect was not UC Davis student. (Dec. 2004) &mdash; <a href="https://www.ucdavis.edu/news/police-shooting-suspect-was-not-uc-davis-student" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[39] <strong>UC Davis News</strong></div>
+    <div class="src-sub">2024 campus climate updates including encampment information. (2024) &mdash; <a href="https://www.ucdavis.edu/news/2024-campus-climate-updates" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[40] <strong>UC Davis News</strong></div>
+    <div class="src-sub">Campus police arrest three for vandalism (Egghead sculptures). (May 2024) &mdash; <a href="https://www.ucdavis.edu/news/campus-police-arrest-three-vandalism" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2023-03</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[41] <strong>UC Davis News</strong></div>
+    <div class="src-sub">Controversial student-led event goes as planned (March 2023 TPUSA). (March 2023) &mdash; <a href="https://www.ucdavis.edu/news/controversial-student-led-event-goes-planned" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">1996</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[42] <strong>UC Davis News</strong></div>
+    <div class="src-sub">UC Davis releases Clery Act crime statistics; mentions 1996 inaugural award. &mdash; <a href="https://www.ucdavis.edu/news/uc-davis-releases-clery-act-crime-statistics" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[43] <strong>UC Davis News</strong></div>
+    <div class="src-sub">UC safety plan follows UC Davis reforms; PAB adopted system-wide. &mdash; <a href="https://www.ucdavis.edu/news/uc-safety-plan-follows-uc-davis-reforms" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[44] <strong>UC Davis News (Magazine)</strong></div>
+    <div class="src-sub">Modern policing: CORE Officer Program, Transparency Dashboard, tiered response. &mdash; <a href="https://www.ucdavis.edu/magazine/modern-policing" target="_blank">ucdavis.edu/magazine</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-06-20</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[45] <strong>UC Davis Chancellor</strong></div>
+    <div class="src-sub">Chancellor May&rsquo;s statement on status of encampment, June 20, 2024. &mdash; <a href="https://leadership.ucdavis.edu/news/chancellors-statement-status-encampment-june-20" target="_blank">leadership.ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2026</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[46] <strong>UC Davis PD</strong></div>
+    <div class="src-sub">Reaccreditation highlights police department&rsquo;s commitment to community; confirms Chief Farrow as of Jan. 27, 2026. &mdash; <a href="https://police.ucdavis.edu/news/reaccreditation-highlights-police-departments-commitment-community" target="_blank">police.ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[47] <strong>UC Davis PD</strong></div>
+    <div class="src-sub">IACLEA accreditation status and history. &mdash; <a href="https://police.ucdavis.edu/uc-davis-difference/accreditation" target="_blank">police.ucdavis.edu/accreditation</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[48] <strong>UC Davis PD</strong></div>
+    <div class="src-sub">AB 481 military equipment compliance page. &mdash; <a href="https://police.ucdavis.edu/professional-standards/policies/ab481" target="_blank">police.ucdavis.edu/ab481</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-03</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[49] <strong>UC Davis PD</strong></div>
+    <div class="src-sub">Public comments invited for police accreditation (March 2025 site visit). &mdash; <a href="https://police.ucdavis.edu/news/public-comments-invited-police-accreditation" target="_blank">police.ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[50] <strong>UC Davis PD</strong></div>
+    <div class="src-sub">Transparency Dashboard, PAB, and reform initiatives overview. &mdash; <a href="https://police.ucdavis.edu/uc-davis-difference" target="_blank">police.ucdavis.edu/uc-davis-difference</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[51] <strong>UC Davis PD</strong></div>
+    <div class="src-sub">Chancellor May and Chief Farrow discuss campus policing model. &mdash; <a href="https://police.ucdavis.edu/news/chancellor-may-and-chief-farrow-discuss-campus-policing-model" target="_blank">police.ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[52] <strong>UC Davis PD</strong></div>
+    <div class="src-sub">Chief Farrow named Yolo County Public Safety Hero by Rep. Thompson. (Jan. 2024) &mdash; <a href="https://police.ucdavis.edu/news/chief-farrow-named-yolo-county-public-safety-hero" target="_blank">police.ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[53] <strong>UC Davis PAB</strong></div>
+    <div class="src-sub">Police Accountability Board bylaws; Chief retains &ldquo;full and final authority.&rdquo; &mdash; <a href="https://pab.ucdavis.edu/bylaws" target="_blank">pab.ucdavis.edu/bylaws</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[54] <strong>UC Davis PAB</strong></div>
+    <div class="src-sub">2016&ndash;17 Annual Report: 18 complaints, 12 did not proceed, 5 investigated, Chief accepted findings in 4 of 5. &mdash; <a href="https://pab.ucdavis.edu/sites/g/files/dgvnsk3751/files/inline-files/Summary_2016-17%20Annual%20Report.pdf" target="_blank">pab.ucdavis.edu (PDF)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[55] <strong>UC Davis PAB</strong></div>
+    <div class="src-sub">PAB homepage; Office of Compliance and Policy investigates complaints, forwards to PAB. &mdash; <a href="https://pab.ucdavis.edu/" target="_blank">pab.ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[56] <strong>UC Davis PAB</strong></div>
+    <div class="src-sub">PAB policy influence: active shooter training, hiring standards, de-escalation. &mdash; <a href="https://pab.ucdavis.edu/about" target="_blank">pab.ucdavis.edu/about</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[57] <strong>ABC10</strong></div>
+    <div class="src-sub">UC Davis officer gun discharge during arrest near encampment. (May 2024) &mdash; <a href="https://www.abc10.com/article/news/crime/uc-davis-officer-gun-arrest/103-10e7b957-e122-4bfd-ab8a-107f129f630f" target="_blank">abc10.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[58] <strong>ABC10</strong></div>
+    <div class="src-sub">UC Davis violent confrontation investigation &mdash; Turning Point USA. (April 2025) &mdash; <a href="https://www.abc10.com/article/news/local/uc-davis-violent-confrontation-investigation-turning-point/103-53d79dad-90f1-47cd-8a68-a29c0d2f3234" target="_blank">abc10.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2022</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[59] <strong>ABC7 News</strong></div>
+    <div class="src-sub">Davis stabbings; person of interest detained; Karim Abou Najm murder. (2022) &mdash; <a href="https://abc7news.com/amp/post/davis-stabbings-person-of-interest-detained-uc-shelter-in-place-college-senior/13210031/" target="_blank">abc7news.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2014</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[60] <strong>FOX40</strong></div>
+    <div class="src-sub">UC Davis students rally against proposed tuition hike; no police visible. (Nov. 18, 2014) &mdash; <a href="https://fox40.com/2014/11/18/uc-davis-students-rally-against-proposed-tuition-hike/" target="_blank">fox40.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[61] <strong>Yolo County DA</strong></div>
+    <div class="src-sub">Felony charges filed after vandalism incident on UC Davis campus (Egghead case). (2024) &mdash; <a href="https://yoloda.org/felony-charges-filed-after-vandalism-incident-on-uc-davis-campus/" target="_blank">yoloda.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[62] <strong>Yolo County DA</strong></div>
+    <div class="src-sub">Felony charges filed against Sacramento resident after TPUSA event. (Nov. 2025) &mdash; <a href="https://yoloda.org/felony-charges-filed-against-sacramento-resident-after-incident-at-turning-point-usa-event-on-uc-davis-campus/" target="_blank">yoloda.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[63] <strong>CaliforniaCountyNews</strong></div>
+    <div class="src-sub">Officials condemn &lsquo;coordinated assault&rsquo; at UC Davis speaker event. (April 2025) &mdash; <a href="https://californiacountynews.org/news/2025/04/officials-condemn-%E2%80%98coordinated-assault%E2%80%99-uc-davis-speaker-event" target="_blank">californiacountynews.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-06</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[64] <strong>Campus Reform</strong></div>
+    <div class="src-sub">Pro-Hamas activists finally end UC Davis encampment 6 weeks without demands met. (June 2024) &mdash; <a href="https://www.campusreform.org/article/pro-hamas-activists-finally-end-uc-davis-encampment-6-weeks-without-demands-met/25782" target="_blank">campusreform.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2012</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[65] <strong>Spokesman-Review</strong></div>
+    <div class="src-sub">UC agrees to pay $1M to settle pepper spray suit; investigation cost details. (Sept. 2012) &mdash; <a href="https://www.spokesman.com/stories/2012/sep/26/uc-agrees-to-pay-1m-to-settle-pepper-spray-suit/" target="_blank">spokesman.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[66] <strong>Christian Science Monitor</strong></div>
+    <div class="src-sub">Why UC Davis spent $175,000 to scrub references to pepper spray incident. (April 2016) &mdash; <a href="https://www.csmonitor.com/USA/Education/2016/0414/Why-UC-Davis-spent-175-000-to-scrub-references-to-pepper-spray-incident" target="_blank">csmonitor.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[67] <strong>Virgin Islands Daily News</strong></div>
+    <div class="src-sub">UC Davis spent thousands to scrub pepper spray reference from internet; Nevins &amp; Associates details. (April 2016) &mdash; <a href="https://www.virginislandsdailynews.com/ap/uc-davis-spent-thousands-to-scrub-pepper-spray-reference-from-internet/article_a6095a72-3973-563b-9b33-4fd15002645e.html" target="_blank">virginislandsdailynews.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[68] <strong>CalMatters</strong></div>
+    <div class="src-sub">DACA program California &mdash; Ernesto Moron sworn in December 22, 2023 after AB 960. (Jan. 2024) &mdash; <a href="https://calmatters.org/california-divide/2024/01/daca-program-california/" target="_blank">calmatters.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[69] <strong>CalMatters</strong></div>
+    <div class="src-sub">UC campus protest comparisons; Davis 45 days, zero arrests. (Sept. 2024) &mdash; <a href="https://calmatters.org/education/higher-education/2024/09/campus-protests/" target="_blank">calmatters.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[70] <strong>UC Board of Regents</strong></div>
+    <div class="src-sub">Update on UC Community Safety Plan; IACLEA accreditation status for all 10 campuses. (Jan. 2025) &mdash; <a href="https://regents.universityofcalifornia.edu/regmeet/jan25/c4.pdf" target="_blank">regents.universityofcalifornia.edu (PDF)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[71] <strong>LocalWiki &mdash; UC Davis PD</strong></div>
+    <div class="src-sub">Comprehensive community wiki: department history, chief chronology, incidents. &mdash; <a href="https://localwiki.org/davis/UC_Davis_Police_Department" target="_blank">localwiki.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[72] <strong>LocalWiki &mdash; Annette Spicuzza</strong></div>
+    <div class="src-sub">Detailed Spicuzza biography and pepper spray aftermath. &mdash; <a href="https://localwiki.org/davis/Annette_Spicuzza" target="_blank">localwiki.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[73] <strong>LocalWiki &mdash; Matt Carmichael</strong></div>
+    <div class="src-sub">Carmichael biography, pepper spray absence, reform actions. &mdash; <a href="https://localwiki.org/davis/Matt_Carmichael" target="_blank">localwiki.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[74] <strong>LocalWiki &mdash; John Pike</strong></div>
+    <div class="src-sub">Pike biography, internal investigations, termination details. &mdash; <a href="https://localwiki.org/davis/John_Pike" target="_blank">localwiki.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-07</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[75] <strong>Patch</strong></div>
+    <div class="src-sub">CHP Commissioner leaving role for UC Davis police chief. (July 2017) &mdash; <a href="https://patch.com/california/davis/chp-commissioner-leaving-role-uc-davis-police-chief" target="_blank">patch.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-07</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[76] <strong>Lake County News</strong></div>
+    <div class="src-sub">State CHP Commissioner named UC Davis police chief. (July 2017) &mdash; <a href="https://www.lakeconews.com/news/51673-state-chp-commissioner-named-uc-davis-police-chief" target="_blank">lakeconews.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[77] <strong>AllGov</strong></div>
+    <div class="src-sub">Joseph Farrow CHP Commissioner profile and career history. &mdash; <a href="http://www.allgov.com/usa/ca/officials/california_farrow_joseph?officialid=135" target="_blank">allgov.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[78] <strong>Press Democrat</strong></div>
+    <div class="src-sub">Man files lawsuit against UC Davis for handling of encampment (Groveman). (May 2024) &mdash; <a href="https://www.pressdemocrat.com/2024/05/21/man-files-lawsuit-against-uc-davis-for-handling-of-encampment-heres-what-hes-alleging/" target="_blank">pressdemocrat.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[79] <strong>It&rsquo;s Going Down</strong></div>
+    <div class="src-sub">From the camp to the campus: reflections on the UC Davis encampment. (2024) &mdash; <a href="https://itsgoingdown.org/from-the-camp-to-the-campus-reflections-on-the-uc-davis-encampment/" target="_blank">itsgoingdown.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2012-04-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[80] <strong>UC Davis Demonstration Reviews</strong></div>
+    <div class="src-sub">Reynoso Task Force Report &mdash; Official PDF (April 11, 2012). Primary source for all Reynoso findings cited in this report. &mdash; <a href="https://demonstrationreviews.ucdavis.edu/local_resources/pdf_documents/reynoso-report.pdf" target="_blank">demonstrationreviews.ucdavis.edu (PDF)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2012-04-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[81] <strong>UC Davis News</strong></div>
+    <div class="src-sub">Use of pepper spray not justified, concludes Reynoso Task Force. Official UC Davis reporting on April 11, 2012 public forum. &mdash; <a href="https://www.ucdavis.edu/news/use-pepper-spray-not-justified-concludes-task-force" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2004</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[82] <strong>UC Davis News</strong></div>
+    <div class="src-sub">Students bring special perspective to team effort to quell rowdy parties. Confirms 2004 Sterling riot: approximately 1,000 attendees, swarm robberies, pepper spray deployment, 30+ officers. &mdash; <a href="https://www.ucdavis.edu/news/students-bring-special-perspective-table-team-effort-quell-rowdy-parties" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11-03</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[83] <strong>The Aggie</strong></div>
+    <div class="src-sub">UC Davis police forcibly detain African American alumnus for using 24-hour study room. (November 3, 2015) Identifies subject as Fayia Sellu; detention date August 26, 2015; Officers Guerrero and Sheffield; OOC/PAB complaint process. &mdash; <a href="https://theaggie.org/2015/11/03/uc-davis-police-forcibly-detain-african-american-alumnus-for-using-24-hour-study-room/" target="_blank">theaggie.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-09</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[84] <strong>Davis Vanguard</strong></div>
+    <div class="src-sub">Studying While Black: Former Student Shaken by Police Encounter on UCD Campus. (September 2015) &mdash; <a href="https://davisvanguard.org/2015/09/studying-while-black-former-student-shaken-by-police-encounter-on-ucd-campus/" target="_blank">davisvanguard.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2026-01-08</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[85] <strong>UC Davis News</strong></div>
+    <div class="src-sub">Record numbers of Latinx, African Americans in UC Davis entering class. UC Office of the President enrollment statistics, released January 8, 2026. Total Fall 2025 enrollment: 40,617. &mdash; <a href="https://www.ucdavis.edu/news/record-numbers-latinx-african-americans-uc-davis-entering-class" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+
+
+<!-- ══ SUBMISSION BLOCK ══ -->
+<div class="submission-block">
+  <p><strong>Primary Submission:</strong> California Commission on Peace Officer Standards and Training (POST) &mdash; Peace Officer Standards Accountability Division (POSAD) &mdash; Authority: Cal. Penal Code &sect;&sect; 13509.5, 13510.8, 13510.85 (SB 2 &mdash; Kenneth Ross Jr. Police Decertification Act of 2021)</p>
+  <p><strong>Secondary Submissions:</strong> California Attorney General, Civil Rights Enforcement Section (Cal. Civ. Code &sect;&nbsp;52.3) &nbsp;|&nbsp; U.S. Department of Education, Federal Student Aid &mdash; Clery Act Enforcement (20&nbsp;U.S.C.&nbsp;&sect;&nbsp;1092(f)) &nbsp;|&nbsp; California Legislature, Senate &amp; Assembly Budget Subcommittees on Education &nbsp;|&nbsp; UC Office of the President &nbsp;|&nbsp; California State Auditor &nbsp;|&nbsp; U.S. Department of Justice (34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601)</p>
+  <p><strong>Distribution:</strong> Clery Center for Campus Safety &nbsp;|&nbsp; SAFE Campuses, LLC</p>
+  <p>All documents compiled from public records. All facts independently verifiable. Readers are encouraged to form their own independent conclusions.</p>
+</div>
+</div><!-- end .content -->
+
+</div>
+
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav" style="position:static;box-shadow:none">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn active">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" style="position:static;box-shadow:none">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn">A &mdash; Overview</a>
+<a href="#secB" class="section-btn">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn">D &mdash; Financial</a>
+<a href="#secE" class="section-btn">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn">F &mdash; Sources</a>
+</div>
+</nav>
+
+<script>
+function setNavTops(){
+  const b1=document.querySelector('.nav-bar:not(.bottom)');
+  const b2=document.querySelector('.campus-nav:not([style])');
+  const b3=document.querySelector('.section-nav:not([style])');
+  if(!b1||!b2||!b3)return 130;
+  b2.style.top=b1.offsetHeight+'px';
+  b3.style.top=(b1.offsetHeight+b2.offsetHeight)+'px';
+  return b1.offsetHeight+b2.offsetHeight+b3.offsetHeight;
+}
+const secs=['secA','secB','secC','secD','secE','secF'];
+const btns=['btn-a','btn-b','btn-c','btn-d','btn-e','btn-f'];
+function updateActive(){
+  const offset=setNavTops()+10;
+  const scrollPos=window.scrollY+offset;
+  let cur=0;
+  secs.forEach((id,i)=>{
+    const el=document.getElementById(id);
+    if(!el)return;
+    const elTop=el.getBoundingClientRect().top+window.scrollY;
+    if(scrollPos>=elTop)cur=i;
+  });
+  btns.forEach((id,i)=>{
+    const b=document.getElementById(id);
+    if(b)b.classList.toggle('active',i===cur);
+  });
+}
+window.addEventListener('load',()=>{setNavTops();updateActive();});
+window.addEventListener('resize',()=>{setNavTops();updateActive();});
+window.addEventListener('scroll',updateActive,{passive:true});
+</script>
+<div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Behave Like Heroes &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>

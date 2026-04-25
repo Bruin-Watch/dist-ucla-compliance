@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · CH-01 — A Systemwide Overview of UC's Ten Campus Police Departments | Bruin Watch</title>
+<meta name="description" content="Chapter 1 documents the ten UC campus police departments, their staffing, budgets, chief tenure, and documented incidents.">
+<meta property="og:title" content="Act I · CH-01 — A Systemwide Overview of UC's Ten Campus Police Departments | Bruin Watch">
+<meta property="og:description" content="Chapter 1 documents the ten UC campus police departments, their staffing, budgets, chief tenure, and documented incidents.">
+<meta property="og:type" content="article">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE}
+body{font-family:'Source Sans Pro',Calibri,Arial,sans-serif;background:#e8edf2;margin:0;padding:0}
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:center}
+.nav-bottom-inner{display:flex;align-items:stretch;justify-content:center;min-width:max-content;margin:0 auto}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 2 — CAMPUS DOSSIERS ══ */
+.campus-nav{background:#00254a;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:999;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.campus-nav.bottom{position:static;box-shadow:none}
+.campus-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.campus-nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.campus-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.campus-btn:hover{background:var(--uc-mid);color:#fff}
+.campus-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:32px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:80px;font-weight:900;letter-spacing:8px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:6px;line-height:1.05}
+.series-subtitle{font-family:'Bebas Neue',sans-serif;font-size:40px;font-weight:900;letter-spacing:6px;text-transform:uppercase;color:#fff;margin-bottom:6px;line-height:1.1}
+.series-report{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.85);margin-bottom:4px;line-height:1.5}
+.series-commission{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:16px;line-height:1.5}
+.chapter-number{font-family:'Source Sans Pro',sans-serif;font-size:34px;font-weight:900;letter-spacing:4px;text-transform:uppercase;color:#fff;margin-bottom:10px}
+.ch-of{font-size:20px;font-weight:600;text-transform:lowercase;vertical-align:middle;margin:0 6px;color:#fff}
+.chapter-title{font-family:'Libre Baskerville',Georgia,serif;font-size:32px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:16px auto;display:block}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.cover-meta{width:100%;padding:20px 0;background:rgba(0,0,0,.15);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border-top:1px solid rgba(253,181,21,.25)}
+.cover-meta-inner{max-width:960px;width:100%;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 40px}
+.cover-meta p{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;color:#fff;text-align:center;line-height:1.6}
+.cover-meta strong{color:var(--uc-gold)}
+.cover-meta p.cover-disclaimer{font-family:'Source Sans Pro',Calibri,Arial,sans-serif!important;font-size:14.5px!important;font-weight:300!important;color:#dde8f4!important;text-align:justify!important;hyphens:auto;max-width:820px;width:100%;margin:6px auto;padding:10px 0;line-height:1.8;border-top:1px solid rgba(253,181,21,.35);border-bottom:1px solid rgba(253,181,21,.35)}
+.cover-copyright{width:100%;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:400;color:#fff;margin-top:4px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.disclaimer{max-width:780px;margin:50px auto 40px;padding:24px 32px;text-align:center;font-style:italic;font-size:13.5px;color:#666;line-height:1.8;border-top:1px solid #ddd;border-bottom:1px solid #ddd;font-family:'Libre Baskerville',Georgia,serif}
+.content{max-width:860px;margin:0 auto;padding:0 30px 60px;font-family:'Libre Baskerville',Georgia,serif}
+.toc{background:#f5f0e8;border:1px solid #d4c9b8;padding:2rem 2.5rem;margin:50px 30px 50px}.toc h2{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;color:#003262;margin-bottom:20px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.toc-entry{display:flex;align-items:baseline;padding:6px 0;border-bottom:1px dotted #ccc}
+.toc-num{font-family:'Source Sans Pro',sans-serif;font-weight:600;color:#003262;min-width:60px}
+.toc-title a{color:#003262;text-decoration:none;font-size:15px}
+.toc-title a:hover{text-decoration:underline}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#003262;margin:50px 0 10px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.sub-heading{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;color:#003262;margin:30px 0 10px}
+p.body-text{font-size:17px;color:#333;margin-bottom:16px;line-height:1.75}
+.key-finding{background:#FFF8E1;border-left:4px solid #FDB515;padding:16px 20px;margin:20px 0 30px;font-size:18px;line-height:1.7}
+.key-finding strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.critical-finding{background:#FFF0F0;border-left:4px solid #8B0000;padding:16px 20px;margin:20px 0 30px;font-size:18px;line-height:1.7}
+.critical-finding strong{font-family:'Source Sans Pro',sans-serif;color:#8B0000}
+.source-note{border:1px solid #FDB515;border-left:4px solid #FDB515;background:#FFFEF8;padding:16px 20px;margin:24px 0;font-size:18px;line-height:1.7}
+.source-note strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.source-note a{color:#0563C1;word-break:break-all;text-decoration:underline}
+table.info-table,table.data-table{width:100%;border-collapse:collapse;margin:20px 0 30px;font-size:14px}
+table.info-table thead th,table.data-table thead th{background:#003262;color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:1px;padding:12px 14px;text-align:left;border:1px solid #002244}
+table.info-table tbody td,table.data-table tbody td{padding:12px 14px;border:1px solid #ddd;vertical-align:top;line-height:1.6}
+table.info-table tbody tr:nth-child(even),table.data-table tbody tr:nth-child(even){background:#E8EEF4}
+table.info-table tbody tr:nth-child(odd),table.data-table tbody tr:nth-child(odd){background:#fff}
+table a{color:#0563C1;word-break:break-all}
+.campus-header{font-family:'Source Sans Pro',sans-serif;font-size:20px;font-weight:700;color:#fff;background:#003262;padding:12px 20px;margin:40px 0 16px;border-left:5px solid #FDB515}
+.campus-summary{background:#f5f0e8;border:1px solid #d4c9b8;padding:14px 18px;margin-bottom:20px;font-size:14px;line-height:1.65}
+.pathway-box{background:#FAF6F0;border:1px solid #D4C9B8;border-left:4px solid #003262;padding:18px 22px;margin:18px 0 26px}
+.pathway-box .pw-title{font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:16px;color:#003262;margin-bottom:8px}
+.pathway-box .pw-auth{font-family:'Source Sans Pro',sans-serif;font-size:13px;color:#555;margin-bottom:8px}
+.pathway-box .pw-body{font-size:14px;line-height:1.7;margin-bottom:8px}
+.pathway-box .pw-how{font-size:13px;line-height:1.6;color:#444}
+.pathway-box .pw-how strong{color:#003262}
+.pathway-box a{color:#0563C1;word-break:break-all;text-decoration:underline}
+.statute-box{background:#FAF6F0;border:1px solid #D4C9B8;padding:16px 20px;margin:16px 0 24px;font-size:14px;line-height:1.7}
+.statute-box .statute-label{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:#003262;display:block;margin-bottom:6px}
+.appendix-heading{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#003262;margin:50px 0 10px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.appendix-category{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;color:#003262;margin:24px 0 10px}
+.appendix-entry{font-size:16px;line-height:1.7;margin-bottom:6px;padding-left:16px;text-indent:-16px}
+.appendix-entry a{color:#0563C1;word-break:break-all;text-decoration:underline}
+.source-id{font-weight:700;color:#003262}
+.page-footer{max-width:860px;margin:40px auto 30px;padding:16px 30px 0;border-top:2px solid #FDB515;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:12px;color:#888;line-height:1.6}
+.submission-block{background:var(--uc-blue);padding:24px 30px;margin:32px 0 0}
+.submission-block p{font-size:16px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:8px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:20px 48px;text-align:center;font-size:14px;color:rgba(255,255,255,0.5);line-height:1.8;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+.doc-footer strong{color:rgba(255,255,255,0.8)}
+@media(max-width:768px){.series-title{font-size:52px}.chapter-title{font-size:32px}.cover-content{padding:36px 20px}}
+@media print{.nav-wrap{display:none!important}.cover-page{page-break-after:always}.nav-bar,.campus-nav{display:none}}
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn active">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a><a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<div class="cover-page">
+<div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Behave Like Heroes</div>
+<div class="series-subtitle">Law &mdash; Without Enforcement</div>
+<div class="series-report">A Public Complaint Report to POST</div>
+<div class="series-commission">California Commission on Peace Officer Standards and Training</div>
+<div class="chapter-number" style="color: #FDB515;">Chapter 01<span class="ch-of" style="color: #FDB515;">of</span>&nbsp;05</div>
+<h1 class="chapter-title">A Systemwide Overview of<br>UC&rsquo;s Ten Campus Police Departments</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">UC Berkeley &mdash; UC Davis &mdash; UC Irvine &mdash; UCLA &mdash; UC Merced &mdash; UC Riverside &mdash; UC San Diego &mdash; UC San Francisco &mdash; UC Santa Barbara &mdash; UC Santa Cruz &mdash; Departmental Profiles, Incident Chronologies, and Accountability Structures</p>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+<div class="chapter-body">
+
+<div class="content">
+
+<div class="toc">
+  <h2>Table of Contents</h2>
+  <div class="toc-entry"><span class="toc-num">I.</span><span class="toc-title"><a href="#sec1">UC Berkeley</a></span></div>
+  <div class="toc-entry"><span class="toc-num">II.</span><span class="toc-title"><a href="#sec2">UC Davis</a></span></div>
+  <div class="toc-entry"><span class="toc-num">III.</span><span class="toc-title"><a href="#sec3">UC Irvine</a></span></div>
+  <div class="toc-entry"><span class="toc-num">IV.</span><span class="toc-title"><a href="#sec4">UC Los Angeles (UCLA)</a></span></div>
+  <div class="toc-entry"><span class="toc-num">V.</span><span class="toc-title"><a href="#sec5">UC Merced</a></span></div>
+  <div class="toc-entry"><span class="toc-num">VI.</span><span class="toc-title"><a href="#sec6">UC Riverside</a></span></div>
+  <div class="toc-entry"><span class="toc-num">VII.</span><span class="toc-title"><a href="#sec7">UC San Diego</a></span></div>
+  <div class="toc-entry"><span class="toc-num">VIII.</span><span class="toc-title"><a href="#sec8">UC San Francisco</a></span></div>
+  <div class="toc-entry"><span class="toc-num">IX.</span><span class="toc-title"><a href="#sec9">UC Santa Barbara</a></span></div>
+  <div class="toc-entry"><span class="toc-num">X.</span><span class="toc-title"><a href="#sec10">UC Santa Cruz</a></span></div>
+  <div class="toc-entry"><span class="toc-num"></span><span class="toc-title"><a href="#exhibits">Systemwide Data Exhibits</a></span></div>
+  <div class="toc-entry"><span class="toc-num"></span><span class="toc-title"><a href="#observations">Systemwide Observations</a></span></div>
+  <div class="toc-entry"><span class="toc-num"></span><span class="toc-title"><a href="#appendix">Source Appendix</a></span></div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION I — UC BERKELEY -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="sec1" class="campus-header">I. UC Berkeley</div>
+
+<div class="campus-summary">
+  <strong>Location:</strong> 1 Sproul Hall, Berkeley, CA 94720 &nbsp;|&nbsp; <strong>Established:</strong> 1947 (as formal police department) &nbsp;|&nbsp; <strong>Approximate Staffing:</strong> ~140 sworn officers, CSOs, and staff &nbsp;|&nbsp; <strong>Current Chief:</strong> Yogananda Pittman (February 2023–present)
+</div>
+
+<h3 class="sub-heading">Chief of Police Tenure History</h3>
+
+<table class="info-table">
+<thead><tr><th>Chief</th><th>Approximate Tenure</th><th>Notable Context</th></tr></thead>
+<tbody>
+<tr><td>Captain W. W. Wadman</td><td>Pre-1969</td><td>First UC staff member selected to attend the FBI National Academy.</td></tr>
+<tr><td>William P. Beall</td><td>1969–c. 1975</td><td>Retired Berkeley city police chief; became first university-wide UCPD coordinator across all nine campuses.</td></tr>
+<tr><td>Derry Bowles</td><td>c. 1975–c. 1989</td><td>Previously chief at UC Santa Barbara. Led department through anti-apartheid protests of the 1980s.</td></tr>
+<tr><td>Victoria L. Harrison</td><td>1990–2009 (19 years)</td><td>First female police chief in the UC system and first in Alameda County. Retired as emeritus employee; received the Berkeley Citation.</td></tr>
+<tr><td>Mitchell J. Celaya</td><td>August 2009–December 2012</td><td>First UC Berkeley chief to have started his UCPD career as an officer at Berkeley; first Latino UC police chief.</td></tr>
+<tr><td>Margo Bennett</td><td>2013–c. 2022</td><td>Served as acting chief then appointed April 2013.</td></tr>
+<tr><td>Yogananda Pittman</td><td>February 2023–present</td><td>Former assistant chief of the United States Capitol Police (USCP). Served as USCP interim chief in aftermath of January 6, 2021 events. Selected through nationwide search.</td></tr>
+</tbody>
+</table>
+
+<h3 class="sub-heading">Significant Incidents, Reviews, and Controversies</h3>
+
+<p class="body-text"><strong>People's Park (1969):</strong> On May 15, 1969, at the request of Berkeley Mayor Wallace J.S. Johnson, Governor Ronald Reagan ordered the Berkeley Police Department and California Highway Patrol to <a href="https://en.wikipedia.org/wiki/1969_People%27s_Park_protest" target="_blank">clear People's Park</a>. This event &mdash; known as <a href="https://guides.lib.berkeley.edu/peoplespark/history_bloodythursday" target="_blank">&ldquo;Bloody Thursday&rdquo;</a> &mdash; occurred during the same period that Chief Beall was first appointed to lead UCPD Berkeley and serve as the first systemwide coordinator.</p>
+
+<p class="body-text"><strong>Anti-Apartheid Protests (1980s):</strong> Under Chief Bowles, the department managed <a href="https://www.lib.berkeley.edu/find/collections/online-exhibits/divestment-now" target="_blank">massive sit-ins and demonstrations</a> surrounding the university's <a href="https://www.universityofcalifornia.edu/news/how-students-helped-end-apartheid" target="_blank">investments in South Africa</a>.</p>
+
+<p class="body-text"><strong>2011 Occupy Protests:</strong> During the <a href="https://en.wikipedia.org/wiki/Occupy_Cal" target="_blank">Occupy movement</a>, UC Berkeley police <a href="https://www.democracynow.org/2011/11/11/full_video_39_arrested_with_occupy_cal_in_forceful_crackdown_on_student_protest_at_uc_berkeley" target="_blank">used batons against students and faculty</a>, drawing <a href="https://www.insidehighered.com/news/2011/11/16/university-california-berkeley-protesters-occupy-campus" target="_blank">national criticism</a>. These events occurred contemporaneously with the UC Davis pepper spray incident. A subsequent UC-wide review of protest response protocols was initiated.</p>
+
+<p class="body-text"><strong>2023 Leadership Change:</strong> Chief Yogananda Pittman was <a href="https://news.berkeley.edu/2023/02/01/its-official-uc-berkeleys-new-police-chief-is-sworn-in-today/" target="_blank">sworn in on February 1, 2023</a>, bringing experience from the U.S. Capitol Police, where she had overseen a force of several hundred officers and had served as interim chief following the January 6, 2021, events at the Capitol. At Berkeley, the department encompasses approximately 140 sworn officers, community safety officers, and staff.</p>
+
+<h3 class="sub-heading">Accountability Structure</h3>
+
+<p class="body-text">UC Berkeley has established a Police Accountability Board as directed by the UC Community Safety Plan. The campus has also implemented community engagement programs and data transparency dashboards accessible through the UC Community Safety Dashboard system.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> Chief tenure history: <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">Wikipedia — UC Police Departments</a>. Chief Pittman biography: <a href="https://ucpd.berkeley.edu/about/office-chief" target="_blank">ucpd.berkeley.edu</a>. Swearing-in coverage: <a href="https://news.berkeley.edu/2023/02/01/its-official-uc-berkeleys-new-police-chief-is-sworn-in-today/" target="_blank">Berkeley News, Feb. 1, 2023</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION II — UC DAVIS -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="sec2" class="campus-header">II. UC Davis</div>
+
+<div class="campus-summary">
+  <strong>Location:</strong> 760 Drew Avenue, Davis, CA 95616 &nbsp;|&nbsp; <strong>Current Chief:</strong> Joseph A. "Joe" Farrow (August 2017–present) &nbsp;|&nbsp; <strong>Accreditation:</strong> IACLEA-accredited (one of only two UC departments with this distinction)
+</div>
+
+<h3 class="sub-heading">Chief of Police Tenure History</h3>
+
+<table class="info-table">
+<thead><tr><th>Chief</th><th>Approximate Tenure</th><th>Notable Context</th></tr></thead>
+<tbody>
+<tr><td>Annette Spicuzza</td><td>c. 2009–April 2012</td><td>Resigned in April 2012 following the November 2011 pepper spray incident. The Reynoso Task Force report found her leadership of the department "dysfunctional."</td></tr>
+<tr><td>Interim/Acting Chiefs</td><td>2012–2017</td><td>Multiple interim and acting chiefs served during the post-pepper-spray reform period.</td></tr>
+<tr><td>Joseph A. "Joe" Farrow</td><td>August 2017–present</td><td>Former Commissioner of the California Highway Patrol (2008–July 2017). Under his leadership, UC Davis PD earned IACLEA accreditation — one of only two UC police departments with this distinction.</td></tr>
+</tbody>
+</table>
+
+<h3 class="sub-heading">Significant Incidents, Reviews, and Controversies</h3>
+
+<p class="body-text"><strong>November 18, 2011 &mdash; Pepper Spray Incident:</strong> On November 18, 2011, during Occupy movement protests on the UC Davis Quad, campus police Lieutenant John Pike <a href="https://en.wikipedia.org/wiki/UC_Davis_pepper_spray_incident" target="_blank">used MK-9 pepper spray on seated, nonviolent student demonstrators at close range</a>. Videos of the incident became one of the most recognizable images of the nationwide Occupy movement. The incident resulted in the following documented consequences:</p>
+
+<p class="body-text">The <a href="https://demonstrationreviews.ucdavis.edu/local_resources/pdf_documents/reynoso-report.pdf" target="_blank">Independent Reynoso Task Force</a>, chaired by former California Supreme Court Justice Cruz Reynoso and appointed by UC President Mark G. Yudof, released its report in April 2012. The report concluded that the pepper spray deployment <a href="https://www.police1.com/crowd-control/articles/pepper-spray-report-critical-of-uc-davis-police-Bxj7sEUaSGWRCWeS/" target="_blank">&ldquo;should and could have been prevented&rdquo;</a> and that Lieutenant Pike's use of MK-9 pepper spray on seated, non-resisting students was <a href="https://www.kqed.org/news/61957/the-section-of-the-uc-davis-pepper-spray-report-that-deals-with-lt-john-pike" target="_blank">&ldquo;objectively unreasonable.&rdquo;</a> The task force found that officers used an unauthorized stream-delivery method rather than the policy-approved fog variant, and that Pike had no clearly defined role in the operations plan yet was responsible for the key decision about the weapon used.</p>
+
+<p class="body-text">Chief Annette Spicuzza resigned in April 2012. The Reynoso Task Force report cited evidence that Spicuzza conceded "officers will do things their own way and there is nothing she can do about it." At least one officer stated in interviews that during the incident, he observed the chief standing in the crowd filming police actions with her cellphone rather than commanding the operation.</p>
+
+<p class="body-text">Lieutenant Pike and Officer Manuel Lee were placed on paid administrative leave on November 20, 2011. An internal affairs investigation concluded in a 76-page report dated March 1, 2012, determining that Pike's use of pepper spray was &ldquo;reasonable under the circumstances&rdquo; &mdash; a finding that directly contradicted the Reynoso Task Force's conclusion of &ldquo;objectively unreasonable&rdquo; force. Pike's employment ended July 31, 2012. In 2013, Pike was <a href="https://www.cbsnews.com/sacramento/news/pepper-spray-cop-former-uc-davis-officer-pike-awarded-nearly-40000-in-comp-claim/" target="_blank">awarded a $38,056 workers' compensation settlement for psychiatric injuries</a> &mdash; approximately $8,000 more than the $30,000 each pepper-sprayed student received.</p>
+
+<p class="body-text">The ACLU of Northern California represented the students in a lawsuit that resulted in a $1 million settlement: $730,000 to the 21 named plaintiffs ($30,000 each), $100,000 for others pepper-sprayed or wrongfully arrested, and $250,000 for costs and attorney fees.</p>
+
+<p class="body-text">UC Davis subsequently <a href="https://www.cbsnews.com/sacramento/news/uc-davis-pepper-spray-saga/" target="_blank">paid public relations firms $175,000</a> to attempt to remove references to the pepper spray incident from the internet &mdash; a fact that generated additional controversy when disclosed.</p>
+
+<div class="key-finding">
+  <strong>Key Finding:</strong> The UC Davis pepper spray incident produced two directly contradictory findings: the internal affairs investigation found Lieutenant Pike's actions "reasonable under the circumstances," while the independent Reynoso Task Force found the same actions "objectively unreasonable." This pattern — where internal review exonerates and external review criticizes — recurs across the UC police system and is a structural concern documented throughout this series.
+</div>
+
+<h3 class="sub-heading">Post-Incident Reforms</h3>
+
+<p class="body-text">In the decade following the incident, UC Davis <a href="https://www.ucdavis.edu/news/decade-listening-and-acting" target="_blank">implemented significant reforms</a>: officers no longer respond to protests; a Police Accountability Board was established in 2014 (the first on a UC campus and one of the first at any university in California); three vacant uniformed officer positions were eliminated and funding reallocated to support reform positions; a transparency dashboard was launched in September 2021 covering public safety, accountability, and department operations; and the department earned IACLEA accreditation under Chief Farrow.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> Reynoso Task Force Report (April 2012): publicly available through UC Davis archives. Pepper spray incident: <a href="https://en.wikipedia.org/wiki/UC_Davis_pepper_spray_incident" target="_blank">Wikipedia</a>. Pike workers' comp: <a href="https://www.cbsnews.com/sacramento/news/pepper-spray-cop-former-uc-davis-officer-pike-awarded-nearly-40000-in-comp-claim/" target="_blank">CBS Sacramento, Oct. 2013</a>. PR expenditure: <a href="https://www.cbsnews.com/sacramento/news/uc-davis-pepper-spray-saga/" target="_blank">CBS Sacramento, Nov. 2021</a>. Chief Farrow and IACLEA accreditation: <a href="https://www.ucdavis.edu/news/decade-listening-and-acting" target="_blank">UC Davis News, Nov. 2021</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION III — UC IRVINE -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="sec3" class="campus-header">III. UC Irvine</div>
+
+<div class="campus-summary">
+  <strong>Location:</strong> 410 E. Peltason Drive, Irvine, CA 92697 &nbsp;|&nbsp; <strong>Current Chief:</strong> Liz Griffin &nbsp;|&nbsp; <strong>Accreditation:</strong> IACLEA-accredited (September 2024), one of only two UC police departments with this distinction. Achieved 93% of optional standards, exceeding IACLEA minimums.
+</div>
+
+<h3 class="sub-heading">Department Profile</h3>
+
+<p class="body-text">The <a href="https://www.police.uci.edu/" target="_blank">UC Irvine Police Department</a> provides public safety services at both the Irvine campus and the UC Irvine Medical Center, located in the City of Orange, California. The department began its accreditation review process on February 14, 2022, and <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">achieved official accreditation from the International Association of Campus Law Enforcement Administrators (IACLEA) in September 2024</a>. In addition to meeting all mandatory standards, the department exceeded expectations by achieving 93% of the optional standards &mdash; surpassing IACLEA's minimum requirements.</p>
+
+<h3 class="sub-heading">Significant Incidents</h3>
+
+<p class="body-text"><strong>2020 COLA Protests:</strong> In February 2020, during the Cost of Living Adjustment (COLA) movement, UC Irvine students rushed into an administration building. Videos were released showing UC Irvine police using force on students. A Black woman reportedly unaffiliated with the action was also arrested, according to statements from UC Irvine's COLA movement organizers.</p>
+
+<p class="body-text"><strong>2024 Gaza Solidarity Encampment:</strong> UC Irvine experienced protest activity as part of the nationwide campus encampment movement in spring 2024. Police response was documented alongside other UC campuses.</p>
+
+<h3 class="sub-heading">Accountability Structure</h3>
+
+<p class="body-text">UC Irvine has established a Police Accountability Board as directed by the UC Community Safety Plan. The department maintains <a href="https://www.police.uci.edu/data-dashboards/budget.php" target="_blank">data dashboards</a> providing information on crime statistics, calls for service, and departmental activity. The department publishes budget dashboard data covering multiple fiscal years.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> Department information and accreditation: <a href="https://www.police.uci.edu/" target="_blank">police.uci.edu</a>. IACLEA accreditation details: <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">Wikipedia — UC Police Departments</a>. Budget dashboard: <a href="https://www.police.uci.edu/data-dashboards/budget.php" target="_blank">police.uci.edu — Budget Dashboard</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION IV — UCLA -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="sec4" class="campus-header">IV. UC Los Angeles (UCLA)</div>
+
+<div class="campus-summary">
+  <strong>Location:</strong> 601 Westwood Plaza, Los Angeles, CA 90095 &nbsp;|&nbsp; <strong>Established:</strong> Formal police department operations date to the mid-twentieth century &nbsp;|&nbsp; <strong>Current Chief:</strong> Chief 5 (September 1, 2025–present) &nbsp;|&nbsp; <strong>Notable Programs:</strong> Community Service Officer (CSO) program; UCLA Emergency Medical Services (UCLA EMS), responding to over 1,700 9-1-1 medical calls annually
+</div>
+
+<h3 class="sub-heading">Chief of Police Tenure History</h3>
+
+<table class="info-table">
+<thead><tr><th>Chief</th><th>Approximate Tenure</th><th>Notable Context</th></tr></thead>
+<tbody>
+<tr><td>Chief 1</td><td>Pre-1994</td><td>Terminated following corruption investigation. UCLA's Luskin Center for History and Policy documented these events in its March 2022 publication, "The History of Racism and the Quest for Racial Justice at UCLA" (pp. 35–36, footnotes 147–164).</td></tr>
+<tr><td>Chief 3</td><td>c. 1994–unknown</td><td>Hired as new chief following Chief 1's termination. Continued investigations into the officer who had exposed the corruption.</td></tr>
+<tr><td>Interim/Acting Chiefs</td><td>Various</td><td>Multiple interim and acting chiefs served across subsequent years.</td></tr>
+<tr><td>John Thomas</td><td>December 2022 (interim)–January 2024 (appointed)–December 10, 2024 (departed)</td><td>Former LAPD lieutenant; former USC Department of Public Safety executive director (2013–2022). Departed after criticism of response to spring 2024 protests. Fourth person to lead department in under two years.</td></tr>
+<tr><td>Gawin Gibson</td><td>May–October 2024 (acting)</td><td>Served as acting chief after Thomas was "temporarily reassigned." Later placed on administrative leave.</td></tr>
+<tr><td>Scott Scheffler</td><td>October 2024–September 2025 (interim)</td><td>Captain who had been with UCPD since 2003. UCLA alumnus (mathematics/applied science). Served as department spokesperson and administrative bureau captain. Captain 2 listed as acting administrative bureau captain during this period.</td></tr>
+<tr><td>Chief 5</td><td>September 1, 2025–present</td><td>UCLA alumnus (B.A. Political Science, 1996). Former LAPD commander with nearly three decades of LAPD service. Graduate of FBI National Academy, Sherman Block Supervisory Leadership Institute (POST), and LAPD Command Development Program. Holds M.P.A. from USC. Selected through nationwide search.</td></tr>
+</tbody>
+</table>
+
+<div class="key-finding">
+  <strong>Key Finding:</strong> Between December 2022 and September 2025 — a period of approximately 33 months — the UCLA Police Department was led by four different individuals (Thomas, Gibson, Scheffler, Valenzuela), reflecting a period of significant leadership instability following the spring 2024 protest response.
+</div>
+
+<h3 class="sub-heading">Significant Incidents, Reviews, and Controversies</h3>
+
+<p class="body-text"><strong>1990s &mdash; Corruption Investigation and Whistleblowing:</strong> In the early 1990s, an officer within the UCLA Police Department conducted a criminal investigation and exposed institutional corruption including the sale of police vehicles to the Tijuana Police Department and movie studios for cash, missing vehicle identification numbers, ghost payroll practices, drug asset tire sales, and hospital theft/extortion schemes. UC investigated and terminated the UCLA Chief of Police and command staff. These events were later documented in UCLA's Luskin Center for History and Policy publication, <a href="https://luskincenter.history.ucla.edu/wp-content/uploads/sites/66/2022/03/History-of-Racism-and-the-Quest-for-Racial-Justice-at-UCLA.pdf" target="_blank">&ldquo;The History of Racism and the Quest for Racial Justice at UCLA&rdquo; (March 2022, pp. 35&ndash;36, footnotes 147&ndash;164)</a>, citing contemporaneous press coverage from the Santa Monica College Corsair (March 16 and March 23, 1994). The officer who conducted the investigation also founded the <a href="https://federateduniversitypoa.org" target="_blank">Federated University Police Officers' Association (FUPOA)</a>, the first National Labor Relations Board-recognized statewide law enforcement bargaining unit in UC history.</p>
+
+<p class="body-text"><strong>1990s — Contemporaneous Press Coverage:</strong> During the same period (1992–1994), four independent campus newspaper investigations across three UC campuses — the UC Davis California Aggie (October 19, 1992), the UC Riverside Highlander (May 18, 1993), and the Santa Monica College Corsair (March 16 and March 23, 1994) — documented the same categories of institutional misconduct that were being reported internally. The Los Angeles Times published additional coverage on February 25, 1993, and April 24, 1994.</p>
+
+<p class="body-text"><strong>April 30&ndash;May 1, 2024 &mdash; Palestine Solidarity Encampment:</strong> On the evening of April 30, 2024, <a href="https://www.nytimes.com/interactive/2024/05/03/us/ucla-protests-encampment-violence.html" target="_blank">counter-protesters attacked the Palestine solidarity encampment at UCLA with fireworks and tear gas at approximately 10:50 p.m.</a> Although UCLA confirmed law enforcement had been called on May 1 at 12:12 a.m., police did not intervene to protect encampment participants for <a href="https://www.cnn.com/2024/05/16/us/ucla-student-protests-counterprotesters-invs" target="_blank">more than two hours</a>. The following day, law enforcement from multiple agencies &mdash; including UCLA Police, LAPD, and CHP &mdash; <a href="https://en.wikipedia.org/wiki/2024_University_of_California,_Los_Angeles_pro-Palestinian_campus_occupation" target="_blank">dismantled the encampment, arresting more than 200 people</a> and deploying tear gas, flash-bang grenades, and rubber bullets.</p>
+
+<p class="body-text"><strong>21st Century Policing Solutions Investigation (2024):</strong> UC President Michael V. Drake <a href="https://www.universityofcalifornia.edu/press-room/uc-releases-statement-regarding-independent-review-ucla-spring-protests-commits" target="_blank">hired the security firm 21st Century Policing Solutions to conduct an independent investigation</a>. The <a href="https://laist.com/news/education/ucla-police-chief-john-thomas-gone" target="_blank">resulting report, released in November 2024, found that UCLA failed to protect students</a> because of a &ldquo;highly chaotic&rdquo; decision-making process, lack of communication among campus leaders and police, and other shortfalls that led to <a href="https://www.insidehighered.com/news/quick-takes/2024/11/18/report-shows-ucla-was-unprepared-protests" target="_blank">&ldquo;institutional paralysis.&rdquo;</a> The report found that UCLA PD was &ldquo;almost entirely uninvolved in decision-making&rdquo; and that administrators had ordered police to &ldquo;remain out of sight&rdquo; and blocked efforts to prevent students from bringing in barriers and equipment.</p>
+
+<p class="body-text"><strong>FUPOA Response:</strong> The Federated University Police Officers' Association stated that former Chief John Thomas had been made a <a href="https://dailybruin.com/2024/12/11/former-chief-john-thomas-departs-uc-police-department" target="_blank">&ldquo;scapegoat for the university's missteps,&rdquo;</a> noting that law enforcement had been deliberately excluded from critical meetings and decision-making processes.</p>
+
+<p class="body-text"><strong>Office of Campus and Community Safety:</strong> In May 2024, Chancellor Gene Block created the Office of Campus and Community Safety to oversee policing and public safety at UCLA, led by Rick Braziel (former Sacramento police chief) as associate vice chancellor. This represented a structural change in the governance of UCLA PD. Subsequently, Steve Lurie was appointed as Associate Vice Chancellor for Campus and Community Safety and oversaw the search for a permanent chief.</p>
+
+<h3 class="sub-heading">AB 48 Compliance</h3>
+
+<p class="body-text">A <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">September 2025 LAist investigation</a> found that UCLA's police department was the only UC campus police force to appear on the California Department of Justice's statewide AB 48 webpage &mdash; the law requiring reporting on use of chemical agents and less-lethal projectiles during protest responses. UCLA documented one incident in June 2024 involving chemical agents and one 40mm sponge projectile during a protest response. The remaining nine UC campus police departments did not have public-facing reports, despite several having used such weapons during the same period.</p>
+
+<p class="body-text">In <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">the same LAist report</a>, Captain 2 (then serving as acting captain) stated: &ldquo;The legal statutes are all there regardless of agency size. We're stewards of the public and we're part of the community, so the community needs to know what its police department is doing.&rdquo;</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> 1990s corruption and FUPOA founding: UCLA Luskin Center, <a href="https://luskincenter.history.ucla.edu/wp-content/uploads/sites/66/2022/03/History-of-Racism-and-the-Quest-for-Racial-Justice-at-UCLA.pdf" target="_blank">"The History of Racism and the Quest for Racial Justice at UCLA" (March 2022)</a>, pp. 35–36, fn. 147–164. 2024 protest timeline: <a href="https://dailybruin.com/2024/12/11/former-chief-john-thomas-departs-uc-police-department" target="_blank">Daily Bruin, Dec. 11, 2024</a>. 21CP investigation: <a href="https://laist.com/news/education/ucla-police-chief-john-thomas-gone" target="_blank">LAist, Dec. 13, 2024</a>. Chief Valenzuela appointment: <a href="https://newsroom.ucla.edu/releases/craig-valenzuela-appointed-ucla-chief-of-police" target="_blank">UCLA Newsroom, July 28, 2025</a>. AB 48 compliance: <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist, Sept. 2025</a>. FUPOA statement: <a href="https://laist.com/brief/news/education/ucla-police-chief-john-thomas-gone" target="_blank">LAist (brief), Dec. 2024</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION V — UC MERCED -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="sec5" class="campus-header">V. UC Merced</div>
+
+<div class="campus-summary">
+  <strong>Location:</strong> 5200 N. Lake Road, Merced, CA 95343 &nbsp;|&nbsp; <strong>Established:</strong> 2005 (campus opened) &nbsp;|&nbsp; <strong>Profile:</strong> Tenth and newest UC campus, located in the San Joaquin Valley. Smallest UC police department.
+</div>
+
+<h3 class="sub-heading">Department Profile</h3>
+
+<p class="body-text">The UC Merced Police Department is the newest in the UC system, having been established when the campus opened in September 2005. The department provides 24-hour public safety services to the campus and associated university property. As the smallest campus, UC Merced PD has a proportionally smaller sworn officer complement compared to the older, larger campuses. The department has not reported any use of less-lethal weapons in the UC Community Safety Dashboard use-of-force data, as of the most recent reporting period.</p>
+
+<h3 class="sub-heading">Accountability Structure</h3>
+
+<p class="body-text">UC Merced has established a <a href="https://pab.ucmerced.edu/complaints" target="_blank">Police Accountability Board (PAB)</a> staffed by university employees who are independent from the police department. Complaints are received, reviewed, and investigated by the Ethics &amp; Compliance department, which reports to the Chancellor's Office. Investigation reports are forwarded to the PAB for independent review, and the PAB's recommendations are sent to the UC Merced Chancellor and Chief of Police. The PAB documents the department's actions in an annual report and a public database.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> UC Merced PAB: <a href="https://pab.ucmerced.edu/complaints" target="_blank">pab.ucmerced.edu</a>. Campus profile: <a href="https://federateduniversitypoa.org/uc-merced" target="_blank">FUPOA — UC Merced</a>. Use-of-force data: <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist, Sept. 2025</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION VI — UC RIVERSIDE -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="sec6" class="campus-header">VI. UC Riverside</div>
+
+<div class="campus-summary">
+  <strong>Location:</strong> 3500 Canyon Crest, Riverside, CA &nbsp;|&nbsp; <strong>Current Director of Campus Safety/Chief of Police:</strong> Jeff Talbott &nbsp;|&nbsp; <strong>Previous Interim Chief:</strong> Anthony Frisbee (February 2022)
+</div>
+
+<h3 class="sub-heading">Department Profile and Leadership</h3>
+
+<p class="body-text">The UC Riverside Police Department operates under a combined Director of Campus Safety/Chief of Police structure, reporting through the Vice Chancellor of Health, Well-Being, and Safety. In March 2022, UC Riverside <a href="https://insideucr.ucr.edu/stories/2022/03/01/meet-ucrs-new-interim-police-chief" target="_blank">named Anthony Frisbee as interim chief of police</a>. Frisbee had previously served 17 years with the UC Irvine police department, most recently as a lieutenant managing UCI's medical campus in the City of Orange. He replaced interim Chief John Freese, who retired after 27 years with the department. UCR conducted a national search for a permanent chief.</p>
+
+<h3 class="sub-heading">Significant Incidents</h3>
+
+<p class="body-text"><strong>AB 48 Reporting Non-Compliance:</strong> A <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">September 2025 LAist investigation</a> documented that a UC Riverside police officer fired several rounds &ldquo;at a person who was assaulting officers&rdquo; while providing mutual aid assistance to UC Berkeley police. Lieutenant Jason Day confirmed to LAist that UC Riverside had not reported that incident to the California Department of Justice &mdash; a step required by California law. Day stated that his department's smaller size created capacity issues that interfered with their ability to fulfill all reporting requirements: &ldquo;A lot of times things are just going to have to get set aside.&rdquo; Day said the agency would look to update its website with the correct reporting requirements under AB 48 but acknowledged: &ldquo;There's more homework on my part that needs to be done.&rdquo;</p>
+
+<p class="body-text"><strong>2020 Defunding Calls:</strong> UC Riverside's Black Student Union <a href="https://calmatters.org/education/2020/06/students-push-uc-to-abolish-police-departments/" target="_blank">called for defunding the police department in 2020</a>. Then-Chief Mike Lane responded publicly that &ldquo;campus police are specially trained and prepared to deal with critical incidents, some of which have dynamics specific to a campus community.&rdquo;</p>
+
+<h3 class="sub-heading">Accountability Structure</h3>
+
+<p class="body-text">UC Riverside has established a <a href="https://diversity.ucr.edu/ucr-police-accountability-board" target="_blank">Police Accountability Board (PAB)</a> as a civilian advisory body providing oversight review and advisory recommendations. The PAB reviews independent investigations into civilian complaints of alleged police misconduct and submits advisory recommendations to the Director of Campus Safety/Chief of Police, the Vice Chancellor of Health, Well-Being, and Safety, and Chancellor Kim Wilcox. The PAB holds an institutional membership with the National Association for Civilian Oversight of Law Enforcement (NACOLE).</p>
+
+<div class="key-finding">
+  <strong>Key Finding:</strong> UC Riverside's publicly documented acknowledgment that department size prevents compliance with state reporting requirements — a position articulated on the record by a department lieutenant — raises questions about whether smaller UC police departments possess the institutional capacity to meet the full scope of their legal obligations as sworn law enforcement agencies.
+</div>
+
+<div class="source-note">
+  <strong>Source Note:</strong> AB 48 non-compliance: <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist, Sept. 2025</a>. Interim Chief Frisbee: <a href="https://insideucr.ucr.edu/stories/2022/03/01/meet-ucrs-new-interim-police-chief" target="_blank">Inside UCR, March 2022</a>. PAB: <a href="https://diversity.ucr.edu/ucr-police-accountability-board" target="_blank">diversity.ucr.edu</a>. Defunding calls: <a href="https://calmatters.org/education/2020/06/students-push-uc-to-abolish-police-departments/" target="_blank">CalMatters, June 2020</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION VII — UC SAN DIEGO -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="sec7" class="campus-header">VII. UC San Diego</div>
+
+<div class="campus-summary">
+  <strong>Location:</strong> 9500 Gilman Drive #0017, La Jolla, CA &nbsp;|&nbsp; <strong>Staffing:</strong> 17 police officers and corporals in Patrol Division; 4 detectives and 1 detective sergeant in Investigations Unit; 20 residential security officers; 70+ student CSOs &nbsp;|&nbsp; <strong>Previous Interim Chief:</strong> Gregory Murphy (2022)
+</div>
+
+<h3 class="sub-heading">Department Profile and Leadership</h3>
+
+<p class="body-text">UC San Diego Police Department serves a campus of eight colleges, each with their own residence areas. <a href="https://today.ucsd.edu/story/community-safety-start-with-respect-and-dignity" target="_blank">Gregory Murphy served as interim chief in 2022</a> before departing to become interim chief at San Diego State University. Murphy had previously served with LAPD for 10 years and as a lieutenant at UC Davis before working at POST and CSU Northridge. UC San Diego has been pursuing IACLEA accreditation as part of its community safety reforms.</p>
+
+<h3 class="sub-heading">Significant Incidents</h3>
+
+<p class="body-text"><strong>2010 &ldquo;Compton Cookout&rdquo; and Racist Incidents:</strong> In 2010, members of a UC San Diego fraternity and other students held a <a href="https://en.wikipedia.org/wiki/Compton_Cookout" target="_blank">&ldquo;Compton Cookout&rdquo;</a> &mdash; a party that mocked Black History Month through anti-Black racist stereotypes. This triggered a series of prominent racist incidents on campus, including <a href="https://newuniversity.org/2010/03/02/racial-conflict-strikes-ucsd-with-compton-cook-out-and-noose/" target="_blank">the hanging of a noose in Geisel Library</a>. The UC San Diego Black Student Union and MEChA organized protests that received national attention.</p>
+
+<p class="body-text"><strong>2020 Use-of-Force Records Controversy:</strong> When the non-profit news site Voice of San Diego requested records of incidents in which UC San Diego police officers used force to subdue suspects &mdash; records deemed public information under California law &mdash; <a href="https://calmatters.org/education/2020/06/students-push-uc-to-abolish-police-departments/" target="_blank">the university produced only two case files</a>. UC omitted records of a number of alleged assaults by officers that had been documented in media reports and internal university reviews.</p>
+
+<p class="body-text"><strong>2021 Officer Discrimination Lawsuit:</strong> In July 2021, <a href="https://ucsdguardian.org/2021/10/17/black-ucsd-police-officer-files-lawsuit-against-ucsd/" target="_blank">James Stev&eacute;, a Black police officer in the UC San Diego division of UCPD, filed a lawsuit against the UC Board of Regents and UCSD</a>. Stev&eacute; alleged racially discriminatory actions he experienced while serving, including derogatory comments, surveillance by unmarked UCSD-PD patrol vehicles outside his home, removal from assignments resulting in pay reductions, and the department's failure to investigate his complaints. Stev&eacute; had previously left the UCSB police force due to discrimination. The lawsuit alleged violations of First Amendment rights, the California Whistleblower Protection Act, negligent infliction of emotional distress, and California Labor Code &sect; 1102.5.</p>
+
+<p class="body-text"><strong>May 6, 2024 &mdash; Gaza Solidarity Encampment:</strong> Chancellor Pradeep Khosla called on UCPD, the San Diego County Sheriff's Department, and California Highway Patrol in riot gear to dismantle a pro-Palestine solidarity encampment. <a href="https://ucsdguardian.org/2024/05/06/daily-updates-ucsd-solidarity-for-gaza-encampment/" target="_blank">Sixty-four individuals were arrested and charged with unlawful assembly; 40 were students who received interim suspensions</a>. <a href="https://thecoastnews.com/ucsd-faces-backlash-for-police-force-against-protestors/" target="_blank">Police deployed pepper spray during the enforcement action</a>. Faculty from the Ethnic Studies department called for the chancellor's resignation, and hundreds of graduate students signed an open letter condemning the university's response.</p>
+
+<h3 class="sub-heading">Accountability Structure</h3>
+
+<p class="body-text">UC San Diego has established a Police Accountability Board to impartially review investigative reports related to allegations of police misconduct and to make recommendations regarding complaints filed by members of the public. The campus has also deployed a Triton CORE (Crisis Outreach Response and Engagement) mobile response team composed of licensed behavioral health professionals for mental health crisis response.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> Stevé lawsuit: <a href="https://ucsdguardian.org/2021/10/17/black-ucsd-police-officer-files-lawsuit-against-ucsd/" target="_blank">UCSD Guardian, Oct. 17, 2021</a>. Use-of-force records: <a href="https://calmatters.org/education/2020/06/students-push-uc-to-abolish-police-departments/" target="_blank">CalMatters, June 2020</a>. 2024 encampment: <a href="https://thecoastnews.com/ucsd-faces-backlash-for-police-force-against-protestors/" target="_blank">The Coast News, May 2024</a>. Department staffing: <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">Wikipedia</a>. Murphy profile: <a href="https://today.ucsd.edu/story/community-safety-start-with-respect-and-dignity" target="_blank">UC San Diego Today</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION VIII — UC SAN FRANCISCO -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="sec8" class="campus-header">VIII. UC San Francisco</div>
+
+<div class="campus-summary">
+  <strong>Location:</strong> 654 Minnesota St, Suite 180, San Francisco, CA &nbsp;|&nbsp; <strong>Profile:</strong> UCSF is unique within the UC system as a health sciences-only campus with no undergraduate students. Police provide 24-hour patrol at all San Francisco and San Mateo County sites.
+</div>
+
+<h3 class="sub-heading">Department Profile</h3>
+
+<p class="body-text">The UC San Francisco Police Department is distinct within the UC system because UCSF operates exclusively as a health sciences campus — the only UC campus without a general undergraduate student population. The department's policing environment is shaped by the campus's multi-site urban footprint across San Francisco and San Mateo County, including medical centers, research facilities, and clinical care sites. All sworn officers have full police powers statewide, with primary jurisdiction on property owned, operated, or controlled by UCSF.</p>
+
+<p class="body-text">UCSF, along with UC Merced, has not reported any use of less-lethal weapons in the UC Community Safety Dashboard use-of-force data, as of the most recent reporting period. The campus's health sciences focus and absence of a traditional undergraduate student population have resulted in a different policing profile compared to campuses with large residential student communities.</p>
+
+<h3 class="sub-heading">Accountability Structure</h3>
+
+<p class="body-text">UCSF has established community safety structures aligned with the UC Community Safety Plan. The department maintains compliance with the UC Community Safety Plan Dashboard reporting requirements.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> Department profile: <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">Wikipedia — UC Police Departments</a>. Dashboard: <a href="https://police.ucsf.edu/uc-community-safety-plan-dashboard" target="_blank">police.ucsf.edu</a>. Use-of-force data: <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist, Sept. 2025</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION IX — UC SANTA BARBARA -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="sec9" class="campus-header">IX. UC Santa Barbara</div>
+
+<div class="campus-summary">
+  <strong>Location:</strong> Public Safety Building #574, Stadium &amp; Mesa Roads, Santa Barbara, CA 93106 &nbsp;|&nbsp; <strong>Current Chief:</strong> See leadership history below &nbsp;|&nbsp; <strong>Notable Programs:</strong> Community Service Officer (CSO) program; formerly operated an Emergency Medical Services (EMS) ambulance program (discontinued July 2011)
+</div>
+
+<h3 class="sub-heading">Department Profile</h3>
+
+<p class="body-text">The UC Santa Barbara Police Department serves a campus that is uniquely situated adjacent to Isla Vista, an unincorporated community of approximately 23,000 residents — predominantly university students — in Santa Barbara County. This geographic relationship gives the department a policing environment distinct from most UC campuses, as it interfaces closely with the Santa Barbara County Sheriff's Office Isla Vista Foot Patrol, the Santa Barbara Police Department, and the California Highway Patrol.</p>
+
+<p class="body-text">The department formerly operated an Emergency Medical Services program with a Type III ambulance, providing paramedic-level care to the campus and surrounding Isla Vista community 24 hours a day. This service was discontinued in July 2011, with Santa Barbara County Fire Department assuming primary medical response.</p>
+
+<h3 class="sub-heading">Significant Incidents</h3>
+
+<p class="body-text"><strong>May 23, 2014 &mdash; Isla Vista Mass Shooting:</strong> On May 23, 2014, <a href="https://en.wikipedia.org/wiki/2014_Isla_Vista_killings" target="_blank">22-year-old Elliot Rodger killed six people and injured fourteen others</a> in a rampage that included stabbings, shootings, and vehicular attacks across multiple blocks of Isla Vista. Rodger killed three people at his apartment, then drove through Isla Vista shooting and striking pedestrians before being fatally shot by Santa Barbara County sheriff's deputies. The Santa Barbara County Sheriff's Office led the investigation, assisted by UCSB Police, CHP, Santa Barbara Police, the District Attorney's Office, and the DOJ crime lab. <a href="https://www.independent.com/2024/05/22/ten-years-after-the-isla-vista-killings/" target="_blank">This tragedy led to California becoming the first state to pass a red-flag law</a> permitting family members to petition for gun removal.</p>
+
+<p class="body-text"><strong>March 2025 &mdash; Isla Vista Shooting and Arrest:</strong> On March 19, 2025, a woman was shot during an armed robbery in Isla Vista. <a href="https://www.edhat.com/news/suspect-in-isla-vista-shooting-arrested-in-northern-california/" target="_blank">UCSB Police, working in collaboration with UC Berkeley Police, the City of Concord Police Department, and the U.S. Marshals Fugitive Apprehension Task Force, arrested 20-year-old Jackson Kyle Jue in Concord, California, on March 20, 2025</a>. Jue was charged with attempted homicide, robbery, and assault. The firearm used in the shooting was recovered from his residence at the Tropicana student residence hall in Isla Vista.</p>
+
+<h3 class="sub-heading">Accountability Structure</h3>
+
+<p class="body-text">A <a href="https://calmatters.org/education/2020/06/students-push-uc-to-abolish-police-departments/" target="_blank">2020 CalMatters review</a> found that UCLA and UC Santa Cruz lacked independent police advisory boards at that time &mdash; noting that boards on both campuses reported to police chiefs rather than to independent administrators. UC Santa Barbara has since implemented accountability structures aligned with the UC Community Safety Plan. The department publishes <a href="https://www.police.ucsb.edu/" target="_blank">officer-initiated stop data, use-of-force reports, and a daily crime and fire log</a> consistent with Clery Act requirements.</p>
+
+
+<h3 class="sub-heading">Leadership History and Whistleblower Lawsuits</h3>
+
+<p class="body-text"><strong>Chief Dustin Olson resigned in March 2019</strong> amid four separate whistleblower lawsuits filed against the department. The lawsuits alleged retaliation against officers who reported misconduct, creating a pattern consistent with the systemic whistleblower retaliation documented elsewhere in this series. Olson's departure is one of several chief-level resignations across the UC system during periods of documented internal conflict — a pattern identified in Chapter 01's leadership stability analysis.</p>
+
+<p class="body-text">The UCSB chief position has experienced leadership transitions characteristic of the broader systemwide pattern of instability documented across multiple UC campuses.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> 2014 Isla Vista tragedy: <a href="https://www.independent.com/2024/05/22/ten-years-after-the-isla-vista-killings/" target="_blank">Santa Barbara Independent, May 2024</a>. 2025 shooting arrest: <a href="https://www.edhat.com/news/suspect-in-isla-vista-shooting-arrested-in-northern-california/" target="_blank">edhat.com, March 2025</a>. CalMatters advisory board review: <a href="https://calmatters.org/education/2020/06/students-push-uc-to-abolish-police-departments/" target="_blank">CalMatters, June 2020</a>. Department information: <a href="https://www.police.ucsb.edu/" target="_blank">police.ucsb.edu</a>. Olson resignation: documented in campus dossier (campus_ucsb.html).
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION X — UC SANTA CRUZ -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="sec10" class="campus-header">X. UC Santa Cruz</div>
+
+<div class="campus-summary">
+  <strong>Location:</strong> UC Santa Cruz campus, Santa Cruz, CA &nbsp;|&nbsp; <strong>Current Chief:</strong> Kevin Domby &nbsp;|&nbsp; <strong>Previous Chief:</strong> Nader Oweis (retired Fall 2020 after 27 years of UC service, 9 at UCSC; departed to become chief at Sonoma State University) &nbsp;|&nbsp; <strong>Interim Chief:</strong> Mary Garcia (December 2020–)
+</div>
+
+<h3 class="sub-heading">Chief of Police History</h3>
+
+<p class="body-text"><a href="https://news.ucsc.edu/2020/11/update-on-community-safety.html" target="_blank">Chief Nader Oweis retired in Fall 2020 after 27 years of service to the University of California, nine of which were at UC Santa Cruz</a>. He subsequently assumed leadership as the chief of police at Sonoma State University. <a href="https://news.ucsc.edu/2020/11/update-on-community-safety.html" target="_blank">Lieutenant Mary Garcia, with 23 years of law enforcement experience (including service at UC Davis PD and UC Santa Cruz since 2019), was named interim chief effective December 5, 2020</a>. Kevin Domby subsequently became chief of police.</p>
+
+<h3 class="sub-heading">Significant Incidents</h3>
+
+<p class="body-text"><strong>February 2020 &mdash; COLA Wildcat Strike:</strong> In February 2020, UC Santa Cruz graduate students conducted a &ldquo;wildcat&rdquo; strike &mdash; one not sanctioned by their union, UAW 2865 &mdash; in support of a Cost of Living Adjustment (COLA). <a href="https://theaggie.org/2020/05/29/uc-santa-cruz-police-monitored-picket-lines-of-graduate-students-supporting-cola/" target="_blank">According to emails from February 11 and 13 obtained by VICE News, police assisted by the California Office of Emergency Services (Cal OES) used the FBI surveillance portal LEEP to monitor social media in order to plan a response to the protesters</a>. Police arrested 17 people at the picket line. A graduate student reported that officers donned riot gear and were observed posing for photographs in their gear. Multiple accounts described officers using &ldquo;pain compliance techniques&rdquo; on protesters who were described as peacefully blocking a roadway.</p>
+
+<p class="body-text"><strong>May 30&ndash;31, 2024 &mdash; Gaza Solidarity Encampment:</strong> On the evening of May 30, 2024, <a href="https://lookout.co/uc-santa-cruz-academic-senate-opposes-police-deployment-against-student-demonstrations/story" target="_blank">administrators deployed hundreds of police officers from multiple agencies to dismantle a student encampment</a> located in a parking lot at the base of campus. Police arrested 122 people, charging all with failure to disperse and several with additional charges. The UC Santa Cruz Academic Senate subsequently <a href="https://lookout.co/uc-santa-cruz-academic-senate-opposes-police-deployment-against-student-demonstrations/story" target="_blank">passed a resolution &mdash; with more than 70% of voting faculty supporting &mdash; calling on senior administrators not to use police to break up encampments and demonstrations</a>. Academic Senate Chair Patty Gallagher stated that senate leadership &ldquo;wasn't informed beforehand of the police action. Nor did we approve it.&rdquo;</p>
+
+<p class="body-text">Accounts from faculty and students documented conditions during and after the arrests: one transport vehicle was described as a "torture bus" with music turned to "ear-splitting decibels"; arrestees reported being left handcuffed with zip-ties for extended periods without access to restrooms; and the campus community was effectively locked out of the campus for the duration of the enforcement action.</p>
+
+<p class="body-text"><strong>ACLU Litigation:</strong> The <a href="https://www.aclunc.org/blog/stories-activism-under-siege-ucscs-crackdown-student-protests" target="_blank">ACLU of Northern California filed a lawsuit challenging UCSC's treatment of protesters</a>. In May 2025, the lawsuit resulted in the university agreeing to changes that prohibit banishing students or faculty from campus for exercising their right to protest without providing strict rules and due process.</p>
+
+<p class="body-text"><strong>Phone Seizure and Retaliation Allegations:</strong> In early 2025, <a href="https://www.aclu.org/news/free-speech/singled-out-for-speaking-up-how-ucsc-seized-my-digital-life-after-i-joined-a-lawsuit-against-them" target="_blank">ACLU of Northern California filed an additional lawsuit on behalf of a UCSC student whose phone was seized by campus police 15 days after she joined a civil rights lawsuit against UCSC naming the chief of police as a defendant</a>. The search warrant included a screenshot of the student giving a television interview about her civil rights case. The student alleged the timing and content of the warrant indicated retaliation for her protected legal activity, and raised concerns that the warrant gave police access to privileged attorney-client communications in her pending civil rights case.</p>
+
+<p class="body-text"><strong>Prosecution of Protesters:</strong> In March 2025, <a href="https://lookout.co/santa-cruz-county-district-attorney-files-first-formal-charges-over-ucsc-protests-amid-a-national-crackdown-on-campus-activism/story" target="_blank">the Santa Cruz County District Attorney's Office filed its first formal prosecution related to the spring 2024 protests</a> &mdash; charges against a single student including battery against a police officer, resisting arrest, and providing false information. The DA's office confirmed it was not currently reviewing other cases from the May arrests, and had declined to pursue charges in three other cases forwarded by UCSC police.</p>
+
+<div class="key-finding">
+  <strong>Key Finding:</strong> UC Santa Cruz presents a documented pattern in which the campus police department's enforcement actions during protests are subsequently challenged through ACLU litigation, academic senate resolutions, and public criticism — a cycle that has repeated across the 2020 COLA strike, the 2024 encampment dispersal, and the 2025 phone seizure case.
+</div>
+
+<div class="source-note">
+  <strong>Source Note:</strong> COLA strike and FBI portal: <a href="https://theaggie.org/2020/05/29/uc-santa-cruz-police-monitored-picket-lines-of-graduate-students-supporting-cola/" target="_blank">The Aggie (UC Davis), May 2020</a>. 2024 encampment: <a href="https://lookout.co/uc-santa-cruz-academic-senate-opposes-police-deployment-against-student-demonstrations/story" target="_blank">Lookout Santa Cruz, June 2024</a>. ACLU lawsuit and phone seizure: <a href="https://www.aclu.org/news/free-speech/singled-out-for-speaking-up-how-ucsc-seized-my-digital-life-after-i-joined-a-lawsuit-against-them" target="_blank">ACLU, March 2025</a>. DA prosecution: <a href="https://lookout.co/santa-cruz-county-district-attorney-files-first-formal-charges-over-ucsc-protests-amid-a-national-crackdown-on-campus-activism/story" target="_blank">Lookout Santa Cruz, March 2025</a>. Chief transitions: <a href="https://news.ucsc.edu/2020/11/update-on-community-safety.html" target="_blank">UC Santa Cruz News, Nov. 2020</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SYSTEMWIDE OBSERVATION -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<h2 id="exhibits" class="section-heading">Systemwide Data Exhibits</h2>
+
+<p class="body-text">Before turning to patterns, two comparative data sets place the ten UC police departments in context against California law enforcement as a whole. The figures are drawn from primary sources and reflect conditions as of the most recent data available.</p>
+
+<h3 class="sub-heading">Exhibit A &mdash; Staffing and Compensation in California Context</h3>
+
+<p class="body-text">According to the Public Policy Institute of California (PPIC), California had approximately 76,300 sworn law enforcement officers in 2023 &mdash; the most recent year for which PPIC has published figures. California maintains approximately 2 officers per 1,000 residents, compared to a national average of approximately 3.5 per 1,000 reported in PORAC&rsquo;s November 2025 Police Staffing Issue Brief &mdash; making California one of the lowest-staffed states in the country on a per-capita basis. The mean officer wage in California in May 2023 was approximately $111,770 &mdash; the highest in the nation, roughly 46% above the national mean of $76,550 per the Bureau of Labor Statistics Occupational Employment and Wage Statistics.</p>
+
+<p class="body-text">UC police officer compensation, as published by UCLA PD (effective June 22, 2025), ranges from approximately $100,900 to $170,300 per year in total compensation, including base salary and additional pay components (longevity pay, POST certificate pay, specialty pay, shift differential, education pay, bilingual pay, and allowances). This compensation range is competitive with or exceeds many California municipal agencies, particularly those in lower cost-of-living areas.</p>
+
+<p class="body-text">California&rsquo;s law enforcement profession has lost more than 3,300 sworn officers and 400 civilian staff since 2020, according to PORAC (Peace Officers Research Association of California). UC police departments, like their municipal counterparts, face the same recruitment and retention challenges documented systemwide.</p>
+
+<div class="key-finding">
+  <strong>Key Finding &mdash; Exhibit A:</strong> UC police officers receive compensation comparable to or exceeding many municipal counterparts, are trained to the same POST standards, hold the same peace officer powers, and face the same workforce challenges. The argument that UC police departments should be subject to less rigorous oversight than municipal agencies because of resource constraints or structural differences finds no support in the compensation or training data. Officers receiving $100,000&ndash;$170,000 in total compensation from a public employer are subject to the same performance and accountability standards as any municipal officer at any salary level.
+</div>
+
+<div class="source-note">
+  <strong>Sources:</strong> California sworn staffing 2023: <a href="https://www.ppic.org/publication/law-enforcement-staffing-in-california/" target="_blank">Public Policy Institute of California &mdash; &ldquo;Law Enforcement Staffing in California&rdquo;</a>. Per-1,000 national comparison: <a href="https://porac.org/wp-content/uploads/PORAC-2025-Police-Staffing-Issue-Brief-11.11.25.pdf" target="_blank">PORAC 2025 Police Staffing Issue Brief (Nov. 11, 2025)</a>. Officer wages: <a href="https://www.bls.gov/oes/2023/may/oes333051.htm" target="_blank">Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2023 &mdash; 33-3051 Police and Sheriff&rsquo;s Patrol Officers</a>. UC compensation: UCLA Police Department compensation schedule, effective June 22, 2025 &mdash; <a href="https://police.ucla.edu" target="_blank">police.ucla.edu</a>. Workforce losses: <a href="https://www.police1.com/police-recruitment/calif-le-research-shows-nearly-all-counties-understaffed-agency-response-times-increasing" target="_blank">Police1, Nov. 18, 2025</a>; PORAC 2025 Staffing Issue Brief.
+</div>
+
+<h3 class="sub-heading">Exhibit B &mdash; Leadership Stability: Chief Tenure Across the Ten Campuses</h3>
+
+<p class="body-text">Chief tenure is a recognized indicator of departmental stability. The Police Executive Research Forum (PERF) documented in its 2021 national survey that police chiefs face significant political and community pressures that can incentivize risk-averse responses, and reported an average chief tenure of approximately 7.3 years among surveyed predecessor chiefs. Frequent turnover disrupts organizational continuity, community relationships, reform implementation, and institutional memory.</p>
+
+<table class="info-table">
+<thead><tr><th>Campus</th><th>Current Chief</th><th>Approximate Tenure</th><th>Notable Turnover Pattern</th></tr></thead>
+<tbody>
+<tr><td>UC Berkeley</td><td>Yogananda Pittman</td><td>~3 years (Feb. 2023&ndash;present)</td><td>Prior chief (Harrison) served 19 years &mdash; longest in UC history</td></tr>
+<tr><td>UC Davis</td><td>Joe Farrow</td><td>~8.5 years (Aug. 2017&ndash;present)</td><td>Multiple interim chiefs 2012&ndash;2017 after pepper spray incident</td></tr>
+<tr><td>UC Irvine</td><td>Liz Griffin</td><td>Current</td><td>Stable; IACLEA-accredited December 2024</td></tr>
+<tr><td><strong>UCLA</strong></td><td><strong>Chief 5</strong></td><td><strong>~6 months (Sept. 2025&ndash;present)</strong></td><td><strong>4 leaders in 33 months (2022&ndash;2025); 10+ chiefs across 37 years of one officer&rsquo;s documented association</strong></td></tr>
+<tr><td>UC Merced</td><td>Current chief</td><td>&mdash;</td><td>Smallest department; limited public data</td></tr>
+<tr><td>UC Riverside</td><td>Jeff Talbott</td><td>Current</td><td>Multiple interim chiefs (Freese &rarr; Frisbee &rarr; Talbott)</td></tr>
+<tr><td>UC San Diego</td><td>Current chief</td><td>&mdash;</td><td>Interim Chief Murphy departed to SDSU (2022)</td></tr>
+<tr><td>UC San Francisco</td><td>Current chief</td><td>&mdash;</td><td>Health sciences campus; lower public profile</td></tr>
+<tr><td>UC Santa Barbara</td><td>Current chief</td><td>Current</td><td>Chief Olson resigned March 2019 amid three pending whistleblower lawsuits (a fourth was filed after his departure)</td></tr>
+<tr><td>UC Santa Cruz</td><td>Kevin Domby</td><td>Current</td><td>Chief Oweis departed 2020 amid COLA strike controversy; named defendant in <em>Shirazi v. Oweis</em>, No. 5:21-cv-00136 (N.D. Cal.)</td></tr>
+</tbody>
+</table>
+
+<p class="body-text">For comparative context: Chief Ted Cooke served as Chief of the Culver City Police Department from 1976 to 2003 &mdash; twenty-seven (27) years &mdash; making him the longest-serving, still-active police chief in California during his tenure. Culver City is located approximately four miles from UCLA. One chief, 27 years, under elected oversight. UCLA cycled through ten or more chiefs under appointed oversight during the same general period.</p>
+
+<div class="key-finding">
+  <strong>Key Finding &mdash; Exhibit B:</strong> UCLA&rsquo;s experience of four different department leaders in 33 months is significantly above the national norm for chief turnover and would be considered a red flag for any municipal agency. UC Davis&rsquo;s five-year interim period (2012&ndash;2017) and UCSB&rsquo;s chief resignation amid whistleblower lawsuits (2019) reflect the same pattern. The key variable is whether the chief becomes embroiled in a controversy generating political liability for campus administrators &mdash; at which point the chief is removed, but the structural conditions that produced the controversy remain unchanged. This is a documented hallmark of departments that have been placed under consent decrees: leadership turnover as a substitute for structural reform.
+</div>
+
+<div class="source-note">
+  <strong>Sources:</strong> PERF 2021 chief tenure survey: <a href="https://www.policeforum.org" target="_blank">Police Executive Research Forum</a>. UC Berkeley: Chief Pittman sworn in Feb. 1, 2023 &mdash; <a href="https://police.berkeley.edu" target="_blank">police.berkeley.edu</a>; Chief Harrison tenure 1990&ndash;2009 &mdash; Berkeley News archives. UC Davis: Chief Farrow appointment Aug. 2017 &mdash; <a href="https://ucdavis.edu" target="_blank">UC Davis News</a>. UC Irvine: IACLEA accreditation December 2024 &mdash; <a href="https://www.iaclea.org" target="_blank">IACLEA.org</a>. UCLA: Chief Valenzuela sworn in Sept. 1, 2025 &mdash; <a href="https://police.ucla.edu" target="_blank">police.ucla.edu</a>. UC Riverside: <a href="https://police.ucr.edu" target="_blank">police.ucr.edu</a>; <em>Inside UCR</em>. UCSB: <em>Santa Barbara Independent</em> contemporaneous coverage 2018&ndash;2019. UC Santa Cruz: Chief Domby appointment May 2023 &mdash; <a href="https://police.ucsc.edu" target="_blank">police.ucsc.edu</a>; Oweis retirement Dec. 4, 2020; <em>Shirazi v. Oweis</em>, No. 5:21-cv-00136 (N.D. Cal.). Culver City: Chief Cooke tenure 1976&ndash;2003 &mdash; <em>Los Angeles Times</em>, Dec. 22, 2003.
+</div>
+
+<h2 id="observations" class="section-heading">Systemwide Observations</h2>
+
+<p class="body-text">The ten dossiers above, compiled from publicly available sources, reveal several patterns that recur across the UC police system. These patterns are observed — not alleged — and are documented for the reader's independent assessment:</p>
+
+<div class="key-finding">
+  <strong>Pattern 1 — Leadership Instability:</strong> Multiple UC police departments have experienced rapid chief turnover. UCLA has had four different leaders in 33 months. UC Davis had multiple interim chiefs following the 2011 pepper spray incident. UC Riverside and UC Santa Cruz have experienced similar interim-to-interim transitions. This pattern of leadership instability contrasts with Chief Harrison's 19-year tenure at UC Berkeley and suggests that the structural position of university police chiefs — serving at the pleasure of campus administrators without civil service protections — may contribute to high turnover.
+</div>
+
+<div class="key-finding">
+  <strong>Pattern 2 — Internal vs. External Review Contradictions:</strong> At UC Davis, the internal affairs investigation found Lieutenant Pike's pepper spray deployment "reasonable," while the independent Reynoso Task Force found it "objectively unreasonable." At UCLA, the internal university process resulted in only the police chief facing consequences, while the independent 21CP Solutions investigation found that administrators had excluded police from decision-making. This pattern of divergence between internal and external findings recurs across campuses.
+</div>
+
+<div class="key-finding">
+  <strong>Pattern 3 — Reporting Non-Compliance:</strong> The <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">September 2025 LAist investigation</a> documented that nine of ten UC campus police departments failed to comply with AB 48 reporting requirements for use of less-lethal weapons during protest responses. UC Riverside's lieutenant publicly acknowledged that the department's size prevented full compliance with state law. Only UCLA appeared on the DOJ's statewide AB 48 reporting page.
+</div>
+
+<div class="key-finding">
+  <strong>Pattern 4 — Protest Response as Recurring Trigger:</strong> Significant police controversies at UC campuses have been overwhelmingly triggered by protest response: Berkeley (2011 Occupy), Davis (2011 pepper spray), UCLA (2024 encampment), UCSD (2024 encampment), UCSC (2020 COLA strike and 2024 encampment), and UCI (2020 COLA). This pattern spans more than a decade and multiple chief tenures.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SOURCE APPENDIX -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<h2 id="appendix" class="appendix-heading">Source Appendix</h2>
+
+<h3 class="appendix-category">UC Institutional Sources</h3>
+<p class="appendix-entry"><span class="source-id">[UC-1]</span> UC Community Safety Dashboards — <a href="https://www.universityofcalifornia.edu/about-us/information-center/community-safety" target="_blank">universityofcalifornia.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-2]</span> UC Community Safety Plan (2021) — <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/policies-and-guidance/community-safety-plan/uc-community-safety-plan.pdf" target="_blank">ucop.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-3]</span> UCLA Luskin Center: "The History of Racism and the Quest for Racial Justice at UCLA" (March 2022), pp. 35–36, fn. 147–164 — <a href="https://luskincenter.history.ucla.edu/wp-content/uploads/sites/66/2022/03/History-of-Racism-and-the-Quest-for-Racial-Justice-at-UCLA.pdf" target="_blank">luskincenter.history.ucla.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-4]</span> UCLA Newsroom: Craig Valenzuela Appointed Chief (July 28, 2025) — <a href="https://newsroom.ucla.edu/releases/craig-valenzuela-appointed-ucla-chief-of-police" target="_blank">newsroom.ucla.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-5]</span> UC Berkeley News: Chief Pittman Sworn In (Feb. 1, 2023) — <a href="https://news.berkeley.edu/2023/02/01/its-official-uc-berkeleys-new-police-chief-is-sworn-in-today/" target="_blank">news.berkeley.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-6]</span> UC Davis: "A Decade of Listening and Action" (Nov. 2021) — <a href="https://www.ucdavis.edu/news/decade-listening-and-acting" target="_blank">ucdavis.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-7]</span> UC San Diego Today: Community Safety Interview — <a href="https://today.ucsd.edu/story/community-safety-start-with-respect-and-dignity" target="_blank">today.ucsd.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-8]</span> UC Santa Cruz News: Community Safety Update (Nov. 2020) — <a href="https://news.ucsc.edu/2020/11/update-on-community-safety.html" target="_blank">news.ucsc.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-9]</span> UCI Police Department — <a href="https://www.police.uci.edu/" target="_blank">police.uci.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-10]</span> UC Riverside PAB — <a href="https://diversity.ucr.edu/ucr-police-accountability-board" target="_blank">diversity.ucr.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-11]</span> UC Merced PAB — <a href="https://pab.ucmerced.edu/complaints" target="_blank">pab.ucmerced.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-12]</span> UC Berkeley UCPD: Office of the Chief — <a href="https://ucpd.berkeley.edu/about/office-chief" target="_blank">ucpd.berkeley.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-13]</span> UCSF PD: UC Community Safety Plan Dashboard — <a href="https://police.ucsf.edu/uc-community-safety-plan-dashboard" target="_blank">police.ucsf.edu</a></p>
+
+<h3 class="appendix-category">Journalistic and Investigative Sources</h3>
+<p class="appendix-entry"><span class="source-id">[J-1]</span> LAist: "9 out of 10 UC campus police departments fail to comply with state law around protest response" (Sept. 2025) — <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">laist.com</a></p>
+<p class="appendix-entry"><span class="source-id">[J-2]</span> LAist: "UCLA police chief out" (Dec. 13, 2024) — <a href="https://laist.com/news/education/ucla-police-chief-john-thomas-gone" target="_blank">laist.com</a></p>
+<p class="appendix-entry"><span class="source-id">[J-3]</span> Daily Bruin: "Former Chief John Thomas departs UC Police Department" (Dec. 11, 2024) — <a href="https://dailybruin.com/2024/12/11/former-chief-john-thomas-departs-uc-police-department" target="_blank">dailybruin.com</a></p>
+<p class="appendix-entry"><span class="source-id">[J-4]</span> CalMatters: "Students push UC to abolish police departments" (June 2020) — <a href="https://calmatters.org/education/2020/06/students-push-uc-to-abolish-police-departments/" target="_blank">calmatters.org</a></p>
+<p class="appendix-entry"><span class="source-id">[J-5]</span> CBS Sacramento: "UC Davis Pepper-Spray Saga: 10 Years Later" (Nov. 2021) — <a href="https://www.cbsnews.com/sacramento/news/uc-davis-pepper-spray-saga/" target="_blank">cbsnews.com</a></p>
+<p class="appendix-entry"><span class="source-id">[J-6]</span> CBS Sacramento: Pike Workers' Comp (Oct. 2013) — <a href="https://www.cbsnews.com/sacramento/news/pepper-spray-cop-former-uc-davis-officer-pike-awarded-nearly-40000-in-comp-claim/" target="_blank">cbsnews.com</a></p>
+<p class="appendix-entry"><span class="source-id">[J-7]</span> UCSD Guardian: "Black UCSD Police Officer Files Lawsuit" (Oct. 17, 2021) — <a href="https://ucsdguardian.org/2021/10/17/black-ucsd-police-officer-files-lawsuit-against-ucsd/" target="_blank">ucsdguardian.org</a></p>
+<p class="appendix-entry"><span class="source-id">[J-8]</span> The Coast News: "UCSD faces backlash" (May 2024) — <a href="https://thecoastnews.com/ucsd-faces-backlash-for-police-force-against-protestors/" target="_blank">thecoastnews.com</a></p>
+<p class="appendix-entry"><span class="source-id">[J-9]</span> Santa Barbara Independent: "Ten Years After the Isla Vista Killings" (May 2024) — <a href="https://www.independent.com/2024/05/22/ten-years-after-the-isla-vista-killings/" target="_blank">independent.com</a></p>
+<p class="appendix-entry"><span class="source-id">[J-10]</span> edhat.com: "Suspect in Isla Vista Shooting Arrested" (March 2025) — <a href="https://www.edhat.com/news/suspect-in-isla-vista-shooting-arrested-in-northern-california/" target="_blank">edhat.com</a></p>
+<p class="appendix-entry"><span class="source-id">[J-11]</span> Lookout Santa Cruz: "Academic Senate opposes police deployment" (June 2024) — <a href="https://lookout.co/uc-santa-cruz-academic-senate-opposes-police-deployment-against-student-demonstrations/story" target="_blank">lookout.co</a></p>
+<p class="appendix-entry"><span class="source-id">[J-12]</span> Lookout Santa Cruz: "DA files first formal charges over UCSC protests" (March 2025) — <a href="https://lookout.co/santa-cruz-county-district-attorney-files-first-formal-charges-over-ucsc-protests-amid-a-national-crackdown-on-campus-activism/story" target="_blank">lookout.co</a></p>
+<p class="appendix-entry"><span class="source-id">[J-13]</span> NBC Los Angeles: "Bruin alum named new UCLA police chief" (July 28, 2025) — <a href="https://www.nbclosangeles.com/news/local/new-ucla-police-chief-lapd/3750475/" target="_blank">nbclosangeles.com</a></p>
+<p class="appendix-entry"><span class="source-id">[J-14]</span> Inside UCR: "Meet UCR's new interim police chief" (March 2022) — <a href="https://insideucr.ucr.edu/stories/2022/03/01/meet-ucrs-new-interim-police-chief" target="_blank">insideucr.ucr.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[J-15]</span> The Aggie (UC Davis): "UCSC police monitored picket lines" (May 2020) — <a href="https://theaggie.org/2020/05/29/uc-santa-cruz-police-monitored-picket-lines-of-graduate-students-supporting-cola/" target="_blank">theaggie.org</a></p>
+<p class="appendix-entry"><span class="source-id">[J-16]</span> Daily Bruin: Q&A Chief Valenzuela (Sept. 16, 2025) — <a href="https://dailybruin.com/2025/09/16/qa-ucpd-chief-of-police-craig-valenzuela-discusses-vision-for-campus-safety" target="_blank">dailybruin.com</a></p>
+
+<h3 class="appendix-category">Legal and Advocacy Sources</h3>
+<p class="appendix-entry"><span class="source-id">[L-1]</span> ACLU: "Singled Out for Speaking Up: How UCSC Seized My Digital Life" (March 2025) — <a href="https://www.aclu.org/news/free-speech/singled-out-for-speaking-up-how-ucsc-seized-my-digital-life-after-i-joined-a-lawsuit-against-them" target="_blank">aclu.org</a></p>
+<p class="appendix-entry"><span class="source-id">[L-2]</span> ACLU NorCal: "Stories of Activism Under Siege: UCSC's Crackdown" — <a href="https://www.aclunc.org/blog/stories-activism-under-siege-ucscs-crackdown-student-protests" target="_blank">aclunc.org</a></p>
+
+<h3 class="appendix-category">Reference and Organizational Sources</h3>
+<p class="appendix-entry"><span class="source-id">[R-1]</span> Wikipedia: University of California Police Departments — <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">en.wikipedia.org</a></p>
+<p class="appendix-entry"><span class="source-id">[R-2]</span> Wikipedia: UC Davis Pepper Spray Incident — <a href="https://en.wikipedia.org/wiki/UC_Davis_pepper_spray_incident" target="_blank">en.wikipedia.org</a></p>
+<p class="appendix-entry"><span class="source-id">[R-3]</span> FUPOA: Campus Pages — <a href="https://federateduniversitypoa.org" target="_blank">federateduniversitypoa.org</a></p>
+
+<h3 class="appendix-category">Cross-References to Other Parts</h3>
+<p class="appendix-entry"><span class="source-id">[XR-1]</span> Chapter 04: Origins and Constitutional Foundation (UCPD establishment, 1947 Regents action)</p>
+<p class="appendix-entry"><span class="source-id">[XR-2]</span> Chapter 05 §VI: FUPOA — History, Unionization, and Collective Bargaining (founding at UCLA, FLSA case)</p>
+<p class="appendix-entry"><span class="source-id">[XR-3]</span> Chapter 02: POST Oversight — Section VIII: 2023 ECAS Systemwide Audit findings</p>
+<p class="appendix-entry"><span class="source-id">[XR-4]</span> Chapter 03: Accountability Mechanisms — 14 independent pathways for oversight</p>
+<p class="appendix-entry"><span class="source-id">[XR-5]</span> Chapter 09: Budget, Staffing, and Growth Trends — systemwide workforce and budget data</p>
+<p class="appendix-entry"><span class="source-id">[XR-6]</span> Chapter 01: Comparative Analysis — UC police vs. municipal agencies (forthcoming)</p>
+
+
+</div>
+
+</div>
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn active">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a><a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav bottom">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+
+<script>
+function setNavTops(){
+  const b1=document.querySelector('.nav-bar:not(.bottom)');
+  const b2=document.querySelector('.campus-nav:not(.bottom)');
+  if(!b1||!b2)return 80;
+  b2.style.top=b1.offsetHeight+'px';
+  return b1.offsetHeight+b2.offsetHeight;
+}
+window.addEventListener('load',setNavTops);
+window.addEventListener('resize',setNavTops);
+</script>
+<div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Behave Like Heroes &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>

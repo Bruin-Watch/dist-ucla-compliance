@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · Dossier — UC San Francisco Police Department | Bruin Watch</title>
+<meta name="description" content="Campus dossier documenting UC San Francisco Police Department leadership, incidents, and oversight history.">
+<meta property="og:title" content="Act I · Dossier — UC San Francisco Police Department | Bruin Watch">
+<meta property="og:description" content="Campus dossier documenting UC San Francisco Police Department leadership, incidents, and oversight history.">
+<meta property="og:type" content="article">
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE;--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0}
+body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#e8edf2;margin:0;padding:0}
+
+/* ══ BAR 1 — VERBATIM FROM CHAPTER_07.HTML ══ */
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:center}
+.nav-bottom-inner{display:flex;align-items:stretch;justify-content:center;min-width:max-content;margin:0 auto}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 2 — CAMPUS DOSSIERS — same pattern, slightly darker ══ */
+.campus-nav{background:#00254a;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:999;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.campus-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.campus-nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.campus-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.campus-btn:hover{background:var(--uc-mid);color:#fff}
+.campus-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 3 — SECTION INDEX — same pattern, darkest ══ */
+.section-nav{background:#001428;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:998;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.section-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.section-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.section-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.section-btn:hover{background:var(--uc-mid);color:#fff}
+.section-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ COVER PAGE ══ */
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:48px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:80px;font-weight:900;letter-spacing:8px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:6px;line-height:1.0}
+.series-line1{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:4px}
+.series-line2{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:28px}
+.campus-label{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:900;letter-spacing:5px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:16px}
+.chapter-title{font-family:'Libre Baskerville',Georgia,serif;font-size:44px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:28px auto;display:block}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:22px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.cover-meta{width:100%;padding:20px 0;background:rgba(0,0,0,.15);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border-top:1px solid rgba(253,181,21,.25)}
+.cover-meta-inner{max-width:960px;width:100%;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 40px}
+.cover-meta p{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;color:#fff;text-align:center;line-height:1.6}
+.cover-meta strong{color:var(--uc-gold)}
+.cover-meta p.cover-disclaimer{font-size:14.5px!important;font-weight:300!important;color:#dde8f4!important;text-align:justify!important;hyphens:auto;max-width:820px;width:100%;margin:6px auto;padding:10px 0;line-height:1.8;border-top:1px solid rgba(253,181,21,.35);border-bottom:1px solid rgba(253,181,21,.35)}
+.cover-copyright{width:100%;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:15px;color:#fff;margin-top:4px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+
+/* ══ CHAPTER BODY ══ */
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.note-investigators{background:var(--uc-blue);padding:24px 30px;margin:0;border-left:6px solid var(--uc-gold)}
+.note-investigators .note-label{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:14px}
+.note-investigators p{font-size:17px;color:#fff;line-height:1.85;margin-bottom:12px}
+.note-investigators p:last-child{margin-bottom:0}
+.campus-grid-wrap{background:var(--uc-blue);padding:10px 0 12px;width:100%}
+.campus-grid{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;width:100%;padding:0 4px}
+.campus-grid-btn{display:block;background:var(--uc-blue-dark);border:2px solid var(--uc-blue-dark);padding:12px 4px;text-align:center;text-decoration:none;transition:background .15s,border-color .15s}
+.campus-grid-btn:hover{background:var(--uc-mid);border-color:var(--uc-mid)}
+.campus-grid-btn.active{background:var(--uc-mid);border:2px solid var(--uc-gold)}
+.campus-grid-abbr{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-weight:700;color:var(--uc-gold);margin-bottom:3px}
+.campus-grid-name{font-size:10px;color:#b8c8dc;letter-spacing:.5px;text-transform:uppercase}
+.campus-grid-btn.active .campus-grid-name{color:#fff}
+.section-anchor{display:block;height:145px;margin-top:-145px;visibility:hidden}
+.content-wrap{padding:0 48px 60px;max-width:900px;margin:0 auto}.content-wrap p{margin-bottom:18px;line-height:1.85;font-size:17px}
+
+/* ══ CONTENT — VERBATIM FROM UCB SOURCE DOSSIER ══ */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+  :root{--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0;--red-bg:#FFC7CE;--red-text:#9C0006;--green-bg:#C6EFCE;--green-text:#276221;--yellow-bg:#FFEB9C;--yellow-text:#7D4A00;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#fff;}
+  .cover-page{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;padding:0 40px;background:repeating-linear-gradient(135deg,transparent,transparent 35px,rgba(255,255,255,0.04) 35px,rgba(255,255,255,0.04) 70px),linear-gradient(180deg,#003262 0%,#00254a 100%);border-bottom:4px solid var(--ucb-gold);}
+  .cover-series{font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin-bottom:16px;}
+  .cover-chapter{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:30px;}
+  .cover-title{font-family:'Source Sans Pro',sans-serif;font-size:36px;font-weight:700;color:#fff;line-height:1.25;max-width:750px;margin-bottom:16px;}
+  .cover-gold-line{width:120px;height:3px;background:var(--ucb-gold);margin:22px auto;}
+  .cover-subtitle{font-family:'Libre Baskerville',serif;font-size:16px;font-style:italic;color:rgba(255,255,255,0.8);max-width:640px;line-height:1.65;margin-bottom:24px;}
+  .cover-meta{font-family:'Source Sans Pro',sans-serif;font-size:16px;color:#fff;margin-top:28px;line-height:2.1;}
+  .cover-meta strong{color:#fff;font-weight:700;}
+  .disclaimer{max-width:800px;margin:44px auto 32px;padding:24px 32px;text-align:center;font-style:italic;font-size:16px;color:#555;line-height:1.85;border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+  .content{max-width:900px;margin:0 auto;padding:0 48px 60px;}
+  .section-banner{font-family:'Source Sans Pro',sans-serif;font-size:17px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ucb-gold);background:var(--ucb-blue);padding:14px 22px;margin:48px 0 0;}
+  .section-title{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:700;color:var(--ucb-blue);padding:16px 0 12px;border-bottom:2px solid var(--ucb-gold);margin-bottom:24px;}
+  .incident-heading{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:900;color:var(--ucb-blue);margin:40px 0 8px;padding:12px 16px;background:var(--ucb-blue-light);border-left:5px solid var(--ucb-gold);}
+  .incident-date{display:block;font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:900;color:var(--ucb-gold);text-transform:uppercase;letter-spacing:2px;margin-top:44px;margin-bottom:6px;}
+  .incident-title{display:block;font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:900;color:var(--ucb-blue);margin-bottom:14px;}
+  .incident-block{margin-bottom:8px;}
+  .pre-mandatory{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:2px 8px;background:#e0e0e0;color:#555;border-radius:2px;margin-bottom:8px;}
+  table.data-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px;}
+  table.data-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:0.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,0.15);}
+  table.data-table thead th:last-child{border-right:none;}
+  table.data-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px;}
+  table.data-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light);}
+  table.data-table tbody tr:nth-child(odd) td{background:#fff;}
+  table.data-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:14px;}
+  .badge{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:3px 8px;border-radius:3px;}
+  .badge-red{background:var(--red-bg);color:var(--red-text);}
+  .badge-green{background:var(--green-bg);color:var(--green-text);}
+  .badge-yellow{background:var(--yellow-bg);color:var(--yellow-text);}
+  .badge-unknown{background:#e0e0e0;color:#444;}
+  .badge-active{background:#FF4444;color:#fff;}
+  .key-finding{background:var(--ucb-gold-light);border-left:4px solid var(--ucb-gold);padding:16px 20px;margin:20px 0 28px;font-size:16px;line-height:1.8;}
+  .key-finding strong{font-family:'Source Sans Pro',sans-serif;color:var(--ucb-blue);}
+  .source-index-entry{font-size:15px;line-height:1.75;margin-bottom:10px;padding:10px 14px;background:#f8f8f8;border-left:3px solid var(--ucb-gold);}
+  .source-index-entry a{color:#0563C1;word-break:break-all;}
+  .source-num{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:var(--ucb-blue);min-width:28px;display:inline-block;}
+  .chapter-nav{background:var(--ucb-blue-light);border:1px solid #c5d3e0;padding:14px 20px;margin:0 0 36px;font-family:'Source Sans Pro',sans-serif;font-size:13px;line-height:1.8;}
+  .chapter-nav strong{color:var(--ucb-blue);}
+  .chapter-nav a{color:#0563C1;text-decoration:none;margin:0 4px;}
+  .chapter-nav a:hover{text-decoration:underline;}
+  .submission-block{background:var(--uc-blue);padding:24px 30px;margin:32px 0 0}
+.submission-block p{font-size:16px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:8px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:20px 48px;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:rgba(255,255,255,0.5);line-height:1.8;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+  .doc-footer strong{color:rgba(255,255,255,0.8)}
+  @media print{.nav-wrap{display:none!important}.cover-page{min-height:100vh;page-break-after:always;}.section-banner{page-break-before:always;}}
+
+@media(max-width:768px){.series-title{font-size:58px}.chapter-title{font-size:32px}.cover-content{padding:36px 24px}}
+@media print{.cover-page{page-break-after:always}.nav-bar,.campus-nav,.section-nav{display:none}}
+
+
+/* ══ MASTER TEMPLATE UPDATE — 2026-03-23 — LOCKED ══ */
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.series-tagline{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:16px;max-width:820px}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin:52px 0 0;padding:0;display:block}
+table.info-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px}
+table.info-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,.15)}
+table.info-table thead th:last-child{border-right:none}
+table.info-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px}
+table.info-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light)}
+table.info-table tbody tr:nth-child(odd) td{background:#fff}
+table.info-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:13px}
+.src-index-wrap{display:flex;flex-direction:column;width:100%}
+.src-row{display:flex;align-items:stretch;border:1px solid #dde3ea;border-top:none;text-decoration:none;color:inherit;transition:background .12s}
+.src-row:first-of-type{border-top:1px solid #dde3ea}
+.src-row:hover{background:#f0f5fb}
+.src-row:hover .src-num{background:var(--uc-mid)}
+.src-num{background:var(--ucb-blue);color:var(--ucb-gold);font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:900;letter-spacing:1px;min-width:120px;width:120px;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px 10px;transition:background .12s;flex-shrink:0;border-right:3px solid var(--ucb-gold)}
+.src-body{flex:1;padding:13px 18px;display:flex;flex-direction:column;justify-content:center;word-wrap:break-word;overflow-wrap:break-word;min-width:0}
+.src-title{font-size:17px;font-weight:700;color:var(--ucb-blue);margin-bottom:4px;line-height:1.4}
+.src-sub{font-size:16px;color:#444;line-height:1.7;word-wrap:break-word;overflow-wrap:break-word}
+.src-sub a{color:#0563C1;word-break:break-all}
+
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn active">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" id="section-nav">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn active" id="btn-a">A &mdash; Overview</a>
+<a href="#secB" class="section-btn" id="btn-b">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn" id="btn-c">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn" id="btn-d">D &mdash; Financial</a>
+<a href="#secE" class="section-btn" id="btn-e">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn" id="btn-f">F &mdash; Sources</a>
+</div>
+</nav>
+
+<div class="cover-page">
+
+  <!-- TOP BLUE BAR — LOCKED -->
+  <div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Behave Like Heroes</div>
+<div class="series-tagline">Law Enforcement Without Enforcement<br>A Documented Gap Analysis</div>
+<div class="campus-label">Campus Dossier</div>
+<h1 class="chapter-title">UC San Francisco Police Department</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">POST Reporting Gap Analysis &mdash; Compliance Status &mdash; Incident Chronology &mdash; Financial Record &mdash; Leadership History &mdash; Source Index</p>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+
+<div class="chapter-body">
+<div class="note-investigators">
+<div class="note-label">Note to Investigators, Attorneys, and Journalists</div>
+<p>This campus dossier contains enforcement-level detail not summarized in the main chapters of this series. It documents the complete incident history, POST compliance status, financial exposure, and leadership record for the UC San Francisco Police Department. These documents are intended for POST investigators, attorneys, civil rights organizations, journalists, and other parties requiring granular evidentiary detail for enforcement, litigation, or investigative purposes. All source citations are independently verifiable. Readers are encouraged to draw their own conclusions from the documented record.</p>
+</div>
+<div class="campus-grid-wrap">
+<div class="campus-grid">
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCB</div><div class="campus-grid-name">Berkeley</div></a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCD</div><div class="campus-grid-name">Davis</div></a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCI</div><div class="campus-grid-name">Irvine</div></a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCLA</div><div class="campus-grid-name">Los Angeles</div></a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCM</div><div class="campus-grid-name">Merced</div></a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCR</div><div class="campus-grid-name">Riverside</div></a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSD</div><div class="campus-grid-name">San Diego</div></a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-grid-btn active"><div class="campus-grid-abbr">UCSF</div><div class="campus-grid-name">San Francisco</div></a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSB</div><div class="campus-grid-name">Santa Barbara</div></a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSC</div><div class="campus-grid-name">Santa Cruz</div></a>
+</div>
+</div>
+<div class="disclaimer">
+  This document contains only facts as found in public records and the application of law, statute, rule, or procedure to those facts. It contains no editorial commentary, accusations, or conclusions. It is presented so that readers may form their own independent opinions. All sources are cited with full URLs wherever available and are independently verifiable.
+</div>
+
+<div class="content">
+
+<div class="toc">
+  <h2>Table of Contents</h2>
+  <div class="toc-entry"><span class="toc-num">A.</span><span class="toc-title"><a href="#secA">Department Overview</a></span></div>
+  <div class="toc-entry"><span class="toc-num">B.</span><span class="toc-title"><a href="#secB">Chronological Incident Log</a></span></div>
+  <div class="toc-entry"><span class="toc-num">C.</span><span class="toc-title"><a href="#secC">State and Federal Compliance Status Matrix</a></span></div>
+  <div class="toc-entry"><span class="toc-num">D.</span><span class="toc-title"><a href="#secD">Financial Impact — Fines, Settlements, and Costs</a></span></div>
+  <div class="toc-entry"><span class="toc-num">E.</span><span class="toc-title"><a href="#secE">Leadership History</a></span></div>
+  <div class="toc-entry"><span class="toc-num">F.</span><span class="toc-title"><a href="#secF">Source Index</a></span></div>
+</div>
+
+<div id="secA" class="campus-header">Section A — Department Overview</div>
+
+<div class="campus-summary">
+  <strong>Agency:</strong> University of California San Francisco Police Department (UCSF PD) &nbsp;|&nbsp;
+  <strong>Current Chief:</strong> Mike Denson (July 2015–present) &nbsp;|&nbsp;
+  <strong>Sworn Officers:</strong> 58 (2019 UC Presidential Task Force — current staffing not independently verified as of March 2026) &nbsp;|&nbsp;
+  <strong>Annual Budget:</strong> $50,000,000+ (largest in UC system) &nbsp;|&nbsp;
+  <strong>Accreditation:</strong> CALEA Advanced Level (2008) + IACLEA (2025) — only UC PD holding both
+</div>
+
+<div class="distinction-box">
+  <strong>Key Distinctions — UCSF PD Within the UC System</strong>
+  UCSF is the only UC campus dedicated exclusively to the health sciences, with no undergraduate students. This unique mission produces a policing environment and a regulatory burden without parallel at any other UC campus. The distinctions documented below establish the factual context required to evaluate UCSF PD's compliance posture against systemwide norms.
+</div>
+
+<table class="info-table">
+<thead><tr><th>Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Agency Name</strong></td><td>University of California San Francisco Police Department (UCSF PD)</td></tr>
+<tr><td><strong>Campus Profile</strong></td><td>UCSF is the only UC campus dedicated exclusively to the health sciences. The campus has no undergraduate students. Four postgraduate professional schools — dentistry, pharmacy, nursing, and medicine — enroll approximately 3,100 students. The institution employs tens of thousands of faculty, staff, researchers, and clinicians.</td></tr>
+<tr><td><strong>Legal Authority</strong></td><td>California Penal Code §830.2(a) (sworn peace officers pursuant to Education Code §92600). Full statewide law enforcement authority. Additionally subject to hospital-specific security mandates: Health &amp; Safety Code §§1257.7–1257.8 (AB 508, 1993), Cal/OSHA §3342, Labor Code §6401.8 (SB 1299, 2014), and SB 553 (2023). This dual regulatory framework — standard UC police mandates plus hospital security statutes — is unique within the UC system.</td></tr>
+<tr><td><strong>POST Status</strong></td><td>POST-participating agency. All officers hold POST certification. Subject to SB 2 (Kenneth Ross Jr. Act) certification and decertification authority, effective January 1, 2023.</td></tr>
+<tr><td><strong>Sworn Officers</strong></td><td>58 sworn police officers as reported in the 2019 UC Presidential Task Force Report — third-largest in the UC system at that time, behind UCLA (64) and UC Berkeley (56). Current sworn staffing not independently verified as of March 2026; no more recent sworn officer count has been identified in publicly accessible UCSF PD documents. Total FTE including sworn and non-sworn combined (including medical center security): approximately 440 employees — as reported in Chief Denson's professional profile and UCSF Finance and Administrative Services records; current figure not independently verified against a publicly accessible primary document as of March 2026. This total represents the largest total public safety workforce in the UC system. Institutional context: UCSF's total campus-wide workforce has grown to more than 36,000 faculty, staff, and clinicians as of 2024, as confirmed by Chancellor Hawgood's 2024 State of the University address.</td></tr>
+<tr><td><strong>Annual Budget</strong></td><td>Exceeding $50,000,000 — as reported in Chief Denson's professional profile and UCSF Finance and Administrative Services records; an independently confirmed UCSF PD-specific budget document has not been identified in available public records as of March 2026. This figure represents the largest departmental police budget in the UC system. The scale reflects the medical center security mission, multi-site geographic footprint across more than 230 UCSF-operated locations in San Francisco and the Bay Area, and 24-hour hospital security obligations. A publicly accessible UC systemwide Community Safety Budget and Workforce Dashboard is maintained by UCOP at: <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/data-dashboard/index.html" target="_blank">ucop.edu — Community Safety Data Dashboard</a>.</td></tr>
+<tr><td><strong>Officer-to-Student Ratio</strong></td><td>18.58 officers per 1,000 students — by far the highest ratio in the UC system. Next highest: UC Merced 2.13, UCSB 1.84, UCR 1.50, UCB 1.48, UCLA 1.41. This ratio reflects the medical center mission: officers protect hospitals, research facilities, patient populations, and visitor traffic — not a traditional residential student campus.</td></tr>
+<tr><td><strong>Geographic Jurisdiction</strong></td><td>Geographically dispersed across San Francisco and beyond: Parnassus Heights Campus; Mission Bay Campus; Mount Zion Campus; UCSF Benioff Children's Hospital Oakland; China Basin Campus; San Francisco General Hospital; SF Veterans Affairs Medical Center; UC College of the Law (contract); and over 100 additional properties in San Francisco, Daly City, and South San Francisco. The UCSF employment page confirms the institution operates at more than 230 sites in San Francisco, representing the total institutional footprint within which UCSF PD maintains law enforcement jurisdiction. Source: <a href="https://police.ucsf.edu/join-our-team-employment" target="_blank">UCSF PD Employment page — police.ucsf.edu/join-our-team-employment</a>.</td></tr>
+<tr><td><strong>Current Chief</strong></td><td>Mike Denson (July 2015–present, approximately 10 years including interim period). Previously: 21 years with the Palo Alto Police Department, retiring as Captain (assignments included criminal investigations, patrol, personnel/training, internal affairs, hostage negotiations, and SWAT). Deputy Chief of Police, San Mateo County Transit District (88-mile rail/bus system). Joined UCSF PD in 2012 as Captain, Field Services Division — second in command to Chief Roskowski. B.S., Public Administration (University of San Francisco); M.S., Emergency Services Administration (CSU Long Beach). Graduate of the FBI National Academy (Quantico, Virginia).</td></tr>
+<tr><td><strong>Accreditation</strong></td><td>CALEA (Commission on Accreditation for Law Enforcement Agencies) — Advanced Level — achieved 2008. The only UC police department to have ever obtained CALEA accreditation. CALEA requires compliance with more than 480 professional standards. Accreditation is renewed every four years. One of approximately 60 university police forces worldwide to hold CALEA recognition. Additionally holds IACLEA accreditation per UC Board of Regents C4 document, January 22, 2025. The only UC police department holding both CALEA and IACLEA accreditation simultaneously.</td></tr>
+<tr><td><strong>Oversight Body</strong></td><td>Police Accountability Board (PAB) — reviews complaint investigation reports, makes recommendations to the Chief. 2024 annual report published and publicly accessible. Complaint process map and investigation timeline publicly available. Any person directly affected by officer conduct may file a complaint. Website: <a href="https://pab.ucsf.edu/" target="_blank">pab.ucsf.edu</a>.</td></tr>
+<tr><td><strong>Union Representation</strong></td><td>Federated University Police Officers' Association (FUPOA). Prior to the FUPOA's systemwide formation, UCSF had an independent Police Officers Association at the time of Chief Roskowski's 2003 appointment, with Scott Andalon serving as president.</td></tr>
+<tr><td><strong>Organizational Structure</strong></td><td>Five divisions reporting to Chief Denson: (1) Office of the Chief; (2) Field Services Division — patrol and investigations from Parnassus and Mission Bay sub-stations; (3) Professional Standards Division — internal affairs, recruiting, training, and CALEA compliance; (4) Security Services Division — medical center security operations; (5) Technical Services Division — emergency communications center, LiveScan fingerprinting, property and evidence management.</td></tr>
+<tr><td><strong>Notable Distinctions</strong></td><td>(1) Only UC PD with CALEA accreditation (Advanced Level, 2008–present). (2) Most stable chief leadership in the UC system: only 2 chiefs in 22+ years. (3) Only documented line-of-duty death in UC police system history: Detective Rex Veloro, October 22, 2009. (4) Only UC PD operating under hospital-specific security mandates (HSC §§1257.7–1257.8; Cal/OSHA §3342; SB 553). (5) Only UC campus under active federal congressional investigation for antisemitism with UCSF PD document production obligations (2024–present). (6) Largest total public safety workforce and largest budget in the UC system. (7) Highest officer-to-student ratio in the UC system (18.58/1,000).</td></tr>
+</tbody>
+</table>
+
+<div id="secB" class="campus-header">Section B — Chronological Incident Log</div>
+
+<p class="body-text">All incidents documented below are drawn from public records, independent journalistic investigations, court records, federal government publications, and official university statements. They are presented in chronological order without editorial characterization. The applicable law, statute, or reporting requirement is identified for each incident so that readers may assess compliance independently.</p>
+
+<div class="incident-block">
+  <div class="incident-date">2003 — Chief Appointment</div>
+  <div class="incident-title">CHIEF ROSKOWSKI APPOINTMENT — PRIOR AGENCY CONTROVERSY AND HIRING CONTEXT</div>
+  <div class="incident-body">
+    <p>UCSF hired Pamela Roskowski from the Corvallis, Oregon Police Department, where she had served as chief for approximately 12 years (c. 1990–2003). Prior to her hiring by UCSF, the following documented events had occurred at her prior agency:</p>
+    <p><strong>April 2002 — No-Confidence Vote:</strong> At a union meeting held in April 2002, 94% of officers present voted "no confidence" in Chief Roskowski's leadership at the Corvallis Police Department. Documented allegations associated with the no-confidence proceedings included: expenditure of funds on consultants whose recommendations were not implemented; a $500,000 records management system project reported as a failure; increased rates of stress-related illness and turnover among officers; and short-staffed patrol operations. A prior no-confidence vote had also been considered in April 1995.</p>
+    <p><strong>2001 — Oregon DOJ Investigation:</strong> Separate from the no-confidence proceedings, a 2001 allegation was made that Roskowski had ordered officers to dismiss a minor-in-possession citation issued to a 20-year-old individual who was the child of a personal acquaintance. The Oregon Department of Justice investigated this allegation and found no criminal wrongdoing.</p>
+    <p><strong>UCSF Hiring Process:</strong> At the time of her UCSF hiring, the UCSF Police Officers Association president, Scott Andalon, attempted to block the appointment. Andalon wrote to UCSF Associate Vice Chancellor Randy Lopez that "several serious issues regarding Pam Roskowski's tenure at the Corvallis Police Department have been brought to my attention." Associate Vice Chancellor Lopez responded that Roskowski was "clearly a consensus first choice" of the search process.</p>
+    <p><strong>2003 — Defamation Lawsuit:</strong> Following her departure from Corvallis, Roskowski filed a $6 million defamation lawsuit against the Corvallis Police Officers Association and Teamsters Local 223 (Roskowski v. Corvallis POA, filed 2003). The United States District Court dismissed the lawsuit. The United States Court of Appeals for the Ninth Circuit affirmed the dismissal in 2007 under the Communications Decency Act (CDA), 47 U.S.C. §230.</p>
+  </div>
+  <div class="incident-law">
+    <strong>Applicable Standards:</strong> POST standards governing chief-level hiring and vetting; institutional integrity obligations. The Oregon DOJ cleared the criminal allegation. The federal lawsuit was dismissed by both the District Court and the Ninth Circuit. This entry is included to document the factual hiring context only.<br><br>
+    <strong>Reported to POST/DOJ?</strong> Not applicable — pre-appointment controversy at prior agency. Oregon DOJ cleared criminal allegation. Federal lawsuit dismissed with prejudice.<br><br>
+    <strong>Sources:</strong> Gazette-Times (Corvallis), December 30, 2002; Democrat-Herald (Albany, OR), December 15, 2022; Online Liability Blog, November 29, 2007; Blue Moon Consulting Group professional biography.
+  </div>
+</div>
+
+<div class="incident-block">
+  <div class="incident-date">2008</div>
+  <div class="incident-title">CALEA ACCREDITATION ACHIEVED — FIRST AND ONLY IN UC SYSTEM</div>
+  <div class="incident-body">
+    <p>In 2008, the UCSF Police Department achieved accreditation from the Commission on Accreditation for Law Enforcement Agencies (CALEA). UCSF PD became, and remains, the only UC police department to have ever attained CALEA accreditation. CALEA requires agencies to demonstrate compliance with more than 480 professional law enforcement standards. The UCSF PD subsequently achieved CALEA's Advanced Level accreditation. CALEA accreditation is renewed through a rigorous re-assessment process every four years. UCSF PD is one of approximately 60 university police forces worldwide to hold CALEA recognition.</p>
+    <p>No other UC campus police department has pursued CALEA accreditation. As of January 22, 2025, the UC Board of Regents C4 document additionally records UCSF PD as holding IACLEA accreditation — making UCSF PD the only UC police department to hold both CALEA and IACLEA accreditation simultaneously.</p>
+  </div>
+  <div class="incident-law">
+    <strong>Applicable Standards:</strong> CALEA accreditation standards (480+ professional standards). Voluntary external accountability framework exceeding requirements at all other UC campuses.<br><br>
+    <strong>Reported to POST/DOJ?</strong> Not applicable — accreditation milestone.<br><br>
+    <strong>Sources:</strong> <a href="https://police.ucsf.edu/" target="_blank">UCSF PD website — police.ucsf.edu</a>; <a href="https://link.ucop.edu/2013/01/22/uc-police-chiefs-team-up-jan-23-for-women-we-admire/" target="_blank">UCOP, January 22, 2013</a>; UC Board of Regents C4 document, January 22, 2025 — <a href="https://regents.universityofcalifornia.edu/regmeet/jan25/c4.pdf" target="_blank">regents.universityofcalifornia.edu/regmeet/jan25/c4.pdf</a>.
+  </div>
+</div>
+
+<div class="incident-block">
+  <div class="incident-date">October 22, 2009</div>
+  <div class="incident-title">LINE-OF-DUTY DEATH — DETECTIVE REX VELORO — ONLY DOCUMENTED LODD IN UC POLICE SYSTEM HISTORY</div>
+  <div class="incident-body">
+    <p>On October 22, 2009, UCSF Police Detective Rex Veloro was killed in an automobile accident in the line of duty. Detective Veloro had joined the UCSF Police Department as a police officer in October 2002, following two years of service with the San Francisco County Sheriff's Office. He had been designated the 2008 UCSF Police Department Employee of the Year.</p>
+    <p>In July 2004, Detective Veloro received the UC Police Department Meritorious Service Medal for, in the department's documentation, "exercising exceptional judgment, restraint, and professionalism while apprehending a subject armed with a knife."</p>
+    <p>UCSF Police Dispatcher John Dragon was critically injured in the same accident and was admitted to San Francisco General Hospital in critical condition.</p>
+    <p>Chief Roskowski issued a public statement: "Officer Veloro was an outstanding, well-respected member of the UCSF Police Department. This is a tragic loss for us as a department and as professional colleagues and friends."</p>
+    <p>This event is the only documented line-of-duty death in the entire history of the University of California police system across all ten campuses.</p>
+  </div>
+  <div class="incident-law">
+    <strong>Applicable Standards:</strong> POST line-of-duty death protocols; Peace Officers Memorial Foundation reporting requirements; Clery Act (20 U.S.C. §1092(f)) incident notification obligations.<br><br>
+    <strong>Reported to POST/DOJ?</strong> Documented — this line-of-duty death is recorded in institutional records. Included as the sole documented LODD in UC police system history.<br><br>
+    <strong>Sources:</strong> <a href="https://www.ucsf.edu/news/2009/10/8200/ucsf-mourns-campus-police-detective" target="_blank">UCSF News, October 23, 2009 — "UCSF Mourns Campus Police Detective"</a>.
+  </div>
+</div>
+
+<div class="incident-block">
+  <div class="incident-date">2011 — Post-Pepper Spray Period</div>
+  <div class="incident-title">SYSTEM-WIDE POLICY REFORM COORDINATION — CHIEF ROSKOWSKI AS UC SYSTEM-WIDE POLICE SERVICES COORDINATOR</div>
+  <div class="incident-body">
+    <p>Following the UC Davis pepper spray incident of November 18, 2011, and the UC Berkeley Occupy Cal incident of November 2011, the UC system undertook a system-wide review and reform of use-of-force and civil disobedience response policies. Chief Roskowski was serving at this time as the UC System-wide Police Services Coordinator — a role in which she oversaw coordination, development, and implementation of public safety planning and policy across all ten UC campuses.</p>
+    <p>In her capacity as System-wide Coordinator — a role she held for six years — Roskowski was instrumental in developing and implementing the revised system-wide Use of Force policy and the Civil Disobedience Response policy adopted by the UC system in the aftermath of the 2011 incidents. These policies applied to all ten UC police departments. This coordination role placed a UCSF-based chief at the center of the UC-wide reform process.</p>
+  </div>
+  <div class="incident-law">
+    <strong>Applicable Standards:</strong> UC system-wide use-of-force policy development; POST training standards; system-wide civil disobedience response protocols.<br><br>
+    <strong>Reported to POST/DOJ?</strong> Not applicable — policy reform coordination role.<br><br>
+    <strong>Sources:</strong> Blue Moon Consulting Group professional biography of Chief Roskowski; UCOP records.
+  </div>
+</div>
+
+<div class="incident-block">
+  <div class="incident-date">March 2024</div>
+  <div class="incident-title">UCSF CANCER CENTER DEFACED WITH ANTISEMITIC LANGUAGE INVOKING THE HOLOCAUST</div>
+  <div class="incident-body">
+    <p>In March 2024, UCSF's cancer center was defaced with antisemitic language that invoked the Holocaust. This incident was subsequently cited by the United States House Energy and Commerce Committee in its July 2024 investigation correspondence as evidence of an antisemitic environment at UCSF facilities. It was referenced alongside other documented incidents in the committee's seven-page letter to UCSF Chancellor Sam Hawgood.</p>
+    <p>Whether this incident was investigated by UCSF PD as a potential violation of Penal Code §422.6 (hate crime), reported by UCSF PD to the California Department of Justice as a hate crime, classified as a Clery Act hate crime in UCSF's Annual Security Report, or referred to the San Francisco Police Department for investigation is not documented in available public records.</p>
+  </div>
+  <div class="incident-law">
+    <strong>Applicable Law:</strong> Penal Code §422.6 (hate crime — interference with civil rights); Penal Code §594 (vandalism). Clery Act (20 U.S.C. §1092(f)) — hate crimes occurring on campus must be classified and reported in the Annual Security Report.<br><br>
+    <strong>Reported to POST/DOJ?</strong> UNKNOWN — Whether this incident was reported as a Clery Act hate crime and investigated as a Penal Code §422.6 violation is not documented in available public records.<br><br>
+    <strong>Sources:</strong> House Energy and Commerce Committee letter, July 2024 — <a href="https://energycommerce.house.gov/posts/e-and-c-republicans-open-investigation-into-allegations-of-antisemitism-at-uc-san-francisco" target="_blank">energycommerce.house.gov</a>; UCSF Chancellor statements.
+  </div>
+</div>
+
+<div class="incident-block">
+  <div class="incident-date">Spring 2024</div>
+  <div class="incident-title">GAZA SOLIDARITY ENCAMPMENT AT UCSF MEDICAL CENTER — AB 48 COMPLIANCE STATUS</div>
+  <div class="incident-body">
+    <p>During the spring 2024 nationwide campus encampment movement, a Gaza solidarity encampment was established in front of the UCSF medical center. The House Energy and Commerce Committee, in its July 2024 investigation letter, described the encampment as causing "significant disruption to campus and health care operations, as well as great distress for members of the community, including health care professionals and patients." Jewish healthcare professionals at UCSF expressed safety concerns, including fears that private information would be made public.</p>
+    <p>The specific arrest count and use-of-force details for UCSF's encampment response were not separately documented in available public sources. The September 12, 2025 LAist investigation — which examined all ten UC campus police departments' compliance with Assembly Bill 48 (AB 48) — specifically noted: "UC Merced and UCSF, to date, have not reported any use of less-lethal weapons."</p>
+    <p>Whether crowd-control weapons were deployed during UCSF's encampment response, and whether AB 48 reporting was therefore required and not filed, is not conclusively established in available public records. UCSF PD is not listed on the California Department of Justice's AB 48 reporting webpage as of September 12, 2025.</p>
+    <p>Of additional note: UCSF's encampment occurred at an active medical center. The hospital security mandates applicable to UCSF PD — specifically Health &amp; Safety Code §§1257.7–1257.8 and Cal/OSHA §3342 — impose security and violence-prevention obligations at medical facilities that are not present at other UC campuses. Whether these obligations affected the UCSF PD's encampment response is not documented in available public records.</p>
+  </div>
+  <div class="incident-law">
+    <strong>Applicable Law:</strong> AB 48 (PC §§13652, 13652.1) — requires reporting of any use of kinetic energy projectiles, chemical agents, or other crowd-control weapons during crowd management; First Amendment assembly rights; Clery Act campus safety reporting; HSC §§1257.7–1257.8 and Cal/OSHA §3342 (hospital security mandates).<br><br>
+    <strong>Reported to POST/DOJ?</strong> UNKNOWN — UCSF PD is not listed on the DOJ AB 48 reporting webpage. Whether any incident requiring AB 48 reporting occurred is not independently confirmed.<br><br>
+    <strong>Sources:</strong> House Energy and Commerce Committee letter, July 2024; <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist, September 12, 2025</a>.
+  </div>
+</div>
+
+<div class="incident-block">
+  <div class="incident-date">July 2024 – Present</div>
+  <div class="incident-title">ACTIVE FEDERAL CONGRESSIONAL INVESTIGATION — ANTISEMITISM AT UCSF — UCSF PD DOCUMENTS SPECIFICALLY SUBPOENAED</div>
+  <div class="incident-body">
+    <p><strong>July 31, 2024 — Investigation Opened:</strong> The House Energy and Commerce Committee opened a formal investigation into antisemitic harassment and intimidation at UCSF and UCSF Health medical centers. A seven-page investigative letter was sent to UCSF Chancellor Sam Hawgood, signed by Committee Chair Cathy McMorris Rodgers, Health Subcommittee Chair Brett Guthrie, and Oversight Subcommittee Chair Morgan Griffith.</p>
+    <p>The committee letter cited the following specific documented incidents and conditions at UCSF: (1) A Gaza solidarity encampment at the UCSF medical center causing disruption to health care operations; (2) safety concerns expressed by Jewish healthcare professionals at UCSF, including fears that private information would be made public; (3) numerous antisemitic public statements by faculty, staff, and students at UCSF; (4) public statements claiming that patients should fear being treated by Jewish doctors; (5) the March 2024 defacement of the UCSF cancer center with antisemitic language invoking the Holocaust; (6) hundreds of complaints filed with UCSF's Office for the Prevention of Harassment and Discrimination (OPHD), with most complainants allegedly told the reported conduct was protected speech; and (7) UCSF assigning a counselor who had allegedly posted antisemitic remarks to support Jewish faculty who had reported antisemitism to the university.</p>
+    <p>The committee warned that federal funding — including Department of Health and Human Services grants and Medicare/Medicaid reimbursements — could be withheld if UCSF failed to address the documented conditions.</p>
+    <p><strong>August 21, 2025 — Follow-Up Congressional Letter — UCSF PD Documents Specifically Requested:</strong> The House Education and Workforce Committee sent a follow-up letter to UCSF requesting documents by September 8, 2025. The document production request specifically included materials in the possession of the UCSF Police Department. This request placed UCSF PD under an active federal document production obligation.</p>
+    <p><strong>Investigation Scope Expansion:</strong> The congressional investigation was subsequently expanded to include the Gladstone Institutes, a UCSF-affiliated research organization. By April 2025, the Paul Weiss law firm, retained in connection with the investigation, reportedly recommended the termination of a UCSF professor for conduct connected to the antisemitism investigation.</p>
+    <p><strong>UCSF PD Direct Involvement:</strong> The federal investigation directly implicates UCSF PD in four documented respects: (1) The encampment at the UCSF medical center occurred within UCSF PD's primary patrol jurisdiction; (2) the August 2025 document production request specifically named the UCSF Police Department; (3) the physical security of Jewish healthcare workers at UCSF's medical facilities is a UCSF PD operational responsibility; and (4) the March 2024 cancer center defacement is a potential hate crime investigation within UCSF PD's investigative jurisdiction under Penal Code §422.6.</p>
+  </div>
+  <div class="incident-law">
+    <strong>Applicable Law:</strong> Title VI of the Civil Rights Act of 1964 (42 U.S.C. §2000d); Clery Act hate crime reporting (20 U.S.C. §1092(f)); Penal Code §422.6 (hate crimes); HSC §§1257.7–1257.8 (hospital security obligations); federal document production obligations.<br><br>
+    <strong>Status:</strong> UNDER ACTIVE FEDERAL INVESTIGATION — Congressional document production requests specifically name the UCSF Police Department. Investigation was ongoing as of the compilation date of this report (March 15, 2026).<br><br>
+    <strong>Sources:</strong> <a href="https://energycommerce.house.gov/posts/e-and-c-republicans-open-investigation-into-allegations-of-antisemitism-at-uc-san-francisco" target="_blank">House E&amp;C Committee, July 2024</a>; <a href="https://edworkforce.house.gov/" target="_blank">House Education &amp; Workforce Committee, August 21, 2025</a>; <a href="https://www.jns.org/lawmakers-investigating-antisemitism-at-uc-san-francisco-medical-centers/" target="_blank">JNS, August 1, 2024</a>; <a href="https://jweekly.com/2025/04/25/ucsf-professor-who-maligned-israeli-student-says-she-may-be-fired/" target="_blank">J. Weekly, April 25, 2025</a>; <a href="https://www.insidehighered.com/news/quick-takes/2024/06/04/house-republicans-open-antisemitism-probes-10-colleges" target="_blank">Inside Higher Ed, June 4, 2024</a>; <a href="https://chancellor.ucsf.edu/" target="_blank">UCSF Chancellor's Office</a>; <a href="https://www.speaker.gov/" target="_blank">U.S. House Speaker — Antisemitism Report, December 2024</a>.
+  </div>
+</div>
+
+<div id="secC" class="campus-header">Section C — State and Federal Compliance Status Matrix</div>
+
+<p class="body-text">The following matrix applies each identified state and federal reporting mandate to the factual record of UCSF PD's documented conduct. Compliance determinations are drawn exclusively from the factual record in public sources. Where the factual record is incomplete, the status is designated UNKNOWN rather than compliant or non-compliant.</p>
+
+<table class="info-table">
+<thead>
+  <tr><th style="width:17%">Mandate</th><th style="width:22%">Requirement</th><th style="width:13%">Status</th><th style="width:31%">Factual Basis</th><th style="width:17%">Source(s)</th></tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>AB 48</strong><br>(PC §§13652, 13652.1)<br>Effective January 1, 2022</td>
+  <td>Requires every law enforcement agency to document and publicly report any use of kinetic energy projectiles, chemical agents, or other crowd-control weapons during protest or crowd-management operations.</td>
+  <td><span class="badge badge-yellow">NOT LISTED ON DOJ REPORTING WEBSITE — NO QUALIFYING INCIDENTS CONFIRMED IN AVAILABLE RECORDS</span></td>
+  <td>UCSF PD is not listed on the California DOJ's AB 48 reporting webpage as of the September 12, 2025 LAist investigation. Nine of ten UC campus police departments were not listed; only UCLA appeared on the DOJ reporting page. The LAist investigation specifically and directly stated: "UC Merced and UCSF, to date, have not reported any use of less-lethal weapons." This statement is materially distinct from the findings applicable to other UC campuses where crowd-control weapons were documented as deployed: at UCSF, no independent public record has been identified confirming that UCSF PD deployed crowd-control weapons during its spring 2024 encampment response. Whether UCSF PD had any incidents that triggered an AB 48 reporting obligation is not established in available public records. Absence from the DOJ reporting website, where no qualifying incident has been independently confirmed, does not constitute a proven statutory violation. AB 48 has no enforcement mechanism, as confirmed by both the California DOJ and POST.</td>
+  <td><a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist, Sept 12, 2025</a>; <a href="https://laist.com/news/politics/california-weapons-protests-reporting-requirements" target="_blank">LAist — AB 48 enforcement</a></td>
+</tr>
+<tr>
+  <td><strong>Clery Act</strong><br>(20 U.S.C. §1092(f))<br>Effective 1990</td>
+  <td>Requires disclosure of campus crime statistics, a daily crime log, timely warnings, emergency notifications, and an Annual Security Report covering the preceding three calendar years.</td>
+  <td><span class="badge badge-green">COMPLIANT</span><br><br>No Violations Documented</td>
+  <td>UCSF PD publishes Annual Security Reports containing crime statistics for the preceding three calendar years. Clery Act Coordinator Jason Heil is identified in departmental records. No Department of Education investigation, fine, or enforcement action has been identified against UCSF PD. The March 2024 cancer center defacement with antisemitic language raises the question of whether that incident was classified as a Clery Act hate crime in the subsequent Annual Security Report — a fact not resolvable from available public records.</td>
+  <td><a href="https://police.ucsf.edu/clery-act" target="_blank">UCSF PD — Clery Act page</a>; <a href="https://police.ucsf.edu/resources" target="_blank">UCSF PD — Resources</a></td>
+</tr>
+<tr>
+  <td><strong>SB 1421</strong><br>(PC §832.7)<br>Effective January 1, 2019</td>
+  <td>Requires release of records relating to officer-involved shootings, use of force causing great bodily injury or death, sustained findings of sexual assault, and sustained findings of dishonesty.</td>
+  <td><span class="badge badge-red">DOCUMENTED NON-DISCLOSURE — AS OF MAY 2020 REVIEW</span><br><br>System-Wide Finding</td>
+  <td>Voice of San Diego (May 12, 2020) documented that UCSF was among six UC campuses that provided no records whatsoever in response to SB 1421 public records requests, claiming no disclosable records existed. The six campuses that provided no records: UC San Diego, UC Berkeley, UCLA, UC Irvine, UC Santa Cruz, and UCSF. Only UC Davis, UC Merced, and UC Santa Barbara provided records. The UC system was documented as having 200+ use-of-force incidents systemwide but released only two case files total. Current disclosure status has not been independently verified as of March 2026; no subsequent investigation or public records production confirming or reversing UCSF PD's compliance posture has been identified in available public records.</td>
+  <td><a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">Voice of San Diego, May 12, 2020</a>; <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">UAW 2865 Research WG, Feb 2021</a></td>
+</tr>
+<tr>
+  <td><strong>AB 481</strong><br>(Gov. Code §7070 et seq.)<br>Effective January 1, 2022</td>
+  <td>Requires governing body approval for acquisition and use of military equipment and submission of annual use reports.</td>
+  <td><span class="badge badge-yellow">NO NON-COMPLIANCE IDENTIFIED IN AVAILABLE RECORDS</span></td>
+  <td>UCSF PD, as a CALEA-accredited agency subject to UC Board of Regents oversight, would be expected to maintain AB 481 compliance. UC Regents review military equipment reports for all ten campuses. No specific non-compliance finding has been identified for UCSF PD in available public records. This finding reflects the absence of documented non-compliance, not independently confirmed full compliance.</td>
+  <td>UC Board of Regents military equipment reports</td>
+</tr>
+<tr>
+  <td><strong>AB 748</strong><br>(PC §832.18)<br>Effective July 1, 2019</td>
+  <td>Requires release of body-worn camera footage within 45 days for critical incidents.</td>
+  <td><span class="badge badge-yellow">UNKNOWN</span><br><br>No Critical Incidents Documented</td>
+  <td>The UC system-wide body-worn camera policy (Chapter 15, UC Universitywide Police Policies) requires sworn personnel to wear BWV systems. As a CALEA-accredited agency, a BWC program would be expected to be operational. No officer-involved shootings or incidents resulting in great bodily injury have been documented since BWC deployment began systemwide, preventing assessment of AB 748 compliance in practice.</td>
+  <td>UC Universitywide Police Policies, Ch. 15; Inside UCR, September 22, 2019</td>
+</tr>
+<tr>
+  <td><strong>Brady / Giglio</strong><br>Disclosure Obligations</td>
+  <td>Prosecutors must disclose material impeachment evidence about law enforcement witnesses, including sustained findings of dishonesty or untruthfulness.</td>
+  <td><span class="badge badge-green">NO ISSUES IDENTIFIED IN AVAILABLE PUBLIC RECORDS</span></td>
+  <td>No publicly documented sustained findings of dishonesty, untruthfulness, or other Brady-relevant misconduct involving UCSF PD officers have been identified. No officer-involved shootings documented. No civil rights lawsuits naming UCSF PD officers have been identified.</td>
+  <td>Public records search</td>
+</tr>
+<tr>
+  <td><strong>RIPA / AB 953</strong><br>Effective January 2022 (for UC PDs)</td>
+  <td>Requires collection and public reporting of data on all law enforcement stops, including demographic information.</td>
+  <td><span class="badge badge-green">DATA COLLECTION COMPLIANT</span></td>
+  <td>UCSF PD publishes RIPA stop data on its departmental resources page. Data collection and public reporting are documented.</td>
+  <td><a href="https://police.ucsf.edu/resources" target="_blank">UCSF PD — Resources page</a></td>
+</tr>
+<tr>
+  <td><strong>SB 2</strong><br>(Kenneth Ross Jr. Act)<br>Effective January 1, 2023</td>
+  <td>Establishes POST authority to investigate and decertify peace officers for serious misconduct.</td>
+  <td><span class="badge badge-green">NO ACTIONS IDENTIFIED</span></td>
+  <td>No POST decertification actions or investigations involving UCSF PD officers have been identified in available public records.</td>
+  <td>POST Commission records</td>
+</tr>
+<tr>
+  <td><strong>Hospital Security Mandates</strong><br>HSC §§1257.7–1257.8 (AB 508, 1993)<br>Cal/OSHA §3342 (SB 1299, 2014)<br>SB 553 (2023)<br><em>UNIQUE TO UCSF WITHIN THE UC SYSTEM</em></td>
+  <td><strong>AB 508:</strong> Mandatory security assessments, security plans, mandatory 72-hour assault/battery reporting, security training for ED employees.<br><br><strong>Cal/OSHA §3342:</strong> Mandatory workplace violence prevention plans; mandatory Cal/OSHA incident reporting for patient violence against employees.<br><br><strong>SB 553:</strong> Extended workplace violence prevention requirements to general industry employers.</td>
+  <td><span class="badge badge-green">COMPLIANCE PRESUMED</span><br><br>No Violations Documented</td>
+  <td>UCSF PD directly provides the law enforcement component of UCSF's mandatory hospital security plans, conducts mandatory reporting of assault and battery incidents, and delivers security training to clinical staff. No Cal/OSHA citations or HSC violations involving UCSF PD have been identified. This dual regulatory burden — standard UC police oversight plus mandatory hospital security statutes — is unique within the UC system.</td>
+  <td>HSC §§1257.7–1257.8; Cal/OSHA §3342; Labor Code §6401.8; SB 553 text</td>
+</tr>
+</tbody>
+</table>
+
+<div class="key-finding">
+  <strong>Compliance Summary — UCSF PD</strong>
+  Of the eight identified mandates assessed above: UCSF PD's SB 1421 posture is documented as non-disclosure as of the May 2020 Voice of San Diego investigation — the most recent publicly available review of UCSF's SB 1421 compliance; current disclosure status has not been independently verified as of March 2026. UCSF PD is not listed on the California DOJ AB 48 reporting webpage; however, the LAist September 2025 investigation specifically states that "UC Merced and UCSF, to date, have not reported any use of less-lethal weapons" — meaning no qualifying incident triggering an AB 48 reporting obligation has been independently confirmed at UCSF. UCSF PD is compliant with the Clery Act; no non-compliance has been identified for AB 481; RIPA data collection is documented as compliant; no Brady/Giglio issues have been identified in available public records; no SB 2 decertification actions have been identified; and hospital security mandate compliance is documented with no violations found. AB 748 compliance cannot be assessed because no qualifying critical incidents have been documented since BWC deployment. Additionally, UCSF PD is under an active federal congressional document production obligation arising from the House Energy and Commerce Committee and House Education and Workforce Committee antisemitism investigations, the compliance status of which is not determinable from available public records as of March 15, 2026.
+</div>
+
+<div id="secD" class="campus-header">Section D — Financial Impact: Fines, Settlements, and Costs</div>
+
+<table class="info-table">
+<thead><tr><th>Item</th><th>Amount</th><th>Year(s)</th><th>Context</th><th>Source(s)</th></tr></thead>
+<tbody>
+<tr><td><strong>Annual Operating Budget</strong></td><td>$50,000,000+</td><td>Current</td><td>Largest departmental police budget in the UC system. As reported in Chief Denson's professional profile and UCSF Finance and Administrative Services records; an independently confirmed UCSF PD-specific budget document has not been identified in available public records as of March 2026. The UCOP UC Community Safety Data Dashboard at <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/data-dashboard/index.html" target="_blank">ucop.edu</a> maintains publicly accessible systemwide budget and workforce data. The budget figure reflects the medical center security mission, 24-hour multi-site patrol obligations, and total public safety workforce of approximately 440 employees (sworn and non-sworn combined) — the largest total public safety workforce in the UC system.</td><td>Chief Denson professional profile; UCSF FAS records; <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/data-dashboard/index.html" target="_blank">UCOP Community Safety Dashboard</a></td></tr>
+<tr><td><strong>Clery Act Fines</strong></td><td>$0</td><td>All years</td><td>No Department of Education investigation, fine, or enforcement action has been identified against UCSF PD. Contrast: UC Berkeley was fined $2.35 million by the DOE in 2020 for Clery Act violations.</td><td>DOE enforcement records; public records search</td></tr>
+<tr><td><strong>Use-of-Force Litigation Settlements</strong></td><td>$0 documented</td><td>All years</td><td>No publicly documented excessive force lawsuits, civil rights litigation settlements, or employment discrimination judgments naming UCSF PD as a defendant have been identified in available public records. No officer-involved shootings have been documented.</td><td>Public records search</td></tr>
+<tr><td><strong>Protest-Related Security Costs</strong></td><td>Undisclosed</td><td>Spring 2024</td><td>The spring 2024 Gaza solidarity encampment at the UCSF medical center required UCSF PD operational response. Costs associated with that response have not been separately disclosed in available public records.</td><td>House E&amp;C Committee letter, July 2024</td></tr>
+<tr><td><strong>Roskowski Defamation Lawsuit (prior agency)</strong></td><td>$6,000,000 sought (Dismissed)</td><td>2003–2007</td><td>Filed by Chief Roskowski against the Corvallis Police Officers Association and Teamsters Local 223 before her UCSF employment. Dismissed by the U.S. District Court. Affirmed by the Ninth Circuit under CDA §230 (2007). Predates Roskowski's UCSF service; resulted in no financial consequence to UCSF.</td><td>Democrat-Herald (Albany, OR), December 15, 2022; Ninth Circuit records</td></tr>
+<tr><td><strong>Federal Funding at Risk — Congressional Investigation</strong></td><td>Amount not specified by Congress</td><td>2024–present</td><td>The House Energy and Commerce Committee's July 2024 investigation letter warned UCSF that federal funding — including HHS grants and Medicare/Medicaid reimbursements — could be withheld if documented antisemitism conditions at UCSF were not addressed. The specific amount at risk has not been quantified in available public records.</td><td><a href="https://energycommerce.house.gov/posts/e-and-c-republicans-open-investigation-into-allegations-of-antisemitism-at-uc-san-francisco" target="_blank">House E&amp;C Committee, July 2024</a></td></tr>
+</tbody>
+</table>
+
+<div id="secE" class="campus-header">Section E — Leadership History</div>
+
+<p class="body-text">UCSF PD's documented leadership history presents the most stable chief succession record in the UC system. The following table documents all known chiefs, their tenures, and POST-relevant notes arising from each tenure period.</p>
+
+<table class="info-table">
+<thead><tr><th style="width:14%">Period</th><th style="width:14%">Chief</th><th style="width:38%">Key Facts During Tenure</th><th style="width:22%">POST-Relevant Notes</th><th style="width:12%">Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td><strong>Pre-2003</strong></td>
+  <td>Unknown</td>
+  <td>The identity of the UCSF police chief immediately prior to Chief Roskowski's 2003 appointment has not been independently verified in available public records. The UCSF Police Officers Association, with Scott Andalon serving as president, was an established bargaining unit at the time of the transition.</td>
+  <td>Pre-documentation era for this dossier.</td>
+  <td>Gazette-Times (Corvallis), December 30, 2002</td>
+</tr>
+<tr>
+  <td><strong>2003 – June 29, 2015</strong><br>(approximately 12 years)</td>
+  <td><strong>Chief Pamela Roskowski</strong></td>
+  <td><strong>Prior Career:</strong> Palo Alto Police Department beginning 1976, rising through all ranks to Captain of Investigations. Corvallis (OR) Police Department Chief, approximately 1990–2003. M.P.A. and B.S. in Criminal Justice, San Jose State University.<br><br><strong>Pre-UCSF History:</strong> Subject to 94% no-confidence vote (April 2002) and Oregon DOJ investigation (2001, cleared) at Corvallis PD. Federal defamation lawsuit filed post-departure from Corvallis, dismissed by District Court and affirmed by Ninth Circuit (2007).<br><br><strong>At UCSF:</strong> Led department to CALEA accreditation (2008). Expanded policing services to Mission Bay Campus. Implemented Homeland Security and Emergency Management functions. Integrated CCTV into the 911 Emergency Communications Center. Oversaw the line-of-duty death of Detective Rex Veloro (October 22, 2009) and the critical injury of Dispatcher John Dragon in the same incident.<br><br><strong>UC System-Wide Role:</strong> Served six years as UC System-wide Police Services Coordinator. Developed system-wide use-of-force and civil disobedience response policies following the 2011 UC Davis pepper spray and UC Berkeley Occupy Cal incidents. Retired June 29, 2015.</td>
+  <td>CALEA accreditation (2008) is the signature achievement of this tenure. System-wide policy coordination role post-2011 placed Roskowski at the center of UC-wide reform. No sustained misconduct findings, no use-of-force litigation, and no civil rights complaints documented during her 12-year UCSF tenure. Most stable tenure of any UC chief documented in this series.</td>
+  <td>Gazette-Times; Blue Moon Consulting Group biography; UCSF FAS retirement announcement; <a href="https://link.ucop.edu/2013/01/22/uc-police-chiefs-team-up-jan-23-for-women-we-admire/" target="_blank">UCOP, Jan 22, 2013</a></td>
+</tr>
+<tr>
+  <td><strong>July 2015 – Present</strong><br>(approximately 10 years including interim period)</td>
+  <td><strong>Chief Mike Denson</strong></td>
+  <td><strong>Prior Career:</strong> 21 years with the Palo Alto Police Department, retiring as Captain (criminal investigations, patrol, personnel and training, internal affairs, hostage negotiations, and SWAT). Deputy Chief of Police, San Mateo County Transit District (88-mile rail and bus system). B.S., Public Administration (USF); M.S., Emergency Services Administration (CSULB). FBI National Academy graduate (Quantico).<br><br><strong>Arrival at UCSF:</strong> Joined UCSF PD in 2012 as Captain, Field Services Division — second in command to Chief Roskowski. Appointed interim chief upon Roskowski's retirement July 2015. Permanently appointed as Chief of Police early 2016.<br><br><strong>Combined Leadership Continuity:</strong> Roskowski 12 years plus Denson approximately 10 years = approximately 22 years of uninterrupted senior leadership continuity, with Denson present for the final three years of Roskowski's tenure. Most stable record in the UC system. Contrast: UCLA has had 12 chiefs averaging approximately 2.8 years per tenure.<br><br><strong>Notable Events During Denson's Tenure:</strong> CALEA accreditation maintained. IACLEA accreditation added (January 2025 UC Regents C4 document). SB 1421 non-compliance documented (Voice of San Diego, May 2020). AB 48 non-compliance documented (LAist, September 2025). Active federal congressional antisemitism investigation implicating UCSF PD in document production obligations (July 2024–present). No officer misconduct findings, no officer-involved shootings, and no civil rights litigation involving UCSF PD officers have been documented.</td>
+  <td>AB 48 non-compliance confirmed during Denson's tenure. SB 1421 non-compliance confirmed (zero records provided, 2020). Active federal congressional investigation directly implicating UCSF PD through August 2025 document production request. CALEA and IACLEA accreditation maintained. No documented officer misconduct, excessive force litigation, or civil rights actions identified.</td>
+  <td><a href="https://www.ucsf.edu/news/2016/02/401576/mike-denson-safeguarding-ucsf-community" target="_blank">UCSF News, Feb 3, 2016</a>; UCSF FAS appointment announcement</td>
+</tr>
+</tbody>
+</table>
+
+<div class="key-finding">
+  <strong>Leadership Stability as a Systemic Contrast</strong>
+  The UCSF PD leadership record — two chiefs over 22+ years, with the current chief having served in the department as second-in-command for three years before his appointment — represents the most stable succession pattern in the UC system. UCLA, the final campus in this series, has documented 12 chiefs averaging approximately 2.8 years per tenure. UC Davis experienced multiple interim chiefs following the 2011 pepper spray incident. UCSF's stability record is documented here as a factual contrast point that the record independently supports.
+</div>
+
+<h2 id="secF" class="appendix-heading">Section F — Source Index</h2>
+
+<p class="body-text">All sources cited in this report are listed below in the order first cited. URLs are provided for all electronically accessible sources.</p>
+
+<div class="appendix-category">Journalistic and Investigative Sources</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-09-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[1] <strong>LAist</strong></div>
+    <div class="src-sub">"9 of 10 UC campus police departments fail to comply with state law around protest response." September 12, 2025. <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[2] <strong>LAist</strong></div>
+    <div class="src-sub">AB 48 enforcement context (no enforcement mechanism confirmed by DOJ and POST). 2025. <a href="https://laist.com/news/politics/california-weapons-protests-reporting-requirements" target="_blank">laist.com/news/politics/california-weapons-protests-reporting-requirements</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020-05-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[3] <strong>Voice of San Diego</strong></div>
+    <div class="src-sub">"UC Campuses Have Disclosed Virtually No Records Under Police Transparency Law." May 12, 2020. <a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[4] <strong>UAW Local 2865 Research Working Group</strong></div>
+    <div class="src-sub">"Policing in the UC." February 2021. <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">uaw2865.org (PDF)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2002-12-30</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[5] <strong>Gazette-Times (Corvallis, OR)</strong></div>
+    <div class="src-sub">"Roskowski picked for San Francisco job." December 30, 2002. (Print — no URL available.)</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2022-12-15</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[6] <strong>Democrat-Herald (Albany, OR)</strong></div>
+    <div class="src-sub">"Ex-Corvallis chief's lawsuit dismissed." December 15, 2022. (Print — no URL available.)</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2007-11-29</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[7] <strong>Online Liability Blog</strong></div>
+    <div class="src-sub">Roskowski v. Corvallis POA — Ninth Circuit CDA §230 ruling. November 29, 2007. (onlineliabilityblog.com — archived.)</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-08-01</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[8] <strong>JNS (Jewish News Syndicate)</strong></div>
+    <div class="src-sub">"Lawmakers investigating antisemitism at UC-San Francisco medical centers." August 1, 2024. <a href="https://www.jns.org/lawmakers-investigating-antisemitism-at-uc-san-francisco-medical-centers/" target="_blank">jns.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-04-25</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[9] <strong>J. Weekly</strong></div>
+    <div class="src-sub">"UCSF professor who maligned Israeli student says she may be fired." April 25, 2025. <a href="https://jweekly.com/2025/04/25/ucsf-professor-who-maligned-israeli-student-says-she-may-be-fired/" target="_blank">jweekly.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-06-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[10] <strong>Inside Higher Ed</strong></div>
+    <div class="src-sub">"House Republicans open antisemitism probes of 10 colleges." June 4, 2024. <a href="https://www.insidehighered.com/news/quick-takes/2024/06/04/house-republicans-open-antisemitism-probes-10-colleges" target="_blank">insidehighered.com</a></div>
+  </div>
+</div>
+
+<div class="appendix-category">UC Institutional Sources</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[11] <strong>UCSF PD</strong></div>
+    <div class="src-sub">Department Homepage. <a href="https://police.ucsf.edu/" target="_blank">police.ucsf.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[12] <strong>UCSF PD</strong></div>
+    <div class="src-sub">Our Department (organizational structure, divisions, jurisdictional footprint). <a href="https://police.ucsf.edu/our-department" target="_blank">police.ucsf.edu/our-department</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[13] <strong>UCSF PD</strong></div>
+    <div class="src-sub">Clery Act and Annual Fire Safety and Security Reports. <a href="https://police.ucsf.edu/clery-act" target="_blank">police.ucsf.edu/clery-act</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[14] <strong>UCSF PD</strong></div>
+    <div class="src-sub">Resources (RIPA data, use-of-force data, workforce reports). <a href="https://police.ucsf.edu/resources" target="_blank">police.ucsf.edu/resources</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[15] <strong>UCSF PD</strong></div>
+    <div class="src-sub">UC Community Safety Plan Dashboard. <a href="https://police.ucsf.edu/uc-community-safety-plan-dashboard" target="_blank">police.ucsf.edu/uc-community-safety-plan-dashboard</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[16] <strong>UCSF Police Accountability Board (PAB)</strong></div>
+    <div class="src-sub">Website and 2024 Annual Report. <a href="https://pab.ucsf.edu/" target="_blank">pab.ucsf.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[17] <strong>UCSF Campus Administrative Policy 050-23</strong></div>
+    <div class="src-sub">Police Department. <a href="https://policies.ucsf.edu/policy/050-23" target="_blank">policies.ucsf.edu/policy/050-23</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2009-10-23</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[18] <strong>UCSF News</strong></div>
+    <div class="src-sub">"UCSF Mourns Campus Police Detective." October 23, 2009. <a href="https://www.ucsf.edu/news/2009/10/8200/ucsf-mourns-campus-police-detective" target="_blank">ucsf.edu/news/2009/10/8200/ucsf-mourns-campus-police-detective</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016-02-03</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[19] <strong>UCSF News</strong></div>
+    <div class="src-sub">"Mike Denson: Safeguarding the UCSF Community." February 3, 2016. <a href="https://www.ucsf.edu/news/2016/02/401576/mike-denson-safeguarding-ucsf-community" target="_blank">ucsf.edu/news/2016/02/401576/mike-denson-safeguarding-ucsf-community</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[20] <strong>UCSF FAS</strong></div>
+    <div class="src-sub">Chief Roskowski retirement announcement. 2015. (fas.ucsf.edu — archived.)</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[21] <strong>UCSF FAS</strong></div>
+    <div class="src-sub">Chief Denson appointment announcement. 2016. (fas.ucsf.edu — archived.)</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[22] <strong>UCSF Chancellor's Office</strong></div>
+    <div class="src-sub">Congressional inquiry responses. 2024–2025. <a href="https://chancellor.ucsf.edu/" target="_blank">chancellor.ucsf.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2013-01-22</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[23] <strong>UCOP</strong></div>
+    <div class="src-sub">"UC Police Chiefs Team Up for Women We Admire." January 22, 2013. <a href="https://link.ucop.edu/2013/01/22/uc-police-chiefs-team-up-jan-23-for-women-we-admire/" target="_blank">link.ucop.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-01-22</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[24] <strong>UC Board of Regents</strong></div>
+    <div class="src-sub">C4 Document (IACLEA accreditation status, all 10 campuses). January 22, 2025. <a href="https://regents.universityofcalifornia.edu/regmeet/jan25/c4.pdf" target="_blank">regents.universityofcalifornia.edu/regmeet/jan25/c4.pdf</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2019</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[25] <strong>UC Presidential Task Force on Universitywide Policing</strong></div>
+    <div class="src-sub">Report. 2019. (In project files: policingtaskforcereport_2019.pdf)</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[26] <strong>UC Universitywide Police Policies</strong></div>
+    <div class="src-sub">Chapter 15 (Body-Worn Camera Policy). (In project files.)</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[27] <strong>Wikipedia</strong></div>
+    <div class="src-sub">University of California Police Departments [supplementary background reference; primary claims in this chapter are supported by official UCSF PD, UC Regents, UCOP, and government sources cited above]. <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">en.wikipedia.org/wiki/University_of_California_police_departments</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[45] <strong>UCSF Chancellor's 2024 State of the University Address</strong></div>
+    <div class="src-sub">Confirms total UCSF institutional workforce exceeding 36,000 as of 2024, and institutional operations across 230+ sites and eight hospitals systemwide. <a href="https://www.ucsf.edu/news/2024/11/428926/chancellor-celebrates-ucsfs-momentum-2024-state-university-address" target="_blank">ucsf.edu/news/2024/11/428926</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[46] <strong>UCSF PD Employment Page</strong></div>
+    <div class="src-sub">Confirms 230+ UCSF-operated sites in San Francisco; confirms all sworn officers hold full statewide peace officer authority under Penal Code §830.2(a). <a href="https://police.ucsf.edu/join-our-team-employment" target="_blank">police.ucsf.edu/join-our-team-employment</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[47] <strong>UCOP</strong></div>
+    <div class="src-sub">UC Community Safety Plan Data Dashboard — Systemwide budget, workforce, calls for service, complaints, use-of-force, and stop data for all 10 UC campus police departments. <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/data-dashboard/index.html" target="_blank">ucop.edu/uc-operations/systemwide-community-safety/data-dashboard</a></div>
+  </div>
+</div>
+
+<div class="appendix-category">Federal Government Sources</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-07</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[28] <strong>U.S. House Energy and Commerce Committee</strong></div>
+    <div class="src-sub">"E&amp;C Republicans Open Investigation into Allegations of Antisemitism at UC-San Francisco." July 2024. <a href="https://energycommerce.house.gov/posts/e-and-c-republicans-open-investigation-into-allegations-of-antisemitism-at-uc-san-francisco" target="_blank">energycommerce.house.gov</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-08-21</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[29] <strong>U.S. House Education and Workforce Committee</strong></div>
+    <div class="src-sub">Follow-up letter requesting UCSF PD documents. August 21, 2025. <a href="https://edworkforce.house.gov/" target="_blank">edworkforce.house.gov</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[30] <strong>U.S. House Speaker's Office</strong></div>
+    <div class="src-sub">Staff Report on Antisemitism. December 2024. <a href="https://www.speaker.gov/" target="_blank">speaker.gov</a></div>
+  </div>
+</div>
+
+<div class="appendix-category">Professional and Organizational Sources</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[31] <strong>Blue Moon Consulting Group</strong></div>
+    <div class="src-sub">Professional biography of Chief Pamela Roskowski. (bluemoonconsultinggroup.com — archived.)</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[32] <strong>FUPOA</strong></div>
+    <div class="src-sub">UCSF campus page. <a href="https://federateduniversitypoa.org" target="_blank">federateduniversitypoa.org</a></div>
+  </div>
+</div>
+
+<div class="appendix-category">Statutory and Regulatory Sources</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[33] <strong>California Penal Code §830.2(a)</strong></div>
+    <div class="src-sub">UC peace officer authority.</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[34] <strong>California Education Code §92600</strong></div>
+    <div class="src-sub">UC police department authorization.</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[35] <strong>California Penal Code §§13652, 13652.1 (AB 48)</strong></div>
+    <div class="src-sub">Crowd-control weapon reporting.</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[36] <strong>California Penal Code §832.7 (SB 1421)</strong></div>
+    <div class="src-sub">Peace officer personnel records disclosure.</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[37] <strong>California Penal Code §832.18 (AB 748)</strong></div>
+    <div class="src-sub">Body-worn camera footage disclosure.</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[38] <strong>California Government Code §7070 et seq. (AB 481)</strong></div>
+    <div class="src-sub">Military equipment authorization.</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[39] <strong>California Health and Safety Code §§1257.7–1257.8 (AB 508, 1993)</strong></div>
+    <div class="src-sub">Hospital Safety and Security Act.</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[40] <strong>Cal/OSHA §3342 / Labor Code §6401.8 (SB 1299, 2014)</strong></div>
+    <div class="src-sub">Violence Prevention in Health Care.</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2023</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[41] <strong>California SB 553 (2023)</strong></div>
+    <div class="src-sub">Workplace violence prevention, general industry.</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[42] <strong>Title VI, Civil Rights Act of 1964, 42 U.S.C. §2000d</strong></div>
+    <div class="src-sub">Nondiscrimination in federal programs.</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[43] <strong>Jeanne Clery Disclosure of Campus Security Policy and Campus Crime Statistics Act, 20 U.S.C. §1092(f).</strong></div>
+    <div class="src-sub">Jeanne Clery Disclosure of Campus Security Policy and Campus Crime Statistics Act, 20 U.S.C. §1092(f).</div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[44] <strong>Communications Decency Act, 47 U.S.C. §230</strong></div>
+    <div class="src-sub">cited in Ninth Circuit Roskowski ruling.</div>
+  </div>
+</div>
+
+
+<!-- ══ SUBMISSION BLOCK ══ -->
+<div class="submission-block">
+  <p><strong>Primary Submission:</strong> California Commission on Peace Officer Standards and Training (POST) &mdash; Peace Officer Standards Accountability Division (POSAD) &mdash; Authority: Cal. Penal Code &sect;&sect; 13509.5, 13510.8, 13510.85 (SB 2 &mdash; Kenneth Ross Jr. Police Decertification Act of 2021)</p>
+  <p><strong>Secondary Submissions:</strong> California Attorney General, Civil Rights Enforcement Section (Cal. Civ. Code &sect;&nbsp;52.3) &nbsp;|&nbsp; U.S. Department of Education, Federal Student Aid &mdash; Clery Act Enforcement (20&nbsp;U.S.C.&nbsp;&sect;&nbsp;1092(f)) &nbsp;|&nbsp; California Legislature, Senate &amp; Assembly Budget Subcommittees on Education &nbsp;|&nbsp; UC Office of the President &nbsp;|&nbsp; California State Auditor &nbsp;|&nbsp; U.S. Department of Justice (34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601)</p>
+  <p><strong>Distribution:</strong> Clery Center for Campus Safety &nbsp;|&nbsp; SAFE Campuses, LLC</p>
+  <p>All documents compiled from public records. All facts independently verifiable. Readers are encouraged to form their own independent conclusions.</p>
+</div>
+</div>
+
+</div>
+
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav" style="position:static;box-shadow:none">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn active">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" style="position:static;box-shadow:none">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn">A &mdash; Overview</a>
+<a href="#secB" class="section-btn">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn">D &mdash; Financial</a>
+<a href="#secE" class="section-btn">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn">F &mdash; Sources</a>
+</div>
+</nav>
+
+<script>
+function setNavTops(){
+  const b1=document.querySelector('.nav-bar:not(.bottom)');
+  const b2=document.querySelector('.campus-nav:not([style])');
+  const b3=document.querySelector('.section-nav:not([style])');
+  if(!b1||!b2||!b3)return 130;
+  b2.style.top=b1.offsetHeight+'px';
+  b3.style.top=(b1.offsetHeight+b2.offsetHeight)+'px';
+  return b1.offsetHeight+b2.offsetHeight+b3.offsetHeight;
+}
+const secs=['secA','secB','secC','secD','secE','secF'];
+const btns=['btn-a','btn-b','btn-c','btn-d','btn-e','btn-f'];
+function updateActive(){
+  const offset=setNavTops()+10;
+  const scrollPos=window.scrollY+offset;
+  let cur=0;
+  secs.forEach((id,i)=>{
+    const el=document.getElementById(id);
+    if(!el)return;
+    const elTop=el.getBoundingClientRect().top+window.scrollY;
+    if(scrollPos>=elTop)cur=i;
+  });
+  btns.forEach((id,i)=>{
+    const b=document.getElementById(id);
+    if(b)b.classList.toggle('active',i===cur);
+  });
+}
+window.addEventListener('load',()=>{setNavTops();updateActive();});
+window.addEventListener('resize',()=>{setNavTops();updateActive();});
+window.addEventListener('scroll',updateActive,{passive:true});
+</script>
+<div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Behave Like Heroes &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>

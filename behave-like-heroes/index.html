@@ -1,0 +1,1752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · Preface — Behave Like Heroes | Bruin Watch</title>
+<meta name="description" content="Preface to Behave Like Heroes — a ten-chapter investigation into law enforcement oversight failures across all ten University of California police departments.">
+<meta property="og:title" content="Act I · Preface — Behave Like Heroes | Bruin Watch">
+<meta property="og:description" content="Preface to Behave Like Heroes — a ten-chapter investigation into law enforcement oversight failures across all ten University of California police departments.">
+<meta property="og:type" content="article">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+:root {
+  --uc-blue:      #003262;
+  --uc-blue-dark: #001a35;
+  --uc-gold:      #FDB515;
+  --uc-mid:       #2774AE;
+  --white:        #ffffff;
+}
+
+body {
+  font-family: 'Source Sans Pro', Calibri, Arial, sans-serif;
+  background: #e8edf2;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #000;
+}
+
+/* ══════════════════════════════════════
+   NAV BAR — TOP AND BOTTOM
+══════════════════════════════════════ */
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:center}
+.nav-bottom-inner{display:flex;align-items:stretch;justify-content:center;min-width:max-content;margin:0 auto}
+.nav-bar {
+  background: var(--uc-blue);
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+.nav-bar.bottom { position: static; box-shadow: none; }
+.nav-inner {
+  display: flex;
+  align-items: stretch;
+  min-width: max-content;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+.nav-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: var(--uc-gold);
+  border-right: 2px solid rgba(255,255,255,0.2);
+  white-space: nowrap;
+}
+.nav-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  color: #b8c8dc;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  border-right: 1px solid rgba(255,255,255,0.1);
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+.nav-btn:hover { background: var(--uc-mid); color: #fff; }
+.nav-btn.active { background: var(--uc-gold); color: var(--uc-blue); font-weight: 900; }
+
+/* ══════════════════════════════════════
+   COVER PAGE
+══════════════════════════════════════ */
+.cover-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 40px,
+      rgba(255,255,255,0.018) 40px,
+      rgba(255,255,255,0.018) 80px
+    ),
+    linear-gradient(170deg, #003262 0%, #001428 100%);
+}
+.bar-top { height: 18px; background: var(--uc-blue-dark); width: 100%; flex-shrink: 0; }
+.cover-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 32px 40px;
+}
+.series-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: var(--uc-gold);
+  margin-bottom: 6px;
+  line-height: 1.05;
+}
+.series-subtitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 6px;
+  line-height: 1.1;
+}
+.series-report {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.85);
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+.series-commission {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.5);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+.chapter-number {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 52px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.ch-of {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: lowercase;
+  vertical-align: middle;
+  margin: 0 6px;
+  color: #ffffff;
+}
+.chapter-title {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.25;
+  max-width: 820px;
+  margin-bottom: 0;
+}
+.gold-rule {
+  width: 100%;
+  max-width: 820px;
+  height: 3px;
+  background: var(--uc-gold);
+  margin: 16px auto;
+  display: block;
+}
+.chapter-subtitle {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  max-width: 820px;
+  line-height: 1.7;
+}
+.cover-meta {
+  width: 100%;
+  padding: 20px 0;
+  background: rgba(0,0,0,0.15);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 40px;
+  border-top: 1px solid rgba(253,181,21,0.25);
+}
+.cover-meta-inner {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 40px;
+}
+.cover-meta p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.6;
+}
+.cover-meta strong { color: var(--uc-gold); }
+.cover-meta p.cover-disclaimer {
+  font-family: 'Source Sans Pro', Calibri, Arial, sans-serif !important;
+  font-size: 14.5px !important;
+  font-weight: 300 !important;
+  color: #dde8f4 !important;
+  text-align: justify !important;
+  hyphens: auto;
+  max-width: 820px;
+  width: 100%;
+  margin: 6px auto;
+  padding: 10px 0;
+  line-height: 1.8;
+  border-top: 1px solid rgba(253,181,21,0.35);
+  border-bottom: 1px solid rgba(253,181,21,0.35);
+}
+.cover-copyright {
+  width: 100%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 4px;
+}
+.bar-gold { height: 10px; background: var(--uc-gold); width: 100%; flex-shrink: 0; }
+.bar-bottom { height: 18px; background: var(--uc-blue-dark); width: 100%; flex-shrink: 0; }
+
+/* ══════════════════════════════════════
+   PAGE WRAPPER — CONTENT BELOW COVER
+══════════════════════════════════════ */
+.page-wrapper {
+  max-width: 960px;
+  margin: 32px auto;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+}
+.doc-body { padding: 48px 48px 56px; }
+
+/* ══════════════════════════════════════
+   CHAPTER GRID
+══════════════════════════════════════ */
+.grid-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.grid-tag {
+  background: var(--uc-blue);
+  color: var(--uc-gold);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 6px 18px;
+  white-space: nowrap;
+}
+.grid-title-bar {
+  background: var(--uc-blue);
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 6px 20px;
+  flex: 1;
+  border-left: 3px solid var(--uc-gold);
+}
+.grid-desc {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 16px;
+  padding-left: 4px;
+  line-height: 1.65;
+}
+.ch-row {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid #dde3ea;
+  border-top: none;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.12s;
+}
+.ch-row:first-of-type { border-top: 1px solid #dde3ea; }
+.ch-row:hover { background: #f0f5fb; }
+.ch-row:hover .ch-num { background: var(--uc-mid); }
+.ch-num {
+  background: var(--uc-blue);
+  color: var(--uc-gold);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  min-width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 14px 10px;
+  transition: background 0.12s;
+  flex-shrink: 0;
+  border-right: 3px solid var(--uc-gold);
+}
+.ch-body {
+  flex: 1;
+  padding: 13px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ch-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--uc-blue);
+  margin-bottom: 3px;
+  line-height: 1.3;
+}
+.ch-sub {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+}
+.ch-status {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  flex-shrink: 0;
+}
+.badge {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 11px;
+  white-space: nowrap;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.badge-post     { background: var(--uc-gold); color: var(--uc-blue); }
+.badge-preface  { background: var(--uc-blue); color: var(--uc-gold); }
+
+/* ══════════════════════════════════════
+   OPENING STATEMENT — LAW ENFORCEMENT WITHOUT ENFORCEMENT
+══════════════════════════════════════ */
+.opening-block {
+  margin-bottom: 44px;
+  border: 2px solid var(--uc-blue);
+}
+.opening-title-bar {
+  background: var(--uc-blue);
+  padding: 16px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.opening-title-bar-label {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--uc-gold);
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0;
+  border: 0;
+}
+.opening-title-bar-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1.25;
+  display: block;
+  width: 100%;
+}
+.opening-title-bar-text .title-break {
+  display: block;
+  margin-top: 4px;
+}
+.opening-body {
+  background: #fff;
+  padding: 32px 36px 28px;
+}
+.opening-body > p {
+  font-size: 17px;
+  line-height: 1.85;
+  color: #1a1a2e;
+  margin-bottom: 18px;
+}
+.opening-lead-in {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--uc-blue);
+  margin-bottom: 6px;
+  margin-top: 24px;
+  line-height: 1.6;
+}
+.opening-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+  border-top: 2px solid #e8edf2;
+}
+.opening-bullets li {
+  display: flex;
+  gap: 0;
+  align-items: stretch;
+  border-bottom: 1px solid #e8edf2;
+}
+.opening-bullet-marker {
+  background: var(--uc-blue);
+  color: var(--uc-gold);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  padding: 14px 12px;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 3px solid var(--uc-gold);
+  min-width: 48px;
+}
+.opening-bullet-content {
+  padding: 14px 18px;
+  font-size: 18.5px;
+  line-height: 1.8;
+  color: #1a1a2e;
+  flex: 1;
+}
+.opening-bullet-content strong {
+  display: block;
+  font-weight: 700;
+  color: var(--uc-blue);
+  margin-bottom: 4px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.opening-uc-findings {
+  background: #f0f5fb;
+  border-left: 4px solid var(--uc-blue);
+  padding: 20px 24px;
+  margin: 24px 0 0;
+}
+.opening-uc-findings > p {
+  font-size: 16.5px;
+  line-height: 1.8;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+}
+.opening-uc-findings > p:last-child { margin-bottom: 0; }
+.opening-harold {
+  background: #fffbf0;
+  border-left: 4px solid var(--uc-gold);
+  padding: 20px 24px;
+  margin: 20px 0 0;
+}
+.opening-harold p {
+  font-size: 16.5px;
+  line-height: 1.8;
+  color: #1a1a2e;
+  margin-bottom: 0;
+}
+.opening-thesis {
+  background: var(--uc-blue-dark);
+  padding: 22px 32px;
+  border-top: 4px solid var(--uc-gold);
+}
+.opening-thesis p {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 17px;
+  font-style: italic;
+  color: #ffffff;
+  line-height: 1.85;
+  margin: 0;
+}
+/* Statute links — dark on light background */
+a.slink {
+  color: #1B03FF;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #1B03FF;
+}
+a.slink:hover { color: #0000CC; text-decoration-style: solid; }
+/* Statute links — light on dark background */
+a.slink-light {
+  color: var(--uc-gold);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(253,181,21,0.5);
+}
+a.slink-light:hover { text-decoration-color: var(--uc-gold); }
+
+/* ══════════════════════════════════════
+   VOLUNTARY PARTICIPATION BANNER
+   Full-width — UC blue bg — gold border
+   top and bottom — reader cannot miss it
+══════════════════════════════════════ */
+.voluntary-banner {
+  background: var(--uc-blue);
+  border-top: 4px solid var(--uc-gold);
+  border-bottom: 4px solid var(--uc-gold);
+  padding: 24px 32px;
+  margin: 0;
+}
+.voluntary-banner-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--uc-gold);
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(253,181,21,0.35);
+}
+.voluntary-banner ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.voluntary-banner ul li {
+  font-size: 18.5px;
+  color: #ffffff;
+  line-height: 1.85;
+  padding: 10px 0 10px 22px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  position: relative;
+}
+.voluntary-banner ul li:last-child { border-bottom: none; }
+.voluntary-banner ul li::before {
+  content: '▸';
+  color: var(--uc-gold);
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+/* ══════════════════════════════════════
+   POST ALLOWS OFFICERS — CLOSING SECTION
+══════════════════════════════════════ */
+.post-closing {
+  background: var(--uc-blue-dark);
+  border-top: 4px solid var(--uc-gold);
+  padding: 32px 36px;
+}
+.post-closing-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--uc-gold);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(253,181,21,0.35);
+}
+.post-closing p {
+  font-size: 17px;
+  color: #ffffff;
+  line-height: 1.9;
+  margin-bottom: 16px;
+}
+.post-closing p:last-child { margin-bottom: 0; }
+
+/* ── Poignant-statement frame: light panel on dark section ── */
+.post-closing .verdict {
+  background: #faf8f3;
+  border-left: 6px solid var(--uc-gold);
+  border-top: 1px solid #d9d4c4;
+  border-right: 1px solid #d9d4c4;
+  border-bottom: 1px solid #d9d4c4;
+  padding: 30px 34px;
+  margin: 32px 0 8px;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 17px;
+  font-style: italic;
+  color: #1a1a1a;
+  line-height: 1.85;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.15);
+}
+.post-closing .verdict p {
+  color: #1a1a1a;
+  font-size: 17px;
+  line-height: 1.85;
+}
+.post-closing .verdict a,
+.post-closing .verdict .slink-light {
+  color: #0a3d82;
+  text-decoration: underline;
+}
+.post-closing .behave {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #b8860b;
+  font-style: normal;
+}
+
+/* ══════════════════════════════════════
+   CONTENT SECTIONS
+══════════════════════════════════════ */
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 40px 0 32px;
+}
+.section-divider::before,
+.section-divider::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background: var(--uc-gold);
+}
+.section-divider span {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: var(--uc-blue);
+  white-space: nowrap;
+}
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--uc-blue);
+  margin: 0 0 6px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid var(--uc-gold);
+  text-transform: uppercase;
+}
+p { margin-bottom: 16px; font-size: 18px; line-height: 1.75; }
+.box-blue {
+  background: var(--uc-blue);
+  padding: 24px 30px;
+  margin: 20px 0;
+}
+.box-blue p { color: #fff; margin-bottom: 12px; font-size: 18px; }
+.box-blue p:last-child { margin-bottom: 0; }
+.box-blue strong { color: var(--uc-gold); }
+.box-gold {
+  background: #fffbe6;
+  border: 1px solid var(--uc-gold);
+  border-left: 6px solid var(--uc-gold);
+  padding: 22px 28px;
+  margin: 20px 0;
+}
+.box-gold p { margin-bottom: 12px; font-size: 18px; }
+.box-gold p:last-child { margin-bottom: 0; }
+.box-red {
+  background: #fff0f0;
+  border-left: 6px solid #c0392b;
+  padding: 22px 28px;
+  margin: 20px 0;
+}
+.box-red p { margin-bottom: 12px; font-size: 18px; }
+.box-red p:last-child { margin-bottom: 0; }
+
+/* ══════════════════════════════════════
+   FIVE FACTS
+══════════════════════════════════════ */
+.fact-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dde3ea;
+}
+.fact-row:last-child { border-bottom: none; margin-bottom: 0; }
+.fact-num {
+  background: var(--uc-gold);
+  color: var(--uc-blue);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+  min-width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.fact-body h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--uc-blue);
+  margin-bottom: 6px;
+}
+.fact-body p { font-size: 17px; margin-bottom: 0; }
+
+/* ══════════════════════════════════════
+   SUBMISSION BLOCK
+══════════════════════════════════════ */
+.submission-block {
+  background: var(--uc-blue);
+  padding: 24px 30px;
+  margin: 32px 0 0;
+}
+.submission-block p {
+  font-size: 15px;
+  color: rgba(255,255,255,0.9);
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+.submission-block p:last-child { margin-bottom: 0; }
+.submission-block strong { color: var(--uc-gold); }
+
+/* ══════════════════════════════════════
+   APPENDIX
+══════════════════════════════════════ */
+.appendix-heading { font-family: 'Source Sans Pro', sans-serif; font-size: 24px; font-weight: 700; color: var(--uc-blue); margin: 50px 0 10px; padding-bottom: 8px; border-bottom: 3px solid var(--uc-gold); }
+.appendix-category { font-family: 'Source Sans Pro', sans-serif; font-size: 18px; font-weight: 700; color: var(--uc-blue); margin: 26px 0 12px; }
+.appendix-entry { font-size: 16px; line-height: 1.75; margin-bottom: 8px; padding-left: 22px; text-indent: -22px; color: #1a1a1a; }
+.appendix-entry a { color: #0000FF; font-weight: 600; text-decoration: none; }
+.appendix-entry a:hover { text-decoration: underline; }
+.source-id { font-weight: 700; color: var(--uc-blue); }
+.appendix-lead { font-size: 17px; color: #444; margin: 6px 0 18px; font-style: italic; }
+
+/* ══════════════════════════════════════
+   FOOTER
+══════════════════════════════════════ */
+.doc-footer {
+  background: var(--uc-blue-dark);
+  padding: 20px 48px;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+  line-height: 1.8;
+  border-top: 4px solid var(--uc-gold);
+}
+.doc-footer strong { color: rgba(255,255,255,0.8); }
+
+/* ══════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════ */
+@media(max-width:768px){
+  .series-title { font-size: 52px; letter-spacing: 5px; }
+  .series-subtitle { font-size: 30px; }
+  .chapter-title { font-size: 32px; }
+  .cover-content { padding: 36px 20px; }
+  .doc-body { padding: 28px 20px 40px; }
+  .ch-sub { display: none; }
+}
+@media(max-width:480px){
+  .series-title { font-size: 42px; letter-spacing: 4px; }
+  .series-subtitle { font-size: 24px; }
+  .chapter-title { font-size: 26px; }
+}
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     TOP NAV BAR
+══════════════════════════════════════ -->
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+  <div class="nav-bottom-inner">
+    <span class="nav-label">Behave Like Heroes</span>
+    <a href="../behave-like-heroes/" class="nav-btn active">PREFACE</a>
+    <a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+    <a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+    <a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a><a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+    <a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+  </div>
+</nav>
+</div>
+
+<!-- ══════════════════════════════════════
+     COVER PAGE
+══════════════════════════════════════ -->
+<div class="cover-page">
+  <div class="bar-top"></div>
+  <div class="cover-content">
+    <div class="series-title">Behave Like Heroes</div>
+    <div class="series-subtitle">Law &mdash; Without Enforcement</div>
+<div class="series-report">A Public Complaint Report to POST</div>
+<div class="series-commission">California Commission on Peace Officer Standards and Training</div>
+    <div class="chapter-number" style="color: #FDB515;">Preface</div>
+    <h1 class="chapter-title">The Case for Accountability in the<br>University of California Police System</h1>
+    <span class="gold-rule"></span>
+    <p class="chapter-subtitle">&ldquo;Participation in the POST Program is voluntary.&rdquo;<br><a href="https://www.law.cornell.edu/regulations/california/11-CCR-1010" target="_blank" style="color:#FDB515;text-decoration:underline;text-decoration-style:dotted;">Cal. Code Regs., tit.&nbsp;11, &sect;&nbsp;1010(a)(2)</a></p>
+  </div>
+  <div class="bar-gold"></div>
+  <div class="bar-bottom"></div>
+</div>
+
+<!-- ══════════════════════════════════════
+     PAGE WRAPPER — CONTENT
+══════════════════════════════════════ -->
+<div class="page-wrapper">
+<div class="doc-body">
+
+  <!-- ══════════════════════════════════════════════════════════════
+       LEDE — THE FIGHT THAT STARTED THIS (unnumbered origin story)
+  ══════════════════════════════════════════════════════════════ -->
+  <div style="background:#fdfbf3;border:1px solid #d9d4c4;border-left:6px solid #ffc72c;padding:38px 44px 32px;margin:0 0 48px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+
+    <h2 style="font-size:30px;line-height:1.2;color:#002855;margin:0 0 22px;font-weight:700;letter-spacing:-0.01em;">THE PARKING TICKET THAT STARTED IT ALL.</h2>
+
+    <p style="font-size:19px;line-height:1.8;color:#1a1a1a;margin:0 0 18px;"><strong>July&nbsp;1990 &mdash; Officer&nbsp;341 wrote a parking ticket to a Regent&rsquo;s vehicle at a Regents meeting on the UCLA campus.</strong></p>
+
+    <p style="font-size:19px;line-height:1.8;color:#1a1a1a;margin:0 0 18px;">Two commanding officers ordered 341 to cancel the ticket.</p>
+
+    <p style="font-size:19px;line-height:1.8;color:#1a1a1a;margin:0 0 18px;">He refused &mdash; and reported the incident as a ticket-fixing case directed by the Chancellor, the Regent, and UCLA police administrators, and filed a formal grievance, <strong>AR&nbsp;91-01-14</strong> &mdash; the first formal grievance in the record.</p>
+
+    <p style="font-size:19px;line-height:1.8;color:#1a1a1a;margin:0 0 18px;">Ordering a peace officer to void a lawfully issued citation is illegal under California law. Both commanding officers who issued the order became central figures in the six-year retaliatory campaign that ended with Officer&nbsp;341 being forced out of UCPD in 1996 &mdash; the same year the current UCLA Chief of Police graduated from this university.</p>
+
+    <p style="font-size:19px;line-height:1.8;color:#1a1a1a;margin:0;">Both of those commanding officers became central figures in the retaliation lawsuit that followed.</p>
+
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION I — THE CHIEF WHO CANNOT SAY IT OUT LOUD
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section I</span>
+      <span class="opening-title-bar-text">The Chief Who Cannot Say It Out Loud</span>
+    </div>
+    <div class="opening-body">
+
+      <p style="font-size:19px;line-height:1.8;">The current UCLA Chief of Police is a named respondent in the POST complaint this Preface introduces. He is also, in the view of the complainant, the most qualified chief UCLA has ever hired &mdash; and the clearest proof that qualifications are not the variable. The complaint had to name him because the office he holds is the one that took the action under review. But the argument this Preface makes is not that a different chief would have done differently. <strong>The argument is that no University of California Chief of Police could.</strong></p>
+
+      <p style="font-size:19px;line-height:1.8;"><strong>The current UCLA Chief of Police reports to work every morning inside a contradiction.</strong> He was trained to enforce accountability. He runs a department that has never been subject to it.</p>
+
+      <p style="font-size:19px;line-height:1.8;"><strong>The current UCLA Chief of Police was a UCLA undergraduate from 1992 to 1996.</strong> He was a political science major on this campus during the final four years of Officer&nbsp;341&rsquo;s UCPD career &mdash; the years documented in Chapter&nbsp;05 of this report. He was here for all of it. The same campus. The same institution. Different side of the badge.</p>
+
+      <p style="font-size:19px;line-height:1.8;"><strong>The year he graduated UCLA &mdash; 1996 &mdash; was the same year Officer&nbsp;341 was forced out of UCPD.</strong> He then joined the Los Angeles Police Department and spent the next twenty-nine years inside the single municipal department that proved federal police accountability works. He served at LAPD during the <strong>2001&ndash;2013 federal consent decree</strong> &mdash; 191 reforms ordered under what is now 34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601 &mdash; and rose to command rank inside the reformed department. He attended the <strong>FBI National Academy</strong>. He completed the <strong>Sherman Block Supervisory Leadership Institute</strong> and the <strong>LAPD Command Development Program</strong>. He holds a Master of Public Administration from USC. He commanded North Hollywood and served in Metro Division.</p>
+
+      <p style="font-size:19px;line-height:1.8;"><strong>He is, on paper, the most qualified chief UCLA has ever hired.</strong> He is over-qualified for a system that does not use what he was trained to provide. He was sworn in as UCLA Chief of Police in October 2025. He is the fourth chief at UCPD in three years.</p>
+
+      <p style="font-size:19px;line-height:1.8;"><strong>Every morning he walks into a department where none of what he was trained on applies.</strong> No federal consent decree has ever touched a UC police department. No pattern-or-practice investigation. No external civilian oversight body with subpoena power. The tool he watched work at LAPD &mdash; 34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601 &mdash; has never been used at any UC campus in the statute&rsquo;s entire existence. He is running a police department in the one corner of California where his training does not apply.</p>
+
+      <p style="font-size:19px;line-height:1.8;"><strong><em>Isn&rsquo;t there a law? Can&rsquo;t the state do something? Can&rsquo;t the federal government do something?</em></strong> Those are the chief&rsquo;s questions. He cannot answer them out loud without ending his tenure. He is trapped inside a Kobayashi Maru scenario that sits inside the oldest principle in law: <em>nemo iudex in causa sua</em> &mdash; no one should be judge in their own case. When the institution being investigated is also the institution running the investigation, the principle says: that is not a fair process. That is not a process that produces real accountability. The chief knows this. His training is built on it. His job forbids him from saying so.</p>
+
+      <p style="font-size:19px;line-height:1.8;"><strong>If you think the chief is in a tight spot, you&rsquo;re right, he is &mdash; look two buildings over.</strong> On February&nbsp;13,&nbsp;2026, UCLA&rsquo;s own Chief Financial Officer, Stephen Agostini, told the <em>Daily Bruin</em> that the university&rsquo;s annual financial reports since 2002 were &ldquo;erroneous and unaudited,&rdquo; that UCLA carried a $425&nbsp;million structural deficit, and that a $150&nbsp;million finance-modernization project had been wasted. Four days later, on February&nbsp;17, Chancellor Frenk fired him.</p>
+
+      <p style="font-size:19px;line-height:1.8;"><strong>On March&nbsp;30,&nbsp;2026, Culver City hired him as their Chief Financial Officer</strong> &mdash; and in the hiring announcement, Culver City credited him with closing a $300&nbsp;million budget gap at UCLA and delivering a balanced budget. The same institution that fired him for speaking became the line on his resume that got him his next job. That is the proof of concept for this Preface. A UCLA official told the truth out loud, was removed in four days, and was publicly vindicated six weeks later by the next employer who read his record. The chief has read that record too. He knows exactly how the sentence ends. That is why he cannot say it himself.</p>
+
+      <p style="font-size:19px;line-height:1.8;margin-top:28px;border-top:1px solid #d9d4c4;padding-top:22px;">That contradiction &mdash; a qualified chief who cannot deploy what he was trained on, named as a respondent for conduct the office itself required &mdash; is the frame for everything that follows. The rest of this Preface documents the specific case that brought the complaint, and the structural reasons the POST process it was filed under cannot, by its own design, resolve it.</p>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION II — THE ISSUES
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section II</span>
+      <span class="opening-title-bar-text">Schr&ouml;dinger&rsquo;s &ldquo;Retired&rdquo; Peace Officer, Badge&nbsp;341</span>
+    </div>
+    <div class="opening-body" style="border-left:4px solid var(--uc-gold);padding-left:24px;margin-bottom:32px;">
+
+      <div style="background:#faf8f3;border-left:6px solid var(--uc-gold);border-top:1px solid #d9d4c4;border-right:1px solid #d9d4c4;border-bottom:1px solid #d9d4c4;padding:26px 30px;margin:0 0 28px;">
+        <p style="font-size:19px;line-height:1.75;color:#1a1a1a;margin:0 0 14px;">In quantum physics, Schr&ouml;dinger&rsquo;s cat exists in a superposition of two states &mdash; simultaneously alive and dead inside an unopened box &mdash; until an observer opens the box and collapses the wavefunction into one, and only one, measured outcome.</p>
+
+        <p style="font-size:19px;line-height:1.75;color:#1a1a1a;margin:0 0 14px;">For over thirty years, the University of California has held Peace Officer&nbsp;341 in precisely that superposition: simultaneously a Duty Disability Income recipient <em>and</em> a Service Retiree &mdash; two mutually exclusive eigenstates under the UC Retirement Plan &mdash; and the wavefunction &ndash; is the cat dead or alive? &ndash; collapses the moment somebody opens the box.</p>
+
+        <p style="font-size:19px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;"><strong>The box is Officer&nbsp;341&rsquo;s personnel file.</strong></p>
+
+        <div style="font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#6b6b6b;margin:0 0 10px;">The Employment Misclassifications</div>
+
+        <p style="font-size:19px;line-height:1.75;color:#1a1a1a;margin:0 0 14px;">On <strong>August&nbsp;25,&nbsp;2023</strong>, and again on <strong>February&nbsp;10,&nbsp;2026</strong>, three command-level officers inside a University of California police department &mdash; the Captain, the Chief, and the Lieutenant &mdash; participated in classifying Peace Officer&nbsp;341&rsquo;s employment, in writing, as &ldquo;status was designated as medically separated on March&nbsp;1,&nbsp;1996,&rdquo; and used that classification to cancel his concealed-carry permit. That written determination directly contradicts the University&rsquo;s own eleven years of treating him as &ldquo;retired&rdquo; &mdash; including two CCW permits issued by UCLA&nbsp;PD itself.</p>
+
+        <p style="font-size:19px;line-height:1.75;color:#1a1a1a;margin:0 0 14px;">Then after three formal requests, the officers withheld his legally protected personnel file &mdash; the file <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=3306.5.&amp;lawCode=GOV" target="_blank" class="slink">Government Code &sect;&nbsp;3306.5</a> guarantees every California peace officer the right to inspect &mdash; the one file whose contents would collapse the superposition and fix his employment classification as one state or the other.</p>
+
+        <p style="font-size:19px;line-height:1.75;color:#1a1a1a;margin:0 0 14px;">Opening Schr&ouml;dinger&rsquo;s box, Officer&nbsp;341&rsquo;s personnel file, will confirm the employment classification. Either eigenstate costs the University money.</p>
+
+        <p style="font-size:19px;line-height:1.75;color:#1a1a1a;margin:0 0 14px;"><strong>A) Observed state: &ldquo;Medically Separated&rdquo; / Duty Disability Income.</strong> The exact status the University itself assigned him in 2001, retroactive to March&nbsp;1,&nbsp;1996, when its own claims administrator, Octagon Risk Services, declared him permanently and stationarily disabled. The University&rsquo;s own 1099-R records confirm it: from 2009 through 2014, every year, UC reported his pension under <strong>Distribution Code&nbsp;3 &mdash; Disability</strong>, with the taxable amount correctly shown as a small fraction of the gross. Then, in 2015 a University UCRAYS rep called Officer&nbsp;341 and told him he needed to convert his disability income to a service retirement or he would lose all his income (turns out that was a lie). So, on <strong>June&nbsp;1,&nbsp;2015</strong>, without a hearing, and without Workers&rsquo; Compensation Appeals Board approval, UC flipped the code and reported Officer&nbsp;341&rsquo;s 2015 1099-R as <strong>Code&nbsp;2 &mdash; Early Retirement</strong>. UC then reported his income that way for ten straight years (2015&ndash;2024); earlier 1099-R records will confirm the entire period back to 1996. If state&nbsp;A is true, then the University owes him hundreds of thousands of dollars in back pay plus the tax consequences of its own misclassification.</p>
+
+        <p style="font-size:19px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;"><strong>B) Observed state: &ldquo;Retired&rdquo; / Service Retirement.</strong> The way the University began treating his record on June&nbsp;1,&nbsp;2015 and continued to treat it for over a decade. If that is the state the file confirms, then under <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=5804.&amp;lawCode=LAB" target="_blank" class="slink">Labor Code &sect;&nbsp;5804</a> &mdash; which grants the Workers&rsquo; Compensation Appeals Board continuing jurisdiction over every settlement it approves &mdash; they owe him back pay for unilaterally separating him from his workers&rsquo; comp case without court approval, and the CCW they just took away.</p>
+
+        <div style="font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#6b6b6b;margin:0 0 10px;">Either Way the University Loses</div>
+
+        <p style="font-size:19px;line-height:1.75;color:#1a1a1a;margin:0;">Either employment classification measurement collapses against the officers and the University. So they refused to measure. They locked the box and made the file disappear &mdash; with cover from twenty-five documented data breaches inside the University&rsquo;s own record-keeping systems, and from the University&rsquo;s own Chief Financial Officer, who stood in front of the <em>Daily Bruin</em> on February&nbsp;13,&nbsp;2026 and said UCLA&rsquo;s annual financial reports posted on its website &ldquo;since 2002 are erroneous&rdquo; and unaudited, that the $213&nbsp;million project to modernize UCLA&rsquo;s financial systems produced &ldquo;nothing to show for it,&rdquo; and that he had &ldquo;rarely seen the kind of financial management flaws and failures&rdquo; he saw at UCLA. Four days later, UCLA fired him.</p>
+      </div>
+
+      <h2 style="font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:700;color:#1a1a1a;margin:32px 0 8px;letter-spacing:0.5px;">Why Is This Complaint Important to Officers Everywhere?</h2>
+      <p style="font-family:'Source Sans Pro',sans-serif;font-size:19px;line-height:1.5;font-style:italic;color:#4a4a4a;margin:0 0 24px;border-left:4px solid var(--uc-gold);padding-left:16px;">If a department can make a peace officer&rsquo;s personnel file disappear when that file becomes evidence against the department itself, it can happen to any officer in California &mdash; or any officer in America.</p>
+
+      <p style="font-size:19px;line-height:1.8;">This report does not present an abstract regulatory dispute. It presents documented conduct by three POST-certified commanding officers whose collective actions and inactions directly and presently interfere with 65-year-old Officer&nbsp;341&rsquo;s cancer and A-Fib treatment and his ability to obtain and maintain the continuous, uninterrupted medical insurance and treatment he is entitled to and protected by the Fourteenth Amendment&rsquo;s Due Process Clause, and by the Fifth Amendment where federal law reaches, including the Law Enforcement Officers Safety Act.</p>
+      <p style="font-size:19px;line-height:1.8;">The Fourteenth Amendment says the government can&rsquo;t take your property without giving you a hearing first. Health insurance that&rsquo;s part of your retirement is property &mdash; courts have said so since <em>Goldberg v. Kelly</em> (1970). They took it. No notice. No hearing. That&rsquo;s the violation. The University of California is a state actor. The commanding officers named in this complaint are state actors. The retiree whose coverage was canceled mid-treatment is the person the Amendment was written to protect.</p>
+      <p style="font-size:19px;line-height:1.8;">Officer&nbsp;341&rsquo;s personnel record is not a bureaucratic record of historical interest. These commanding officers have variously reviewed it, cited it, and relied upon it for official determinations &mdash; and then simultaneously characterized it as located, in transit, archived, and possibly non-existent. Impossible simultaneous states of existence.</p>
+      <p style="font-size:19px;line-height:1.8;">Officer&nbsp;341&rsquo;s personnel record is the one record whose production resolves his employment classification &mdash; and that classification determines whether he is entitled to disability retiree health insurance coverage, tax-exempt disability income, and the protections of the federal Law Enforcement Officers Safety Act.</p>
+      <p style="font-size:19px;line-height:1.8;">Without definitive resolution of that classification, the University of California&rsquo;s benefits administration has unilaterally canceled his health insurance without notice, reinstated it without notice, then set a future cancellation date that ran afoul of federal insurance regulations, all while Officer&nbsp;341 was undergoing active treatment for concurrent life-threatening conditions.</p>
+      <p style="font-size:19px;line-height:1.8;">The conduct by the UCLA commanding officers documented herein is the direct and proximate cause of that cancellation&rsquo;s ability to persist unresolved.</p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION II — THE COMPLAINTS
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section III</span>
+      <span class="opening-title-bar-text">What Is This Report About?</span>
+    </div>
+
+    <div class="opening-body">
+      <p class="opening-lead-in">Two POST Public Complaints Filed by Officer&nbsp;341 &mdash; Both Against the Same Three Officers</p>
+      <p style="margin-bottom:8px;"><strong>Respondents in both complaints:</strong> the Captain (Badge&nbsp;#307), the Chief, and the Lieutenant (Recently Retired)</p>
+
+      <ul class="opening-bullets">
+        <li>
+          <span class="opening-bullet-marker">1</span>
+          <div class="opening-bullet-content"><strong>First Complaint &mdash; Filed February&nbsp;25,&nbsp;2026.</strong> Three POST Form 2-354 complaint forms filed simultaneously &mdash; one for each respondent officer &mdash; acknowledged by the Intake and Disposition Bureau, Peace Officer Standards Accountability Division:
+            <br><br>
+            <strong>&bull;&nbsp; PUBLIC-26-000212</strong> &mdash; the Captain (Badge&nbsp;#307)<br>
+            <strong>&bull;&nbsp; PUBLIC-26-000213</strong> &mdash; the Chief<br>
+            <strong>&bull;&nbsp; PUBLIC-26-000214</strong> &mdash; the Lieutenant (Recently Retired)<br>
+            <br>
+            The first complaint documents a CCW denial based on a personnel file classification of &ldquo;medically separated&rdquo; &mdash; a classification that triggers the very disability exception in the same statute (<a href="https://www.law.cornell.edu/uscode/text/18/926C" target="_blank" class="slink">18&nbsp;U.S.C.&nbsp;&sect;&nbsp;926C(c)(3)(B)</a>) that the denial failed to apply &mdash; followed by the denial of access to that same personnel file under the Peace Officers Bill of Rights (<a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=3306.5.&lawCode=GOV" target="_blank" class="slink">Government Code &sect;&sect;&nbsp;3305, 3306, 3306.5</a>).</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">2</span>
+          <div class="opening-bullet-content"><strong>Second Complaint &mdash; Filed April&nbsp;2026.</strong> A new, independent complaint against the same three officers, consisting of two documents: an Opening Statement and the Complaint. It arises from new conduct occurring between February&nbsp;20 and April&nbsp;10,&nbsp;2026 &mdash; specifically, the documented progression of the personnel file from &ldquo;located&rdquo; to &ldquo;in transit&rdquo; to &ldquo;archived&rdquo; to &ldquo;possibly non-existent&rdquo; across 36&nbsp;days, while that file was material evidence in active federal and state proceedings.</div>
+        </li>
+      </ul>
+
+      <p style="margin-top:20px;">Both complaints were acknowledged by the Intake and Disposition Bureau, Peace Officer Standards Accountability Division, Commission on Peace Officer Standards and Training. This report provides the documented context for those complaints &mdash; and explains why the officer who filed them already knows nothing will be done.</p>
+
+      <p style="margin-top:20px;">The reason he already knows is not cynicism. It is written into the regulation itself. Under California law, a police department&rsquo;s participation in the POST program is voluntary. An agency can walk away, ignore a reporting requirement, or sit on a complaint &mdash; and keep its badges, guns, and arrest powers under local authority. That is the gap this report documents, and it is where the next section begins.</p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION IV — WHEN DID ALL THIS HAPPEN? — THE SEVEN CLASSIFICATIONS
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section IV</span>
+      <span class="opening-title-bar-text">When Did All This Happen?<span class="title-break" style="font-size:18px;letter-spacing:1px;font-weight:700;color:#ffd97a;font-style:italic;text-transform:none;margin-top:8px;">The Seven Classifications, In the Department&rsquo;s Own Words</span></span>
+    </div>
+    <div class="opening-body">
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 22px;">
+        Within a 30-month window between <strong>August&nbsp;21,&nbsp;2023</strong> and <strong>February&nbsp;24,&nbsp;2026</strong>, sworn members of a University of California police department &mdash; the Captain, two Lieutenants, and the Chief of Police (in his capacity as the final decisionmaker, as the Captain himself stated in writing on August&nbsp;22,&nbsp;2023: &ldquo;The final decision regarding the issuance of any CCWs rests with the Chief of Police following the existing departmental policy and laws&rdquo;) &mdash; issued and acted upon <strong>seven mutually inconsistent classifications</strong> of Officer&nbsp;341&rsquo;s employment status, each in writing on University police-department letterhead, each from the agency that holds custodial authority over Officer&nbsp;341&rsquo;s sworn-officer personnel file.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 28px;">
+        The complete email thread is reproduced at <a href="../uc-audit-request/exhibits/EX%2017a%20UCLA%20PD%20Email%20Thread%202023-08-21%20to%202026-02-24.pdf" target="_blank" class="slink"><strong>EX&nbsp;17a</strong></a>; the originating Active Retiree List mass email is at <a href="../uc-audit-request/exhibits/EX%2017%202023-08-01%20Chobanian_Active_Retiree_List.pdf" target="_blank" class="slink"><strong>EX&nbsp;17</strong></a>. The campus compliance office and the University police department already possess these documents; the table below is provided so that the contradictions on the face of the institution&rsquo;s own records are catalogued in a single page.
+      </p>
+
+      <!-- ─── 7-CLASSIFICATIONS TABLE ─── -->
+      <div style="overflow-x:auto;margin:0 0 32px;">
+      <table style="width:100%;border-collapse:collapse;font-family:'Source Sans Pro',sans-serif;font-size:15px;line-height:1.55;color:#1a1a1a;background:#ffffff;border:1px solid #c9c9c9;">
+        <thead>
+          <tr style="background:#003262;color:#ffffff;">
+            <th style="padding:10px 12px;text-align:left;font-weight:700;letter-spacing:0.5px;font-size:13px;text-transform:uppercase;">#</th>
+            <th style="padding:10px 12px;text-align:left;font-weight:700;letter-spacing:0.5px;font-size:13px;text-transform:uppercase;">The Department&rsquo;s Classification of Officer&nbsp;341</th>
+            <th style="padding:10px 12px;text-align:left;font-weight:700;letter-spacing:0.5px;font-size:13px;text-transform:uppercase;">The Department&rsquo;s Own Words (verbatim)</th>
+            <th style="padding:10px 12px;text-align:left;font-weight:700;letter-spacing:0.5px;font-size:13px;text-transform:uppercase;">Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-top:1px solid #e0e0e0;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">1</td><td style="padding:12px 14px;vertical-align:top;"><strong>&ldquo;Active retiree&rdquo;</strong></td><td style="padding:12px 14px;vertical-align:top;">Mass email of August&nbsp;21,&nbsp;2023 at 1:04&nbsp;PM, Subject &ldquo;UCLA Police Department Active Retiree List,&rdquo; sent by the Captain to the Department&rsquo;s active retiree distribution list. Officer&nbsp;341 was on the distribution list and addressed as an active retiree.</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2017%202023-08-01%20Chobanian_Active_Retiree_List.pdf" target="_blank" class="slink"><strong>EX&nbsp;17</strong></a></td></tr>
+          <tr style="border-top:1px solid #e0e0e0;background:#f7f7f5;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">2</td><td style="padding:12px 14px;vertical-align:top;"><strong>Retiree (CCW-eligible pending qualification)</strong></td><td style="padding:12px 14px;vertical-align:top;">Captain&rsquo;s email of August&nbsp;21,&nbsp;2023 at 5:14&nbsp;PM: &ldquo;Let me check your file and I&rsquo;ll get back to you. We allow a retiree to qualify at their local agency and send the results to us.&rdquo; Treated Officer&nbsp;341 as a CCW-eligible retiree pending qualification check.</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2017a%20UCLA%20PD%20Email%20Thread%202023-08-21%20to%202026-02-24.pdf" target="_blank" class="slink"><strong>EX&nbsp;17a, p.&nbsp;4</strong></a></td></tr>
+          <tr style="border-top:1px solid #e0e0e0;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">3</td><td style="padding:12px 14px;vertical-align:top;"><strong>Officer with &ldquo;tenure fewer than ten years&rdquo; (not LEOSA-qualified)</strong></td><td style="padding:12px 14px;vertical-align:top;">Captain&rsquo;s email of August&nbsp;22,&nbsp;2023 at 9:53&nbsp;AM: &ldquo;Upon reviewing the available records, it has come to my attention that your tenure as an officer with UCLAPD was within a span of fewer than ten years &hellip; the issuance of a CCW would not be feasible&rdquo; under <a href="https://www.law.cornell.edu/uscode/text/18/926C" target="_blank" class="slink">LEOSA, 18&nbsp;U.S.C.&nbsp;&sect;&nbsp;926C</a>. Disregarded Officer&nbsp;341&rsquo;s 21.667 years of UCRP service credit and total California POST tenure since 1983.</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2017a%20UCLA%20PD%20Email%20Thread%202023-08-21%20to%202026-02-24.pdf" target="_blank" class="slink"><strong>EX&nbsp;17a, p.&nbsp;2</strong></a></td></tr>
+          <tr style="border-top:1px solid #e0e0e0;background:#f7f7f5;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">4</td><td style="padding:12px 14px;vertical-align:top;"><strong>&ldquo;Medically separated on March&nbsp;1,&nbsp;1996&rdquo;</strong></td><td style="padding:12px 14px;vertical-align:top;">Captain&rsquo;s letter of August&nbsp;25,&nbsp;2023 at 10:59&nbsp;AM: &ldquo;After a comprehensive review of your file, I have determined you are ineligible for a CCW. Your status was designated as medically separated on March&nbsp;1,&nbsp;1996. Consequently, we cannot grant you a CCW per a UCOP mandate.&rdquo; Directly contradicts the August&nbsp;21,&nbsp;2023 &ldquo;active retiree&rdquo; designation issued <em>four days earlier</em> by the same officer.</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2017a%20UCLA%20PD%20Email%20Thread%202023-08-21%20to%202026-02-24.pdf" target="_blank" class="slink"><strong>EX&nbsp;17a, p.&nbsp;6</strong></a></td></tr>
+          <tr style="border-top:1px solid #e0e0e0;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">5</td><td style="padding:12px 14px;vertical-align:top;"><strong>Disputed-status case under <em>Allison&nbsp;Jacobs&nbsp;v.&nbsp;Regents</em></strong></td><td style="padding:12px 14px;vertical-align:top;">Same Captain&rsquo;s letter of August&nbsp;25,&nbsp;2023, attaching as &ldquo;the most recent case that transpired through the court of appeals&rdquo; the decision in <em>Allison&nbsp;Jacobs&nbsp;v.&nbsp;The&nbsp;Regents&nbsp;of&nbsp;the&nbsp;University&nbsp;of&nbsp;California</em>. By citing <em>Jacobs</em> as controlling, the Department placed Officer&nbsp;341 within the binary the case adjudicates &mdash; Duty Disability Income recipient or retiree &mdash; and acknowledged the doctrine that the two are mutually exclusive states under the UCRP.</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2017a%20UCLA%20PD%20Email%20Thread%202023-08-21%20to%202026-02-24.pdf" target="_blank" class="slink"><strong>EX&nbsp;17a, p.&nbsp;6</strong></a></td></tr>
+          <tr style="border-top:1px solid #e0e0e0;background:#f7f7f5;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">6</td><td style="padding:12px 14px;vertical-align:top;"><strong>Officer with an asserted but undisclosed &ldquo;date of separation, classification, [and] status&rdquo;</strong></td><td style="padding:12px 14px;vertical-align:top;">Captain&rsquo;s email of February&nbsp;10,&nbsp;2026 at 6:13&nbsp;PM: &ldquo;I reviewed your &lsquo;file&rsquo; and cross-referenced the records, including your date of separation, classification, status, and our internal records.&rdquo; Quotation marks around &ldquo;file&rdquo; are the Captain&rsquo;s own. Asserts a separation date, a classification, and a status &mdash; but refuses to identify any of them, and shuts down further communication 1&nbsp;hour and 9&nbsp;minutes after Officer&nbsp;341&rsquo;s formal demand for record reconciliation that same evening.</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2017a%20UCLA%20PD%20Email%20Thread%202023-08-21%20to%202026-02-24.pdf" target="_blank" class="slink"><strong>EX&nbsp;17a, p.&nbsp;11</strong></a></td></tr>
+          <tr style="border-top:1px solid #e0e0e0;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">7</td><td style="padding:12px 14px;vertical-align:top;"><strong>Retiree whose personnel file has been &ldquo;archived&rdquo;</strong></td><td style="padding:12px 14px;vertical-align:top;">Lieutenant&rsquo;s email of February&nbsp;24,&nbsp;2026 at 3:04&nbsp;PM: &ldquo;I am currently searching for your file. Because of the period of passed time since your retirement, your file has been archived.&rdquo; The Department&rsquo;s own admission, in writing, that Officer&nbsp;341 IS a retiree of the Department and that the file documenting his classification is in archival storage. Directly contradicts the &ldquo;medically separated&rdquo; framing of August&nbsp;25,&nbsp;2023.</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2017a%20UCLA%20PD%20Email%20Thread%202023-08-21%20to%202026-02-24.pdf" target="_blank" class="slink"><strong>EX&nbsp;17a, p.&nbsp;15</strong></a></td></tr>
+
+          <!-- Custody-of-File Sub-Header -->
+          <tr style="background:#003262;color:#ffffff;">
+            <td colspan="4" style="padding:12px 14px;text-align:center;font-family:'Source Sans Pro',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;font-size:13px;">Custody-of-File Statements Following the February&nbsp;9,&nbsp;2026 Litigation Hold (<a href="../uc-audit-request/exhibits/EX%2020%202026-02-09%20Harold_to_Chobanian_CCW_Denial_Response_FINAL.pdf" target="_blank" style="color:#FFD100;font-weight:700;text-decoration:underline">EX&nbsp;20</a>)</td>
+          </tr>
+
+          <tr style="border-top:1px solid #e0e0e0;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">&mdash;</td><td style="padding:12px 14px;vertical-align:top;"><strong>File &ldquo;located,&rdquo; being sent</strong></td><td style="padding:12px 14px;vertical-align:top;">Lieutenant&rsquo;s email of February&nbsp;24,&nbsp;2026 at 1:24&nbsp;PM (15&nbsp;days after Officer&nbsp;341 served the spoliation/litigation-hold letter on the Captain): &ldquo;Your file has been located and is being sent to me. Once I am in possession of it, I will forward you the information that you requested.&rdquo;</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2017a%20UCLA%20PD%20Email%20Thread%202023-08-21%20to%202026-02-24.pdf" target="_blank" class="slink"><strong>EX&nbsp;17a, p.&nbsp;13</strong></a></td></tr>
+          <tr style="border-top:1px solid #e0e0e0;background:#f7f7f5;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">&mdash;</td><td style="padding:12px 14px;vertical-align:top;"><strong>File &ldquo;located,&rdquo; being sent (repeated 59&nbsp;minutes later, identical wording)</strong></td><td style="padding:12px 14px;vertical-align:top;">Lieutenant&rsquo;s email of February&nbsp;24,&nbsp;2026 at 2:23&nbsp;PM: &ldquo;your file has been located and is being sent to me. Once I am in possession of it, I will forward you the information that you requested.&rdquo; The verbatim repetition fifty-nine minutes after the first &ldquo;located&rdquo; confirmation indicates the Lieutenant believed, on the morning of February&nbsp;24,&nbsp;2026, that the file existed and was in transit.</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2017a%20UCLA%20PD%20Email%20Thread%202023-08-21%20to%202026-02-24.pdf" target="_blank" class="slink"><strong>EX&nbsp;17a, p.&nbsp;14</strong></a></td></tr>
+          <tr style="border-top:1px solid #e0e0e0;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">&mdash;</td><td style="padding:12px 14px;vertical-align:top;"><strong>File reversal &mdash; now &ldquo;archived&rdquo; and being searched (41&nbsp;minutes after the prior &ldquo;located&rdquo; confirmation)</strong></td><td style="padding:12px 14px;vertical-align:top;">Lieutenant&rsquo;s email of February&nbsp;24,&nbsp;2026 at 3:04&nbsp;PM: &ldquo;My apologies. I am in receipt of your request but I am currently searching for your file. Because of the period of passed time since your retirement, your file has been archived. I appreciate your patience while I continue my search.&rdquo; A file confirmed as &ldquo;located and being sent&rdquo; at 2:23&nbsp;PM became a file that had to be searched for at 3:04&nbsp;PM &mdash; same officer, same file, same hour. (This is also Classification&nbsp;#7 above.)</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2017a%20UCLA%20PD%20Email%20Thread%202023-08-21%20to%202026-02-24.pdf" target="_blank" class="slink"><strong>EX&nbsp;17a, p.&nbsp;15</strong></a></td></tr>
+          <tr style="border-top:1px solid #e0e0e0;background:#f7f7f5;"><td style="padding:12px 14px;vertical-align:top;font-weight:700;">&mdash;</td><td style="padding:12px 14px;vertical-align:top;"><strong>&ldquo;Wrong box&rdquo; delivered; files may not still exist</strong></td><td style="padding:12px 14px;vertical-align:top;">Lieutenant&rsquo;s email of April&nbsp;1,&nbsp;2026 at 10:10&nbsp;AM (51&nbsp;days after the spoliation/litigation-hold letter): &ldquo;I did receive a box that should have had your files in it, but it was not the correct box. I am now in the process of tracking down the correct box. It has been quite some time since you worked here so locating your files, if they still exist, is a bit challenging.&rdquo; The Department admits in writing, fifty-one days after a litigation hold was served on the captain who supervised this file, that the agency cannot confirm whether Officer&nbsp;341&rsquo;s personnel file still exists. The prior Acting Chief had previously stated to Officer&nbsp;341 that the file had been destroyed many years ago.</td><td style="padding:12px 14px;vertical-align:top;"><a href="../uc-audit-request/exhibits/EX%2040%202026-04-01%20Gmail%20-%20ECHOLS%20I%20WAS%20SENT%20THE%20WRONG%20BOX.pdf" target="_blank" class="slink"><strong>EX&nbsp;40</strong></a></td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <!-- ─── LITIGATION HOLD HEADING ─── -->
+      <h3 style="font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#1a1a1a;margin:32px 0 14px;letter-spacing:0.3px;">The February&nbsp;9,&nbsp;2026 Litigation Hold and the Custody Collapse That Followed</h3>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        On February&nbsp;9,&nbsp;2026, Officer&nbsp;341 served on the Captain a written response to the August&nbsp;25,&nbsp;2023 CCW denial that included, on its face and in unambiguous terms, a formal litigation-hold and preservation demand. The relevant section is reproduced verbatim below from <a href="../uc-audit-request/exhibits/EX%2020%202026-02-09%20Harold_to_Chobanian_CCW_Denial_Response_FINAL.pdf" target="_blank" class="slink"><strong>EX&nbsp;20</strong></a>, page&nbsp;9:
+      </p>
+
+      <!-- ─── LAVENDER LITIGATION-HOLD QUOTE BOX ─── -->
+      <div style="background:#f3eef7;border-left:6px solid #6B3FA0;padding:22px 26px;margin:0 0 22px;font-family:'Libre Baskerville',Georgia,serif;">
+        <div style="font-family:'Source Sans Pro',sans-serif;font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:#6B3FA0;font-weight:700;margin:0 0 12px;">Spoliation and Data Preservation &mdash; February&nbsp;9,&nbsp;2026 (EX&nbsp;20)</div>
+        <p style="font-size:17px;line-height:1.8;color:#2a2a2a;margin:0;font-style:italic;">&ldquo;This letter constitutes a formal litigation hold and preservation demand. You, the University police department, and the University of California are hereby directed to preserve all documents, records, files, electronically stored information, emails, database entries, payroll records, budget documents, etc. and any other materials relating to Officer&nbsp;341, including but not limited to the file you stated you reviewed on or before August&nbsp;25,&nbsp;2023. Any destruction, alteration, deletion, or failure to preserve such materials after receipt of this notice may result in adverse inference instructions, spoliation sanctions, and independent tort liability under California law. (See <em>Cedars-Sinai Medical Center v. Superior Court</em> (1998) 18&nbsp;Cal.4th&nbsp;1, 11&ndash;12; <em>Williams v. Russ</em> (2012) 210&nbsp;Cal.App.4th&nbsp;35, 47&ndash;48.)&rdquo;</p>
+      </div>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        Every custody-of-file statement issued by the Lieutenant in the table above postdates this litigation hold:
+      </p>
+
+      <ul style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 22px 0;padding-left:28px;">
+        <li style="margin-bottom:10px;"><strong>15&nbsp;days</strong> after the litigation hold &mdash; February&nbsp;24,&nbsp;2026 at 1:24&nbsp;PM &mdash; the Lieutenant stated the file was &ldquo;located.&rdquo;</li>
+        <li style="margin-bottom:10px;"><strong>15&nbsp;days</strong> after the litigation hold &mdash; February&nbsp;24,&nbsp;2026 at 2:23&nbsp;PM &mdash; the Lieutenant repeated, verbatim, that the file was &ldquo;located.&rdquo;</li>
+        <li style="margin-bottom:10px;"><strong>15&nbsp;days</strong> after the litigation hold &mdash; February&nbsp;24,&nbsp;2026 at 3:04&nbsp;PM (forty-one minutes after the prior &ldquo;located&rdquo; confirmation) &mdash; the Lieutenant reversed and stated the file was &ldquo;archived&rdquo; and that he was &ldquo;currently searching&rdquo; for it.</li>
+        <li style="margin-bottom:0;"><strong>51&nbsp;days</strong> after the litigation hold &mdash; April&nbsp;1,&nbsp;2026 at 10:10&nbsp;AM &mdash; the Lieutenant stated the agency had received the wrong box and could no longer confirm whether the file still exists.</li>
+      </ul>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        The Captain was a CC recipient on every February&nbsp;24,&nbsp;2026 email. The Captain was the named recipient of the February&nbsp;9,&nbsp;2026 litigation hold itself. The routing Lieutenant was a CC recipient on the February&nbsp;24,&nbsp;2026 emails and the routing officer who forwarded Officer&nbsp;341&rsquo;s evidentiary package to the records-custody Lieutenant on the morning of February&nbsp;24,&nbsp;2026. The Chief was a CC recipient on Officer&nbsp;341&rsquo;s February&nbsp;20,&nbsp;2026 audit-package transmittal that preceded the February&nbsp;24,&nbsp;2026 email exchange. <strong>The litigation hold was, by the institution&rsquo;s own email metadata, known throughout the Department&rsquo;s command chain at the time the four custody-of-file statements were issued.</strong>
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        Under <em>Cedars-Sinai Medical Center v. Superior Court</em>, 18&nbsp;Cal.4th&nbsp;1, 11&ndash;12 (1998), and <em>Williams v. Russ</em>, 210&nbsp;Cal.App.4th&nbsp;35, 47&ndash;48 (2012), the trier of fact in any subsequent proceeding may presume that a personnel file the custodian cannot produce, after written notice not to destroy it, would, if produced, support the position of the party against whom the file was lost. Under <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&amp;sectionNum=413" target="_blank" class="slink">California Evidence Code &sect;&nbsp;413</a>, the trier of fact may infer that the missing evidence would be adverse to the party who failed to preserve or produce it. The four Lieutenant statements catalogued above are the documentary record on which both presumptions rest.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        <strong>The April&nbsp;1,&nbsp;2026 &ldquo;wrong box&rdquo; statement is not credible on its face.</strong> The Captain was on the documentary record &mdash; in writing, on University police-department letterhead &mdash; as having reviewed Officer&nbsp;341&rsquo;s personnel file on at least two separate occasions: first on August&nbsp;25,&nbsp;2023, when the Captain wrote &ldquo;After a comprehensive review of your file, I have determined you are ineligible for a CCW. Your status was designated as medically separated on March&nbsp;1,&nbsp;1996&rdquo; (Classification&nbsp;#4 above); and again on February&nbsp;10,&nbsp;2026, when the Captain wrote &ldquo;I reviewed your &lsquo;file&rsquo; and cross-referenced the records, including your date of separation, classification, status, and our internal records&rdquo; (Classification&nbsp;#6 above) &mdash; one day after Officer&nbsp;341 served the February&nbsp;9,&nbsp;2026 litigation hold (<a href="../uc-audit-request/exhibits/EX%2020%202026-02-09%20Harold_to_Chobanian_CCW_Denial_Response_FINAL.pdf" target="_blank" class="slink"><strong>EX&nbsp;20</strong></a>) on the Captain himself. The Captain could not have made either determination &mdash; the August&nbsp;2023 CCW denial or the February&nbsp;2026 cross-reference &mdash; without having the file in his physical or digital possession at the time he wrote each statement.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        On March&nbsp;31,&nbsp;2026, in the email that the Lieutenant was responding to when he issued the &ldquo;wrong box&rdquo; statement of April&nbsp;1,&nbsp;2026 (<a href="../uc-audit-request/exhibits/EX%2040%202026-04-01%20Gmail%20-%20ECHOLS%20I%20WAS%20SENT%20THE%20WRONG%20BOX.pdf" target="_blank" class="slink"><strong>EX&nbsp;40</strong></a>, p.&nbsp;1), Officer&nbsp;341 expressly directed the Lieutenant to ask the Captain where the file was. The relevant passage reads, verbatim: <em>&ldquo;Captain &hellip; was copied on all three emails. Captain &hellip; had previously confirmed reviewing this same file on August&nbsp;25,&nbsp;2023, and again on February&nbsp;10,&nbsp;2026 so I am curious, where is it now?&rdquo;</em> The Lieutenant&rsquo;s April&nbsp;1,&nbsp;2026 reply does not answer that question. It does not state that he asked the Captain. It does not state what the Captain said. It instead introduces a new account in which the file may not exist at all &mdash; an account that cannot be reconciled with the Captain&rsquo;s own two prior written statements that he had reviewed the file.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        The Department&rsquo;s position, taken as a whole, is therefore the following: <strong>(1)</strong>&nbsp;the Captain had the file in August&nbsp;2023 and used it to medically separate Officer&nbsp;341; <strong>(2)</strong>&nbsp;the Captain had the file in February&nbsp;2026 (one day after the litigation hold was served on him) and used it to confirm Officer&nbsp;341&rsquo;s &ldquo;date of separation, classification, [and] status&rdquo;; <strong>(3)</strong>&nbsp;fifteen days later the Lieutenant, copying the Captain on each message, said the file was &ldquo;located&rdquo; (twice), then &ldquo;archived,&rdquo; in a single afternoon; <strong>(4)</strong>&nbsp;fifty-one days after the litigation hold, the Lieutenant stated the agency had received the wrong box and the file may not exist. <strong>These four positions cannot all be true on the same set of facts.</strong> Either the Captain had the file in 2023 and 2026 (in which case the file exists and the Lieutenant&rsquo;s April&nbsp;1,&nbsp;2026 statement is wrong), or the Captain did not have the file in 2023 and 2026 (in which case Classifications&nbsp;#4 and #6 above were issued without the documentary basis the Captain himself claimed). Both positions cannot be sustained simultaneously.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 30px;">
+        The Department has therefore placed itself, in writing, in the position of having admitted &mdash; through the Lieutenant, the custodian of the file the Captain quoted from to issue Classification&nbsp;#4 (the &ldquo;medically separated on March&nbsp;1,&nbsp;1996&rdquo; designation) &mdash; that the foundational document supporting Classification&nbsp;#4 may no longer exist, after the institution received a litigation hold expressly forbidding its destruction. <strong>The classification stands. The file does not.</strong> The captain who issued the classification, the captain who twice wrote that he had reviewed the file, and the captain who was copied on every custodial statement that followed, has not explained the contradiction.
+      </p>
+
+      <!-- ─── DANGER CALLOUT ─── -->
+      <div style="background:#FFE5E5;border:2px solid #C8102E;padding:24px 28px;margin:0 0 28px;">
+        <div style="font-family:'Source Sans Pro',sans-serif;font-size:14px;letter-spacing:0.18em;text-transform:uppercase;color:#C8102E;font-weight:800;margin:0 0 14px;">Sworn California Peace Officers, Protected Personnel Records, False Written Statements After Litigation Hold</div>
+
+        <p style="margin:0 0 14px;font-size:17px;line-height:1.85;color:#333;">The custody-of-file statements catalogued in the table above were issued by sworn California peace officers acting under color of authority, in writing, on University police-department letterhead, after Officer&nbsp;341 had served a written litigation hold (<a href="../uc-audit-request/exhibits/EX%2020%202026-02-09%20Harold_to_Chobanian_CCW_Denial_Response_FINAL.pdf" target="_blank" class="slink"><strong>EX&nbsp;20</strong></a>) on the Captain on February&nbsp;9,&nbsp;2026. The file at issue is Officer&nbsp;341&rsquo;s peace-officer personnel file &mdash; a category of record protected under <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&amp;sectionNum=832.7" target="_blank" class="slink">California Penal Code &sect;&nbsp;832.7</a> and the Pitchess-discovery framework. The Captain was on the documentary record as having reviewed that file twice (August&nbsp;25,&nbsp;2023 and February&nbsp;10,&nbsp;2026). The Lieutenant, copying the Captain on each communication, then issued four mutually inconsistent statements about whether the same file was located, archived, mis-shipped, or no longer in existence. The Department&rsquo;s position cannot be sustained simultaneously on the institution&rsquo;s own record. <strong>At least one of the statements is false on its face.</strong></p>
+
+        <p style="margin:0 0 14px;font-size:17px;line-height:1.85;color:#333;">Where peace officers, acting in their official capacity, issue written statements that cannot be reconciled with their own prior written statements regarding a protected personnel file subject to a known preservation demand, the conduct triggers, at minimum, the following authorities:</p>
+
+        <ul style="margin:0 0 0 18px;padding:0;font-size:16px;line-height:1.75;color:#333;">
+          <li style="margin-bottom:10px;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&amp;sectionNum=118.1" target="_blank" style="color:#C8102E;font-weight:700;">California Penal Code &sect;&nbsp;118.1</a> &mdash; A peace officer who files any report relating to the commission of a criminal offense or a peace officer&rsquo;s investigatory function knowing the report to be false, in any material respect, is guilty of a misdemeanor (or, where the report concerns alleged criminal conduct of another, a felony). The custody-of-file statements relate directly to a personnel file Officer&nbsp;341 had identified as the predicate for a Cal.&nbsp;Labor&nbsp;Code&nbsp;&sect;&nbsp;132(a) crime report filed February&nbsp;19,&nbsp;2026.</li>
+          <li style="margin-bottom:10px;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&amp;sectionNum=135" target="_blank" style="color:#C8102E;font-weight:700;">California Penal Code &sect;&nbsp;135</a> &mdash; Willful destruction, alteration, or concealment of any document subject to legal process. The February&nbsp;9,&nbsp;2026 litigation hold was such process.</li>
+          <li style="margin-bottom:10px;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&amp;sectionNum=135.5" target="_blank" style="color:#C8102E;font-weight:700;">California Penal Code &sect;&nbsp;135.5</a> &mdash; Destruction or concealment of physical evidence relating to a public investigation. The Cal.&nbsp;Labor&nbsp;Code&nbsp;&sect;&nbsp;132(a) report and the parallel POST complaints (PUBLIC-26-000212, -000213, -000214) are public investigations.</li>
+          <li style="margin-bottom:10px;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=1222" target="_blank" style="color:#C8102E;font-weight:700;">California Government Code &sect;&nbsp;1222</a> &mdash; Every wilful omission to perform any duty enjoined by law upon any public officer is punishable as a misdemeanor. The duty to preserve evidence after written notice not to destroy it is such a duty.</li>
+          <li style="margin-bottom:10px;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&amp;sectionNum=832.7" target="_blank" style="color:#C8102E;font-weight:700;">California Penal Code &sect;&nbsp;832.7</a> &mdash; The peace-officer personnel file at issue is itself a statutorily protected record. Sworn personnel issuing materially false written statements about the custodial status of such a file is misconduct on its face.</li>
+          <li style="margin-bottom:10px;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&amp;sectionNum=13510.8" target="_blank" style="color:#C8102E;font-weight:700;">California Penal Code &sect;&nbsp;13510.8</a> (SB&nbsp;2) &mdash; Mandatory POST reporting of allegations of serious misconduct by peace officers, including dishonesty in the reporting or investigation of misconduct.</li>
+          <li style="margin-bottom:0;"><a href="https://policy.ucop.edu/doc/1100171/whistleblower" target="_blank" style="color:#C8102E;font-weight:700;">UC Whistleblower Policy 1100171</a> &mdash; UC personnel are required to report suspected improper governmental activities. False statements by sworn UC personnel regarding the custody of a protected personnel file fall squarely within the policy&rsquo;s definition of an improper governmental activity.</li>
+        </ul>
+
+        <p style="margin:14px 0 0;font-size:17px;line-height:1.85;color:#333;">The campus compliance office is hereby placed on notice that the custody-of-file statements catalogued above are not a clerical inconvenience. They are written statements by sworn peace officers about a protected personnel file, made after a documented litigation hold, that cannot be reconciled with the same officers&rsquo; own prior written statements that they had reviewed the file. The conduct fits, on its face, the authorities listed above. Any &ldquo;matter closed&rdquo; determination by the campus compliance office is incompatible with the statutory framework that governs the same conduct.</p>
+      </div>
+
+      <!-- ─── TWO POST AUTHORITIES SUB-SECTION ─── -->
+      <h3 style="font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#1a1a1a;margin:32px 0 14px;letter-spacing:0.3px;">Two POST Authorities Apply Here, Not One</h3>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        The University police department&rsquo;s voluntary participation in the POST program rests on two distinct statutory authorities, and the conduct catalogued in this section triggers both.
+      </p>
+
+      <div style="background:#003262;color:#ffffff;padding:24px 28px;margin:0 0 22px;border-left:6px solid #FFD100;">
+        <p style="margin:0 0 14px;font-size:17px;line-height:1.85;"><strong style="color:#FFD100;letter-spacing:0.5px;">AUTHORITY 1 &mdash; Individual Officer Decertification.</strong> Senate Bill&nbsp;2 / <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&amp;sectionNum=13510.8" target="_blank" style="color:#FFD100;font-weight:700;">Penal Code &sect;&nbsp;13510.8</a> + <a href="https://www.law.cornell.edu/regulations/california/11-CCR-1205" target="_blank" style="color:#FFD100;font-weight:700;">Title&nbsp;11 CCR &sect;&nbsp;1205</a>. The Peace Officer Standards Accountability Division (POSAD) holds jurisdiction to revoke the certification of any individual sworn peace officer whose conduct meets one of the nine grounds for serious misconduct, including dishonesty in the reporting or investigation of misconduct. Three POSAD complaints have already been filed by Officer&nbsp;341: <strong>PUBLIC-26-000212</strong> against the Captain; <strong>PUBLIC-26-000213</strong> against the Chief; <strong>PUBLIC-26-000214</strong> against the Lieutenant&nbsp;(ret.). All three have been acknowledged by POSAD.</p>
+
+        <p style="margin:0 0 14px;font-size:17px;line-height:1.85;"><strong style="color:#FFD100;letter-spacing:0.5px;">AUTHORITY 2 &mdash; Agency Compliance Audit.</strong> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&amp;sectionNum=13512" target="_blank" style="color:#FFD100;font-weight:700;">Penal Code &sect;&nbsp;13512</a> + <a href="https://www.law.cornell.edu/regulations/california/11-CCR-1010" target="_blank" style="color:#FFD100;font-weight:700;">Title&nbsp;11 CCR &sect;&nbsp;1010</a>. Separate from individual decertification, POST holds statutory authority to audit any agency in the POST program for non-compliance with selection, training, and recordkeeping standards, and with all Commission regulations. PC&nbsp;&sect;&nbsp;13512 directs POST to <em>&ldquo;make inquiries as necessary to determine if agencies in the POST program are adhering to selection and training standards.&rdquo;</em> Title&nbsp;11 CCR &sect;&nbsp;1010 conditions agency POST eligibility on continuing adherence to all Commission regulations. POST&rsquo;s own published guidance confirms that the Standards &amp; Training Bureau conducts agency compliance audits under these authorities.</p>
+
+        <p style="margin:0 0 14px;font-size:17px;line-height:1.85;">Where an agency cannot, on its own written record, sustain a coherent classification of one sworn officer&rsquo;s employment status &mdash; and where the agency cannot, after a documented litigation hold, locate the personnel file that supports its own classification decision &mdash; the agency&rsquo;s compliance with the Commission&rsquo;s recordkeeping, CCW, and personnel-records regulations is itself a question for audit. Per the <em>POST Commission Policy Manual</em> (2024 edition), agency audits result in formal findings of <strong>&ldquo;Voluntary Compliance&rdquo;</strong> or <strong>&ldquo;Voluntary Non-Compliance&rdquo;</strong> &mdash; the latter defined as the situation in which the agency is aware of its deficiencies and is making little or no progress to correct them.</p>
+
+        <p style="margin:0;font-size:17px;line-height:1.85;"><strong style="color:#FFD100;">The two authorities are complementary, not duplicative.</strong> Individual decertification under SB&nbsp;2 holds named officers personally accountable for serious misconduct. An agency audit under PC&nbsp;&sect;&nbsp;13512 examines whether the institution itself is in compliance with the rules of POST participation. Both are warranted on this record. A formal request for a Standards &amp; Training Bureau agency audit under PC&nbsp;&sect;&nbsp;13512 and Title&nbsp;11 CCR &sect;&nbsp;1010, cross-referenced to the three pending POSAD complaints, has been transmitted in parallel to this filing.</p>
+      </div>
+
+      <!-- ─── LEGAL SIGNIFICANCE — LAVENDER CALLOUT ─── -->
+      <h3 style="font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#1a1a1a;margin:32px 0 14px;letter-spacing:0.3px;">Legal Significance &mdash; Chain of Custody, Admissibility, and Spoliation</h3>
+
+      <div style="background:#f3eef7;border-left:6px solid #6B3FA0;padding:22px 26px;margin:0 0 28px;">
+        <p style="margin:0 0 14px;font-size:17px;line-height:1.85;color:#333;">The seven classifications above were issued in writing by sworn California peace officers &mdash; the Captain, two Lieutenants, and the Chief in his capacity as the final decisionmaker on these matters &mdash; speaking as state actors with custodial authority over Officer&nbsp;341&rsquo;s personnel file. The legal weight of those statements, in any forum that adjudicates Officer&nbsp;341&rsquo;s classification, is governed by California&rsquo;s evidentiary framework:</p>
+
+        <p style="margin:0 0 12px 18px;font-size:17px;line-height:1.85;color:#333;"><strong>&bull; <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&amp;sectionNum=1280" target="_blank" class="slink">California Evidence Code &sect;&nbsp;1280</a> (Public Employee Records Exception).</strong> Records made by a public employee within the scope of duty are admissible to prove the act or condition stated. The Captain&rsquo;s August&nbsp;25,&nbsp;2023 letter, his February&nbsp;10,&nbsp;2026 email, and the Lieutenant&rsquo;s February&nbsp;24,&nbsp;2026 email were issued on University police-department letterhead by sworn personnel acting in the scope of their administrative duties. They are admissible as substantive evidence of the Department&rsquo;s official position on Officer&nbsp;341&rsquo;s status &mdash; against the agency that issued them.</p>
+
+        <p style="margin:0 0 12px 18px;font-size:17px;line-height:1.85;color:#333;"><strong>&bull; <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&amp;sectionNum=1271" target="_blank" class="slink">California Evidence Code &sect;&nbsp;1271</a> (Business Records Exception).</strong> The Department&rsquo;s internal personnel file &mdash; the source the Captain and the Lieutenant expressly cited &mdash; is itself admissible business-record evidence. The Captain&rsquo;s direct quotation from that file (the &ldquo;medically separated on March&nbsp;1,&nbsp;1996&rdquo; designation, classification&nbsp;#4 above) carries the file&rsquo;s own evidentiary weight as a matter of law.</p>
+
+        <p style="margin:0 0 12px 18px;font-size:17px;line-height:1.85;color:#333;"><strong>&bull; <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&amp;sectionNum=413" target="_blank" class="slink">California Evidence Code &sect;&nbsp;413</a> (Failure to Produce Evidence).</strong> The Department&rsquo;s documented inability to locate Officer&nbsp;341&rsquo;s archived personnel file (the Lieutenant, February&nbsp;24,&nbsp;2026, 3:04&nbsp;PM, classification&nbsp;#7 above) permits the trier of fact to draw the inference that the missing file would, if produced, support Officer&nbsp;341&rsquo;s position rather than UC&rsquo;s.</p>
+
+        <p style="margin:0 0 14px 18px;font-size:17px;line-height:1.85;color:#333;"><strong>&bull; Spoliation doctrine.</strong> Under <em>Cedars-Sinai Medical Center v. Superior Court</em> (1998) 18&nbsp;Cal.4th&nbsp;1, and its progeny, where a party with custodial duty over evidence loses, destroys, or fails to produce that evidence, the trier of fact may presume the lost evidence was unfavorable to the custodian. The Department, as the custodial agency for Officer&nbsp;341&rsquo;s sworn-officer personnel file, bears that risk of presumption on every classification question now in dispute.</p>
+
+        <p style="margin:0;font-size:17px;line-height:1.85;color:#333;">In any forum that adjudicates Officer&nbsp;341&rsquo;s classification &mdash; the Workers&rsquo; Compensation Appeals Board, an administrative review, or a court of competent jurisdiction &mdash; the Captain&rsquo;s and Lieutenant&rsquo;s emails are <strong>not opinion, hearsay, or one party&rsquo;s side of the story.</strong> They are the official position of the University police department, admissible on UC&rsquo;s own records, against UC.</p>
+      </div>
+
+      <!-- ─── THE ONE CLASSIFICATION THAT CONTROLS THE OTHER SIX ─── -->
+      <h3 style="font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#1a1a1a;margin:32px 0 14px;letter-spacing:0.3px;">The One Classification That Controls the Other Six</h3>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        Of the seven classifications the Department has issued Officer&nbsp;341 in 30&nbsp;months, one controls them all. On <strong>August&nbsp;25,&nbsp;2023</strong>, the Captain &mdash; a sworn California peace officer acting as a state actor with custodial authority over Officer&nbsp;341&rsquo;s personnel file &mdash; stated in writing on University police-department letterhead: <em>&ldquo;Your status was designated as medically separated on March&nbsp;1,&nbsp;1996.&rdquo;</em> That single sentence, issued by the agency with the most authoritative records UC possesses on this question, resolves the binary by force of UC&rsquo;s own controlling case law.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        Under <em>Jacobs v. Regents of the University of California</em> (2017) 13&nbsp;Cal.App.5th&nbsp;17 &mdash; the very case the Captain himself attached to his denial letter as &ldquo;the most recent case that transpired through the court of appeals&rdquo; and identified as the controlling authority on Officer&nbsp;341&rsquo;s status &mdash; and its predecessor <em>Alberts v. Regents</em> (Alameda Super.&nbsp;Ct., September&nbsp;24,&nbsp;2012) [unpublished], the legal term that describes Officer&nbsp;341 is fixed: he is a <strong>Duty Disability Income recipient</strong> who, in the words of UC&rsquo;s own <a href="https://policy.ucop.edu/doc/4010404/PPSM-2.210" target="_blank" class="slink">Gold Book Policy 1700.1(b)(1)</a> (August&nbsp;18,&nbsp;2020), &ldquo;has not retired or separated from the University of California.&rdquo; <em>Jacobs</em> holds expressly that &ldquo;the UCRP contains no disability retirement&rdquo; and that DDI recipients &ldquo;are not retired under the UCRP.&rdquo; The two states &mdash; DDI recipient and retiree &mdash; are mutually exclusive under UCRP and under the controlling case law.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        The Department, by the hand of its own captain, citing the very case that controls the question, classified Officer&nbsp;341 as <strong>medically separated due to industrial injury</strong> &mdash; which under <em>Jacobs</em> and the Gold Book is the precise factual predicate for the legal classification &ldquo;Duty Disability Income recipient.&rdquo; The agency with custodial authority over the underlying personnel record has therefore confirmed Officer&nbsp;341&rsquo;s UCRP status, by name, on University police-department letterhead, in writing, citing the same case law that binds UC.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        Every contradictory classification UC has issued since &mdash; the 2015 reclassification of Officer&nbsp;341 to &ldquo;regular service retirement&rdquo; without WCAB approval; the 2015 dual-coded IRS Form&nbsp;1099-R (Code&nbsp;2 and Code&nbsp;3 in the same tax year); the 2016&ndash;2024 Code&nbsp;2 and Code&nbsp;7 distributions; the $727.48-per-month premium deductions taken from a DDI recipient whose medical coverage is employer-paid under the workers&rsquo; compensation settlement; the Williams-Cook &ldquo;non-compliance with retiree health policy&rdquo; determination of February&nbsp;27,&nbsp;2026; and the April&nbsp;1,&nbsp;2026 Anthem termination &mdash; collides head-on with the Captain&rsquo;s own statement, with <em>Jacobs</em>, and with UC&rsquo;s own Gold Book policy that binds the institution.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        UC cannot, on a single set of facts, treat Officer&nbsp;341 as both medically separated (the Department&rsquo;s position, classification&nbsp;#4 above) and retired (the systemwide benefits office&rsquo;s position) when its own controlling case law and its own published policy expressly forbid the hybrid. <strong>One office is right and the other is wrong</strong>; under <em>Jacobs</em>, the office that is right is the one whose classification matches the underlying factual record &mdash; and on that record, the Department&rsquo;s &ldquo;medically separated&rdquo; finding is the one supported by the August&nbsp;8,&nbsp;2001 Octagon permanent-and-stationary determination, the WCAB-approved settlement in Claim No.&nbsp;199650445, the WCAB&rsquo;s exclusive jurisdiction under California Labor Code &sect;&sect;&nbsp;5803&ndash;5804, and the federal tax treatment Officer&nbsp;341 actually received from 2010 through 2014 (Code&nbsp;3, Disability, 92.7% tax-free).
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 0;">
+        <strong>The name UC&rsquo;s own case law gives Officer&nbsp;341 is therefore not &ldquo;retiree.&rdquo; It is Duty Disability Income recipient &mdash; and that classification was confirmed on University police-department letterhead, by the Captain himself, on August&nbsp;25,&nbsp;2023, citing the very appellate decision that bound UC then and binds UC now.</strong>
+      </p>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION IV — PARTICIPATION IN THE POST PROGRAM IS VOLUNTARY
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section V</span>
+      <span class="opening-title-bar-text">Is POST Participation Mandatory?<span class="title-break" style="font-size:18px;letter-spacing:1px;font-weight:700;color:#ffd97a;font-style:italic;text-transform:none;margin-top:8px;">&ldquo;Participation in the POST Program is Voluntary.&rdquo; &mdash; <a href="https://www.law.cornell.edu/regulations/california/11-CCR-1010" target="_blank" style="color:#ffd97a;text-decoration:underline;text-decoration-style:dotted;">Cal. Code Regs. tit.&nbsp;11, &sect;&nbsp;1010(a)(2)</a></span></span>
+    </div>
+
+    <div class="opening-body">
+      <div class="voluntary-banner">
+        <div class="voluntary-banner-title" style="text-align:center;">&#9888;&nbsp; Walking Away from POST Has Almost No Consequences &nbsp;&#9888;</div>
+        <ul>
+          <li>A city, county, or UC campus <strong>chooses</strong> to be a POST-participating agency. The governing statute, <a href="https://law.justia.com/codes/california/code-pen/part-4/title-4/chapter-1/article-2/section-13510-1/" target="_blank" class="slink-light">Cal. Penal Code &sect;&nbsp;13510.1</a>, describes agencies that &ldquo;participate&rdquo; in the POST Program &mdash; not agencies required to hold a POST-issued operating license. If a department walks away from POST, or if POST suspends the agency from the program, the department still keeps its badges, guns, and arrest powers under local authority.</li>
+          <li>Losing POST participation can mean losing training money or access to POST resources. It does <strong>NOT</strong> mean the department stops being a police department or has to shut down.</li>
+          <li>POST&rsquo;s own spokesperson confirmed this gap on the record. In response to questions about <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220AB48" target="_blank" class="slink-light">AB&nbsp;48</a> reporting, POST spokesperson Meagan Poulos told <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank" class="slink-light">LAist</a>: <strong><em>&ldquo;The way the law is written, there is no stated enforcement mechanism. The individual agencies are responsible.&rdquo;</em></strong></li>
+          <li>The California Department of Justice separately confirmed that AB&nbsp;48 <strong><em>&ldquo;does not include requirements for DOJ to review, audit, or enforce law enforcement agency requirements.&rdquo;</em></strong> The bill&rsquo;s author, former Assemblymember Cristina Garcia, asked in frustration: &ldquo;If we don&rsquo;t have enforcement, do we really have a law?&rdquo;</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION III — WHAT POST DOES AND WHAT IT DOESN'T
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section VI</span>
+      <span class="opening-title-bar-text">Where Are the Laws That Apply to This Complaint?</span>
+    </div>
+
+    <div class="opening-body">
+      <p class="opening-lead-in">For the Record &mdash; UC Police Are Full State Peace Officers</p>
+      <ul class="opening-bullets">
+        <li>
+          <span class="opening-bullet-marker">&sect;</span>
+          <div class="opening-bullet-content">UC police officers are not campus security. They are classified under <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=830.2.&lawCode=PEN" target="_blank" class="slink">California Penal Code &sect;&nbsp;830.2(b)</a> &mdash; the same tier of the peace officer hierarchy that holds the California Highway Patrol (subdivision a) and CSU Police (subdivision c). Full statewide peace officer authority. Fully subject to POST oversight. Appointed under <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=92600.&lawCode=EDC" target="_blank" class="slink">Education Code &sect;&nbsp;92600</a>. This is not in dispute.</div>
+        </li>
+      </ul>
+
+      <p class="opening-lead-in"><a href="https://post.ca.gov/le-agencies" target="_blank" class="slink">POST</a> Certifies Individual Officers &mdash; It Does Not License Departments</p>
+      <ul class="opening-bullets">
+        <li>
+          <span class="opening-bullet-marker">1</span>
+          <div class="opening-bullet-content">California&rsquo;s <a href="https://post.ca.gov" target="_blank" class="slink">Commission on Peace Officer Standards and Training (POST)</a> certifies individual peace officers and can decertify them for &ldquo;serious misconduct&rdquo; under <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220SB2" target="_blank" class="slink">SB&nbsp;2</a>, even without a criminal conviction.</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">2</span>
+          <div class="opening-bullet-content">POST keeps a <a href="https://post.ca.gov/le-agencies" target="_blank" class="slink">list of certified officers</a> and a list of participating agencies. It does not issue a charter that makes a city, county, or campus &ldquo;a police department,&rdquo; and it does not have the power to take that charter away.</div>
+        </li>
+      </ul>
+
+      <p class="opening-lead-in"><a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220SB2" target="_blank" class="slink">SB&nbsp;2</a> &mdash; The Kenneth Ross Jr. Police Decertification Act of 2021</p>
+      <ul class="opening-bullets">
+        <li>
+          <span class="opening-bullet-marker">3</span>
+          <div class="opening-bullet-content"><a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220SB2" target="_blank" class="slink">SB&nbsp;2</a> finally gave California a system for decertifying individual officers who commit serious misconduct, after decades as one of the few states without general decertification authority. <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">However,</strong> SB&nbsp;2 created no automatic fine, no funding cutoff, and no &ldquo;department license&rdquo; for POST to pull when a department fails to report. At most, POST can audit or question the agency&rsquo;s <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">voluntary</strong> participation status &mdash; but the department itself keeps right on operating.</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">4</span>
+          <div class="opening-bullet-content"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=13510.9.&lawCode=PEN" target="_blank" class="slink">Penal Code &sect;&nbsp;13510.9</a> says agencies must report allegations of serious misconduct to POST within 10&nbsp;days &mdash; not just sustained findings, but any allegation that could lead to decertification.</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">5</span>
+          <div class="opening-bullet-content"><a href="https://post.ca.gov/SB-2-FAQs" target="_blank" class="slink">POST has confirmed there are no statutory exceptions</a>: departments must report even allegations they think are frivolous or intend to clear.</div>
+        </li>
+      </ul>
+
+      <p class="opening-lead-in">The Enforcement Gap &mdash; Voluntary Participation and the &ldquo;Penalty&rdquo; of Ineligibility</p>
+      <ul class="opening-bullets">
+        <li>
+          <span class="opening-bullet-marker">6</span>
+          <div class="opening-bullet-content"><a href="https://www.law.cornell.edu/regulations/california/11-CCR-1010" target="_blank" class="slink">11&nbsp;CCR &sect;&nbsp;1010(a)(2)</a> &mdash; <em>&ldquo;Participation in the POST Program is voluntary.&rdquo;</em> The foundational regulation that frames everything below.</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">7</span>
+          <div class="opening-bullet-content"><a href="https://www.law.cornell.edu/regulations/california/11-CCR-1010" target="_blank" class="slink">11&nbsp;CCR &sect;&nbsp;1010(a)(9)</a> &mdash; Non-Compliance. If POST finds an agency violated regulations, the Commission shall <em>&ldquo;reject all of the agency&rsquo;s requests for services and benefits (refer to Penal Code Section&nbsp;13523).&rdquo;</em> Reinstatement happens <em>&ldquo;when the agency has demonstrated, to the satisfaction of the Commission, that it will adhere to the prescribed Commission Regulations.&rdquo;</em></div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">8</span>
+          <div class="opening-bullet-content"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=13523.&amp;lawCode=PEN" target="_blank" class="slink">Cal. Penal Code &sect;&nbsp;13523</a> &mdash; The &ldquo;penalty&rdquo; statute: ineligibility for POST aid. Not a fine. Not a shutdown.</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION V — BOTTOM LINE: POST ALREADY HAS THE POWER
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section VII</span>
+      <span class="opening-title-bar-text">Who Has Jurisdiction to Resolve These Issues?</span>
+    </div>
+
+    <div class="opening-body">
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0;">
+        POST already has direct personal jurisdiction over every commanding officer who signed off on a late report, buried a complaint in &ldquo;other,&rdquo; or retaliated against a whistleblower. Most of the people running California police departments &mdash; the chiefs, captains, lieutenants, and commanders &mdash; are themselves <a href="https://post.ca.gov/Peace-Officer-Certification-Actions" target="_blank" class="slink">POST-certified peace officers</a>. POST was built to uphold the <a href="https://www.theiacp.org/resources/law-enforcement-code-of-ethics" target="_blank" class="slink">Law Enforcement Code of Ethics</a>, and the certification lever already exists. The gap is not a missing law or a missing agency. It is a missing decision &mdash; by the body that already holds the power &mdash; to use the tool it already has.
+      </p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION VI — THE RECORD: 300 CHIEF COMPLAINTS. ZERO VISIBLE COMMANDERS.
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section VIII</span>
+      <span class="opening-title-bar-text">What Has POST Actually Done in the Past?</span>
+    </div>
+
+    <div class="opening-body">
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        California&rsquo;s decertification system, created by <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB2" target="_blank" class="slink">Senate Bill 2</a>, went live January 1, 2023. After three years of operation, here is the record &mdash; reported by POST itself in its <a href="https://post.ca.gov/Portals/0/post_docs/publications/2025_POSAD_Report.pdf" target="_blank" class="slink">2025 Peace Officer Standards and Accountability Division Annual Report</a>.
+      </p>
+
+      <ul class="opening-bullets">
+        <li>
+          <span class="opening-bullet-marker">1</span>
+          <div class="opening-bullet-content">POST has received <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">approximately 3,000 public complaints</strong> since the program&rsquo;s inception, involving more than 1,700 peace officers. <a href="https://post.ca.gov/Portals/0/post_docs/publications/2025_POSAD_Report.pdf" target="_blank" class="slink">POSAD 2025 Annual Report, p.&nbsp;6</a>.</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">2</span>
+          <div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Approximately ten percent of those public complaints involve chiefs or sheriffs</strong> &mdash; roughly 300 complaints. <em>&ldquo;Complaints involving chiefs or sheriffs represent approximately ten percent of all public complaints and are prioritized for review by the Professional Conduct Bureau Chiefs to determine the next appropriate steps.&rdquo;</em> <a href="https://post.ca.gov/Portals/0/post_docs/publications/2025_POSAD_Report.pdf" target="_blank" class="slink">POSAD 2025 Annual Report, p.&nbsp;7, verbatim</a>.</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">3</span>
+          <div class="opening-bullet-content">Roughly <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">300 officers have lost their certification so far</strong> across all categories and all sources (agency-reported, public-complaint, and retroactive). <a href="https://www.kpbs.org/news/public-safety/2025/03/18/police-departments-california-law-aimed-at-rooting-out-bad-cops" target="_blank" class="slink">KPBS, March 18, 2025</a>.</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">4</span>
+          <div class="opening-bullet-content">The public <a href="https://post.ca.gov/Peace-Officer-Certification-Actions" target="_blank" class="slink">Peace Officer Certification Actions list</a> publishes last name, first name, agency, and basis &mdash; <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">not rank</strong>.</div>
+        </li>
+      </ul>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:22px 0 14px;">
+        Read the list yourself. Then read the news coverage of the cases. Look at the language the reporters use: <em>&ldquo;while on patrol,&rdquo;</em> <em>&ldquo;responded to the call,&rdquo;</em> <em>&ldquo;during the traffic stop,&rdquo;</em> <em>&ldquo;working the shift,&rdquo;</em> <em>&ldquo;arrested for,&rdquo;</em> <em>&ldquo;falsified records during a stop.&rdquo;</em>
+      </p>
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        Count how many read like a patrol officer&rsquo;s shift. Count how many read like a chief&rsquo;s calendar.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 14px;">
+        The only command-rank case this reporter could identify in public press coverage is San Rafael Lieutenant <a href="https://www.ktvu.com/news/longtime-san-rafael-police-lieutenant-on-decertification-list-for-egregious-acts" target="_blank" class="slink">Dan Fink</a>, who <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">voluntarily surrendered</strong> his certification in May 2023. POST did not push the case. He walked away on his own terms.
+      </p>
+
+      <p style="font-size:18px;line-height:1.6;color:var(--uc-blue);font-weight:700;margin:22px 0 0;text-align:center;">
+        300 chief complaints in. Zero chiefs out.
+      </p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION VII — WHO REVIEWS THE CHIEF COMPLAINTS?
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section IX</span>
+      <span class="opening-title-bar-text">Who Investigates Complaints About a Chief of Police?</span>
+    </div>
+
+    <div class="opening-body">
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        When a member of the public files a complaint against a chief or a sheriff, POST says those complaints go to &ldquo;the Professional Conduct Bureau Chiefs&rdquo; for priority review. <a href="https://post.ca.gov/Portals/0/post_docs/publications/2025_POSAD_Report.pdf" target="_blank" class="slink">POSAD 2025 Annual Report, p.&nbsp;7</a>. Here are the three people who hold that title, per the <a href="https://post.ca.gov/management-team" target="_blank" class="slink">POST Management Team page</a>.
+      </p>
+
+      <ul class="opening-bullets">
+        <li>
+          <span class="opening-bullet-marker">1</span>
+          <div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Robert Guyton</strong> &mdash; Bureau Chief, Professional Conduct Northern Bureau. Prior: 10 years as a police officer with Long Beach PD and Bakersfield PD; 21 years as an <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">FBI Special Agent</strong>.</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">2</span>
+          <div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Brian South</strong> &mdash; Bureau Chief, Professional Conduct Central Bureau. Prior: 20 years with Moraga Police Department; retired as <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Police Lieutenant</strong> and second-in-command, where he oversaw patrol, investigations, and <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">internal affairs</strong>.</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">3</span>
+          <div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Christine Ford</strong> &mdash; Bureau Chief, Professional Conduct Southern Bureau. Prior: 21 years with Hayward PD and Citrus Heights PD; retired as <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Lieutenant</strong>, where she managed the <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Professional Standards</strong> Unit and the Field Training Unit.</div>
+        </li>
+      </ul>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:22px 0 14px;">
+        Above the three Bureau Chiefs:
+      </p>
+
+      <ul class="opening-bullets">
+        <li>
+          <span class="opening-bullet-marker">4</span>
+          <div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Annemarie Del Mugnaio</strong> &mdash; Assistant Executive Director, Peace Officer Standards and Accountability Division (POSAD). Prior: 20+ years at the California Department of Corrections (CDCR); former Executive Director of the Commission on Correctional Peace Officer Standards and Training &mdash; the prison-guard equivalent of POST.</div>
+        </li>
+        <li>
+          <span class="opening-bullet-marker">5</span>
+          <div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Manuel &ldquo;Manny&rdquo; Alvarez Jr.</strong> &mdash; Executive Director, POST. Prior: 26 years as an <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">FBI Special Agent</strong>; retired as Assistant Special Agent in Charge, FBI Sacramento Field Office.</div>
+        </li>
+      </ul>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:22px 0 0;">
+        Every person in the chain that screens a complaint against a chief or sheriff at POST is a retired peace officer or a retired federal agent. Two of the three Bureau Chiefs ran internal affairs or professional standards units at their own departments before being promoted to POST.
+      </p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION VIII — THEY ARE THE REGENTS OF POST
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section X</span>
+      <span class="opening-title-bar-text">Does POST Decertify Captains and Chiefs?</span>
+    </div>
+
+    <div class="opening-body">
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;">
+        <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">The Record Is Unclear.</strong> If a complaint against a chief or sheriff survives the Bureau Chief screening and the Executive Director&rsquo;s sign-off, the final decision on decertification is a vote by the <a href="https://post.ca.gov/POST-Commission" target="_blank" class="slink">POST Commission</a> itself. The Commission has 18 seats. Sixteen are currently publicly listed by name and bio. Here is who holds them, by official title and prior career.
+      </p>
+
+      <h3 class="opening-lead-in" style="font-size:19px;">Sworn Law Enforcement or Police-Union Leadership Background &mdash; 10 of 16</h3>
+      <ul class="opening-bullets">
+        <li><span class="opening-bullet-marker">1</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Sheriff Ingrid Braun</strong> &mdash; Mono County. Prior: LAPD Lieutenant (retired 2011).</div></li>
+        <li><span class="opening-bullet-marker">2</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Sheriff Shannan Moon</strong> &mdash; Nevada County. 34-year Nevada County SO veteran; ranks held include Sergeant, Lieutenant, and Captain.</div></li>
+        <li><span class="opening-bullet-marker">3</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Chief Kelly Gordon</strong> &mdash; Santa Barbara PD. Prior: Chief of Monterey Park PD; Lieutenant at Montebello PD; LAPD officer.</div></li>
+        <li><span class="opening-bullet-marker">4</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Sheriff Tina Nieto</strong> &mdash; Monterey County. Prior: Chief of Marina PD; LAPD Commanding Officer (retired 2017).</div></li>
+        <li><span class="opening-bullet-marker">5</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Sheriff Jim Cooper</strong> &mdash; Sacramento County. 30-year Sacramento County Sheriff&rsquo;s Department veteran; retired as Captain.</div></li>
+        <li><span class="opening-bullet-marker">6</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Rick Braziel</strong> (Vice-Chair) &mdash; officially listed as Educator, Cal Poly Humboldt. Prior: Chief of Police, Sacramento PD (33-year career, 5 years as Chief). Past President of the California Peace Officers Association.</div></li>
+        <li><span class="opening-bullet-marker">7</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Alan Barcelona</strong> &mdash; DOJ Special Agent. Elected President, <a href="http://cslea.com/" target="_blank" class="slink">California Statewide Law Enforcement Association (CSLEA)</a>. Prior: Stanislaus County Deputy Sheriff.</div></li>
+        <li><span class="opening-bullet-marker">8</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Jake Johnson</strong> &mdash; CHP Officer (23 years). Elected President (second term), <a href="https://www.thecahp.org/" target="_blank" class="slink">California Association of Highway Patrolmen (CAHP)</a>, the largest state police labor union in the United States.</div></li>
+        <li><span class="opening-bullet-marker">9</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Sergeant Benjamin Therriault</strong> &mdash; Richmond PD. President of the Richmond Police Officers Association since 2016. Vice President of <a href="https://porac.org/" target="_blank" class="slink">PORAC</a>.</div></li>
+        <li><span class="opening-bullet-marker">10</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Senior Deputy Justin Doering</strong> &mdash; Ventura County SO. Vice President of the Ventura County Deputy Sheriffs&rsquo; Association. PORAC Board of Directors.</div></li>
+      </ul>
+
+      <h3 class="opening-lead-in" style="font-size:19px;">Public Members with Law Enforcement Connections &mdash; 2 of 16</h3>
+      <ul class="opening-bullets">
+        <li><span class="opening-bullet-marker">11</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Attorney General Rob Bonta</strong> (ex-officio). Prior: San Francisco Deputy City Attorney, 2003&ndash;2012. Endorsed for Attorney General by <a href="http://cslea.com/wp-content/uploads/2023/11/Rob-Bonta-Attorney-General-Endorsement-Letter.pdf" target="_blank" class="slink">CSLEA in 2021</a>.</div></li>
+        <li><span class="opening-bullet-marker">12</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Freddie Rodriguez (Ret.)</strong> &mdash; former California State Assemblymember. Son serves as a Los Angeles County Sheriff&rsquo;s deputy. Received campaign contributions from the Santa Ana Police Officers Association; endorsed by the Ontario POA and CAHP.</div></li>
+      </ul>
+
+      <h3 class="opening-lead-in" style="font-size:19px;">Public Members with No Law Enforcement Background &mdash; 4 of 16</h3>
+      <ul class="opening-bullets">
+        <li><span class="opening-bullet-marker">13</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Geoff Long</strong> (Chair) &mdash; 33-year California Legislature staffer.</div></li>
+        <li><span class="opening-bullet-marker">14</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">P. Lamont Ewell</strong> &mdash; former Oakland Fire Chief; former City Manager of San Diego, Santa Monica, and Durham, NC.</div></li>
+        <li><span class="opening-bullet-marker">15</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Dr. Michael Moodian</strong> &mdash; Chapman University faculty; former California Commission on Judicial Performance (2015&ndash;2025).</div></li>
+        <li><span class="opening-bullet-marker">16</span><div class="opening-bullet-content"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Charles Duggan Jr.</strong> &mdash; Redlands City Manager.</div></li>
+      </ul>
+
+      <h3 class="opening-lead-in" style="font-size:23px;margin-top:34px;">The Vote Threshold</h3>
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 14px;">
+        To decertify a peace officer, <a href="https://post.ca.gov/portals/0/post_docs/resources/sb2/Guide_to_Decertification.pdf" target="_blank" class="slink">California Penal Code &sect;&nbsp;13510.85(a)(5)</a> requires <em>&ldquo;a two-thirds vote of Commissioners present.&rdquo;</em>
+      </p>
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 14px;">
+        On an 18-seat commission at full attendance, that means <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">12 yes votes to decertify. Seven no votes block it.</strong>
+      </p>
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 22px;">
+        Ten of the sixteen publicly-listed Commissioners come from sworn law enforcement or police-union leadership.
+      </p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION IX — WHAT DOES A CIVIL-RIGHTS VIOLATION ACTUALLY LOOK LIKE?
+       A CAT 5 HURRICANE
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section XI</span>
+      <span class="opening-title-bar-text">What Are the 9 Categories of POST Violations?</span>
+    </div>
+    <div class="opening-body">
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 22px;">
+        <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=13510.8.&amp;lawCode=PEN" target="_blank" class="slink">California Penal Code &sect;&nbsp;13510.8(b)</a> lists nine categories of serious misconduct on which POST can strip a peace officer&rsquo;s certification. Read them in order. Watch what happens at <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Category&nbsp;1</strong>. Then watch what happens again at <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Category&nbsp;5</strong>.
+      </p>
+
+      <div style="background:#1a1a1a;color:#ffffff;border:3px solid #1a1a1a;padding:28px 28px;margin:0 0 24px;">
+        <div style="font-size:24px;letter-spacing:0.18em;text-transform:uppercase;color:#C8102E;margin:0 0 14px;font-weight:800;">Category 1</div>
+        <p style="font-size:19px;line-height:1.6;color:#ffffff;margin:0;font-weight:600;">Dishonesty. False reports, perjury, tampering with or destroying evidence, body-worn camera tampering.</p>
+      </div>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 22px;">
+        Most people, hearing &ldquo;police misconduct,&rdquo; picture force first. Category&nbsp;1 is what the public almost never sees and what every command staff knows is the hardest charge to survive: <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">dishonesty in writing, on department letterhead, by sworn personnel.</strong> Once a peace officer&rsquo;s candor is documented as compromised, every prior arrest report, search-warrant affidavit, and use-of-force narrative that officer authored becomes <em>Brady</em> material the District Attorney must disclose to defense counsel for the rest of that officer&rsquo;s career.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 22px;">
+        Section&nbsp;IV of this Preface catalogues, in the Department&rsquo;s own words, <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">seven mutually inconsistent written classifications</strong> of the same retired officer&rsquo;s status, issued by the same agency over a 30-month window, and <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">four mutually inconsistent written statements</strong> &mdash; from the same Lieutenant, on the same day, in a single afternoon, then again 51 days later &mdash; about whether the personnel file supporting one of those classifications is located, archived, mis-shipped, or no longer in existence. <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">All of it postdates a written litigation hold served on the Captain in February&nbsp;2026.</strong> These are not anecdotes. They are the documentary record of Category&nbsp;1 conduct, on the agency&rsquo;s own letterhead, available to POST without a single subpoena.
+      </p>
+
+      <div style="background:#ffffff;border:1px solid #d4d4d4;border-left:4px solid #1a1a1a;padding:20px 24px;margin:0 0 24px;">
+        <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 10px;"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">CATEGORY 2 &mdash;</strong> Abuse of Power. Intimidating witnesses, knowingly obtaining a false confession, knowingly making a false arrest.</p>
+        <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 10px;"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">CATEGORY 3 &mdash;</strong> Physical Abuse. Excessive or unreasonable use of force.</p>
+        <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 0;"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">CATEGORY 4 &mdash;</strong> Sexual Assault.</p>
+      </div>
+
+      <div style="background:#1a1a1a;color:#ffffff;border:3px solid #1a1a1a;padding:28px 28px;margin:0 0 24px;">
+        <div style="font-size:24px;letter-spacing:0.18em;text-transform:uppercase;color:#ff6b35;margin:0 0 14px;font-weight:800;">Category 5</div>
+        <p style="font-size:19px;line-height:1.6;color:#ffffff;margin:0;font-weight:600;">Demonstrating Bias &mdash; on the basis of race, national origin, religion, gender identity or expression, housing status, sexual orientation, mental or physical disability, or other protected status.</p>
+      </div>
+
+      <div style="background:#ffffff;border:1px solid #d4d4d4;border-left:4px solid #1a1a1a;padding:20px 24px;margin:0 0 24px;">
+        <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 10px;"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">CATEGORY 6 &mdash;</strong> Acts That Violate the Law &mdash; sufficiently egregious or repeated.</p>
+        <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 10px;"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">CATEGORY 7 &mdash;</strong> Participation in a Law Enforcement Gang.</p>
+        <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 10px;"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">CATEGORY 8 &mdash;</strong> Failure to Cooperate with a Misconduct Investigation.</p>
+        <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 0;"><strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">CATEGORY 9 &mdash;</strong> Failure to Intercede when observing another officer use unnecessary force.</p>
+      </div>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 22px;">
+        Most people, if they think about civil-rights violations at all, picture Category&nbsp;3. Rodney King. Video. Blood. That is the only one the public recognizes on sight.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 22px;">
+        But read <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">Category&nbsp;5</strong> again. Every word of it is <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;">42&nbsp;U.S.C.&nbsp;&sect;&nbsp;1983</strong>. Same protected categories. Same constitutional source &mdash; the Fourteenth Amendment. One gets prosecuted administratively by POST. The other gets prosecuted in federal court by the person who was harmed. Same conduct. Two doors.
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 22px;">
+        The filing to POST does not beg POST to recognize a civil-rights violation. The filing to POST says: <em>you already codified it at Category&nbsp;5. Here is one. Act on it &mdash; or explain in writing why the state&rsquo;s own statute does not apply when the officer being harmed is one of your own.</em>
+      </p>
+
+      <p style="font-size:18px;line-height:1.75;color:#1a1a1a;margin:0;font-weight:600;">
+        Playbook No.&nbsp;341 is about one of those.
+      </p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       SECTION X — I ALREADY KNOW HOW THIS ENDS
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="opening-block">
+    <div class="opening-title-bar">
+      <span class="opening-title-bar-label">Section XII</span>
+      <span class="opening-title-bar-text">How Will This Complaint End With POST?</span>
+    </div>
+    <div class="opening-body">
+      <div class="post-closing">
+        <div class="post-closing-title">Nothing Will Be Done</div>
+        <p>Officer&nbsp;341 already knows the outcome. Not because the complaints lack merit. Not because the evidence is insufficient. But because he went down this road thirty-seven years ago and faced off against the Regents of the University of California &mdash; which, as we will see later, is literally the fourth branch of government in California.</p>
+        <p>Back in the day, he reported corruption. He documented command-level misconduct. He filed grievances, contacted the FBI, the DA, the Bureau of State Audits, the Little Hoover Commission. He did everything the system says he was required to do.</p>
+        <p>And not a single thing was done.</p>
+        <p>What follows in this report is not a prediction. It is a documented pattern &mdash; decades of evidence showing exactly what happens when an officer inside the University of California system reports the truth up the chain. The officer pays the price. The University retains its authority, and the agencies that are supposed to provide oversight discover &mdash; if they even try &mdash; that the constitutional wall surrounding the Regents of the University of California makes enforcement structurally impossible.</p>
+        <p>This is not the story of one campus. The chapters that follow document a pattern that repeats across all ten University of California police departments &mdash; the same structural failures, the same lack of external accountability, the same constitutional shield. Ten departments. Ten campuses. One system. No oversight with teeth.</p>
+        <p>These POST complaints will follow the same path. Not because POST lacks the power to act against the individuals involved &mdash; it has that power today. But because the institution those individuals work for operates under a set of rules that no other employer in California is subject to. In fact, as the chapters that follow will demonstrate, virtually no other employer in America is subject to them.</p>
+        <p>The chapters that follow explain why.</p>
+        <div class="verdict">
+          <p style="margin-bottom:14px;">The University of California is recognized worldwide as a leader in medicine, health sciences, public health research, and patient care. UCLA Health consistently ranks among the finest medical institutions on earth. The University produces the physicians, researchers, and public health leaders who set the standard for how healthcare should work.</p>
+          <p style="margin-bottom:14px;">Officer&nbsp;341 respectfully suggests that the University&rsquo;s mistreatment of its own retired peace officer&rsquo;s retirement status and medical benefits &mdash; a peace officer who served and protected the leaders of UCLA &mdash; falls far short of the standard of excellence, integrity, and adherence to law that the University demands of its students, its faculty, and its physicians.</p>
+          <p style="margin-bottom:14px;">Heroes of medicine and science &mdash; that&rsquo;s the world&rsquo;s view of the University of California. Officer&nbsp;341 asks only that UC <span class="behave">behave like heroes</span> &mdash; the heroes the world believes them to be.</p>
+          <div style="margin-top:24px;border-top:1px solid #d9d4c4;padding-top:24px;text-align:center;">
+            <p style="font-style:italic;margin:0 0 6px;line-height:1.5;"><a href="https://www.law.cornell.edu/regulations/california/11-CCR-1010" target="_blank" style="color:#1a6dff;text-decoration:underline;">Cal. Code Regs. Title&nbsp;11, &sect;&nbsp;1010</a></p>
+            <p style="font-style:italic;margin:0 0 18px;line-height:1.5;">&ldquo;Participating in the POST Program is voluntary.&rdquo;</p>
+            <p style="font-style:italic;margin:0 0 6px;line-height:1.5;"><a href="https://law.justia.com/constitution/california/article-xx/section-3/" target="_blank" style="color:#1a6dff;text-decoration:underline;">Cal. Const. Art.&nbsp;XX &sect;&nbsp;3</a></p>
+            <p style="font-style:italic;margin:0 0 18px;line-height:1.5;">The <strong style="display:inline;font-size:inherit;text-transform:none;letter-spacing:normal;color:inherit;margin:0;font-style:italic;">Constitutional Oath of Office</strong> &mdash; is not.</p>
+            <p style="font-style:italic;margin:0 0 6px;line-height:1.5;">Neither is the <a href="https://www.theiacp.org/resources/policing-code-of-ethics" target="_blank" style="color:#1a6dff;text-decoration:underline;">Law Enforcement Code of Ethics</a>,</p>
+            <p style="font-style:italic;margin:0 0 20px;line-height:1.5;">administered under <a href="https://post.ca.gov/Portals/0/post_docs/regulationnotices/2019/2019-41_Approval_Notice.pdf" target="_blank" style="color:#1a6dff;text-decoration:underline;">11 CCR &sect;&nbsp;1013</a>.</p>
+            <p style="font-style:italic;font-weight:700;font-size:19px;margin:0;letter-spacing:0.5px;">POST can still enforce both.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ CHAPTER GRID ══ -->
+  <div class="grid-header">
+    <div class="grid-tag">The Record</div>
+    <div class="grid-title-bar">Five Chapters &nbsp;|&nbsp; Ten Campuses &nbsp;|&nbsp; Thirty-Seven Years of Documentation</div>
+  </div>
+  <p class="grid-desc">The complete documented record of the University of California Police System. Each chapter is independently verifiable. All sources cited. Readers are encouraged to verify every citation independently.</p>
+
+  <a href="../behave-like-heroes/" class="ch-row">
+    <div class="ch-num">PREF</div>
+    <div class="ch-body">
+      <div class="ch-title">Preface — The Case for Accountability</div>
+      <div class="ch-sub">The oath. The gap. The documented record. The officer appeal. Badge #341.</div>
+    </div>
+    <div class="ch-status"><span class="badge badge-preface">You Are Here</span></div>
+  </a>
+
+  <a href="../behave-like-heroes/chapter_01.html" class="ch-row">
+    <div class="ch-num">CH-01</div>
+    <div class="ch-body">
+      <div class="ch-title">A Systemwide Overview of UC&rsquo;s Ten Campus Police Departments</div>
+      <div class="ch-sub">UCB &nbsp;|&nbsp; UCD &nbsp;|&nbsp; UCI &nbsp;|&nbsp; UCLA &nbsp;|&nbsp; UCM &nbsp;|&nbsp; UCR &nbsp;|&nbsp; UCSB &nbsp;|&nbsp; UCSC &nbsp;|&nbsp; UCSD &nbsp;|&nbsp; UCSF &nbsp;|&nbsp; Staffing, budget, chief tenure, incident record</div>
+    </div>
+    <div class="ch-status"><span class="badge badge-post">POST Record</span></div>
+  </a>
+
+  <a href="../behave-like-heroes/chapter_02.html" class="ch-row">
+    <div class="ch-num">CH-02</div>
+    <div class="ch-body">
+      <div class="ch-title">Ten Chiefs, No Boss, No Voter &mdash; The Governance Structure That Blocks Accountability</div>
+      <div class="ch-sub">Why UC has no systemwide Chief of Police &nbsp;|&nbsp; Ten chiefs report to Chancellors, not UCOP &nbsp;|&nbsp; Coordinator-not-commander gap</div>
+    </div>
+    <div class="ch-status"><span class="badge badge-post">POST Record</span></div>
+  </a>
+
+  <a href="../behave-like-heroes/chapter_03.html" class="ch-row">
+    <div class="ch-num">CH-03</div>
+    <div class="ch-body">
+      <div class="ch-title">The Clothes Have No Emperor &mdash; They Have Regents Instead</div>
+      <div class="ch-sub">UC as constitutional corporation &nbsp;|&nbsp; Thirteen exemptions from ordinary law &nbsp;|&nbsp; The legal hierarchy</div>
+    </div>
+    <div class="ch-status"><span class="badge badge-post">POST Record</span></div>
+  </a>
+
+  <a href="../behave-like-heroes/chapter_04.html" class="ch-row">
+    <div class="ch-num">CH-04</div>
+    <div class="ch-body">
+      <div class="ch-title">Three Doors to Reform the Regents &mdash; One Wall &mdash; Seventy-Seven Years of Silence</div>
+      <div class="ch-sub">Door 1: Constitutional amendment &nbsp;|&nbsp; Door 2: Legislative oversight (ACA 6) &nbsp;|&nbsp; Door 3: Federal pattern-or-practice (34 U.S.C. &sect; 12601)</div>
+    </div>
+    <div class="ch-status"><span class="badge badge-post">POST Record</span></div>
+  </a>
+
+  <a href="../behave-like-heroes/chapter_05.html" class="ch-row">
+    <div class="ch-num">CH-05</div>
+    <div class="ch-body">
+      <div class="ch-title">A Case Study in Law Without Enforcement &mdash; Officer 341&rsquo;s Highly Documented Record</div>
+      <div class="ch-sub">The documented whistleblower record &nbsp;|&nbsp; Every external channel used &nbsp;|&nbsp; The pattern that repeats 37 years later</div>
+    </div>
+    <div class="ch-status"><span class="badge badge-post">POST Record</span></div>
+  </a>
+
+  <!-- ══ APPENDIX — Preface citations only ══ -->
+  <h2 class="appendix-heading">Appendix &mdash; Sources Cited in the Preface</h2>
+  <p class="appendix-lead">Live links to every statute, regulation, and source referenced above. Every fact in this report is independently verifiable.</p>
+
+  <h3 class="appendix-category">California Statutes &mdash; Peace Officer Classification</h3>
+  <p class="appendix-entry"><span class="source-id">[S-1]</span> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=830.2.&amp;lawCode=PEN" target="_blank">California Penal Code &sect;&nbsp;830.2(b)</a> &mdash; UC police classified as full state peace officers (same tier as CHP and CSU).</p>
+  <p class="appendix-entry"><span class="source-id">[S-2]</span> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=92600.&amp;lawCode=EDC" target="_blank">California Education Code &sect;&nbsp;92600</a> &mdash; Statutory authority under which UC appoints peace officers.</p>
+
+  <h3 class="appendix-category">California Statutes &mdash; POST Oversight &amp; Decertification</h3>
+  <p class="appendix-entry"><span class="source-id">[S-3]</span> <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220SB2" target="_blank">Senate Bill 2 (2021) &mdash; Kenneth Ross Jr. Police Decertification Act</a> &mdash; Enacted Penal Code &sect;&sect;&nbsp;13509.5, 13510.8, 13510.85.</p>
+  <p class="appendix-entry"><span class="source-id">[S-4]</span> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=13510.9.&amp;lawCode=PEN" target="_blank">California Penal Code &sect;&nbsp;13510.9</a> &mdash; POST certification record duties.</p>
+  <p class="appendix-entry"><span class="source-id">[S-5]</span> <a href="https://law.justia.com/codes/california/code-pen/part-4/title-4/chapter-1/article-2/section-13510-1/" target="_blank">California Penal Code &sect;&nbsp;13510.1</a> &mdash; POST basic certificate authority.</p>
+  <p class="appendix-entry"><span class="source-id">[S-6]</span> <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220AB48" target="_blank">Assembly Bill 48 (2021) &mdash; Protest Use-of-Force Reporting</a> &mdash; UC campus police compliance subject of LAist reporting.</p>
+
+  <h3 class="appendix-category">California Government Code &amp; Regulations</h3>
+  <p class="appendix-entry"><span class="source-id">[S-7]</span> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=3306.5.&amp;lawCode=GOV" target="_blank">California Government Code &sect;&nbsp;3306.5</a> &mdash; Peace officer personnel records access.</p>
+  <p class="appendix-entry"><span class="source-id">[S-8]</span> <a href="https://www.law.cornell.edu/regulations/california/11-CCR-1010" target="_blank">11 Cal. Code Regs. &sect;&nbsp;1010</a> &mdash; POST minimum standards for peace officers.</p>
+
+  <h3 class="appendix-category">Federal Statutes</h3>
+  <p class="appendix-entry"><span class="source-id">[S-9]</span> <a href="https://www.law.cornell.edu/uscode/text/18/926C" target="_blank">18 U.S.C. &sect;&nbsp;926C (LEOSA)</a> &mdash; Law Enforcement Officers Safety Act.</p>
+
+  <h3 class="appendix-category">POST Agency Pages</h3>
+  <p class="appendix-entry"><span class="source-id">[S-10]</span> <a href="https://post.ca.gov" target="_blank">California POST &mdash; Agency Home</a></p>
+  <p class="appendix-entry"><span class="source-id">[S-11]</span> <a href="https://post.ca.gov/le-agencies" target="_blank">POST &mdash; Law Enforcement Agencies Directory</a></p>
+  <p class="appendix-entry"><span class="source-id">[S-12]</span> <a href="https://post.ca.gov/Peace-Officer-Certification-Actions" target="_blank">POST &mdash; Peace Officer Certification Actions</a> (public SB&nbsp;2 decertification record).</p>
+  <p class="appendix-entry"><span class="source-id">[S-13]</span> <a href="https://post.ca.gov/SB-2-FAQs" target="_blank">POST &mdash; SB&nbsp;2 Frequently Asked Questions</a></p>
+
+  <h3 class="appendix-category">Professional Standards</h3>
+  <p class="appendix-entry"><span class="source-id">[S-14]</span> <a href="https://www.theiacp.org/resources/law-enforcement-code-of-ethics" target="_blank">International Association of Chiefs of Police &mdash; Law Enforcement Code of Ethics</a></p>
+
+  <h3 class="appendix-category">Contemporaneous Reporting</h3>
+  <p class="appendix-entry"><span class="source-id">[S-15]</span> <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist &mdash; &ldquo;UC campus police protest reporting law&rdquo;</a></p>
+
+</div><!-- /doc-body -->
+
+</div><!-- /page-wrapper -->
+
+<!-- ══════════════════════════════════════
+     BOTTOM NAV BAR
+══════════════════════════════════════ -->
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+  <div class="nav-bottom-inner">
+    <span class="nav-label">Behave Like Heroes</span>
+    <a href="../behave-like-heroes/" class="nav-btn active">PREFACE</a>
+    <a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+    <a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+    <a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a><a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+    <a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+  </div>
+</nav>
+</div>
+
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  var scrollRaf=0;
+  function emitScroll(){
+    scrollRaf=0;
+    var x=window.scrollX||window.pageXOffset||0;
+    var y=window.scrollY||window.pageYOffset||0;
+    window.parent.postMessage({type:'INLINE_EDIT_SCROLL',scrollX:x,scrollY:y},'*');
+  }
+  window.addEventListener('scroll',function(){
+    if(scrollRaf)return;
+    scrollRaf=requestAnimationFrame(emitScroll);
+  },{passive:true,capture:true});
+  emitScroll();
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script><div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Behave Like Heroes &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · CH-09 — Budget, Staffing, and Growth Trends | Bruin Watch</title>
+<meta name="description" content="Chapter 9 analyzes budget, staffing, and growth trends across all ten UC police departments.">
+<meta property="og:title" content="Act I · CH-09 — Budget, Staffing, and Growth Trends | Bruin Watch">
+<meta property="og:description" content="Chapter 9 analyzes budget, staffing, and growth trends across all ten UC police departments.">
+<meta property="og:type" content="article">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE}
+body{font-family:'Source Sans Pro',Calibri,Arial,sans-serif;background:#e8edf2;margin:0;padding:0}
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:flex-start}
+.nav-bottom-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:32px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:80px;font-weight:900;letter-spacing:8px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:6px;line-height:1.05}
+.series-subtitle{font-family:'Bebas Neue',sans-serif;font-size:40px;font-weight:900;letter-spacing:6px;text-transform:uppercase;color:#fff;margin-bottom:6px;line-height:1.1}
+.series-report{font-family:'Source Sans Pro',sans-serif;font-size:20px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.85);margin-bottom:4px;line-height:1.5}
+.series-commission{font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:16px;line-height:1.5}
+.chapter-number{font-family:'Source Sans Pro',sans-serif;font-size:34px;font-weight:900;letter-spacing:4px;text-transform:uppercase;color:#fff;margin-bottom:10px}
+.ch-of{font-size:18px;font-weight:600;text-transform:lowercase;vertical-align:middle;margin:0 4px;color:#fff}
+.chapter-title{font-family:'Libre Baskerville',Georgia,serif;font-size:32px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:16px auto;display:block}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:22px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.cover-meta{width:100%;padding:20px 0;background:rgba(0,0,0,.15);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border-top:1px solid rgba(253,181,21,.25)}
+.cover-meta-inner{max-width:960px;width:100%;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 40px}
+.cover-meta p{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;color:#fff;text-align:center;line-height:1.6}
+.cover-meta strong{color:var(--uc-gold)}
+.cover-meta p.cover-disclaimer{font-family:'Source Sans Pro',Calibri,Arial,sans-serif!important;font-size:14.5px!important;font-weight:300!important;color:#dde8f4!important;text-align:justify!important;hyphens:auto;max-width:820px;width:100%;margin:6px auto;padding:10px 0;line-height:1.8;border-top:1px solid rgba(253,181,21,.35);border-bottom:1px solid rgba(253,181,21,.35)}
+.cover-copyright{width:100%;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:400;color:#fff;margin-top:4px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.disclaimer{max-width:780px;margin:50px auto 40px;padding:24px 32px;text-align:center;font-style:italic;font-size:13.5px;color:#666;line-height:1.8;border-top:1px solid #ddd;border-bottom:1px solid #ddd;font-family:'Libre Baskerville',Georgia,serif}
+.content{max-width:860px;margin:0 auto;padding:0 30px 60px;font-family:'Libre Baskerville',Georgia,serif}
+.toc{background:#f5f0e8;border:1px solid #d4c9b8;padding:2rem 2.5rem;margin:50px 30px 50px}.toc h2{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;color:#003262;margin-bottom:20px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.toc-entry{display:flex;align-items:baseline;padding:6px 0;border-bottom:1px dotted #ccc}
+.toc-num{font-family:'Source Sans Pro',sans-serif;font-weight:600;color:#003262;min-width:60px}
+.toc-title a{color:#003262;text-decoration:none;font-size:15px}
+.toc-title a:hover{text-decoration:underline}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#003262;margin:50px 0 10px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.sub-heading{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;color:#003262;margin:30px 0 10px}
+.sub-sub-heading{font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:700;color:#003262;margin:20px 0 8px}
+p.body-text{font-size:15px;color:#333;margin-bottom:16px;line-height:1.75}
+.key-finding{background:#FFF8E1;border-left:4px solid #FDB515;padding:16px 20px;margin:20px 0 30px;font-size:14px;line-height:1.7}
+.key-finding strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.critical-finding{background:#FFF0F0;border-left:4px solid #8B0000;padding:16px 20px;margin:20px 0 30px;font-size:14px;line-height:1.7}
+.critical-finding strong{font-family:'Source Sans Pro',sans-serif;color:#8B0000}
+.source-note{border:1px solid #FDB515;border-left:4px solid #FDB515;background:#FFFEF8;padding:16px 20px;margin:24px 0;font-size:13px;line-height:1.7}
+.source-note strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.source-note a{color:#0563C1;word-break:break-all}
+table.info-table,table.data-table{width:100%;border-collapse:collapse;margin:20px 0 30px;font-size:14px}
+table.info-table thead th,table.data-table thead th{background:#003262;color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:1px;padding:12px 14px;text-align:left;border:1px solid #002244}
+table.info-table tbody td,table.data-table tbody td{padding:12px 14px;border:1px solid #ddd;vertical-align:top;line-height:1.6}
+table.info-table tbody tr:nth-child(even),table.data-table tbody tr:nth-child(even){background:#E8EEF4}
+table.info-table tbody tr:nth-child(odd),table.data-table tbody tr:nth-child(odd){background:#fff}
+table a{color:#0563C1;word-break:break-all}
+.campus-header{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#fff;background:#003262;padding:14px 22px;margin:50px 0 18px;border-left:6px solid #FDB515}
+.campus-header:first-of-type{margin-top:30px}
+.campus-summary{background:#FAF6F0;border:1px solid #e0d8c8;padding:16px 20px;margin:10px 0 24px;font-size:14px;line-height:1.7}
+.campus-summary strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.pathway-box{background:#FAF6F0;border:1px solid #D4C9B8;border-left:4px solid #003262;padding:18px 22px;margin:18px 0 26px}
+.pathway-box .pw-title{font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:16px;color:#003262;margin-bottom:8px}
+.pathway-box .pw-auth{font-family:'Source Sans Pro',sans-serif;font-size:13px;color:#555;margin-bottom:8px}
+.pathway-box .pw-body{font-size:14px;line-height:1.7;margin-bottom:8px}
+.pathway-box .pw-how{font-size:13px;line-height:1.6;color:#444}
+.pathway-box .pw-how strong{color:#003262}
+.pathway-box a{color:#0563C1;word-break:break-all}
+.statute-box{background:#FAF6F0;border:1px solid #D4C9B8;padding:16px 20px;margin:16px 0 24px;font-size:14px;line-height:1.7}
+.statute-box .statute-label{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:#003262;display:block;margin-bottom:6px}
+.appendix-heading{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;color:#003262;margin:50px 0 10px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.appendix-category{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:700;color:#003262;margin:24px 0 10px}
+.appendix-entry{font-size:13px;line-height:1.7;margin-bottom:6px;padding-left:16px;text-indent:-16px}
+.appendix-entry a{color:#0563C1;word-break:break-all}
+.source-id{font-weight:700;color:#003262}
+.page-footer{max-width:860px;margin:40px auto 30px;padding:16px 30px 0;border-top:2px solid #FDB515;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:12px;color:#888;line-height:1.6}
+.report-container{max-width:820px;margin:0 auto;padding:3rem 2rem;font-family:'Libre Baskerville',Georgia,serif;font-size:15px;line-height:1.75;color:#1a1a1a}
+h2.section-title{font-size:1.4rem;color:#003262;margin-top:3rem;margin-bottom:1.5rem;padding-bottom:.5rem;border-bottom:1px solid #d4c9b8}
+h3.subsection-title{font-family:'Source Sans Pro',sans-serif;font-size:1.05rem;font-weight:700;color:#003262;margin-top:2rem;margin-bottom:.75rem}
+.source-note-old{font-size:.82rem;color:#6b6b6b;font-style:italic;background:#f5f0e8;padding:.75rem 1rem;border-left:3px solid #FDB515;margin:1rem 0 1.5rem 0;line-height:1.6}
+.source-note-old a{color:#005a9c;word-break:break-all}
+.statute-box-old{background:#f9f7f3;border:1px solid #d4c9b8;padding:1.25rem 1.5rem;margin:1.5rem 0;font-size:.92rem}
+.statute-box-old .statute-label{font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:1.5px;color:#003262;margin-bottom:.5rem}
+.key-finding-old{background:#fff8e1;border-left:4px solid #FDB515;padding:1rem 1.25rem;margin:1.5rem 0;font-size:.95rem}
+.key-finding-old strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.appendix-section{margin-top:3rem;padding-top:2rem;border-top:2px solid #003262}
+.appendix-section h2{text-align:center;font-size:1.2rem;color:#003262;margin-bottom:1.5rem}
+.appendix-category-old{font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:.95rem;color:#003262;margin-top:1.5rem;margin-bottom:.75rem;text-transform:uppercase;letter-spacing:1px}
+.source-entry{padding:.5rem 0;border-bottom:1px dotted #d4c9b8;font-size:.85rem;line-height:1.55}
+.source-entry .source-id{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:#003262}
+.source-entry a{color:#005a9c;word-break:break-all}
+.submission-block{background:var(--uc-blue);padding:24px 30px;margin:32px 0 0}
+.submission-block p{font-size:15px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:8px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:20px 48px;text-align:center;font-size:13px;color:rgba(255,255,255,0.5);line-height:1.8;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+.doc-footer strong{color:rgba(255,255,255,0.8)}
+@media(max-width:768px){.series-title{font-size:52px}.chapter-title{font-size:32px}.cover-content{padding:36px 20px}.report-container{padding:1.5rem 1rem}}
+@media print{.nav-wrap{display:none!important}.cover-page{page-break-after:always}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../../index.htmlwhen-the-courts-caught-up/" class="nav-act">Epilogue</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a><a href="../../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+</div>
+</nav>
+</div>
+<div class="cover-page">
+<div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Behave Like Heroes</div>
+<div class="series-subtitle">Law &mdash; Without Enforcement</div>
+<div class="series-report">A Public Complaint Report to POST</div>
+<div class="series-commission">California Commission on Peace Officer Standards and Training</div>
+<div class="chapter-number" style="color: #FDB515;">Chapter 09<span class="ch-of" style="color: #FDB515;">of</span>10</div>
+<h1 class="chapter-title">Budget, Staffing, Growth Trends</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">Systemwide Budget Analysis &mdash; 292+ Sworn Officers &mdash; Compensation Data &mdash; Growth Trajectory 1947&ndash;2026 &mdash; Resources Deployed Without Proportionate Accountability Structures</p>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+<div class="chapter-body">
+
+<div class="content">
+
+<div class="toc">
+  <h2>Table of Contents</h2>
+  <div class="toc-entry"><span class="toc-num">I.</span><span class="toc-title"><a href="#sec1">Systemwide Workforce Overview</a></span></div>
+  <div class="toc-entry"><span class="toc-num">II.</span><span class="toc-title"><a href="#sec2">Bargaining Unit Structure and FUPOA</a></span></div>
+  <div class="toc-entry"><span class="toc-num">III.</span><span class="toc-title"><a href="#sec3">Sworn Officer Compensation</a></span></div>
+  <div class="toc-entry"><span class="toc-num">IV.</span><span class="toc-title"><a href="#sec4">Non-Sworn Staffing: CSOs, Dispatchers, and Professional Staff</a></span></div>
+  <div class="toc-entry"><span class="toc-num">V.</span><span class="toc-title"><a href="#sec5">Budget Structure and Funding Sources</a></span></div>
+  <div class="toc-entry"><span class="toc-num">VI.</span><span class="toc-title"><a href="#sec6">Growth Trends and Transformation</a></span></div>
+  <div class="toc-entry"><span class="toc-num">VII.</span><span class="toc-title"><a href="#sec7">Recruitment, Retention, and Vacancy Challenges</a></span></div>
+  <div class="toc-entry"><span class="toc-num">VIII.</span><span class="toc-title"><a href="#sec8">The UC Community Safety Plan's Impact on Staffing Models</a></span></div>
+  <div class="toc-entry"><span class="toc-num"></span><span class="toc-title"><a href="#appendix">Source Appendix</a></span></div>
+</div>
+
+<!-- SECTION I -->
+<h2 id="sec1" class="section-heading">I. Systemwide Workforce Overview</h2>
+
+<p class="body-text">The University of California operates ten separate campus police departments, each led by its own chief of police. There is no single "chief of the UCPD" — each campus department functions as an independent law enforcement agency under the overall governance of the UC Regents and the administrative oversight of the Office of the President's Systemwide Community Safety office.</p>
+
+<p class="body-text">As of January 2025, the University of California employs more than 292 sworn police officers systemwide across all ten campuses, as reported by UCnet (the UC employee resources portal) in connection with the Federated University Police Officers' Association (FUPOA) bargaining unit description. These officers provide the full range of law enforcement services at all UC campuses, including patrol, investigation, crime prevention, emergency response, mutual aid, and specialized services such as executive protection and event security.</p>
+
+<p class="body-text">In addition to sworn officers, each UC police department employs non-sworn professional staff including dispatchers, community service officers (CSOs), public safety responders, records clerks, administrative personnel, and, at some campuses, police social workers. The total workforce across all ten departments — sworn and non-sworn combined — significantly exceeds the 292 sworn officer count.</p>
+
+<p class="body-text">The UC systemwide data dashboards, maintained by the Office of Institutional Research and Academic Planning (IRAP) in coordination with UCOP's Systemwide Community Safety office, publish budget and workforce data for all ten campuses. The dashboards are publicly accessible and present data on operating expenses, personnel counts, and workforce composition. Each campus's data reflects its unique organizational and budget model.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> The 292+ sworn officer count is from UCnet's FUPOA bargaining unit description (updated January 22, 2025): <a href="https://ucnet.universityofcalifornia.edu/resources/employment-policies-contracts/bargaining-units/police-officers/" target="_blank">ucnet.universityofcalifornia.edu — Police Officers</a>. The UC Community Safety Budget and Workforce Dashboard: <a href="https://www.universityofcalifornia.edu/about-us/information-center/ucpd-budget-workforce" target="_blank">universityofcalifornia.edu — UCPD Budget and Workforce</a>. Dashboard data last updated December 23, 2024.
+</div>
+
+<!-- SECTION II -->
+<h2 id="sec2" class="section-heading">II. Bargaining Unit Structure and FUPOA</h2>
+
+<p class="body-text">UC police officers are represented by the Federated University Police Officers' Association (FUPOA), which serves as the exclusive bargaining representative for the Police Officers (PA) bargaining unit across the UC system. FUPOA was founded in the early 1990s at UCLA, during a period of institutional crisis documented in Chapter 07 of this series (formally incorporated June 16, 2003, per California Secretary of State records), and achieved system-wide recognition through the Higher Education Employer-Employee Relations Act (HEERA), Government Code §§ 3560–3599.</p>
+
+<p class="body-text">The FUPOA bargaining unit (Unit PA) covers sworn police officers at all ten UC campuses. The current collective bargaining agreement between the Regents of the University of California and FUPOA establishes compensation scales, working conditions, overtime provisions, grievance procedures, and other terms and conditions of employment. FUPOA's first major legal action — a federal Fair Labor Standards Act (FLSA) case against the Regents — established that UC police officers were entitled to federal overtime protections, representing the first FLSA case ever filed against the UC system (see Chapter 07 of this series for the full history).</p>
+
+<p class="body-text">Police management personnel — lieutenants, captains, and chiefs — are generally not represented by FUPOA and are covered under separate management and senior professional (MSP) appointment terms.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> FUPOA bargaining unit information: <a href="https://ucnet.universityofcalifornia.edu/resources/employment-policies-contracts/bargaining-units/police-officers/" target="_blank">ucnet.universityofcalifornia.edu</a>. HEERA: Cal. Gov. Code §§ 3560–3599. For the complete history of FUPOA's founding and the FLSA case, see Chapter 07 of this series.
+</div>
+
+<!-- SECTION III -->
+<h2 id="sec3" class="section-heading">III. Sworn Officer Compensation</h2>
+
+<p class="body-text">UC police officer compensation reflects the specialized nature of campus law enforcement and the high cost of living in California's university communities. As published by the UCLA Police Department (effective June 22, 2025), the total compensation range for a sworn police officer is approximately $100,900 to $170,300 per year. This range includes base salary plus additional pay components: Longevity Pay, Advanced POST Certificate Pay, Specialty Pay (up to two specialty assignments), Systemwide Response Team Pay, Nighttime Shift Differential Pay, Education Pay, Bilingual Pay, and Uniform and Fitness Allowances.</p>
+
+<p class="body-text">Police Trainees — non-sworn recruits attending a POST-certified basic academy at university expense — are compensated during their training period. Upon successful completion of the academy and promotion to sworn Police Officer, the officer must complete a Field Training Program (FTP) and a probationary period of no less than 12 months.</p>
+
+<p class="body-text">Lateral candidates — officers transferring from other law enforcement agencies with current POST Basic Certificates — receive initial salary placement based on years of previous law enforcement experience and training. Peace officers from other states must complete the POST Basic Course Waiver (BCW) process before being employed as California peace officers.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> UCLA PD compensation data (effective June 22, 2025): <a href="https://ucpd.ucla.edu/employment/police-officer-position" target="_blank">ucpd.ucla.edu — Police Officer Position</a>. Compensation ranges vary by campus and are subject to collective bargaining.
+</div>
+
+<!-- SECTION IV -->
+<h2 id="sec4" class="section-heading">IV. Non-Sworn Staffing: CSOs, Dispatchers, and Professional Staff</h2>
+
+<p class="body-text">Each UC police department employs a complement of non-sworn staff that extends the department's public safety capabilities. Community Service Officers (CSOs) are non-sworn student employees who perform functions including night escorts, building checks, general citizen assistance, and serving as additional "eyes and ears" for the department. Almost all UC police departments operate CSO programs. Because CSOs are not sworn peace officers, they do not carry firearms or exercise arrest authority.</p>
+
+<p class="body-text">Each department staffs a Communications Division, which serves as the police dispatch center and the 9-1-1 access point for each UC campus. Dispatchers are non-sworn professional staff who manage emergency and non-emergency calls, coordinate officer response, and maintain communications logs.</p>
+
+<p class="body-text">Several UC campuses have added Police Social Workers to their public safety staffing models in recent years, reflecting the UC Community Safety Plan's emphasis on expanding the definition of campus safety beyond traditional law enforcement. These social workers are embedded within the police department and respond to calls involving mental health crises, substance abuse, homelessness, and other situations where a clinical response may be more appropriate than a law enforcement response.</p>
+
+<!-- SECTION V -->
+<h2 id="sec5" class="section-heading">V. Budget Structure and Funding Sources</h2>
+
+<p class="body-text">UC police department budgets are funded primarily through campus general funds, with additional revenue from parking enforcement, event security fees, reimbursable services (such as mutual aid deployments and security details), and, at some campuses, medical center security contracts. Each campus police department's budget reflects its unique organizational model, campus size, student and employee population, geographic footprint, and the presence or absence of a medical center.</p>
+
+<p class="body-text">The UC Community Safety Budget and Workforce Dashboard publishes operating expense data for all ten campuses. Budget categories typically include personnel costs (salaries, benefits, overtime), operating expenses (equipment, vehicles, technology, training), and capital expenditures. Personnel costs constitute the largest share of each department's budget, consistent with law enforcement agencies generally.</p>
+
+<p class="body-text">Each campus's budget and workforce data are reported to UCOP under the systemwide reporting requirements established by the 2021 UC Community Safety Plan. Prior to 2022, budgetary reporting formats varied by campus. The standardization of budget reporting across all ten departments was a key milestone in the Community Safety Plan's transparency goals.</p>
+
+<div class="key-finding">
+  <strong>Key Finding:</strong> The UC Community Safety Budget and Workforce Dashboard, publicly accessible since 2022, represents the first time UC police department budget and staffing data have been standardized and published in a uniform format across all ten campuses. Prior to this dashboard, each campus reported budget data independently, in varying formats, making systemwide comparison and trend analysis difficult. The interactive Tableau-based dashboards allow the public to view data by campus, by year, and by category.
+</div>
+
+<!-- SECTION VI -->
+<h2 id="sec6" class="section-heading">VI. Growth Trends and Transformation</h2>
+
+<p class="body-text">The UC police system has undergone significant transformation over its seven-decade history. From the original appointment of campus watchmen in the early twentieth century, through the Regents' 1947 establishment of a fully constituted police agency, to the present-day system of ten independent departments with 292+ sworn officers and statewide jurisdiction, the growth trajectory reflects both the expansion of the UC system itself and the increasing complexity of campus public safety.</p>
+
+<p class="body-text">The UC system has grown from a single campus in Berkeley to ten campuses serving more than 300,000 students and 265,000 faculty and staff, with 2.5 million alumni worldwide. Each campus expansion — from UC San Diego's establishment in 1960 through UC Merced's opening in 2005 — brought with it the creation of a new police department with its own command structure, staffing, and budget.</p>
+
+<p class="body-text">Recent transformation initiatives, driven by the 2021 UC Community Safety Plan, have shifted the staffing model away from exclusively sworn-officer responses toward a "tiered" approach that incorporates non-sworn responders, social workers, and mental health professionals alongside traditional law enforcement. This transformation is ongoing and has resulted in changes to staffing ratios at several campuses.</p>
+
+<!-- SECTION VII -->
+<h2 id="sec7" class="section-heading">VII. Recruitment, Retention, and Vacancy Challenges</h2>
+
+<p class="body-text">UC police departments, like law enforcement agencies nationwide, face significant recruitment and retention challenges. The requirement for POST certification, the competitive compensation landscape in California's urban markets, the extended training pipeline (academy plus field training plus probation), and the unique demands of campus policing all affect UC police departments' ability to attract and retain sworn officers.</p>
+
+<p class="body-text">FUPOA has historically advocated for competitive compensation, improved working conditions, and staffing levels sufficient to provide adequate public safety coverage across UC campuses. The collective bargaining process between FUPOA and the Regents determines the compensation and benefit packages that directly affect recruitment and retention.</p>
+
+<p class="body-text">The UC Community Safety Budget and Workforce Dashboard tracks filled and vacant positions across the ten campuses, providing transparency into staffing levels and vacancy rates. Vacancy data is significant because unfilled sworn officer positions result in increased overtime for remaining officers, reduced patrol coverage, and potential impacts on response times and service delivery.</p>
+
+<!-- SECTION VIII -->
+<h2 id="sec8" class="section-heading">VIII. The UC Community Safety Plan's Impact on Staffing Models</h2>
+
+<p class="body-text">The 2021 UC Community Safety Plan called for a fundamental reimagination of campus safety that extends beyond traditional policing. The Plan established several directives that directly affect police department staffing and budgets. Each campus was directed to establish alternative response programs for calls involving mental health crises, substance abuse, and other situations that do not require a law enforcement response. The Plan directed UCOP to designate a full-time position to coordinate campus safety systemwide, ensure continuous improvement, and monitor implementation.</p>
+
+<p class="body-text">The Plan also directed each campus to establish independent Police Accountability Boards (PABs) — a new governance function that requires administrative staffing and operational support. The creation of systemwide data dashboards required dedicated data collection, analysis, and reporting staff at both the campus and UCOP levels.</p>
+
+<p class="body-text">These initiatives represent an expansion of the total resources devoted to campus safety, though not all new resources are allocated to sworn law enforcement positions. The transformation from a purely law enforcement model to a broader community safety model is reflected in the changing composition of campus safety staffing at several campuses, with some departments adding non-sworn positions (social workers, public safety responders, ambassadors) while holding sworn officer counts steady or allowing them to fluctuate with attrition.</p>
+
+<div class="source-note">
+  <strong>Source Note:</strong> UC Community Safety Plan (2021): <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/policies-and-guidance/community-safety-plan/uc-community-safety-plan.pdf" target="_blank">ucop.edu — Community Safety Plan</a>. Budget and Workforce Dashboard: <a href="https://www.universityofcalifornia.edu/about-us/information-center/ucpd-budget-workforce" target="_blank">universityofcalifornia.edu</a>. The interactive dashboard allows filtering by campus, year, and data category.
+</div>
+
+<!-- SOURCE APPENDIX -->
+<h2 id="appendix" class="appendix-heading">Source Appendix</h2>
+
+<h3 class="appendix-category">UC Institutional Sources</h3>
+<p class="appendix-entry"><span class="source-id">[UC-1]</span> UC Community Safety Budget and Workforce Dashboard — <a href="https://www.universityofcalifornia.edu/about-us/information-center/ucpd-budget-workforce" target="_blank">universityofcalifornia.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-2]</span> UCnet: FUPOA Bargaining Unit (PA — Police Officers) — <a href="https://ucnet.universityofcalifornia.edu/resources/employment-policies-contracts/bargaining-units/police-officers/" target="_blank">ucnet.universityofcalifornia.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-3]</span> UC Community Safety Plan (2021) — <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/policies-and-guidance/community-safety-plan/uc-community-safety-plan.pdf" target="_blank">ucop.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-4]</span> UC Community Safety Dashboards (All Categories) — <a href="https://www.universityofcalifornia.edu/about-us/information-center/community-safety" target="_blank">universityofcalifornia.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-5]</span> UCLA PD Police Officer Position (Compensation Data) — <a href="https://ucpd.ucla.edu/employment/police-officer-position" target="_blank">ucpd.ucla.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[UC-6]</span> UCI PD Budget Dashboard (FY 2017–2021) — <a href="https://www.police.uci.edu/data-dashboards/budget.php" target="_blank">police.uci.edu</a></p>
+
+<h3 class="appendix-category">Reference Sources</h3>
+<p class="appendix-entry"><span class="source-id">[R-1]</span> Wikipedia: University of California Police Departments — <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">en.wikipedia.org</a></p>
+<p class="appendix-entry"><span class="source-id">[R-2]</span> UC Davis Police Accountability Board: Police Department Data — <a href="https://pab.ucdavis.edu/police-department-data" target="_blank">pab.ucdavis.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[R-3]</span> UCSF PD: UC Community Safety Plan Dashboard — <a href="https://police.ucsf.edu/uc-community-safety-plan-dashboard" target="_blank">police.ucsf.edu</a></p>
+<p class="appendix-entry"><span class="source-id">[R-4]</span> UCSC PD: Department of Justice Reports — <a href="https://police.ucsc.edu/how-to-make-a-report/doj-reports/" target="_blank">police.ucsc.edu</a></p>
+
+<h3 class="appendix-category">Cross-References to Other Parts</h3>
+<p class="appendix-entry"><span class="source-id">[XR-1]</span> Chapter 07: FUPOA — History, Unionization, and Collective Bargaining (founding history, FLSA case)</p>
+<p class="appendix-entry"><span class="source-id">[XR-2]</span> Chapter 02: POST Oversight — Section IX: 2019 Presidential Task Force; Section X: UC Community Safety Plan</p>
+<p class="appendix-entry"><span class="source-id">[XR-3]</span> Chapter 10: The Ten Campus Police Departments — campus-specific budget and staffing data</p>
+
+
+<!-- ══ SUBMISSION BLOCK ══ -->
+<div class="submission-block">
+  <p><strong>Primary Submission:</strong> California Commission on Peace Officer Standards and Training (POST) &mdash; Peace Officer Standards Accountability Division (POSAD) &mdash; Authority: Cal. Penal Code &sect;&sect; 13509.5, 13510.8, 13510.85 (SB 2 &mdash; Kenneth Ross Jr. Police Decertification Act of 2021)</p>
+  <p><strong>Secondary Submissions:</strong> California Attorney General, Civil Rights Enforcement Section (Cal. Civ. Code &sect;&nbsp;52.3) &nbsp;|&nbsp; U.S. Department of Education, Federal Student Aid &mdash; Clery Act Enforcement (20&nbsp;U.S.C.&nbsp;&sect;&nbsp;1092(f)) &nbsp;|&nbsp; California Legislature, Senate &amp; Assembly Budget Subcommittees on Education &nbsp;|&nbsp; UC Office of the President &nbsp;|&nbsp; California State Auditor &nbsp;|&nbsp; U.S. Department of Justice (34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601)</p>
+  <p><strong>Distribution:</strong> Clery Center for Campus Safety &nbsp;|&nbsp; SAFE Campuses, LLC</p>
+  <p>All documents compiled from public records. All facts independently verifiable. Readers are encouraged to form their own independent conclusions.</p>
+</div>
+</div>
+
+<div class="doc-footer">
+  <strong>Behave Like Heroes &mdash; Law Enforcement Without Enforcement</strong><br>
+  A Documented Gap Analysis of the University of California Police System<br>
+  &copy; 2026 Bruin Watch. All rights reserved. This work may be cited for research, regulatory, or legal purposes with full attribution to Bruin Watch<br>
+  Reproduction and distribution of this work for law enforcement, regulatory,<br>legislative, investigative, or journalistic purposes is permitted with attribution to the author.
+</div>
+</div>
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../../index.htmlwhen-the-courts-caught-up/" class="nav-act">Epilogue</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a><a href="../../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+</div>
+</nav>
+</div>
+</body>
+</html>

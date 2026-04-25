@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · Dossier — UC Irvine Police Department | Bruin Watch</title>
+<meta name="description" content="Campus dossier documenting UC Irvine Police Department leadership, incidents, and oversight history.">
+<meta property="og:title" content="Act I · Dossier — UC Irvine Police Department | Bruin Watch">
+<meta property="og:description" content="Campus dossier documenting UC Irvine Police Department leadership, incidents, and oversight history.">
+<meta property="og:type" content="article">
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE;--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0}
+body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#e8edf2;margin:0;padding:0}
+
+/* ══ BAR 1 — VERBATIM FROM CHAPTER_07.HTML ══ */
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:center}
+.nav-bottom-inner{display:flex;align-items:stretch;justify-content:center;min-width:max-content;margin:0 auto}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 2 — CAMPUS DOSSIERS — same pattern, slightly darker ══ */
+.campus-nav{background:#00254a;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:999;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.campus-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.campus-nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.campus-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.campus-btn:hover{background:var(--uc-mid);color:#fff}
+.campus-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 3 — SECTION INDEX — same pattern, darkest ══ */
+.section-nav{background:#001428;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:998;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.section-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.section-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.section-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.section-btn:hover{background:var(--uc-mid);color:#fff}
+.section-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ COVER PAGE ══ */
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:48px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:80px;font-weight:900;letter-spacing:8px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:6px;line-height:1.0}
+.series-line1{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:4px}
+.series-line2{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:28px}
+.campus-label{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:900;letter-spacing:5px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:16px}
+.chapter-title{font-family:'Libre Baskerville',Georgia,serif;font-size:44px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:28px auto;display:block}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:22px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.cover-meta{width:100%;padding:20px 0;background:rgba(0,0,0,.15);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border-top:1px solid rgba(253,181,21,.25)}
+.cover-meta-inner{max-width:960px;width:100%;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 40px}
+.cover-meta p{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;color:#fff;text-align:center;line-height:1.6}
+.cover-meta strong{color:var(--uc-gold)}
+.cover-meta p.cover-disclaimer{font-size:14.5px!important;font-weight:300!important;color:#dde8f4!important;text-align:justify!important;hyphens:auto;max-width:820px;width:100%;margin:6px auto;padding:10px 0;line-height:1.8;border-top:1px solid rgba(253,181,21,.35);border-bottom:1px solid rgba(253,181,21,.35)}
+.cover-copyright{width:100%;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:15px;color:#fff;margin-top:4px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+
+/* ══ CHAPTER BODY ══ */
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.note-investigators{background:var(--uc-blue);padding:24px 30px;margin:0;border-left:6px solid var(--uc-gold)}
+.note-investigators .note-label{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:14px}
+.note-investigators p{font-size:17px;color:#fff;line-height:1.85;margin-bottom:12px}
+.note-investigators p:last-child{margin-bottom:0}
+.campus-grid-wrap{background:var(--uc-blue);padding:10px 0 12px;width:100%}
+.campus-grid{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;width:100%;padding:0 4px}
+.campus-grid-btn{display:block;background:var(--uc-blue-dark);border:2px solid var(--uc-blue-dark);padding:12px 4px;text-align:center;text-decoration:none;transition:background .15s,border-color .15s}
+.campus-grid-btn:hover{background:var(--uc-mid);border-color:var(--uc-mid)}
+.campus-grid-btn.active{background:var(--uc-mid);border:2px solid var(--uc-gold)}
+.campus-grid-abbr{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-weight:700;color:var(--uc-gold);margin-bottom:3px}
+.campus-grid-name{font-size:10px;color:#b8c8dc;letter-spacing:.5px;text-transform:uppercase}
+.campus-grid-btn.active .campus-grid-name{color:#fff}
+.section-anchor{display:block;height:145px;margin-top:-145px;visibility:hidden}
+.content-wrap{padding:0 48px 60px;max-width:900px;margin:0 auto}.content-wrap p{margin-bottom:18px;line-height:1.85;font-size:17px}
+
+/* ══ CONTENT — VERBATIM FROM UCB SOURCE DOSSIER ══ */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+  :root{--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0;--red-bg:#FFC7CE;--red-text:#9C0006;--green-bg:#C6EFCE;--green-text:#276221;--yellow-bg:#FFEB9C;--yellow-text:#7D4A00;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#fff;}
+  .cover-page{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;padding:0 40px;background:repeating-linear-gradient(135deg,transparent,transparent 35px,rgba(255,255,255,0.04) 35px,rgba(255,255,255,0.04) 70px),linear-gradient(180deg,#003262 0%,#00254a 100%);border-bottom:4px solid var(--ucb-gold);}
+  .cover-series{font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin-bottom:16px;}
+  .cover-chapter{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:30px;}
+  .cover-title{font-family:'Source Sans Pro',sans-serif;font-size:36px;font-weight:700;color:#fff;line-height:1.25;max-width:750px;margin-bottom:16px;}
+  .cover-gold-line{width:120px;height:3px;background:var(--ucb-gold);margin:22px auto;}
+  .cover-subtitle{font-family:'Libre Baskerville',serif;font-size:16px;font-style:italic;color:rgba(255,255,255,0.8);max-width:640px;line-height:1.65;margin-bottom:24px;}
+  .cover-meta{font-family:'Source Sans Pro',sans-serif;font-size:16px;color:#fff;margin-top:28px;line-height:2.1;}
+  .cover-meta strong{color:#fff;font-weight:700;}
+  .disclaimer{max-width:800px;margin:44px auto 32px;padding:24px 32px;text-align:center;font-style:italic;font-size:16px;color:#555;line-height:1.85;border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+  .content{max-width:900px;margin:0 auto;padding:0 48px 60px;}
+  .section-banner{font-family:'Source Sans Pro',sans-serif;font-size:17px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ucb-gold);background:var(--ucb-blue);padding:14px 22px;margin:48px 0 0;}
+  .section-title{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:700;color:var(--ucb-blue);padding:16px 0 12px;border-bottom:2px solid var(--ucb-gold);margin-bottom:24px;}
+  .incident-heading{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:900;color:var(--ucb-blue);margin:40px 0 8px;padding:12px 16px;background:var(--ucb-blue-light);border-left:5px solid var(--ucb-gold);}
+  .incident-date{display:block;font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:900;color:var(--ucb-gold);text-transform:uppercase;letter-spacing:2px;margin-top:44px;margin-bottom:6px;}
+  .incident-title{display:block;font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:900;color:var(--ucb-blue);margin-bottom:14px;}
+  .incident-block{margin-bottom:8px;}
+  .pre-mandatory{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:2px 8px;background:#e0e0e0;color:#555;border-radius:2px;margin-bottom:8px;}
+  table.data-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px;}
+  table.data-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:0.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,0.15);}
+  table.data-table thead th:last-child{border-right:none;}
+  table.data-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px;}
+  table.data-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light);}
+  table.data-table tbody tr:nth-child(odd) td{background:#fff;}
+  table.data-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:14px;}
+  .badge{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:3px 8px;border-radius:3px;}
+  .badge-red{background:var(--red-bg);color:var(--red-text);}
+  .badge-green{background:var(--green-bg);color:var(--green-text);}
+  .badge-yellow{background:var(--yellow-bg);color:var(--yellow-text);}
+  .badge-unknown{background:#e0e0e0;color:#444;}
+  .badge-active{background:#FF4444;color:#fff;}
+  .key-finding{background:var(--ucb-gold-light);border-left:4px solid var(--ucb-gold);padding:16px 20px;margin:20px 0 28px;font-size:16px;line-height:1.8;}
+  .key-finding strong{font-family:'Source Sans Pro',sans-serif;color:var(--ucb-blue);}
+  .source-index-entry{font-size:15px;line-height:1.75;margin-bottom:10px;padding:10px 14px;background:#f8f8f8;border-left:3px solid var(--ucb-gold);}
+  .source-index-entry a{color:#0563C1;word-break:break-all;}
+  .source-num{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:var(--ucb-blue);min-width:28px;display:inline-block;}
+  .chapter-nav{background:var(--ucb-blue-light);border:1px solid #c5d3e0;padding:14px 20px;margin:0 0 36px;font-family:'Source Sans Pro',sans-serif;font-size:13px;line-height:1.8;}
+  .chapter-nav strong{color:var(--ucb-blue);}
+  .chapter-nav a{color:#0563C1;text-decoration:none;margin:0 4px;}
+  .chapter-nav a:hover{text-decoration:underline;}
+  .submission-block{background:var(--uc-blue);padding:24px 30px;margin:32px 0 0}
+.submission-block p{font-size:16px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:8px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:20px 48px;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:rgba(255,255,255,0.5);line-height:1.8;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+  .doc-footer strong{color:rgba(255,255,255,0.8)}
+  @media print{.nav-wrap{display:none!important}.cover-page{min-height:100vh;page-break-after:always;}.section-banner{page-break-before:always;}}
+
+@media(max-width:768px){.series-title{font-size:58px}.chapter-title{font-size:32px}.cover-content{padding:36px 24px}}
+@media print{.cover-page{page-break-after:always}.nav-bar,.campus-nav,.section-nav{display:none}}
+
+
+/* ══ MASTER TEMPLATE UPDATE — 2026-03-23 — LOCKED ══ */
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.series-tagline{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:16px;max-width:820px}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin:52px 0 0;padding:0;display:block}
+table.info-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px}
+table.info-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,.15)}
+table.info-table thead th:last-child{border-right:none}
+table.info-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px}
+table.info-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light)}
+table.info-table tbody tr:nth-child(odd) td{background:#fff}
+table.info-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:13px}
+.src-index-wrap{display:flex;flex-direction:column;width:100%}
+.src-row{display:flex;align-items:stretch;border:1px solid #dde3ea;border-top:none;text-decoration:none;color:inherit;transition:background .12s}
+.src-row:first-of-type{border-top:1px solid #dde3ea}
+.src-row:hover{background:#f0f5fb}
+.src-row:hover .src-num{background:var(--uc-mid)}
+.src-num{background:var(--ucb-blue);color:var(--ucb-gold);font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:900;letter-spacing:1px;min-width:120px;width:120px;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px 10px;transition:background .12s;flex-shrink:0;border-right:3px solid var(--ucb-gold)}
+.src-body{flex:1;padding:13px 18px;display:flex;flex-direction:column;justify-content:center;word-wrap:break-word;overflow-wrap:break-word;min-width:0}
+.src-title{font-size:17px;font-weight:700;color:var(--ucb-blue);margin-bottom:4px;line-height:1.4}
+.src-sub{font-size:16px;color:#444;line-height:1.7;word-wrap:break-word;overflow-wrap:break-word}
+.src-sub a{color:#0563C1;word-break:break-all}
+
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn active">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" id="section-nav">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn active" id="btn-a">A &mdash; Overview</a>
+<a href="#secB" class="section-btn" id="btn-b">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn" id="btn-c">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn" id="btn-d">D &mdash; Financial</a>
+<a href="#secE" class="section-btn" id="btn-e">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn" id="btn-f">F &mdash; Sources</a>
+</div>
+</nav>
+
+<div class="cover-page">
+
+  <!-- TOP BLUE BAR — LOCKED -->
+  <div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Behave Like Heroes</div>
+<div class="series-tagline">Law Enforcement Without Enforcement<br>A Documented Gap Analysis</div>
+<div class="campus-label">Campus Dossier</div>
+<h1 class="chapter-title">UC Irvine Police Department</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">POST Reporting Gap Analysis &mdash; Compliance Status &mdash; Incident Chronology &mdash; Financial Record &mdash; Leadership History &mdash; Source Index</p>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+
+<div class="chapter-body">
+<div class="note-investigators">
+<div class="note-label">Note to Investigators, Attorneys, and Journalists</div>
+<p>This campus dossier contains enforcement-level detail not summarized in the main chapters of this series. It documents the complete incident history, POST compliance status, financial exposure, and leadership record for the UC Irvine Police Department. These documents are intended for POST investigators, attorneys, civil rights organizations, journalists, and other parties requiring granular evidentiary detail for enforcement, litigation, or investigative purposes. All source citations are independently verifiable. Readers are encouraged to draw their own conclusions from the documented record.</p>
+</div>
+<div class="campus-grid-wrap">
+<div class="campus-grid">
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCB</div><div class="campus-grid-name">Berkeley</div></a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCD</div><div class="campus-grid-name">Davis</div></a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-grid-btn active"><div class="campus-grid-abbr">UCI</div><div class="campus-grid-name">Irvine</div></a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCLA</div><div class="campus-grid-name">Los Angeles</div></a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCM</div><div class="campus-grid-name">Merced</div></a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCR</div><div class="campus-grid-name">Riverside</div></a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSD</div><div class="campus-grid-name">San Diego</div></a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSF</div><div class="campus-grid-name">San Francisco</div></a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSB</div><div class="campus-grid-name">Santa Barbara</div></a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSC</div><div class="campus-grid-name">Santa Cruz</div></a>
+</div>
+</div>
+<div class="content">
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION A: DEPARTMENT OVERVIEW -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secA" class="section-heading">Section A</div>
+<div class="section-title">Department Overview</div>
+
+<table class="data-table">
+<thead><tr><th style="width:22%">Field</th><th>Detail</th><th style="width:24%">Source(s)</th></tr></thead>
+<tbody>
+<tr><td><strong>Full Agency Name</strong></td><td>University of California, Irvine Police Department (UCIPD)</td><td><a href="https://police.uci.edu" target="_blank">police.uci.edu</a></td></tr>
+<tr><td><strong>Location</strong></td><td>410 East Peltason Drive, Irvine, CA 92697; also UCI Medical Center, City of Orange</td><td>UCI Administrative Policies §905</td></tr>
+<tr><td><strong>Campus Founded</strong></td><td>1965 (youngest member of the Association of American Universities at the time)</td><td>UCI institutional records</td></tr>
+<tr><td><strong>Sworn Officers</strong></td><td>47 full-time police officers; nearly 100 professional staff including dispatchers, administrative analysts, and public safety personnel (as of January 2025)</td><td><a href="https://news.uci.edu/2025/01/15/uc-irvine-police-department-receives-prestigious-international-accreditation/" target="_blank">UCI News, January 15, 2025</a></td></tr>
+<tr><td><strong>Daily Service Population</strong></td><td>More than 50,000 across Irvine campus and UCI Medical Center (City of Orange)</td><td><a href="https://police.uci.edu" target="_blank">police.uci.edu</a></td></tr>
+<tr><td><strong>Student Enrollment</strong></td><td>More than 36,000 students; 224 degree programs (as of January 2025)</td><td><a href="https://news.uci.edu/2025/01/15/uc-irvine-police-department-receives-prestigious-international-accreditation/" target="_blank">UCI News, January 15, 2025</a></td></tr>
+<tr><td><strong>Current Chief</strong></td><td>Elizabeth "Liz" Griffin (May 21, 2019 – present)</td><td><a href="https://news.uci.edu/2019/05/21/liz-griffin-named-chief-of-uci-police-department/" target="_blank">UCI News, May 21, 2019</a></td></tr>
+<tr><td><strong>Jurisdiction</strong></td><td>Concurrent with City of Irvine PD on campus; concurrent with City of Orange PD at Medical Center; OC Sheriff concurrent at both locations</td><td>UCI Administrative Policies §905, October 2018</td></tr>
+<tr><td><strong>Tiered Response Model</strong></td><td>Four levels: (1) Public Safety Responders — unarmed, health locations; (2) Public Safety Ambassadors — unarmed civilian, blazer uniforms; (3) Community Safety Ambassadors — non-sworn student employees; (4) Police Officers — sworn. Cited by UC Regents as the UC systemwide model.</td><td>UC Regents Compliance &amp; Audit Committee, C3, September 20, 2023</td></tr>
+<tr><td><strong>IACLEA Accreditation</strong></td><td>Accreditation awarded December 2024 by the International Association of Campus Law Enforcement Administrators (IACLEA) — publicly announced January 15, 2025. Places UCIPD in the top 10 percent of university police agencies nationwide. Achieved 93% of optional standards, far exceeding IACLEA minimum requirements. Accreditation valid for four years with annual compliance reporting required.</td><td><a href="https://www.police.uci.edu/about-us/accreditation.php" target="_blank">UCI PD Accreditation Page</a>; <a href="https://news.uci.edu/2025/01/15/uc-irvine-police-department-receives-prestigious-international-accreditation/" target="_blank">UCI News, January 15, 2025</a></td></tr>
+<tr><td><strong>FUPOA Representation</strong></td><td>Officers represented by the Federated University Police Officers' Association (FUPOA) under the PA unit collective bargaining agreement covering all UC campuses.</td><td><a href="https://federateduniversitypoa.org/" target="_blank">federateduniversitypoa.org</a></td></tr>
+<tr><td><strong>Police Accountability Board</strong></td><td>Established per UC Community Safety Plan (2023). Chaired by Vice Chancellor Dyonne M. Bergeron, Vice Chancellor for Inclusive Excellence. Advisory only — recommendations transmitted to Chief and OEOD. No binding authority over discipline. PAB members include students, faculty, staff, and academic professionals; members do not have prior ties to the police department.</td><td><a href="https://sites.uci.edu/policeaccountabilityboard/" target="_blank">UCI PAB Official Website</a>; <a href="https://sites.uci.edu/policeaccountabilityboard/bylaws/" target="_blank">UCI PAB Bylaws</a></td></tr>
+<tr><td><strong>Active Federal/State Investigations</strong></td><td>No active federal investigations were identified in publicly available materials reviewed for this chapter. California State Auditor Report 2020-032 found UCI had the highest rate of inaccurate Clery statistics among reviewed institutions.</td><td>CA State Auditor Report 2020-032, May 2021</td></tr>
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION B: CHRONOLOGICAL INCIDENT LOG -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secB" class="section-heading">Section B</div>
+<div class="section-title">Chronological Incident Log — All Documented Incidents Relevant to POST Reporting Obligations</div>
+
+<p style="font-size:13.5px;color:#444;margin-bottom:24px;line-height:1.8;">All incidents located through the sources reviewed for this chapter are presented in complete chronological order. All applicable laws and POST reporting requirements are identified for each incident. The chapter presents all documented incidents identified through publicly available records, official institutional materials, court documents, and contemporaneous reporting available as of March 15, 2026.</p>
+
+<!-- INCIDENT 1 -->
+<div class="incident-heading">July 2008 — Identity Theft Investigation; IACP Commendation</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>UCIPD dispatched three detectives to Texas to investigate an identity theft ring targeting UCI graduate and medical students. A suspect had stolen Social Security numbers from United Healthcare (the university's student insurance provider) computers in Dallas and used them to file false tax returns. UCIPD received 163 identity theft reports. The investigation involved Dallas County DA investigators and Fort Worth PD, requiring hundreds of hours, dozens of interviews, and complex computer analyses. The suspect was arrested for fraudulent use of identifying information. The UCIPD investigative team was recognized the following year by the International Association of Chiefs of Police.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>Standard law enforcement investigation. No POST reporting deficiency identified.</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-green">N/A — PROPERLY HANDLED</span> Included to document UCIPD investigative capacity and inter-jurisdictional coordination capability.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>UCI News, March 5, 2009</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 2 -->
+<div class="incident-heading">December 2013 (Discovered) / November 2014 (Lawsuit Filed) — FUPOA v. UC Regents — Illegal Audio Surveillance Lawsuit</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>In November 2014, FUPOA — representing 250+ UC police officers — filed a class-action federal lawsuit against the UC Board of Regents, UCIPD, Chief Paul Henisey, Assistant Chief Jeff Hutchison, and Johnson Controls Inc. The lawsuit alleged that Chief Henisey and Assistant Chief Hutchison hired Johnson Controls to install "highly advanced" audio-visual recording devices in offices, hallways, and bathrooms at UCIPD headquarters before December 2013. The devices allegedly could "amplify recordings past those normally perceptible" and "record audio through interior walls." The lawsuit alleged the system recorded officers' private conversations about finances, medical treatments, working conditions, union grievances, and internal affairs investigations. When the surveillance system was discovered in December 2013, UCI police officials allegedly deleted several months of recordings.<br><br>FUPOA President Andrew Lopez stated: "Our privacy rights continue to be eroded by unauthorized government recording of private citizens." Attorney David Mastagni Sr. stated: "It should be looked in the point of view of the regents and [the police's] managers in the UC system conducting surveillance on everyone." UCI spokesperson Cathy Lawhon claimed the audio capability "was not initially disabled during installation" and that Chief Henisey "immediately directed the installers to disable that function." UC lawyers sought dismissal arguing officers lacked reasonable expectation of privacy in the workplace. Johnson Controls separately sought dismissal. Final disposition has not been located in available public records. All characterizations above reflect allegations as reported in contemporaneous news sources cited; no judicial findings on the merits have been located.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>California Invasion of Privacy Act (PC §630 et seq.); Fourth Amendment; California Labor Code (workplace privacy); Peace Officers Bill of Rights (Government Code §3300 et seq.); Federal wiretapping statutes (18 U.S.C. §2511)</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-unknown">UNKNOWN — FINAL DISPOSITION NOT LOCATED</span> Federal lawsuit filed. If allegations proven, would constitute violations of officer privacy rights by UCIPD management under Chief Henisey's command.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>New University, November 25, 2014; LRIS, November 2014; OC Register, February 6, 2015; Daily Californian, November 19, 2014</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 3 -->
+<div class="incident-heading">February 20, 2020 — Arrest of Black Alumna Shikera Chamndany; Body Camera Footage Refused</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>Shikera Chamndany, a Black alumna holding a biomedical engineering degree from UCI, went to Aldrich Hall to collect transcripts. That same day, UCI students were protesting in solidarity with UC Santa Cruz COLA strikers and Aldrich Hall was on lockdown. Chamndany was NOT affiliated with the protest. Per a UCIPD Facebook post, she "forcibly entered" Aldrich Hall and was arrested for "assaulting a police officer." Per accounts from the UCI Black Student Union, United Students Against Sweatshops, UCI Faculty Association, and UCI Anthropology Department, UCIPD Officer Trish Harding tackled and handcuffed Chamndany. She was transported to Orange County Women's Jail and held overnight until release on February 21.<br><br>A petition demanding: (1) financial support for Chamndany, (2) free mental health services with a Black therapist, (3) termination of Officer Harding, and (4) abolishment of UCIPD collected 1,500+ signatures within one week. The UCI Faculty Association wrote to Chancellor Howard Gillman characterizing the arrest as "violent and disturbing." The UCI Anthropology Department issued a solidarity statement connecting the incident to "a long history of anti-Black racism on the UCI campus." Chief Griffin declined to comment during the investigation. A second Change.org petition specifically demanded release of Officer Harding's body camera footage — UCIPD refused to release the footage. As of the February 2021 UAW 2865 report, the footage had still not been released.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>SB 1421 (PC §832.7 — use-of-force records disclosure); AB 748 (PC §832.18 — body camera footage release within 45 days for critical incidents involving officer-involved shootings or use of force causing great bodily injury); POST use-of-force reporting standards; RIPA/AB 953 (data collection began January 2022 — post-dates this incident)</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-red">BODY CAMERA FOOTAGE NOT RELEASED — DOCUMENTED</span> Body camera footage not released despite two public petitions and documentation by the UAW 2865 Research Working Group. UAW 2865 report (February 2021) confirmed the footage remained unreleased as of that report. Whether the Chamndany incident met the specific statutory threshold criteria for AB 748 (officer-involved shooting or use of force resulting in great bodily injury) has not been independently confirmed in available public records. The documented fact of non-release stands on the record; the applicable statutory framework is identified for the reader's evaluation.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>UAW 2865 "Policing in the UC" report, February 2021 — <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">uaw2865.org</a>; Diverse: Issues in Higher Education, 2020</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 4 -->
+<div class="incident-heading">May 2021 — California State Auditor Report 2020-032: UCI Had Highest Rate of Inaccurate Clery Statistics</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>The California State Auditor Report 2020-032 audited UCI as one of six California institutions for Clery Act compliance. UCI was found to have the HIGHEST RATE of inaccurate crime statistics among the four institutions reviewed that reported Clery-reportable crimes. Specific documented findings: (1) A rape accusation was later withdrawn when the reporting individual stated it was a misunderstanding — UCIPD improperly reported it both as a rape AND as an unfounded crime. The State Auditor found that unfounding a crime requires a formal sworn officer determination, not merely a withdrawal of a complaint. (2) The Annual Security Report contained missing or inadequate security policies.<br><br>The State Auditor recommended by November 2021 that UCI establish procedures to review all security policies for Clery Act compliance. UCI's documented corrective actions: Updated policies in the 2020 ASR; re-issued ASR to UCI campus and UCI Health on June 29, 2021; published updated Clery Act Compliance Procedures on October 8, 2021 (<a href="https://policies.uci.edu/policies/procs/905-50/" target="_blank">policies.uci.edu/policies/procs/905-50</a>); added quarterly review of Clery crime classifications. Whether all deficiencies are fully resolved has not been independently verified as of March 2026.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>Clery Act (20 U.S.C. §1092(f)); Higher Education Act §485(f); 34 C.F.R. §668.46</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-red">NOT COMPLIANT (CORRECTED)</span> State Auditor found UCI had the highest rate of inaccurate Clery statistics among reviewed institutions. UCI implemented corrective actions by late 2021. Whether all deficiencies are fully and sustainably resolved has not been independently verified.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>CA State Auditor Report 2020-032, May 2021 — <a href="https://www.auditor.ca.gov/reports/2020-032/index.html" target="_blank">auditor.ca.gov/reports/2020-032</a>; ABC7 Los Angeles, May 28, 2021; CA State Auditor Recommendation Responses</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 5 -->
+<div class="incident-heading">December 2020 – March 2021 — Accellion Data Breach (UC Systemwide); Class-Action Settlement</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>On December 24, 2020, UC's Accellion File Transfer Appliance was targeted in an international cyberattack exploiting a zero-day vulnerability. Over 100 organizations were affected worldwide. On March 29, 2021, UC identified stolen data posted on the dark web. Compromised information at UCI included full names, addresses, telephone numbers, Social Security numbers, driver's license information, passport information, financial information (bank routing and account numbers), health and disability information, and birthdates. Responses to the 2020 UC Undergraduate Experience Survey (UCUES) and alleged medical records were also affected. A class-action lawsuit (Erazo v. The Regents of the University of California) was filed and resulted in a settlement. The UCI Registrar published notice directing the campus community to systemwide breach resources.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>California Information Practices Act (Civil Code §1798 et seq.); HIPAA (if medical records affected); Clery Act (campus security infrastructure obligations)</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-unknown">N/A FOR POST</span> Data breach, not law enforcement misconduct. Included to document institutional data security failures affecting the campus community that UCIPD serves.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>UCI News, April 9, 2021; New University, April 26, 2021; UCnet Accellion FAQ; BusinessWire/UC Notice of Data Breach, May 10, 2021</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 6 -->
+<div class="incident-heading">April 25, 2024 — Gaza Solidarity Protest — Initial Peaceful Demonstration; No Force</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>Over 200 protesters gathered at UCI demanding divestment from Israel and condemnation of the conflict in Gaza. The protest was described by contemporaneous accounts as peaceful, with no reported altercations between protesters and police.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>First Amendment assembly rights; Clery Act (timely warning assessment)</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-green">N/A — NO FORCE USED, NO ARRESTS</span></td></tr>
+<tr><td><strong>Source(s)</strong></td><td>New University, April 2024; Wikipedia, "2024 UC Irvine pro-Palestinian campus occupation" — <a href="https://en.wikipedia.org/wiki/2024_UC_Irvine_pro-Palestinian_campus_occupation" target="_blank">en.wikipedia.org</a></td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 7 -->
+<div class="incident-heading">April 29, 2024 — Gaza Solidarity Encampment Established</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>Students established a tent encampment on campus. Per organizers, approximately 35–40 UCI students participated initially. Chancellor Howard Gillman declared the encampment "unauthorized." The UCI Divest Coalition presented the following demands: divestment from companies with ties to Israel or weapons manufacturing, university support for ending the Israeli occupation of Gaza, and reinvestment of funds toward students and workers. The university subsequently issued interim suspensions to multiple students, including what organizers described as "the majority of the student negotiation team."</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>First Amendment assembly rights; university conduct policies; due process protections (14th Amendment)</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-green">N/A — NO FORCE USED AT THIS STAGE</span></td></tr>
+<tr><td><strong>Source(s)</strong></td><td>Wikipedia, "2024 UC Irvine pro-Palestinian campus occupation" — <a href="https://en.wikipedia.org/wiki/2024_UC_Irvine_pro-Palestinian_campus_occupation" target="_blank">en.wikipedia.org</a>; New University, May 2024</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 8 -->
+<div class="incident-heading">May 15, 2024 — Gaza Encampment Clearance: 47 Arrests, 16 Agencies, Largest Police Response in UCI History; Body Camera Footage Refused</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>At approximately 2:30 PM on May 15, 2024, following a scheduled rally attended by a crowd of approximately 500, protesters expanded from the encampment and entered Physical Sciences Lecture Hall. A protest leader stated: "We are taking this building and we are remaining here until Gillman listens to our demands and drops the suspensions." A small group barricaded inside using electrical cords. Banners were hung from the balcony. Protesters were observed wearing goggles, helmets, gloves, and other protective gear. UCIPD issued a mutual aid call. AT LEAST 16 LAW ENFORCEMENT AGENCIES responded, including the OC Sheriff's Department and Irvine PD, with hundreds of officers deployed on campus. UCI issued a shelter-in-place alert, characterizing the situation as a "violent protest." All classes were canceled.<br><br>Documented timeline of enforcement action: Approximately 4:00 PM — officers begin detaining individuals at perimeter. 5:57 PM — UCI orders building evacuation. 6:46 PM — officers advance. Approximately 6:50 PM — UAW 4811 authorizes a UC-wide strike. 7:00 PM — police rush protesters; multiple individuals arrested; one protester on a planter was grabbed by the legs and removed. 7:30 PM — scuffles described as "increasingly physical"; dozens arrested. 7:35 PM — protesters pushed to Infinity Fountain; water bottles thrown at officers. 8:10 PM — dispersal order issued. 8:33 PM — Aldrich Park cleared.<br><br>TOTAL: 47 INDIVIDUALS ARRESTED (27 students, UCI employees, and others). Arrested students placed on interim suspension of up to 14 days. Chancellor Gillman issued a statement at 10:49 PM: "I was prepared to allow a peaceful encampment...My approach was consistent with the guidelines of UC's Robinson/Edley Report." He stated that the building occupation meant "this was no longer a situation that could be handled without police intervention."<br><br>CAIR (Council on American-Islamic Relations) designated UCI a "hostile campus" following the police action. Faculty statements from Film &amp; Media Studies and Humanities departments criticized "a pattern of administrative over-reliance on police." As of June 3, 2025, UCI denied requests for body camera footage from the encampment clearance, stating the investigation "remained active."</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>AB 48 (PC §§13652, 13652.1) — if crowd-control weapons were used, reporting mandatory within 60 days of deployment; POST use-of-force reporting standards; Clery Act (timely warnings, emergency notifications); Mutual aid documentation requirements across 16+ agencies</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-red">BODY CAMERA FOOTAGE NOT RELEASED — SEE INCIDENT 11 FOR AB 48 REPORTING STATUS</span> Body camera footage from the May 15, 2024 encampment clearance was not released as of June 3, 2025 — UCI stated the investigation "remained active," more than 12 months after the underlying event. Whether the operational circumstances of this clearance met the statutory trigger thresholds for AB 748 (PC §832.18 — officer-involved shooting or use of force causing great bodily injury) has not been independently confirmed in available public records. AB 48 reporting compliance status for this agency is documented separately in Incident 11, confirmed by LAist investigation of September 12, 2025.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>Wikipedia, "2024 UC Irvine pro-Palestinian campus occupation" — <a href="https://en.wikipedia.org/wiki/2024_UC_Irvine_pro-Palestinian_campus_occupation" target="_blank">en.wikipedia.org</a>; New University, May 15, 2024; OC Register, October 16, 2024; LAist, June 3, 2025 — <a href="https://laist.com/news/education/uc-irvine-brook-haley-lecturer-arrest-ban-gaza-palestine" target="_blank">laist.com</a>; CAIR press release, 2024; ABC7, May 17, 2024; KTLA, May 16, 2024; CBS News, May 17, 2024; California Insider, May 15, 2024</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 9 -->
+<div class="incident-heading">July 30, 2024 — Five UCI Students Sue UC Regents and Chancellor Gillman</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>Five UCI students filed a federal lawsuit against the UC Board of Regents and Chancellor Howard Gillman. The lawsuit alleges the students were suspended without due process following the May 15, 2024 Gaza encampment clearance. Final disposition has not been located in available public records as of March 2026.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>14th Amendment due process; California Education Code</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-active">PENDING — DISPOSITION NOT LOCATED</span></td></tr>
+<tr><td><strong>Source(s)</strong></td><td>Court records; New University, 2024</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 10 -->
+<div class="incident-heading">September–October 2024 — OC DA Todd Spitzer Files Criminal Charges Against 50 Protesters Including 2 Professors</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>On September 18, 2024, Orange County DA Todd Spitzer filed misdemeanor charges against 10 protesters (including 4 students and 2 faculty). On October 16, 2024, an additional 39 charges were filed. Total defendants: 50 — including two UCI professors (Tiffany Willoughby-Herard, associate professor of global/international studies; Jonathan Brook Haley, lecturer in humanities), one teaching assistant, 26 students, and 21 others. Charges: failure to disperse (PC §409); two defendants also faced resisting arrest (PC §148). Three defendants entered diversion programs requiring 30 hours of community service. Remaining arraignments were continued to November–December 2024.<br><br>Lecturer Haley stated to the OC Register: "I think the process has been important to the DA and also the chancellor...to essentially apply as much discomfort and anxiety to those of us who were arrested as possible to dissuade us from continuing to use our free-speech rights." Haley was banned from the UCI campus for two weeks following his arrest, placing his employment in jeopardy during the campus ban period.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>PC §409 (failure to disperse); PC §148 (resisting arrest); First Amendment considerations regarding faculty and student academic freedom</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-unknown">N/A FOR POST</span> Criminal prosecution by DA, not a POST reporting matter per se. Included to document the legal and institutional consequences of the May 15, 2024 police action and its documented impact on faculty and students.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>OC Register, October 16, 2024; New University, October 16, 2024; LAist, June 3, 2025 — <a href="https://laist.com/news/education/uc-irvine-brook-haley-lecturer-arrest-ban-gaza-palestine" target="_blank">laist.com</a></td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 11 -->
+<div class="incident-heading">September 12, 2025 — AB 48 Non-Compliance Confirmed by LAist Investigation</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>The LAist investigation published September 12, 2025 confirmed that UC Irvine was among 9 of 10 UC campus police departments that failed to comply with the AB 48 crowd-control weapons reporting requirements. Only UCLA appeared on the California DOJ's statewide AB 48 reporting webpage. POST spokesperson Meagan Poulos acknowledged there was "no stated enforcement mechanism" for AB 48. Former Assemblywoman Lorena Garcia, who authored the legislation, stated: "If we don't have enforcement, do we really have a law?" No UCI statement or identified corrective action regarding AB 48 non-compliance was found in available public records.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>AB 48 (PC §§13652, 13652.1) — mandatory reporting of crowd-control weapon use during protests. Applies to all law enforcement agencies regardless of size.</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-red">NOT COMPLIANT — CONFIRMED</span> Confirmed by LAist, September 12, 2025. No UCI response or corrective action identified in available public records.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>LAist, September 12, 2025 — <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law</a>; LAist — <a href="https://laist.com/news/politics/california-weapons-protests-reporting-requirements" target="_blank">laist.com/news/politics/california-weapons-protests-reporting-requirements</a></td></tr>
+</tbody>
+</table>
+
+<div class="key-finding">
+  <strong>Key Finding — Dual Non-Compliance in Body Camera and Crowd-Control Reporting:</strong> UCIPD has documented body camera footage refusals in at least two separate incidents — the February 2020 Chamndany arrest and the May 2024 encampment clearance — and confirmed AB 48 non-compliance for the 2024 encampment. Both refusals were confirmed by independent investigative reporting. The stated justification for the 2024 refusal — that the investigation "remained active" — was documented by LAist as of June 3, 2025, more than 12 months after the underlying event.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION C: COMPLIANCE STATUS MATRIX -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secC" class="section-heading">Section C</div>
+<div class="section-title">State and Federal Compliance Status Matrix</div>
+
+<table class="data-table">
+<thead><tr><th style="width:16%">Mandate</th><th style="width:22%">Requirement</th><th style="width:14%">UCIPD Status</th><th>Evidence / Factual Basis</th><th style="width:18%">Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td><strong>AB 48</strong><br>(PC §§13652, 13652.1)<br>Effective January 1, 2022</td>
+  <td>Report use of crowd-control weapons (kinetic energy projectiles, chemical agents) during protests within 60 days. Annual public reporting to California DOJ.</td>
+  <td><span class="badge badge-red">NOT COMPLIANT</span></td>
+  <td>UCIPD not listed on California DOJ AB 48 reporting webpage as of September 2025. LAist confirmed 9 of 10 UC police departments non-compliant. No UCI response or corrective action identified in available records.</td>
+  <td><a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist, September 12, 2025</a></td>
+</tr>
+<tr>
+  <td><strong>SB 1421</strong><br>(PC §832.7)<br>Effective January 1, 2019</td>
+  <td>Disclose records of officer-involved shootings, use of force resulting in great bodily injury, sustained sexual assault findings, and sustained dishonesty findings.</td>
+  <td><span class="badge badge-red">DOCUMENTED NON-DISCLOSURE — AS OF 2020–2021</span></td>
+  <td>UCI specifically identified as non-compliant in the UAW 2865 "Policing in the UC" report (February 2021). Body camera footage refused in at least two documented incidents: Chamndany arrest (February 2020) and May 2024 encampment clearance (footage not released as of June 3, 2025). UC-wide as of May 2020: only 2 case files released despite 200+ use-of-force incidents. UC stated there was "no UC-wide policy guiding the release of SB 1421 records" (Voice of San Diego, May 2020). The documented findings reflect the 2020–2021 research period. Current SB 1421 release practices at UCIPD have not been independently verified through a fresh public records request as of March 2026.</td>
+  <td><a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">Voice of San Diego, May 2020</a>; <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">UAW 2865, February 2021</a>; <a href="https://laist.com/news/education/uc-irvine-brook-haley-lecturer-arrest-ban-gaza-palestine" target="_blank">LAist, June 3, 2025</a></td>
+</tr>
+<tr>
+  <td><strong>Clery Act</strong><br>(20 U.S.C. §1092(f))<br>Effective 1990</td>
+  <td>Accurate crime statistics, timely warnings, complete annual security reports.</td>
+  <td><span class="badge badge-red">NOT COMPLIANT (CORRECTED)</span></td>
+  <td>California State Auditor Report 2020-032: UCI had the HIGHEST rate of inaccurate Clery statistics among the reviewed institutions. Improper unfounding of rape report. Missing and inadequate Annual Security Report policies. UCI implemented corrective actions by late 2021. Whether all deficiencies are fully resolved has not been independently verified.</td>
+  <td><a href="https://www.auditor.ca.gov/reports/2020-032/index.html" target="_blank">CA State Auditor Report 2020-032, May 2021</a>; ABC7 Los Angeles, May 28, 2021</td>
+</tr>
+<tr>
+  <td><strong>RIPA / AB 953</strong><br>Effective January 2022 (for UC PDs)</td>
+  <td>Collect and report data on all officer-initiated stops including perceived demographic characteristics.</td>
+  <td><span class="badge badge-green">RIPA REPORTING ACTIVE — PUBLIC STOP-DATA CONFIRMED</span></td>
+  <td>UCIPD has been reporting stop data to the California DOJ. UC Community Safety Data Dashboards include RIPA stop data. This reflects observable, publicly documented reporting activity; the chapter does not assert audited compliance with all RIPA requirements, as no independent audit of UCIPD's stop-data collection was available for review.</td>
+  <td><a href="https://www.universityofcalifornia.edu/about-us/information-center/police-data" target="_blank">UC Community Safety Data Dashboards</a></td>
+</tr>
+<tr>
+  <td><strong>AB 481</strong><br>(Gov. Code §7070 et seq.)<br>Effective January 1, 2022</td>
+  <td>Annual military equipment use reports; governing body approval for acquisition and use.</td>
+  <td><span class="badge badge-green">COMPLIANT — ANNUAL REPORTS POSTED</span></td>
+  <td>UCI PD maintains a dedicated AB 481 compliance page with the Military Equipment Use Policy, AB 481 presentation (September 14, 2023), and annual reports posted for 2023, 2024, and 2025 (dated July 31, 2025). The UC Regents Compliance &amp; Audit Committee (C1, September 19, 2024) confirmed UCIPD's 2024 annual report, zero complaints related to military equipment use, and no internal audit violations. UCI PD's AB 481-reported equipment use for the 2023–2024 reporting period was limited to purchase of four replacement pepper spray canisters ($86.20) and annual training use of 40mm munitions and .556-range ammunition. No operational deployment of crowd-control weapons at the UCI campus was documented in the UC Regents C1 report for the 2023–2024 period.</td>
+  <td><a href="https://www.police.uci.edu/how-do-i/AB481.php" target="_blank">UCI PD AB 481 Page</a>; <a href="https://regents.universityofcalifornia.edu/regmeet/sept24/c1.pdf" target="_blank">UC Regents C1, September 19, 2024</a></td>
+</tr>
+<tr>
+  <td><strong>AB 748</strong><br>(PC §832.18)<br>Effective July 1, 2019</td>
+  <td>Release body-worn camera footage within 45 days for critical incidents (officer-involved shootings, serious use of force causing great bodily injury).</td>
+  <td><span class="badge badge-red">BODY CAMERA FOOTAGE REFUSED — STATUTORY TRIGGER UNCONFIRMED</span></td>
+  <td>Body camera footage was refused in the Chamndany arrest (February 2020) — documented by the UAW 2865 Research Working Group (February 2021) as still unreleased. Body camera footage from the May 2024 encampment clearance was not released as of June 3, 2025, with UCI citing an active investigation more than 12 months after the event. AB 748 (PC §832.18) applies to critical incidents defined as officer-involved shootings and use of force resulting in death or great bodily injury. Whether either documented incident met those statutory threshold criteria has not been independently confirmed in available public records. The refusals are documented as facts; the legal basis for those refusals and whether AB 748 was thereby triggered remains an open question in available records.</td>
+  <td><a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">UAW 2865, February 2021</a>; <a href="https://laist.com/news/education/uc-irvine-brook-haley-lecturer-arrest-ban-nasa-gaza-palestine" target="_blank">LAist, June 3, 2025</a></td>
+</tr>
+<tr>
+  <td><strong>SB 2 / Kenneth Ross Jr. Decertification Act</strong><br>Effective January 1, 2023</td>
+  <td>POST may decertify peace officers for serious misconduct.</td>
+  <td><span class="badge badge-unknown">NO ACTIONS IDENTIFIED</span></td>
+  <td>No POST decertification actions against UCIPD officers identified in available records.</td>
+  <td>POST records search</td>
+</tr>
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION D: LITIGATION AND LEGAL ACTIONS -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secD" class="section-heading">Section D</div>
+<div class="section-title">Litigation and Legal Actions</div>
+
+<table class="data-table">
+<thead><tr><th style="width:14%">Date</th><th style="width:28%">Case / Matter</th><th style="width:22%">Parties</th><th>Status / Outcome</th><th style="width:18%">Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td>November 2014</td>
+  <td>FUPOA v. UC Regents, UCIPD, Chief Henisey, AC Hutchison, Johnson Controls Inc.</td>
+  <td>Plaintiff: FUPOA (250+ UC officers)<br>Defendants: UC Regents, UCIPD, Chief Henisey, AC Hutchison, Johnson Controls</td>
+  <td>UC and Johnson Controls both sought dismissal. UC argued officers lacked reasonable expectation of privacy in workplace. Final disposition not located in available public records.</td>
+  <td>New University, November 25, 2014; LRIS, November 2014; OC Register, February 6, 2015; Daily Californian, November 19, 2014</td>
+</tr>
+<tr>
+  <td>February 2020</td>
+  <td>Chamndany Arrest — Community Petitions and Faculty Statements</td>
+  <td>Shikera Chamndany (arrested); Officer Trish Harding; UCI Black Student Union; UCI Faculty Association; UCI Anthropology Department</td>
+  <td>Petition: 1,500+ signatures. UCI Faculty Association and UCI Anthropology Department issued formal statements. No civil lawsuit by Chamndany identified in available public records. Body camera footage not released.</td>
+  <td>UAW 2865 report, February 2021; Diverse: Issues in Higher Education, 2020</td>
+</tr>
+<tr>
+  <td>July 30, 2024</td>
+  <td>Five UCI Students v. UC Regents and Chancellor Gillman</td>
+  <td>Plaintiffs: 5 UCI students<br>Defendants: UC Regents, Chancellor Howard Gillman</td>
+  <td>Filed July 30, 2024. Alleges suspension of students without due process following May 15, 2024 encampment clearance. Final disposition not located in available records.</td>
+  <td>Court records; New University, 2024</td>
+</tr>
+<tr>
+  <td>September–October 2024</td>
+  <td>People v. [50 Defendants] — OC DA Criminal Charges</td>
+  <td>Prosecution: OC DA Todd Spitzer<br>Defendants: 2 professors, 1 TA, 26 students, 21 others</td>
+  <td>3 defendants entered diversion (30 hours community service). Remaining arraignments continued to November–December 2024. Final disposition not confirmed in available records.</td>
+  <td>OC Register, October 16, 2024; New University, October 16, 2024</td>
+</tr>
+<tr>
+  <td>2021 (Settlement)</td>
+  <td>Erazo v. The Regents of the University of California — Accellion Data Breach Class Action</td>
+  <td>Plaintiff class: UC community members<br>Defendant: UC Regents</td>
+  <td>Class-action settled. UCI Registrar published notice directing the campus community to systemwide breach resources.</td>
+  <td>UCI News, April 9, 2021; BusinessWire/UC Notice of Data Breach, May 10, 2021</td>
+</tr>
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION E: LEADERSHIP HISTORY -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secE" class="section-heading">Section E</div>
+<div class="section-title">Leadership History — Context for Compliance Gaps</div>
+
+<table class="data-table">
+<thead><tr><th style="width:16%">Period</th><th style="width:18%">Chief / Commander</th><th>Key Facts During Tenure</th><th style="width:22%">POST-Relevant Notes</th><th style="width:14%">Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td>c. 1990s–early 2000s</td>
+  <td>Chief Kathleen Stanley</td>
+  <td>UCI's first female police chief, per UCI PD archival records. Prior service as a lieutenant at UCLA Police Department, documented in the UCIPD scrapbook archive held by the Online Archive of California (ark:/13030/c8639w85). No controversies identified during tenure.</td>
+  <td>Predates most current reporting mandates.</td>
+  <td>Online Archive of California (UCI PD Scrapbooks, ark:/13030/c8639w85); UCI institutional records</td>
+</tr>
+<tr>
+  <td>c. Early 2000s–2005</td>
+  <td>[Interim/Transition Period — Identity Not Confirmed]</td>
+  <td>The period between Chief Stanley's departure and Chief Henisey's arrival is not documented in available public records. Gap in leadership documentation.</td>
+  <td>Gap in documented leadership history. UCI Libraries Special Collections may contain additional records.</td>
+  <td>UCI Libraries Special Collections</td>
+</tr>
+<tr>
+  <td>2005 – April 17, 2015 (10 years)</td>
+  <td>Chief Paul Henisey</td>
+  <td>29 years at Newport Beach PD, retired as captain. Medal of Valor, 1980 (bank robbery response). USC BA accounting (1976), USC MPA (1981), FBI National Academy graduate (1991). Directed UC systemwide Special Response Team. Served as campus coordinator for crowd management reassessment following the 2011 UC Davis pepper spray incident. Violence Prevention Coalition OC Ambassador of Peace Award (2013). Named as individual defendant in the FUPOA audio surveillance lawsuit (November 2014). Assistant Chief during his tenure: Jeff Hutchison (also named defendant in the lawsuit).</td>
+  <td>FUPOA surveillance lawsuit filed during his tenure. If the allegations in that lawsuit were proven, they would constitute violations of officer privacy rights under his command. Retired April 17, 2015.</td>
+  <td>UCI News, April 9, 2015</td>
+</tr>
+<tr>
+  <td>September 8, 2015 – mid-2018 (~3 years)</td>
+  <td>Chief Jorge Cisneros</td>
+  <td>From Huntington Park PD (5 years as chief, 10 months as acting city manager). Prior career at Long Beach PD (began 1991), rising to commander of detective division ($13.8M budget) and chief of staff to the LBPD chief. MA criminal justice (Chapman University, 2002); BA architecture (Cal Poly SLO). President, LA County Police Chiefs' Association during tenure. Led a force of 32 sworn officers, 17 CSOs, 16 staff. Launched the SAFER community policing program and Station 11 internal magazine. Departed for Anaheim PD chief position (reported salary: $267,000).</td>
+  <td>No POST-related controversies identified during his tenure.</td>
+  <td>UCI News, September 8, 2015; Voice of OC, June 2018; DFA UCI Communications, June 20, 2018</td>
+</tr>
+<tr>
+  <td>2018 – May 2019 (Interim)</td>
+  <td>Interim Chief Paul Cooper</td>
+  <td>Hired as assistant chief early 2018 after 33+ years with Claremont PD (10 years as chief, retired November 2016). Currently serves as assistant chief under Chief Griffin.</td>
+  <td>Transitional appointment. No POST-related controversies identified during interim tenure.</td>
+  <td>Behind the Badge OC, February 2019; New University, March 6, 2018</td>
+</tr>
+<tr>
+  <td>May 21, 2019 – Present</td>
+  <td>Chief Elizabeth "Liz" Griffin</td>
+  <td>From Long Beach PD (since 1992): officer → sergeant → lieutenant → commander (6 years as commander). FBI National Academy graduate. LAPD West Point Leadership Program graduate. BS criminal justice (Cal State Fullerton); MS emergency services administration (Cal State Long Beach). LBPD liaison to LGBTQ community. Board of directors, Boy Scouts Long Beach Area Council (2015–2018). Oversees 47 full-time police officers and nearly 100 professional staff. Achieved IACLEA accreditation for UCIPD in December 2024 (93% of optional standards met; announced publicly January 15, 2025).</td>
+  <td>Under her command: Chamndany arrest (February 2020) with body camera footage refused and still unreleased as of UAW 2865 report (February 2021); State Auditor finding of highest inaccurate Clery statistics rate (May 2021); May 15, 2024 encampment clearance — largest police response in UCI history, 47 arrests, 16 agencies; AB 48 non-compliance confirmed (September 2025); body camera footage from 2024 encampment also unreleased as of June 2025.</td>
+  <td><a href="https://news.uci.edu/2019/05/21/liz-griffin-named-chief-of-uci-police-department/" target="_blank">UCI News, May 21, 2019</a>; <a href="https://news.uci.edu/2025/01/15/uc-irvine-police-department-receives-prestigious-international-accreditation/" target="_blank">UCI News, January 15, 2025</a></td>
+</tr>
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION F: SOURCE INDEX -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secF" class="section-heading">Section F</div>
+<div class="section-title">Source Index — All Sources Cited in This Report</div>
+
+<p style="font-size:13.5px;color:#444;margin-bottom:20px;line-height:1.8;"><em>All 34 sources listed below are the actual underlying documents identified through research. URLs are provided for independent verification.</em></p>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-09-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>LAist — AB 48 Investigation — 9 of 10 UC campus PDs fail to comply with AB 48. UCIPD among non-compliant agencies. | September 12, 2025 | laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law</strong></div>
+    <div class="src-sub"><strong>LAist — AB 48 Investigation</strong> — 9 of 10 UC campus PDs fail to comply with AB 48. UCIPD among non-compliant agencies. | September 12, 2025 | <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>LAist — AB 48 Enforcement Gap — POST spokesperson Meagan Poulos: "no stated enforcement mechanism." Former Assemblywoman Garcia: "If we don't have enforcement, do we really have a law?" | 2025 | laist.com/news/politics/california-weapons-protests-reporting-requirements</strong></div>
+    <div class="src-sub"><strong>LAist — AB 48 Enforcement Gap</strong> — POST spokesperson Meagan Poulos: "no stated enforcement mechanism." Former Assemblywoman Garcia: "If we don't have enforcement, do we really have a law?" | 2025 | <a href="https://laist.com/news/politics/california-weapons-protests-reporting-requirements" target="_blank">laist.com/news/politics/california-weapons-protests-reporting-requirements</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-06-03</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>LAist — UCI Body Camera Denial — UCI denied requests for body camera footage from May 2024 encampment, stating investigation remained active. | June 3, 2025 | laist.com/news/education/uc-irvine-brook-haley-lecturer-arrest-ban-gaza-palestine</strong></div>
+    <div class="src-sub"><strong>LAist — UCI Body Camera Denial</strong> — UCI denied requests for body camera footage from May 2024 encampment, stating investigation remained active. | June 3, 2025 | <a href="https://laist.com/news/education/uc-irvine-brook-haley-lecturer-arrest-ban-gaza-palestine" target="_blank">laist.com/news/education/uc-irvine-brook-haley-lecturer-arrest-ban-gaza-palestine</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020-05-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Voice of San Diego — SB 1421 — UC campuses disclosed virtually no records under SB 1421 despite 200+ use-of-force incidents. UC stated no system-wide policy for SB 1421 releases. | May 12, 2020 | voiceofsandiego.org</strong></div>
+    <div class="src-sub"><strong>Voice of San Diego — SB 1421</strong> — UC campuses disclosed virtually no records under SB 1421 despite 200+ use-of-force incidents. UC stated no system-wide policy for SB 1421 releases. | May 12, 2020 | <a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">voiceofsandiego.org</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UAW 2865 Research Working Group — "Policing in the UC" report. Documented UCIPD refusal to release Chamndany body camera footage. UC-wide 200+ use-of-force incidents; only 2 case files released. | February 2021 | uaw2865.org</strong></div>
+    <div class="src-sub"><strong>UAW 2865 Research Working Group</strong> — "Policing in the UC" report. Documented UCIPD refusal to release Chamndany body camera footage. UC-wide 200+ use-of-force incidents; only 2 case files released. | February 2021 | <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">uaw2865.org</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>CA State Auditor Report 2020-032 — UCI had highest rate of inaccurate Clery crime statistics among reviewed institutions. Improper unfounding. Missing ASR policies. | May 2021 | auditor.ca.gov/reports/2020-032/index.html</strong></div>
+    <div class="src-sub"><strong>CA State Auditor Report 2020-032</strong> — UCI had highest rate of inaccurate Clery crime statistics among reviewed institutions. Improper unfounding. Missing ASR policies. | May 2021 | <a href="https://www.auditor.ca.gov/reports/2020-032/index.html" target="_blank">auditor.ca.gov/reports/2020-032/index.html</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2021-05-28</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>ABC7 Los Angeles — Clery Audit Coverage — Coverage of California State Auditor findings on UCI Clery Act compliance. | May 28, 2021 | ABC7 Los Angeles, May 28, 2021</strong></div>
+    <div class="src-sub"><strong>ABC7 Los Angeles — Clery Audit Coverage</strong> — Coverage of California State Auditor findings on UCI Clery Act compliance. | May 28, 2021 | ABC7 Los Angeles, May 28, 2021</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2019-05-21</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UCI News — Chief Griffin Named — Elizabeth Griffin named Chief of Police at UC Irvine. | May 21, 2019 | news.uci.edu/2019/05/21/liz-griffin-named-chief-of-uci-police-department/</strong></div>
+    <div class="src-sub"><strong>UCI News — Chief Griffin Named</strong> — Elizabeth Griffin named Chief of Police at UC Irvine. | May 21, 2019 | <a href="https://news.uci.edu/2019/05/21/liz-griffin-named-chief-of-uci-police-department/" target="_blank">news.uci.edu/2019/05/21/liz-griffin-named-chief-of-uci-police-department/</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-04-09</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UCI News — Chief Henisey Retires — UCI PD Chief Paul Henisey retirement announcement after 10-year tenure. | April 9, 2015 | UCI News, April 9, 2015</strong></div>
+    <div class="src-sub"><strong>UCI News — Chief Henisey Retires</strong> — UCI PD Chief Paul Henisey retirement announcement after 10-year tenure. | April 9, 2015 | UCI News, April 9, 2015</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-09-08</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UCI News — Chief Cisneros Appointed — Jorge Cisneros named UCI Chief of Police. | September 8, 2015 | UCI News, September 8, 2015</strong></div>
+    <div class="src-sub"><strong>UCI News — Chief Cisneros Appointed</strong> — Jorge Cisneros named UCI Chief of Police. | September 8, 2015 | UCI News, September 8, 2015</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2021-04-09</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UCI News — Accellion Breach — UCI notification regarding Accellion File Transfer Appliance data breach affecting UC community. | April 9, 2021 | UCI News, April 9, 2021</strong></div>
+    <div class="src-sub"><strong>UCI News — Accellion Breach</strong> — UCI notification regarding Accellion File Transfer Appliance data breach affecting UC community. | April 9, 2021 | UCI News, April 9, 2021</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2014-11-25</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>New University — FUPOA Surveillance Lawsuit — UC Irvine police officers file class-action suit over illegal audio recording at UCIPD headquarters. | November 25, 2014 | New University, November 25, 2014</strong></div>
+    <div class="src-sub"><strong>New University — FUPOA Surveillance Lawsuit</strong> — UC Irvine police officers file class-action suit over illegal audio recording at UCIPD headquarters. | November 25, 2014 | New University, November 25, 2014</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05-15</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>New University — Encampment Timeline — On-scene contemporaneous timeline of May 15, 2024 encampment clearance by student journalists. | May 15, 2024 | New University, May 15, 2024</strong></div>
+    <div class="src-sub"><strong>New University — Encampment Timeline</strong> — On-scene contemporaneous timeline of May 15, 2024 encampment clearance by student journalists. | May 15, 2024 | New University, May 15, 2024</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-10-16</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>New University — UCI Suppressing Voices — "UCI's History of Suppressing Student Voices" — pattern of police involvement chilling academic freedom and activism. | October 16, 2024 | New University, October 16, 2024</strong></div>
+    <div class="src-sub"><strong>New University — UCI Suppressing Voices</strong> — "UCI's History of Suppressing Student Voices" — pattern of police involvement chilling academic freedom and activism. | October 16, 2024 | New University, October 16, 2024</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Wikipedia — UCI Encampment — Comprehensive article on 2024 UC Irvine pro-Palestinian campus occupation. | Various | en.wikipedia.org/wiki/2024_UC_Irvine_pro-Palestinian_campus_occupation</strong></div>
+    <div class="src-sub"><strong>Wikipedia — UCI Encampment</strong> — Comprehensive article on 2024 UC Irvine pro-Palestinian campus occupation. | Various | <a href="https://en.wikipedia.org/wiki/2024_UC_Irvine_pro-Palestinian_campus_occupation" target="_blank">en.wikipedia.org/wiki/2024_UC_Irvine_pro-Palestinian_campus_occupation</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-10-16</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>OC Register — DA Charges — OC DA Todd Spitzer files misdemeanor charges against 50 protesters, including 2 professors. | October 16, 2024 | Orange County Register, October 16, 2024</strong></div>
+    <div class="src-sub"><strong>OC Register — DA Charges</strong> — OC DA Todd Spitzer files misdemeanor charges against 50 protesters, including 2 professors. | October 16, 2024 | Orange County Register, October 16, 2024</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2014-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>LRIS — Surveillance Lawsuit — Labor Relations Information System coverage of FUPOA federal lawsuit against UCI for illegal audio surveillance. | November 2014 | LRIS, November 2014</strong></div>
+    <div class="src-sub"><strong>LRIS — Surveillance Lawsuit</strong> — Labor Relations Information System coverage of FUPOA federal lawsuit against UCI for illegal audio surveillance. | November 2014 | LRIS, November 2014</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-02-06</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>OC Register — Surveillance Response — UCI campus response to FUPOA audio surveillance lawsuit allegations. | February 6, 2015 | Orange County Register, February 6, 2015</strong></div>
+    <div class="src-sub"><strong>OC Register — Surveillance Response</strong> — UCI campus response to FUPOA audio surveillance lawsuit allegations. | February 6, 2015 | Orange County Register, February 6, 2015</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2014-11-19</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Daily Californian — FUPOA Lawsuit Coverage — Coverage of FUPOA class-action suit filed against UC Regents over UCI surveillance. | November 19, 2014 | Daily Californian, November 19, 2014</strong></div>
+    <div class="src-sub"><strong>Daily Californian — FUPOA Lawsuit Coverage</strong> — Coverage of FUPOA class-action suit filed against UC Regents over UCI surveillance. | November 19, 2014 | Daily Californian, November 19, 2014</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Diverse: Issues in Higher Education — Coverage of Chamndany arrest and institutional response at UCI. | 2020 | Diverse: Issues in Higher Education, 2020</strong></div>
+    <div class="src-sub"><strong>Diverse: Issues in Higher Education</strong> — Coverage of Chamndany arrest and institutional response at UCI. | 2020 | Diverse: Issues in Higher Education, 2020</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2018-06</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Voice of OC — Cisneros Departure — UCI Chief Cisneros departs for Anaheim PD chief position. | June 2018 | Voice of OC, June 2018</strong></div>
+    <div class="src-sub"><strong>Voice of OC — Cisneros Departure</strong> — UCI Chief Cisneros departs for Anaheim PD chief position. | June 2018 | Voice of OC, June 2018</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2019-02</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Behind the Badge OC — Interim Chief Cooper Profile — Profile of Interim Chief Paul Cooper at UCI. | February 2019 | Behind the Badge OC, February 2019</strong></div>
+    <div class="src-sub"><strong>Behind the Badge OC — Interim Chief Cooper Profile</strong> — Profile of Interim Chief Paul Cooper at UCI. | February 2019 | Behind the Badge OC, February 2019</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>CAIR Press Release — Council on American-Islamic Relations designates UCI a "hostile campus" following May 2024 encampment clearance. | 2024 | CAIR press release, 2024</strong></div>
+    <div class="src-sub"><strong>CAIR Press Release</strong> — Council on American-Islamic Relations designates UCI a "hostile campus" following May 2024 encampment clearance. | 2024 | CAIR press release, 2024</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2023-09-20</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Regents Compliance &amp; Audit Committee — C3 — Committee document C3 (September 20, 2023): UCI tiered response model cited as UC systemwide model. POLE curriculum highlighted. | September 20, 2023 | UC Regents Compliance &amp; Audit Committee, C3</strong></div>
+    <div class="src-sub"><strong>UC Regents Compliance &amp; Audit Committee — C3</strong> — Committee document C3 (September 20, 2023): UCI tiered response model cited as UC systemwide model. POLE curriculum highlighted. | September 20, 2023 | UC Regents Compliance &amp; Audit Committee, C3</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2018-10</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UCI Administrative Policies §905 — Concurrent jurisdiction framework: UCIPD/City of Irvine PD on campus; UCIPD/Orange PD at Medical Center; OC Sheriff concurrent at both. | October 2018 | UCI Administrative Policies and Procedures, Section 905</strong></div>
+    <div class="src-sub"><strong>UCI Administrative Policies §905</strong> — Concurrent jurisdiction framework: UCIPD/City of Irvine PD on campus; UCIPD/Orange PD at Medical Center; OC Sheriff concurrent at both. | October 2018 | UCI Administrative Policies and Procedures, Section 905</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>FUPOA Website — Federated University Police Officers' Association — represents officers across all 10 UC campuses. | Various | federateduniversitypoa.org</strong></div>
+    <div class="src-sub"><strong>FUPOA Website</strong> — Federated University Police Officers' Association — represents officers across all 10 UC campuses. | Various | <a href="https://federateduniversitypoa.org/" target="_blank">federateduniversitypoa.org</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UCI PD Website — Department information, contacts, crime logs, annual security reports. | Various | police.uci.edu</strong></div>
+    <div class="src-sub"><strong>UCI PD Website</strong> — Department information, contacts, crime logs, annual security reports. | Various | <a href="https://police.uci.edu" target="_blank">police.uci.edu</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">1992</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Online Archive of California — UCI PD Scrapbooks — UCI Police Department Scrapbooks, 1992–2004 (ark:/13030/c8639w85). Documents Chief Stanley's tenure and inter-departmental history. | Various | Online Archive of California</strong></div>
+    <div class="src-sub"><strong>Online Archive of California — UCI PD Scrapbooks</strong> — UCI Police Department Scrapbooks, 1992–2004 (ark:/13030/c8639w85). Documents Chief Stanley's tenure and inter-departmental history. | Various | Online Archive of California</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2021-10-08</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UCI Clery Compliance Procedures — Updated October 8, 2021 following California State Auditor recommendations. Third-party reviewed. | October 8, 2021 | policies.uci.edu/policies/procs/905-50/</strong></div>
+    <div class="src-sub"><strong>UCI Clery Compliance Procedures</strong> — Updated October 8, 2021 following California State Auditor recommendations. Third-party reviewed. | October 8, 2021 | <a href="https://policies.uci.edu/policies/procs/905-50/" target="_blank">policies.uci.edu/policies/procs/905-50/</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2021-05-10</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>BusinessWire / UC Notice of Data Breach — UC Notice of Data Breach regarding Accellion FTA incident affecting UCI community members. | May 10, 2021 | BusinessWire, May 10, 2021</strong></div>
+    <div class="src-sub"><strong>BusinessWire / UC Notice of Data Breach</strong> — UC Notice of Data Breach regarding Accellion FTA incident affecting UCI community members. | May 10, 2021 | BusinessWire, May 10, 2021</div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UCI PD — IACLEA Accreditation Page — Official UCI Police Department accreditation page confirming accreditation awarded December 2024 by IACLEA; top 10 percent of university police agencies nationwide. | Various | police.uci.edu/about-us/accreditation.php</strong></div>
+    <div class="src-sub"><strong>UCI PD — IACLEA Accreditation Page</strong> — Official UCI Police Department accreditation page confirming accreditation awarded December 2024 by IACLEA; top 10 percent of university police agencies nationwide. | Various | <a href="https://www.police.uci.edu/about-us/accreditation.php" target="_blank">police.uci.edu/about-us/accreditation.php</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-01-15</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UCI News — IACLEA Accreditation Announcement — UC Irvine Police Department receives prestigious IACLEA accreditation. 47 full-time officers; nearly 100 professional staff; more than 36,000 students. 93% of optional standards achieved. | January 15, 2025 | news.uci.edu/2025/01/15/uc-irvine-police-department-receives-prestigious-international-accreditation/</strong></div>
+    <div class="src-sub"><strong>UCI News — IACLEA Accreditation Announcement</strong> — UC Irvine Police Department receives prestigious IACLEA accreditation. 47 full-time officers; nearly 100 professional staff; more than 36,000 students. 93% of optional standards achieved. | January 15, 2025 | <a href="https://news.uci.edu/2025/01/15/uc-irvine-police-department-receives-prestigious-international-accreditation/" target="_blank">news.uci.edu/2025/01/15/uc-irvine-police-department-receives-prestigious-international-accreditation/</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UCI Police Accountability Board — Official Website — Official PAB site listing membership, chair (Vice Chancellor Dyonne M. Bergeron, Vice Chancellor for Inclusive Excellence), bylaws, case database, and annual reports. | Various | sites.uci.edu/policeaccountabilityboard/</strong></div>
+    <div class="src-sub"><strong>UCI Police Accountability Board — Official Website</strong> — Official PAB site listing membership, chair (Vice Chancellor Dyonne M. Bergeron, Vice Chancellor for Inclusive Excellence), bylaws, case database, and annual reports. | Various | <a href="https://sites.uci.edu/policeaccountabilityboard/" target="_blank">sites.uci.edu/policeaccountabilityboard/</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-09-19</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Regents Compliance &amp; Audit Committee — C1 (September 19, 2024) — Annual AB 481 report to UC Regents. Confirms UCI PD zero complaints, no internal audit violations; equipment use limited to annual training; no UCI operational crowd-control weapon deployment documented for 2023–2024 reporting period. | September 19, 2024 | regents.universityofcalifornia.edu/regmeet/sept24/c1.pdf</strong></div>
+    <div class="src-sub"><strong>UC Regents Compliance &amp; Audit Committee — C1 (September 19, 2024)</strong> — Annual AB 481 report to UC Regents. Confirms UCI PD zero complaints, no internal audit violations; equipment use limited to annual training; no UCI operational crowd-control weapon deployment documented for 2023–2024 reporting period. | September 19, 2024 | <a href="https://regents.universityofcalifornia.edu/regmeet/sept24/c1.pdf" target="_blank">regents.universityofcalifornia.edu/regmeet/sept24/c1.pdf</a></div>
+  </div>
+</div>
+
+
+<!-- ══ SUBMISSION BLOCK ══ -->
+<div class="submission-block">
+  <p><strong>Primary Submission:</strong> California Commission on Peace Officer Standards and Training (POST) &mdash; Peace Officer Standards Accountability Division (POSAD) &mdash; Authority: Cal. Penal Code &sect;&sect; 13509.5, 13510.8, 13510.85 (SB 2 &mdash; Kenneth Ross Jr. Police Decertification Act of 2021)</p>
+  <p><strong>Secondary Submissions:</strong> California Attorney General, Civil Rights Enforcement Section (Cal. Civ. Code &sect;&nbsp;52.3) &nbsp;|&nbsp; U.S. Department of Education, Federal Student Aid &mdash; Clery Act Enforcement (20&nbsp;U.S.C.&nbsp;&sect;&nbsp;1092(f)) &nbsp;|&nbsp; California Legislature, Senate &amp; Assembly Budget Subcommittees on Education &nbsp;|&nbsp; UC Office of the President &nbsp;|&nbsp; California State Auditor &nbsp;|&nbsp; U.S. Department of Justice (34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601)</p>
+  <p><strong>Distribution:</strong> Clery Center for Campus Safety &nbsp;|&nbsp; SAFE Campuses, LLC</p>
+  <p>All documents compiled from public records. All facts independently verifiable. Readers are encouraged to form their own independent conclusions.</p>
+</div>
+</div><!-- end .content -->
+
+</div>
+
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav" style="position:static;box-shadow:none">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn active">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" style="position:static;box-shadow:none">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn">A &mdash; Overview</a>
+<a href="#secB" class="section-btn">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn">D &mdash; Financial</a>
+<a href="#secE" class="section-btn">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn">F &mdash; Sources</a>
+</div>
+</nav>
+
+<script>
+function setNavTops(){
+  const b1=document.querySelector('.nav-bar:not(.bottom)');
+  const b2=document.querySelector('.campus-nav:not([style])');
+  const b3=document.querySelector('.section-nav:not([style])');
+  if(!b1||!b2||!b3)return 130;
+  b2.style.top=b1.offsetHeight+'px';
+  b3.style.top=(b1.offsetHeight+b2.offsetHeight)+'px';
+  return b1.offsetHeight+b2.offsetHeight+b3.offsetHeight;
+}
+const secs=['secA','secB','secC','secD','secE','secF'];
+const btns=['btn-a','btn-b','btn-c','btn-d','btn-e','btn-f'];
+function updateActive(){
+  const offset=setNavTops()+10;
+  const scrollPos=window.scrollY+offset;
+  let cur=0;
+  secs.forEach((id,i)=>{
+    const el=document.getElementById(id);
+    if(!el)return;
+    const elTop=el.getBoundingClientRect().top+window.scrollY;
+    if(scrollPos>=elTop)cur=i;
+  });
+  btns.forEach((id,i)=>{
+    const b=document.getElementById(id);
+    if(b)b.classList.toggle('active',i===cur);
+  });
+}
+window.addEventListener('load',()=>{setNavTops();updateActive();});
+window.addEventListener('resize',()=>{setNavTops();updateActive();});
+window.addEventListener('scroll',updateActive,{passive:true});
+</script>
+<div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Behave Like Heroes &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>

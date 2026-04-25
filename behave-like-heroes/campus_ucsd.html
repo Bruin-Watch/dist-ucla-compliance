@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · Dossier — UC San Diego Police Department | Bruin Watch</title>
+<meta name="description" content="Campus dossier documenting UC San Diego Police Department leadership, incidents, and oversight history.">
+<meta property="og:title" content="Act I · Dossier — UC San Diego Police Department | Bruin Watch">
+<meta property="og:description" content="Campus dossier documenting UC San Diego Police Department leadership, incidents, and oversight history.">
+<meta property="og:type" content="article">
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE;--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0}
+body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#e8edf2;margin:0;padding:0}
+
+/* ══ BAR 1 — VERBATIM FROM CHAPTER_07.HTML ══ */
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:center}
+.nav-bottom-inner{display:flex;align-items:stretch;justify-content:center;min-width:max-content;margin:0 auto}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 2 — CAMPUS DOSSIERS — same pattern, slightly darker ══ */
+.campus-nav{background:#00254a;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:999;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.campus-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.campus-nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.campus-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.campus-btn:hover{background:var(--uc-mid);color:#fff}
+.campus-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 3 — SECTION INDEX — same pattern, darkest ══ */
+.section-nav{background:#001428;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:998;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.section-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.section-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.section-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.section-btn:hover{background:var(--uc-mid);color:#fff}
+.section-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ COVER PAGE ══ */
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:48px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:80px;font-weight:900;letter-spacing:8px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:6px;line-height:1.0}
+.series-line1{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:4px}
+.series-line2{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:28px}
+.campus-label{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:900;letter-spacing:5px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:16px}
+.chapter-title{font-family:'Libre Baskerville',Georgia,serif;font-size:44px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:28px auto;display:block}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:22px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.cover-meta{width:100%;padding:20px 0;background:rgba(0,0,0,.15);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border-top:1px solid rgba(253,181,21,.25)}
+.cover-meta-inner{max-width:960px;width:100%;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 40px}
+.cover-meta p{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;color:#fff;text-align:center;line-height:1.6}
+.cover-meta strong{color:var(--uc-gold)}
+.cover-meta p.cover-disclaimer{font-size:14.5px!important;font-weight:300!important;color:#dde8f4!important;text-align:justify!important;hyphens:auto;max-width:820px;width:100%;margin:6px auto;padding:10px 0;line-height:1.8;border-top:1px solid rgba(253,181,21,.35);border-bottom:1px solid rgba(253,181,21,.35)}
+.cover-copyright{width:100%;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:15px;color:#fff;margin-top:4px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+
+/* ══ CHAPTER BODY ══ */
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.note-investigators{background:var(--uc-blue);padding:24px 30px;margin:0;border-left:6px solid var(--uc-gold)}
+.note-investigators .note-label{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:14px}
+.note-investigators p{font-size:17px;color:#fff;line-height:1.85;margin-bottom:12px}
+.note-investigators p:last-child{margin-bottom:0}
+.campus-grid-wrap{background:var(--uc-blue);padding:10px 0 12px;width:100%}
+.campus-grid{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;width:100%;padding:0 4px}
+.campus-grid-btn{display:block;background:var(--uc-blue-dark);border:2px solid var(--uc-blue-dark);padding:12px 4px;text-align:center;text-decoration:none;transition:background .15s,border-color .15s}
+.campus-grid-btn:hover{background:var(--uc-mid);border-color:var(--uc-mid)}
+.campus-grid-btn.active{background:var(--uc-mid);border:2px solid var(--uc-gold)}
+.campus-grid-abbr{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-weight:700;color:var(--uc-gold);margin-bottom:3px}
+.campus-grid-name{font-size:10px;color:#b8c8dc;letter-spacing:.5px;text-transform:uppercase}
+.campus-grid-btn.active .campus-grid-name{color:#fff}
+.section-anchor{display:block;height:145px;margin-top:-145px;visibility:hidden}
+.content-wrap{padding:0 48px 60px;max-width:900px;margin:0 auto}.content-wrap p{margin-bottom:18px;line-height:1.85;font-size:17px}
+
+/* ══ CONTENT — VERBATIM FROM UCB SOURCE DOSSIER ══ */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+  :root{--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0;--red-bg:#FFC7CE;--red-text:#9C0006;--green-bg:#C6EFCE;--green-text:#276221;--yellow-bg:#FFEB9C;--yellow-text:#7D4A00;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#fff;}
+  .cover-page{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;padding:0 40px;background:repeating-linear-gradient(135deg,transparent,transparent 35px,rgba(255,255,255,0.04) 35px,rgba(255,255,255,0.04) 70px),linear-gradient(180deg,#003262 0%,#00254a 100%);border-bottom:4px solid var(--ucb-gold);}
+  .cover-series{font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin-bottom:16px;}
+  .cover-chapter{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:30px;}
+  .cover-title{font-family:'Source Sans Pro',sans-serif;font-size:36px;font-weight:700;color:#fff;line-height:1.25;max-width:750px;margin-bottom:16px;}
+  .cover-gold-line{width:120px;height:3px;background:var(--ucb-gold);margin:22px auto;}
+  .cover-subtitle{font-family:'Libre Baskerville',serif;font-size:16px;font-style:italic;color:rgba(255,255,255,0.8);max-width:640px;line-height:1.65;margin-bottom:24px;}
+  .cover-meta{font-family:'Source Sans Pro',sans-serif;font-size:16px;color:#fff;margin-top:28px;line-height:2.1;}
+  .cover-meta strong{color:#fff;font-weight:700;}
+  .disclaimer{max-width:800px;margin:44px auto 32px;padding:24px 32px;text-align:center;font-style:italic;font-size:16px;color:#555;line-height:1.85;border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+  .content{max-width:900px;margin:0 auto;padding:0 48px 60px;}
+  .section-banner{font-family:'Source Sans Pro',sans-serif;font-size:17px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ucb-gold);background:var(--ucb-blue);padding:14px 22px;margin:48px 0 0;}
+  .section-title{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:700;color:var(--ucb-blue);padding:16px 0 12px;border-bottom:2px solid var(--ucb-gold);margin-bottom:24px;}
+  .incident-heading{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:900;color:var(--ucb-blue);margin:40px 0 8px;padding:12px 16px;background:var(--ucb-blue-light);border-left:5px solid var(--ucb-gold);}
+  .incident-date{display:block;font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:900;color:var(--ucb-gold);text-transform:uppercase;letter-spacing:2px;margin-top:44px;margin-bottom:6px;}
+  .incident-title{display:block;font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:900;color:var(--ucb-blue);margin-bottom:14px;}
+  .incident-block{margin-bottom:8px;}
+  .pre-mandatory{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:2px 8px;background:#e0e0e0;color:#555;border-radius:2px;margin-bottom:8px;}
+  table.data-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px;}
+  table.data-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:0.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,0.15);}
+  table.data-table thead th:last-child{border-right:none;}
+  table.data-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px;}
+  table.data-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light);}
+  table.data-table tbody tr:nth-child(odd) td{background:#fff;}
+  table.data-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:14px;}
+  .badge{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:3px 8px;border-radius:3px;}
+  .badge-red{background:var(--red-bg);color:var(--red-text);}
+  .badge-green{background:var(--green-bg);color:var(--green-text);}
+  .badge-yellow{background:var(--yellow-bg);color:var(--yellow-text);}
+  .badge-unknown{background:#e0e0e0;color:#444;}
+  .badge-active{background:#FF4444;color:#fff;}
+  .key-finding{background:var(--ucb-gold-light);border-left:4px solid var(--ucb-gold);padding:16px 20px;margin:20px 0 28px;font-size:16px;line-height:1.8;}
+  .key-finding strong{font-family:'Source Sans Pro',sans-serif;color:var(--ucb-blue);}
+  .source-index-entry{font-size:15px;line-height:1.75;margin-bottom:10px;padding:10px 14px;background:#f8f8f8;border-left:3px solid var(--ucb-gold);}
+  .source-index-entry a{color:#0563C1;word-break:break-all;}
+  .source-num{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:var(--ucb-blue);min-width:28px;display:inline-block;}
+  .chapter-nav{background:var(--ucb-blue-light);border:1px solid #c5d3e0;padding:14px 20px;margin:0 0 36px;font-family:'Source Sans Pro',sans-serif;font-size:13px;line-height:1.8;}
+  .chapter-nav strong{color:var(--ucb-blue);}
+  .chapter-nav a{color:#0563C1;text-decoration:none;margin:0 4px;}
+  .chapter-nav a:hover{text-decoration:underline;}
+  .submission-block{background:var(--uc-blue);padding:24px 30px;margin:32px 0 0}
+.submission-block p{font-size:16px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:8px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:20px 48px;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:rgba(255,255,255,0.5);line-height:1.8;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+  .doc-footer strong{color:rgba(255,255,255,0.8)}
+  @media print{.nav-wrap{display:none!important}.cover-page{min-height:100vh;page-break-after:always;}.section-banner{page-break-before:always;}}
+
+@media(max-width:768px){.series-title{font-size:58px}.chapter-title{font-size:32px}.cover-content{padding:36px 24px}}
+@media print{.cover-page{page-break-after:always}.nav-bar,.campus-nav,.section-nav{display:none}}
+
+
+/* ══ MASTER TEMPLATE UPDATE — 2026-03-23 — LOCKED ══ */
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.series-tagline{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:16px;max-width:820px}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin:52px 0 0;padding:0;display:block}
+table.info-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px}
+table.info-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,.15)}
+table.info-table thead th:last-child{border-right:none}
+table.info-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px}
+table.info-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light)}
+table.info-table tbody tr:nth-child(odd) td{background:#fff}
+table.info-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:13px}
+.src-index-wrap{display:flex;flex-direction:column;width:100%}
+.src-row{display:flex;align-items:stretch;border:1px solid #dde3ea;border-top:none;text-decoration:none;color:inherit;transition:background .12s}
+.src-row:first-of-type{border-top:1px solid #dde3ea}
+.src-row:hover{background:#f0f5fb}
+.src-row:hover .src-num{background:var(--uc-mid)}
+.src-num{background:var(--ucb-blue);color:var(--ucb-gold);font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:900;letter-spacing:1px;min-width:120px;width:120px;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px 10px;transition:background .12s;flex-shrink:0;border-right:3px solid var(--ucb-gold)}
+.src-body{flex:1;padding:13px 18px;display:flex;flex-direction:column;justify-content:center;word-wrap:break-word;overflow-wrap:break-word;min-width:0}
+.src-title{font-size:17px;font-weight:700;color:var(--ucb-blue);margin-bottom:4px;line-height:1.4}
+.src-sub{font-size:16px;color:#444;line-height:1.7;word-wrap:break-word;overflow-wrap:break-word}
+.src-sub a{color:#0563C1;word-break:break-all}
+
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn active">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" id="section-nav">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn active" id="btn-a">A &mdash; Overview</a>
+<a href="#secB" class="section-btn" id="btn-b">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn" id="btn-c">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn" id="btn-d">D &mdash; Financial</a>
+<a href="#secE" class="section-btn" id="btn-e">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn" id="btn-f">F &mdash; Sources</a>
+</div>
+</nav>
+
+<div class="cover-page">
+
+  <!-- TOP BLUE BAR — LOCKED -->
+  <div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Behave Like Heroes</div>
+<div class="series-tagline">Law Enforcement Without Enforcement<br>A Documented Gap Analysis</div>
+<div class="campus-label">Campus Dossier</div>
+<h1 class="chapter-title">UC San Diego Police Department</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">POST Reporting Gap Analysis &mdash; Compliance Status &mdash; Incident Chronology &mdash; Financial Record &mdash; Leadership History &mdash; Source Index</p>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+
+<div class="chapter-body">
+<div class="note-investigators">
+<div class="note-label">Note to Investigators, Attorneys, and Journalists</div>
+<p>This campus dossier contains enforcement-level detail not summarized in the main chapters of this series. It documents the complete incident history, POST compliance status, financial exposure, and leadership record for the UC San Diego Police Department. These documents are intended for POST investigators, attorneys, civil rights organizations, journalists, and other parties requiring granular evidentiary detail for enforcement, litigation, or investigative purposes. All source citations are independently verifiable. Readers are encouraged to draw their own conclusions from the documented record.</p>
+</div>
+<div class="campus-grid-wrap">
+<div class="campus-grid">
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCB</div><div class="campus-grid-name">Berkeley</div></a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCD</div><div class="campus-grid-name">Davis</div></a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCI</div><div class="campus-grid-name">Irvine</div></a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCLA</div><div class="campus-grid-name">Los Angeles</div></a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCM</div><div class="campus-grid-name">Merced</div></a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCR</div><div class="campus-grid-name">Riverside</div></a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-grid-btn active"><div class="campus-grid-abbr">UCSD</div><div class="campus-grid-name">San Diego</div></a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSF</div><div class="campus-grid-name">San Francisco</div></a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSB</div><div class="campus-grid-name">Santa Barbara</div></a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSC</div><div class="campus-grid-name">Santa Cruz</div></a>
+</div>
+</div>
+<div class="disclaimer">
+  This document contains only facts as found in public records and the application of law, statute, rule, procedure, or other mechanism to those specific facts. It contains no inflammatory or accusatory language. It is prepared for submission to the California Commission on POST and presents evidence for readers to form their own independent opinions.
+</div>
+
+<div class="content">
+
+<!-- TOC -->
+<div class="toc">
+  <h2>Table of Contents</h2>
+  <div class="toc-entry"><span class="toc-num">A.</span><span class="toc-title"><a href="#secA">Department Overview</a></span></div>
+  <div class="toc-entry"><span class="toc-num">B.</span><span class="toc-title"><a href="#secB">Chronological Incident Log</a></span></div>
+  <div class="toc-entry"><span class="toc-num">C.</span><span class="toc-title"><a href="#secC">Compliance Status Matrix</a></span></div>
+  <div class="toc-entry"><span class="toc-num">D.</span><span class="toc-title"><a href="#secD">Financial Impact — Litigation, Settlements &amp; Operational Costs</a></span></div>
+  <div class="toc-entry"><span class="toc-num">E.</span><span class="toc-title"><a href="#secE">Leadership History — Chief of Police Chronology</a></span></div>
+  <div class="toc-entry"><span class="toc-num">F.</span><span class="toc-title"><a href="#secF">Source Index</a></span></div>
+</div>
+
+<!-- ═══════════════════════════════════ SECTION A ═══════════════════════════════════ -->
+<div id="secA" class="section-heading">SECTION A — DEPARTMENT OVERVIEW</div>
+
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th style="width:52%">Detail</th><th style="width:26%">Source / Notes</th></tr></thead>
+<tbody>
+<tr><td><strong>Agency Full Name</strong></td><td>University of California San Diego Police Department (UCSD PD)</td><td><a href="https://police.ucsd.edu/about/index.html">[29] police.ucsd.edu/about</a></td></tr>
+<tr><td><strong>Agency Type</strong></td><td>University police department; California Peace Officers per California Education Code §92600 and California Penal Code §830.2(b). Sworn members are peace officers pursuant to Penal Code §830.2(b). Authority extends to any place in the State of California, provided that the primary duty shall be enforcement of the law within the area specified in Education Code §92600.</td><td><a href="https://police.ucsd.edu/about/authority.html">[40] police.ucsd.edu/about/authority</a>; CA Education Code §92600; CA Penal Code §830.2(b)</td></tr>
+<tr><td><strong>POST Participation</strong></td><td>Participating agency — All sworn officers must meet POST selection and training standards. Chief Rose confirmed as FBI National Academy graduate and holder of numerous POST certificates in managerial and supervisory training.</td><td>[30][48] CA POST regulations; 11 CCR §1005</td></tr>
+<tr><td><strong>Year Established (UCPD)</strong></td><td>UC Police departments formalized by UC Board of Regents September 19, 1947 under State Education Code §§20221–20222 (now §92600). The date "September 19, 1947" is specifically cited in Education Code §92600 as the constitutional date of the UC Police Department.</td><td><a href="https://police.ucsd.edu/about/authority.html">[40][52] police.ucsd.edu/about/authority</a>; <a href="https://ucpd.berkeley.edu/about/ucpd-berkeley-department-history">ucpd.berkeley.edu</a></td></tr>
+<tr><td><strong>Campus Founded</strong></td><td>1960. Originally established as UC San Diego from the Scripps Institution of Oceanography (founded 1903). First Chancellor Herbert York appointed 1961. First class of undergraduates enrolled 1964.</td><td>[45] Wikipedia UC police departments; UCSD institutional history</td></tr>
+<tr><td><strong>Location</strong></td><td>Campus Services Complex — Building B, University of California, San Diego, La Jolla, CA 92093. Phone: (858) 534-2230.</td><td><a href="https://police.ucsd.edu/about/index.html">[29][38] police.ucsd.edu/about</a></td></tr>
+<tr><td><strong>Current Chief of Police</strong></td><td>Chief Lamine B. Secka, M.S. — confirmed as current UCSD PD Chief of Police across multiple official UCSD sources as of the date of this report, including the UCSD PD Department Contacts page, the UCSD PD Policy Manual (signed October 31, 2024), the UCSD Office of the Vice Chancellor contact page, and the UCSD Safe Campus contact page. Chief Secka is a UCSD alumnus (B.A. Communications, 1995) who began his law enforcement career as a student CSO and dispatcher at UCSD PD, then as a sworn officer (1996). He subsequently served at UCI PD, SDSU PD (Chief, approximately 3 years), and CSU San Marcos PD (Chief). He is an FBI National Academy graduate (Class 242) and holds the POST Master Instructor Development Program credential. His appointment to UCSD PD Chief was formally archived by UC San Diego Special Collections &amp; Archives. NOTE: As of the date of this research, the body text of the UCSD PD website's "Message from the Chief" page still reads "Read a message from Chief Murphy," while the page sidebar and navigation correctly identify "Lamine Secka Chief of Police" — a documented internal website inconsistency within the department's own public-facing materials.</td><td><a href="https://police.ucsd.edu/contact/dept-contacts.html" target="_blank">UCSD PD Dept. Contacts — police.ucsd.edu/contact/dept-contacts</a>; UCSD PD Policy Manual, Oct. 31, 2024 — <a href="https://police.ucsd.edu/_files/UC-San-Diego-PD-Policy-Manual.pdf" target="_blank">police.ucsd.edu (PDF)</a>; <a href="https://calisphere.org/item/ark:/20775/bb7793202z/" target="_blank">Calisphere — Appointment of Lamine Secka as Chief of Police, UCSD</a>; <a href="https://police.ucsd.edu/about/message.html" target="_blank">UCSD PD Message from the Chief — police.ucsd.edu/about/message</a></td></tr>
+<tr><td><strong>Sworn Officers (Feb 2021)</strong></td><td>45 sworn police officers out of 93 full-time employees (FTE) total. Additionally employed 75 UC San Diego students as Community Service Officers as of February 2021.</td><td><a href="https://police.ucsd.edu/about/demographics.html">[29] police.ucsd.edu/about/demographics</a></td></tr>
+<tr><td><strong>Sworn Officers (July 2024)</strong></td><td>50 sworn police officers out of 108 full-time employees (FTE) total. Additionally employs 55 UC San Diego student employees. 58 non-sworn employees.</td><td><a href="https://police.ucsd.edu/about/demographics.html">[29] police.ucsd.edu/about/demographics</a></td></tr>
+<tr><td><strong>Student Population</strong></td><td>45,273 students enrolled as of Fall 2024 — the largest enrollment in UCSD's history, comprising approximately 35,000 undergraduates and approximately 9,300 graduate students. Average daily campus population of 50,000 students, staff, faculty, patients and visitors per UCSD PD operational documentation.</td><td><a href="https://www.sandiegouniontribune.com/2024/10/18/uc-san-diego-bursting-at-seams-as-enrollment-soars-to-record-45273/" target="_blank">San Diego Union-Tribune, Oct. 18, 2024</a>; <a href="https://ucsdguardian.org/2024/10/28/uc-san-diego-enrollment-reaches-all-time-high-in-the-2024-25-academic-year/" target="_blank">UCSD Guardian, Oct. 28, 2024</a>; <a href="https://police.ucsd.edu/about/index.html">[29] police.ucsd.edu/about</a></td></tr>
+<tr><td><strong>Jurisdiction</strong></td><td>Primary jurisdiction: UCSD campus including more than 1,200 acres and 900 buildings, plus the one-mile area surrounding exterior boundaries of each campus. Officers have peace officer authority anywhere in the State of California per Penal Code §830.2(b). Education Code §92600 specifies authority upon: (a) campuses and one mile from exterior boundaries; (b) other grounds or properties owned, operated, controlled or administered by the Regents; and (c) as provided in Penal Code §830.2. Officers receive same basic training as city and county peace officers plus additional campus-specific training.</td><td><a href="https://police.ucsd.edu/about/authority.html">[40] police.ucsd.edu/about/authority</a></td></tr>
+<tr><td><strong>Concurrent Jurisdiction</strong></td><td>UC San Diego Police shares concurrent jurisdiction with local law enforcement agencies. The San Diego County Sheriff's Department has concurrent jurisdiction upon all university-owned or -controlled properties located within the county. The City of San Diego Police Department has concurrent jurisdiction on all campuses and upon all university-owned or -controlled properties located within that city.</td><td><a href="https://police.ucsd.edu/about/authority.html">[40] police.ucsd.edu/about/authority</a></td></tr>
+<tr><td><strong>UC-Wide Mutual Aid</strong></td><td>Pursuant to Chapter 13 of the UC Universitywide Police Policies and Administrative Procedures, UCPD staff and equipment from one or more campuses can travel to another UC campus to support that campus' police department with both planned and unplanned events and occurrences. The Chief of Police at the host campus is primarily responsible for initiating UC-wide mutual aid requests. Requests typically made when: civil unrest is anticipated, special campus events are planned, local emergencies occur, or host campus resources deemed insufficient. The Coordinator of UC Police Services must be notified. Host campus reimburses guest campus for direct costs including overtime pay, travel expenses, equipment damage/loss, and consumable supplies.</td><td>[40][39] <a href="https://police.ucsd.edu/about/authority.html">police.ucsd.edu/about/authority</a>; UC Universitywide Police Policies Chapter 13</td></tr>
+<tr><td><strong>California State Mutual Aid</strong></td><td>UC Police, as a state law enforcement agency, participates in the California State Law Enforcement Mutual Aid Plan issued under Government Code §§8550, 8569, 8615–8619, 8668. The Sheriff of San Diego County serves as the Operational Area (OA) Law Enforcement Coordinator. When requested to provide mutual aid, a reasonable response consists of up to 50% of available on-duty uniformed personnel. Mutual aid may not be used for labor strikes except in event of violence. Pre-planned events (concerts, parades) are NOT mutual aid — those use MOUs and Joint Powers Agreements.</td><td><a href="https://police.ucsd.edu/about/authority.html">[40] police.ucsd.edu/about/authority</a></td></tr>
+<tr><td><strong>Transformational Policing Initiative</strong></td><td>UC San Diego continues its Transformational Policing Initiative. Described as a cultural shift that promotes justice and equity, fostering trust, collaborative community relationships and empowering all officers to make positive change. Complements and aligns with: (1) the 58 recommendations encompassed in the six pillars of the 2015 U.S. President's Task Force on 21st Century Policing; (2) the 28 recommendations of the 2019 University of California Presidential Task Force on Policing report; and (3) the UC Systemwide Community Safety Plan. UCSD PD states it has adopted policies, programs and practices aligned with the tenets of transformational policing.</td><td>[53][47][51] <a href="https://police.ucsd.edu/about/transformational.html">police.ucsd.edu/about/transformational</a></td></tr>
+<tr><td><strong>IACLEA Accreditation</strong></td><td>ACCREDITED. UCSD PD holds IACLEA accreditation. Among 6 UC campuses accredited as of January 2025 (UCB, UCD, UCI, UCSD, UCSF, UCSB). UCSC achieved accreditation October 2025, bringing total to 7 of 10. Panic button testing required quarterly as part of IACLEA accreditation standards.</td><td>[27][28] <a href="https://police.ucsd.edu/about/security/">police.ucsd.edu/about/security</a></td></tr>
+<tr><td><strong>CALEA Accreditation</strong></td><td>NOT ACCREDITED. Only UCSF PD holds CALEA accreditation among UC system police departments.</td><td>[27]</td></tr>
+<tr><td><strong>Community Service Officers (CSO)</strong></td><td>Student employee program providing safety escorts from sunset to sunrise, building checks, and general citizen assistance. CSOs serve as additional "eyes and ears" of the department. Safety escorts available to all UCSD students, staff and faculty. Chief Rose noted program's origin: "The year before I started working there, it was called Joe's Escort Service and it was run by a group of frat guys who saw a need in the community." University formalized program under UCSD PD.</td><td><a href="https://police.ucsd.edu/about/cso.html">[29][48] police.ucsd.edu/about/cso</a></td></tr>
+<tr><td><strong>University Safety Officials (USO)</strong></td><td>UCSD PD partners with Housing·Dining·Hospitality to offer USO Program. USOs are department employees (not police officers) who complete a civilian field-training program including cultural diversity and inclusion, conflict resolution, crisis intervention and mental health support. Two USOs assigned to residential areas of each college from 8 PM to 6 AM daily. They patrol parking areas, make building checks, and serve as liaisons with Resident Advisors.</td><td><a href="https://police.ucsd.edu/about/uso.html">[29] police.ucsd.edu/about/uso</a></td></tr>
+<tr><td><strong>Complaint Process</strong></td><td>All citizen and anonymous complaints promptly and thoroughly investigated. Chief of Police or designee reviews complaint and assigns investigator (unless complaint is about Chief, then complaint goes to Chief's manager). Written notification of disposition provided within 30 days per California Penal Code §832.7(e)(1). Anonymous reporting available via P3 Global Intel Tip Management Software (online and mobile app). Department states it "welcomes constructive criticism and valid complaints about the conduct of the department, its officers or its operations."</td><td><a href="https://police.ucsd.edu/contact/complaint.html">[38] police.ucsd.edu/contact/complaint</a></td></tr>
+<tr><td><strong>Police Accountability Board (PAB)</strong></td><td>Established pursuant to UC Community Safety Plan. PAB impartially reviews investigative reports related to allegations of police misconduct and makes recommendations in a timely manner regarding complaints filed by members of the public against UCSD PD. Also solicits information and input through public forums. May make policy, procedure and training recommendations. Anyone affected by UCSD PD may file complaint regardless of citizenship or UC affiliation.</td><td><a href="https://pab.ucsd.edu/">[35][51] pab.ucsd.edu</a></td></tr>
+<tr><td><strong>Body-Worn Cameras</strong></td><td>Implemented per UC systemwide BWC policy (Chapter 15 of UC Universitywide Police Policies and Administrative Procedures). Requires sworn personnel from lieutenant through officer to wear BWV systems while on duty, with activation required prior to initiating any criminal investigative or enforcement activity involving a member of the public. San Diego City Attorney's Office referenced review of "substantial body-worn camera footage" in May 2024 Gaza encampment case.</td><td>[39][18] UC Universitywide Police Policies Chapter 15; SD Union-Tribune Oct 31, 2024</td></tr>
+<tr><td><strong>Union Representation</strong></td><td>Federated University Police Officers' Association (FUPOA) under PA unit collective bargaining agreement, same as all 10 UC campus police departments. FUPOA filed PERB petition SF-RR-1052-H in 2025 to expand representation to include sergeants. 2026 successor bargaining notice issued by UC.</td><td><a href="https://federateduniversitypoa.org/uc-san-diego">[44][54] federateduniversitypoa.org/uc-san-diego</a></td></tr>
+<tr><td><strong>Triton CORE</strong></td><td>Mobile response team at UC San Diego providing compassionate intervention and support to students experiencing behavioral health crisis. Composed of licensed behavioral health professionals for mobile crisis response, behavioral health wellness checks, and in-person or telehealth assessment. Predecessor: UCSD PD and CAPS piloted Psychiatric Emergency Response Team (PERT) in 2021 under Chief Rose's Transformative Policing Initiative.</td><td><a href="https://tritoncore.ucsd.edu/">[29][54] tritoncore.ucsd.edu</a></td></tr>
+<tr><td><strong>Ride-Along Program</strong></td><td>UC San Diego students, faculty and staff can ride along with a police officer performing campus patrol duties. Participants must sign waiver and pass online law enforcement records check.</td><td><a href="https://police.ucsd.edu/engagement/ride-along.html">[29] police.ucsd.edu/engagement/ride-along</a></td></tr>
+<tr><td><strong>Clery Act Compliance</strong></td><td>Department publishes Annual Security &amp; Fire Safety Report per federal requirements (20 U.S.C. §1092(f)). No specific federal audit findings or fines identified for UCSD in available records as of this report. Report copies available by calling (858) 534-4361.</td><td><a href="https://police.ucsd.edu/alerts/clery.html">[29][26] police.ucsd.edu/alerts/clery</a></td></tr>
+<tr><td><strong>Budget</strong></td><td>Not publicly disclosed in available sources. UCSD PD does not appear to publish a standalone budget document. Department falls under Vice Chancellor for Operations Management and Capital Programs.</td><td>[29] UCSD PD website review</td></tr>
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════ SECTION B ═══════════════════════════════════ -->
+<div id="secB" class="section-heading">SECTION B — CHRONOLOGICAL INCIDENT LOG: REPORTABLE EVENTS, USE OF FORCE, COMPLAINTS &amp; LITIGATION</div>
+
+<div class="key-finding">
+  <strong>Pre-Mandatory Disclosure Era Note:</strong> Incidents occurring prior to January 1, 2019 (SB 1421 effective date) and prior to January 1, 2022 (AB 48 effective date) are documented as historical context. Reporting mandates did not apply to these incidents at the time of occurrence. They are presented here in full chronological detail as required evidentiary context for understanding the department's compliance posture during the mandatory disclosure era.
+</div>
+
+<table class="data-table">
+<thead><tr><th style="width:14%">Date / Period</th><th style="width:30%">Incident Description</th><th style="width:16%">Applicable Law / Standard</th><th style="width:12%">Reported to POST?</th><th style="width:10%">Era</th><th style="width:18%">Outcome / Status</th></tr></thead>
+<tbody>
+
+<tr class="pre-era-header"><td colspan="6"><span class="pre-era-badge">Pre-Mandatory Disclosure Era</span> — Events Prior to January 1, 2019 (SB 1421 Effective Date)</td></tr>
+
+<tr>
+  <td>February 15, 2010</td>
+  <td><strong>COMPTON COOKOUT RACIAL INCIDENT</strong> — Off-campus party organized by several UCSD fraternity members (Pi Kappa Alpha and others) dubbed the "Compton Cookout," intended to mock Black History Month. Facebook invitation urged attendees to "experience the various elements of life in the ghetto" and dress in stereotypical attire. Event gained national media attention. While off-campus and not directly a UCSD PD enforcement matter, the incident triggered campus-wide racial crisis requiring extensive police response for subsequent protests. UCSD had the smallest percentage of African American students in the nine-campus UC system at the time (approximately 1.3% of 20,000 undergraduates).</td>
+  <td>Title IV &amp; Title VI, Civil Rights Act of 1964; UC Principles of Community</td>
+  <td>N/A — Campus climate event, not officer misconduct</td>
+  <td><span class="pre-era-badge">Pre-SB 1421</span></td>
+  <td>Triggered "Black Winter" — series of racially charged incidents including noose found in Geisel Library, KKK hood placed on Dr. Seuss statue, racial slur broadcast on student TV. Black Student Union declared "state of emergency." Led to occupation of Chancellor Fox's office by approximately 300 students/staff/faculty on February 26, 2010. BSU presented 32 demands.</td>
+</tr>
+
+<tr>
+  <td>February 25, 2010</td>
+  <td><strong>NOOSE FOUND IN GEISEL LIBRARY</strong> — A noose was discovered hanging from a bookcase in UCSD's main library (Geisel Library) during the ongoing racial crisis following the Compton Cookout. Students stormed and occupied Chancellor Mary Anne Fox's office for six hours. UCSD PD responded to secure campus.</td>
+  <td>CA Penal Code §422.6 (hate crimes); Title VI, Civil Rights Act of 1964</td>
+  <td>N/A — Criminal investigation matter</td>
+  <td><span class="pre-era-badge">Pre-SB 1421</span></td>
+  <td>Student responsible for noose identified. Incident contributed to national media coverage and calls for reform. BSU demanded vigorous recruitment of underrepresented groups and reapportionment of resources.</td>
+</tr>
+
+<tr>
+  <td>March 2010</td>
+  <td><strong>KKK HOOD ON DR. SEUSS STATUE</strong> — A Ku Klux Klan hood was found placed on the head of the Dr. Seuss (Theodor Geisel) statue outside Geisel Library, marking the fourth racially charged on-campus incident during Winter Quarter 2010.</td>
+  <td>CA Penal Code §422.6 (hate crimes)</td>
+  <td>N/A — Criminal investigation matter</td>
+  <td><span class="pre-era-badge">Pre-SB 1421</span></td>
+  <td>Further intensified campus racial crisis. BSU and UCSD administration eventually reached agreement to work together. Actions included: creation of DEI undergraduate requirement; creation of student resource centers; permanent installation of the Chicano Legacy Mural.</td>
+</tr>
+
+<tr>
+  <td>April 12, 2012</td>
+  <td><strong>DOJ/DOE SETTLEMENT — RACIAL HARASSMENT</strong> — UC San Diego reached settlement with U.S. Departments of Justice and Education over February 2010 racial incidents. Settlement arose from investigation over complaints of racial harassment against African-American students in violation of Titles IV and VI of the Civil Rights Act of 1964. Under terms: UCSD agreed to revise campus policies and procedures related to racial harassment; maintain Office for the Prevention of Harassment and Discrimination (OPHD); provide mandatory training; take steps to prevent racial harassment, respond appropriately to harassment that occurs, and eliminate hostile environment.</td>
+  <td>Title IV &amp; Title VI, Civil Rights Act of 1964; DOJ/DOE resolution agreement</td>
+  <td>N/A — Federal compliance matter</td>
+  <td><span class="pre-era-badge">Pre-SB 1421</span></td>
+  <td>Settlement reached. UCSD implemented required reforms including revised policies, mandatory training, and enhanced complaint infrastructure.</td>
+</tr>
+
+<tr>
+  <td>2012</td>
+  <td><strong>UC UNDERGRADUATE EXPERIENCE SURVEY (UCUES) — POST-COMPTON COOKOUT</strong> — Survey specifically examined campus climate before and after 2010 Compton Cookout. Found that Black students felt both undervalued and disrespected compared to every other group on campus. Black students would be less likely to re-enroll than every other measured group. During 2010 protests, many Black students passed around forms to withdraw or transfer. The 2014 and 2016 UCUES surveys removed questions that documented attitudes of Black students, making ongoing climate assessment more difficult.</td>
+  <td>Title VI, Civil Rights Act of 1964; UC institutional research</td>
+  <td>N/A — Institutional assessment</td>
+  <td><span class="pre-era-badge">Pre-SB 1421</span></td>
+  <td>Survey documented ongoing harm. Removal of relevant survey questions in 2014 and 2016 hindered ability to track campus climate progress.</td>
+</tr>
+
+<tr>
+  <td>January 2014</td>
+  <td><strong>OFFICER JAMES STEVÉ TRANSFERS FROM UCSB TO UCSD PD</strong> — Black police officer James Stevé transferred from UC Santa Barbara police force to UCSD PD due to discrimination he faced at UCSB. His subsequent experiences at UCSD PD would form the basis of a federal lawsuit filed in 2021.</td>
+  <td>Title VII, Civil Rights Act of 1964; California FEHA; CA Whistleblower Protection Act</td>
+  <td>Unknown — Complaint involves UCSD PD internal culture</td>
+  <td><span class="pre-era-badge">Pre-SB 1421</span></td>
+  <td>Stevé later filed federal lawsuit against UC Regents and UCSD in July 2021.</td>
+</tr>
+
+<tr>
+  <td>2015–2018</td>
+  <td><strong>STEVÉ ALLEGATIONS OF RACIAL DISCRIMINATION AND RETALIATION</strong> — According to filed complaint, Officer James Stevé experienced systematic racism, sexism, and homophobia within UCSD PD. Specific allegations: Captain Morris constantly followed him while at work; unmarked UCSD PD patrol vehicles observed outside his home without notification; in 2018, Stevé removed from Field Training Program by Chief Dave Rose and Sergeant Jones — "not due to merit, but rather because of Sergeant Jones and Chief Rose's personal reasons" — resulting in 5% income reduction. Stevé attempted to file numerous complaints. Claims UC Office of the President, UCSD, and UCSD PD did not investigate any of his reports. Attorney Darren Richie stated lawsuit stemmed from "systematic issues within UCSD PD."</td>
+  <td>Title VII, Civil Rights Act of 1964; CA FEHA; CA Labor Code §1102.5; First Amendment</td>
+  <td>Unknown — Filed complaints with OPHD and UC Labor Relations; claims UCOP, UCSD, and UCSD PD did not investigate any of his reports</td>
+  <td><span class="pre-era-badge">Pre-SB 1421</span> / Post for later events</td>
+  <td>Stevé attempted to file numerous complaints; claims were not investigated. Led to federal lawsuit.</td>
+</tr>
+
+<tr class="pre-era-header"><td colspan="6"><span class="pre-era-badge">Mandatory Disclosure Era</span> — Events On or After January 1, 2019 (SB 1421) / January 1, 2022 (AB 48)</td></tr>
+
+<tr>
+  <td>January 1, 2019 – May 2020</td>
+  <td><strong>SB 1421 NON-COMPLIANCE — ZERO RECORDS DISCLOSED</strong> — UCSD PD identified as one of six UC campus police departments providing NO records in response to SB 1421 public records requests, per Voice of San Diego investigation published May 12, 2020. The six non-compliant campuses were UCSD, UCB, UCLA, UCI, UCSC, and UCSF. Only three UC campuses — UC Davis, UC Merced, and UC Santa Barbara — provided any SB 1421 records. Dan Scannell, systemwide PRA coordinator for UCOP, stated in February 2019 email: "UCSD (and nearly every other campus, as I recall) has already informed other CPRA requestors that it has no records under SB 1421." UC system-wide: over 200 use-of-force incidents documented but only 2 case files released. UC spokesperson Amy Weitz stated there was "no UC-wide policy guiding the release of SB 1421 records." UC Irvine professor Emily Owens stated she believes "it's likely easier for police departments within university systems to evade the level of scrutiny that city agencies face."</td>
+  <td>SB 1421 (Penal Code §832.7(b)); California Public Records Act</td>
+  <td><span class="badge badge-noncompliant">DOCUMENTED NON-DISCLOSURE — AS OF MAY 2020 REVIEW</span> — No records provided as of Voice of San Diego investigation, May 12, 2020. Current disclosure status not independently verified as of March 2026.</td>
+  <td>Post-SB 1421</td>
+  <td>UCSD PD among 6 of 10 UC campuses providing zero records. UC system maintained list of 200+ use-of-force incidents but did not provide records.</td>
+</tr>
+
+<tr>
+  <td>July 23, 2021</td>
+  <td><strong>STEVÉ v. UC REGENTS — FEDERAL LAWSUIT FILED</strong> — James Stevé filed lawsuit against UC Board of Regents and UCSD. Four causes of action: (1) Denial of First Amendment rights; (2) Violation of California Whistleblower Protection Act; (3) Negligent infliction of emotional distress (NIED); (4) Violation of California Labor Code §1102.5. Complaint alleged UCSD PD's conduct caused plaintiff "loss of financial stability, peace of mind and future security, and to suffer emotionally, physically, and mentally." UCSD spokesperson Leslie Sepuka stated UCSD "seeks to enforce fairness, cooperation, and professionalism."</td>
+  <td>First Amendment; CA Whistleblower Protection Act; CA Labor Code §1102.5; NIED</td>
+  <td>Unknown</td>
+  <td>Post-SB 1421; Post-SB 16</td>
+  <td>Case filed. Outcome not confirmed in available public records as of this report.</td>
+</tr>
+
+<tr>
+  <td>May 1, 2024</td>
+  <td><strong>GAZA SOLIDARITY ENCAMPMENT ESTABLISHED</strong> — Pro-Palestinian student demonstrators, organized by Students for Justice in Palestine at UCSD (UCSDivest coalition), established "Gaza Solidarity Encampment" along Library Walk, part of nationwide campus protest movement. Encampment demanded UCSD permanently sever all institutional ties to Israel and entities "complicit in the Gaza genocide, including research partnerships." Encampment grew over five days. Remained peaceful through May 5.</td>
+  <td>First Amendment; UC campus policy on time, place, and manner of expression</td>
+  <td>N/A — Protest activity</td>
+  <td>Post-AB 48</td>
+  <td>Encampment grew over five days. Remained peaceful through May 5.</td>
+</tr>
+
+<tr>
+  <td>May 5, 2024</td>
+  <td><strong>CHANCELLOR KHOSLA STATEMENT — ENCAMPMENT DECLARED "ILLEGAL"</strong> — Chancellor Pradeep Khosla issued public statement calling encampment "illegal" and stating it posed "unacceptable safety and security hazard on campus." Stated protesters had broken commitment not to increase encampment size. "In the last week, the encampment has limited free movement on campus, created a checkpoint for entry into the camp, and denied access to the fire marshal and health inspectors." Added: "As time passes, the threat and potential for violent clashes increases." Signs posted informing students they would be held "fully accountable under the student code of conduct." Professor David FitzGerald (Sociology, taught at UCSD since 2007) would later call this statement "a cynical lie" used to justify "a violent oppression of peaceful speech by heavily armed police."</td>
+  <td>UC campus policy; California Education Code</td>
+  <td>N/A — Administrative action</td>
+  <td>Post-AB 48</td>
+  <td>Statement set stage for law enforcement clearance the following morning.</td>
+</tr>
+
+<tr>
+  <td>May 6, 2024<br>~5:30–5:45 AM</td>
+  <td><strong>POLICE RAID ON GAZA ENCAMPMENT — UNLAWFUL ASSEMBLY DECLARED</strong> — At approximately 5:30 AM, dozens of officers in riot gear from UCSD Police, California Highway Patrol, and San Diego County Sheriff's Department arrived at encampment. Students were asleep in tents. Encampment spokesperson Subrein Damanhoury stated: "From my knowledge, the encampment was peaceful. They were sleeping. There was nothing going on. From what we know, the administration has not come out to talk to the students about their demands, so this was unexpected." Authorities declared unlawful assembly at approximately 5:45 AM. University stated students given approximately 10 minutes to disperse around 6:00 AM before arrests began. Approximately 200 law enforcement personnel involved. Tents dismantled, personal items loaded into trash bags and removed. Metal fences erected. Price Center locked during processing of arrestees.</td>
+  <td>AB 48 (Penal Code §13652); First Amendment; Fourth Amendment; UC campus policy</td>
+  <td><span class="badge badge-noncompliant">NOT COMPLIANT</span> — UCSD PD confirmed among 9 of 10 UC campus PDs not listed on CA DOJ AB 48 reporting website per LAist investigation, September 2025. UCSD PD served as host agency and coordinating authority for all responding agencies on UCSD property on May 6, 2024. No AB 48 report filed with CA DOJ.</td>
+  <td>Post-AB 48</td>
+  <td>Tents dismantled, personal items loaded into trash bags and removed to unknown location. Metal fences erected. Price Center locked during processing of arrestees.</td>
+</tr>
+
+<tr>
+  <td>May 6, 2024<br>~6:00 AM – 11:00 AM</td>
+  <td><strong>ARRESTS AND CONFRONTATIONS</strong> — 64 initial arrests (updated to 65 with one additional afternoon arrest). Of 65 arrested: 40 UCSD students; 24 unaffiliated or status unknown; 1 additional arrested in afternoon. Most arrested on suspicion of unlawful assembly; several also on suspicion of illegal camping or resisting arrest. Two minor injuries reported by university. Students arrested facing immediate interim suspension per Chancellor's directive. Arrestees detained in Price Center, transported via San Diego County Sheriff's buses to San Diego Central Jail for booking and immediate release. All 65 arrestees booked and released same day. Classes moved to remote instruction. West campus facilities closed. Central Campus Trolley Station temporarily closed. Gilman Transit Center closed.</td>
+  <td>Penal Code §409 (unlawful assembly); Penal Code §647(e); Penal Code §148 (resisting arrest); AB 48</td>
+  <td>See AB 48 entry above</td>
+  <td>Post-AB 48; Post-SB 1421</td>
+  <td>All 65 arrestees booked and released same day. Classes moved to remote instruction.</td>
+</tr>
+
+<tr>
+  <td>May 6, 2024<br>~9:00 AM – 11:00 AM</td>
+  <td><strong>POST-CLEARANCE CONFRONTATIONS — USE OF FORCE INCLUDING PEPPER SPRAY AND BATONS</strong> — After clearance, approximately 50 protesters gathered near Target on Library Walk, growing to hundreds. At approximately 9:00 AM, crowd moved toward Price Center Loop where Sheriff's buses were parked. Protesters surrounded buses. Sheriff's deputies in riot gear confronted protesters near Structural &amp; Materials Engineering building. Officers shoved crowd using batons, striking some. Video posted by Palestinian Youth Movement San Diego showed deputies spraying pepper spray into crowd. Imam Taha Hassane, director of Islamic Center of San Diego, reported being pepper sprayed. An inewsource reporter filming was pushed back by police and batons; when he identified himself as press, an officer pulled him through police line. Protesters barricaded Price Center food court doors. Protesters dispersed approximately 11:00 AM.</td>
+  <td>AB 48 (Penal Code §13652); SB 98 (journalist protections); Fourth Amendment; First Amendment</td>
+  <td><span class="badge badge-noncompliant">NOT COMPLIANT</span> — Pepper spray deployed by San Diego County Sheriff's Department (SDSO) deputies, documented by video evidence (Palestinian Youth Movement San Diego) and named witnesses including Imam Taha Hassane; baton use documented by multiple media outlets; UCSD PD served as host and coordinating agency. No AB 48 report filed with CA DOJ by UCSD PD. LAist September 2025 investigation confirms UCSD PD not listed on DOJ AB 48 reporting site.</td>
+  <td>Post-AB 48</td>
+  <td>Protesters dispersed ~11:00 AM. ~2:00 PM arrested persons released. SJP posted bail fundraiser.</td>
+</tr>
+
+<tr>
+  <td>May 6, 2024</td>
+  <td><strong>CHANCELLOR KHOSLA POST-CLEARANCE STATEMENT — "SIGNIFICANT DANGERS" CLAIMED</strong> — Chancellor stated "significant dangers" at encampment, claiming police found "stakes, propane tanks, metal and plywood shields, spray cans and a sword." San Diego City Attorney's Office would later state in October 2024: "no one was arrested for violence or possession of any illegal substances or weapons, nor were those arrested identified as having harassed or threatened anyone."</td>
+  <td>University administrative statement</td>
+  <td>N/A — Administrative</td>
+  <td>Post-AB 48</td>
+  <td>Chancellor's characterization directly contradicted by City Attorney's findings in October 2024.</td>
+</tr>
+
+<tr>
+  <td>May 6, 2024</td>
+  <td><strong>CAMPUS-WIDE OPERATIONAL IMPACT</strong> — University suspended facilities from North Torrey Pines Road to Interstate 5. Non-essential employees advised to move to remote operations. All west campus facilities closed. Housing and dining open. All west campus events canceled. All classes remote. Central Campus Trolley Station temporarily closed; trains bypassed. Gilman Transit Center closed. Department of Visual Arts faculty condemned "the violent and repressive police actions" and stated: "There is no evidence of violence on the part of protesters." Normal operations resumed May 7, 2024 at 6:00 AM.</td>
+  <td>20 U.S.C. §1092(f) (Clery Act); UC campus operations</td>
+  <td>N/A — Operational impact</td>
+  <td>Post-AB 48</td>
+  <td>Normal operations resumed May 7, 2024 at 6:00 AM.</td>
+</tr>
+
+<tr>
+  <td>May 2024</td>
+  <td><strong>ASSOCIATED STUDENTS (ASUCSD) RESPONSE</strong> — Associated Students unanimously voted to request meeting with administration, citing "significant disconnect between the administration and student government." Proposed: (1) explanations regarding student conduct violations; (2) clarification of rationale behind deploying law enforcement rather than dialogue; (3) improvement of communication strategies. Requested meetings with Chancellor Khosla, AVC Mahaffey, VC Satterlund, EVC Simmons. ASUCSD documented that administration failed to engage student government prior to police action.</td>
+  <td>UC student governance procedures</td>
+  <td>N/A — Student government action</td>
+  <td>Post-AB 48</td>
+  <td>ASUCSD documented that administration failed to engage student government prior to police action.</td>
+</tr>
+
+<tr>
+  <td>May 2024</td>
+  <td><strong>COMMUNITY AND FACULTY CONDEMNATION</strong> — San Diego Chicano/Latino Concilio on Higher Education condemned "the administration of UCSD's decision on May 6, 2024 to use violent police force to repress what was a non-violent student and community demonstration." Called for: dismissal of charges, dismissal of disciplinary action, vote of no confidence in Chancellor, called on UC President to dismiss Chancellor. Multiple faculty departments issued formal condemnation. Protesters' personal belongings had been loaded into trash bags and driven away to unknown location.</td>
+  <td>First Amendment; UC Principles of Community</td>
+  <td>N/A — Community response</td>
+  <td>Post-AB 48</td>
+  <td>Multiple faculty departments and community organizations formally condemned police response.</td>
+</tr>
+
+<tr>
+  <td>October 31, 2024</td>
+  <td><strong>ALL CRIMINAL CHARGES DROPPED — SAN DIEGO CITY ATTORNEY</strong> — None of 64 protesters arrested at UCSD on May 6, 2024 will face criminal charges. City Attorney's Office stated decision followed "a months-long review by the City Attorney's Office of substantial body-worn camera footage and all other available evidence." Stated: "As prosecutors, we must conclude that we can prove our case beyond a reasonable doubt before we file charges. This is an ethical mandate." Expressed concern "that the community has not received accurate information about this Office's review of the UCSD cases. Here, no one was arrested for violence or possession of any illegal substances or weapons, nor were those arrested identified as having harassed or threatened anyone." University student conduct proceedings continued despite all criminal charges being dropped.</td>
+  <td>Penal Code §409; prosecutorial discretion; CA Rules of Professional Conduct</td>
+  <td>N/A — Prosecutorial decision</td>
+  <td>Post-AB 48; Post-SB 1421</td>
+  <td>ALL charges dropped. City Attorney directly contradicted Chancellor's characterization. University student conduct proceedings continued — described as having "a really chilling, silencing effect."</td>
+</tr>
+
+<tr>
+  <td>October 2024</td>
+  <td><strong>ONE-YEAR ANNIVERSARY — DUAL VIGILS PROCEED PEACEFULLY</strong> — October 7, 2024, anniversary of Hamas attack. Approximately 120 Jewish community members held vigil outside Geisel Library. Hours later, approximately 300 pro-Palestinian demonstrators held peaceful vigil in same spot. Both vigils proceeded peacefully without incident.</td>
+  <td>First Amendment</td>
+  <td>N/A — Peaceful assemblies</td>
+  <td>Post-AB 48</td>
+  <td>Both vigils proceeded peacefully without incident.</td>
+</tr>
+
+<tr>
+  <td>2024–2025 (ongoing)</td>
+  <td><strong>STUDENT CONDUCT PROCEEDINGS — CONTINUED DESPITE CRIMINAL CHARGES DROPPED</strong> — Despite all criminal charges being dropped by the San Diego City Attorney on October 31, 2024, UCSD continued university student conduct proceedings against students arrested on May 6, 2024. Civil rights attorney noted some students placed on probation, serving as "a really chilling, silencing effect." Students represented by attorney chose full process rather than settling. Some students have graduated; for those still enrolled at UCSD, probation continues.</td>
+  <td>UC Student Code of Conduct; First Amendment</td>
+  <td>N/A — University disciplinary matter</td>
+  <td>Post-AB 48</td>
+  <td>Ongoing.</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════ SECTION C ═══════════════════════════════════ -->
+<div id="secC" class="section-heading">SECTION C — COMPLIANCE STATUS MATRIX: STATE AND FEDERAL REPORTING MANDATES</div>
+
+<table class="data-table">
+<thead><tr><th style="width:20%">Mandate / Standard</th><th style="width:22%">Description / Requirements</th><th style="width:12%">UCSD PD Status</th><th style="width:20%">Evidence / Basis</th><th style="width:10%">Date of Assessment</th><th style="width:16%">UC System Comparison</th></tr></thead>
+<tbody>
+
+<tr>
+  <td><strong>SB 1421</strong><br>Penal Code §832.7(b)<br>Peace Officer Records Disclosure</td>
+  <td>Effective January 1, 2019. Requires disclosure of records involving: officer-involved shootings; use of force resulting in death or great bodily injury; sustained findings of sexual assault; sustained findings of dishonesty.</td>
+  <td><span class="badge badge-noncompliant">DOCUMENTED NON-DISCLOSURE — AS OF MAY 2020 REVIEW</span></td>
+  <td>Voice of San Diego investigation (May 12, 2020) identified UCSD PD as one of six UC campus police departments providing NO records in response to SB 1421 public records requests. UCOP PRA coordinator Dan Scannell confirmed in February 2019 email that "UCSD (and nearly every other campus) has already informed other CPRA requestors that it has no records under SB 1421." UC spokesperson Amy Weitz confirmed no UC-wide policy guiding SB 1421 releases. Current disclosure status not independently verified as of March 2026.</td>
+  <td>May 2020</td>
+  <td>6 of 10 UC campuses provided no records (UCSD, UCB, UCLA, UCI, UCSC, UCSF). Only 3 compliant (UCD, UCM, UCSB). UC system-wide: 200+ use-of-force incidents; only 2 case files released systemwide.</td>
+</tr>
+
+<tr>
+  <td><strong>SB 16</strong><br>Penal Code §832.7<br>Expanded Records Disclosure</td>
+  <td>Effective January 1, 2022. Expands SB 1421 to include: sustained findings of unreasonable/excessive force; failure to intervene; racial bias; unlawful arrests/searches.</td>
+  <td><span class="badge badge-unknown">UNKNOWN</span></td>
+  <td>UCSD PD website does not maintain a dedicated SB 16 disclosure page. No sustained findings identified in available public records. Absence of disclosures does not confirm compliance.</td>
+  <td>March 2026</td>
+  <td>Multiple UC campuses lack dedicated SB 16 disclosure pages.</td>
+</tr>
+
+<tr>
+  <td><strong>AB 48</strong><br>Penal Code §13652<br>Crowd Control Weapons Reporting</td>
+  <td>Effective January 1, 2022. Requires documentation of any use of crowd-control weapons during protest response. Reports posted online within 60 days (90 days with extension). CA DOJ gathers centrally.</td>
+  <td><span class="badge badge-noncompliant">NOT COMPLIANT</span></td>
+  <td>UCSD PD confirmed among 9 of 10 UC campus PDs NOT listed on the CA DOJ AB 48 reporting website per LAist investigation, September 2025. Only UCLA PD documented compliance systemwide. During the May 6, 2024 encampment clearance: baton use was documented by multiple media outlets during post-clearance confrontations; pepper spray was specifically deployed by San Diego County Sheriff's Department deputies (SDSO) as documented by video evidence and named witnesses including Imam Taha Hassane, director of the Islamic Center of San Diego. UCSD PD was the host agency, coordinating authority, and mutual aid requestor for all responding agencies on UCSD property. No AB 48 report was filed with the CA DOJ by UCSD PD for the May 6, 2024 deployment. AB 48 reporting obligations attach to the host agency for planned mutual aid events on its jurisdiction.</td>
+  <td>September 2025</td>
+  <td>9 of 10 UC campus PDs non-compliant. Only UCLA documented one incident June 2024. DOJ lists reports from only 32 of 624 agencies statewide.</td>
+</tr>
+
+<tr>
+  <td><strong>AB 481</strong><br>Military Equipment Use and Reporting</td>
+  <td>Requires governing body approval for military equipment, published policy, and annual report.</td>
+  <td><span class="badge badge-partial">PARTIAL — PUBLIC SESSIONS DOCUMENTED; ANNUAL REPORT NOT INDEPENDENTLY VERIFIED</span></td>
+  <td>UCSD PD website advertises AB 481 public information presentations: "Join us for a presentation and Q&amp;A about police equipment that falls under the military equipment definition per AB-481." Public information sessions held and documented. Full independent verification of annual report submission to the UC Regents and publication in compliance with AB 481's reporting mandate was not confirmed in available public sources as of this report.</td>
+  <td>March 2026</td>
+  <td>Compliance varies across UC system.</td>
+</tr>
+
+<tr>
+  <td><strong>Penal Code §13510.9</strong><br>POST Notification of Officer Separation</td>
+  <td>Requires agencies to notify POST within 10 days of any officer separation.</td>
+  <td><span class="badge badge-unknown">UNKNOWN</span></td>
+  <td>No publicly available evidence documenting UCSD PD's compliance with 10-day POST notification for officer separations. Multiple chief transitions — King retirement 2014, Rose departure ~2021, Murphy departure 2022 — each triggered §13510.9 notification obligations. No confirmation of compliance identified in available records.</td>
+  <td>March 2026</td>
+  <td>UCLA PD documented non-compliance per POST complaint filed February 2026.</td>
+</tr>
+
+<tr>
+  <td><strong>RIPA</strong><br>AB 953<br>Racial Identity and Profiling Act</td>
+  <td>Requires collection and reporting of detailed stop data to CA DOJ.</td>
+  <td><span class="badge badge-presumed">PRESUMED COMPLIANT</span></td>
+  <td>No specific findings of non-compliance identified. Required as a POST participating agency.</td>
+  <td>March 2026</td>
+  <td>UC system-wide RIPA compliance generally maintained.</td>
+</tr>
+
+<tr>
+  <td><strong>Brady/Giglio</strong><br>Prosecutorial Disclosure Obligations</td>
+  <td>Requires disclosure of material impeachment evidence about officers to prosecutors. Brady v. Maryland, 373 U.S. 83 (1963); Giglio v. United States, 405 U.S. 150 (1972).</td>
+  <td><span class="badge badge-unknown">UNKNOWN</span></td>
+  <td>No publicly available Brady/Giglio disclosures identified for UCSD PD officers. Absence of disclosures does not confirm compliance. No publicly audited Brady list for UCSD PD identified in available sources.</td>
+  <td>March 2026</td>
+  <td>Brady compliance not publicly audited across UC system.</td>
+</tr>
+
+<tr>
+  <td><strong>Clery Act</strong><br>20 U.S.C. §1092(f)<br>Campus Security Reporting</td>
+  <td>Requires annual campus security and fire safety report, daily crime/fire log, timely warnings, emergency notification, and accurate classification of Clery geography crimes.</td>
+  <td><span class="badge badge-compliant">COMPLIANT</span></td>
+  <td>UCSD PD publishes Annual Security &amp; Fire Safety Report. No federal audit findings, fines, or underreporting identified for UCSD in available records as of this report. Report copies available by calling (858) 534-4361.</td>
+  <td>March 2026</td>
+  <td>UCB fined $2.35M (2020). UCSC underreported 33 crimes per 2024 audit. UCI underreported per 2020 audit. UCSD not listed among campuses with documented Clery deficiencies.</td>
+</tr>
+
+<tr>
+  <td><strong>IACLEA Accreditation</strong></td>
+  <td>Voluntary professional standards accreditation for campus law enforcement.</td>
+  <td><span class="badge badge-accredited">ACCREDITED</span></td>
+  <td>UCSD PD holds IACLEA accreditation. Among 6 UC campuses accredited as of January 2025 (UCB, UCD, UCI, UCSD, UCSF, UCSB). UCSC achieved accreditation October 2025, bringing total to 7 of 10.</td>
+  <td>January 2025</td>
+  <td>7 of 10 UC campus PDs now IACLEA accredited. UCLA, UCM, UCR not yet accredited.</td>
+</tr>
+
+<tr>
+  <td><strong>CALEA Accreditation</strong></td>
+  <td>Voluntary broader national law enforcement accreditation.</td>
+  <td><span class="badge badge-notaccredited">NOT ACCREDITED</span></td>
+  <td>Only UCSF PD holds CALEA accreditation among UC system police departments.</td>
+  <td>March 2026</td>
+  <td>1 of 10 UC campus PDs CALEA accredited.</td>
+</tr>
+
+<tr>
+  <td><strong>AB 748</strong><br>Body Camera Footage Release</td>
+  <td>Requires BWC footage release within 45 days for critical incidents involving discharge of firearm or use of force resulting in death or great bodily injury.</td>
+  <td><span class="badge badge-unknown">UNKNOWN</span></td>
+  <td>City Attorney referenced review of "substantial body-worn camera footage" in Gaza encampment case. Public release status of that footage is unknown. No documented AB 748 triggering events (OIS or GBI) identified in the mandatory disclosure era records available for UCSD PD.</td>
+  <td>March 2026</td>
+  <td>Compliance varies across UC system.</td>
+</tr>
+
+</tbody>
+</table>
+
+<div class="key-finding">
+  <strong>Key Finding — AB 48 vs. Clery Act Divergence:</strong> UCSD PD demonstrates a documented divergence in reporting compliance: the department maintains full compliance with the federal Clery Act (annual campus security report published, no audit findings or fines identified), while simultaneously failing to comply with California's AB 48 crowd-control weapons reporting mandate. During the May 6, 2024 encampment clearance, baton use was documented by multiple media outlets during post-clearance confrontations, and pepper spray was specifically deployed by San Diego County Sheriff's Department (SDSO) deputies — documented by video evidence and named witnesses — in an operation for which UCSD PD served as the host agency and coordinating authority on its own property. No AB 48 report was filed with the California DOJ by UCSD PD. The September 2025 LAist investigation confirmed UCSD PD among 9 of 10 UC campus police departments not listed on the CA DOJ AB 48 reporting website. This divergence documents a pattern in which federally mandated reporting obligations are met while California's state-mandated protest-response transparency requirements are not.
+</div>
+
+<!-- ═══════════════════════════════════ SECTION D ═══════════════════════════════════ -->
+<div id="secD" class="section-heading">SECTION D — FINANCIAL IMPACT: LITIGATION, SETTLEMENTS &amp; OPERATIONAL COSTS</div>
+
+<table class="data-table">
+<thead><tr><th style="width:12%">Date / Period</th><th style="width:30%">Description</th><th style="width:16%">Amount / Cost</th><th style="width:13%">Type</th><th style="width:10%">Status</th><th style="width:19%">Parties</th></tr></thead>
+<tbody>
+
+<tr>
+  <td>April 2012</td>
+  <td><strong>DOJ/DOE Settlement — Compton Cookout Racial Harassment</strong> — Required revised campus policies and procedures related to racial harassment; maintenance of OPHD; mandatory training; implementation of steps to prevent racial harassment, respond appropriately, and eliminate hostile environment created by the Winter 2010 incidents.</td>
+  <td>Not publicly disclosed</td>
+  <td>Federal resolution agreement</td>
+  <td>Settled / Implemented</td>
+  <td>UC Regents / U.S. Dept. of Justice / U.S. Dept. of Education</td>
+</tr>
+
+<tr>
+  <td>July 23, 2021 (filed)</td>
+  <td><strong>Stevé v. UC Regents — Racial discrimination, whistleblower retaliation, NIED, Labor Code §1102.5</strong> — Allegations of systematic racism, surveillance via unmarked police vehicles outside plaintiff's home, removal from Field Training Program resulting in 5% income reduction, and failure to investigate plaintiff's complaints by UCOP, UCSD, and UCSD PD.</td>
+  <td>Not publicly disclosed</td>
+  <td>Federal civil rights lawsuit</td>
+  <td>Filed — Outcome not confirmed in available public records as of this report</td>
+  <td>James Stevé v. UC Board of Regents, UCSD</td>
+</tr>
+
+<tr>
+  <td>May 6, 2024</td>
+  <td><strong>Gaza Encampment Clearance — Operational and Mutual Aid Costs</strong> — Approximately 200 officers deployed (UCSD PD, CHP, San Diego County Sheriff's Department). Full campus closure, west campus facilities suspended from North Torrey Pines Road to Interstate 5. Per UC mutual aid policy (Chapter 13, UC Universitywide Police Policies), host campus (UCSD) reimburses guest campus agencies for direct costs including overtime pay, travel expenses, equipment damage/loss, and consumable supplies. Specific dollar amounts not publicly disclosed.</td>
+  <td>Not publicly disclosed — Multi-agency mutual aid costs including overtime, travel, equipment, and consumables</td>
+  <td>Operational cost / UC mutual aid reimbursement + California State Mutual Aid</td>
+  <td>Completed</td>
+  <td>UCSD PD / CHP / San Diego County Sheriff</td>
+</tr>
+
+<tr>
+  <td>May 6, 2024</td>
+  <td><strong>Gaza Encampment — Student Conduct Proceedings</strong> — 40 UCSD students arrested, placed on immediate interim suspension per Chancellor's directive. Civil rights attorney retained to represent students. Students facing full conduct process rather than settling. Some placed on probation. Probation described by civil rights attorney as creating "a really chilling, silencing effect." Legal defense costs borne by students; university administrative costs of conduct proceedings not publicly disclosed.</td>
+  <td>Legal defense costs borne by students; university administrative costs not disclosed</td>
+  <td>Student disciplinary proceedings</td>
+  <td>Ongoing — Some on probation; some students have graduated</td>
+  <td>UCSD Administration / 40 arrested students</td>
+</tr>
+
+<tr>
+  <td>October 31, 2024</td>
+  <td><strong>Gaza Encampment — Criminal Charges Dropped</strong> — San Diego City Attorney declined prosecution of all 64 protesters arrested at UCSD on May 6, 2024, following "a months-long review of substantial body-worn camera footage and all other available evidence." City Attorney directly contradicted Chancellor's characterization that "significant dangers" had been present at the encampment. City Attorney's investigation costs not publicly disclosed.</td>
+  <td>City Attorney investigation costs not publicly disclosed</td>
+  <td>Criminal prosecution review — outcome: declined to prosecute</td>
+  <td>All criminal charges dropped</td>
+  <td>City of San Diego City Attorney / 64 arrestees</td>
+</tr>
+
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════ SECTION E ═══════════════════════════════════ -->
+<div id="secE" class="section-heading">SECTION E — LEADERSHIP HISTORY: CHIEF OF POLICE CHRONOLOGY</div>
+
+<table class="data-table">
+<thead><tr><th style="width:14%">Period</th><th style="width:14%">Chief / Interim Chief</th><th style="width:22%">Background / Key Details</th><th style="width:22%">Key Events During Tenure</th><th style="width:14%">Departure Circumstances</th><th style="width:14%">POST-Relevant Notes</th></tr></thead>
+<tbody>
+
+<tr>
+  <td>~2002 – June 2014<br>(~12 years)</td>
+  <td><strong>Chief Orville King</strong></td>
+  <td>12-year tenure as UCSD PD Chief. Predecessor to Chief David S. Rose.</td>
+  <td>Led department through 2010 Compton Cookout racial crisis, noose in Geisel Library, KKK hood on Dr. Seuss statue, and subsequent federal DOJ/DOE investigation. Department responded to campus-wide protests, BSU 32-point demands, and Chancellor's office occupation by approximately 300 students/staff/faculty. Federal resolution agreement with DOJ/DOE signed April 2012 during tenure.</td>
+  <td>Retired June 2014</td>
+  <td>Served during pre-SB 1421 era. Federal racial harassment settlement signed during tenure. Penal Code §13510.9 POST notification obligation triggered upon retirement.</td>
+</tr>
+
+<tr>
+  <td>June 30, 2014 – ~2021<br>(~7 years)</td>
+  <td><strong>Chief David S. Rose</strong></td>
+  <td>32+ years UCSD experience. Started as student Community Service Officer/dispatcher while pre-med student; switched to policing career. Graduated UCSD magna cum laude 1994, B.A. Political Science. Promoted: officer → sergeant → lieutenant → captain (2009) → chief (June 30, 2014). FBI National Academy graduate (Quantico). FBI Law Enforcement Executive Development Seminar participant. Numerous POST certificates in managerial and supervisory training. Internal promotion from captain (second-in-command). Starting salary $155,000/year.</td>
+  <td>Responsible for security at high-profile events (visits by President Clinton, Dalai Lama, foreign presidents). Named in Officer Stevé's 2021 federal lawsuit — Stevé alleges Rose removed him from Field Training Program "not due to merit" resulting in 5% income reduction. SB 1421 non-compliance (effective Jan 2019) occurred during final years of tenure. Launched Transformative Policing Initiative and piloted PERT with CAPS in 2021.</td>
+  <td>Approximate departure 2021; specific circumstances not confirmed in available public records</td>
+  <td>SB 1421 became effective January 1, 2019 during Rose's tenure. UCSD PD provided zero SB 1421 records per Voice of San Diego May 2020 investigation. Rose holds POST certificates per SD Union-Tribune. Penal Code §13510.9 POST notification obligation triggered upon departure.</td>
+</tr>
+
+<tr>
+  <td>July 2021 – August/September 2022<br>(~14 months)</td>
+  <td><strong>Interim Chief Gregory Murphy</strong></td>
+  <td>Returned to UCSD July 2021 as Assistant Chief, then served as Interim/Acting Chief during recruitment period. Background: Born West Virginia early 1960s; son of WWII veteran and coal miner; nine siblings. U.S. Air Force veteran (information technology). LAPD 10 years — specialized in street gang enforcement; significant contributions establishing LAPD's data warehouse for collecting, tracking, and reporting use-of-force incidents, preventable collisions, community complaints, and lawsuits. UC Davis Lieutenant. California POST regional manager — trained and consulted with over 200 California police agencies. CSU Northridge Police Chief. Master's degree in Information Technology. Bachelor's in Computer Science. Lecturer for University of Virginia's Master's in Public Safety program.</td>
+  <td>Served during interim recruitment period. Implemented UC Community Safety Plan at UCSD (announced August 2021 by UC President Drake). Introduced University Safety Officials (USO) program expansion. Open-door policy. Collaborated with other eight UC campus police chiefs to implement police reform within UC system.</td>
+  <td>Left UCSD to become Interim Chief at San Diego State University (SDSU). San Diego Union-Tribune reported September 11, 2022 that Murphy was named SDSU interim chief; official change of command at SDSU occurred September 4, 2022. Murphy was permanently sworn in as SDSU Chief on June 13, 2023.</td>
+  <td>Former California POST regional manager — direct knowledge of POST reporting requirements; trained 200+ California agencies. Departure for SDSU triggered POST 10-day notification obligation under Penal Code §13510.9. UCSD PD website "Message from the Chief" page continued to reference Murphy after his departure, resulting in documented identity confusion regarding the department's current leadership.</td>
+</tr>
+
+<tr>
+  <td>~Late 2022 / 2023 – Present</td>
+  <td><strong>Chief Lamine B. Secka, M.S.</strong></td>
+  <td>UCSD alumnus, B.A. Communications (1995). Began law enforcement career as a student Community Service Officer (CSO) and then dispatcher at UCSD PD; laterally transferred to sworn officer status after attending San Diego Police Department academy (1996). Subsequent career trajectory: UCI PD → SDSU PD (sworn officer, then Chief, approximately 3 years) → CSU San Marcos (Interim Chief, then permanent Chief effective January 1, 2020). FBI National Academy graduate (Class 242). POST Master Instructor Development Program credential holder. Master's Degree in Homeland Security, SDSU. Adjunct faculty member, SDSU Homeland Security Graduate Program. FBI InfraGard — Board Member and Education Sector Chief, San Diego Chapter; received InfraGard National Sector Chief of the Year award (FBI Director's recognition). His appointment to UCSD PD Chief formally archived by UC San Diego Special Collections &amp; Archives. NOTE: As of the period of research for this chapter, the body text of the UCSD PD website's "Message from the Chief" page still reads "Read a message from Chief Murphy," while the page sidebar and navigation correctly identify "Lamine Secka Chief of Police" — a documented internal website inconsistency within the department's own public-facing materials.</td>
+  <td>Current tenure encompasses the period following the May 6, 2024 Gaza encampment clearance, the San Diego City Attorney's October 31, 2024 decision to decline prosecution of all 65 arrestees, and ongoing student conduct proceedings. IACLEA accreditation maintained. AB 48 non-compliance confirmed by LAist September 2025 investigation. SB 1421 disclosure status not independently verified for current tenure period.</td>
+  <td>Permanent appointment — departure date N/A</td>
+  <td>Confirmed current Chief of Police per: UCSD PD Department Contacts page (police.ucsd.edu/contact/dept-contacts.html); UCSD PD Policy Manual signed by "Lamine B. Secka, M.S." (October 31, 2024); UCSD Office of the Vice Chancellor contact page; UCSD Safe Campus contact page; Calisphere archival record of appointment. Penal Code §13510.9 POST notification obligation was triggered upon appointment as new chief executive officer. As a POST participating agency chief appointed after January 1, 1999, Chief Secka is required to obtain the Basic Certificate from POST within two years of appointment per Penal Code §832.4.</td>
+</tr>
+
+</tbody>
+</table>
+
+<div class="key-finding">
+  <strong>Key Finding — UCSD PD Leadership Continuity and Documented Website Inconsistency:</strong> Independent research for this chapter confirms that Chief Lamine B. Secka, M.S., is the current UCSD PD Chief of Police, as verified across multiple official UCSD institutional sources including the UCSD PD Department Contacts page, the UCSD PD Policy Manual (signed October 31, 2024), the UCSD Office of the Vice Chancellor contact page, the UCSD Safe Campus contact page, and an archived UC San Diego appointment notice documented in Calisphere. Chief Secka is an UCSD alumnus, FBI National Academy graduate, and holds the POST Master Instructor Development Program credential. He succeeded Interim Chief Gregory Murphy, who departed for San Diego State University in September 2022 and was permanently sworn as SDSU Chief on June 13, 2023. A documented internal inconsistency exists within UCSD PD's own public-facing web materials: as of the period of research for this report, the body text of the "Message from the Chief" page (police.ucsd.edu/about/message.html) still reads "Read a message from Chief Murphy," while the same page's sidebar navigation and official department contact pages correctly identify "Lamine Secka Chief of Police." This internal website inconsistency is a documented matter of public record.
+</div>
+
+<!-- ═══════════════════════════════════ SECTION F ═══════════════════════════════════ -->
+<div id="secF" class="section-heading">SECTION F — SOURCE INDEX: COMPLETE CITATION LIST WITH DEFENSIBLE URLs</div>
+
+<div class="sub-heading">Journalistic and Investigative Sources</div>
+<p class="source-index-entry"><span class="source-num">[1]</span> KPBS — Dozens arrested as police clear UC San Diego encampment (May 6, 2024): <a href="https://www.kpbs.org/news/education/2024/05/06/chp-raids-ucsd-gaza-solidarity-encampment">kpbs.org</a></p>
+<p class="source-index-entry"><span class="source-num">[9]</span> UCSD Guardian — Black UCSD Police Officer Files Lawsuit against UCSD (Oct 17, 2021): <a href="https://ucsdguardian.org/2021/10/17/black-ucsd-police-officer-files-lawsuit-against-ucsd/">ucsdguardian.org</a></p>
+<p class="source-index-entry"><span class="source-num">[10]</span> Voice of San Diego — UC Campuses Have Disclosed Virtually No Records Under Police Transparency Law (May 12, 2020): <a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/">voiceofsandiego.org</a></p>
+<p class="source-index-entry"><span class="source-num">[11]</span> UAW 2865 — Policing in the University of California Research Working Group Report: <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-Research-WG-Report.pdf">uaw2865.org</a></p>
+<p class="source-index-entry"><span class="source-num">[12]</span> FOX 5 San Diego — UCSD students from pro-Palestine encampment arrested (May 7, 2024): <a href="https://fox5sandiego.com/news/local-news/police-clearing-uc-san-diego-protest-west-campus-operations-suspended/">fox5sandiego.com</a></p>
+<p class="source-index-entry"><span class="source-num">[13]</span> San Diego Union-Tribune — Police raid UCSD Gaza protest encampment, arrest dozens (May 6, 2024): <a href="https://www.sandiegouniontribune.com/news/education/story/2024-05-06/police-descend-on-ucsd-encampment">sandiegouniontribune.com</a></p>
+<p class="source-index-entry"><span class="source-num">[14]</span> inewsource — UCSD campus encampment raided by police (May 6, 2024): <a href="https://inewsource.org/2024/05/06/ucsd-encampment-police/">inewsource.org</a></p>
+<p class="source-index-entry"><span class="source-num">[15]</span> Times of San Diego — Police Clear Pro-Palestine Encampment at UC San Diego, Arrest Dozens (May 6, 2024): <a href="https://timesofsandiego.com/education/2024/05/06/police-clear-pro-palestine-encampment-at-uc-san-diego-arrest-dozens/">timesofsandiego.com</a></p>
+<p class="source-index-entry"><span class="source-num">[16]</span> The Triton — Live Updates: Community Reacts to Encampment Clearing (May 2024): <a href="https://triton.news/2024/05/live-updates-students-establish-gaza-solidarity-encampment-along-library-walk/">triton.news</a></p>
+<p class="source-index-entry"><span class="source-num">[17]</span> CBS 8 — Tension on UC San Diego campus as police and students clash (May 2024): <a href="https://www.cbs8.com/article/news/local/police-arrive-at-ucsd-encampment/509-22db41bb-23ed-4e82-a08e-d1bba1f8fa19">cbs8.com</a></p>
+<p class="source-index-entry"><span class="source-num">[18]</span> San Diego Union-Tribune — No charges for protesters arrested after spring raid of UCSD Gaza encampment (Oct 31, 2024): <a href="https://www.sandiegouniontribune.com/2024/10/31/no-charges-for-protesters-arrested-after-spring-raid-of-ucsd-encampment/">sandiegouniontribune.com</a></p>
+<p class="source-index-entry"><span class="source-num">[20]</span> LAist — 9 out of 10 UC campus police departments fail to comply with state law around protest response (Sept 2025): <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law">laist.com</a></p>
+<p class="source-index-entry"><span class="source-num">[21]</span> LAist — Law enforcement agencies in California have to report how they use weapons during protests: <a href="https://laist.com/news/politics/california-weapons-protests-reporting-requirements">laist.com</a></p>
+<p class="source-index-entry"><span class="source-num">[30]</span> San Diego Union-Tribune — "New police chief at UCSD a familiar face" — Chief David S. Rose appointment (July 3, 2014): <a href="https://www.sandiegouniontribune.com/2014/07/03/new-police-chief-at-ucsd-a-familiar-face/">sandiegouniontribune.com</a></p>
+<p class="source-index-entry"><span class="source-num">[31]</span> UCSD Guardian — "An Officer for the Students" — Chief David Rose profile (Nov 24, 2014): <a href="https://ucsdguardian.org/2014/11/24/officer-students/">ucsdguardian.org</a></p>
+<p class="source-index-entry"><span class="source-num">[32]</span> San Diego Union-Tribune — "SDSU police chief to retire; interim replacement tapped from UC San Diego" (Sept 11, 2022): <a href="https://www.sandiegouniontribune.com/2022/09/11/sdsu-police-chief-to-retire-interim-replacement-tapped-from-uc-san-diego/">sandiegouniontribune.com</a></p>
+<p class="source-index-entry"><span class="source-num">[33]</span> UC San Diego Today — "Community Safety: Start with Respect and Dignity" — Interim Chief Gregory Murphy profile: <a href="https://today.ucsd.edu/story/community-safety-start-with-respect-and-dignity">today.ucsd.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[34]</span> SDSU News — "Gregory L. Murphy Sworn In As SDSU's Chief of Police" (June 13, 2023): <a href="https://www.sdsu.edu/news/2023/06/gregory-l-murphy-sworn-sdsus-chief-police">sdsu.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[36]</span> Axios San Diego — Police arrest protesters in raid of UC San Diego Gaza Solidarity encampment (May 6, 2024): <a href="https://www.axios.com/local/san-diego/2024/05/06/ucsd-police-arrest-gaza-solidarity-encampment-protesters">axios.com</a></p>
+<p class="source-index-entry"><span class="source-num">[37]</span> UCSD Guardian — Law enforcement dismantles encampment and arrests protesters on Library Walk (May 6, 2024): <a href="https://ucsdguardian.org/2024/05/06/may-6th-law-enforcement-dismantles-encampment-and-arrests-protesters-on-library-walk/">ucsdguardian.org</a></p>
+<p class="source-index-entry"><span class="source-num">[43]</span> inewsource — Compton Cookout sparked outrage, change at UCSD (Oct 23, 2017): <a href="https://inewsource.org/2017/10/23/compton-cookout-ucsd-gompers/">inewsource.org</a></p>
+<p class="source-index-entry"><span class="source-num">[54]</span> The Triton — "UCSD Police and CAPS To Launch New Mental Health Emergency Response Team" — Chief Rose profile and PERT pilot (2021): <a href="https://triton.news/2021/04/ucsd-police-and-caps-to-launch-new-mental-health-emergency-response-team/">triton.news</a></p>
+
+<p class="source-index-entry"><span class="source-num">[60]</span> UCSD PD — Department Contacts (confirms Chief Lamine Secka as current Chief of Police, with direct office telephone): <a href="https://police.ucsd.edu/contact/dept-contacts.html">police.ucsd.edu/contact/dept-contacts</a></p>
+<p class="source-index-entry"><span class="source-num">[61]</span> UCSD PD Policy Manual — Chief's Preface signed by "Lamine B. Secka, M.S." (Lexipol, October 31, 2024): <a href="https://police.ucsd.edu/_files/UC-San-Diego-PD-Policy-Manual.pdf">police.ucsd.edu (PDF)</a></p>
+<p class="source-index-entry"><span class="source-num">[62]</span> Calisphere — UC San Diego Special Collections &amp; Archives — "Appointment of Lamine Secka as Chief of Police, UC San Diego Police Department": <a href="https://calisphere.org/item/ark:/20775/bb7793202z/">calisphere.org/item/ark:/20775/bb7793202z</a></p>
+<p class="source-index-entry"><span class="source-num">[63]</span> San Diego Union-Tribune — "UC San Diego bursting at seams as enrollment soars to record 45,273" (Oct. 18, 2024): <a href="https://www.sandiegouniontribune.com/2024/10/18/uc-san-diego-bursting-at-seams-as-enrollment-soars-to-record-45273/">sandiegouniontribune.com</a></p>
+<p class="source-index-entry"><span class="source-num">[64]</span> UCSD Guardian — "UC San Diego enrollment reaches all-time high in the 2024–25 Academic Year" (Oct. 28, 2024): <a href="https://ucsdguardian.org/2024/10/28/uc-san-diego-enrollment-reaches-all-time-high-in-the-2024-25-academic-year/">ucsdguardian.org</a></p>
+
+<div class="sub-heading">Archival and Documentary Sources</div>
+<p class="source-index-entry"><span class="source-num">[2]</span> Wikipedia — Compton Cookout [supplementary background; primary documentation provided by Sources 3–8, 41–43]: <a href="https://en.wikipedia.org/wiki/Compton_Cookout">en.wikipedia.org</a></p>
+<p class="source-index-entry"><span class="source-num">[3]</span> The Triton — The Compton Cookout: A Day Party to be Remembered (Feb 2017): <a href="https://triton.news/2017/02/compton-cookout-day-party-remembered-not/">triton.news</a></p>
+<p class="source-index-entry"><span class="source-num">[4]</span> Democracy Now — Following String of Racist Incidents, UC San Diego Students Occupy Chancellor's Office (March 1, 2010): <a href="https://www.democracynow.org/2010/3/1/following_string_of_racist_incidents_uc">democracynow.org</a></p>
+<p class="source-index-entry"><span class="source-num">[5]</span> NBC San Diego — Racial Tensions Boil at UCSD (Feb 20, 2010): <a href="https://www.nbcsandiego.com/news/local/ucsd-students-enraged-over-n-word-broadcast/1888621/">nbcsandiego.com</a></p>
+<p class="source-index-entry"><span class="source-num">[6]</span> New University (UCI) — Racial Conflict Strikes UCSD with Compton Cook-out and Noose (March 2, 2010): <a href="https://newuniversity.org/2010/03/02/racial-conflict-strikes-ucsd-with-compton-cook-out-and-noose/">newuniversity.org</a></p>
+<p class="source-index-entry"><span class="source-num">[7]</span> UCSD Guardian — Remembering the Compton Cookout: Analyzing Our Coverage (Jan 5, 2020): <a href="https://ucsdguardian.org/2020/01/05/remembering-the-compton-cookout-analyzing-our-coverage/">ucsdguardian.org</a></p>
+<p class="source-index-entry"><span class="source-num">[8]</span> UC San Diego Faculty Association — UCSD Reaches Settlement over Compton Cookout Incidents (April 2012): <a href="https://ucsdfa.org/ucsd-reaches-settlement-over-compton-cookout-incidents">ucsdfa.org</a></p>
+<p class="source-index-entry"><span class="source-num">[41]</span> UCSD Intertribal Resource Center — ITRC History (Compton Cookout context): <a href="https://itrc.ucsd.edu/about/itrc-history.html">itrc.ucsd.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[42]</span> Calisphere — Compton Cookout archival documentation: <a href="https://calisphere.org/item/ark:/20775/bb4919726f/">calisphere.org</a></p>
+<p class="source-index-entry"><span class="source-num">[45]</span> Wikipedia — University of California police departments [supplementary background; authoritative source for UC systemwide establishment date per UCPD Berkeley Department History, Source 50]: <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments">en.wikipedia.org</a></p>
+
+<div class="sub-heading">Official UCSD PD and UC Sources</div>
+<p class="source-index-entry"><span class="source-num">[22]</span> UCSD PD — AB 481 military equipment public information event: <a href="https://police.ucsd.edu/index.html">police.ucsd.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[24]</span> AB 953 — Racial and Identity Profiling Act (RIPA) — CA DOJ: <a href="https://oag.ca.gov/ab953">oag.ca.gov/ab953</a></p>
+<p class="source-index-entry"><span class="source-num">[26]</span> Clery Act — 20 U.S.C. §1092(f): <a href="https://www.law.cornell.edu/uscode/text/20/1092">law.cornell.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[29]</span> UCSD PD website — About Us, Demographics, Employment, CSO, USO pages: <a href="https://police.ucsd.edu/about/index.html">police.ucsd.edu/about</a></p>
+<p class="source-index-entry"><span class="source-num">[35]</span> UCSD PD — Police Accountability Board: <a href="https://pab.ucsd.edu/">pab.ucsd.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[38]</span> UCSD PD — Commendations and Complaints process: <a href="https://police.ucsd.edu/contact/complaint.html">police.ucsd.edu/contact/complaint</a></p>
+<p class="source-index-entry"><span class="source-num">[39]</span> UC Universitywide Police Policies and Administrative Procedures: <a href="https://dev.police.uci.edu/how-do-i/_img/uc-universitywide-police-policies-and-administrative-procedures.pdf">UC Universitywide Police Policies (full document)</a></p>
+<p class="source-index-entry"><span class="source-num">[40]</span> UCSD PD — Authority and Mutual Aid page: <a href="https://police.ucsd.edu/about/authority.html">police.ucsd.edu/about/authority</a></p>
+<p class="source-index-entry"><span class="source-num">[44]</span> FUPOA — UC San Diego page: <a href="https://federateduniversitypoa.org/uc-san-diego">federateduniversitypoa.org/uc-san-diego</a></p>
+<p class="source-index-entry"><span class="source-num">[46]</span> SB 1421 — California Penal Code §832.7(b) (legislative text): <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB1421">leginfo.legislature.ca.gov</a></p>
+<p class="source-index-entry"><span class="source-num">[47]</span> UC Presidential Task Force on Universitywide Policing Report (2019): <a href="https://www.police.ucsb.edu/sites/default/files/policing-task-force-report_2019.pdf">police.ucsb.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[48]</span> UCSD PD — About (CSO program, demographics): <a href="https://police.ucsd.edu/about/cso.html">police.ucsd.edu/about/cso</a></p>
+<p class="source-index-entry"><span class="source-num">[50]</span> UCPD Berkeley — Department History (1947 establishment): <a href="https://ucpd.berkeley.edu/about/ucpd-berkeley-department-history">ucpd.berkeley.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[51]</span> UC Community Safety Plan: <a href="https://www.ucop.edu/uc-operations/systemwide-community-safety/policies-and-guidance/community-safety-plan/uc-community-safety-plan.pdf">ucop.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[52]</span> California Education Code §92600 (as quoted on UCSD PD Authority page): <a href="https://police.ucsd.edu/about/authority.html">police.ucsd.edu/about/authority</a></p>
+<p class="source-index-entry"><span class="source-num">[53]</span> UCSD PD — Transformational Policing Initiative: <a href="https://police.ucsd.edu/about/transformational.html">police.ucsd.edu/about/transformational</a></p>
+<p class="source-index-entry"><span class="source-num">[55]</span> UC Regents Meeting — Community Safety Plan Oversight (July 29, 2020): <a href="https://regents.universityofcalifornia.edu/regmeet/july20/c6.pdf">regents.universityofcalifornia.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[56]</span> FUPOA — About FUPOA (organization mission and representational scope): <a href="https://federateduniversitypoa.org/about-fupoa">federateduniversitypoa.org/about-fupoa</a></p>
+<p class="source-index-entry"><span class="source-num">[57]</span> UCnet — PA Unit Contract (Police Officers collective bargaining agreement): <a href="https://ucnet.universityofcalifornia.edu/resources/employment-policies-contracts/bargaining-units/police-officers/">ucnet.universityofcalifornia.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[58]</span> UCnet — Public Notice: 2026 Successor Bargaining between UC and FUPOA: <a href="https://ucnet.universityofcalifornia.edu/public-notices/public-notice-2026-successor-bargaining-between-uc-and-fupoa/">ucnet.universityofcalifornia.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[59]</span> UCR HR — FUPOA Request for Recognition as Exclusive Representative (PERB petition SF-RR-1052-H, Jan 2025): <a href="https://hr.ucr.edu/hrannouncements/2025/01/17/notice-request-recognition-fupoas-request-recognition-exclusive-representative">hr.ucr.edu</a></p>
+<p class="source-index-entry"><span class="source-num">[19]</span> SB 16 — California Penal Code §832.7 expanded disclosure requirements (legislative text): <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220SB16">leginfo.legislature.ca.gov</a></p>
+<p class="source-index-entry"><span class="source-num">[25]</span> Brady v. Maryland, 373 U.S. 83 (1963); Giglio v. United States, 405 U.S. 150 (1972): Federal case law establishing prosecutorial disclosure obligations</p>
+<p class="source-index-entry"><span class="source-num">[28]</span> UCSD PD — Physical Security / Alarm Monitoring (IACLEA accreditation): <a href="https://police.ucsd.edu/about/security/">police.ucsd.edu/about/security</a></p>
+
+
+<!-- ══ SUBMISSION BLOCK ══ -->
+<div class="submission-block">
+  <p><strong>Primary Submission:</strong> California Commission on Peace Officer Standards and Training (POST) &mdash; Peace Officer Standards Accountability Division (POSAD) &mdash; Authority: Cal. Penal Code &sect;&sect; 13509.5, 13510.8, 13510.85 (SB 2 &mdash; Kenneth Ross Jr. Police Decertification Act of 2021)</p>
+  <p><strong>Secondary Submissions:</strong> California Attorney General, Civil Rights Enforcement Section (Cal. Civ. Code &sect;&nbsp;52.3) &nbsp;|&nbsp; U.S. Department of Education, Federal Student Aid &mdash; Clery Act Enforcement (20&nbsp;U.S.C.&nbsp;&sect;&nbsp;1092(f)) &nbsp;|&nbsp; California Legislature, Senate &amp; Assembly Budget Subcommittees on Education &nbsp;|&nbsp; UC Office of the President &nbsp;|&nbsp; California State Auditor &nbsp;|&nbsp; U.S. Department of Justice (34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601)</p>
+  <p><strong>Distribution:</strong> Clery Center for Campus Safety &nbsp;|&nbsp; SAFE Campuses, LLC</p>
+  <p>All documents compiled from public records. All facts independently verifiable. Readers are encouraged to form their own independent conclusions.</p>
+</div>
+</div><!-- end content -->
+
+</div>
+
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav" style="position:static;box-shadow:none">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn active">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" style="position:static;box-shadow:none">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn">A &mdash; Overview</a>
+<a href="#secB" class="section-btn">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn">D &mdash; Financial</a>
+<a href="#secE" class="section-btn">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn">F &mdash; Sources</a>
+</div>
+</nav>
+
+<script>
+function setNavTops(){
+  const b1=document.querySelector('.nav-bar:not(.bottom)');
+  const b2=document.querySelector('.campus-nav:not([style])');
+  const b3=document.querySelector('.section-nav:not([style])');
+  if(!b1||!b2||!b3)return 130;
+  b2.style.top=b1.offsetHeight+'px';
+  b3.style.top=(b1.offsetHeight+b2.offsetHeight)+'px';
+  return b1.offsetHeight+b2.offsetHeight+b3.offsetHeight;
+}
+const secs=['secA','secB','secC','secD','secE','secF'];
+const btns=['btn-a','btn-b','btn-c','btn-d','btn-e','btn-f'];
+function updateActive(){
+  const offset=setNavTops()+10;
+  const scrollPos=window.scrollY+offset;
+  let cur=0;
+  secs.forEach((id,i)=>{
+    const el=document.getElementById(id);
+    if(!el)return;
+    const elTop=el.getBoundingClientRect().top+window.scrollY;
+    if(scrollPos>=elTop)cur=i;
+  });
+  btns.forEach((id,i)=>{
+    const b=document.getElementById(id);
+    if(b)b.classList.toggle('active',i===cur);
+  });
+}
+window.addEventListener('load',()=>{setNavTops();updateActive();});
+window.addEventListener('resize',()=>{setNavTops();updateActive();});
+window.addEventListener('scroll',updateActive,{passive:true});
+</script>
+<div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Behave Like Heroes &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>

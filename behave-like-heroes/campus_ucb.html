@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · Dossier — UC Berkeley Police Department | Bruin Watch</title>
+<meta name="description" content="Campus dossier documenting UC Berkeley Police Department leadership, incidents, and oversight history.">
+<meta property="og:title" content="Act I · Dossier — UC Berkeley Police Department | Bruin Watch">
+<meta property="og:description" content="Campus dossier documenting UC Berkeley Police Department leadership, incidents, and oversight history.">
+<meta property="og:type" content="article">
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE;--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0}
+body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#e8edf2;margin:0;padding:0}
+
+/* ══ BAR 1 — VERBATIM FROM CHAPTER_07.HTML ══ */
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:center}
+.nav-bottom-inner{display:flex;align-items:stretch;justify-content:center;min-width:max-content;margin:0 auto}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 2 — CAMPUS DOSSIERS — same pattern, slightly darker ══ */
+.campus-nav{background:#00254a;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:999;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.campus-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.campus-nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.campus-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.campus-btn:hover{background:var(--uc-mid);color:#fff}
+.campus-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 3 — SECTION INDEX — same pattern, darkest ══ */
+.section-nav{background:#001428;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:998;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.section-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.section-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.section-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.section-btn:hover{background:var(--uc-mid);color:#fff}
+.section-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ COVER PAGE ══ */
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:48px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:80px;font-weight:900;letter-spacing:8px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:6px;line-height:1.0}
+.series-line1{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:4px}
+.series-line2{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:28px}
+.campus-label{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:900;letter-spacing:5px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:16px}
+.chapter-title{font-family:'Libre Baskerville',Georgia,serif;font-size:44px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:28px auto;display:block}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:22px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.cover-meta{width:100%;padding:20px 0;background:rgba(0,0,0,.15);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border-top:1px solid rgba(253,181,21,.25)}
+.cover-meta-inner{max-width:960px;width:100%;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 40px}
+.cover-meta p{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;color:#fff;text-align:center;line-height:1.6}
+.cover-meta strong{color:var(--uc-gold)}
+.cover-meta p.cover-disclaimer{font-size:14.5px!important;font-weight:300!important;color:#dde8f4!important;text-align:justify!important;hyphens:auto;max-width:820px;width:100%;margin:6px auto;padding:10px 0;line-height:1.8;border-top:1px solid rgba(253,181,21,.35);border-bottom:1px solid rgba(253,181,21,.35)}
+.cover-copyright{width:100%;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:15px;color:#fff;margin-top:4px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+
+/* ══ CHAPTER BODY ══ */
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.note-investigators{background:var(--uc-blue);padding:24px 30px;margin:0;border-left:6px solid var(--uc-gold)}
+.note-investigators .note-label{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:14px}
+.note-investigators p{font-size:17px;color:#fff;line-height:1.85;margin-bottom:12px}
+.note-investigators p:last-child{margin-bottom:0}
+.campus-grid-wrap{background:var(--uc-blue);padding:10px 0 12px;width:100%}
+.campus-grid{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;width:100%;padding:0 4px}
+.campus-grid-btn{display:block;background:var(--uc-blue-dark);border:2px solid var(--uc-blue-dark);padding:12px 4px;text-align:center;text-decoration:none;transition:background .15s,border-color .15s}
+.campus-grid-btn:hover{background:var(--uc-mid);border-color:var(--uc-mid)}
+.campus-grid-btn.active{background:var(--uc-mid);border:2px solid var(--uc-gold)}
+.campus-grid-abbr{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-weight:700;color:var(--uc-gold);margin-bottom:3px}
+.campus-grid-name{font-size:10px;color:#b8c8dc;letter-spacing:.5px;text-transform:uppercase}
+.campus-grid-btn.active .campus-grid-name{color:#fff}
+.section-anchor{display:block;height:145px;margin-top:-145px;visibility:hidden}
+.content-wrap{padding:0 48px 60px;max-width:900px;margin:0 auto}.content-wrap p{margin-bottom:18px;line-height:1.85;font-size:17px}
+
+/* ══ CONTENT — VERBATIM FROM UCB SOURCE DOSSIER ══ */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+  :root{--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0;--red-bg:#FFC7CE;--red-text:#9C0006;--green-bg:#C6EFCE;--green-text:#276221;--yellow-bg:#FFEB9C;--yellow-text:#7D4A00;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#fff;}
+  .cover-page{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;padding:0 40px;background:repeating-linear-gradient(135deg,transparent,transparent 35px,rgba(255,255,255,0.04) 35px,rgba(255,255,255,0.04) 70px),linear-gradient(180deg,#003262 0%,#00254a 100%);border-bottom:4px solid var(--ucb-gold);}
+  .cover-series{font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin-bottom:16px;}
+  .cover-chapter{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:30px;}
+  .cover-title{font-family:'Source Sans Pro',sans-serif;font-size:36px;font-weight:700;color:#fff;line-height:1.25;max-width:750px;margin-bottom:16px;}
+  .cover-gold-line{width:120px;height:3px;background:var(--ucb-gold);margin:22px auto;}
+  .cover-subtitle{font-family:'Libre Baskerville',serif;font-size:16px;font-style:italic;color:rgba(255,255,255,0.8);max-width:640px;line-height:1.65;margin-bottom:24px;}
+  .cover-meta{font-family:'Source Sans Pro',sans-serif;font-size:16px;color:#fff;margin-top:28px;line-height:2.1;}
+  .cover-meta strong{color:#fff;font-weight:700;}
+  .disclaimer{max-width:800px;margin:44px auto 32px;padding:24px 32px;text-align:center;font-style:italic;font-size:16px;color:#555;line-height:1.85;border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+  .content{max-width:900px;margin:0 auto;padding:0 48px 60px;}
+  .section-banner{font-family:'Source Sans Pro',sans-serif;font-size:17px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ucb-gold);background:var(--ucb-blue);padding:14px 22px;margin:48px 0 0;}
+  .section-title{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:700;color:var(--ucb-blue);padding:16px 0 12px;border-bottom:2px solid var(--ucb-gold);margin-bottom:24px;}
+  .incident-heading{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:900;color:var(--ucb-blue);margin:40px 0 8px;padding:12px 16px;background:var(--ucb-blue-light);border-left:5px solid var(--ucb-gold);}
+  .incident-date{display:block;font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:900;color:var(--ucb-gold);text-transform:uppercase;letter-spacing:2px;margin-top:44px;margin-bottom:6px;}
+  .incident-title{display:block;font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:900;color:var(--ucb-blue);margin-bottom:14px;}
+  .incident-block{margin-bottom:8px;}
+  .pre-mandatory{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:2px 8px;background:#e0e0e0;color:#555;border-radius:2px;margin-bottom:8px;}
+  table.data-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px;}
+  table.data-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:0.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,0.15);}
+  table.data-table thead th:last-child{border-right:none;}
+  table.data-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px;}
+  table.data-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light);}
+  table.data-table tbody tr:nth-child(odd) td{background:#fff;}
+  table.data-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:14px;}
+  .badge{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:3px 8px;border-radius:3px;}
+  .badge-red{background:var(--red-bg);color:var(--red-text);}
+  .badge-green{background:var(--green-bg);color:var(--green-text);}
+  .badge-yellow{background:var(--yellow-bg);color:var(--yellow-text);}
+  .badge-unknown{background:#e0e0e0;color:#444;}
+  .badge-active{background:#FF4444;color:#fff;}
+  .key-finding{background:var(--ucb-gold-light);border-left:4px solid var(--ucb-gold);padding:16px 20px;margin:20px 0 28px;font-size:16px;line-height:1.8;}
+  .key-finding strong{font-family:'Source Sans Pro',sans-serif;color:var(--ucb-blue);}
+  .source-index-entry{font-size:15px;line-height:1.75;margin-bottom:10px;padding:10px 14px;background:#f8f8f8;border-left:3px solid var(--ucb-gold);}
+  .source-index-entry a{color:#0563C1;word-break:break-all;}
+  .source-num{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:var(--ucb-blue);min-width:28px;display:inline-block;}
+  .chapter-nav{background:var(--ucb-blue-light);border:1px solid #c5d3e0;padding:14px 20px;margin:0 0 36px;font-family:'Source Sans Pro',sans-serif;font-size:13px;line-height:1.8;}
+  .chapter-nav strong{color:var(--ucb-blue);}
+  .chapter-nav a{color:#0563C1;text-decoration:none;margin:0 4px;}
+  .chapter-nav a:hover{text-decoration:underline;}
+  .submission-block{background:var(--uc-blue);padding:24px 30px;margin:32px 0 0}
+.submission-block p{font-size:16px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:8px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:20px 48px;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:rgba(255,255,255,0.5);line-height:1.8;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+  .doc-footer strong{color:rgba(255,255,255,0.8)}
+  @media print{.nav-wrap{display:none!important}.cover-page{min-height:100vh;page-break-after:always;}.section-banner{page-break-before:always;}}
+
+@media(max-width:768px){.series-title{font-size:58px}.chapter-title{font-size:32px}.cover-content{padding:36px 24px}}
+@media print{.cover-page{page-break-after:always}.nav-bar,.campus-nav,.section-nav{display:none}}
+
+
+/* ══ MASTER TEMPLATE UPDATE — 2026-03-23 — LOCKED ══ */
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.series-tagline{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:16px;max-width:820px}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin:52px 0 0;padding:0;display:block}
+table.info-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px}
+table.info-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,.15)}
+table.info-table thead th:last-child{border-right:none}
+table.info-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px}
+table.info-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light)}
+table.info-table tbody tr:nth-child(odd) td{background:#fff}
+table.info-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:13px}
+.src-index-wrap{display:flex;flex-direction:column;width:100%}
+.src-row{display:flex;align-items:stretch;border:1px solid #dde3ea;border-top:none;text-decoration:none;color:inherit;transition:background .12s}
+.src-row:first-of-type{border-top:1px solid #dde3ea}
+.src-row:hover{background:#f0f5fb}
+.src-row:hover .src-num{background:var(--uc-mid)}
+.src-num{background:var(--ucb-blue);color:var(--ucb-gold);font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:900;letter-spacing:1px;min-width:120px;width:120px;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px 10px;transition:background .12s;flex-shrink:0;border-right:3px solid var(--ucb-gold)}
+.src-body{flex:1;padding:13px 18px;display:flex;flex-direction:column;justify-content:center;word-wrap:break-word;overflow-wrap:break-word;min-width:0}
+.src-title{font-size:17px;font-weight:700;color:var(--ucb-blue);margin-bottom:4px;line-height:1.4}
+.src-sub{font-size:16px;color:#444;line-height:1.7;word-wrap:break-word;overflow-wrap:break-word}
+.src-sub a{color:#0563C1;word-break:break-all}
+
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn active">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" id="section-nav">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn active" id="btn-a">A &mdash; Overview</a>
+<a href="#secB" class="section-btn" id="btn-b">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn" id="btn-c">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn" id="btn-d">D &mdash; Financial</a>
+<a href="#secE" class="section-btn" id="btn-e">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn" id="btn-f">F &mdash; Sources</a>
+</div>
+</nav>
+
+<div class="cover-page">
+
+  <!-- TOP BLUE BAR — LOCKED -->
+  <div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Behave Like Heroes</div>
+<div class="series-tagline">Law Enforcement Without Enforcement<br>A Documented Gap Analysis</div>
+<div class="campus-label">Campus Dossier</div>
+<h1 class="chapter-title">UC Berkeley Police Department</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">POST Reporting Gap Analysis &mdash; Compliance Status &mdash; Incident Chronology &mdash; Financial Record &mdash; Leadership History &mdash; Source Index</p>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+
+<div class="chapter-body">
+<div class="note-investigators">
+<div class="note-label">Note to Investigators, Attorneys, and Journalists</div>
+<p>This campus dossier contains enforcement-level detail not summarized in the main chapters of this series. It documents the complete incident history, POST compliance status, financial exposure, and leadership record for the UC Berkeley Police Department. These documents are intended for POST investigators, attorneys, civil rights organizations, journalists, and other parties requiring granular evidentiary detail for enforcement, litigation, or investigative purposes. All source citations are independently verifiable. Readers are encouraged to draw their own conclusions from the documented record.</p>
+</div>
+<div class="campus-grid-wrap">
+<div class="campus-grid">
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-grid-btn active"><div class="campus-grid-abbr">UCB</div><div class="campus-grid-name">Berkeley</div></a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCD</div><div class="campus-grid-name">Davis</div></a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCI</div><div class="campus-grid-name">Irvine</div></a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCLA</div><div class="campus-grid-name">Los Angeles</div></a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCM</div><div class="campus-grid-name">Merced</div></a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCR</div><div class="campus-grid-name">Riverside</div></a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSD</div><div class="campus-grid-name">San Diego</div></a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSF</div><div class="campus-grid-name">San Francisco</div></a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSB</div><div class="campus-grid-name">Santa Barbara</div></a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSC</div><div class="campus-grid-name">Santa Cruz</div></a>
+</div>
+</div>
+<div class="disclaimer">
+  This document contains only facts as found in public records and the application of law, statute, rule, procedure, or other mechanism to those specific facts. It contains no inflammatory or accusatory language. It is prepared for submission to the California Commission on POST and presents evidence for readers to form their own independent opinions.
+</div>
+
+<div class="content">
+
+<div class="chapter-nav">
+  <strong>Series Navigation:</strong>
+  <a href="Chapter_9A_UCB_PD_POST_Gap_Analysis.html">9-A: UC Berkeley</a> |
+  <a href="Chapter_9B_UCD_PD_POST_Gap_Analysis.html">9-B: UC Davis</a> |
+  <a href="Chapter_9C_UCI_PD_POST_Gap_Analysis.html">9-C: UC Irvine</a> |
+  <span style="color:#888">9-D: UCLA (in development)</span> |
+  <a href="Chapter_9E_UCM_PD_POST_Gap_Analysis.html">9-E: UC Merced</a> |
+  <a href="Chapter_9F_UCR_PD_POST_Gap_Analysis.html">9-F: UC Riverside</a> |
+  <a href="Chapter_9G_UCSD_PD_POST_Gap_Analysis.html">9-G: UC San Diego</a> |
+  <a href="Chapter_9H_UCSF_PD_POST_Gap_Analysis.html">9-H: UC San Francisco</a> |
+  <a href="Chapter_9I_UCSB_PD_POST_Gap_Analysis.html">9-I: UC Santa Barbara</a> |
+  <a href="Chapter_9J_UCSC_PD_POST_Gap_Analysis.html">9-J: UC Santa Cruz</a>
+</div>
+
+<!-- SECTION A -->
+<div id="secA" class="section-heading">Section A</div>
+<div class="section-title">Department Overview</div>
+<table class="data-table">
+<thead><tr><th style="width:24%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Agency Name</strong></td><td>University of California Berkeley Police Department (UCPD Berkeley)</td></tr>
+<tr><td><strong>Established</strong></td><td>Formally established by UC Board of Regents in September 1947 under State Education Code Sections 20221&ndash;20222. Campus security presence dates to 1925 under Captain Walter J. Lee.</td></tr>
+<tr><td><strong>Legal Authority</strong></td><td>California Penal Code &sect;830.2(b) (sworn peace officers); California Education Code &sect;92600 (primary jurisdiction over UC-owned properties plus one-mile perimeter). Full statewide law enforcement authority.</td></tr>
+<tr><td><strong>POST Status</strong></td><td>POST-participating agency. All officers hold POST certification. Officers subject to SB 2 certification/decertification requirements effective January 1, 2023.</td></tr>
+<tr><td><strong>Sworn Officers</strong></td><td>Approximately 49 sworn officers as of August 2025 (actively hiring).</td></tr>
+<tr><td><strong>Annual Budget</strong></td><td>UC-wide police spending doubled from $75.3 million (2009&ndash;10) to $148.5 million (2019&ndash;20) per UAW 2865 Research Working Group (February 2021). Security spending for 2017 free speech events totaled $3,910,259 (Aug. 27&ndash;Sept. 27, 2017), with UCOP splitting costs 50/50 with the campus; normal annual allotment was $200,000. People&#39;s Park security 2022&ndash;2024 totaled $16.1 million. Sources: <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">UAW 2865, Feb 2021</a>; <a href="https://www.berkeleyside.org/2018/02/06/uc-berkeley-spent-close-4m-security-just-one-month-2017" target="_blank">Berkeleyside, Feb 6, 2018</a>; <a href="https://www.dailycal.org/2018/02/04/uc-berkeley-split-4m-cost-free-speech-events-uc-office-president" target="_blank">Daily Cal, Feb 4, 2018</a>; <a href="https://news.berkeley.edu/2024/02/28/uc-berkeley-releases-preliminary-costs-for-closure-of-people-s-park/" target="_blank">Berkeley News, Feb 28, 2024</a>.</td></tr>
+<tr><td><strong>Campus Population</strong></td><td>33,122 undergraduates and 13,029 graduate and professional students enrolled in Fall 2025, for a student enrollment total of 46,151 — before addition of faculty and staff. Source: <a href="https://www.berkeley.edu/about/fact-sheet/" target="_blank">UC Berkeley Quick Facts, Fall 2025</a>.</td></tr>
+<tr><td><strong>Jurisdiction</strong></td><td>UC Berkeley main campus plus one-mile perimeter in the City of Berkeley (population ~124,000). Includes People&#39;s Park (2.8-acre parcel listed on the National Register of Historic Places, May 24, 2022).</td></tr>
+<tr><td><strong>Current Chief</strong></td><td>Yogananda Pittman (February 1, 2023&ndash;present). Former Acting Chief of U.S. Capitol Police (January 8&ndash;July 23, 2021, following January 6 insurrection). B.S. Psychology (Morgan State), M.P.A. (Marist College), Ph.D. candidate (West Chester University). Currently managing simultaneous DOJ, FBI, and DOE investigations stemming from November 2025 TPUSA event.</td></tr>
+<tr><td><strong>IACLEA Accreditation</strong></td><td>UCPD Berkeley achieved IACLEA accreditation. Status: accredited.</td></tr>
+<tr><td><strong>Oversight Body</strong></td><td>Police Accountability Board (PAB), established 2023 under the UC Community Safety Plan. 10 members including 4 students. Reviews redacted investigation reports. Advisory recommendations only &mdash; Chief retains full and final authority on disposition. The PAB and the Chancellor&#39;s Independent Advisory Board (IAB) on Police Accountability and Community Safety together replaced the former Police Review Board (PRB), which was dissolved. Sources: <a href="https://chancellor.berkeley.edu/uc-berkeley-police-accountability-board" target="_blank">UC Berkeley Chancellor&#39;s Office &mdash; PAB</a>; <a href="https://chancellor.berkeley.edu/chancellors-independent-advisory-board-police-accountability-and-community-safety" target="_blank">UC Berkeley Chancellor&#39;s Office &mdash; IAB</a>.</td></tr>
+<tr><td><strong>Union Representation</strong></td><td>Federated University Police Officers&#39; Association (FUPOA).</td></tr>
+<tr><td><strong>Active Federal Investigations (as of Feb 2026)</strong></td><td>DOJ Civil Rights Division investigation: per AAG Harmeet K. Dhillon&#39;s public announcement of November 11, 2025, the investigation was initiated citing potential violations of 18 U.S.C. &sect;&sect;241 and 242 (conspiracy against rights; deprivation of rights under color of law) &mdash; no formal DOJ charging document or complaint confirmed as of report date. FBI San Francisco Field Office / JTTF investigation: digital tip line opened November 14, 2025 per media reports. DOE Clery Act focused review (2022&ndash;2025): officially confirmed, DOE press release November 25, 2025. Alameda County DA prosecution of Dphrepaulezz: ongoing. All related to November 10, 2025 TPUSA event and broader compliance history. Sources: <a href="https://sfstandard.com/2025/11/11/turning-point-uc-berkeley-harmeet-dhillon-investigation/" target="_blank">SF Standard, Nov 11, 2025</a>; <a href="https://abc7news.com/post/assistant-attorney-general-harmeet-dhillon-visiting-uc-berkeley-amid-turning-point-usa-tour-protest-investigation/18152094/" target="_blank">ABC7, Nov 2025</a>; <a href="https://www.ed.gov/about/news/press-release/us-department-of-education-initiates-review-of-university-of-california-berkeley-potential-clery-act-violations" target="_blank">DOE press release, Nov 25, 2025</a>.</td></tr>
+</tbody>
+</table>
+
+<!-- SECTION B -->
+<div id="secB" class="section-heading">Section B</div>
+<div class="section-title">Chronological Incident Log &mdash; All Documented Incidents Relevant to POST Oversight</div>
+<p style="font-size:13.5px;color:#444;margin-bottom:20px;font-style:italic;">Pre-mandatory reporting era incidents are included to document institutional pattern of conduct per Rules #1 and #3. All facts sourced from publicly available records only. No editorial commentary is included.</p>
+
+<!-- INCIDENT 1 -->
+<div class="incident-heading">May 15, 1969 &mdash; People&#39;s Park &#34;Bloody Thursday&#34;</div>
+<div class="pre-mandatory">Pre-Mandatory Reporting Era &mdash; Included to Document Pattern of Conduct</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Police and National Guard troops (deployed by Governor Reagan) opened fire on protesters and bystanders during a confrontation over UC Berkeley&#39;s attempt to reclaim the People&#39;s Park lot. James Rector, 26, was shot and killed. Alan Blanchard was permanently blinded by birdshot. At least 128 people were hospitalized. Governor Reagan declared a state of emergency and imposed a curfew. National Guard occupied the city for two weeks. NOTE: This involved multiple agencies including Alameda County Sheriff and California Highway Patrol, not solely UCPD. Included as foundational context for the institutional relationship between UCPD, People&#39;s Park, and use of force.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>PRE-MANDATORY REPORTING: Predates all current reporting mandates. Constitutional 1st and 4th Amendment protections applied. Included to establish the historical pattern of force at People&#39;s Park that continues through 2024.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Pre-Mandatory</span> &mdash; Predates current reporting framework. Included to document pattern.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>Wikipedia, &#34;People&#39;s Park (Berkeley)&#34; &mdash; <a href="https://en.wikipedia.org/wiki/People%27s_Park_(Berkeley)" target="_blank">https://en.wikipedia.org/wiki/People%27s_Park_(Berkeley)</a></td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 2 -->
+<div class="incident-heading">August 25, 1992 &mdash; Rosebud Denovo Fatal Shooting</div>
+<div class="pre-mandatory">Pre-Mandatory Reporting Era &mdash; Included to Document Pattern of Conduct</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Rosebud Denovo (n&eacute;e Laura Marie Miller), 19, a homeless anarchist activist and People&#39;s Park defender, broke into University House (Chancellor Chang-Lin Tien&#39;s residence) at 5:51 a.m. UCPD responded to the silent alarm and escorted Tien and his wife to safety. Oakland Police Department officers with canine units entered the house. OPD Officer Craig Chew shot and killed Denovo after she allegedly lunged at him with a machete. She was shot three times (autopsy showed at least one shot in the back). Alameda County DA determined the shooting was justified in October 1992. Chew had previously been investigated three times for excessive force at BPD before joining OPD. NOTE: Shot by OPD officer, not UCPD, but on UCPD-jurisdictional property during a UCPD-initiated response.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>PRE-MANDATORY REPORTING: Predates SB 1421, AB 48. OIS reporting to DOJ under then-applicable statutes. Government Code &sect;12525 (predecessor reporting). Included to establish pattern of fatal force incidents on UCPD-jurisdictional property.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Pre-Mandatory</span> &mdash; Alameda County DA reviewed and ruled justified (October 1992). Pre-SB 1421. Included to document pattern.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>UPI Archives &mdash; contemporaneous wire report, August 25, 1992 &mdash; <a href="https://www.upi.com/Archives/1992/08/25/Activist-killed-in-UC-Berkeley-chancellors-home/6777714715200/" target="_blank">https://www.upi.com/Archives/1992/08/25/Activist-killed-in-UC-Berkeley-chancellors-home/6777714715200/</a><br>Wikipedia &mdash; Rosebud Denovo &mdash; <a href="https://en.wikipedia.org/wiki/Rosebud_Denovo" target="_blank">https://en.wikipedia.org/wiki/Rosebud_Denovo</a></td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 3 -->
+<div class="incident-heading">November 20, 2009 &mdash; Wheeler Hall Baton Incident</div>
+<div class="pre-mandatory">Pre-Mandatory Reporting Era &mdash; Included to Document Pattern of Conduct</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>UCPD Officer Brendan Tinney allegedly struck graduate student Zhivka Valiavicharska with a baton during a protest against UC fee increases outside Wheeler Hall. Valiavicharska filed a federal civil rights lawsuit (Valiavicharska v. Tinney, N.D. Cal.) against Tinney, UCPD Chief Celaya, and Captain Bennett. Claims against Celaya and Bennett were dismissed pre-trial. A jury found in favor of Officer Tinney, concluding he did not violate the protester&#39;s constitutional rights.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>PRE-MANDATORY REPORTING: Predates AB 48 (2022). Use-of-force reporting under then-applicable PC &sect;13652 (annual reporting). POST use-of-force guidelines. 42 U.S.C. &sect;1983 (civil rights). Included to establish documented pattern of baton use against protesters.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Pre-Mandatory</span> &mdash; Pre-AB 48. Annual use-of-force reporting under PC &sect;13652 was applicable. No record of specific POST notification located. Jury found no constitutional violation.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>Federal court records, Valiavicharska v. Tinney (N.D. Cal.).</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 4 -->
+<div class="incident-heading">November 9, 2011 &mdash; Occupy Cal Baton Beatings</div>
+<div class="pre-mandatory">Pre-Mandatory Reporting Era &mdash; Included to Document Pattern of Conduct</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Approximately 1,500 demonstrators gathered at Sproul Plaza for &#34;Occupy Cal.&#34; After protesters erected seven tents and formed a human chain, dozens of police in riot gear &mdash; including UCPD officers and Alameda County Sheriff&#39;s deputies &mdash; pushed through the human chain using 36-inch riot batons, jabbing protesters in chests, stomachs, groins, and abdomens. Professor Celeste Langan (Associate Professor of English, age 54) reported: &#34;Rather than take my wrist or arm, the police grabbed me by my hair and yanked me forward to the ground.&#34; Video went viral. She was charged with resisting arrest and remaining on scene of a riot. Graduate student Alex Barnard reported a cracked rib from baton blows. Lead plaintiff Yvette Felarca was hospitalized with multiple bruises to ribs and midsection. At least 39 people were arrested. Chancellor Birgeneau (traveling in Asia) emailed: &#34;It is critical that we do not back down on our no encampment policy.&#34; ACLU characterized this as &#34;a ratification of the first time the batons were used.&#34; Lawsuit (BAMN v. Birgeneau, Case No. 3:2011-cv-05719, N.D. Cal.) sought $15 million. 9th Circuit unanimously dismissed on qualified immunity (Felarca v. Birgeneau, 891 F.3d 809, 9th Cir. 2018). Judge Watford concurred but wrote he believed the baton-jabbing constituted excessive force &mdash; however, &#34;the law was not clearly established in 2011.&#34;</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>PRE-MANDATORY REPORTING: Predates AB 48 (2022). PC &sect;13652 (annual use-of-force reporting). POST use-of-force guidelines. 42 U.S.C. &sect;1983 (civil rights). Mutual aid documentation requirements. Pattern documented: a federal appellate judge stated on the record that force appeared excessive, yet zero financial accountability resulted due to qualified immunity.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Pre-Mandatory</span> &mdash; Pre-AB 48. 9th Circuit Judge Watford stated baton-jabbing appeared to constitute excessive force. Zero accountability due to qualified immunity.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>
+  Wikipedia, &#34;Occupy Cal&#34; &mdash; <a href="https://en.wikipedia.org/wiki/Occupy_Cal" target="_blank">https://en.wikipedia.org/wiki/Occupy_Cal</a><br>
+  Daily Cal, Nov 9, 2011 (complete coverage) &mdash; <a href="https://www.dailycal.org/news/complete-coverage-of-occupy-cal/article_59b45dc0-c32f-50e8-a20c-2d4bcef876f8.html" target="_blank">https://www.dailycal.org/news/complete-coverage-of-occupy-cal/article_59b45dc0-c32f-50e8-a20c-2d4bcef876f8.html</a><br>
+  CBS SF &mdash; 9th Circuit dismissal (June 1, 2018) &mdash; <a href="https://www.cbsnews.com/sanfrancisco/news/occupy-call-police-brutality-claims-dropped/" target="_blank">https://www.cbsnews.com/sanfrancisco/news/occupy-call-police-brutality-claims-dropped/</a><br>
+  Findlaw, 9th Cir. Opinion &mdash; <a href="https://caselaw.findlaw.com/court/us-9th-circuit/1934471.html" target="_blank">https://caselaw.findlaw.com/court/us-9th-circuit/1934471.html</a><br>
+  Justia &mdash; <a href="https://law.justia.com/cases/federal/appellate-courts/ca9/16-15293/16-15293-2018-05-31.html" target="_blank">https://law.justia.com/cases/federal/appellate-courts/ca9/16-15293/16-15293-2018-05-31.html</a>
+</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 5 -->
+<div class="incident-heading">December 6&ndash;8, 2014 &mdash; Black Lives Matter Protests &mdash; Tear Gas and Rubber Bullets</div>
+<div class="pre-mandatory">Pre-Mandatory Reporting Era &mdash; Included to Document Pattern of Conduct</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Following grand jury decisions not to indict officers in the killings of Michael Brown and Eric Garner, major protests erupted in Berkeley originating on UC Berkeley campus. On December 6, when marchers reached Berkeley Police HQ, BPD blocked them and used batons indiscriminately. BPD deployed an estimated 50 tear gas grenades and &#34;blast rounds.&#34; Photojournalist Sam Wolson (SF Chronicle) was clubbed on the head while kneeling to photograph. Minister Cindy Pincus was also struck. On December 7, police used tear gas and rubber bullets again. On December 8, protesters blocked I-80 freeway; CHP arrested more than 150 people. Settlement (Law et al. v. City of Berkeley, Case No. 3:15-cv-5343, N.D. Cal.): City of Berkeley paid approximately $100,000&ndash;$125,000. NOTE: This case involved Berkeley city police (BPD), not UCPD, though protests originated on campus and UCPD maintained mutual aid agreements with participating agencies.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>PRE-MANDATORY REPORTING: Predates AB 48 (2022). PC &sect;13652 (annual use-of-force). Mutual aid agreements between UCPD and BPD implicated. NOTE: BPD was primary agency. Included to document pattern of force during protests originating on/near campus.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Pre-Mandatory</span> &mdash; BPD primary agency; settlement required policy reforms. UCPD mutual aid role not independently documented.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>Berkeleyside, Feb 5, 2017 &mdash; <a href="https://www.berkeleyside.org/2017/02/05/berkeley-police-chief-lessons-learned-2014-black-lives-matter-protests-guided-us-milo-demonstrations" target="_blank">https://www.berkeleyside.org/2017/02/05/berkeley-police-chief-lessons-learned-2014-black-lives-matter-protests-guided-us-milo-demonstrations</a><br>Law et al. v. City of Berkeley, Case No. 3:15-cv-5343 (N.D. Cal.)</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 6 -->
+<div class="incident-heading">2009&ndash;2016 (Review Initiated 2014; FPRD September 2019; Settlement September 2020) &mdash; Clery Act Program Review and $2.35 Million Fine</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Case Number: PRCN 201440328749. DOE initiated Clery Act Program Review of UC Berkeley in 2014, covering 2009&ndash;2016. On September 17, 2019, DOE issued Final Program Review Determination finding UC Berkeley failed to comply with the Clery Act. Settlement Agreement signed September 9, 2020 by Chancellor Carol T. Christ and Susan D. Crim (DOE). FINE: $2,350,000 &mdash; at the time, the third-largest Clery Act fine in history (behind Michigan State $4.5M and Penn State $2.4M; now fourth-largest after Liberty University $14M in 2024). The review examined approximately 32,000 records and found 1,125 MISCLASSIFIED INCIDENTS. Of these, 87% (982 incidents) were disciplinary referrals for liquor, drug, and weapons violations wrongly classified as campus policy violations rather than law violations. Additional findings: (1) Failure to issue timely warnings for 30 incidents during 2014&ndash;2016; February 2017 Milo protest did not receive emergency notification for nearly an hour after violence escalated; five burglaries over two months received no timely warning until after the fifth incident; two sexual assaults received no timely warning until four days after being reported. (2) Three hate crimes not reported &mdash; one verbal intimidation via phone (race), one written intimidation via email (race), one vandalism (sexual orientation). (3) Unable to provide evidence that 2010, 2011, and 2012 Annual Security Reports were distributed before October 1 deadline; 2013 ASR had broken website link. (4) Twelve Daily Crime Log entries during 2010&ndash;2013 incorrectly classified or missing required elements. (5) DOE found UC Berkeley &#34;lacks administrative capacity&#34; for Clery compliance. Corrective actions: training all CSAs, revised policies, updated crime statistics, two-year post-settlement monitoring period with on-site visits.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>Clery Act (20 U.S.C. &sect;1092(f)); Higher Education Act &sect;485(f); 34 C.F.R. &sect;668.46. This is a DOCUMENTED FEDERAL FINDING of systemic reporting failures spanning at least seven years.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-red">Not Compliant</span> &mdash; DOE found 1,125 misclassified incidents, 30 timely warning failures, 3 unreported hate crimes, and ASR distribution failures. $2,350,000 fine imposed.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>
+  Federal Student Aid settlement &mdash; <a href="https://studentaid.gov/sites/default/files/university-of-california-berkely-settlement-090920.pdf" target="_blank">https://studentaid.gov/sites/default/files/university-of-california-berkely-settlement-090920.pdf</a><br>
+  Berkeley News, Sept 10, 2020 &mdash; <a href="https://news.berkeley.edu/2020/09/10/uc-berkeleys-clery-act-compliance-review-ending-after-6-years/" target="_blank">https://news.berkeley.edu/2020/09/10/uc-berkeleys-clery-act-compliance-review-ending-after-6-years/</a><br>
+  Security Advisor CG &mdash; <a href="https://www.securityadvisorcg.com/post/an-analysis-of-the-department-of-education-s-clery-act-enforcement-action-against-university-of-cali" target="_blank">https://www.securityadvisorcg.com/post/an-analysis-of-the-department-of-education-s-clery-act-enforcement-action-against-university-of-cali</a>
+</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 7 -->
+<div class="incident-heading">February 1, 2017 &mdash; Milo Yiannopoulos Protest &mdash; Violence and Property Damage</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Conservative commentator Milo Yiannopoulos was invited by Berkeley College Republicans to speak at MLK Jr. Student Union. Over 1,500 protesters gathered. About 150 masked &#34;Black Bloc&#34; agitators infiltrated and initiated violence: setting fires (including firebombing a generator-powered spotlight), throwing commercial-grade fireworks and rocks at police, hurling Molotov cocktails, tearing down metal barricades, smashing windows. A woman in a Trump hat was pepper-sprayed on camera. Six people were injured. $100,000 in property damage. UCPD canceled event at approximately 6:00 p.m. and evacuated Yiannopoulos. One arrest that night (failure to disperse); two additional arrests next morning. Emergency notification was NOT issued for nearly an hour after violence escalated &mdash; a specific finding cited in the DOE Clery Act review. BPD made no arrests during subsequent downtown vandalism. President Trump tweeted threatening to cut federal funds.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>Clery Act timely warning requirements (DOE specifically cited delayed notification for this event in the 2020 FPRD); POST use-of-force reporting; Mutual aid documentation.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-red">Not Compliant</span> &mdash; DOE specifically found the February 2017 event did not receive an emergency notification for nearly an hour after violence escalated, constituting a Clery Act timely warning violation.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>
+  CNN, Feb 1, 2017 &mdash; <a href="https://www.cnn.com/2017/02/01/us/milo-yiannopoulos-berkeley" target="_blank">https://www.cnn.com/2017/02/01/us/milo-yiannopoulos-berkeley</a><br>
+  Berkeley News, Feb 1, 2017 &mdash; <a href="https://news.berkeley.edu/2017/02/01/yiannopoulos-event-canceled/" target="_blank">https://news.berkeley.edu/2017/02/01/yiannopoulos-event-canceled/</a>
+</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 8 -->
+<div class="incident-heading">September 14, 2017 &mdash; Ben Shapiro Event &mdash; $836,421 Security Cost</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Conservative speaker Ben Shapiro spoke at Zellerbach Hall. Nine people were arrested. Security cost: $836,421.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>POST use-of-force reporting (if force used during arrests); Clery Act (arrests documented).</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Unknown</span> &mdash; No specific reporting failures documented for this event. Included for financial pattern context.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>CNN, Sept 2017 &mdash; <a href="https://www.cnn.com/2017/09/14/us/berkeley-ben-shapiro-speech" target="_blank">https://www.cnn.com/2017/09/14/us/berkeley-ben-shapiro-speech</a></td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 9 -->
+<div class="incident-heading">September 24&ndash;27, 2017 &mdash; Free Speech Week &mdash; $2,883,434 Security Cost</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Planned conservative speaker series. &#34;Unprecedented&#34; police deployment resulted in at least 11 arrests but no injuries or property damage. Spokesperson Dan Mogulof called it &#34;the most expensive photo op in the university&#39;s history.&#34; Total 2017 security spending for free speech events exceeded $4 million (UC Office of President split costs 50/50 with UC Berkeley). University normally allotted $200,000 per year for protest management.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>POST use-of-force reporting (if force used); Clery Act.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Unknown</span> &mdash; No specific reporting failures documented. Included for financial pattern context showing escalating security costs.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>UC Berkeley financial records; CNN &mdash; <a href="https://www.cnn.com/2017/09/14/us/berkeley-ben-shapiro-speech" target="_blank">https://www.cnn.com/2017/09/14/us/berkeley-ben-shapiro-speech</a></td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 10 -->
+<div class="incident-heading">February 1, 2018 &mdash; David Cole Arrest &mdash; Charges Dropped</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>During an AFSCME Local 3299 union rally, UCPD officers tackled and arrested David Cole, a 51-year-old Black UC Berkeley cook. UCPD stated Cole threw a picket sign at a passing car; the union said the car had pushed through the crowd. Cole sustained a cut on his forehead, three stitches in his eye, one in his nose, and a leg injury. Charged with misdemeanor vandalism and resisting arrest. CHARGES WERE EVENTUALLY DROPPED. Berkeley City Councilmember Ben Bartlett called attention to the racial dimension: &#34;On the first day of Black History Month, they target a Black man.&#34; AFSCME demanded an independent investigation and UC-wide police reforms. A 2019 campus survey found only 34% of Black undergraduates and 35% of transgender undergraduates trusted UCPD, compared to 73% overall.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>POST use-of-force reporting (officer-initiated force resulting in injury); PC &sect;13652 (use-of-force reporting); RIPA/AB 953 (data collection began January 2022 &mdash; post-dates this incident).</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Unknown</span> &mdash; Charges dropped. No public record of use-of-force report to POST/DOJ located for this specific incident. Racial trust data (34% Black undergraduate trust) suggests pattern.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>AFSCME Local 3299; Berkeley City Council records.</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 11 -->
+<div class="incident-heading">2018 &mdash; &#34;Math Library&#34; Scandal &mdash; Officer Untruthfulness</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Six UCPD officers faced termination for regularly congregating in a closed campus library at night while reporting they were patrolling elsewhere &mdash; charged with UNTRUTHFULNESS. A seventh officer (former Oakland PD Lt. Lawrence Green) resigned and alleged the investigation was retaliation for filing a whistleblower complaint against Chief Bennett alleging sexism in hiring and promotions. That complaint was rejected.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>POST standards on officer honesty/integrity; Brady/Giglio disclosure obligations (sustained untruthfulness findings must be disclosed to prosecutors); SB 2 (effective 2023 &mdash; sustained dishonesty findings may trigger decertification review for officers still serving).</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Unknown</span> &mdash; No public record confirming whether sustained untruthfulness findings were reported to POST or entered into Brady/Giglio databases. Under SB 2 (effective January 1, 2023), any officers still serving with sustained dishonesty findings would be subject to POST decertification review.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>The Mercury News, May 17, 2018 &mdash; <a href="https://www.mercurynews.com/2018/05/17/uc-berkeley-cops-face-possible-firing-for-hanging-out-in-math-library/" target="_blank">https://www.mercurynews.com/2018/05/17/uc-berkeley-cops-face-possible-firing-for-hanging-out-in-math-library/</a></td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 12 -->
+<div class="incident-heading">March 8, 2019 &mdash; Two Black Students Arrested Near Sather Gate</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>UCPD officers Gabriel Irving and Sgt. Cris Olivet arrested two Black students near Sather Gate after a report of a person with a Taser. The Black Student Union accused officers of &#34;forcefully searching&#34; the students. UC Berkeley referred students to a diversion program rather than prosecution. Chief Bennett committed to a &#34;thorough and equitable investigation.&#34;</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>POST training standards on bias-based policing; PC &sect;13519.4 (racial profiling prohibition); RIPA/AB 953 (data collection began January 2022 &mdash; post-dates this incident).</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Unknown</span> &mdash; Chief committed to investigation. No public outcome of investigation located. Pre-RIPA data collection.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>UC Berkeley Black Student Union; Daily Cal, March 2019.</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 13 -->
+<div class="incident-heading">August 3, 2022 &mdash; People&#39;s Park Standoff &mdash; 7 Arrests, $4,438,061</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Following an Alameda County Superior Court ruling clearing the way for construction, UCPD and contractors began fencing off People&#39;s Park shortly after midnight. Activists tried to block machinery by lying in roads; police arrived in riot gear from UCPD and California Highway Patrol. By noon, 47 trees had been cut down, but protesters tore down fencing and vandalized construction equipment. University withdrew construction crews citing &#34;destruction of construction materials, unlawful protest activities and violence.&#34; Seven people were arrested for charges including battery on a peace officer, trespassing, and resisting/obstructing. Two officers were injured; one arrested person was hospitalized for minor injuries. University reported $1.5 million in vandalism to equipment and materials. Security cost for this operation alone: $4,438,061.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>AB 48 (PC &sect;&sect;13652, 13652.1) &mdash; effective January 1, 2022; if crowd-control weapons were used, reporting was mandatory within 60 days. POST use-of-force reporting. Clery Act (arrests on campus property).</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Unknown</span> &mdash; UCPD is not listed on the California DOJ&#39;s AB 48 reporting page as of September 2025 LAist investigation. Whether crowd-control weapons were specifically deployed during this operation was not confirmed in available sources, but riot gear was documented.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>
+  KQED, Aug 2022 &mdash; <a href="https://www.kqed.org/news/11921415/protesters-block-construction-at-berkeleys-peoples-park-after-standoff-with-police" target="_blank">https://www.kqed.org/news/11921415/protesters-block-construction-at-berkeleys-peoples-park-after-standoff-with-police</a><br>
+  Berkeleyside, Dec 27, 2024 &mdash; <a href="https://www.berkeleyside.org/2024/12/27/why-build-a-wall-around-peoples-park" target="_blank">https://www.berkeleyside.org/2024/12/27/why-build-a-wall-around-peoples-park</a>
+</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 14 -->
+<div class="incident-heading">January 4, 2024 &mdash; People&#39;s Park Closure &mdash; 11 Arrests, Up to 1,400 Officers</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>UCPD executed park closure at approximately 4:30 a.m. with massive multi-agency operation. One source claimed up to 1,400 officers deployed (university could not confirm exact number). Agencies included UCPD, CHP, and mutual aid partners. At least 11 people arrested throughout the day, all cited and released on misdemeanor trespassing and related charges. No serious injuries reported. Total People&#39;s Park security costs (August 2022&ndash;February 2024): $16.1 million, including $4.44M for August 2022 operation, $2.85M for container perimeter, $3.76M for law enforcement operations, $1.16M for housing/support services, $3.56M for drop-in center. Additional CHP invoices (~$3M) still pending as of February 2024.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>AB 48 (PC &sect;&sect;13652, 13652.1) &mdash; if crowd-control weapons were used during this operation, reporting was mandatory. POST use-of-force reporting. Mutual aid documentation requirements. Clery Act.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Unknown</span> &mdash; UCPD not listed on DOJ&#39;s AB 48 reporting page. Whether crowd-control weapons were deployed during this specific operation was not confirmed. The $16.1M total cost documents a massive law enforcement operation whose reporting status to POST/DOJ has not been independently verified.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>
+  KQED, Jan 2024 &mdash; <a href="https://www.kqed.org/news/11971577/berkeleys-peoples-park-cleared-by-police-7-arrested" target="_blank">https://www.kqed.org/news/11971577/berkeleys-peoples-park-cleared-by-police-7-arrested</a><br>
+  Berkeley News, Feb 28, 2024 &mdash; <a href="https://news.berkeley.edu/2024/02/28/uc-berkeley-releases-preliminary-costs-for-closure-of-people-s-park/" target="_blank">https://news.berkeley.edu/2024/02/28/uc-berkeley-releases-preliminary-costs-for-closure-of-people-s-park/</a>
+</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 15 -->
+<div class="incident-heading">February 9, 2024 &mdash; Campus Shooting &mdash; Rapid Response</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>A man rode a motorcycle onto campus and fired a semi-automatic handgun at Lower Sproul Plaza during a dance practice while thousands attended a Ren&eacute;e Fleming concert at Zellerbach Hall. UCPD arrested the shooter within 2 minutes of the first 911 call. No injuries. Suspect placed on psychiatric hold.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>Clery Act (timely warning/emergency notification); POST reporting of firearm discharge incident.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-green">N/A &mdash; Properly Handled</span> &mdash; 2-minute response and arrest. Included to document departmental capacity for rapid response.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>UC Berkeley campus communications; Daily Cal, February 2024.</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 16 -->
+<div class="incident-heading">April 22 &ndash; May 14, 2024 &mdash; Gaza Solidarity Encampment &mdash; Peaceful Resolution, Zero Arrests</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>The &#34;UC Berkeley Free Palestine Encampment&#34; was established on Sproul Hall steps by the UCB Divest Coalition (Black Student Union, Jewish Voice for Peace, Indigenous Graduate Student Association, Law Students for Justice in Palestine, and others). Encampment grew from ~50 tents to 180&ndash;200 tents at peak. UC Berkeley took a deliberately hands-off approach. Spokesperson Mogulof stated the university was following UC policy directing administrators to &#34;avoid police involvement unless it&#39;s absolutely necessary.&#34; NO ARRESTS WERE MADE. NO FORCE WAS USED. NO MUTUAL AID AGENCIES WERE CALLED. Encampment lasted 22 days before being voluntarily dismantled on May 14 after Chancellor Carol Christ reached an agreement. UC Berkeley was widely cited as a model of restraint compared to UCLA (210+ arrests).</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>AB 48 &mdash; no crowd-control weapons used, so no AB 48 reporting triggered. First Amendment assembly rights.</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-green">N/A &mdash; No Force Used</span> &mdash; No arrests made, no reporting obligation triggered.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>Berkeleyside, May 14, 2024; NBC News; Yahoo! News; Institute for Palestine Studies.</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 17 -->
+<div class="incident-heading">May 15&ndash;16, 2024 &mdash; Anna Head Hall Occupation &mdash; Arrests</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>One day after the encampment was voluntarily dismantled, a separate group of approximately 60 protesters broke into Anna Head Alumnae Hall, a condemned UC-owned building on Haste Street, using sticks, pry bars, and bolt cutters. UCPD responded. Arrests were made. Further details on specific force used and reporting status were not fully documented in available sources.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>AB 48 (if crowd-control weapons used); POST use-of-force reporting; Clery Act; PC &sect;459 (burglary).</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-unknown">Unknown</span> &mdash; Specific reporting status for this incident not independently verified.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>KQED, May 2024; J. The Jewish News of Northern California.</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 18 -->
+<div class="incident-heading">November 10, 2025 &mdash; TPUSA Event &mdash; Violence, Active DOJ/FBI/DOE Investigations</div>
+<div class="key-finding"><strong>Status as of February 2026:</strong> DOJ Civil Rights Division investigation, FBI JTTF investigation, DOE Clery Act focused review (2022&ndash;2025), UCPD internal investigation, and Alameda County DA prosecution all remain ACTIVE and ongoing.</div>
+<table class="data-table">
+<thead><tr><th style="width:22%">Category</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Incident Description</strong></td><td>Turning Point USA memorial event for Charlie Kirk at Zellerbach Hall. Approximately 300+ law enforcement officers from UCPD, Berkeley PD, San Francisco Sheriff&#39;s Office, Alameda County Sheriff&#39;s Office, CHP, and private security firms were deployed. Officers wore riot gear and carried PepperBall launchers. A 45-year-old male attendee was struck in the head with a glass bottle or jar thrown from the crowd &mdash; suffered head laceration, transported to Highland Hospital. Jihad Dphrepaulezz, 25, of Oakland, arrested for felony robbery and battery. Protesters threw paint-filled glass bottles, rocks, and tear gas canisters at officers and bystanders. Four UC Berkeley students (ages 20&ndash;22) arrested at approximately midnight on felony vandalism charges. Two additional arrests (Christopher Joseph Benton, 48; Jay Eduardo Maytorena, 22). Total: approximately 8 arrests. On November 11, AAG Harmeet K. Dhillon announced DOJ Civil Rights Division investigation (18 U.S.C. &sect;&sect;241, 242 &mdash; conspiracy to deprive/deprivation of rights under color of law). FBI San Francisco Field Office launched digital tip line November 14. On November 25, DOE initiated Clery Act focused review (2022&ndash;2025), explicitly citing prior $2.35M Clery fine. Secretary McMahon stated UC Berkeley &#34;allowed a protest...to turn unruly and violent, jeopardizing the safety of its students and staff.&#34; DOE requested 11 categories of records with 30-day deadline.</td></tr>
+<tr><td><strong>Applicable Law / Reporting Requirement</strong></td><td>Clery Act &sect;485(f) (timely warning/emergency notification &mdash; DOE review explicitly examining this); AB 48 (PC &sect;&sect;13652, 13652.1 &mdash; if PepperBall launchers or other crowd-control weapons were deployed); POST use-of-force reporting; 18 U.S.C. &sect;&sect;241, 242 (federal civil rights); 2018 BCR/YAF settlement (DOJ investigating whether UC Berkeley violated terms).</td></tr>
+<tr><td><strong>Reported to POST/DOJ?</strong></td><td><span class="badge badge-active">Under Active Federal Investigation</span> &mdash; DOJ, FBI, DOE all investigating. UCPD not listed on DOJ AB 48 reporting page. Whether PepperBall launchers were actually fired (vs. carried) has not been confirmed in available sources. Clery Act compliance for this event is the specific subject of the November 25, 2025 DOE focused review.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>
+  KQED, Nov 2025 &mdash; <a href="https://www.kqed.org/news/12063406/uc-berkeley-turning-point-usa-event-draws-protests-after-charlie-kirks-death" target="_blank">https://www.kqed.org/news/12063406/uc-berkeley-turning-point-usa-event-draws-protests-after-charlie-kirks-death</a><br>
+  Berkeleyside, Nov 12, 2025 &mdash; <a href="https://www.berkeleyside.org/2025/11/12/tpusa-uc-berkeley-protests" target="_blank">https://www.berkeleyside.org/2025/11/12/tpusa-uc-berkeley-protests</a><br>
+  DOE press release, Nov 25, 2025 &mdash; <a href="https://www.ed.gov/about/news/press-release/us-department-of-education-initiates-review-of-university-of-california-berkeley-potential-clery-act-violations" target="_blank">https://www.ed.gov/about/news/press-release/us-department-of-education-initiates-review-of-university-of-california-berkeley-potential-clery-act-violations</a><br>
+  SF Standard, Nov 11, 2025 &mdash; <a href="https://sfstandard.com/2025/11/11/turning-point-uc-berkeley-harmeet-dhillon-investigation/" target="_blank">https://sfstandard.com/2025/11/11/turning-point-uc-berkeley-harmeet-dhillon-investigation/</a><br>
+  Washington Examiner &mdash; <a href="https://www.washingtonexaminer.com/news/justice/3884127/doj-eyes-hate-crime-charges-for-uc-berkeley-protests/" target="_blank">https://www.washingtonexaminer.com/news/justice/3884127/doj-eyes-hate-crime-charges-for-uc-berkeley-protests/</a><br>
+  CalMatters &mdash; <a href="https://calmatters.org/education/2025/11/uc-berkeley-turning-point-fights-arrests/" target="_blank">https://calmatters.org/education/2025/11/uc-berkeley-turning-point-fights-arrests/</a><br>
+  Inside Higher Ed, Nov 26, 2025 &mdash; <a href="https://www.insidehighered.com/news/quick-takes/2025/11/26/ed-investigates-berkeley-over-protest-violence" target="_blank">https://www.insidehighered.com/news/quick-takes/2025/11/26/ed-investigates-berkeley-over-protest-violence</a>
+</td></tr>
+</tbody>
+</table>
+
+<!-- SECTION C -->
+<div id="secC" class="section-heading">Section C</div>
+<div class="section-title">State and Federal Compliance Status Matrix</div>
+<table class="data-table">
+<thead><tr><th style="width:20%">Mandate</th><th style="width:14%">Status</th><th style="width:38%">Factual Basis</th><th>Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td><strong>AB 48</strong><br>PC &sect;&sect;13652, 13652.1<br><em>Effective Jan 1, 2022</em></td>
+  <td><span class="badge badge-red">Non-Compliant</span></td>
+  <td>UCPD Berkeley was not listed on the California DOJ&#39;s statewide AB 48 reporting webpage as of the September 12, 2025 LAist investigation. AB 48 requires every law enforcement agency to document and publicly report any use of kinetic energy projectiles and chemical agents used during crowd control situations, submitted to CA DOJ within 60 days. Eight of ten UC campus police departments share this non-compliant status.</td>
+  <td>LAist, September 12, 2025 &mdash; <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law</a></td>
+</tr>
+<tr>
+  <td><strong>Clery Act</strong><br>20 U.S.C. &sect;1092(f)<br><em>Effective 1990</em></td>
+  <td><span class="badge badge-red">Non-Compliant &mdash; $2.35M Fine (2020); New DOE Review (2025)</span></td>
+  <td>September 2020: $2,350,000 fine &mdash; fourth-largest in Clery Act history. 1,125 misclassified incidents, 30 timely warning failures, 3 unreported hate crimes, and ASR distribution failures documented over 2009&ndash;2016. DOE found UC Berkeley &#34;lacks administrative capacity&#34; for Clery compliance. November 25, 2025: DOE initiated new focused review (2022&ndash;2025) following TPUSA event, explicitly referencing the prior fine.</td>
+  <td>Federal Student Aid settlement, Sept 9, 2020 &mdash; <a href="https://studentaid.gov/sites/default/files/university-of-california-berkely-settlement-090920.pdf" target="_blank">https://studentaid.gov/sites/default/files/university-of-california-berkely-settlement-090920.pdf</a><br>DOE press release, Nov 25, 2025 &mdash; <a href="https://www.ed.gov/about/news/press-release/us-department-of-education-initiates-review-of-university-of-california-berkeley-potential-clery-act-violations" target="_blank">https://www.ed.gov/about/news/press-release/...</a></td>
+</tr>
+<tr>
+  <td><strong>SB 1421</strong><br>PC &sect;832.7<br><em>Effective Jan 1, 2019</em></td>
+  <td><span class="badge badge-red">Non-Compliant &mdash; Documented May 2020</span></td>
+  <td>Voice of San Diego (May 12, 2020) documented that UC Berkeley had provided zero records under SB 1421 as of that date, claiming no disclosable records existed &mdash; despite the UC system reporting 200+ use-of-force incidents during the same period. SB 1421 (PC &sect;832.7, effective January 1, 2019) requires public disclosure of records relating to officer-involved shootings, use of force causing great bodily injury or death, sustained sexual assault findings, and sustained dishonesty findings. Documented non-disclosure was confirmed as of May 12, 2020.</td>
+  <td>Voice of San Diego, May 12, 2020 &mdash; <a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/</a><br>UAW 2865, Feb 2021 &mdash; <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-UAW-2865-Research-WG-Report.pdf</a></td>
+</tr>
+<tr>
+  <td><strong>AB 481</strong><br>Gov. Code &sect;7070 et seq.<br><em>Effective Jan 1, 2022</em></td>
+  <td><span class="badge badge-green">Compliant</span></td>
+  <td>UCPD Berkeley publishes AB 481 military equipment reports as required.</td>
+  <td>UCPD Berkeley website &mdash; <a href="https://ucpd.berkeley.edu" target="_blank">ucpd.berkeley.edu</a></td>
+</tr>
+<tr>
+  <td><strong>Brady/Giglio Disclosure Obligations</strong></td>
+  <td><span class="badge badge-unknown">Unknown &mdash; 2018 Untruthfulness Findings Raise Questions</span></td>
+  <td>Six officers faced termination for untruthfulness in the 2018 &#34;Math Library&#34; scandal. Prosecutors must receive material impeachment evidence about law enforcement witnesses. Whether sustained untruthfulness findings from 2018 were disclosed to the Alameda County DA&#39;s office or entered into Brady/Giglio databases has not been publicly confirmed.</td>
+  <td>The Mercury News, May 17, 2018 &mdash; <a href="https://www.mercurynews.com/2018/05/17/uc-berkeley-cops-face-possible-firing-for-hanging-out-in-math-library/" target="_blank">https://www.mercurynews.com/2018/05/17/uc-berkeley-cops-face-possible-firing-for-hanging-out-in-math-library/</a></td>
+</tr>
+<tr>
+  <td><strong>RIPA / AB 953</strong><br><em>Effective Jan 2022 (for UC PDs)</em></td>
+  <td><span class="badge badge-green">Data Collection Compliant</span></td>
+  <td>UCPD Berkeley began collecting RIPA data January 2022 with reporting due April 2023. Data published on UC Community Safety Dashboard. RIPA requires collection and reporting of data on all stops, including perceived demographic characteristics.</td>
+  <td>UCPD Berkeley RIPA page &mdash; <a href="https://ucpd.berkeley.edu/alerts-data/racial-and-identity-profiling-act" target="_blank">https://ucpd.berkeley.edu/alerts-data/racial-and-identity-profiling-act</a></td>
+</tr>
+<tr>
+  <td><strong>SB 2 / Kenneth Ross Jr. Decertification Act</strong><br><em>Effective Jan 1, 2023</em></td>
+  <td><span class="badge badge-yellow">No Decertifications Identified &mdash; But 2018 Cases May Warrant Review</span></td>
+  <td>No POST decertification actions found against UCPD Berkeley officers as of research date. However, the 2018 &#34;Math Library&#34; sustained untruthfulness findings, if the involved officers remain employed in California law enforcement, would be subject to review under SB 2&#39;s mandatory reporting requirements for sustained dishonesty.</td>
+  <td>POST Commission records; Mercury News, May 17, 2018.</td>
+</tr>
+</tbody>
+</table>
+
+<!-- SECTION D -->
+<div id="secD" class="section-heading">Section D</div>
+<div class="section-title">Financial Impact &mdash; Fines, Settlements, and Security Costs</div>
+<table class="data-table">
+<thead><tr><th style="width:28%">Item</th><th style="width:13%">Amount</th><th style="width:11%">Year(s)</th><th style="width:28%">Context</th><th>Source(s)</th></tr></thead>
+<tbody>
+<tr><td><strong>Clery Act Fine (DOE Settlement)</strong></td><td><strong>$2,350,000</strong></td><td>2020</td><td>Fourth-largest Clery Act fine in U.S. history. 1,125 misclassified incidents.</td><td><a href="https://studentaid.gov/sites/default/files/university-of-california-berkely-settlement-090920.pdf" target="_blank">Federal Student Aid settlement, Sept 9, 2020</a></td></tr>
+<tr><td><strong>People&#39;s Park Total Security (Aug 2022&ndash;Feb 2024)</strong></td><td><strong>$16,100,000+</strong></td><td>2022&ndash;2024</td><td>$4.44M Aug 2022 operation + $2.85M perimeter + $3.76M law enforcement ops + $1.16M housing services + $3.56M drop-in center. Additional CHP invoices (~$3M) pending.</td><td><a href="https://news.berkeley.edu/2024/02/28/uc-berkeley-releases-preliminary-costs-for-closure-of-people-s-park/" target="_blank">Berkeley News, Feb 28, 2024</a></td></tr>
+<tr><td><strong>People&#39;s Park August 2022 Standoff Alone</strong></td><td><strong>$4,438,061</strong></td><td>2022</td><td>Single-day operation cost.</td><td>UC Berkeley financial records.</td></tr>
+<tr><td><strong>2017 Free Speech Events Total Security</strong></td><td><strong>$4,000,000+</strong></td><td>2017</td><td>Milo ($100K damage + security), Shapiro ($836K), Free Speech Week ($2.88M). UCOP split 50/50 with campus. Normal annual allotment: $200,000. Total documented: $3,910,259 (Aug. 27&ndash;Sept. 27, 2017).</td><td><a href="https://www.berkeleyside.org/2018/02/06/uc-berkeley-spent-close-4m-security-just-one-month-2017" target="_blank">Berkeleyside, Feb 6, 2018</a>; <a href="https://www.dailycal.org/2018/02/04/uc-berkeley-split-4m-cost-free-speech-events-uc-office-president" target="_blank">Daily Cal, Feb 4, 2018</a>; <a href="https://www.nbcbayarea.com/news/local/UC-Berkeley-Spent-4-Million-for-Free-Speech-Event-Security-472955423.html" target="_blank">NBC Bay Area, Feb 2018</a></td></tr>
+<tr><td><strong>Free Speech Week Security (Sept 2017)</strong></td><td><strong>$2,883,434</strong></td><td>2017</td><td>&#34;Most expensive photo op in university history&#34; &mdash; Dan Mogulof, UC Berkeley Assistant Vice Chancellor of Public Affairs.</td><td><a href="https://www.berkeleyside.org/2018/02/06/uc-berkeley-spent-close-4m-security-just-one-month-2017" target="_blank">Berkeleyside, Feb 6, 2018</a>; <a href="https://www.dailycal.org/2018/02/04/uc-berkeley-split-4m-cost-free-speech-events-uc-office-president" target="_blank">Daily Cal, Feb 4, 2018</a></td></tr>
+<tr><td><strong>Ben Shapiro Security (Sept 2017)</strong></td><td><strong>$836,421</strong></td><td>2017</td><td>Single-event security cost.</td><td>UC Berkeley records.</td></tr>
+<tr><td><strong>Milo Yiannopoulos Campus Damage (Feb 2017)</strong></td><td><strong>$100,000</strong></td><td>2017</td><td>Property damage to MLK Student Union and campus facilities.</td><td><a href="https://www.cnn.com/2017/02/01/us/milo-yiannopoulos-berkeley" target="_blank">CNN, February 1, 2017</a></td></tr>
+<tr><td><strong>BAMN v. Birgeneau &mdash; Demand (no payment)</strong></td><td><strong>$15,000,000</strong></td><td>2011</td><td>Occupy Cal excessive force lawsuit &mdash; dismissed on qualified immunity. Zero financial accountability despite Judge Watford&#39;s statement that force appeared excessive.</td><td><a href="https://law.justia.com/cases/federal/appellate-courts/ca9/16-15293/16-15293-2018-05-31.html" target="_blank">Case No. 3:2011-cv-05719 (N.D. Cal.); 9th Cir. 2018</a></td></tr>
+<tr><td><strong>People&#39;s Park Overall Project Cost (Projected)</strong></td><td><strong>$400,000,000+</strong></td><td>2024&ndash;2027</td><td>Per UC Berkeley&#39;s February 28, 2024 public release, the overall People&#39;s Park project may exceed $400 million. This figure covers the full project scope: student housing (1,100 beds), supportive housing (100 units), and park remediation work. Completion target: Fall 2027.</td><td><a href="https://news.berkeley.edu/2024/02/28/uc-berkeley-releases-preliminary-costs-for-closure-of-people-s-park/" target="_blank">Berkeley News, Feb 28, 2024</a></td></tr>
+</tbody>
+</table>
+
+<!-- SECTION E -->
+<div id="secE" class="section-heading">Section E</div>
+<div class="section-title">Leadership History &mdash; Chief of Police Chronology</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Period</th><th style="width:18%">Chief</th><th style="width:34%">Key Facts During Tenure</th><th style="width:16%">POST-Relevant Notes</th><th>Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td>1925&ndash;late 1950s</td>
+  <td>Captain Walter J. Lee</td>
+  <td>Appointed 1925; served 30+ years. UCPD formally established by Regents September 1947. ~22 sworn personnel by 1959.</td>
+  <td>Foundational era. Predates all current mandates.</td>
+  <td><a href="https://ucpd.berkeley.edu/about/ucpd-berkeley-department-history" target="_blank">ucpd.berkeley.edu/about/ucpd-berkeley-department-history</a></td>
+</tr>
+<tr>
+  <td>Late 1950s&ndash;late 1960s</td>
+  <td>Captain W.W. Wadman</td>
+  <td>First university staff member selected for FBI National Academy.</td>
+  <td>People&#39;s Park &#34;Bloody Thursday&#34; (1969) occurred during this period.</td>
+  <td>ucpd.berkeley.edu/about</td>
+</tr>
+<tr>
+  <td>May 1, 1969&ndash;late 1970s</td>
+  <td>Chief William P. Beall</td>
+  <td>First University-wide Coordinator of nine-campus police system. Oversaw People&#39;s Park crisis, draft protests, bombings, and campus unrest of the Vietnam War era.</td>
+  <td>People&#39;s Park foundational force event occurred on first day of tenure.</td>
+  <td>LiquiSearch; UCPD history.</td>
+</tr>
+<tr>
+  <td>1990&ndash;July 31, 2009 (~19 years)</td>
+  <td>Chief Victoria L. Harrison</td>
+  <td>First female UC police chief; first female chief in Alameda County. 1992 Denovo shooting on her watch (OPD officer on UCPD-jurisdictional property). Oakland Tribune Award (1993). Berkeley Citation awarded at retirement.</td>
+  <td>Pre-SB 1421, pre-AB 48. 2009 Wheeler Hall baton incident occurred at end of tenure.</td>
+  <td>East Bay Times; Wikipedia.</td>
+</tr>
+<tr>
+  <td>Aug 1, 2009&ndash;Dec 2012</td>
+  <td>Chief Mitchell Celaya</td>
+  <td>Occupy Cal (November 9, 2011) occurred under his command. Named defendant in BAMN v. Birgeneau (dismissed on qualified immunity). 39 arrests documented.</td>
+  <td>$15M lawsuit dismissed on qualified immunity. 9th Circuit Judge found force appeared excessive.</td>
+  <td>Berkeley News; CBS News; Daily Cal.</td>
+</tr>
+<tr>
+  <td>April 2013&ndash;June 2022</td>
+  <td>Chief Margo Bennett</td>
+  <td>Prior decade with FBI. Championed elimination of carotid chokehold. 2018 &#34;Math Library&#34; scandal (6 officers facing termination for untruthfulness). $2.35M Clery fine finalized during tenure. People&#39;s Park operations initiated.</td>
+  <td>2018 Math Library untruthfulness cases &mdash; Brady/Giglio implications unresolved. Clery Act fine finalized during her tenure.</td>
+  <td>Mercury News, May 2018; Patch; Berkeley News.</td>
+</tr>
+<tr>
+  <td>Feb 1, 2023&ndash;Present</td>
+  <td>Chief Yogananda Pittman</td>
+  <td>Former Acting Chief, U.S. Capitol Police (post-Jan 6). Managing People&#39;s Park closure ($16.1M); 2024 Gaza encampment (peaceful resolution, zero arrests); 2025 TPUSA event (DOJ/FBI/DOE investigations all ongoing).</td>
+  <td>AB 48 non-compliance confirmed during her tenure. DOE Clery review (2022&ndash;2025) initiated. DOJ civil rights investigation ongoing as of Feb 2026.</td>
+  <td>Wikipedia; DOE press release, Nov 25, 2025; LAist, Sept 12, 2025.</td>
+</tr>
+</tbody>
+</table>
+
+<!-- SECTION F -->
+<div id="secF" class="section-heading">Section F</div>
+<div class="section-title">Source Index &mdash; All Sources Cited in This Report</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-09-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[1] <strong>LAist</strong></div>
+    <div class="src-sub">&#34;9 of 10 UC campus PDs fail to comply with AB 48&#34; (September 12, 2025) &mdash; <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020-09-09</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[2] <strong>Federal Student Aid / DOE</strong></div>
+    <div class="src-sub">Clery Act settlement agreement, $2,350,000 fine (September 9, 2020) &mdash; <a href="https://studentaid.gov/sites/default/files/university-of-california-berkely-settlement-090920.pdf" target="_blank">https://studentaid.gov/sites/default/files/university-of-california-berkely-settlement-090920.pdf</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11-25</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[3] <strong>U.S. Department of Education</strong></div>
+    <div class="src-sub">Clery Act focused review press release (November 25, 2025) &mdash; <a href="https://www.ed.gov/about/news/press-release/us-department-of-education-initiates-review-of-university-of-california-berkeley-potential-clery-act-violations" target="_blank">https://www.ed.gov/about/news/press-release/us-department-of-education-initiates-review-of-university-of-california-berkeley-potential-clery-act-violations</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[4] <strong>Security Advisor CG</strong></div>
+    <div class="src-sub">Analysis of DOE Clery enforcement action against UC Berkeley (2020) &mdash; <a href="https://www.securityadvisorcg.com/post/an-analysis-of-the-department-of-education-s-clery-act-enforcement-action-against-university-of-cali" target="_blank">https://www.securityadvisorcg.com/post/an-analysis-of-the-department-of-education-s-clery-act-enforcement-action-against-university-of-cali</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020-05-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[5] <strong>Voice of San Diego</strong></div>
+    <div class="src-sub">UC campuses disclosed virtually no records under SB 1421 (May 12, 2020) &mdash; <a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2021-02</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[6] <strong>UAW 2865 Research Working Group</strong></div>
+    <div class="src-sub">&#34;Policing in the UC&#34; (February 2021) &mdash; <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-UAW-2865-Research-WG-Report.pdf</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[7] <strong>Wikipedia</strong></div>
+    <div class="src-sub">Occupy Cal &mdash; <a href="https://en.wikipedia.org/wiki/Occupy_Cal" target="_blank">https://en.wikipedia.org/wiki/Occupy_Cal</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[8] <strong>Wikipedia</strong></div>
+    <div class="src-sub">People&#39;s Park (Berkeley) &mdash; <a href="https://en.wikipedia.org/wiki/People%27s_Park_(Berkeley)" target="_blank">https://en.wikipedia.org/wiki/People%27s_Park_(Berkeley)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-02-01</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[9] <strong>CNN</strong></div>
+    <div class="src-sub">Milo Yiannopoulos Berkeley (February 1, 2017) &mdash; <a href="https://www.cnn.com/2017/02/01/us/milo-yiannopoulos-berkeley" target="_blank">https://www.cnn.com/2017/02/01/us/milo-yiannopoulos-berkeley</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-09-14</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[10] <strong>CNN</strong></div>
+    <div class="src-sub">Ben Shapiro Berkeley speech (September 14, 2017) &mdash; <a href="https://www.cnn.com/2017/09/14/us/berkeley-ben-shapiro-speech" target="_blank">https://www.cnn.com/2017/09/14/us/berkeley-ben-shapiro-speech</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-02-01</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[11] <strong>Berkeley News</strong></div>
+    <div class="src-sub">Yiannopoulos event canceled (February 1, 2017) &mdash; <a href="https://news.berkeley.edu/2017/02/01/yiannopoulos-event-canceled/" target="_blank">https://news.berkeley.edu/2017/02/01/yiannopoulos-event-canceled/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020-09-10</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[12] <strong>Berkeley News</strong></div>
+    <div class="src-sub">Clery Act compliance review ending (September 10, 2020) &mdash; <a href="https://news.berkeley.edu/2020/09/10/uc-berkeleys-clery-act-compliance-review-ending-after-6-years/" target="_blank">https://news.berkeley.edu/2020/09/10/uc-berkeleys-clery-act-compliance-review-ending-after-6-years/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-02-28</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[13] <strong>Berkeley News</strong></div>
+    <div class="src-sub">People&#39;s Park costs (February 28, 2024) &mdash; <a href="https://news.berkeley.edu/2024/02/28/uc-berkeley-releases-preliminary-costs-for-closure-of-people-s-park/" target="_blank">https://news.berkeley.edu/2024/02/28/uc-berkeley-releases-preliminary-costs-for-closure-of-people-s-park/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2022-08</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[14] <strong>KQED</strong></div>
+    <div class="src-sub">People&#39;s Park August 2022 standoff &mdash; <a href="https://www.kqed.org/news/11921415/protesters-block-construction-at-berkeleys-peoples-park-after-standoff-with-police" target="_blank">https://www.kqed.org/news/11921415/protesters-block-construction-at-berkeleys-peoples-park-after-standoff-with-police</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-01</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[15] <strong>KQED</strong></div>
+    <div class="src-sub">People&#39;s Park January 2024 closure &mdash; <a href="https://www.kqed.org/news/11971577/berkeleys-peoples-park-cleared-by-police-7-arrested" target="_blank">https://www.kqed.org/news/11971577/berkeleys-peoples-park-cleared-by-police-7-arrested</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[16] <strong>KQED</strong></div>
+    <div class="src-sub">TPUSA event (November 2025) &mdash; <a href="https://www.kqed.org/news/12063406/uc-berkeley-turning-point-usa-event-draws-protests-after-charlie-kirks-death" target="_blank">https://www.kqed.org/news/12063406/uc-berkeley-turning-point-usa-event-draws-protests-after-charlie-kirks-death</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[17] <strong>Berkeleyside</strong></div>
+    <div class="src-sub">TPUSA protests (November 12, 2025) &mdash; <a href="https://www.berkeleyside.org/2025/11/12/tpusa-uc-berkeley-protests" target="_blank">https://www.berkeleyside.org/2025/11/12/tpusa-uc-berkeley-protests</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-12-27</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[18] <strong>Berkeleyside</strong></div>
+    <div class="src-sub">Why build a wall around People&#39;s Park (December 27, 2024) &mdash; <a href="https://www.berkeleyside.org/2024/12/27/why-build-a-wall-around-peoples-park" target="_blank">https://www.berkeleyside.org/2024/12/27/why-build-a-wall-around-peoples-park</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[19] <strong>Daily Cal</strong></div>
+    <div class="src-sub">Protesters/armed police at TPUSA event (November 2025) &mdash; <a href="https://www.dailycal.org/news/campus/protesters-armed-police-swarm-uc-berkeley-at-turbulent-turning-point-usa-event/article_fbff1cf4-206d-4a74-901e-61b7fc3a5a49.html" target="_blank">https://www.dailycal.org/news/campus/protesters-armed-police-swarm-uc-berkeley-at-turbulent-turning-point-usa-event/...</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[20] <strong>Daily Cal</strong></div>
+    <div class="src-sub">AAG Dhillon visits UC Berkeley, DOJ probe launched (November 2025) &mdash; <a href="https://www.dailycal.org/news/campus/assistant-attorney-general-visits-uc-berkeley-as-doj-launches-probe-into-tpusa-protests/article_966279bf-5407-49d7-a08d-66c99edd2481.html" target="_blank">https://www.dailycal.org/news/campus/assistant-attorney-general-visits-uc-berkeley-as-doj-launches-probe-into-tpusa-protests/...</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[21] <strong>Daily Cal</strong></div>
+    <div class="src-sub">DOE launches new probe into TPUSA protests (November 2025) &mdash; <a href="https://www.dailycal.org/news/campus/department-of-education-launches-new-probe-into-uc-berkeley-tpusa-protests/article_3f1a20a3-1d44-40df-91ab-aea6549ee266.html" target="_blank">https://www.dailycal.org/news/campus/department-of-education-launches-new-probe-into-uc-berkeley-tpusa-protests/...</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[22] <strong>ABC7 San Francisco</strong></div>
+    <div class="src-sub">AAG Dhillon visiting UC Berkeley (November 2025) &mdash; <a href="https://abc7news.com/post/assistant-attorney-general-harmeet-dhillon-visiting-uc-berkeley-amid-turning-point-usa-tour-protest-investigation/18152094/" target="_blank">https://abc7news.com/post/assistant-attorney-general-harmeet-dhillon-visiting-uc-berkeley-amid-turning-point-usa-tour-protest-investigation/18152094/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[23] <strong>SF Standard</strong></div>
+    <div class="src-sub">Turning Point / Dhillon investigation (November 11, 2025) &mdash; <a href="https://sfstandard.com/2025/11/11/turning-point-uc-berkeley-harmeet-dhillon-investigation/" target="_blank">https://sfstandard.com/2025/11/11/turning-point-uc-berkeley-harmeet-dhillon-investigation/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[24] <strong>Washington Examiner</strong></div>
+    <div class="src-sub">DOJ eyes hate crime charges for UC Berkeley protests (November 2025) &mdash; <a href="https://www.washingtonexaminer.com/news/justice/3884127/doj-eyes-hate-crime-charges-for-uc-berkeley-protests/" target="_blank">https://www.washingtonexaminer.com/news/justice/3884127/doj-eyes-hate-crime-charges-for-uc-berkeley-protests/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11-26</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[25] <strong>Inside Higher Ed</strong></div>
+    <div class="src-sub">DOE investigates Berkeley over protest violence (November 26, 2025) &mdash; <a href="https://www.insidehighered.com/news/quick-takes/2025/11/26/ed-investigates-berkeley-over-protest-violence" target="_blank">https://www.insidehighered.com/news/quick-takes/2025/11/26/ed-investigates-berkeley-over-protest-violence</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11-14</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[26] <strong>Peninsula Press</strong></div>
+    <div class="src-sub">TPUSA at Berkeley enflames DOJ investigation (November 14, 2025) &mdash; <a href="https://peninsulapress.com/2025/11/14/turning-point-usa-at-berkeley-enflames-local-protesters-and-prompts-doj-investigation/" target="_blank">https://peninsulapress.com/2025/11/14/turning-point-usa-at-berkeley-enflames-local-protesters-and-prompts-doj-investigation/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[27] <strong>Campus Safety Magazine</strong></div>
+    <div class="src-sub">UC Berkeley to pay $2.35M Clery fine (2020) &mdash; <a href="https://www.campussafetymagazine.com/news/uc-berkeley-to-pay-2-35m-clery-fine/92867/" target="_blank">https://www.campussafetymagazine.com/news/uc-berkeley-to-pay-2-35m-clery-fine/92867/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2018</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[28] <strong>CBS News</strong></div>
+    <div class="src-sub">Occupy Cal police brutality claims dropped (qualified immunity, 2018) &mdash; <a href="https://www.cbsnews.com/sanfrancisco/news/occupy-call-police-brutality-claims-dropped/" target="_blank">https://www.cbsnews.com/sanfrancisco/news/occupy-call-police-brutality-claims-dropped/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2018-05-17</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[29] <strong>The Mercury News</strong></div>
+    <div class="src-sub">6 UC Berkeley cops face possible firing for Math Library (May 17, 2018) &mdash; <a href="https://www.mercurynews.com/2018/05/17/uc-berkeley-cops-face-possible-firing-for-hanging-out-in-math-library/" target="_blank">https://www.mercurynews.com/2018/05/17/uc-berkeley-cops-face-possible-firing-for-hanging-out-in-math-library/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">1992-08-25</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[30] <strong>UPI Archives</strong></div>
+    <div class="src-sub">&#34;Activist killed in UC Berkeley chancellor&#39;s home&#34; (August 25, 1992) &mdash; <a href="https://www.upi.com/Archives/1992/08/25/Activist-killed-in-UC-Berkeley-chancellors-home/6777714715200/" target="_blank">https://www.upi.com/Archives/1992/08/25/Activist-killed-in-UC-Berkeley-chancellors-home/6777714715200/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2011-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[31] <strong>Daily Cal</strong></div>
+    <div class="src-sub">Complete Coverage of Occupy Cal (November 2011) &mdash; <a href="https://www.dailycal.org/news/complete-coverage-of-occupy-cal/article_59b45dc0-c32f-50e8-a20c-2d4bcef876f8.html" target="_blank">https://www.dailycal.org/news/complete-coverage-of-occupy-cal/article_59b45dc0-c32f-50e8-a20c-2d4bcef876f8.html</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2018</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[32] <strong>Findlaw</strong></div>
+    <div class="src-sub">Felarca v. Birgeneau, 891 F.3d 809 (9th Cir. 2018) &mdash; <a href="https://caselaw.findlaw.com/court/us-9th-circuit/1934471.html" target="_blank">https://caselaw.findlaw.com/court/us-9th-circuit/1934471.html</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2018-05-31</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[33] <strong>Justia</strong></div>
+    <div class="src-sub">Full text, Felarca v. Birgeneau (9th Cir. May 31, 2018) &mdash; <a href="https://law.justia.com/cases/federal/appellate-courts/ca9/16-15293/16-15293-2018-05-31.html" target="_blank">https://law.justia.com/cases/federal/appellate-courts/ca9/16-15293/16-15293-2018-05-31.html</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[34] <strong>CalMatters</strong></div>
+    <div class="src-sub">UC Berkeley Turning Point fights and arrests (November 2025) &mdash; <a href="https://calmatters.org/education/2025/11/uc-berkeley-turning-point-fights-arrests/" target="_blank">https://calmatters.org/education/2025/11/uc-berkeley-turning-point-fights-arrests/</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[35] <strong>UCPD Berkeley</strong></div>
+    <div class="src-sub">Department History &mdash; <a href="https://ucpd.berkeley.edu/about/ucpd-berkeley-department-history" target="_blank">https://ucpd.berkeley.edu/about/ucpd-berkeley-department-history</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[36] <strong>UCPD Berkeley</strong></div>
+    <div class="src-sub">RIPA Data &mdash; <a href="https://ucpd.berkeley.edu/alerts-data/racial-and-identity-profiling-act" target="_blank">https://ucpd.berkeley.edu/alerts-data/racial-and-identity-profiling-act</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-02-05</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[37] <strong>Berkeleyside</strong></div>
+    <div class="src-sub">BPD chief: lessons learned from 2014 BLM protests guided Milo response (February 5, 2017) &mdash; <a href="https://www.berkeleyside.org/2017/02/05/berkeley-police-chief-lessons-learned-2014-black-lives-matter-protests-guided-us-milo-demonstrations" target="_blank">https://www.berkeleyside.org/2017/02/05/berkeley-police-chief-lessons-learned-2014-black-lives-matter-protests-guided-us-milo-demonstrations</a></div>
+  </div>
+</div>
+
+
+<!-- ══ SUBMISSION BLOCK ══ -->
+<div class="submission-block">
+  <p><strong>Primary Submission:</strong> California Commission on Peace Officer Standards and Training (POST) &mdash; Peace Officer Standards Accountability Division (POSAD) &mdash; Authority: Cal. Penal Code &sect;&sect; 13509.5, 13510.8, 13510.85 (SB 2 &mdash; Kenneth Ross Jr. Police Decertification Act of 2021)</p>
+  <p><strong>Secondary Submissions:</strong> California Attorney General, Civil Rights Enforcement Section (Cal. Civ. Code &sect;&nbsp;52.3) &nbsp;|&nbsp; U.S. Department of Education, Federal Student Aid &mdash; Clery Act Enforcement (20&nbsp;U.S.C.&nbsp;&sect;&nbsp;1092(f)) &nbsp;|&nbsp; California Legislature, Senate &amp; Assembly Budget Subcommittees on Education &nbsp;|&nbsp; UC Office of the President &nbsp;|&nbsp; California State Auditor &nbsp;|&nbsp; U.S. Department of Justice (34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601)</p>
+  <p><strong>Distribution:</strong> Clery Center for Campus Safety &nbsp;|&nbsp; SAFE Campuses, LLC</p>
+  <p>All documents compiled from public records. All facts independently verifiable. Readers are encouraged to form their own independent conclusions.</p>
+</div>
+</div><!-- end content -->
+
+</div>
+
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav" style="position:static;box-shadow:none">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn active">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" style="position:static;box-shadow:none">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn">A &mdash; Overview</a>
+<a href="#secB" class="section-btn">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn">D &mdash; Financial</a>
+<a href="#secE" class="section-btn">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn">F &mdash; Sources</a>
+</div>
+</nav>
+
+<script>
+function setNavTops(){
+  const b1=document.querySelector('.nav-bar:not(.bottom)');
+  const b2=document.querySelector('.campus-nav:not([style])');
+  const b3=document.querySelector('.section-nav:not([style])');
+  if(!b1||!b2||!b3)return 130;
+  b2.style.top=b1.offsetHeight+'px';
+  b3.style.top=(b1.offsetHeight+b2.offsetHeight)+'px';
+  return b1.offsetHeight+b2.offsetHeight+b3.offsetHeight;
+}
+const secs=['secA','secB','secC','secD','secE','secF'];
+const btns=['btn-a','btn-b','btn-c','btn-d','btn-e','btn-f'];
+function updateActive(){
+  const offset=setNavTops()+10;
+  const scrollPos=window.scrollY+offset;
+  let cur=0;
+  secs.forEach((id,i)=>{
+    const el=document.getElementById(id);
+    if(!el)return;
+    const elTop=el.getBoundingClientRect().top+window.scrollY;
+    if(scrollPos>=elTop)cur=i;
+  });
+  btns.forEach((id,i)=>{
+    const b=document.getElementById(id);
+    if(b)b.classList.toggle('active',i===cur);
+  });
+}
+window.addEventListener('load',()=>{setNavTops();updateActive();});
+window.addEventListener('resize',()=>{setNavTops();updateActive();});
+window.addEventListener('scroll',updateActive,{passive:true});
+</script>
+<div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Behave Like Heroes &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>

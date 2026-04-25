@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · Dossier — UC Merced Police Department | Bruin Watch</title>
+<meta name="description" content="Campus dossier documenting UC Merced Police Department leadership, incidents, and oversight history.">
+<meta property="og:title" content="Act I · Dossier — UC Merced Police Department | Bruin Watch">
+<meta property="og:description" content="Campus dossier documenting UC Merced Police Department leadership, incidents, and oversight history.">
+<meta property="og:type" content="article">
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE;--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0}
+body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#e8edf2;margin:0;padding:0}
+
+/* ══ BAR 1 — VERBATIM FROM CHAPTER_07.HTML ══ */
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:center}
+.nav-bottom-inner{display:flex;align-items:stretch;justify-content:center;min-width:max-content;margin:0 auto}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 2 — CAMPUS DOSSIERS — same pattern, slightly darker ══ */
+.campus-nav{background:#00254a;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:999;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.campus-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.campus-nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.campus-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.campus-btn:hover{background:var(--uc-mid);color:#fff}
+.campus-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 3 — SECTION INDEX — same pattern, darkest ══ */
+.section-nav{background:#001428;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:998;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.section-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.section-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.section-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.section-btn:hover{background:var(--uc-mid);color:#fff}
+.section-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ COVER PAGE ══ */
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:48px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:80px;font-weight:900;letter-spacing:8px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:6px;line-height:1.0}
+.series-line1{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:4px}
+.series-line2{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:28px}
+.campus-label{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:900;letter-spacing:5px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:16px}
+.chapter-title{font-family:'Libre Baskerville',Georgia,serif;font-size:44px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:28px auto;display:block}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:22px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.cover-meta{width:100%;padding:20px 0;background:rgba(0,0,0,.15);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border-top:1px solid rgba(253,181,21,.25)}
+.cover-meta-inner{max-width:960px;width:100%;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 40px}
+.cover-meta p{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;color:#fff;text-align:center;line-height:1.6}
+.cover-meta strong{color:var(--uc-gold)}
+.cover-meta p.cover-disclaimer{font-size:14.5px!important;font-weight:300!important;color:#dde8f4!important;text-align:justify!important;hyphens:auto;max-width:820px;width:100%;margin:6px auto;padding:10px 0;line-height:1.8;border-top:1px solid rgba(253,181,21,.35);border-bottom:1px solid rgba(253,181,21,.35)}
+.cover-copyright{width:100%;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:15px;color:#fff;margin-top:4px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+
+/* ══ CHAPTER BODY ══ */
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.note-investigators{background:var(--uc-blue);padding:24px 30px;margin:0;border-left:6px solid var(--uc-gold)}
+.note-investigators .note-label{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:14px}
+.note-investigators p{font-size:17px;color:#fff;line-height:1.85;margin-bottom:12px}
+.note-investigators p:last-child{margin-bottom:0}
+.campus-grid-wrap{background:var(--uc-blue);padding:10px 0 12px;width:100%}
+.campus-grid{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;width:100%;padding:0 4px}
+.campus-grid-btn{display:block;background:var(--uc-blue-dark);border:2px solid var(--uc-blue-dark);padding:12px 4px;text-align:center;text-decoration:none;transition:background .15s,border-color .15s}
+.campus-grid-btn:hover{background:var(--uc-mid);border-color:var(--uc-mid)}
+.campus-grid-btn.active{background:var(--uc-mid);border:2px solid var(--uc-gold)}
+.campus-grid-abbr{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-weight:700;color:var(--uc-gold);margin-bottom:3px}
+.campus-grid-name{font-size:10px;color:#b8c8dc;letter-spacing:.5px;text-transform:uppercase}
+.campus-grid-btn.active .campus-grid-name{color:#fff}
+.section-anchor{display:block;height:145px;margin-top:-145px;visibility:hidden}
+.content-wrap{padding:0 48px 60px;max-width:900px;margin:0 auto}.content-wrap p{margin-bottom:18px;line-height:1.85;font-size:17px}
+
+/* ══ CONTENT — VERBATIM FROM UCB SOURCE DOSSIER ══ */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+  :root{--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0;--red-bg:#FFC7CE;--red-text:#9C0006;--green-bg:#C6EFCE;--green-text:#276221;--yellow-bg:#FFEB9C;--yellow-text:#7D4A00;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#fff;}
+  .cover-page{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;padding:0 40px;background:repeating-linear-gradient(135deg,transparent,transparent 35px,rgba(255,255,255,0.04) 35px,rgba(255,255,255,0.04) 70px),linear-gradient(180deg,#003262 0%,#00254a 100%);border-bottom:4px solid var(--ucb-gold);}
+  .cover-series{font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin-bottom:16px;}
+  .cover-chapter{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:30px;}
+  .cover-title{font-family:'Source Sans Pro',sans-serif;font-size:36px;font-weight:700;color:#fff;line-height:1.25;max-width:750px;margin-bottom:16px;}
+  .cover-gold-line{width:120px;height:3px;background:var(--ucb-gold);margin:22px auto;}
+  .cover-subtitle{font-family:'Libre Baskerville',serif;font-size:16px;font-style:italic;color:rgba(255,255,255,0.8);max-width:640px;line-height:1.65;margin-bottom:24px;}
+  .cover-meta{font-family:'Source Sans Pro',sans-serif;font-size:16px;color:#fff;margin-top:28px;line-height:2.1;}
+  .cover-meta strong{color:#fff;font-weight:700;}
+  .disclaimer{max-width:800px;margin:44px auto 32px;padding:24px 32px;text-align:center;font-style:italic;font-size:16px;color:#555;line-height:1.85;border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+  .content{max-width:900px;margin:0 auto;padding:0 48px 60px;}
+  .section-banner{font-family:'Source Sans Pro',sans-serif;font-size:17px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ucb-gold);background:var(--ucb-blue);padding:14px 22px;margin:48px 0 0;}
+  .section-title{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:700;color:var(--ucb-blue);padding:16px 0 12px;border-bottom:2px solid var(--ucb-gold);margin-bottom:24px;}
+  .incident-heading{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:900;color:var(--ucb-blue);margin:40px 0 8px;padding:12px 16px;background:var(--ucb-blue-light);border-left:5px solid var(--ucb-gold);}
+  .incident-date{display:block;font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:900;color:var(--ucb-gold);text-transform:uppercase;letter-spacing:2px;margin-top:44px;margin-bottom:6px;}
+  .incident-title{display:block;font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:900;color:var(--ucb-blue);margin-bottom:14px;}
+  .incident-block{margin-bottom:8px;}
+  .pre-mandatory{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:2px 8px;background:#e0e0e0;color:#555;border-radius:2px;margin-bottom:8px;}
+  table.data-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px;}
+  table.data-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:0.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,0.15);}
+  table.data-table thead th:last-child{border-right:none;}
+  table.data-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px;}
+  table.data-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light);}
+  table.data-table tbody tr:nth-child(odd) td{background:#fff;}
+  table.data-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:14px;}
+  .badge{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:3px 8px;border-radius:3px;}
+  .badge-red{background:var(--red-bg);color:var(--red-text);}
+  .badge-green{background:var(--green-bg);color:var(--green-text);}
+  .badge-yellow{background:var(--yellow-bg);color:var(--yellow-text);}
+  .badge-unknown{background:#e0e0e0;color:#444;}
+  .badge-active{background:#FF4444;color:#fff;}
+  .key-finding{background:var(--ucb-gold-light);border-left:4px solid var(--ucb-gold);padding:16px 20px;margin:20px 0 28px;font-size:16px;line-height:1.8;}
+  .key-finding strong{font-family:'Source Sans Pro',sans-serif;color:var(--ucb-blue);}
+  .source-index-entry{font-size:15px;line-height:1.75;margin-bottom:10px;padding:10px 14px;background:#f8f8f8;border-left:3px solid var(--ucb-gold);}
+  .source-index-entry a{color:#0563C1;word-break:break-all;}
+  .source-num{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:var(--ucb-blue);min-width:28px;display:inline-block;}
+  .chapter-nav{background:var(--ucb-blue-light);border:1px solid #c5d3e0;padding:14px 20px;margin:0 0 36px;font-family:'Source Sans Pro',sans-serif;font-size:13px;line-height:1.8;}
+  .chapter-nav strong{color:var(--ucb-blue);}
+  .chapter-nav a{color:#0563C1;text-decoration:none;margin:0 4px;}
+  .chapter-nav a:hover{text-decoration:underline;}
+  .submission-block{background:var(--uc-blue);padding:24px 30px;margin:32px 0 0}
+.submission-block p{font-size:16px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:8px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:20px 48px;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:rgba(255,255,255,0.5);line-height:1.8;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+  .doc-footer strong{color:rgba(255,255,255,0.8)}
+  @media print{.nav-wrap{display:none!important}.cover-page{min-height:100vh;page-break-after:always;}.section-banner{page-break-before:always;}}
+
+@media(max-width:768px){.series-title{font-size:58px}.chapter-title{font-size:32px}.cover-content{padding:36px 24px}}
+@media print{.cover-page{page-break-after:always}.nav-bar,.campus-nav,.section-nav{display:none}}
+
+
+/* ══ MASTER TEMPLATE UPDATE — 2026-03-23 — LOCKED ══ */
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.series-tagline{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:16px;max-width:820px}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin:52px 0 0;padding:0;display:block}
+table.info-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px}
+table.info-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,.15)}
+table.info-table thead th:last-child{border-right:none}
+table.info-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px}
+table.info-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light)}
+table.info-table tbody tr:nth-child(odd) td{background:#fff}
+table.info-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:13px}
+.src-index-wrap{display:flex;flex-direction:column;width:100%}
+.src-row{display:flex;align-items:stretch;border:1px solid #dde3ea;border-top:none;text-decoration:none;color:inherit;transition:background .12s}
+.src-row:first-of-type{border-top:1px solid #dde3ea}
+.src-row:hover{background:#f0f5fb}
+.src-row:hover .src-num{background:var(--uc-mid)}
+.src-num{background:var(--ucb-blue);color:var(--ucb-gold);font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:900;letter-spacing:1px;min-width:120px;width:120px;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px 10px;transition:background .12s;flex-shrink:0;border-right:3px solid var(--ucb-gold)}
+.src-body{flex:1;padding:13px 18px;display:flex;flex-direction:column;justify-content:center;word-wrap:break-word;overflow-wrap:break-word;min-width:0}
+.src-title{font-size:17px;font-weight:700;color:var(--ucb-blue);margin-bottom:4px;line-height:1.4}
+.src-sub{font-size:16px;color:#444;line-height:1.7;word-wrap:break-word;overflow-wrap:break-word}
+.src-sub a{color:#0563C1;word-break:break-all}
+
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn active">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" id="section-nav">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn active" id="btn-a">A &mdash; Overview</a>
+<a href="#secB" class="section-btn" id="btn-b">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn" id="btn-c">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn" id="btn-d">D &mdash; Financial</a>
+<a href="#secE" class="section-btn" id="btn-e">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn" id="btn-f">F &mdash; Sources</a>
+</div>
+</nav>
+
+<div class="cover-page">
+
+  <!-- TOP BLUE BAR — LOCKED -->
+  <div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Behave Like Heroes</div>
+<div class="series-tagline">Law Enforcement Without Enforcement<br>A Documented Gap Analysis</div>
+<div class="campus-label">Campus Dossier</div>
+<h1 class="chapter-title">UC Merced Police Department</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">POST Reporting Gap Analysis &mdash; Compliance Status &mdash; Incident Chronology &mdash; Financial Record &mdash; Leadership History &mdash; Source Index</p>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+
+<div class="chapter-body">
+<div class="note-investigators">
+<div class="note-label">Note to Investigators, Attorneys, and Journalists</div>
+<p>This campus dossier contains enforcement-level detail not summarized in the main chapters of this series. It documents the complete incident history, POST compliance status, financial exposure, and leadership record for the UC Merced Police Department. These documents are intended for POST investigators, attorneys, civil rights organizations, journalists, and other parties requiring granular evidentiary detail for enforcement, litigation, or investigative purposes. All source citations are independently verifiable. Readers are encouraged to draw their own conclusions from the documented record.</p>
+</div>
+<div class="campus-grid-wrap">
+<div class="campus-grid">
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCB</div><div class="campus-grid-name">Berkeley</div></a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCD</div><div class="campus-grid-name">Davis</div></a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCI</div><div class="campus-grid-name">Irvine</div></a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCLA</div><div class="campus-grid-name">Los Angeles</div></a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-grid-btn active"><div class="campus-grid-abbr">UCM</div><div class="campus-grid-name">Merced</div></a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCR</div><div class="campus-grid-name">Riverside</div></a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSD</div><div class="campus-grid-name">San Diego</div></a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSF</div><div class="campus-grid-name">San Francisco</div></a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSB</div><div class="campus-grid-name">Santa Barbara</div></a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSC</div><div class="campus-grid-name">Santa Cruz</div></a>
+</div>
+</div>
+<div class="disclaimer">
+  This document contains only facts as found in public records and the application of law, statute, rule, procedure, or other mechanism to those specific facts. It contains no inflammatory or accusatory language. It is prepared for submission to the California Commission on POST and presents evidence for readers to form their own independent opinions.
+</div>
+
+<div class="content">
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION A: DEPARTMENT OVERVIEW -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secA" class="section-heading">Section A</div>
+<div class="section-title">Department Overview</div>
+
+<table class="data-table">
+<thead><tr><th style="width:22%">Field</th><th>Detail</th><th style="width:24%">Source(s)</th></tr></thead>
+<tbody>
+<tr><td><strong>Agency Name</strong></td><td>University of California Merced Police Department (UCMPD)</td><td><a href="https://police.ucmerced.edu/aboutus" target="_blank">police.ucmerced.edu</a></td></tr>
+<tr><td><strong>Established</strong></td><td>Established concurrent with campus opening in Fall 2005. UC Merced opened for graduate students Fall 2004; first undergraduates arrived September 6, 2005. First American research university built in the 21st century.</td><td>UC Merced institutional records</td></tr>
+<tr><td><strong>Legal Authority</strong></td><td>California Penal Code §830.2(a) (sworn peace officers pursuant to Education Code §92600); PC §832 (POST basic training); PC §832.4 (POST Basic Certificate). SB 2 certification/decertification effective January 1, 2023.</td><td>California Penal Code</td></tr>
+<tr><td><strong>POST Status</strong></td><td>POST-participating agency. Job postings appear on POST website. Commendations &amp; Complaints page directs complainants to file directly with POST.</td><td><a href="https://post.ca.gov/portals/0/post_docs/hiring/lejobs/TAM_48774_Police_Officer_Posting.pdf" target="_blank">POST job posting</a>; <a href="https://police.ucmerced.edu/Commendations-Complaints" target="_blank">police.ucmerced.edu</a></td></tr>
+<tr><td><strong>Sworn Officers</strong></td><td>18 sworn officers as of 2024, following swearing-in of Angela Henke and Nicolas Rosales (lateral hires from City of Merced PD). Department uses exclusively a lateral-hire model — does not hire directly from academy. Based on available per-campus staffing data, UCMPD appears to be the smallest or among the smallest sworn forces in the UC system; no single publicly available UC systemwide staffing comparison document was identified to confirm this ranking definitively.</td><td><a href="https://news.ucmerced.edu/news/2024/two-new-officers-added-uc-merced-police-department" target="_blank">UC Merced Newsroom, 2024</a></td></tr>
+<tr><td><strong>Annual Budget</strong></td><td>FY 2023/2024 budget dashboard published at police.ucmerced.edu/funding-dashboard. In 2015, Assemblyman Adam Gray secured $1 million in state funding specifically for UC Merced public safety improvements following the November 2015 stabbing attack.</td><td><a href="https://police.ucmerced.edu/about-us/we-hear-you-we-are-here" target="_blank">UCMPD dashboards</a></td></tr>
+<tr><td><strong>Campus Population</strong></td><td>9,110 total enrolled students (2024&ndash;2025 academic year): 8,372 undergraduate; 738 graduate. Approximately 2,500 total campus employees. Staffing ratio: approximately 1 sworn officer per 644 campus community members. UC Merced has the highest percentage of first-generation college students in the UC system. UC Merced has the highest percentage of Pell Grant recipients in the UC system (60% of undergraduates as of 2023). UC Merced is the only UC campus with a student body that is majority Hispanic/Latino. These demographic distinctions are confirmed by the California Legislative Analyst&rsquo;s Office (LAO Report 4937, November 2024) and UC Merced&rsquo;s own institutional publications.</td><td><a href="https://lao.ca.gov/Publications/Report/4937" target="_blank">California LAO Report 4937, November 2024</a>; <a href="https://news.ucmerced.edu/news/2023/uc-merced-and-college-track-partner-democratize-potential-through-higher-education" target="_blank">UC Merced Newsroom, 2023</a>; IPEDS 2024&ndash;2025 enrollment data</td></tr>
+<tr><td><strong>Jurisdiction</strong></td><td>UC Merced campus, located approximately 5 miles north of the City of Merced in the San Joaquin Valley. Only UC campus in the region. Mutual aid with City of Merced PD, Merced County Sheriff&rsquo;s Office, and UC system-wide mutual aid network.</td><td>UC Merced institutional records</td></tr>
+<tr><td><strong>Current Chief</strong></td><td>Chou Her, Assistant Vice Chancellor of Public Safety and Chief of Police (April 12, 2017&ndash;present). Third permanent chief. One of three founding officers hired before campus opened (2005). First person of Hmong descent to lead a UC public safety agency. Born in Laos; family emigrated as refugees. Kevin McCauley Memorial Outstanding Staff Award (2022).</td><td><a href="https://news.ucmerced.edu/news/2017/campus-mainstay-chou-her-named-chief-police" target="_blank">UC Merced Newsroom, April 2017</a>; <a href="https://police.ucmerced.edu/about-us/who-we-are/chief-chou-her" target="_blank">Chief bio</a></td></tr>
+<tr><td><strong>IACLEA Accreditation</strong></td><td>As of January 22, 2025 (UC Board of Regents, C4), UCMPD was listed in status &ldquo;Preparing for Onsite&rdquo; with an onsite review visit anticipated for Spring 2025. This represents the most recent official UC system accreditation status report reviewed for this chapter. Current IACLEA accreditation status for UCMPD as of March 2026 has not been independently confirmed in publicly available records reviewed for this chapter. The UC Community Safety Plan (2021) mandates that all UC campuses pursue IACLEA accreditation.</td><td><a href="https://regents.universityofcalifornia.edu/regmeet/jan25/c4.pdf" target="_blank">UC Board of Regents, C4, January 22, 2025</a></td></tr>
+<tr><td><strong>Oversight Bodies</strong></td><td>Police Accountability Board (PAB), established 2022 per UC Community Safety Plan. 5 members + 5 alternates. Chief retains full authority over final discipline; decisions are not appealable to the PAB. Separate Police Advisory Board (up to 16 members) makes policy recommendations but does not review specific complaints.</td><td><a href="https://pab.ucmerced.edu/" target="_blank">pab.ucmerced.edu</a></td></tr>
+<tr><td><strong>Union Representation</strong></td><td>Federated University Police Officers&rsquo; Association (FUPOA). Chief Her meets regularly with UC Merced FUPOA representative. No UC Merced-specific grievances or labor disputes identified in available public records.</td><td><a href="https://federateduniversitypoa.org/" target="_blank">federateduniversitypoa.org</a></td></tr>
+<tr><td><strong>Salary Range</strong></td><td>Police Officer: $87,547&ndash;$109,970 annually. Comparable to City of Merced PD ($85,405&ndash;$109,013); higher than Merced County Sheriff ($74,838&ndash;$99,840); notably lower than UCLA PD ($100,380&ndash;$126,214).</td><td>UCMPD compensation records</td></tr>
+<tr><td><strong>Notable Distinctions</strong></td><td>Based on available per-campus staffing data, UCMPD appears to be the smallest or among the smallest sworn forces in the UC system. One of only three UC campuses (with UC Davis and UC Santa Barbara) to release SB 1421 records as of May 2020. The 2015 stabbing by Faisal Mohammad was described in contemporaneous reporting (CNN, March 18, 2016) as among a series of ISIS-inspired attacks in the U.S. at that time; the FBI concluded Mohammad was self-radicalized but was not directed by any external organization. The attack was subsequently included in a list of 78 incidents released by the Trump White House on February 6, 2017, characterized in that release as underreported terrorist acts. May 2024 Gaza encampment: zero arrests, zero force used — confirmed by university officials. Achieved R1 Carnegie Classification in 2025.</td><td><a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">Voice of San Diego, May 12, 2020</a>; <a href="https://www.fbi.gov/contact-us/field-offices/sacramento/news/press-releases/update-on-investigation-at-university-of-california-merced" target="_blank">FBI, March 17, 2016</a>; <a href="https://www.cnn.com/2016/03/18/us/university-of-california-merced-stabbings-terror-inspired-fbi" target="_blank">CNN, March 18, 2016</a>; <a href="https://kmph.com/news/local/uc-merced-still-wont-release-manifesto-in-stabbing-attack" target="_blank">KMPH &mdash; Trump list reference</a></td></tr>
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION B: CHRONOLOGICAL INCIDENT LOG -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secB" class="section-heading">Section B</div>
+<div class="section-title">Chronological Incident Log — All Documented Incidents Relevant to POST Oversight</div>
+
+<p style="font-size:13.5px;color:#444;margin-bottom:24px;line-height:1.8;">All incidents identified in the source materials reviewed for this chapter are presented in complete chronological order. All applicable laws and POST reporting requirements are identified for each incident. This chapter presents all documented incidents identified through publicly available records, official institutional materials, court documents, and contemporaneous reporting available as of March 15, 2026.</p>
+
+<!-- INCIDENT 1 -->
+<div class="incident-heading">November 4, 2015 — Stabbing Attack and Officer-Involved Shooting (Ruled Justified)</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>Faisal Mohammad, 18, a first-year student from Santa Clara, armed with a hunting knife with an 8&ndash;10 inch blade, attacked four people in the Classroom and Office Building beginning at approximately 7:53 AM.<br><br><strong>Victims (all survived):</strong> (1) A male student whose throat was slashed in a classroom. (2) Byron Price, 31, a construction worker, stabbed in the left side requiring 9 staples. (3) A second male student stabbed in a stairway. (4) Danielle Quiroga, a staff academic adviser, stabbed twice in the chest and back &mdash; resulting in a collapsed lung, nicked diaphragm, airlifted to Modesto, and 5 days of hospitalization.<br><br>Student Tyler Patton intervened by attacking Mohammad with furniture, disrupting the assault. Construction worker Byron Price pushed open a barricaded door and intervened directly.<br><br>Officers Olaf Lopez and Kevin Warkentin, responding to a nearby fire alarm, received radio traffic from Dispatcher Cook. On the Scholar&rsquo;s Lane bridge, approximately 10 feet away, Mohammad turned toward officers with knife at shoulder height, ignored commands, and advanced in a lunging motion. Officer Lopez fired two shots. Mohammad was declared dead at the scene.<br><br>Mohammad&rsquo;s backpack contained: zip-tie handcuffs, petroleum jelly, a night-vision scope, a safety hammer, duct tape, and a photocopy of an ISIS flag. A two-page 31-step handwritten plan found during autopsy included names of targets, instructions to say &ldquo;Bismillah,&rdquo; a plan to bind students, steal an officer&rsquo;s firearm, shoot students in dormitories, and behead someone.<br><br>The FBI Sacramento field office stated Mohammad &ldquo;may have self-radicalized and drawn inspiration from terrorist propaganda&rdquo; but was not directed by any external organization. Contemporaneous reporting, including CNN (March 18, 2016), described this as among a series of ISIS-inspired attacks in the U.S. at that time. The FBI did not formally classify the event as a terrorist act. The 2015 attack was subsequently included on a list of 78 incidents released by the Trump White House on February 6, 2017, characterized in that release as underreported terrorist acts. Multiple news organizations, including NPR and PolitiFact, independently noted that the UC Merced attack had in fact received media coverage.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>POST use-of-force reporting (OIS, fatal); PC §13652 (use-of-force reporting); SB 1421 (OIS records disclosure, retroactive); Merced County DA review required; FBI Joint Terrorism Task Force jurisdiction</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-green">COMPLIANT</span> Merced County DA Larry D. Morse II ruled the use of force JUSTIFIED on December 7, 2015. SB 1421 records from this officer-involved shooting were subsequently released to Voice of San Diego &mdash; one of only two OIS records released by any UC campus. Officer Lopez was named Police Officer of the Year.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>FBI &mdash; <a href="https://www.fbi.gov/contact-us/field-offices/sacramento/news/press-releases/fbi-uc-merced-police-department-offer-statement-regarding-uc-merced-investigation" target="_blank">initial statement</a>; FBI &mdash; <a href="https://www.fbi.gov/contact-us/field-offices/sacramento/news/press-releases/update-on-investigation-at-university-of-california-merced" target="_blank">investigation update, March 17, 2016</a>; CapRadio &mdash; <a href="https://www.capradio.org/articles/2015/12/07/prosecutor-shooting-death-of-uc-merced-stabbing-suspect-justified/" target="_blank">DA justified, December 7, 2015</a>; CNN &mdash; <a href="https://www.cnn.com/2016/03/18/us/university-of-california-merced-stabbings-terror-inspired-fbi" target="_blank">ISIS-inspired characterization, March 18, 2016</a>; NBC News &mdash; <a href="https://www.nbcnews.com/news/us-news/uc-merced-stabbing-spree-suspect-may-have-had-larger-plot-n458256" target="_blank">suspect identified</a>; KMPH &mdash; <a href="https://kmph.com/news/local/uc-merced-still-wont-release-manifesto-in-stabbing-attack" target="_blank">Trump administration list reference</a>; NPR &mdash; <a href="https://www.npr.org/2017/02/06/513777052/trump-says-media-fail-to-report-terrorist-attacks-white-house-promises-list" target="_blank">White House list, February 6, 2017</a></td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 2 -->
+<div class="incident-heading">Post-November 2015 (Aftermath) — Security Upgrades, Legislative Funding, and Community Recognition</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>Campus closed November 5, 2015; classes resumed November 6. Counseling services were made immediately available and UC Merced hired two additional licensed counselors. Security upgrades implemented: evacuation chairs, AEDs, and enhanced emergency notification systems. Assemblyman Adam Gray secured $1 million in state funding specifically for UC Merced public safety improvements following the attack. Student Tyler Patton and construction worker Byron Price received a standing ovation at the California State Capitol on February 29, 2016. Staff academic adviser Danielle Quiroga was awarded the Eva Murillo Unsung Hero Award by the Congressional Victims&rsquo; Rights Caucus in April 2017. Officer Lopez received the Police Officer of the Year award.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>Clery Act (emergency notification, timely warning compliance during and after incident); campus safety infrastructure requirements</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-unknown">N/A &mdash; POST-INCIDENT RESPONSE</span> Included to document institutional response actions and community recognition following the 2015 attack.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>ABC7 News — <a href="https://abc7news.com/merced-county-uc-stabbing-faisal-mohammad/1591699/" target="_blank">one-year anniversary, November 2016</a>; UC Merced Newsroom — <a href="https://news.ucmerced.edu/news/2015/update-four-stabbed-uc-merced-campus-suspect-deceased" target="_blank">campus update</a>; Congressional Record — <a href="https://costa.house.gov/media-center/press-releases/costa-honors-danielle-quiroga-congressional-victims-rights-caucus-award" target="_blank">Quiroga award, April 2017</a></td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 3 -->
+<div class="incident-heading">Pre-2016 — Mohammad Family Records Suppression Lawsuit</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>Faisal Mohammad&rsquo;s father filed a lawsuit in Alameda County Superior Court seeking to prevent UC Merced from releasing the manifesto, ISIS flag photocopy, and investigative records from the November 4, 2015 attack. The lawsuit argued that disclosure would lead to &ldquo;harassment, discrimination, and even hate crimes&rdquo; against the Muslim community and sought a restraining order. The FBI independently released documents pursuant to FOIA requests circa 2020. No publicly documented victim lawsuits or wrongful death suits arising from the stabbing attack were identified in available records.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>SB 1421 (records disclosure obligations); California Public Records Act (CPRA); FOIA (federal records); tension between transparency mandates and claimed privacy and safety concerns</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-unknown">N/A &mdash; LITIGATION CONTEXT</span> Included to document the records release timeline and legal challenges to transparency following the 2015 OIS.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>ABC30 — <a href="https://abc30.com/uc-merced-stabbing-suspect-faisal-mohammad-isis-threat-fbi/5329114/" target="_blank">FBI/ISIS records, 2019</a>; KMPH — <a href="https://kmph.com/news/local/fbi-releases-documents-from-2015-uc-merced-stabbing" target="_blank">FBI documents released, 2020</a></td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 4 -->
+<div class="incident-heading">April 11, 2022 — Officer Israel Garcia Arrested on Multiple Felony Charges</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>UC Merced Police Officer Israel Garcia, 37, was arrested by the City of Merced Police Department. Garcia had recently transferred to UCMPD from the City of Merced PD as a lateral hire. His ex-girlfriend reported that Garcia had been stalking her since their relationship ended the previous month, and had committed physical and sexual assault. A GPS tracking device was found hidden inside the victim&rsquo;s vehicle.<br><br>Charges filed: stalking, domestic violence/spousal abuse, false imprisonment, sexual assault (sexual penetration by force), and unlawful use of an electronic tracking device. Garcia was booked into Merced County Jail. UC Merced removed his photograph and biographical information from the department website following the arrest. No publicly available reporting on the final disposition of the case — whether resulting in conviction, plea agreement, or acquittal — has been identified in available public records.</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>POST standards on officer conduct; SB 2 / Kenneth Ross Jr. Decertification Act (if convicted of qualifying serious misconduct — effective January 1, 2023, post-dating the arrest); PC §832.7 (personnel records); Brady/Giglio disclosure obligations (if sustained findings); lateral hire vetting standards — officer recently transferred from local agency</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-unknown">UNKNOWN &mdash; FINAL DISPOSITION NOT LOCATED</span> Whether Garcia&rsquo;s arrest and charges were reported to POST as required is not documented in available records. Whether sustained findings exist that would trigger SB 2 decertification review is unknown. Whether Brady/Giglio disclosure was made to the Merced County DA is not documented. Final case disposition not publicly identified.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>ABC30 — <a href="https://abc30.com/uc-merced-police-department-officer-search-job-hiring/13634205/" target="_blank">department context</a>; CBS47/KSEE24; FOX26 (KMPH); Central Valley TV; Merced Daily</td></tr>
+</tbody>
+</table>
+
+<!-- INCIDENT 5 -->
+<div class="incident-heading">May 12–17, 2024 — Gaza Solidarity Encampment: Zero Arrests, Zero Force Used</div>
+<table class="data-table">
+<thead><tr><th style="width:18%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Description</strong></td><td>UC Merced Students for Justice in Palestine (SJP) established a &ldquo;Gaza Solidarity Encampment&rdquo; at the Wallace Dutra Amphitheater beginning May 12, 2024 — timed with the UC Board of Regents&rsquo; first-ever three-day meeting held at UC Merced (May 14&ndash;16). The encampment began with approximately 12 people and swelled to over 100 protesters by May 15, including supporters who traveled from other UC campuses.<br><br>Encampment demands: immediate ceasefire; UC divestment from Israel; academic boycott of Israeli institutions; amnesty for all protesters systemwide; and reinvestment toward student needs and Palestine humanitarian aid.<br><br>UC Merced officials stated they &ldquo;did not plan to actively disperse the encampment, as long as it remained peaceful.&rdquo; The university acknowledged the encampment violated campus policy but maintained open communication with organizers. On May 15, some protesters were escorted from a Regents&rsquo; committee session, reportedly by California Highway Patrol. On May 16, Regents Keith Ellis and Merhawi Tesfai sat down directly with protesters at the encampment site.<br><br>UC Merced officials confirmed: &ldquo;There were no instances of violence and no arrests were made.&rdquo; The outcome stands in documented contrast to other UC campuses during the same period: UCLA (210+ arrests, stun grenades, tear gas); UCSD (64 arrests, pepper spray); UCI (47 arrests, 16 agencies).</td></tr>
+<tr><td><strong>Applicable Law / Reporting</strong></td><td>AB 48 — no crowd-control weapons used, no reporting obligation triggered; First Amendment assembly rights; Clery Act (campus safety assessment); AB 481 military equipment not deployed</td></tr>
+<tr><td><strong>Compliance Status</strong></td><td><span class="badge badge-green">N/A &mdash; NO FORCE USED, NO ARRESTS</span> No POST reporting obligation triggered. University officials confirmed zero arrests and zero use of force during the May 12&ndash;17, 2024 encampment. No AB 48 crowd-control weapon reporting obligation was triggered; no AB 481 military equipment was deployed.</td></tr>
+<tr><td><strong>Source(s)</strong></td><td>KVPR — <a href="https://www.kvpr.org/local-news/2024-05-15/passions-flare-during-uc-regents-meeting-pro-palestine-protestors-escorted-out-of-gathering" target="_blank">passions flare, May 15, 2024</a>; KVPR — <a href="https://www.kvpr.org/local-news/2024-05-16/members-of-the-uc-board-of-regents-sit-down-with-pro-palestinian-protesters-at-uc-merced" target="_blank">Regents sit down, May 16, 2024</a>; ABC30 — <a href="https://abc30.com/post/pro-palestinian-protest-underway-uc-merced-campus-encampment/14810224/" target="_blank">encampment underway</a>; GV Wire — <a href="https://gvwire.com/2024/05/17/some-uc-regents-sit-down-with-pro-palestinian-protesters-at-uc-merced/" target="_blank">Regents and protesters, May 17, 2024</a>; Merced County Times — <a href="https://mercedcountytimes.com/protesters-set-up-camp-display-signs-at-uc-merced/" target="_blank">protesters set up camp</a>; Indybay — <a href="https://www.indybay.org/newsitems/2024/05/12/18866145.php" target="_blank">encampment demands, May 12, 2024</a></td></tr>
+</tbody>
+</table>
+
+<div class="key-finding">
+  <strong>Key Finding &mdash; UC Merced Spring 2024 Encampment Outcome:</strong> University officials confirmed that no arrests were made and no force was used during the May 2024 Gaza solidarity encampment at UC Merced. The university&rsquo;s stated policy &mdash; permitting peaceful encampments while maintaining open communication with organizers &mdash; produced an outcome without incident. For factual context, documented outcomes at other UC campuses during the same spring 2024 period include: UCLA (210+ arrests); UCSD (64 arrests, pepper spray used); UCI (47 arrests, 16 agencies deployed). This documented contrast is presented without editorial commentary for the reader&rsquo;s independent assessment.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION C: COMPLIANCE STATUS MATRIX -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secC" class="section-heading">Section C</div>
+<div class="section-title">State and Federal Compliance Status Matrix</div>
+
+<table class="data-table">
+<thead><tr><th style="width:16%">Mandate</th><th style="width:22%">Requirement</th><th style="width:14%">UCMPD Status</th><th>Evidence / Factual Basis</th><th style="width:18%">Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td><strong>AB 48</strong><br>(PC §§13652, 13652.1)<br>Effective January 1, 2022</td>
+  <td>Requires every law enforcement agency to document and publicly report any use of kinetic energy projectiles, chemical agents, or other crowd-control weapons during protest or crowd management. Reports filed with California DOJ. Also changed use-of-force reporting from annual to monthly frequency.</td>
+  <td><span class="badge badge-red">NOT LISTED ON DOJ AB 48 REPORTING PAGE AS OF SEPTEMBER 12, 2025 &mdash; NO OPERATIONAL DEPLOYMENT DOCUMENTED</span></td>
+  <td>LAist investigation (September 12, 2025) found UCMPD was not listed on the California DOJ statewide AB 48 reporting webpage as of that date. 9 of 10 UC campus PDs were absent from that page; only UCLA appeared. LAist specifically noted: &ldquo;UC Merced and UCSF, to date, have not reported any use of less-lethal weapons.&rdquo; No crowd-control weapon deployment and no arrests were documented at UCMPD during the 2024 encampment. UCMPD&rsquo;s AB 481 annual report documents 7 Def-Tec rounds expended in training only &mdash; none deployed operationally. Whether UCMPD has met AB 48&rsquo;s monthly use-of-force reporting requirement independent of crowd-control weapon events has not been independently confirmed in publicly available records. AB 48 has no enforcement mechanism &mdash; confirmed by both DOJ and POST.</td>
+  <td><a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist, September 12, 2025</a>; <a href="https://laist.com/news/politics/california-weapons-protests-reporting-requirements" target="_blank">LAist &mdash; enforcement gap</a></td>
+</tr>
+<tr>
+  <td><strong>Clery Act</strong><br>(20 U.S.C. §1092(f))<br>Effective 1990</td>
+  <td>Requires disclosure of campus crime statistics, daily crime logs, timely warnings, emergency notifications, and complete annual security reports.</td>
+  <td><span class="badge badge-green">NO CLERY ENFORCEMENT ACTION IDENTIFIED IN REVIEWED MATERIALS</span></td>
+  <td>UC Merced publishes its Annual Security Report (&ldquo;Safety Matters&rdquo;) &mdash; 2024 ASR published October 1, 2024, covering 2021&ndash;2023 statistics. 2025 ASR also published. A revised 2023 ASR corrected 2022 statistics. Maintains dedicated Clery Act website (clery.ucmerced.edu). Daily Crime and Fire Log retained 7 years; most recent 60 days posted online. James Moore (Senior Advisor, DOE Clery Compliance) attended UC Merced Safety Conference. UC Merced was not audited in California State Auditor Report 2024-032. No DOE investigation, fine, or enforcement action against UCMPD has been identified in publicly available records reviewed for this chapter. This reflects the scope of public records reviewed, not an affirmative audit of all Clery compliance requirements.</td>
+  <td><a href="https://extension.ucmerced.edu/content/clery-act-and-crime-statistics" target="_blank">UC Merced Clery website</a>; <a href="https://www.mercurynews.com/2024/08/01/state-finds-uc-santa-cruz-and-5-other-colleges-underreported-campus-crimes/" target="_blank">Mercury News, August 2024</a></td>
+</tr>
+<tr>
+  <td><strong>SB 1421</strong><br>(PC §832.7)<br>Effective January 1, 2019</td>
+  <td>Requires release of records relating to officer-involved shootings, use of force resulting in great bodily injury or death, sustained sexual assault findings, and sustained dishonesty findings.</td>
+  <td><span class="badge badge-green">HISTORICALLY ABOVE UC AVERAGE &mdash; AS OF MAY 2020 REVIEW</span></td>
+  <td>Voice of San Diego (May 2020): UC Merced was one of only THREE UC campuses (with UC Davis and UC Santa Barbara) that provided SB 1421 records in response to media requests at that time. UC Merced provided records from the 2015 officer-involved shooting of Faisal Mohammad &mdash; one of only two OIS records released by any UC campus systemwide at that point. Six campuses (UCSD, UCB, UCLA, UCI, UCSC, UCSF) provided NO records. The UC system was aware of 200+ use-of-force incidents but released only two case files in total. These findings reflect the state of SB 1421 compliance as of May 2020. Current SB 1421 release practices at UCMPD have not been independently re-audited through a fresh public records request as of March 2026.</td>
+  <td><a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">Voice of San Diego, May 12, 2020</a>; <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">UAW 2865 report, February 2021</a></td>
+</tr>
+<tr>
+  <td><strong>AB 481</strong><br>(Gov. Code §7070 et seq.)<br>Effective January 1, 2022</td>
+  <td>Requires governing body approval for acquisition and use of military equipment; annual use reports to governing body.</td>
+  <td><span class="badge badge-green">COMPLIANT</span></td>
+  <td>UCMPD publishes AB 481 reports and maintains a dedicated AB 481 page. Has NOT obtained equipment from the federal DOD 1033 program. September 2024: UC Regents approved purchase of 5 projectile launchers and 100 sponge rounds. Annual report documents: 7 rounds expended in training only; zero operational deployment; zero complaints; zero policy violations. Documented inventory: Defense Technology 40mm launchers, Def-Tec eXact iMpact munitions, CTS 9557 sponge rounds, Remington 870 shotguns, Def-Tec beanbag rounds, frangible breaching rounds, flashbangs, chemical agents/OC, PepperBall launchers and LIVE rounds.</td>
+  <td><a href="https://police.ucmerced.edu/ab-481" target="_blank">UCMPD AB 481 page</a>; <a href="https://police.ucmerced.edu/sites/g/files/ufvvjh1446/f/documents/ab481-uc_equip.pdf" target="_blank">equipment report</a>; <a href="https://www.berkeleyside.org/2024/09/20/uc-regents-approve-campus-police-requests-for-additional-less-lethal-weapons" target="_blank">Berkeleyside, September 20, 2024</a></td>
+</tr>
+<tr>
+  <td><strong>AB 748</strong><br>(PC §832.18)<br>Effective July 1, 2019</td>
+  <td>Requires release of body-worn camera footage within 45 days for critical incidents (OIS, in-custody death, use of force causing great bodily injury).</td>
+  <td><span class="badge badge-unknown">NO AB 748 TRIGGER EVENT IDENTIFIED IN PUBLICLY REVIEWED MATERIALS</span></td>
+  <td>No officer-involved shooting, in-custody death, or use of force causing great bodily injury at UCMPD has been identified in publicly available records since body-worn camera deployment. The 2015 OIS predated body camera deployment. No documented AB 748 disclosure obligation has therefore been identified as triggered to test compliance. Whether any undisclosed incident meeting AB 748 threshold criteria may have occurred is not determinable from available public records alone.</td>
+  <td><a href="https://police.ucmerced.edu/aboutus" target="_blank">UCMPD About Us</a>; <a href="https://police.ucmerced.edu/about-us/we-hear-you-we-are-here" target="_blank">UCMPD transparency dashboards</a></td>
+</tr>
+<tr>
+  <td><strong>Brady/Giglio</strong><br>Disclosure Obligations</td>
+  <td>Prosecutors must disclose material impeachment evidence about law enforcement witnesses. Agencies must maintain and disclose Brady lists of officers with sustained dishonesty or misconduct findings.</td>
+  <td><span class="badge badge-unknown">UNKNOWN &mdash; GARCIA ARREST RAISES QUESTIONS; DISPOSITION NOT CONFIRMED</span></td>
+  <td>Officer Israel Garcia&rsquo;s April 2022 arrest on multiple felony charges (stalking, domestic violence, sexual assault, false imprisonment, unlawful electronic tracking) could generate Brady/Giglio implications if the matter resulted in sustained findings, a conviction, or other impeachment-relevant determination. None of those predicate facts &mdash; sustained findings, conviction, plea, or acquittal &mdash; has been confirmed in publicly available records. Whether Garcia&rsquo;s arrest status was reported to the Merced County DA for Brady list assessment is not documented in available public records. No other Brady-relevant findings identified at UCMPD.</td>
+  <td>ABC30; CBS47/KSEE24; FOX26; Merced Daily reporting on Garcia arrest</td>
+</tr>
+<tr>
+  <td><strong>RIPA / AB 953</strong><br>Effective January 2022 (UC PDs)</td>
+  <td>Requires collection and reporting of data on all officer-initiated stops, including perceived demographic characteristics of individuals stopped.</td>
+  <td><span class="badge badge-green">RIPA REPORTING ACTIVITY PUBLICLY DOCUMENTED</span></td>
+  <td>UCMPD publishes comprehensive data transparency dashboards including RIPA stop data, use-of-force reports, calls for service, complaints, department demographics, training data, and customer service satisfaction surveys. Observable reporting activity on the public &ldquo;We Hear You&rdquo; dashboard supports apparent compliance with RIPA reporting requirements; independent audit of data accuracy and completeness was not conducted for this chapter.</td>
+  <td><a href="https://police.ucmerced.edu/about-us/we-hear-you-we-are-here" target="_blank">UCMPD &ldquo;We Hear You&rdquo; dashboards</a></td>
+</tr>
+<tr>
+  <td><strong>SB 2 / Kenneth Ross Jr. Decertification Act</strong><br>Effective January 1, 2023</td>
+  <td>Establishes POST authority to investigate and decertify peace officers for qualifying serious misconduct.</td>
+  <td><span class="badge badge-unknown">NO DECERTIFICATION ACTIONS IDENTIFIED &mdash; GARCIA CASE WARRANTS MONITORING</span></td>
+  <td>No POST decertification actions against UCMPD officers have been identified in publicly available records reviewed for this chapter. Officer Garcia&rsquo;s April 2022 felony arrest predates SB 2&rsquo;s effective date of January 1, 2023. Any potential SB 2 relevance would be conditional upon qualifying findings or proceedings occurring on or after January 1, 2023, and would further depend on whether Garcia remained a peace officer subject to POST jurisdiction at the time of any such findings. Whether Garcia remained a peace officer, was terminated, or resigned is not publicly documented. No such qualifying findings or proceedings have been identified in available public records.</td>
+  <td><a href="https://post.ca.gov/" target="_blank">POST Commission records</a>; media reporting on Garcia arrest</td>
+</tr>
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION D: FINANCIAL IMPACT -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secD" class="section-heading">Section D</div>
+<div class="section-title">Financial Impact — Fines, Settlements, and Costs</div>
+
+<table class="data-table">
+<thead><tr><th style="width:28%">Item</th><th style="width:16%">Amount</th><th style="width:12%">Year(s)</th><th>Context</th><th style="width:18%">Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td>State Public Safety Funding (Assemblyman Adam Gray)</td>
+  <td>$1,000,000</td>
+  <td>2015&ndash;2016</td>
+  <td>State funding secured by Assemblyman Adam Gray specifically for UC Merced public safety improvements following the November 2015 stabbing attack. Funded evacuation chairs, AEDs, and enhanced emergency notification systems.</td>
+  <td>ABC7 News; UC Merced Newsroom</td>
+</tr>
+<tr>
+  <td>Accellion FTA Breach Settlement (UC System-Wide &mdash; UC Merced Named as Affected Campus)</td>
+  <td>$5,800,000 (settlement fund)</td>
+  <td>2021</td>
+  <td>Erazo v. UC Regents (Alameda County Superior Court Case No. RG21097796). Approximately 353,265 persons notified. UC Merced explicitly named as an affected campus. UC Regents denied wrongdoing. Separate Accellion company settlement: $8.1 million (N.D. Cal., Case No. 5:21-cv-01155).</td>
+  <td>Court records; UC breach notifications</td>
+</tr>
+<tr>
+  <td>Anthem Data Breach Settlement (UC System-Wide &mdash; UC Merced Named as Affected Campus)</td>
+  <td>$115,000,000 + $48,200,000</td>
+  <td>2015</td>
+  <td>78.8 million members affected nationwide. UC Merced specifically listed as a campus where Anthem served as the network provider. Social Security numbers were not compromised for UC students specifically.</td>
+  <td>Anthem settlement records</td>
+</tr>
+<tr>
+  <td>2024 Military Equipment Purchase (UC Regents-approved)</td>
+  <td>Amount not specified</td>
+  <td>2024</td>
+  <td>5 projectile launchers and 100 sponge rounds approved by UC Regents at the September 2024 meeting for UCMPD acquisition.</td>
+  <td><a href="https://www.berkeleyside.org/2024/09/20/uc-regents-approve-campus-police-requests-for-additional-less-lethal-weapons" target="_blank">Berkeleyside, September 20, 2024</a></td>
+</tr>
+<tr>
+  <td>Clery Act Fines</td>
+  <td>$0</td>
+  <td>2005&ndash;2026</td>
+  <td>No Department of Education Clery Act investigation, fine, or enforcement action identified against UC Merced. Contrast: UC Berkeley fined $2.35 million (2020).</td>
+  <td>DOE records; Campus Safety Magazine</td>
+</tr>
+<tr>
+  <td>Litigation Settlements (UCMPD-specific)</td>
+  <td>$0</td>
+  <td>2005&ndash;2026</td>
+  <td>No UCMPD-specific civil rights, excessive force, or employment discrimination litigation settlements were identified in federal court records, California court databases, or Justia searches conducted for this chapter.</td>
+  <td>Justia; federal court records; California court databases</td>
+</tr>
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION E: LEADERSHIP HISTORY -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secE" class="section-heading">Section E</div>
+<div class="section-title">Leadership History — Context for Compliance Gaps</div>
+
+<table class="data-table">
+<thead><tr><th style="width:16%">Period</th><th style="width:18%">Chief / Role</th><th>Key Facts During Tenure</th><th style="width:22%">POST-Relevant Notes</th><th style="width:14%">Source(s)</th></tr></thead>
+<tbody>
+<tr>
+  <td>~2005 &ndash; March 2015</td>
+  <td>Chief Rita Spaur<br><em>Founding Chief of Police</em></td>
+  <td>Founding Chief of Police. Built the UCMPD from the ground up. Previously served as interim chief/captain at UC Davis. Career began in 1973 as a Boulder County, Colorado deputy. Served at UC Santa Barbara; became the first female police lieutenant at UC Davis. FBI National Academy graduate. Initiated the Violence Prevention Program (Spring 2009) with DOJ Office on Violence Against Women funding. Retired March 2015 after approximately 10 years leading UCMPD.</td>
+  <td>Foundational era. Department established under her leadership. No documented compliance failures or incidents during her tenure in available records.</td>
+  <td><a href="https://news.ucmerced.edu/news/2015/campus-names-new-police-chief-assistant-vice-chancellor" target="_blank">UC Merced Newsroom, 2015</a></td>
+</tr>
+<tr>
+  <td>March &ndash; August 2015<br><em>(First Interim)</em></td>
+  <td>Lt. Chou Her<br><em>Interim Chief</em></td>
+  <td>First interim appointment bridging Chief Spaur&rsquo;s retirement and Chief Vasquez&rsquo;s start. One of three founding officers hired before campus opened in 2005. Managed departmental continuity during the transition period.</td>
+  <td>Transitional appointment. No documented POST-relevant matters.</td>
+  <td><a href="https://news.ucmerced.edu/news/2017/campus-mainstay-chou-her-named-chief-police" target="_blank">UC Merced Newsroom, 2017</a></td>
+</tr>
+<tr>
+  <td>August 17, 2015 &ndash; September 2016</td>
+  <td>Chief Albert Vasquez<br><em>AVC for Campus &amp; Public Safety and Chief of Police</em></td>
+  <td>The role of AVC for Campus and Public Safety combined with Chief of Police &mdash; described in the university&rsquo;s July 2015 announcement as consolidating Environmental Health &amp; Safety, risk services, and public safety under a single administrative umbrella. 33+ years in law enforcement. Previously: police chief at Santa Monica College (7 years, 130 employees), founding police chief at Hacienda La Puente USD, UN International Police Task Force, DOJ ICITAP. Ed.D. from USC; master&rsquo;s in Homeland Security from Naval Postgraduate School. Honored Officers Lopez and Dispatcher Cook for their actions following the November 2015 stabbing. Departed September 2016 &mdash; circumstances not specified in available records. Subsequently served as AVC at UC Riverside, then as VP at Chapman University.</td>
+  <td>The 2015 stabbing attack occurred under his command. Officer response found justified by DA. Departure after approximately 13 months in the role.</td>
+  <td><a href="https://news.ucmerced.edu/news/2015/new-avc-and-police-chief-combines-all-things-safety" target="_blank">UC Merced Newsroom, July 2015</a></td>
+</tr>
+<tr>
+  <td>September 2016 &ndash; April 2017<br><em>(Second Interim)</em></td>
+  <td>Lt. Chou Her<br><em>Interim Chief (Second Appointment)</em></td>
+  <td>Second interim appointment following Chief Vasquez&rsquo;s departure. Maintained departmental operations during the second leadership transition period.</td>
+  <td>Transitional appointment. No documented POST-relevant matters.</td>
+  <td><a href="https://news.ucmerced.edu/news/2017/campus-mainstay-chou-her-named-chief-police" target="_blank">UC Merced Newsroom, 2017</a></td>
+</tr>
+<tr>
+  <td>April 12, 2017 &ndash; Present</td>
+  <td>Chief Chou Her<br><em>AVC of Public Safety &amp; Chief of Police</em></td>
+  <td>Third permanent chief. First person of Hmong descent to lead a UC public safety agency. Born in Laos; family emigrated as refugees. One of three founding officers (2005). Career progression: Lieutenant (2011), Captain (2015), Interim Chief (twice), permanent Chief (April 12, 2017).<br><br>Education: AA (Merced College), BS Criminal Justice (CSU Stanislaus), MPA (CSU Stanislaus), MPH Behavioral Health (University of San Francisco).<br><br>Reforms implemented: Student Community Service Officer Program (peer-to-peer safety); &ldquo;We Hear You, We Are Here&rdquo; community Q&amp;A initiative; comprehensive data transparency dashboards covering crime statistics, satisfaction surveys, complaints, department demographics, use-of-force reports, RIPA data, budget, and training records; PAB establishment (2022); Police Insight Program; values-based hiring with community interview panels. Kevin McCauley Memorial Outstanding Staff Award (2022).<br><br>Managed: 2022 Garcia felony arrest; 2024 Gaza encampment (zero arrests, zero force); IACLEA accreditation preparation (onsite expected Spring 2025).</td>
+  <td>Longest-serving leader at UCMPD. AB 48 non-compliance confirmed during his tenure. SB 1421 records released at above-UC-average rate. IACLEA accreditation pending as of January 2025. Garcia lateral-hire case raises documented questions about vetting protocols. Zero-arrest encampment outcome during 2024 is consistent with the UC Davis and UC Berkeley restraint models.</td>
+  <td><a href="https://news.ucmerced.edu/news/2017/campus-mainstay-chou-her-named-chief-police" target="_blank">UC Merced Newsroom, 2017</a>; <a href="https://news.ucmerced.edu/news/2022/uc-merced-police-chief-honored-distinguished-staff-award" target="_blank">Distinguished Award, 2022</a>; <a href="https://police.ucmerced.edu/about-us/who-we-are/chief-chou-her" target="_blank">Chief bio</a></td>
+</tr>
+</tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION F: SOURCE INDEX -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div id="secF" class="section-heading">Section F</div>
+<div class="section-title">Source Index — All Sources Cited in This Report</div>
+
+<p style="font-size:13.5px;color:#444;margin-bottom:20px;line-height:1.8;"><em>All 64 sources listed below are the actual underlying documents identified through research. URLs are provided for independent verification wherever available. Sources marked [BACKGROUND REFERENCE] are retained for supplementary context only and do not serve as the basis for any compliance finding in this chapter.</em></p>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-09-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>LAist</strong></div>
+    <div class="src-sub">AB 48 Investigation</strong> | 9 of 10 UC campus PDs fail to comply with AB 48. UCMPD among non-compliant. | September 12, 2025 | <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">laist.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>LAist</strong></div>
+    <div class="src-sub">AB 48 Enforcement Gap</strong> | AB 48 has no enforcement mechanism. DOJ and POST both confirmed. | 2025 | <a href="https://laist.com/news/politics/california-weapons-protests-reporting-requirements" target="_blank">laist.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020-05-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Voice of San Diego</strong></div>
+    <div class="src-sub">SB 1421</strong> | UC campuses disclosed virtually no SB 1421 records. UC Merced one of three compliant. | May 12, 2020 | <a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">voiceofsandiego.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UAW 2865 Research Working Group | &ldquo;Policing in the UC&rdquo;</strong></div>
+    <div class="src-sub">UC-wide use-of-force data, 200+ incidents. | February 2021 | <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">uaw2865.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>FBI</strong></div>
+    <div class="src-sub">Initial Statement</strong> | FBI/UCMPD joint statement on UC Merced investigation. | November 2015 | <a href="https://www.fbi.gov/contact-us/field-offices/sacramento/news/press-releases/fbi-uc-merced-police-department-offer-statement-regarding-uc-merced-investigation" target="_blank">fbi.gov</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016-03-17</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>FBI</strong></div>
+    <div class="src-sub">Investigation Update</strong> | Mohammad self-radicalized, drawn to terrorist propaganda. Laptop contents documented. | March 17, 2016 | <a href="https://www.fbi.gov/contact-us/field-offices/sacramento/news/press-releases/update-on-investigation-at-university-of-california-merced" target="_blank">fbi.gov</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-12-07</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>CapRadio | Prosecutor: shooting death of UC Merced stabbing suspect justified. | December 7, 2015 | capradio.org</strong></div>
+    <div class="src-sub"><strong>CapRadio</strong> | Prosecutor: shooting death of UC Merced stabbing suspect justified. | December 7, 2015 | <a href="https://www.capradio.org/articles/2015/12/07/prosecutor-shooting-death-of-uc-merced-stabbing-suspect-justified/" target="_blank">capradio.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Wikipedia</strong></div>
+    <div class="src-sub">UC Merced Stabbing Attack</strong> [BACKGROUND REFERENCE] | Comprehensive article on November 4, 2015 attack. Compliance findings in this chapter rest on FBI, CapRadio, CNN, NBC, and UC Merced primary sources. | Various | <a href="https://en.wikipedia.org/wiki/University_of_California,_Merced_stabbing_attack" target="_blank">en.wikipedia.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Wikipedia</strong></div>
+    <div class="src-sub">UC Merced</strong> [BACKGROUND REFERENCE] | Campus history, enrollment, R1 classification. Enrollment figures in this chapter are sourced to IPEDS and UC Merced official publications. | Various | <a href="https://en.wikipedia.org/wiki/University_of_California,_Merced" target="_blank">en.wikipedia.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016-03-18</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>CNN | Fifth ISIS-inspired attack in U.S.; FBI findings on Mohammad. | March 18, 2016 | cnn.com</strong></div>
+    <div class="src-sub"><strong>CNN</strong> | Fifth ISIS-inspired attack in U.S.; FBI findings on Mohammad. | March 18, 2016 | <a href="https://www.cnn.com/2016/03/18/us/university-of-california-merced-stabbings-terror-inspired-fbi" target="_blank">cnn.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>CBS News</strong></div>
+    <div class="src-sub">Assailant Identified</strong> | Santa Clara student identified as UC Merced assailant. | November 2015 | <a href="https://www.cbsnews.com/sanfrancisco/news/santa-clara-student-identified-as-uc-merced-assailant/" target="_blank">cbsnews.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016-03</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>CBS News</strong></div>
+    <div class="src-sub">FBI ISIS Findings</strong> | FBI: ISIS inspired California student in campus stabbings. | March 2016 | <a href="https://www.cbsnews.com/news/fbi-isis-inspired-california-student-in-campus-stabbings-faisal-mohammad" target="_blank">cbsnews.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>NBC News</strong></div>
+    <div class="src-sub">Larger Plot</strong> | UC Merced stabbing suspect may have had larger plot. | November 2015 | <a href="https://www.nbcnews.com/news/us-news/uc-merced-stabbing-spree-suspect-may-have-had-larger-plot-n458256" target="_blank">nbcnews.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>NBC News</strong></div>
+    <div class="src-sub">Suspect ID</strong> | UC Merced stabbing spree: police ID suspect Faisal Mohammad, 18. | November 2015 | <a href="https://www.nbcnews.com/news/us-news/uc-merced-stabbing-spree-police-id-suspect-faisal-mohammad-18-n458236" target="_blank">nbcnews.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Washington Post | How a hero construction worker thwarted the UC Merced stabbing attack. | November 2015 | washingtonpost.com</strong></div>
+    <div class="src-sub"><strong>Washington Post</strong> | How a hero construction worker thwarted the UC Merced stabbing attack. | November 2015 | <a href="https://www.washingtonpost.com/news/inspired-life/wp/2015/11/06/how-a-hero-construction-worker-thwarted-the-uc-merced-stabbing-attack/" target="_blank">washingtonpost.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>ABC7 News</strong></div>
+    <div class="src-sub">One-Year Anniversary</strong> | UC Merced stabbing one year later &mdash; recovery, security upgrades. | November 2016 | <a href="https://abc7news.com/merced-county-uc-stabbing-faisal-mohammad/1591699/" target="_blank">abc7news.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>ABC7 News</strong></div>
+    <div class="src-sub">Manifesto</strong> | Stabbing investigation, manifesto details, 31-step plan. | November 2015 | <a href="https://abc7news.com/stabbing-at-uc-merced-18-year-old-faisal-mohammad-of-santa-clara-investigation-manifesto/1079618/" target="_blank">abc7news.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>ABC30</strong></div>
+    <div class="src-sub">Encampment</strong> | Pro-Palestinian protest underway at UC Merced campus. | May 2024 | <a href="https://abc30.com/post/pro-palestinian-protest-underway-uc-merced-campus-encampment/14810224/" target="_blank">abc30.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>ABC30</strong></div>
+    <div class="src-sub">Regents Meeting Protest</strong> | UC Merced campus protest during Board of Regents meetings. | May 2024 | <a href="https://abc30.com/post/uc-merced-campus-protest-board-of-regents-meetings-gaza-war/14820898/" target="_blank">abc30.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2019</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>ABC30</strong></div>
+    <div class="src-sub">FBI/ISIS Records</strong> | UC Merced stabbing suspect, Faisal Mohammad, ISIS threat, FBI documents. | 2019 | <a href="https://abc30.com/uc-merced-stabbing-suspect-faisal-mohammad-isis-threat-fbi/5329114/" target="_blank">abc30.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05-15</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>KVPR</strong></div>
+    <div class="src-sub">Regents Meeting Passions</strong> | Passions flare during UC Regents meeting; protesters escorted out. | May 15, 2024 | <a href="https://www.kvpr.org/local-news/2024-05-15/passions-flare-during-uc-regents-meeting-pro-palestine-protestors-escorted-out-of-gathering" target="_blank">kvpr.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05-16</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>KVPR</strong></div>
+    <div class="src-sub">Regents Sit Down</strong> | Members of UC Board of Regents sit down with pro-Palestinian protesters. | May 16, 2024 | <a href="https://www.kvpr.org/local-news/2024-05-16/members-of-the-uc-board-of-regents-sit-down-with-pro-palestinian-protesters-at-uc-merced" target="_blank">kvpr.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>KVPR</strong></div>
+    <div class="src-sub">Students Bring Protests</strong> | As UC Regents meet in Merced, students bring Gaza protests to them. | May 2024 | <a href="https://www.kvpr.org/local-news/2024-05-15/as-uc-regents-meet-in-merced-students-bring-gaza-protests-to-them" target="_blank">kvpr.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05-17</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>GV Wire</strong></div>
+    <div class="src-sub">Regents and Protesters</strong> | Some UC Regents sit down with pro-Palestinian protesters at UC Merced. | May 17, 2024 | <a href="https://gvwire.com/2024/05/17/some-uc-regents-sit-down-with-pro-palestinian-protesters-at-uc-merced/" target="_blank">gvwire.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Merced County Times</strong></div>
+    <div class="src-sub">Encampment</strong> | Protesters set up camp, display signs at UC Merced. | May 2024 | <a href="https://mercedcountytimes.com/protesters-set-up-camp-display-signs-at-uc-merced/" target="_blank">mercedcountytimes.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-05-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Indybay</strong></div>
+    <div class="src-sub">Encampment Demands</strong> [BACKGROUND REFERENCE] | UC Merced Gaza Solidarity Encampment demands as reported by independent media. Encampment compliance status in this chapter rests on official university statements and mainstream news coverage. | May 12, 2024 | <a href="https://www.indybay.org/newsitems/2024/05/12/18866145.php" target="_blank">indybay.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced Newsroom</strong></div>
+    <div class="src-sub">Two New Officers</strong> | Two new officers added; 18 total sworn. Chief Her quoted. | 2024 | <a href="https://news.ucmerced.edu/news/2024/two-new-officers-added-uc-merced-police-department" target="_blank">news.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced Newsroom</strong></div>
+    <div class="src-sub">Chou Her Named Chief</strong> | Campus mainstay Chou Her named chief of police. Full background. | April 2017 | <a href="https://news.ucmerced.edu/news/2017/campus-mainstay-chou-her-named-chief-police" target="_blank">news.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2022</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced Newsroom</strong></div>
+    <div class="src-sub">Her Honored</strong> | UC Merced police chief honored with distinguished staff award. | 2022 | <a href="https://news.ucmerced.edu/news/2022/uc-merced-police-chief-honored-distinguished-staff-award" target="_blank">news.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-07</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced Newsroom</strong></div>
+    <div class="src-sub">New AVC/Chief</strong> | New AVC and police chief Vasquez combines all things safety. | July 2015 | <a href="https://news.ucmerced.edu/news/2015/new-avc-and-police-chief-combines-all-things-safety" target="_blank">news.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced Newsroom</strong></div>
+    <div class="src-sub">Spaur Retirement</strong> | Campus names new police chief; references Spaur&rsquo;s retirement. | 2015 | <a href="https://news.ucmerced.edu/news/2015/campus-names-new-police-chief-assistant-vice-chancellor" target="_blank">news.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced Newsroom</strong></div>
+    <div class="src-sub">Stabbing Update</strong> | Update: four stabbed on UC Merced campus, suspect deceased. | November 4, 2015 | <a href="https://news.ucmerced.edu/news/2015/update-four-stabbed-uc-merced-campus-suspect-deceased" target="_blank">news.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced Newsroom</strong></div>
+    <div class="src-sub">Founding Staffer</strong> | Founding UC Merced staffer wraps 45 years in law enforcement. | 2025 | <a href="https://news.ucmerced.edu/news/2025/founding-uc-merced-staffer-wraps-45-years-law-enforcement" target="_blank">news.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Panorama</strong></div>
+    <div class="src-sub">Dispatcher/Officer Lauded</strong> | Dispatcher Cook and Officer Lopez lauded for quick actions. | 2016 | <a href="https://panorama.ucmerced.edu/news/dispatcher-officer-lauded-quick-actions" target="_blank">panorama.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Panorama</strong></div>
+    <div class="src-sub">Her Appointed</strong> | Campus appoints Chou Her as new chief of police. | April 2017 | <a href="https://panorama.ucmerced.edu/news/campus-appoints-chou-her-new-chief-police" target="_blank">panorama.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced PD</strong></div>
+    <div class="src-sub">Commendations/Complaints</strong> | Directs complainants to file directly with POST. | Various | <a href="https://police.ucmerced.edu/Commendations-Complaints" target="_blank">police.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced PD</strong></div>
+    <div class="src-sub">About Us</strong> | Department organizational structure and staffing. | Various | <a href="https://police.ucmerced.edu/aboutus" target="_blank">police.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced PD</strong></div>
+    <div class="src-sub">Chief Bio</strong> | Chief Chou Her official biography. | Various | <a href="https://police.ucmerced.edu/about-us/who-we-are/chief-chou-her" target="_blank">police.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced PD</strong></div>
+    <div class="src-sub">We Hear You</strong> | Community Q&amp;A, data transparency dashboards, lateral hire information. | Various | <a href="https://police.ucmerced.edu/about-us/we-hear-you-we-are-here" target="_blank">police.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced PD</strong></div>
+    <div class="src-sub">AB 481</strong> | Military equipment compliance page. No DOD 1033 program equipment. | Various | <a href="https://police.ucmerced.edu/ab-481" target="_blank">police.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced PD</strong></div>
+    <div class="src-sub">AB 481 Equipment Report</strong> | Detailed inventory. | Various | <a href="https://police.ucmerced.edu/sites/g/files/ufvvjh1446/f/documents/ab481-uc_equip.pdf" target="_blank">police.ucmerced.edu (PDF)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced PD</strong></div>
+    <div class="src-sub">AB 481 Annual Report</strong> | Annual use data: 7 rounds training only, zero operational. | Various | <a href="https://police.ucmerced.edu/sites/g/files/ufvvjh1446/f/page/documents/ab481_0.pdf" target="_blank">police.ucmerced.edu (PDF)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced</strong></div>
+    <div class="src-sub">Clery Website</strong> | Clery Act and crime statistics page. | Various | <a href="https://extension.ucmerced.edu/content/clery-act-and-crime-statistics" target="_blank">extension.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced</strong></div>
+    <div class="src-sub">Sheriff&rsquo;s Update</strong> | Sheriff Warnke&rsquo;s update on stabbing; 31-step plan details. | November 2015 | <a href="https://www.ucmerced.edu/sheriffs_office_update" target="_blank">ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2025-01-22</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Board of Regents</strong></div>
+    <div class="src-sub">C4 Document</strong> | IACLEA accreditation status: UC Merced &ldquo;Preparing for Onsite.&rdquo; | January 22, 2025 | <a href="https://regents.universityofcalifornia.edu/regmeet/jan25/c4.pdf" target="_blank">regents.universityofcalifornia.edu (PDF)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Goldrush Cam</strong></div>
+    <div class="src-sub">DA Justified</strong> | Use of force in UC Merced shooting deemed justified by DA. | December 2015 | <a href="https://goldrushcam.com/sierrasuntimes/index.php/news/local-news/5436-use-of-force-in-uc-merced-shooting-deemed-justified-by-da" target="_blank">goldrushcam.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-12</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Turlock Journal</strong></div>
+    <div class="src-sub">Use of Force Justified</strong> | Use of force justified in UC Merced shooting; Officer Lopez details. | December 2015 | <a href="https://www.turlockjournal.com/news/crime/use-of-force-justified-in-uc-merced-shooting/" target="_blank">turlockjournal.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2016</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>YourCentralValley</strong></div>
+    <div class="src-sub">Quiroga Recovery</strong> | UC Merced stabbing survivor Danielle Quiroga shares story of recovery. | 2016 | <a href="https://www.yourcentralvalley.com/news/uc-merced-stabbing-survivor-shares-story-of-recovery/" target="_blank">yourcentralvalley.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>YourCentralValley</strong></div>
+    <div class="src-sub">Military Equipment</strong> | Why UC Merced says it is purchasing military equipment. | 2024 | <a href="https://www.yourcentralvalley.com/news/local-news/why-uc-merced-says-it-is-purchasing-military-equipment/" target="_blank">yourcentralvalley.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2015-11</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Campus Safety Magazine | Four stabbing victims at UC Merced; manifesto details. | November 2015 | campussafetymagazine.com</strong></div>
+    <div class="src-sub"><strong>Campus Safety Magazine</strong> | Four stabbing victims at UC Merced; manifesto details. | November 2015 | <a href="https://www.campussafetymagazine.com/news/uc-merced-student-stabbing/96113/" target="_blank">campussafetymagazine.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-09-20</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Berkeleyside</strong></div>
+    <div class="src-sub">Regents Approve Weapons</strong> | UC Regents approve campus police requests for additional less-lethal weapons. | September 20, 2024 | <a href="https://www.berkeleyside.org/2024/09/20/uc-regents-approve-campus-police-requests-for-additional-less-lethal-weapons" target="_blank">berkeleyside.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-04</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Congressional Record</strong></div>
+    <div class="src-sub">Quiroga Award</strong> | Costa honors Danielle Quiroga with Congressional Victims&rsquo; Rights Caucus Award. | April 2017 | <a href="https://costa.house.gov/media-center/press-releases/costa-honors-danielle-quiroga-congressional-victims-rights-caucus-award" target="_blank">costa.house.gov</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2020</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>KMPH</strong></div>
+    <div class="src-sub">FBI Documents</strong> | FBI releases documents from 2015 UC Merced stabbing pursuant to FOIA. | 2020 | <a href="https://kmph.com/news/local/fbi-releases-documents-from-2015-uc-merced-stabbing" target="_blank">kmph.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>KMPH</strong></div>
+    <div class="src-sub">Manifesto Suppression</strong> | UC Merced still won&rsquo;t release manifesto in stabbing attack. | Various | <a href="https://kmph.com/news/local/uc-merced-still-wont-release-manifesto-in-stabbing-attack" target="_blank">kmph.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Merced County Times</strong></div>
+    <div class="src-sub">New Officers</strong> | UC Merced police dept welcomes two new officers. | 2024 | <a href="https://mercedcountytimes.com/uc-merced-police-dept-welcomes-two-new-officers/" target="_blank">mercedcountytimes.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>California LAO Report 4937 | UC Merced funding, enrollment projections, staffing. | November 2024 | lao.ca.gov</strong></div>
+    <div class="src-sub"><strong>California LAO Report 4937</strong> | UC Merced funding, enrollment projections, staffing. | November 2024 | <a href="https://lao.ca.gov/Publications/Report/4937" target="_blank">lao.ca.gov</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>POST</strong></div>
+    <div class="src-sub">Job Posting</strong> | UCMPD job posting on POST website confirming POST participation. | Various | <a href="https://post.ca.gov/portals/0/post_docs/hiring/lejobs/TAM_48774_Police_Officer_Posting.pdf" target="_blank">post.ca.gov (PDF)</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>EdSource</strong></div>
+    <div class="src-sub">Applications Rise</strong> | UC Merced sees 12% rise in applications. | 2024 | <a href="https://edsource.org/updates/uc-merced-sees-12-rise-in-applications" target="_blank">edsource.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-07</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Daily Bruin</strong></div>
+    <div class="src-sub">Mutual Aid</strong> | Documents reveal how UCPD coordinated protest responses with other agencies. | July 2024 | <a href="https://dailybruin.com/2024/07/15/documents-reveal-how-ucpd-coordinated-protest-responses-with-other-agencies" target="_blank">dailybruin.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2022</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>LCW Legal</strong></div>
+    <div class="src-sub">AB 48 Analysis</strong> | AB 48 restricts law enforcement use of less-lethal munitions. Legal analysis. | 2022 | <a href="https://www.lcwlegal.com/news/ab-48-restricts-law-enforcement-use-of-less-lethal-munitions-to-disperse-crowds" target="_blank">lcwlegal.com</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>AFSC</strong></div>
+    <div class="src-sub">AB 48 Summary</strong> [BACKGROUND REFERENCE] | California state law AB 48 limits police weapons for crowd control. Advocacy organization summary. AB 48 compliance analysis in this chapter relies on the statute text, LCW Legal analysis, and LAist investigation, not this source. | Various | <a href="https://afsc.org/california-state-law-ab-48-limits-police-weapons-crowd-control" target="_blank">afsc.org</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">UNDATED</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced PAB | Police Accountability Board website. | Various | pab.ucmerced.edu</strong></div>
+    <div class="src-sub"><strong>UC Merced PAB</strong> | Police Accountability Board website. | Various | <a href="https://pab.ucmerced.edu/" target="_blank">pab.ucmerced.edu</a></div>
+  </div>
+</div>
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2024-08</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>Mercury News</strong></div>
+    <div class="src-sub">State Audit</strong> | State finds UC Santa Cruz and 5 other colleges underreported campus crimes. UC Merced not among audited campuses. | August 2024 | <a href="https://www.mercurynews.com/2024/08/01/state-finds-uc-santa-cruz-and-5-other-colleges-underreported-campus-crimes/" target="_blank">mercurynews.com</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2017-02-06</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>NPR</strong></div>
+    <div class="src-sub">Trump White House 78-Attack List</strong> | White House releases list of 78 incidents characterized as underreported terrorist acts (February 6, 2017), including the November 2015 UC Merced stabbing. NPR and other outlets confirmed the attack received media coverage at the time. | February 6, 2017 | <a href="https://www.npr.org/2017/02/06/513777052/trump-says-media-fail-to-report-terrorist-attacks-white-house-promises-list" target="_blank">npr.org</a></div>
+  </div>
+</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2023</div>
+  
+</div><div class="src-body">
+    <div class="src-title">[?] <strong>UC Merced Newsroom</strong></div>
+    <div class="src-sub">College Track Partnership</strong> | Confirms UC Merced has highest percentage of Pell Grant recipients in UC system (60% of undergraduates); more than 70% first-generation students; over 80% from historically underrepresented groups. | 2023 | <a href="https://news.ucmerced.edu/news/2023/uc-merced-and-college-track-partner-democratize-potential-through-higher-education" target="_blank">news.ucmerced.edu</a></div>
+  </div>
+</div>
+
+
+<!-- ══ SUBMISSION BLOCK ══ -->
+<div class="submission-block">
+  <p><strong>Primary Submission:</strong> California Commission on Peace Officer Standards and Training (POST) &mdash; Peace Officer Standards Accountability Division (POSAD) &mdash; Authority: Cal. Penal Code &sect;&sect; 13509.5, 13510.8, 13510.85 (SB 2 &mdash; Kenneth Ross Jr. Police Decertification Act of 2021)</p>
+  <p><strong>Secondary Submissions:</strong> California Attorney General, Civil Rights Enforcement Section (Cal. Civ. Code &sect;&nbsp;52.3) &nbsp;|&nbsp; U.S. Department of Education, Federal Student Aid &mdash; Clery Act Enforcement (20&nbsp;U.S.C.&nbsp;&sect;&nbsp;1092(f)) &nbsp;|&nbsp; California Legislature, Senate &amp; Assembly Budget Subcommittees on Education &nbsp;|&nbsp; UC Office of the President &nbsp;|&nbsp; California State Auditor &nbsp;|&nbsp; U.S. Department of Justice (34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601)</p>
+  <p><strong>Distribution:</strong> Clery Center for Campus Safety &nbsp;|&nbsp; SAFE Campuses, LLC</p>
+  <p>All documents compiled from public records. All facts independently verifiable. Readers are encouraged to form their own independent conclusions.</p>
+</div>
+</div><!-- end .content -->
+
+</div>
+
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+<nav class="campus-nav" style="position:static;box-shadow:none">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn active">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn">UCSC</a>
+</div>
+</nav>
+<nav class="section-nav" style="position:static;box-shadow:none">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn">A &mdash; Overview</a>
+<a href="#secB" class="section-btn">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn">D &mdash; Financial</a>
+<a href="#secE" class="section-btn">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn">F &mdash; Sources</a>
+</div>
+</nav>
+
+<script>
+function setNavTops(){
+  const b1=document.querySelector('.nav-bar:not(.bottom)');
+  const b2=document.querySelector('.campus-nav:not([style])');
+  const b3=document.querySelector('.section-nav:not([style])');
+  if(!b1||!b2||!b3)return 130;
+  b2.style.top=b1.offsetHeight+'px';
+  b3.style.top=(b1.offsetHeight+b2.offsetHeight)+'px';
+  return b1.offsetHeight+b2.offsetHeight+b3.offsetHeight;
+}
+const secs=['secA','secB','secC','secD','secE','secF'];
+const btns=['btn-a','btn-b','btn-c','btn-d','btn-e','btn-f'];
+function updateActive(){
+  const offset=setNavTops()+10;
+  const scrollPos=window.scrollY+offset;
+  let cur=0;
+  secs.forEach((id,i)=>{
+    const el=document.getElementById(id);
+    if(!el)return;
+    const elTop=el.getBoundingClientRect().top+window.scrollY;
+    if(scrollPos>=elTop)cur=i;
+  });
+  btns.forEach((id,i)=>{
+    const b=document.getElementById(id);
+    if(b)b.classList.toggle('active',i===cur);
+  });
+}
+window.addEventListener('load',()=>{setNavTops();updateActive();});
+window.addEventListener('resize',()=>{setNavTops();updateActive();});
+window.addEventListener('scroll',updateActive,{passive:true});
+</script>
+<div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Behave Like Heroes &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>

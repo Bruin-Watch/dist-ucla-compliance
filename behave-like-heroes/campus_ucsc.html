@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act I · Dossier — UC Santa Cruz Police Department | Bruin Watch</title>
+<meta name="description" content="Campus dossier documenting UC Santa Cruz Police Department leadership, incidents, and oversight history.">
+<meta property="og:title" content="Act I · Dossier — UC Santa Cruz Police Department | Bruin Watch">
+<meta property="og:description" content="Campus dossier documenting UC Santa Cruz Police Department leadership, incidents, and oversight history.">
+<meta property="og:type" content="article">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE;--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0}
+body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#e8edf2;margin:0;padding:0}
+
+/* ══ BAR 1 — VERBATIM FROM CHAPTER_07.HTML ══ */
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}.nav-act.home-right{color:#FDB515;letter-spacing:2px;padding:8px 20px;cursor:default;background:transparent;pointer-events:none}.nav-act.home.disabled{color:rgba(253,181,21,.35);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.home.disabled:hover{background:rgba(253,181,21,.06);color:rgba(253,181,21,.5)}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}.nav-act.disabled{color:rgba(255,255,255,.28);cursor:not-allowed;background:transparent;pointer-events:auto}.nav-act.disabled:hover{background:rgba(255,255,255,.04);color:rgba(255,255,255,.45)}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:center}
+.nav-bottom-inner{display:flex;align-items:stretch;justify-content:center;min-width:max-content;margin:0 auto}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 2 — CAMPUS DOSSIERS — same pattern, slightly darker ══ */
+.campus-nav{background:#00254a;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:999;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.campus-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.campus-nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.campus-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.campus-btn:hover{background:var(--uc-mid);color:#fff}
+.campus-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ BAR 3 — SECTION INDEX — same pattern, darkest ══ */
+.section-nav{background:#001428;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:998;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.section-nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%;justify-content:center}
+.section-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.section-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.section-btn:hover{background:var(--uc-mid);color:#fff}
+.section-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+
+/* ══ COVER PAGE ══ */
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:48px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:80px;font-weight:900;letter-spacing:8px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:6px;line-height:1.0}
+.series-line1{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:4px}
+.series-line2{font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:28px}
+.campus-label{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:900;letter-spacing:5px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:16px}
+.chapter-title{font-family:'Libre Baskerville',Georgia,serif;font-size:44px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:28px auto;display:block}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:22px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.cover-meta{width:100%;padding:20px 0;background:rgba(0,0,0,.15);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border-top:1px solid rgba(253,181,21,.25)}
+.cover-meta-inner{max-width:960px;width:100%;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 40px}
+.cover-meta p{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;color:#fff;text-align:center;line-height:1.6}
+.cover-meta strong{color:var(--uc-gold)}
+.cover-meta p.cover-disclaimer{font-size:14.5px!important;font-weight:300!important;color:#dde8f4!important;text-align:justify!important;hyphens:auto;max-width:820px;width:100%;margin:6px auto;padding:10px 0;line-height:1.8;border-top:1px solid rgba(253,181,21,.35);border-bottom:1px solid rgba(253,181,21,.35)}
+.cover-copyright{width:100%;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:15px;color:#fff;margin-top:4px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+
+/* ══ CHAPTER BODY ══ */
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.note-investigators{background:var(--uc-blue);padding:24px 30px;margin:0;border-left:6px solid var(--uc-gold)}
+.note-investigators .note-label{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:14px}
+.note-investigators p{font-size:17px;color:#fff;line-height:1.85;margin-bottom:12px}
+.note-investigators p:last-child{margin-bottom:0}
+.campus-grid-wrap{background:var(--uc-blue);padding:10px 0 12px;width:100%}
+.campus-grid{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;width:100%;padding:0 4px}
+.campus-grid-btn{display:block;background:var(--uc-blue-dark);border:2px solid var(--uc-blue-dark);padding:12px 4px;text-align:center;text-decoration:none;transition:background .15s,border-color .15s}
+.campus-grid-btn:hover{background:var(--uc-mid);border-color:var(--uc-mid)}
+.campus-grid-btn.active{background:var(--uc-mid);border:2px solid var(--uc-gold)}
+.campus-grid-abbr{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-weight:700;color:var(--uc-gold);margin-bottom:3px}
+.campus-grid-name{font-size:10px;color:#b8c8dc;letter-spacing:.5px;text-transform:uppercase}
+.campus-grid-btn.active .campus-grid-name{color:#fff}
+.section-anchor{display:block;height:145px;margin-top:-145px;visibility:hidden}
+.content-wrap{padding:0 48px 60px;max-width:900px;margin:0 auto}.content-wrap p{margin-bottom:18px;line-height:1.85;font-size:17px}
+
+/* ══ CONTENT — VERBATIM FROM UCB SOURCE DOSSIER ══ */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+  :root{--ucb-blue:#003262;--ucb-gold:#FDB515;--ucb-gold-light:#FFF8E1;--ucb-blue-light:#E8EEF4;--tan-bg:#FAF6F0;--red-bg:#FFC7CE;--red-text:#9C0006;--green-bg:#C6EFCE;--green-text:#276221;--yellow-bg:#FFEB9C;--yellow-text:#7D4A00;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Libre Baskerville',Georgia,serif;color:#222;line-height:1.7;background:#fff;}
+  /* cover-page defined above — UCB override removed */
+  .cover-series{font-family:'Source Sans Pro',sans-serif;font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin-bottom:16px;}
+  .cover-chapter{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:30px;}
+  .cover-title{font-family:'Source Sans Pro',sans-serif;font-size:36px;font-weight:700;color:#fff;line-height:1.25;max-width:750px;margin-bottom:16px;}
+  .cover-gold-line{width:120px;height:3px;background:var(--ucb-gold);margin:22px auto;}
+  .cover-subtitle{font-family:'Libre Baskerville',serif;font-size:16px;font-style:italic;color:rgba(255,255,255,0.8);max-width:640px;line-height:1.65;margin-bottom:24px;}
+  .cover-meta{font-family:'Source Sans Pro',sans-serif;font-size:16px;color:#fff;margin-top:28px;line-height:2.1;}
+  .cover-meta strong{color:#fff;font-weight:700;}
+  .disclaimer{max-width:800px;margin:44px auto 32px;padding:24px 32px;text-align:center;font-style:italic;font-size:16px;color:#555;line-height:1.85;border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+  .content{max-width:900px;margin:0 auto;padding:0 48px 60px;}
+  .section-banner{font-family:'Source Sans Pro',sans-serif;font-size:17px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ucb-gold);background:var(--ucb-blue);padding:14px 22px;margin:48px 0 0;}
+  .section-heading{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin:52px 0 0;padding:0;display:block;}
+  .section-title{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:700;color:var(--ucb-blue);padding:2px 0 12px;border-bottom:2px solid var(--ucb-gold);margin-bottom:24px;}
+  .incident-heading{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:900;color:var(--ucb-blue);margin:40px 0 8px;padding:12px 16px;background:var(--ucb-blue-light);border-left:5px solid var(--ucb-gold);}
+  .incident-date{display:block;font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:900;color:var(--ucb-gold);text-transform:uppercase;letter-spacing:2px;margin-top:44px;margin-bottom:6px;}
+  .incident-title{display:block;font-family:'Source Sans Pro',sans-serif;font-size:22px;font-weight:900;color:var(--ucb-blue);margin-bottom:14px;}
+  .incident-block{margin-bottom:8px;}
+  .pre-mandatory{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:2px 8px;background:#e0e0e0;color:#555;border-radius:2px;margin-bottom:8px;}
+  table.data-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px;}
+  table.data-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:0.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,0.15);}
+  table.data-table thead th:last-child{border-right:none;}
+  table.data-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px;}
+  table.data-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light);}
+  table.data-table tbody tr:nth-child(odd) td{background:#fff;}
+  table.data-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:14px;}
+  .badge{display:inline-block;font-family:'Source Sans Pro',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:3px 8px;border-radius:3px;}
+  .badge-red{background:var(--red-bg);color:var(--red-text);}
+  .badge-green{background:var(--green-bg);color:var(--green-text);}
+  .badge-yellow{background:var(--yellow-bg);color:var(--yellow-text);}
+  .badge-unknown{background:#e0e0e0;color:#444;}
+  .badge-active{background:#FF4444;color:#fff;}
+  .key-finding{background:var(--ucb-gold-light);border-left:4px solid var(--ucb-gold);padding:16px 20px;margin:20px 0 28px;font-size:16px;line-height:1.8;}
+  .key-finding strong{font-family:'Source Sans Pro',sans-serif;color:var(--ucb-blue);}
+  .source-index-entry{font-size:15px;line-height:1.75;margin-bottom:10px;padding:10px 14px;background:#f8f8f8;border-left:3px solid var(--ucb-gold);}
+  .source-index-entry a{color:#0563C1;word-break:break-all;}
+  .appendix-entry{display:flex;align-items:stretch;border:1px solid #dde3ea;border-top:none;margin-bottom:0;text-decoration:none;color:inherit;word-wrap:break-word;overflow-wrap:break-word;box-sizing:border-box;width:100%;}
+  .appendix-entry:first-of-type{border-top:1px solid #dde3ea;}
+  .appendix-entry:hover{background:#f0f5fb;}
+  .src-date{background:var(--ucb-blue);color:var(--ucb-gold);font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:900;letter-spacing:1px;min-width:120px;width:120px;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px 8px;flex-shrink:0;border-right:3px solid var(--ucb-gold);}
+  .src-body{flex:1;padding:14px 18px;display:flex;flex-direction:column;justify-content:center;font-size:15px;line-height:1.8;word-wrap:break-word;overflow-wrap:break-word;min-width:0;}
+  .src-body a{color:#0563C1;word-break:break-all;}
+  .src-id{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:var(--ucb-blue);margin-right:6px;}
+  .source-num{font-family:'Source Sans Pro',sans-serif;font-weight:700;color:var(--ucb-blue);min-width:28px;display:inline-block;}
+  .chapter-nav{background:var(--ucb-blue-light);border:1px solid #c5d3e0;padding:14px 20px;margin:0 0 36px;font-family:'Source Sans Pro',sans-serif;font-size:13px;line-height:1.8;}
+  .chapter-nav strong{color:var(--ucb-blue);}
+  .chapter-nav a{color:#0563C1;text-decoration:none;margin:0 4px;}
+  .chapter-nav a:hover{text-decoration:underline;}
+  .submission-block{background:var(--uc-blue);padding:24px 30px;margin:32px 0 0}
+.submission-block p{font-size:16px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:8px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:20px 48px;text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:rgba(255,255,255,0.5);line-height:1.8;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+  .doc-footer strong{color:rgba(255,255,255,0.8)}
+  @media print{.nav-wrap{display:none!important}.cover-page{min-height:100vh;page-break-after:always;}.section-banner{page-break-before:always;}}
+
+@media(max-width:768px){.series-title{font-size:58px}.chapter-title{font-size:32px}.cover-content{padding:36px 24px}}
+@media print{.cover-page{page-break-after:always}.nav-bar,.campus-nav,.section-nav{display:none}}
+
+  /* SOURCE INDEX — exact ch-row pattern from index.html */
+  .src-row{display:flex;align-items:stretch;border:1px solid #dde3ea;border-top:none;text-decoration:none;color:inherit;transition:background 0.12s;}
+  .src-row:first-of-type{border-top:1px solid #dde3ea;}
+  .src-row:hover{background:#f0f5fb;}
+  .src-row:hover .src-num{background:var(--uc-mid);}
+  .src-num{background:var(--ucb-blue);color:var(--ucb-gold);font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:900;letter-spacing:1px;min-width:120px;width:120px;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px 10px;transition:background 0.12s;flex-shrink:0;border-right:3px solid var(--ucb-gold);}
+  .src-body{flex:1;padding:13px 18px;display:flex;flex-direction:column;justify-content:center;word-wrap:break-word;overflow-wrap:break-word;min-width:0;}
+  .src-title{font-size:17px;font-weight:700;color:var(--ucb-blue);margin-bottom:4px;line-height:1.4;}
+  .src-sub{font-size:16px;color:#444;line-height:1.7;word-wrap:break-word;overflow-wrap:break-word;}
+  .src-sub a{color:#0563C1;word-break:break-all;}
+  .src-index-wrap{display:flex;flex-direction:column;width:100%;}
+
+/* ══ MASTER TEMPLATE UPDATE — 2026-03-23 — LOCKED ══ */
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.series-tagline{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;margin-bottom:16px;max-width:820px}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--ucb-gold);margin:52px 0 0;padding:0;display:block}
+table.info-table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:13.5px}
+table.info-table thead th{background:var(--ucb-blue);color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.8px;padding:11px 14px;text-align:left;border-right:1px solid rgba(255,255,255,.15)}
+table.info-table thead th:last-child{border-right:none}
+table.info-table tbody td{padding:12px 14px;border:1px solid #d8d8d8;vertical-align:top;line-height:1.7;font-size:16px}
+table.info-table tbody tr:nth-child(even) td{background:var(--ucb-blue-light)}
+table.info-table tbody tr:nth-child(odd) td{background:#fff}
+table.info-table a{color:#0563C1;text-decoration:underline;word-break:break-all;font-size:13px}
+.src-index-wrap{display:flex;flex-direction:column;width:100%}
+.src-row{display:flex;align-items:stretch;border:1px solid #dde3ea;border-top:none;text-decoration:none;color:inherit;transition:background .12s}
+.src-row:first-of-type{border-top:1px solid #dde3ea}
+.src-row:hover{background:#f0f5fb}
+.src-row:hover .src-num{background:var(--uc-mid)}
+.src-num{background:var(--ucb-blue);color:var(--ucb-gold);font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:900;letter-spacing:1px;min-width:120px;width:120px;display:flex;align-items:center;justify-content:center;text-align:center;padding:14px 10px;transition:background .12s;flex-shrink:0;border-right:3px solid var(--ucb-gold)}
+.src-body{flex:1;padding:13px 18px;display:flex;flex-direction:column;justify-content:center;word-wrap:break-word;overflow-wrap:break-word;min-width:0}
+.src-title{font-size:17px;font-weight:700;color:var(--ucb-blue);margin-bottom:4px;line-height:1.4}
+.src-sub{font-size:16px;color:#444;line-height:1.7;word-wrap:break-word;overflow-wrap:break-word}
+.src-sub a{color:#0563C1;word-break:break-all}
+
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505053" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+
+<nav class="campus-nav">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn active">UCSC</a>
+</div>
+</nav>
+
+<nav class="section-nav" id="section-nav">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn active" id="btn-a">A &mdash; Overview</a>
+<a href="#secB" class="section-btn" id="btn-b">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn" id="btn-c">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn" id="btn-d">D &mdash; Financial</a>
+<a href="#secE" class="section-btn" id="btn-e">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn" id="btn-f">F &mdash; Sources</a>
+</div>
+</nav>
+
+<div class="cover-page">
+
+  <!-- TOP BLUE BAR — LOCKED -->
+  <div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Behave Like Heroes</div>
+<div class="series-tagline">Law Enforcement Without Enforcement<br>A Documented Gap Analysis</div>
+<div class="campus-label">Campus Dossier</div>
+<h1 class="chapter-title">UC Santa Cruz Police Department</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">POST Reporting Gap Analysis &mdash; Compliance Status &mdash; Incident Chronology &mdash; Financial Record &mdash; Leadership History &mdash; Source Index</p>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+
+<div class="chapter-body">
+<!-- NOTE TO INVESTIGATORS -->
+<div class="note-investigators">
+<div class="note-label">Note to Investigators, Attorneys, and Journalists</div>
+<p>This campus dossier contains enforcement-level detail not summarized in the main chapters of this series. It documents the complete incident history, POST compliance status, financial exposure, and leadership record for the UC Santa Cruz Police Department. This document is intended for POST investigators, attorneys, civil rights organizations, journalists, and other parties requiring granular evidentiary detail for enforcement, litigation, or investigative purposes. All source citations are independently verifiable. Readers are encouraged to draw their own conclusions from the documented record.</p>
+</div>
+
+<!-- CAMPUS GRID - single row of 10, full width -->
+<div class="campus-grid-wrap">
+<div class="campus-grid">
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCB</div><div class="campus-grid-name">Berkeley</div></a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCD</div><div class="campus-grid-name">Davis</div></a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCI</div><div class="campus-grid-name">Irvine</div></a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCLA</div><div class="campus-grid-name">Los Angeles</div></a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCM</div><div class="campus-grid-name">Merced</div></a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCR</div><div class="campus-grid-name">Riverside</div></a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSD</div><div class="campus-grid-name">San Diego</div></a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSF</div><div class="campus-grid-name">San Francisco</div></a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-grid-btn"><div class="campus-grid-abbr">UCSB</div><div class="campus-grid-name">Santa Barbara</div></a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-grid-btn active"><div class="campus-grid-abbr">UCSC</div><div class="campus-grid-name">Santa Cruz</div></a>
+</div>
+</div>
+
+<!-- ══════════════════════════════════════
+     SECTION A — OVERVIEW
+══════════════════════════════════════ -->
+<div class="content-wrap">
+<span class="section-anchor" id="sec-a"></span>
+<div id="secA" class="section-heading">Section A</div>
+<div class="section-title">Department Overview</div>
+
+<table class="info-table">
+<thead><tr><th style="width:30%">Field</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td><strong>Agency Name</strong></td><td>University of California Santa Cruz Police Department (UCSC PD)</td></tr>
+<tr><td><strong>Campus Founded / Enrollment</strong></td><td>UCSC opened 1965 on former Cowell Ranch property. As of 2024, enrollment exceeds 19,400 students. Campus located on 2,001 forested acres in the Santa Cruz Mountains above the city of Santa Cruz.</td></tr>
+<tr><td><strong>Legal Authority</strong></td><td>California <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=830.2.&lawCode=PEN" target="_blank">Penal Code §830.2(b)</a> — sworn peace officers pursuant to <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=92600.&lawCode=EDC" target="_blank">Education Code §92600</a>. Full statewide law enforcement authority. Primary jurisdiction: campus and properties owned by the Regents of the University of California within one-mile radius. Concurrent jurisdiction: Santa Cruz County Sheriff's Department and City of Santa Cruz PD for university-owned properties in county and city.</td></tr>
+<tr><td><strong>POST Status</strong></td><td>POST-participating agency. All officers hold POST certification. Subject to <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB2" target="_blank">SB 2</a> certification/decertification effective January 1, 2023.</td></tr>
+<tr><td><strong>Sworn Officers</strong></td><td>24 sworn police officers as of May 2023 (per Chief Domby hiring announcement). 38 total personnel. 10 vacancies identified at time of Domby's appointment including 5 officer vacancies. In 2011 at Oweis appointment: 17 sworn officers, 40 total employees.</td></tr>
+<tr><td><strong>Student Ratio</strong></td><td>Approximately 1.24 officers per 1,000 students (24 officers / 19,400 students). Among the lower ratios in the UC system.</td></tr>
+<tr><td><strong>Current Chief</strong></td><td>Kevin Domby (May 2023–present). Executive Director of Public Safety and Chief of Police. Previously: 23 years California Highway Patrol. Before law enforcement: approximately one decade as art educator (high school, community college, correctional facility instruction). MFA degree. Hired after nationwide search following 2+ year vacancy. Salary: $230,000/year.</td></tr>
+<tr><td><strong>Accreditation</strong></td><td><span class="badge badge-green">IACLEA ACCREDITED</span> — achieved full accreditation June 2025 for a four-year term. Announced January 30, 2026. Was among the last four UC campuses to achieve accreditation (with UCLA, UC Merced, UC Riverside). Does NOT hold CALEA accreditation — only UCSF holds CALEA in the UC system.</td></tr>
+<tr><td><strong>Oversight Body</strong></td><td>Police Accountability Board (PAB) — established per UC Community Safety Plan. Reviews civilian complaints against sworn officers. Advisory only — no subpoena power, cannot compel discipline.</td></tr>
+<tr><td><strong>Union Representation</strong></td><td>Federated University Police Officers' Association (FUPOA).</td></tr>
+<tr><td><strong>Mutual Aid</strong></td><td>UC Universitywide Police Policies Chapter 13 authorizes inter-campus mutual aid. UCSC participates in California State Law Enforcement Mutual Aid Plan. During 2024 encampment clearance: mutual aid from CHP, San Francisco PD, Santa Clara County Sheriff, Santa Cruz PD — 300+ officers deployed. UCSC PD provided mutual aid to other UC campuses during 2020 COLA strike.</td></tr>
+<tr><td><strong>Organizational Structure</strong></td><td>Part of Risk and Safety Services Unit. Includes: University Police, Parking Enforcement, Campus Dispatch, Kiosk Programs. Student Ambassador program (since 2012). Investigations unit handles felonies and misdemeanors. Emergency Response Center at 1156 High Street, Santa Cruz.</td></tr>
+<tr><td><strong>Notable Distinctions</strong></td><td>Three major police confrontations in 5 years (2020 COLA strike, 2024 Gaza encampment, 2024 UAW 4811 strike). California State Auditor found Clery Act violations (2024). <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180SB1421" target="_blank">SB 1421</a> non-compliant — no records released. <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB48" target="_blank">AB 48</a> non-compliant. 2+ year chief vacancy (2020–2023) — longest documented vacancy in UC system.</td></tr>
+</tbody>
+</table>
+
+<!-- ══════════════════════════════════════
+     SECTION B — INCIDENT LOG
+══════════════════════════════════════ -->
+<span class="section-anchor" id="sec-b"></span>
+<div id="secB" class="section-heading">Section B</div>
+<div class="section-title">Chronological Incident Log — All Documented Incidents Relevant to POST Oversight</div>
+
+<div class="incident-block">
+<div class="incident-date">February 10–12, 2020</div>
+<div class="incident-title">COLA Wildcat Strike — 17 Arrested, Pain Compliance Alleged</div>
+<p class="body-text">Graduate students launched a wildcat strike (not union-sanctioned) demanding a $1,412/month cost-of-living adjustment. Strikers spent 50–80% of income on rent. A grading strike had begun December 2019, with 12,000+ fall-quarter grades withheld. The full strike began February 10 with demonstrations blocking campus entrances.</p>
+<p class="body-text">February 12, 2020 (Day 3): Hundreds of demonstrators and dozens of police engaged in a tense standoff for hours at the main campus entrance. At least 17 protesters were arrested for unlawful assembly, obstructing a public roadway, and disobeying a lawful order. Police included UCSC PD plus officers bussed in from other campuses and counties, including CHP. Pain compliance techniques were reported: officers pushed on pressure points on protesters' necks and ears. PhD candidate James Sirigotis stated: "At one point an officer grabbed me by the back of the head, grabbed me by my hair and threw me face first onto the street... basically rubbing my face into the street." A two-square-inch patch of hair was missing afterward. At least two students sustained injuries they attributed to excessive force.</p>
+<p class="body-text">All 17 arrested received 14-day campus bans. Students living on campus were allowed access to residence and dining only. International Student Services warned international students that participation "may have immigration consequences." UC President Napolitano threatened termination. February 28: 82+ graduate students were terminated, losing health insurance during the emerging COVID-19 pandemic. UC Academic Council called on Napolitano not to retaliate and to lessen police presence. 300+ UCSC faculty signed a letter promising not to retaliate. Bernie Sanders publicly supported strikers. AAUP condemned use of riot police and termination threats. August 7, 2020: 41 of fired graduate students reinstated after UAW 2865 dropped unfair labor practice charges. Students did not receive the demanded pay increase.</p>
+<div class="key-finding"><strong>Applicable Law:</strong> POST use-of-force reporting requirements. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=835a.&lawCode=PEN" target="_blank">PC §835a</a> (reasonable force). <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=148.&lawCode=PEN" target="_blank">PC §148</a> (resisting arrest). First Amendment assembly rights. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=3300.&lawCode=GOV" target="_blank">POBR</a> complaint investigation requirements.<br><strong>Reported to POST/DOJ:</strong> UNKNOWN — Whether use-of-force reports were filed with POST for pain compliance techniques and alleged hair-pulling is not documented in available public records.</div>
+<div class="source-note"><strong>Sources:</strong> KQED, Feb 26, 2025; Mercury News, Feb 12, 2020; Wikipedia — 2020 Santa Cruz graduate students' strike; Santa Cruz Sentinel, Dec 31, 2020; Democracy Now!, Feb 14, 2020; AAUP; Salon, Feb 24, 2020</div>
+</div>
+
+<div class="incident-block">
+<div class="incident-date">October–December 2020</div>
+<div class="incident-title">Chief Oweis Departure Amid Defund Movement — 2+ Year Vacancy Begins</div>
+<p class="body-text">Chief Nader Oweis announced retirement effective December 4, 2020, departing for Sonoma State University after 9 years as UCSC chief. Departure occurred during national reckoning over policing following George Floyd's murder (May 2020) and an active campus defund-the-police movement. UC President Napolitano stated UC would not defund police departments.</p>
+<p class="body-text">Vice Chancellor Sarah Latham framed the departure as "an opportunity for review and new perspectives on how we approach our work." Lt. Mary Garcia was named interim chief December 5, 2020. The position remained vacant for over 2 years until Domby's appointment in May 2023 — the longest chief vacancy documented in the UC system in this report series. AB 48, <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB2" target="_blank">SB 2</a>, and <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201520160AB953" target="_blank">RIPA</a> requirements for UC PDs all took effect during this vacancy period without permanent leadership in place.</p>
+<div class="source-note"><strong>Sources:</strong> Santa Cruz Sentinel, Nov 19, 2020; UCSC News, Nov 2020; KION, Oct 26, 2020; CBS San Francisco, Oct 2, 2020</div>
+</div>
+
+<div class="incident-block">
+<div class="incident-date">May 20, 2024</div>
+<div class="incident-title">UAW 4811 Unfair Labor Practice Strike — UCSC First to Walk Out</div>
+<p class="body-text">On May 20, 2024, UC Santa Cruz was the first UC campus to "stand up" in UAW 4811's systemwide ULP strike. Workers struck in defense of the right to protest in support of Gaza/Palestine, after police cleared pro-Palestinian encampments at UCLA, UCSD, and UCI. The strike eventually involved approximately 31,500 workers across UCLA, UC Davis, UCSB, UCSD, and UCI. PERB denied UC's injunction on May 23, declaring the strike was not unlawful. UC subsequently attempted retaliation — notices of intent to dismiss workers; PERB found the strike was lawful protected activity.</p>
+<div class="source-note"><strong>Sources:</strong> Pay Us More UCSC — payusmoreucsc.com; CBS San Francisco, May 31, 2024</div>
+</div>
+
+<div class="incident-block">
+<div class="incident-date">May 30–31, 2024</div>
+<div class="incident-title">Gaza Solidarity Encampment — 122 Arrested in 16-Hour Standoff, 300+ Officers Deployed</div>
+<p class="body-text">An encampment was established at Quarry Plaza, later moved to the base of campus near the Barn Theater. Protesters demanded UC divestment from weapons manufacturers and Israeli companies, cuts to ties with Israeli universities, condemnation of Israel's actions, and amnesty for protesters. Protesters blockaded both campus entrances for days. Chancellor Cynthia Larive cited blocked emergency vehicle access — specifically an ambulance prevented from reaching a facility where a toddler was in distress (May 28).</p>
+<p class="body-text">May 30, 11:52 PM: Over 300 officers in riot gear from multiple agencies marched into the encampment. Agencies included: UCSC PD, CHP, San Francisco PD, Santa Clara County Sheriff, Santa Cruz PD, and others. A 16-hour confrontation ensued. Total detained: 122 people — students, faculty, and community members. All 122 charged with failure to disperse; several additionally charged with resisting arrest and battery of an officer.</p>
+<p class="body-text">Allegations of police misconduct during arrests include: officers breaking fingers, choking, shoving, striking with batons, and threatening to shoot if protesters did not disperse. Officers allegedly singled out "smaller, female-presenting people." Protesters shouted "They are hurting us!" and "We can't breathe!" One protester reported suffocating after a bag was placed over their head, vomiting as a result. A news photographer was reportedly body-slammed, suffering a serious concussion. Reporters from City on a Hill Press were nearly arrested. Legal observers were denied access. Community members reported police used service/signal jammers. Bulldozers razed tents, a medical station, a kitchen, and an art space.</p>
+<p class="body-text">Students received 7–14 day campus bans, including those living on campus (forced to find alternative lodging), relying on meal plans, or using Student Health Center as their sole healthcare. Of 122 arrested: UCSC PD forwarded ONLY ONE case to the Santa Cruz County DA. Esmeralda Hurtado, 20, was charged March 7, 2025, for both the May 31 encampment arrest and an October 7, 2024 rally arrest. December 2025: Judge Mandy Tovar, visibly emotional, granted diversion — Hurtado avoids trial if she completes community service through 2026. All other 121 arrestees: no formal charges filed; statute of limitations expired May 31, 2025.</p>
+<div class="critical-finding"><strong>Applicable Law:</strong> <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB48" target="_blank">AB 48</a> crowd-control weapon reporting (if less-lethal weapons used). POST use-of-force reporting. PC §835a (reasonable force). First Amendment assembly. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=409.&lawCode=PEN" target="_blank">PC §409</a> (failure to disperse). Clery Act reporting (on-campus arrests). <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=3300.&lawCode=GOV" target="_blank">POBR</a> complaint investigation. <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200AB748" target="_blank">AB 748</a> (body camera footage release if critical incidents).<br><strong>Reported to POST/DOJ:</strong> UNKNOWN — Whether AB 48 reports were filed is undocumented. LAist reported UCSC among 9 non-compliant UC campuses. Whether use-of-force reports were filed with POST for alleged batterings, choking, finger-breaking, and photographer body-slam is undocumented. Whether body camera footage was preserved and is releasable under AB 748 is unknown — EdSource reported the "vast majority of police were not outfitted with body cameras."</div>
+<div class="source-note"><strong>Sources:</strong> City on a Hill Press, June 10, 2024; KAZU, May 31, 2024; Mercury News, May 31, 2024; CBS San Francisco, May 31, 2024; EdSource news release, June 9, 2024; Lookout Santa Cruz (charges); Lookout Santa Cruz (diversion)</div>
+</div>
+
+<div class="incident-block">
+<div class="incident-date">July 2024</div>
+<div class="incident-title">California State Auditor Clery Act Findings — UCSC Underreported 33 Crimes</div>
+<p class="body-text"><a href="https://www.auditor.ca.gov/reports/2024-032/index.html" target="_blank">California State Auditor <a href="https://www.auditor.ca.gov/reports/2024-032/index.html" target="_blank">Report 2024-032</a></a> (published July 2024): UCSC was among six institutions audited. Findings for UCSC include the following: UCSC underreported 33 crimes in 2022 Clery statistics not submitted to the U.S. Department of Education, including dating violence, domestic battery, and rape. The Auditor stated: "By not including these serious crimes in its Clery statistics as required, Santa Cruz presented its campus as safer than it was."</p>
+<p class="body-text">Of 60 crimes reviewed, 7 were not included in Clery statistics — a 15% error rate. Additionally, 22 of 60 crimes were missing from daily crime logs. The department failed to disclose all required campus safety policies, procedures, and programs; did not track Clery-reportable incidents in a central location; lacked written procedures for staff compiling Clery statistics; the Clery coordinator position experienced turnover with the interim coordinator lacking written guidance; and the university did not renew its agreement with the campus police department for Clery reporting.</p>
+<p class="body-text">UCSC agreed to implement all recommendations by January 2025. The 2024 Annual Security and Fire Safety Report (published October 1) contained corrections for 2022 statistics, but City on a Hill Press subsequently found 2023 statistics also contained errors in rape and stalking categories. Clery compliance was transferred from UCSC PD to the Office of Campus Safety Compliance within Risk and Safety Services.</p>
+<div class="critical-finding"><strong>Applicable Law:</strong> Clery Act (<a href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title20-section1092&num=0&edition=prelim" target="_blank">20 U.S.C. §1092(f)</a>). DOE enforcement ($70,000 per violation maximum). UC Berkeley was fined $2.35M in 2020 for similar violations.<br><strong>Status:</strong> DOCUMENTED NON-COMPLIANT — California State Auditor Report 2024-032 officially found UCSC in violation. Whether DOE has opened enforcement review is not documented as of February 2026.</div>
+<div class="source-note"><strong>Sources:</strong> CA State Auditor Report 2024-032 — <a href="https://www.auditor.ca.gov/reports/2024-032/" target="_blank">auditor.ca.gov</a>; Santa Cruz Sentinel, Aug 1, 2024; Mercury News, Aug 1, 2024; City on a Hill Press, Nov 24, 2024</div>
+</div>
+
+<div class="incident-block">
+<div class="incident-date">October 7, 2024</div>
+<div class="incident-title">Second Arrest of Esmeralda Hurtado at Palestine Rally</div>
+<p class="body-text">On the one-year anniversary of the Hamas attack, approximately 150 students and supporters protested on the UCSC campus. After the event ended, bystanders reported UCSC officers approached Hurtado as the crowd was cleaning up. Officers told her she could not wear a mask and use a bullhorn simultaneously. When asked to identify herself, police state she physically resisted arrest. She was charged formally on March 7, 2025 — along with charges from the May 31 encampment arrest — making her the only one of 122 encampment arrestees to face formal charges. In December 2025, Judge Tovar granted diversion.</p>
+<div class="source-note"><strong>Sources:</strong> Lookout Santa Cruz — lookout.co (diversion ruling, Dec 2025)</div>
+</div>
+
+<!-- ══════════════════════════════════════
+     SECTION C — COMPLIANCE
+══════════════════════════════════════ -->
+<span class="section-anchor" id="sec-c"></span>
+<div id="secC" class="section-heading">Section C</div>
+<div class="section-title">State and Federal Compliance Status Matrix</div>
+
+<table class="info-table">
+<thead><tr><th style="width:22%">Mandate</th><th style="width:15%">Status</th><th>Factual Basis</th><th style="width:20%">Source(s)</th></tr></thead>
+<tbody>
+<tr>
+<td><strong><a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB48" target="_blank">AB 48</a></strong><br><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=13652.&lawCode=PEN" target="_blank">PC §§13652, 13652.1</a><br>Effective Jan 1, 2022</td>
+<td><span class="badge badge-red">NON-COMPLIANT</span></td>
+<td>UCSC PD not listed on California DOJ's AB 48 reporting webpage as of the September 12, 2025 LAist investigation. 9 of 10 UC campus PDs non-compliant; only UCLA complied. UCSC deployed 300+ officers with riot gear during the May 2024 encampment clearance — whether less-lethal weapons were used during the 16-hour standoff is documented in protester accounts (batons reported) but UCSC PD has not filed AB 48 reports. AB 48 has no enforcement mechanism per DOJ and POST.</td>
+<td><a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">LAist, Sept 12, 2025</a></td>
+</tr>
+<tr>
+<td><strong><a href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title20-section1092&num=0&edition=prelim" target="_blank">Clery Act</a></strong><br>20 U.S.C. §1092(f)<br>Effective 1990</td>
+<td><span class="badge badge-red">NON-COMPLIANT<br>STATE AUDITOR FINDING</span></td>
+<td>California State Auditor Report 2024-032: UCSC underreported 33 crimes in 2022; 15% error rate; 22 of 60 crimes missing from daily crime logs; failed to disclose required safety policies; no centralized tracking; no written Clery procedures; coordinator turnover; MOU with police department lapsed. Crimes underreported included dating violence, domestic battery, and rape. UCSC agreed to implement recommendations by January 2025. 2024 ASFSR also contained errors in rape and stalking categories. No DOE fine imposed as of research date.</td>
+<td><a href="https://www.auditor.ca.gov/reports/2024-032/" target="_blank">CA State Auditor 2024-032</a></td>
+</tr>
+<tr>
+<td><strong><a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180SB1421" target="_blank">SB 1421</a></strong><br><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=832.7.&lawCode=PEN" target="_blank">PC §832.7</a><br>Effective Jan 1, 2019</td>
+<td><span class="badge badge-red">NON-COMPLIANT<br>NO RECORDS RELEASED</span></td>
+<td>Voice of San Diego (May 2020): UC Santa Cruz was among six UC campuses that provided NO records under SB 1421, all claiming no disclosable records. The six non-compliant campuses: UCSD, UCB, UCLA, UCI, UCSC, and UCSF. Only UC Davis, UC Merced, and UCSB provided records. UC system aware of 200+ use-of-force incidents but released only two case files total. Given 17 arrests with alleged pain compliance during the 2020 COLA strike, the claim of zero disclosable records warrants examination.</td>
+<td><a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">Voice of San Diego, May 2020</a></td>
+</tr>
+<tr>
+<td><strong><a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB481" target="_blank">AB 481</a></strong><br><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=7070.&lawCode=GOV" target="_blank">Gov. Code §7070 et seq.</a><br>Effective Jan 1, 2022</td>
+<td><span class="badge badge-green">COMPLIANT (PRESUMED)</span></td>
+<td>UC Regents review military equipment reports for all 10 campuses. No specific non-compliance finding identified for UCSC. Whether equipment deployed during the 2024 encampment meets AB 481 "military equipment" definitions requires review of specific inventory.</td>
+<td>UC Board of Regents military equipment reports</td>
+</tr>
+<tr>
+<td><strong><a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200AB748" target="_blank">AB 748</a></strong><br><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=832.18.&lawCode=PEN" target="_blank">PC §832.18</a><br>Effective July 1, 2019</td>
+<td><span class="badge badge-yellow">UNKNOWN — CRITICAL INCIDENTS MAY TRIGGER DISCLOSURE</span></td>
+<td>UC system-wide BWC policy (Chapter 15) requires sworn personnel to wear body-worn video systems. During the May 2024 encampment clearance, EdSource reported "the vast majority of the police were also not outfitted with body cameras." A photographer was reportedly body-slammed with a serious concussion; if this constituted great bodily injury, <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200AB748" target="_blank">AB 748</a> would require footage release. Whether footage exists and has been preserved is unknown.</td>
+<td>UC Universitywide Police Policies Chapter 15; EdSource, June 9, 2024</td>
+</tr>
+<tr>
+<td><strong>Brady/Giglio</strong></td>
+<td><span class="badge badge-green">NO ISSUES IDENTIFIED</span></td>
+<td>No publicly documented sustained findings of dishonesty, sexual assault, or other Brady-relevant misconduct at UCSC PD were identified. Allegations of excessive force during the 2020 strike and 2024 encampment, if resulting in sustained findings, could generate Brady material.</td>
+<td>Public records search</td>
+</tr>
+<tr>
+<td><strong><a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201520160AB953" target="_blank">RIPA / AB 953</a></strong><br>Effective Jan 2022 for UC PDs</td>
+<td><span class="badge badge-green">COMPLIANT (PRESUMED)</span></td>
+<td>UC system-wide implementation. UCSC PD publishes crime dashboard on department website. Specific RIPA data publication not independently verified through available sources.</td>
+<td><a href="https://police.ucsc.edu/" target="_blank">UCSC PD website</a></td>
+</tr>
+<tr>
+<td><strong><a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB2" target="_blank">SB 2 / Kenneth Ross Jr. Decertification Act</a></strong><br>Effective Jan 1, 2023</td>
+<td><span class="badge badge-gray">NO DECERTIFICATION ACTIONS IDENTIFIED</span></td>
+<td>No POST decertification actions found against UCSC PD officers. Allegations of excessive force during the 2020 COLA strike (hair-pulling, face-dragging, pain compliance) and the 2024 encampment (choking, finger-breaking, batonings) — if sustained — could trigger SB 2 review. Whether any complaints resulted in sustained findings is not documented in available public records.</td>
+<td>POST Commission records</td>
+</tr>
+</tbody>
+</table>
+
+<!-- ══════════════════════════════════════
+     SECTION D — FINANCIAL
+══════════════════════════════════════ -->
+<span class="section-anchor" id="sec-d"></span>
+<div id="secD" class="section-heading">Section D</div>
+<div class="section-title">Financial Impact — Fines, Settlements, and Costs</div>
+
+<table class="info-table">
+<thead><tr><th>Item</th><th style="width:15%">Amount</th><th style="width:12%">Year(s)</th><th>Context</th></tr></thead>
+<tbody>
+<tr>
+<td><strong>Clery Act Fines</strong></td>
+<td>$0 <em>as of research date</em></td>
+<td>2024–present</td>
+<td>California State Auditor found Clery Act violations (Report 2024-032). No DOE enforcement action or fine identified as of February 2026. However, DOE fined UC Berkeley $2.35M in 2020 for similar violations. Maximum penalty: $70,000 per violation. UCSC underreported 33 crimes.</td>
+</tr>
+<tr>
+<td><strong>2024 Encampment Policing Costs</strong></td>
+<td>NOT PUBLICLY DISCLOSED</td>
+<td>May 2024</td>
+<td>300+ officers from multiple agencies deployed during a 16-hour operation. Agencies included: UCSC PD, CHP, San Francisco PD, Santa Clara County Sheriff, Santa Cruz PD, and others. Mutual aid costs, overtime, and equipment costs not publicly disclosed. For comparison: UCLA estimated $32M+ in 2024 protest/security costs.</td>
+</tr>
+<tr>
+<td><strong>2020 COLA Strike Policing Costs</strong></td>
+<td>NOT PUBLICLY DISCLOSED</td>
+<td>Feb 2020</td>
+<td>Multi-agency response including officers from other UC campuses and CHP. Overtime and mutual aid costs not publicly disclosed.</td>
+</tr>
+<tr>
+<td><strong>82+ Graduate Student Terminations</strong></td>
+<td>ECONOMIC IMPACT NOT QUANTIFIED</td>
+<td>Feb–Aug 2020</td>
+<td>82+ graduate teaching assistants terminated February 28, 2020. Students lost health insurance during COVID-19 pandemic. 41 reinstated August 7, 2020 after UAW 2865 dropped unfair labor practice charges. Students did not receive the demanded pay increase. Economic impact on affected students not quantified.</td>
+</tr>
+<tr>
+<td><strong>Litigation Settlements Identified</strong></td>
+<td>$0 documented</td>
+<td>All years</td>
+<td>No publicly documented excessive force lawsuits, employment discrimination lawsuits, or civil rights litigation settlements naming UCSC PD as defendant were identified in available public records as of February 2026. A lawsuit challenging campus bans was filed by 2024 encampment protesters; a judge denied a preliminary injunction to stop the bans. Potential future exposure: Clery Act DOE enforcement; civil rights litigation from 2024 encampment alleging excessive force.</td>
+</tr>
+</tbody>
+</table>
+
+<!-- ══════════════════════════════════════
+     SECTION E — LEADERSHIP
+══════════════════════════════════════ -->
+<span class="section-anchor" id="sec-e"></span>
+<div id="secE" class="section-heading">Section E</div>
+<div class="section-title">Leadership History — Context for Compliance Gaps</div>
+
+<table class="info-table">
+<thead><tr><th style="width:20%">Period</th><th style="width:18%">Chief</th><th>Key Facts During Tenure</th><th style="width:25%">POST-Relevant Notes</th></tr></thead>
+<tbody>
+<tr>
+<td>1991–2003<br><em>~12 years</em></td>
+<td><strong>Chief Jan Tepper</strong></td>
+<td>First female police chief in Santa Cruz County history. Led UCSC PD for approximately 12 years. Departed 2003. Details of her tenure not extensively documented in available public records.</td>
+<td>Historical context only. Pre-SB 1421, pre-AB 48, pre-RIPA.</td>
+</tr>
+<tr>
+<td>~2003–March 2011<br><em>~8 years</em></td>
+<td><strong>Chief Mickey Aluffi</strong></td>
+<td>Recommended for chief by outgoing Jan Tepper. Previously: Santa Cruz County Sheriff's Office from 1969; became homicide detective 1972 during the serial killer era (Kemper, Mullin, Frazier). Later Watsonville PD. 41-year law enforcement career total. Designed and oversaw construction of UCSC PD headquarters. Described as having "adjusted strategies for handling student protests with an eye toward avoiding unnecessary confrontations." Retired late 2010/spring 2011. Department at retirement: 40 employees, 17 sworn officers.</td>
+<td>Pre-documentation era for most compliance mandates. No controversies identified during tenure.</td>
+</tr>
+<tr>
+<td>March–August 2011<br><em>~10 months interim</em></td>
+<td><strong>Interim Chief Ava Snyder (Captain)</strong></td>
+<td>Served as Interim Chief following Aluffi's retirement during nationwide search. "Led the University Police Department through several challenging events" per UCSC announcement. Continued service as Captain after Oweis's appointment.</td>
+<td>Interim leadership period.</td>
+</tr>
+<tr>
+<td>August 8, 2011 – December 4, 2020<br><em>~9 years</em></td>
+<td><strong>Chief Nader Oweis</strong></td>
+<td>Son of Palestinian immigrants. BS Agriculture/Managerial Economics (UC Davis, 1992). MS Higher Education (Drexel). Started as student employee at UC Davis PD; sworn officer 1994; sergeant 1999; lieutenant 2005; 17 total years at UC Davis. FBI Sacramento Joint Terrorism Task Force. Appointed UC Coordinator of Police Services (coordinating all 10 UC campus police chiefs) shortly before departure. At UCSC: oversaw the 2020 COLA wildcat strike (17 arrests, pain compliance alleged, multi-agency mutual aid). Salary at appointment: $130,000. Departed December 2020 for Sonoma State University.</td>
+<td>COLA strike (17 arrests, excessive force allegations) occurred under his command. <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180SB1421" target="_blank">SB 1421</a> non-compliance documented during his tenure — no records released (Voice of San Diego, May 2020). AB 48 enacted after his departure. IACLEA accreditation not yet achieved.</td>
+</tr>
+<tr>
+<td>December 5, 2020 – May 2023<br><em>~2.5 years interim</em></td>
+<td><strong>Interim Chiefs:<br>Lt. Mary Garcia<br>Lt. Dan (Greg) Flippo</strong></td>
+<td><strong>LONGEST CHIEF VACANCY IN UC SYSTEM.</strong> Lt. Garcia assumed interim role December 5, 2020. Lt. Flippo also served interim periods. Position vacant for over 2 years during: COVID-19 pandemic, <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB48" target="_blank">AB 48</a> enactment (Jan 2022), SB 2 enactment (Jan 2023), RIPA implementation for UC PDs (Jan 2022), continued defund-the-police movement. Nationwide search eventually conducted. Three finalists selected.</td>
+<td>Critical compliance period without permanent leadership. AB 48, SB 2, and RIPA all enacted during vacancy. Whether interim chiefs maintained POST reporting compliance during this period is undocumented in available public records.</td>
+</tr>
+<tr>
+<td>May 2023 – Present<br><em>~2.5 years</em></td>
+<td><strong>Chief Kevin Domby</strong><br>(Executive Director of Public Safety)</td>
+<td>23 years CHP (officer through acting commander, Santa Cruz area). Before law enforcement: approximately one decade as art educator (high school, Baltimore County Community College, Jessup Correctional Facility). MFA degree. Described as a "standout" with a "rare combination" of law enforcement and education backgrounds. Salary: $230,000/year.</td>
+<td>Gaza encampment clearance (122 arrests, allegations of excessive force) occurred under his command. Clery Act non-compliance found by State Auditor during his tenure. IACLEA accreditation achieved June 2025. <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB48" target="_blank">AB 48</a> non-compliance documented. Reports indicate "vast majority" of officers during encampment not outfitted with body cameras.</td>
+</tr>
+</tbody>
+</table>
+
+<!-- ══════════════════════════════════════
+     SECTION F — SOURCES
+══════════════════════════════════════ -->
+<span class="section-anchor" id="sec-f"></span>
+<div id="secF" class="section-heading">Section F</div>
+<div class="section-title">Source Index — All Sources Cited in This Report</div>
+
+<div class="src-index-wrap">
+<div class="src-row">
+  <div class="src-num">2010-11-19</div>
+  <div class="src-body">
+    <div class="src-title">[30] <strong>Santa Cruz Sentinel</strong></div>
+    <div class="src-sub">"After 41 years in law enforcement, UCSC Police Chief Aluffi retires" &mdash; <a href="https://www.santacruzsentinel.com/2010/11/19/after-41-years-in-law-enforcement-ucsc-police-chief-aluffi-retires/" target="_blank">santacruzsentinel.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2011-07</div>
+  <div class="src-body">
+    <div class="src-title">[28] <strong>UCSC News</strong></div>
+    <div class="src-sub">Appointment of Nader Oweis as Chief of Police &mdash; <a href="https://news.ucsc.edu/2011/07/police-chief.html" target="_blank">news.ucsc.edu</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2011-08</div>
+  <div class="src-body">
+    <div class="src-title">[29] <strong>UC Davis News</strong></div>
+    <div class="src-sub">"Police Lt. Oweis named chief at UC Santa Cruz" &mdash; <a href="https://www.ucdavis.edu/news/police-lt-oweis-named-chief-uc-santa-cruz" target="_blank">ucdavis.edu</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2020</div>
+  <div class="src-body">
+    <div class="src-title">[16] <strong>Wikipedia</strong></div>
+    <div class="src-sub">Santa Cruz graduate students' strike &mdash; <a href="https://en.wikipedia.org/wiki/2020_Santa_Cruz_graduate_students%27_strike" target="_blank">en.wikipedia.org</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2020</div>
+  <div class="src-body">
+    <div class="src-title">[18] <strong>AAUP</strong></div>
+    <div class="src-sub">"Graduate employees strike at UCSC — condemned use of riot police" &mdash; <a href="https://www.aaup.org/academe/issues/106-1/graduate-employees-strike-ucsc" target="_blank">aaup.org</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2020-02</div>
+  <div class="src-body">
+    <div class="src-title">[14] <strong>KQED</strong></div>
+    <div class="src-sub">"Striking UCSC graduate students hold picket lines after police arrest 17" &mdash; <a href="https://www.kqed.org/news/11801554/striking-uc-santa-cruz-graduate-students-hold-picket-lines-after-police-arrest-17" target="_blank">kqed.org</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2020-02-12</div>
+  <div class="src-body">
+    <div class="src-title">[15] <strong>Mercury News</strong></div>
+    <div class="src-sub">"At least 17 arrests as UCSC students stand off against police" &mdash; <a href="https://www.mercurynews.com/2020/02/12/at-least-17-arrests-as-ucsc-students-stand-off-against-police/" target="_blank">mercurynews.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2020-02-14</div>
+  <div class="src-body">
+    <div class="src-title">[17] <strong>Democracy Now!</strong></div>
+    <div class="src-sub">"17 arrested amid wildcat strike by UC Santa Cruz graduate students" &mdash; <a href="https://www.democracynow.org/2020/2/14/headlines/17_arrested_amid_wildcat_strike_by_uc_santa_cruz_graduate_students" target="_blank">democracynow.org</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2020-02-24</div>
+  <div class="src-body">
+    <div class="src-title">[19] <strong>Salon</strong></div>
+    <div class="src-sub">"Bernie Sanders support swings wildcat strike in students' favor" &mdash; <a href="https://www.salon.com/2020/02/24/uc-presidents-threats-against-striking-uc-santa-cruz-students-backfire-as-sen-sanders-steps-in/" target="_blank">salon.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2020-05-12</div>
+  <div class="src-body">
+    <div class="src-title">[3] <strong>Voice of San Diego</strong></div>
+    <div class="src-sub">"UC campuses disclosed virtually no SB 1421 records. UCSC provided none." &mdash; <a href="https://voiceofsandiego.org/2020/05/12/uc-campuses-have-disclosed-virtually-no-records-under-police-transparency-law/" target="_blank">voiceofsandiego.org</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2020-11</div>
+  <div class="src-body">
+    <div class="src-title">[27] <strong>UCSC News</strong></div>
+    <div class="src-sub">Community safety update, Chief Oweis retirement announcement &mdash; <a href="https://news.ucsc.edu/2020/11/update-on-community-safety.html" target="_blank">news.ucsc.edu</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2020-11-19</div>
+  <div class="src-body">
+    <div class="src-title">[26] <strong>Santa Cruz Sentinel</strong></div>
+    <div class="src-sub">"UC Santa Cruz to launch search for new police chief" &mdash; <a href="https://www.santacruzsentinel.com/2020/11/19/uc-santa-cruz-to-launch-search-for-new-police-chief/" target="_blank">santacruzsentinel.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2021</div>
+  <div class="src-body">
+    <div class="src-title">[4] <strong>UAW 2865 Research Working Group</strong></div>
+    <div class="src-sub">"Policing in the UC" — 200+ use-of-force incidents, transparency failures — Feb &mdash; <a href="https://uaw2865.org/wp-content/uploads/2021/02/Policing-in-the-UC-%E2%80%93-UAW-2865-Research-WG-Report.pdf" target="_blank">uaw2865.org</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2023-05</div>
+  <div class="src-body">
+    <div class="src-title">[32] <strong>UCSC News</strong></div>
+    <div class="src-sub">Appointment of Kevin Domby as Chief of Police &mdash; <a href="https://news.ucsc.edu/2023/05/domby-keynote.html" target="_blank">news.ucsc.edu</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2023-05-28</div>
+  <div class="src-body">
+    <div class="src-title">[33] <strong>Santa Cruz Sentinel</strong></div>
+    <div class="src-sub">"New police chief settles in at UC Santa Cruz" &mdash; <a href="https://www.santacruzsentinel.com/2023/05/28/new-police-chief-settles-in-at-uc-santa-cruz/" target="_blank">santacruzsentinel.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024</div>
+  <div class="src-body">
+    <div class="src-title">[5] <strong>California State Auditor Report -032</strong></div>
+    <div class="src-sub">Clery Act audit: UCSC underreported 33 crimes, 15% error rate — July &mdash; <a href="https://www.auditor.ca.gov/reports/2024-032/" target="_blank">auditor.ca.gov</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-05-31</div>
+  <div class="src-body">
+    <div class="src-title">[21] <strong>KAZU</strong></div>
+    <div class="src-sub">"Police disband pro-Palestine encampment at UCSC overnight, ~80 arrests" &mdash; <a href="https://www.kazu.org/kazu-news/2024-05-31/police-disband-pro-palestine-encampment-at-uc-santa-cruz-overnight-make-around-80-arrests" target="_blank">kazu.org</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-05-31</div>
+  <div class="src-body">
+    <div class="src-title">[22] <strong>Mercury News</strong></div>
+    <div class="src-sub">"Police break up pro-Palestinian encampment at entrance to UC Santa Cruz" &mdash; <a href="https://www.mercurynews.com/2024/05/31/police-break-up-pro-palestinian-encampment-at-entrance-to-uc-santa-cruz/" target="_blank">mercurynews.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-05-31</div>
+  <div class="src-body">
+    <div class="src-title">[36] <strong>CBS San Francisco</strong></div>
+    <div class="src-sub">"Pro-Palestinian protesters at UCSC forcibly removed" &mdash; <a href="https://www.cbsnews.com/sanfrancisco/news/uc-santa-cruz-palestinian-protesters-arrested/" target="_blank">cbsnews.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-06-09</div>
+  <div class="src-body">
+    <div class="src-title">[23] <strong>EdSource</strong></div>
+    <div class="src-sub">UCSC Gaza Encampment news release PDF &mdash; <a href="https://edsource.org/wp-content/uploads/2024/06/June-9-2024-UCSC-Gaza-Encampment-NEWS-RELEASE-3.pdf" target="_blank">edsource.org</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-06-10</div>
+  <div class="src-body">
+    <div class="src-title">[20] <strong>City on a Hill Press</strong></div>
+    <div class="src-sub">"Over 100 demonstrators arrested during 16-hour standoff with police" &mdash; <a href="https://cityonahillpress.com/2024/06/10/over-100-ucsc-gaza-solidarity-encampment-demonstrators-arrested-during-16-hour-standoff-with-police/" target="_blank">cityonahillpress.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-08</div>
+  <div class="src-body">
+    <div class="src-title">[9] <strong>Lookout Santa Cruz</strong></div>
+    <div class="src-sub">"UCSC reported inaccurate crime statistics, state auditors report finds" &mdash; <a href="https://lookout.co/uc-santa-cruz-reported-inaccurate-crime-statistics-state-auditors-report-finds" target="_blank">lookout.co</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-08-01</div>
+  <div class="src-body">
+    <div class="src-title">[6] <strong>Santa Cruz Sentinel</strong></div>
+    <div class="src-sub">"State finds UCSC and 5 other colleges underreported violent campus crimes" &mdash; <a href="https://www.santacruzsentinel.com/2024/08/01/state-finds-uc-santa-cruz-and-5-other-colleges-underreported-violent-campus-crimes/" target="_blank">santacruzsentinel.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-08-01</div>
+  <div class="src-body">
+    <div class="src-title">[7] <strong>Mercury News</strong></div>
+    <div class="src-sub">"State finds UCSC and 5 other colleges underreported campus crimes" &mdash; <a href="https://www.mercurynews.com/2024/08/01/state-finds-uc-santa-cruz-and-5-other-colleges-underreported-campus-crimes/" target="_blank">mercurynews.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-08-02</div>
+  <div class="src-body">
+    <div class="src-title">[8] <strong>KION</strong></div>
+    <div class="src-sub">"Audit shows UC Santa Cruz not reporting crime data accurately via the Clery Act" &mdash; <a href="https://kioncentralcoast.com/news/santa-cruz-county/santa-cruz/2024/08/02/audit-shows-uc-santa-cruz-not-reporting-crime-data-accurately-via-the-clery-act/" target="_blank">kioncentralcoast.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-08-02</div>
+  <div class="src-body">
+    <div class="src-title">[11] <strong>KTVU</strong></div>
+    <div class="src-sub">"UCSC failed to accurately report crime data per state audit" &mdash; <a href="https://www.ktvu.com/news/uc-santa-cruz-failed-accurately-report-crime-data-state-audit" target="_blank">ktvu.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-10</div>
+  <div class="src-body">
+    <div class="src-title">[13] <strong>UCSC News</strong></div>
+    <div class="src-sub">2024 republication of Annual Security &amp; Fire Safety Report with corrections &mdash; <a href="https://news.ucsc.edu/2024/10/clery-report.html" target="_blank">news.ucsc.edu</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2024-11-24</div>
+  <div class="src-body">
+    <div class="src-title">[10] <strong>City on a Hill Press</strong></div>
+    <div class="src-sub">"2024 Campus Security Report reveals misreported crime statistics" &mdash; <a href="https://cityonahillpress.com/2024/11/24/2024-campus-security-and-safety-report-reveals-misreported-crime-statistics/" target="_blank">cityonahillpress.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2025</div>
+  <div class="src-body">
+    <div class="src-title">[2] <strong>LAist</strong></div>
+    <div class="src-sub">AB 48 enforcement — "AB 48 has no enforcement mechanism. DOJ and POST confirmed." &mdash; <a href="https://laist.com/news/politics/california-weapons-protests-reporting-requirements" target="_blank">laist.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2025-01-22</div>
+  <div class="src-body">
+    <div class="src-title">[37] <strong>UC Board of Regents</strong></div>
+    <div class="src-sub">C4 — IACLEA accreditation status for all 10 campuses &mdash; <a href="https://regents.universityofcalifornia.edu/regmeet/jan25/c4.pdf" target="_blank">regents.universityofcalifornia.edu</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2025-07-10</div>
+  <div class="src-body">
+    <div class="src-title">[24] <strong>Lookout Santa Cruz</strong></div>
+    <div class="src-sub">"Just one person is facing formal charges from 122 arrests at UCSC Gaza encampment" &mdash; <a href="https://lookout.co/more-than-a-year-later-just-one-person-is-facing-formal-charges-from-122-arrests-at-ucsc-gaza-encampment/story" target="_blank">lookout.co</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2025-09-12</div>
+  <div class="src-body">
+    <div class="src-title">[1] <strong>LAist</strong></div>
+    <div class="src-sub">AB 48 investigation — "9 of 10 UC campus PDs fail AB 48 compliance" &mdash; <a href="https://laist.com/news/criminal-justice/uc-campus-police-protest-reporting-law" target="_blank">laist.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2025-09-30</div>
+  <div class="src-body">
+    <div class="src-title">[31] <strong>Lookout Santa Cruz</strong></div>
+    <div class="src-sub">Jan Tepper identified as first female police chief in Santa Cruz County &mdash; <a href="https://lookout.co/for-capitolas-first-female-police-chief-childhood-lessons-shape-a-vision-for-progressive-policing-culture/story" target="_blank">lookout.co</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">2025-12-05</div>
+  <div class="src-body">
+    <div class="src-title">[25] <strong>Lookout Santa Cruz</strong></div>
+    <div class="src-sub">"Judge grants diversion to UCSC student Hurtado" &mdash; <a href="https://lookout.co/with-emotion-judge-accepts-diversion-request-for-ucsc-student-charged-in-2024-pro-palestine-encampment-raid/story" target="_blank">lookout.co</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">UNKNOWN</div>
+  <div class="src-body">
+    <div class="src-title">[12] <strong>UCSC Clery Act compliance page</strong></div>
+    <div class="src-sub">Clery compliance now managed by Office of Campus Safety Compliance &mdash; <a href="https://compliance.ucsc.edu/clery-act/" target="_blank">compliance.ucsc.edu</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">UNKNOWN</div>
+  <div class="src-body">
+    <div class="src-title">[34] <strong>UCSC PD</strong></div>
+    <div class="src-sub">About the Chief, biography of Kevin Domby &mdash; <a href="https://police.ucsc.edu/about/about-the-chief.html" target="_blank">police.ucsc.edu</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">UNKNOWN</div>
+  <div class="src-body">
+    <div class="src-title">[35] <strong>Pay Us More UCSC</strong></div>
+    <div class="src-sub">UCSC academic workers organizing site &mdash; <a href="https://payusmoreucsc.com/" target="_blank">payusmoreucsc.com</a></div>
+  </div>
+</div>
+<div class="src-row">
+  <div class="src-num">UNKNOWN</div>
+  <div class="src-body">
+    <div class="src-title">[38] <strong>Wikipedia</strong></div>
+    <div class="src-sub">University of California police departments — system-wide overview &mdash; <a href="https://en.wikipedia.org/wiki/University_of_California_police_departments" target="_blank">en.wikipedia.org</a></div>
+  </div>
+</div>
+</div>
+
+
+<!-- ══ SUBMISSION BLOCK ══ -->
+<div class="submission-block">
+  <p><strong>Primary Submission:</strong> California Commission on Peace Officer Standards and Training (POST) &mdash; Peace Officer Standards Accountability Division (POSAD) &mdash; Authority: Cal. Penal Code &sect;&sect; 13509.5, 13510.8, 13510.85 (SB 2 &mdash; Kenneth Ross Jr. Police Decertification Act of 2021)</p>
+  <p><strong>Secondary Submissions:</strong> California Attorney General, Civil Rights Enforcement Section (Cal. Civ. Code &sect;&nbsp;52.3) &nbsp;|&nbsp; U.S. Department of Education, Federal Student Aid &mdash; Clery Act Enforcement (20&nbsp;U.S.C.&nbsp;&sect;&nbsp;1092(f)) &nbsp;|&nbsp; California Legislature, Senate &amp; Assembly Budget Subcommittees on Education &nbsp;|&nbsp; UC Office of the President &nbsp;|&nbsp; California State Auditor &nbsp;|&nbsp; U.S. Department of Justice (34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601)</p>
+  <p><strong>Distribution:</strong> Clery Center for Campus Safety &nbsp;|&nbsp; SAFE Campuses, LLC</p>
+  <p>All documents compiled from public records. All facts independently verifiable. Readers are encouraged to form their own independent conclusions.</p>
+</div>
+</div><!-- /chapter-body -->
+
+<!-- ══ BOTTOM NAV BAR 1 ══ -->
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="../index.html" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="../behave-like-heroes/" class="nav-act current-act">Act I</a>
+<a href="../schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="../uc-audit-request/" class="nav-act">Act III</a>
+<a href="../epilogue/" class="nav-act home">Epilogue &#9670;</a>
+</div>
+</nav>
+<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<div class="nav-bottom-inner">
+<span class="nav-label">Behave Like Heroes</span>
+<a href="../behave-like-heroes/" class="nav-btn">PREFACE</a>
+<a href="../behave-like-heroes/chapter_01.html" class="nav-btn">CH-01</a>
+<a href="../behave-like-heroes/chapter_02.html" class="nav-btn">CH-02</a>
+<a href="../behave-like-heroes/chapter_03.html" class="nav-btn">CH-03</a>
+<a href="../behave-like-heroes/chapter_04.html" class="nav-btn">CH-04</a>
+<a href="../behave-like-heroes/chapter_05.html" class="nav-btn">CH-05</a>
+<a href="../behave-like-heroes/chapter_06.html" class="nav-btn">CH-06</a>
+<a href="../behave-like-heroes/chapter_07.html" class="nav-btn">CH-07</a>
+</div>
+</nav>
+</div>
+
+<!-- ══ BOTTOM NAV BAR 2 ══ -->
+<nav class="campus-nav" style="position:static;box-shadow:none">
+<div class="campus-nav-inner">
+<span class="campus-nav-label">Campus Dossiers</span>
+<a href="../behave-like-heroes/campus_ucb.html" class="campus-btn">UCB</a>
+<a href="../behave-like-heroes/campus_ucd.html" class="campus-btn">UCD</a>
+<a href="../behave-like-heroes/campus_uci.html" class="campus-btn">UCI</a>
+<a href="../behave-like-heroes/campus_ucla.html" class="campus-btn">UCLA</a>
+<a href="../behave-like-heroes/campus_ucm.html" class="campus-btn">UCM</a>
+<a href="../behave-like-heroes/campus_ucr.html" class="campus-btn">UCR</a>
+<a href="../behave-like-heroes/campus_ucsd.html" class="campus-btn">UCSD</a>
+<a href="../behave-like-heroes/campus_ucsf.html" class="campus-btn">UCSF</a>
+<a href="../behave-like-heroes/campus_ucsb.html" class="campus-btn">UCSB</a>
+<a href="../behave-like-heroes/campus_ucsc.html" class="campus-btn active">UCSC</a>
+</div>
+</nav>
+
+<!-- ══ BOTTOM NAV BAR 3 ══ -->
+<nav class="section-nav" style="position:static;box-shadow:none">
+<div class="section-nav-inner">
+<span class="section-label">Section Index</span>
+<a href="#secA" class="section-btn">A &mdash; Overview</a>
+<a href="#secB" class="section-btn">B &mdash; Incident Log</a>
+<a href="#secC" class="section-btn">C &mdash; Compliance</a>
+<a href="#secD" class="section-btn">D &mdash; Financial</a>
+<a href="#secE" class="section-btn">E &mdash; Leadership</a>
+<a href="#secF" class="section-btn">F &mdash; Sources</a>
+</div>
+</nav>
+
+<script>
+function setNavTops(){
+  const b1=document.querySelector('.nav-bar:not(.bottom)');
+  const b2=document.querySelector('.campus-nav:not([style])');
+  const b3=document.querySelector('.section-nav:not([style])');
+  if(!b1||!b2||!b3)return 130;
+  b2.style.top=b1.offsetHeight+'px';
+  b3.style.top=(b1.offsetHeight+b2.offsetHeight)+'px';
+  return b1.offsetHeight+b2.offsetHeight+b3.offsetHeight;
+}
+const secs=['secA','secB','secC','secD','secE','secF'];
+const btns=['btn-a','btn-b','btn-c','btn-d','btn-e','btn-f'];
+function updateActive(){
+  const h=setNavTops()+10;
+  const scrollPos=window.scrollY+h;
+  let cur=0;
+  secs.forEach((id,i)=>{
+    const el=document.getElementById(id);
+    if(!el)return;
+    const elTop=el.getBoundingClientRect().top+window.scrollY;
+    if(scrollPos>=elTop)cur=i;
+  });
+  btns.forEach((id,i)=>{
+    const b=document.getElementById(id);
+    if(b)b.classList.toggle('active',i===cur);
+  });
+}
+window.addEventListener('load',()=>{setNavTops();updateActive();});
+window.addEventListener('resize',()=>{setNavTops();updateActive();});
+window.addEventListener('scroll',updateActive,{passive:true});
+</script>
+<div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Behave Like Heroes &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>
