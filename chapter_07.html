@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Act III · CH-07 — Records Integrity and Data Breach | Bruin Watch</title>
+<meta name="description" content="Chapter 7 documents RASC analyst Ida Fong, CFO Stephen Agostini, and the data breaches exposing records failures.">
+<meta property="og:title" content="Act III · CH-07 — Records Integrity and Data Breach | Bruin Watch">
+<meta property="og:description" content="Chapter 7 documents RASC analyst Ida Fong, CFO Stephen Agostini, and the data breaches exposing records failures.">
+<meta property="og:type" content="article">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE;--white:#ffffff}
+a{color:#0000FF}
+a:hover{color:#0000CC;text-decoration:underline}
+.content a,.fin-context a,.question-box a,.preliminary-box a,.appendix-entry a,.legal-basis a{color:#0000FF;font-weight:600}
+.earthshatter a{color:#0000CC;font-weight:700}
+body{font-family:'Source Sans Pro',Calibri,Arial,sans-serif;background:#e8edf2;margin:0;padding:0;font-size:19px}
+.cover-page{width:100%;display:flex;flex-direction:column;justify-content:flex-start;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.018) 40px,rgba(255,255,255,.018) 80px),linear-gradient(170deg,#003262 0%,#001428 100%)}
+.bar-top{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:32px 40px}
+.series-title{font-family:'Bebas Neue',sans-serif;font-size:28px;font-weight:900;letter-spacing:6px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:12px;line-height:1.05}
+.series-subhead{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:600;letter-spacing:1.5px;color:#fff;margin-bottom:10px;max-width:700px;line-height:1.55}
+.series-tagline{font-family:'Bebas Neue',sans-serif;font-size:54px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:18px;max-width:980px;line-height:1.05}
+.chapter-subtitle{font-family:'Libre Baskerville',Georgia,serif;font-size:22px;font-style:italic;font-weight:400;color:#fff;max-width:760px;line-height:1.7}
+.gold-rule{width:100%;max-width:820px;height:3px;background:var(--uc-gold);margin:16px auto;display:block}
+.case-refs{font-family:'Source Sans Pro',sans-serif;font-size:16px;font-weight:400;color:rgba(255,255,255,0.75);max-width:820px;line-height:1.9;margin-top:20px}
+.cover-tagline{font-family:'Libre Baskerville',Georgia,serif;font-size:17px;font-style:italic;font-weight:400;color:var(--uc-gold);max-width:760px;line-height:1.7;margin-top:20px}
+.bar-gold{height:10px;background:var(--uc-gold);width:100%;flex-shrink:0}
+.bar-bottom{height:18px;background:var(--uc-blue-dark);width:100%;flex-shrink:0}
+.chapter-body{background:#fff;max-width:960px;margin:0 auto;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+.disclaimer{max-width:800px;margin:50px auto 40px;padding:0;font-size:18px;color:#333;line-height:1.85;font-family:'Source Sans Pro',sans-serif;background:#FAFAF5;border-left:5px solid var(--uc-blue);box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.disclaimer-label{background:var(--uc-blue);color:var(--uc-gold);font-family:'Source Sans Pro',sans-serif;font-size:15px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:10px 24px}
+.disclaimer-text{padding:22px 28px;text-align:left}
+.disclaimer-text p{margin:0 0 14px 0}
+.disclaimer-text p:last-child{margin-bottom:0}
+.content{max-width:860px;margin:0 auto;padding:0 30px 60px;font-family:'Libre Baskerville',Georgia,serif}
+.toc{margin:30px 0 50px}
+.toc h2{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#003262;margin-bottom:20px;padding-bottom:8px;border-bottom:2px solid #FDB515}
+.toc-entry{display:flex;align-items:baseline;padding:7px 0;border-bottom:1px dotted #ccc}
+.toc-num{font-family:'Source Sans Pro',sans-serif;font-weight:600;color:#003262;min-width:55px;font-size:17px}
+.toc-title a{color:#0000FF;text-decoration:none;font-size:17px;font-weight:600}
+.toc-title a:hover{text-decoration:underline}
+.section-heading{font-family:'Source Sans Pro',sans-serif;font-size:26px;font-weight:700;color:#003262;margin:50px 0 10px;padding-bottom:8px;border-bottom:3px solid #FDB515}
+p.body-text{font-size:19px;color:#333;margin-bottom:18px;line-height:1.8}
+p.body-text strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.address-block{background:#f8f9fb;border:1px solid #ddd;padding:26px 28px;margin:20px 0 30px;font-family:'Source Sans Pro',sans-serif;font-size:18px;line-height:1.85;color:#333}
+.address-block strong{color:#003262}
+.question-box{background:#f4f7fb;border-left:6px solid var(--uc-blue);padding:24px 26px;margin:30px 0;font-size:18px;line-height:1.8}
+.q-header{background:var(--uc-blue);margin:-24px -26px 20px -26px;padding:14px 26px;display:flex;align-items:baseline;gap:12px}
+.q-number{font-family:'Bebas Neue',sans-serif;font-size:22px;font-weight:900;color:var(--uc-gold);letter-spacing:2px;white-space:nowrap}
+.q-title{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;color:#fff;line-height:1.4}
+.q-facts{margin-bottom:14px;color:#333}
+.q-facts p{margin:0 0 10px 0}
+.q-facts strong{color:#003262;font-family:'Source Sans Pro',sans-serif}
+.q-sub{margin-top:14px}
+.q-sub p{margin:8px 0;padding-left:24px;text-indent:-24px}
+.q-sub strong{color:#003262;font-family:'Source Sans Pro',sans-serif}
+.q-files{margin-top:16px;padding-top:12px;border-top:1px dashed #b0bec5;font-size:17px;color:#555}
+.q-files strong{color:#003262;font-size:15px;text-transform:uppercase;letter-spacing:1.5px}
+.q-files code{font-family:'Source Sans Pro',sans-serif;font-size:16px;background:#e0e8f0;padding:3px 8px;border-radius:3px;color:#003262;word-break:break-all;display:inline-block;margin:2px 0}
+.question-box.capstone{border-left-color:#8B0000;background:#fff8f8}
+.question-box.capstone .q-header{background:#8B0000}
+.question-box.fundamental{border-left-color:var(--uc-gold);background:#FFFCF0;border-left-width:8px}
+.question-box.fundamental .q-header{background:var(--uc-blue);border-bottom:4px solid var(--uc-gold)}
+.question-box.fundamental .q-number{font-size:26px}
+table.info-table{width:100%;border-collapse:collapse;margin:20px 0 30px;font-size:17px}
+table.info-table thead th{background:#003262;color:#fff;font-family:'Source Sans Pro',sans-serif;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:1px;padding:14px;text-align:left;border:1px solid #002244}
+table.info-table tbody td{padding:14px;border:1px solid #ddd;vertical-align:top;line-height:1.7;font-size:17px}
+table.info-table tbody tr:nth-child(even){background:#E8EEF4}
+table.info-table tbody tr:nth-child(odd){background:#fff}
+table.info-table td code{font-family:'Source Sans Pro',sans-serif;font-size:15px;background:#e0e8f0;padding:2px 6px;border-radius:3px;color:#003262;word-break:break-all}
+.key-finding{background:#FFF8E1;border-left:4px solid #FDB515;padding:18px 22px;margin:20px 0 30px;font-size:18px;line-height:1.8}
+.key-finding strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.foundational{background:var(--uc-blue);color:#fff;padding:26px 28px;margin:30px 0;font-size:18px;line-height:1.85;border-left:6px solid var(--uc-gold)}
+.foundational strong{color:var(--uc-gold)}
+.cc-list{margin:10px 0 30px;padding-left:0;list-style:none}
+.cc-list li{font-family:'Source Sans Pro',sans-serif;font-size:17px;color:#333;padding:5px 0 5px 22px;position:relative;line-height:1.7}
+.cc-list li::before{content:"\25B8";position:absolute;left:0;color:var(--uc-gold);font-weight:700}
+.appendix-heading{font-family:'Source Sans Pro',sans-serif;font-size:24px;font-weight:700;color:#003262;margin:50px 0 10px;padding-bottom:8px;border-bottom:3px solid #FDB515}
+.appendix-category{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;color:#003262;margin:26px 0 12px}
+.appendix-entry{font-size:17px;line-height:1.8;margin-bottom:8px;padding-left:18px;text-indent:-18px}
+.source-id{font-weight:700;color:#003262}
+.signature-block{margin:40px 0 30px;padding:24px 0;border-top:3px solid var(--uc-gold);font-family:'Source Sans Pro',sans-serif;font-size:18px;color:#333;line-height:1.85}
+.signature-block strong{color:#003262}
+.submission-block{background:var(--uc-blue);padding:26px 30px;margin:32px 0 0}
+.submission-block p{font-size:17px;color:rgba(255,255,255,0.92);line-height:1.8;margin-bottom:10px}
+.submission-block p:last-child{margin-bottom:0}
+.submission-block strong{color:var(--uc-gold)}
+.doc-footer{background:var(--uc-blue-dark);padding:22px 48px;text-align:center;font-size:15px;color:rgba(255,255,255,0.55);line-height:1.85;border-top:4px solid var(--uc-gold);max-width:960px;margin:0 auto}
+.doc-footer strong{color:rgba(255,255,255,0.85)}
+@media(max-width:768px){.series-title{font-size:22px}.series-tagline{font-size:40px}.chapter-title-line{font-size:32px}.cover-content{padding:36px 20px}.content{padding:0 18px 40px}.question-box{padding:20px 18px;margin:24px 0}.q-header{margin:-20px -18px 16px -18px;padding:12px 18px}.section-heading{font-size:22px}.disclaimer{margin:30px 18px}}
+@media(max-width:480px){.series-title{font-size:18px}.series-tagline{font-size:30px}.chapter-title-line{font-size:26px}.q-header{flex-direction:column;gap:4px}}
+@media print{.nav-wrap{display:none!important}.cover-page{page-break-after:always}.section-heading{page-break-before:always}}
+
+.preliminary-box{background:#FFF5F5;border-left:6px solid #8B0000;padding:24px 26px;margin:30px 0;font-size:18px;line-height:1.8}
+.preliminary-box .q-header{background:#8B0000}
+.preliminary-box .q-number{font-family:'Bebas Neue',sans-serif;font-size:22px;font-weight:900;color:#FDB515;letter-spacing:2px;white-space:nowrap}
+.preliminary-box .q-title{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;color:#fff;line-height:1.4}
+.fin-context{background:#f0f4f8;border:2px solid var(--uc-blue);padding:30px;margin:30px 0}
+.fin-context h3{font-family:'Source Sans Pro',sans-serif;font-size:20px;font-weight:700;color:#003262;margin:24px 0 10px}
+.fin-context h3:first-child{margin-top:0}
+.fin-fact{background:#fff;border-left:4px solid var(--uc-gold);padding:16px 20px;margin:14px 0;font-size:18px;line-height:1.8}
+.fin-fact strong{font-family:'Source Sans Pro',sans-serif;color:#003262}
+.fin-fact a{color:#0000FF;text-decoration:underline}
+.earthshatter{background:#FFF0E0;border:3px solid #FF6600;padding:20px 24px;margin:20px 0;font-size:19px;line-height:1.85}
+.earthshatter strong{font-family:'Source Sans Pro',sans-serif;color:#8B0000;font-size:18px}
+.legal-basis{background:#f8f4ff;border-left:3px solid #6B3FA0;padding:12px 18px;margin:10px 0 16px;font-size:17px;line-height:1.75;font-style:italic;color:#444}
+
+/* === TWO-ROW NAV === */
+.nav-wrap{position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-top{background:#001a35;width:100%;display:flex;justify-content:center;border-bottom:2px solid rgba(253,181,21,.25)}
+.nav-top-inner{display:flex;align-items:stretch}
+.nav-act{display:inline-flex;align-items:center;justify-content:center;padding:8px 18px;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .15s;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);border-right:1px solid rgba(255,255,255,.06)}
+.nav-act:last-child{border-right:none}
+.nav-act:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-act.home{color:#FDB515;letter-spacing:2px;padding:8px 20px}
+.nav-act.home:hover{background:#FDB515;color:#003262}
+.nav-act.current-act{color:#FDB515;background:rgba(253,181,21,.1);border-bottom:2px solid #FDB515;margin-bottom:-2px}
+.nav-bottom{background:#003262;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;display:flex;justify-content:flex-start}
+.nav-bottom-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%}
+.nav-bar{background:var(--uc-blue);width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+.nav-bar.bottom{position:static;box-shadow:none}
+.nav-inner{display:flex;align-items:stretch;min-width:max-content;max-width:960px;margin:0 auto;width:100%}
+.nav-label{display:inline-flex;align-items:center;padding:8px 16px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--uc-gold);border-right:2px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;color:#b8c8dc;font-family:'Source Sans Pro',sans-serif;font-size:14px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);white-space:nowrap;transition:background .15s,color .15s}
+.nav-btn:hover{background:var(--uc-mid);color:#fff}
+.nav-btn.active{background:var(--uc-gold);color:var(--uc-blue);font-weight:900}
+.chapter-number-line{font-family:'Source Sans Pro',sans-serif;font-size:34px;font-weight:900;letter-spacing:4px;text-transform:uppercase;color:var(--uc-gold);margin-bottom:10px}
+.ch-of{font-size:20px;font-weight:600;text-transform:lowercase;vertical-align:middle;margin:0 6px;color:#fff}
+.chapter-title-line{font-family:'Libre Baskerville',Georgia,serif;font-size:36px;font-weight:700;color:#fff;line-height:1.25;max-width:820px;margin-bottom:0}
+
+/* === SERIES FOOTER (Option B: full-width BG, 960px content column) === */
+.series-footer{background:#003262;padding:0;text-align:center;font-family:'Source Sans Pro',Calibri,Arial,sans-serif;color:rgba(255,255,255,0.72);line-height:1.6}
+.series-footer .sf-inner{max-width:960px;margin:0 auto;border-top:4px solid #FFD100;padding:28px 48px 24px}
+.series-footer p{margin:0 0 6px;font-size:13px}
+.series-footer .sf-title{font-size:15px;color:#fff;letter-spacing:.04em;margin-bottom:10px}
+.series-footer .sf-title strong{color:#FFD100;font-weight:700}
+.series-footer .sf-act{font-size:13px;color:rgba(255,255,255,0.82);margin-bottom:2px}
+.series-footer .sf-copy{margin:14px 0 12px;font-size:13px;color:#fff;letter-spacing:.02em}
+.series-footer .sf-perm{text-align:left;max-width:760px;margin:8px auto;font-size:12.5px;color:rgba(255,255,255,0.78);line-height:1.55}
+.series-footer .sf-perm strong{color:#FFD100;letter-spacing:.04em}
+@media(max-width:680px){.series-footer .sf-inner{padding:22px 18px 18px}.series-footer .sf-perm{font-size:12px}}
+</style>
+<script async data-id="101505049" src="//static.getclicky.com/js"></script>
+</head>
+<body>
+<div class="nav-wrap">
+<nav class="nav-top">
+<div class="nav-top-inner">
+<a href="https://bruin-watch.github.io/" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="https://bruin-watch.github.io/behave-like-heroes/" class="nav-act">Act I</a>
+<a href="https://bruin-watch.github.io/schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="https://bruin-watch.github.io/uc-audit-request/" class="nav-act current-act">Act III</a>
+<a href="https://bruinwatch.org/epilogue/" class="nav-act">Epilogue</a>
+</div>
+</nav>
+<nav class="nav-bottom">
+<div class="nav-bottom-inner">
+<span class="nav-label">Bruin Watch</span>
+<a href="index.html" class="nav-btn">PREFACE</a>
+<a href="chapter_01.html" class="nav-btn">CH-01</a>
+<a href="chapter_02.html" class="nav-btn">CH-02</a>
+<a href="chapter_03.html" class="nav-btn">CH-03</a>
+<a href="chapter_04.html" class="nav-btn">CH-04</a>
+<a href="chapter_05.html" class="nav-btn">CH-05</a>
+<a href="chapter_06.html" class="nav-btn">CH-06</a>
+<a href="chapter_07.html" class="nav-btn active">CH-07</a>
+<a href="chapter_08.html" class="nav-btn">CH-08</a>
+<a href="chapter_09.html" class="nav-btn">CH-09</a>
+<a href="chapter_10.html" class="nav-btn">CH-10</a>
+<a href="chapter_11.html" class="nav-btn">CH-11</a>
+<a href="chapter_12.html" class="nav-btn">CH-12</a>
+</div>
+</nav>
+</div>
+
+<div class="cover-page">
+<div class="bar-top"></div>
+<div class="cover-content">
+<div class="series-title">Bruin Watch</div>
+<div class="series-tagline">Petition for Independent Audit<br>and Records Reconciliation</div>
+<div class="series-subhead">California Whistleblower Protection Act (&sect;&sect; 8547.2(c), 8547.5, 8547.10, 8547.11)<br>UC Internal Audit Charter, and Regents Policy 7503</div>
+<div class="chapter-number-line">Chapter 07<span class="ch-of">of</span>&nbsp;11</div>
+<h1 class="chapter-title-line">Records Integrity and Data Breach<br>Questions 17 through 25</h1>
+<span class="gold-rule"></span>
+<p class="chapter-subtitle">RASC Analyst Ida Fong, CFO Stephen Agostini, and the Data Breaches</p>
+
+
+<div style="max-width:820px;margin:20px auto 0;border:2px solid var(--uc-gold);border-radius:4px;padding:14px 20px;font-family:'Source Sans Pro',sans-serif;font-size:13px;color:rgba(255,255,255,0.75);line-height:1.7;text-align:justify">This document was prepared with reasonable care to ensure accuracy of all citations, hyperlinks, and factual references as of its date of submission. Given the complexity of the record &mdash; spanning 37 years, multiple UC administrative systems, and over 30 exhibits &mdash; unintentional errors in citation format, hyperlink availability, or cross-reference numbering may exist. Any such errors are ministerial in nature and do not affect the substance of the questions presented or the underlying documentary evidence. The author welcomes correction of any inaccuracy identified by the Plan Administrator.</div>
+</div>
+<div class="bar-gold"></div>
+<div class="bar-bottom"></div>
+</div>
+<div class="chapter-body">
+<div class="content">
+<div class="toc">
+<h2>Chapter 07 Table of Contents</h2>
+<div class="toc-entry"><span class="toc-num">Q17.</span><span class="toc-title"><a href="#q17">Ida Fong &mdash; Records Lost During System Upgrades</a></span></div>
+<div class="toc-entry"><span class="toc-num">Q18.</span><span class="toc-title"><a href="#q18">Ida Fong &mdash; Max Harold Erroneously Coded as Disabled</a></span></div>
+<div class="toc-entry"><span class="toc-num">Q19.</span><span class="toc-title"><a href="#q19">Attorney Saenz Audit Request to Bustamante</a></span></div>
+<div class="toc-entry"><span class="toc-num">Q20.</span><span class="toc-title"><a href="#q20">Echols File Location Reversal</a></span></div>
+<div class="toc-entry"><span class="toc-num">Q21.</span><span class="toc-title"><a href="#q21">Echols &mdash; Wrong Box</a></span></div>
+<div class="toc-entry"><span class="toc-num">Q22.</span><span class="toc-title"><a href="#q22">UCLA PRR #26-6921</a></span></div>
+<div class="toc-entry"><span class="toc-num">Q23.</span><span class="toc-title"><a href="#q23">1994 Harold v. Regents Court Docket</a></span></div>
+<div class="toc-entry"><span class="toc-num">Q24.</span><span class="toc-title"><a href="#q24">POST Complaints Filed</a></span></div>
+<div class="toc-entry"><span class="toc-num">Q25.</span><span class="toc-title"><a href="#q25">UC Data Breaches</a></span></div>
+</div>
+
+<h2 id="secC" class="section-heading">Section C: Records Integrity and Data Breach Questions (Q17&ndash;Q25)</h2>
+
+<div class="question-box">
+<div class="q-header"><div class="q-number" id="q17">Question 17</div><div class="q-title">Ida Fong / Max Harold, February&ndash;March 2021</div></div>
+<div class="q-facts"><p><strong>Documents:</strong> On February 24, 2021, UC Benefits employee Ida Fong called Harold regarding Max Harold being listed as &ldquo;disabled&rdquo; in UC&rsquo;s system. Max Harold was never disabled. Harold IS the family member with the documented permanent disability determination. On March 18, 2021, Fong called again from (510) 987-0665, duration 16 minutes 3 seconds. Fong processed a premium refund for Max&rsquo;s overpaid premiums. Fong stated records were &ldquo;lost during computer system upgrades.&rdquo; Harold&rsquo;s March 12, 2021 email to Fong memorializes these events contemporaneously. UC issued the refund. Max was removed from the 1095-B by 2022.</p></div>
+<div class="q-sub">
+<p><strong>(a)</strong> UC corrected Max Harold&rsquo;s records (Max was never disabled), issued a premium refund, and removed Max from the 1095-B &mdash; all within approximately one year. Why did UC not simultaneously restore Harold&rsquo;s disability classification, given the documented Octagon permanent disability determination (August 8, 2001) that has never been revoked?</p>
+<p><strong>(b)</strong> Which specific computer system upgrade caused the record loss? What specific records were lost? What steps were taken to recover or reconstruct them?</p>
+</div>
+<div class="q-files"><strong>Source Files:</strong> <a href="exhibits/EX%2015%20Ida%20Fong%20Email%20Thread%202021-03-12.pdf" target="_blank" style="color:#0000FF;font-weight:700">EX 15 &mdash; Ida Fong Email Thread (March 12, 2021)</a> &mdash; combined PDF: pp. 1&ndash;6 email to Ida Fong; pp. 7&ndash;11 Harold to Fong Gmail thread re UC Health Insurance Payments; pp. 12&ndash;13 Octagon letter attachment</div>
+</div>
+
+<div class="question-box">
+<div class="q-header"><div class="q-number" id="q18">Question 18</div><div class="q-title">The Contemporaneous Record &mdash; March 12, 2021 Email</div></div>
+<div class="q-facts"><p><strong>Document:</strong> Harold&rsquo;s March 12, 2021 email to Ida Fong is timestamped and contemporaneous. UC acted on this email by issuing a premium refund for Max Harold and by removing Max from subsequent 1095-B forms. These are contemporaneous, timestamped, UC-acted-upon documents &mdash; not retroactive fabrications.</p></div>
+<div class="q-sub"><p>Does the Plan Administrator accept the March 12, 2021 email and UC&rsquo;s subsequent refund issuance as evidence that (a) UC&rsquo;s disability coding system was corrupted (the wrong family member was coded as disabled), and (b) UC had contemporaneous notice that Harold&rsquo;s disability classification required correction?</p></div>
+<div class="q-files"><strong>Source Files:</strong> <a href="exhibits/EX%2015%20Ida%20Fong%20Email%20Thread%202021-03-12.pdf" target="_blank" style="color:#0000FF;font-weight:700">EX 15 &mdash; Ida Fong Email Thread (March 12, 2021)</a>, pp. 7&ndash;11 (Harold to Fong Gmail thread, contemporaneous record of premium refund and 1095-B correction)</div>
+</div>
+
+<div class="question-box">
+<div class="q-header"><div class="q-number" id="q19">Question 19</div><div class="q-title">UC Corrected Max But Not Harold</div></div>
+<div class="q-facts"><p><strong>Documents:</strong> UC corrected Max Harold&rsquo;s erroneous disability coding, issued a premium refund, and removed Max from the 1095-B &mdash; all within approximately one year of discovering the error. Despite the same February 24, 2021 conversation establishing that the disability coding had been applied to the wrong family member, Harold&rsquo;s own disability classification has never been restored in over five years.</p></div>
+<div class="q-sub"><p>Please explain this disparity.</p></div>
+<div class="q-files"><strong>Source Files:</strong> Same as Q17 and Q18 above &nbsp;|&nbsp; <code><a href="exhibits/EX_30%20subfolder/2022_1095-B.pdf" target="_blank" style="color:#0000FF">2022_1095-B.pdf</a></code> (Max removed)</div>
+</div>
+
+<div class="question-box">
+<div class="q-header"><div class="q-number" id="q20">Question 20</div><div class="q-title">UCLA CFO Stephen Agostini &mdash; Failed System Upgrade and Erroneous Records</div></div>
+<div class="q-facts"><p><strong>Documents:</strong> In a February 6, 2026 interview published by the Daily Bruin on February 13, 2026, UCLA Vice Chancellor and Chief Financial Officer Stephen Agostini stated that UCLA&rsquo;s annual financial reports posted on its website since 2002 are &ldquo;erroneous and unaudited.&rdquo; He identified a $425 million structural deficit resulting from &ldquo;financial management flaws and failures.&rdquo; He stated the Ascend Finance Transformation Project &mdash; UCLA&rsquo;s initiative to replace its legacy mainframe financial system designed in the 1980s with Oracle Cloud &mdash; cost at least $213 million over seven years, including $150 million with &ldquo;nothing to show for it.&rdquo; Chancellor Julio Frenk fired Agostini on February 17, 2026 &mdash; four days after publication.</p></div>
+<div class="q-sub">
+<p><strong>(a)</strong> The &ldquo;since 2002&rdquo; window identified by UCLA&rsquo;s own CFO encompasses the entire period of Harold&rsquo;s records disputes: the 2003 workers&rsquo; compensation settlement, the 2014&ndash;2015 reclassification from disability to retirement income, the initiation of premium deductions, and the disappearance of workers&rsquo; compensation settlement records. What steps, if any, has the Plan Administrator taken to determine whether Harold&rsquo;s records were affected by the system failures UCLA&rsquo;s CFO publicly confirmed?</p>
+<p><strong>(b)</strong> Is the legacy mainframe system from the 1980s that Agostini described the same system that stored Harold&rsquo;s 1996 disability classification and 2003 settlement records?</p>
+<p><strong>(c)</strong> Provide documentation of any investigation into the impact of these confirmed system failures on Harold&rsquo;s records.</p>
+</div>
+<div class="q-files"><strong>Source Files:</strong> <code><a href="exhibits/EX%2030%20Stephen%20Agostini%20Public%20Financial%20Leadership%20at%20UCLA.pdf" target="_blank" style="color:#0000FF">EX 30 Stephen Agostini's Public Financial Leadership at UCLA.pdf</a></code> &nbsp;|&nbsp; <a href="https://dailybruin.com/2026/02/13/financial-mismanagement-contributed-to-425-million-annual-deficit-ucla-cfo-says" target="_blank" style="color:#0000FF">Daily Bruin, February 13, 2026</a> &nbsp;|&nbsp; <a href="https://dailybruin.com/2026/02/17/ucla-cfo-out-days-after-alleging-history-of-financial-mismanagement" target="_blank" style="color:#0000FF">Daily Bruin, February 17, 2026</a></div>
+</div>
+
+<div class="question-box">
+<div class="q-header"><div class="q-number" id="q21">Question 21</div><div class="q-title">Data Breaches &mdash; Individual Impact Assessment Required</div></div>
+<div class="q-facts"><p><strong>Documents:</strong> For EACH of the following documented data breaches, please state separately: (1) Was Harold notified as required by law? (2) Was any investigation conducted regarding the impact on Harold&rsquo;s specific records? (3) If so, provide the results. (4) If not, state that for the record.</p></div>
+<div class="q-sub">
+<p><strong>(a) Breach #7: Anthem</strong> (February 18, 2014 &ndash; January 27, 2015 discovery). 78.8 million records compromised. Compromised data explicitly included &ldquo;employment information and income data.&rdquo; Harold&rsquo;s disability-to-retirement reclassification occurred during this exact breach window.</p>
+<p><strong>(b) Breach #8: UCLA Health System</strong> (July 2014 &ndash; May 2015). 4.5 million patient records breached. Overlaps directly with Harold&rsquo;s reclassification period.</p>
+<p><strong>(c) Breach #12: UC Accellion</strong> (December 24, 2020). 547,000+ UC individuals&rsquo; data compromised. Compromised data explicitly included disability accommodation information &mdash; precisely the category of data at issue in Harold&rsquo;s case. The same year Harold&rsquo;s account number first changed.</p>
+<p><strong>(d) Breaches #13&ndash;19: Seven Separate Anthem Breaches</strong> (January 12, January 21, May 1, June 30, and additional dates in 2021). Occurring during the same period UC employee Ida Fong admitted records were &ldquo;lost during computer system upgrades&rdquo; and discovered the disability coding error.</p>
+<p>Identify what portions of Harold&rsquo;s UC file were compromised, corrupted, or modified during any documented breach.</p>
+</div>
+<div class="q-files"><strong>Source Files:</strong> <code><a href="exhibits/EX%2023%202021-05-12%20UC%202020%20NOTICE%20OF%20DATA%20BREACH.pdf" target="_blank" style="color:#0000FF">EX 23 UC 2020 NOTICE OF DATA BREACH.pdf</a></code> &nbsp;|&nbsp; Breach documentation compiled from California Attorney General Data Breach Database and public records</div>
+</div>
+
+<div class="question-box">
+<div class="q-header"><div class="q-number" id="q22">Question 22</div><div class="q-title">Anthem Blue Cross Portal &mdash; Coverage History</div></div>
+<div class="q-facts"><p><strong>Documents:</strong> Harold&rsquo;s Anthem Blue Cross member portal (Member ID U5X808M87210) displays only three plan periods: January 1, 2024 &ndash; December 31, 2024; January 1, 2025 &ndash; December 31, 2025; and January 1, 2026 &ndash; Present. No records exist prior to January 1, 2024 despite 20+ years of continuous coverage and premium payments. Additionally, $14,094.36 in paid claims were documented on the portal and subsequently erased. The December 21, 2023 &ndash; January 4, 2024 inpatient hospitalization for Valley Fever (Coccidioidomycosis) is completely absent from all Anthem portal records.</p></div>
+<div class="q-sub">
+<p><strong>(a)</strong> Reconcile the Anthem portal showing records only from January 1, 2024 with UC&rsquo;s own 1095-B forms confirming continuous coverage from at least 2016 through 2025.</p>
+<p><strong>(b)</strong> $14,094.36 in documented paid claims were erased from the portal. What happened to these claims? Who authorized their removal?</p>
+<p><strong>(c)</strong> Harold&rsquo;s December 21, 2023 &ndash; January 4, 2024 inpatient hospitalization for Valley Fever is completely absent from the insurer&rsquo;s records. Please explain how a 14-day inpatient hospitalization can be absent from the insurer&rsquo;s portal.</p>
+</div>
+<div class="q-files"><strong>Source Files:</strong> Anthem Blue Cross portal screenshots (Harold&rsquo;s possession) &nbsp;|&nbsp; 1095-B forms: <code><a href="exhibits/EX_30%20subfolder/2016_1095-B.pdf" target="_blank" style="color:#0000FF">2016_1095-B.pdf</a></code> through <code><a href="exhibits/EX_30%20subfolder/2023_1095-B.pdf" target="_blank" style="color:#0000FF">2023_1095-B.pdf</a></code></div>
+</div>
+
+<div class="question-box">
+<div class="q-header"><div class="q-number" id="q23">Question 23</div><div class="q-title">Anthem Notification Failures</div></div>
+<div class="q-facts"><p><strong>Documents:</strong> Zero notification letters were sent to Harold by Anthem Blue Cross in 24 months. One notification was sent to Harold&rsquo;s wife at the Arizona address on September 27, 2025 &mdash; proving Anthem had the Arizona address six months before the coverage termination. The 2025 Summary of Benefits and Coverage is missing from the Anthem portal.</p></div>
+<div class="q-sub">
+<p><strong>(a)</strong> Why did Harold receive zero notifications from Anthem while his wife received one notification at the same Arizona address?</p>
+<p><strong>(b)</strong> Produce the 2025 Summary of Benefits and Coverage or explain its absence from the portal.</p>
+</div>
+<div class="q-files"><strong>Source Files:</strong> Anthem notification to wife, September 27, 2025 (Harold&rsquo;s possession) &nbsp;|&nbsp; Anthem portal notification page screenshots showing zero (0) messages to Harold across 24 months of coverage &nbsp;|&nbsp; <code><a href="exhibits/EX%2032%202026-04-02%20anthem%20login%20screenshot1%20.pdf" target="_blank" style="color:#0000FF">EX 22 2026-04-02 anthem login screenshot1.pdf</a></code></div>
+</div>
+
+<div class="question-box">
+<div class="q-header"><div class="q-number" id="q24">Question 24</div><div class="q-title">Anthem Member ID Discrepancy</div></div>
+<div class="q-facts"><p><strong>Document:</strong> Harold&rsquo;s post-Medicare Anthem Member ID ending in 87210 was retroactively applied to pre-Medicare coverage years on the Anthem portal display.</p></div>
+<div class="q-sub"><p>Please explain why a post-Medicare Member ID was applied retroactively to years when Harold was not enrolled in Medicare.</p></div>
+<div class="q-files"><strong>Source Files:</strong> <code><a href="exhibits/EX%2032%202026-04-02%20anthem%20login%20screenshot1%20.pdf" target="_blank" style="color:#0000FF">EX 22 2026-04-02 anthem login screenshot1.pdf</a></code> &nbsp;|&nbsp; Anthem Blue Cross portal screenshots (Harold&rsquo;s possession)</div>
+</div>
+
+<div class="question-box">
+<div class="q-header"><div class="q-number" id="q25">Question 25</div><div class="q-title">Allison Cumming / Elevance Health &mdash; Recorded Termination Date</div></div>
+<div class="q-facts"><p><strong>Document:</strong> Allison Cumming, Elevance Health Executive Concierge (Anthem&rsquo;s parent company), proactively engaged with Harold regarding his coverage and recorded a coverage termination date of April 30, 2026 in her correspondence.</p></div>
+<div class="q-sub"><p>How does the Plan Administrator reconcile this recorded termination date of April 30, 2026 with the &ldquo;status quo&rdquo; preservation stated in Ms. Morse&rsquo;s April 9, 2026 letter?</p></div>
+<div class="q-files"><strong>Source Files:</strong> Allison Cumming correspondence (Harold&rsquo;s possession)</div>
+</div>
+
+
+
+<!-- CHAPTER EXHIBITS -->
+<h2 id="exhibits" class="section-heading">Chapter Exhibits</h2>
+
+<p class="body-text">The following exhibits are referenced in this chapter.</p>
+
+<table class="info-table">
+<thead><tr><th style="width:120px">Ex.</th><th>Document Description</th><th style="width:140px">Date</th></tr></thead>
+<tbody>
+<tr><td><a href="exhibits/EX%2015%20Ida%20Fong%20Email%20Thread%202021-03-12.pdf" target="_blank" style="color:#0000FF;font-weight:700">EX 15</a></td><td>Ida Fong Email Thread &mdash; combined PDF (pp. 1&ndash;6 email to Ida Fong 1:46 PM; pp. 7&ndash;11 Harold to Fong Gmail thread; pp. 12&ndash;13 Octagon letter attachment)</td><td>March 12, 2021</td></tr>
+<tr><td><a href="exhibits/EX%2021%202002-09-06%20CCW%20ISSUED.pdf" target="_blank" style="color:#0000FF;font-weight:700">EX 21</a></td><td>UCLA PD CCW Issued &mdash; Chief Clarance Chapman</td><td>September 6, 2002</td></tr>
+<tr><td><a href="exhibits/EX%2022%202013-08-29%20UCLA%20PD%20CCW%20Issued.pdf" target="_blank" style="color:#0000FF;font-weight:700">EX 22</a></td><td>UCLA PD CCW Issued &mdash; Chief James D. Herren</td><td>August 29, 2013</td></tr>
+<tr><td><a href="exhibits/EX%2023%202026-02-27%20Williams-Cook_Denial_Feb27_2026.pdf" target="_blank" style="color:#0000FF;font-weight:700">EX 23</a></td><td>Williams-Cook Denial Letter (UC RASC Administrative Review Determination)</td><td>February 27, 2026</td></tr>
+<tr><td><a href="exhibits/EX%2024%202026-04-09%20ERIN%20MORSE%20RASC%2090%20DAY%20REVIEW.pdf" target="_blank" style="color:#0000FF;font-weight:700">EX 24</a></td><td>Erin Morse RASC 90-Day Review</td><td>April 9, 2026</td></tr>
+<tr><td><a href="exhibits/EX%2030%20Stephen%20Agostini%20Public%20Financial%20Leadership%20at%20UCLA.pdf" target="_blank" style="color:#0000FF;font-weight:700">EX 30</a></td><td>Stephen Agostini's Public Financial Leadership at UCLA &mdash; Daily Bruin reporting</td><td>February 2026</td></tr>
+</tbody>
+</table>
+
+<div class="signature-block" style="max-width:860px;margin:40px auto 30px;padding:24px 30px;border-top:3px solid var(--uc-gold);font-family:'Source Sans Pro',sans-serif;font-size:18px;color:#333;line-height:1.85">
+<p style="font-size:17px;line-height:1.85;margin-bottom:20px">Documents referenced herein that were created by UC, issued by UC, filed by UC, retained by UC, or filed with the IRS under penalty of perjury, or generated by UC&rsquo;s own contracted insurer, are UC&rsquo;s own institutional record. Documents created by the undersigned were created in direct response to UC&rsquo;s own records and communications. Where UC&rsquo;s own institutional records are not produced to clarify this audit, the author will rely on California Evidence Code &sect; 413, under which the failure to produce evidence within a party&rsquo;s control permits the inference that such evidence would be adverse to the party withholding it.</p>
+<p style="font-size:17px;font-style:italic;margin-bottom:24px">Submitted for Regulatory Review and Public Accountability</p>
+<img src="data:image/png;base64,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" alt="Charles A. Harold Jr. Signature" style="height:90px;width:auto;display:block;margin-bottom:10px">
+<p><strong>Charles A. Harold Jr.</strong><br>
+UCLA Police Department (Retired?), Badge #341<br>
+Founder and First President, Federated University Police Officers&rsquo; Association (FUPOA)</p>
+<p style="font-size:16px;margin-top:18px;font-style:italic">I affirm that the information contained in this document and its exhibits is true and accurate to the best of my knowledge and good faith belief, submitted under the protections of 31 U.S.C. &sect; 3730(h) (False Claims Act anti-retaliation) and California Labor Code &sect; 1102.5.</p>
+</div>
+</div>
+</div>
+
+<div class="nav-wrap" style="position:static;box-shadow:none">
+<nav class="nav-top" style="box-shadow:none">
+<div class="nav-top-inner">
+<a href="https://bruin-watch.github.io/" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="https://bruin-watch.github.io/behave-like-heroes/" class="nav-act">Act I</a>
+<a href="https://bruin-watch.github.io/schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="https://bruin-watch.github.io/uc-audit-request/" class="nav-act current-act">Act III</a>
+<a href="https://bruinwatch.org/epilogue/" class="nav-act">Epilogue</a>
+</div>
+</nav>
+<nav class="nav-bottom">
+<div class="nav-bottom-inner">
+<span class="nav-label">Bruin Watch</span>
+<a href="index.html" class="nav-btn">PREFACE</a>
+<a href="chapter_01.html" class="nav-btn">CH-01</a>
+<a href="chapter_02.html" class="nav-btn">CH-02</a>
+<a href="chapter_03.html" class="nav-btn">CH-03</a>
+<a href="chapter_04.html" class="nav-btn">CH-04</a>
+<a href="chapter_05.html" class="nav-btn">CH-05</a>
+<a href="chapter_06.html" class="nav-btn">CH-06</a>
+<a href="chapter_07.html" class="nav-btn active">CH-07</a>
+<a href="chapter_08.html" class="nav-btn">CH-08</a>
+<a href="chapter_09.html" class="nav-btn">CH-09</a>
+<a href="chapter_10.html" class="nav-btn">CH-10</a>
+<a href="chapter_11.html" class="nav-btn">CH-11</a>
+<a href="chapter_12.html" class="nav-btn">CH-12</a>
+</div>
+</nav>
+</div>
+<div class="series-footer">
+<div class="sf-inner">
+<p class="sf-title"><strong>Petition for Independent Audit &mdash; The Bruin Watch Series</strong></p>
+<p class="sf-act">Act&nbsp;I &middot; Law Enforcement Without Enforcement</p>
+<p class="sf-act">Act&nbsp;II &middot; Schr&ouml;dinger&rsquo;s Retiree</p>
+<p class="sf-act">Act&nbsp;III &middot; The UC Audit Request</p>
+<p class="sf-copy">&copy; 2026 Bruin Watch &middot; bruinwatch.org &middot; All rights reserved.</p>
+<p class="sf-perm"><strong>PERMITTED USE</strong> &mdash; This work may be quoted, cited, reproduced, and distributed in whole or in part for law enforcement, regulatory, legislative, judicial, investigative, academic, or journalistic purposes, provided full attribution to Bruin Watch (bruinwatch.org) is preserved.</p>
+<p class="sf-perm"><strong>NOT PERMITTED</strong> &mdash; Commercial republication, paywalled redistribution, removal or alteration of attribution, derivative works that misrepresent the documentary record, and use as training data for artificial intelligence or machine learning systems are prohibited without the express written consent of Bruin Watch.</p>
+</div>
+</div>
+
+</body>
+</html>
