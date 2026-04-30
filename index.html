@@ -229,6 +229,38 @@ a:hover { color: var(--link-hover); }
   color: var(--ink-2);
   word-break: break-word;
 }
+
+/* === Standalone evidentiary strip (replaces preface) === */
+.evidentiary-strip {
+  background: var(--paper-2);
+  border-bottom: 1px solid var(--rule);
+}
+.evidentiary-strip-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 22px 28px;
+}
+.evidentiary-strip .evidentiary-label {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 6px;
+}
+.evidentiary-strip .evidentiary-body {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  line-height: 1.6;
+  background: var(--evid);
+  border: 1px solid var(--evid-rule);
+  border-left: 3px solid var(--gold);
+  padding: 14px 18px;
+  border-radius: 3px;
+  color: var(--ink-2);
+  word-break: break-word;
+  margin: 0;
+}
 .evidentiary-label {
   font-family: var(--sans);
   font-size: 10.5px;
@@ -903,28 +935,10 @@ a:hover { color: var(--link-hover); }
     </div>
   </nav>
 
-  <section class="preface" aria-label="About this statement">
-    <div class="preface-inner">
-      <div class="preface-col">
-        <h2 class="preface-h">What this statement is</h2>
-        <p>A sworn declaration under California Government Code § 8547.10 and UC Whistleblower Protection Policy 1100563, executed by Charles A. Harold Jr. on April 30, 2026 in Apache Junction, Arizona. It records, as personal-knowledge testimony, an unbroken chronology of fact spanning UCLA peace-officer service in 1989 through the documented termination of UC retiree health coverage in April 2026.</p>
-      </div>
-      <div class="preface-col">
-        <h2 class="preface-h">Why it matters</h2>
-        <p>The chronology establishes, in eighty-six numbered entries plus three closing sections, the institutional pattern that links the 1990 Regents' parking-ticket cancellation to the 2026 Anthem coverage termination — a continuous evidentiary record of retaliation, classification contradiction, and records-control failure at the University of California.</p>
-      </div>
-      <div class="preface-col">
-        <h2 class="preface-h">What filing it supports</h2>
-        <p>This statement is the controlling sworn instrument supporting California Department of Managed Health Care Case # 1409109, CMS Case # 7100158, the supplemental complaints filed March 31 through April 8, 2026, the federal guaranteed-issue claim under 42 U.S.C. § 1395ss(q)(2)–(3), and the active records of UC Whistleblower Policy 1100563.</p>
-      </div>
-      <div class="preface-col">
-        <h2 class="preface-h">How to use this site</h2>
-        <p>The four era bands above jump directly to grouped chronology sections. Within each era, each numbered entry is independently linkable. Chapter cards at the end of each era hand off to dedicated chapter pages — retaliation, classification, records, Medigap timeline, exhibit register, and the § 8547.10 compliance map. ★ marks key entries.</p>
-      </div>
-    </div>
-    <div class="preface-evidentiary">
+  <section class="evidentiary-strip" aria-label="Evidentiary record">
+    <div class="evidentiary-strip-inner">
       <p class="evidentiary-label">Evidentiary record</p>
-      <p>EVIDENTIARY RECORD: This sworn statement is supported by documentary evidence archived and publicly accessible at: <a href="https://schrodingers-uc-retiree.github.io/evidentiary-record/." target="_blank" rel="noopener">schrodingers-uc-retiree.github.io/evidentiary-record/.</a> Analytics tracking (Clicky Pro Plus ID 101503318) logs regulator access.</p>
+      <p class="evidentiary-body">EVIDENTIARY RECORD: This sworn statement is supported by documentary evidence archived and publicly accessible at: <a href="https://schrodingers-uc-retiree.github.io/evidentiary-record/." target="_blank" rel="noopener">schrodingers-uc-retiree.github.io/evidentiary-record/.</a> Analytics tracking (Clicky Pro Plus ID 101503318) logs regulator access.</p>
     </div>
   </section>
 
