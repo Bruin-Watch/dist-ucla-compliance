@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Sworn Statement of Facts &mdash; Bruin Watch</title>
   <meta name="description" content="Sworn statement of facts of Charles A. Harold Jr., submitted under California Government Code § 8547.10. Master chronology, 86 numbered entries, 1989–2026." />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Bebas+Neue&family=Source+Sans+Pro:wght@400;600;700;900&family=Libre+Baskerville:ital,wght@0,400;1,400&family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Bebas+Neue&family=Source+Sans+Pro:wght@400;600;700;900&family=Libre+Baskerville:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 <style>
 /* ===========================================================
    UCLA Compliance — Sworn Statement Master Chronology
@@ -486,22 +486,20 @@ a:hover { color: var(--link-hover); }
 
 .entry-head {
   display: grid;
-  grid-template-columns: 100px 1fr auto;
-  gap: 18px;
+  grid-template-columns: 56px 1fr auto;
+  gap: 16px;
   align-items: baseline;
   margin-bottom: 18px;
 }
 .entry-num {
-  font-family: 'Anton', 'Impact', 'Oswald', sans-serif;
-  font-weight: 400;
-  font-size: 84px;
-  line-height: 0.9;
-  color: #2774AE;
-  letter-spacing: 0.02em;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1;
+  color: var(--accent);
   font-feature-settings: "lnum" 1, "tnum" 1;
   text-align: right;
   padding-top: 4px;
-  text-shadow: 3px 3px 0 #FFD100;
 }
 .entry-titles { min-width: 0; }
 .entry-eyebrow {
@@ -513,14 +511,14 @@ a:hover { color: var(--link-hover); }
 }
 .fact-badge {
   display: inline-block;
-  background: #2774AE;
-  color: #FFD100;
-  font-family: 'Anton', 'Impact', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  letter-spacing: 0.18em;
+  background: var(--gold);
+  color: #1a1306;
+  font-family: var(--sans);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  padding: 5px 14px 6px;
+  padding: 4px 12px 5px;
   border-radius: 3px;
   line-height: 1.1;
   box-shadow: 0 1px 0 rgba(0,0,0,0.06);
@@ -954,20 +952,26 @@ a:hover { color: var(--link-hover); }
 <a href="behave-like-heroes/index.html" class="nav-act">Act I</a>
 <a href="schrodingers-uc-retiree/index.html" class="nav-act">Act II</a>
 <a href="index.html" class="nav-act current-act">Act III</a>
-<a href="epilogue/index.html" class="nav-act home-right">Epilogue &#9670;</a>
+<a href="epilogue/index.html" class="nav-act">Epilogue</a>
 </div>
 </nav>
-<nav class="nav-bottom" style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+<nav class="nav-bottom">
 <div class="nav-bottom-inner">
-<span class="nav-label">Procedural Compliance</span>
-<a href="pc-standing.html" class="nav-btn">STANDING</a>
-<a href="pc-disclosures.html" class="nav-btn">DISCLOSURES</a>
-<a href="pc-adverse-actions.html" class="nav-btn">ADVERSE ACTIONS</a>
-<a href="pc-causality.html" class="nav-btn">CAUSALITY</a>
-<a href="pc-time-filing.html" class="nav-btn">TIME &amp; FILING</a>
-<a href="pc-investigation.html" class="nav-btn">INVESTIGATION</a>
-<a href="pc-exhibits.html" class="nav-btn">EXHIBITS</a>
-<a href="pc-rights.html" class="nav-btn">RIGHTS RESERVED</a>
+<span class="nav-label">Bruin Watch</span>
+<a href="index.html" class="nav-btn active">SWORN</a>
+<a href="toc.html" class="nav-btn">TOC</a>
+<a href="chapter_01.html" class="nav-btn">CH-01</a>
+<a href="chapter_02.html" class="nav-btn">CH-02</a>
+<a href="chapter_03.html" class="nav-btn">CH-03</a>
+<a href="chapter_04.html" class="nav-btn">CH-04</a>
+<a href="chapter_05.html" class="nav-btn">CH-05</a>
+<a href="chapter_06.html" class="nav-btn">CH-06</a>
+<a href="chapter_07.html" class="nav-btn">CH-07</a>
+<a href="chapter_08.html" class="nav-btn">CH-08</a>
+<a href="chapter_09.html" class="nav-btn">CH-09</a>
+<a href="chapter_10.html" class="nav-btn">CH-10</a>
+<a href="chapter_11.html" class="nav-btn">CH-11</a>
+<a href="chapter_12.html" class="nav-btn">CH-12</a>
 </div>
 </nav>
 </div>
@@ -1009,6 +1013,16 @@ a:hover { color: var(--link-hover); }
         <span class="band-range">2025–2026</span>
         <span class="band-title">Coverage termination and regulatory escalation</span>
         <span class="band-meta">Entries 51–86</span>
+      </a>
+      <a href="chapter-exhibits.html" class="band band--alt">
+        <span class="band-range">Exhibits</span>
+        <span class="band-title">Supporting documentary record</span>
+        <span class="band-meta">Register &amp; index</span>
+      </a>
+      <a href="chapter-8547.html" class="band band--alt">
+        <span class="band-range">§ 8547.10</span>
+        <span class="band-title">Compliance map</span>
+        <span class="band-meta">Element-by-element</span>
       </a>
     </div>
   </nav>
@@ -1172,7 +1186,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">1</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 1</span> </p>
               <h3 class="entry-title"><span class="entry-date">DECEMBER 1989</span> — EMPLOYMENT AND PRE-UCLA MEDICAL RECORD</h3>
             </div>
             <a class="entry-anchor" href="#item-1" aria-label="Permalink to fact 1">§</a>
@@ -1186,7 +1200,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">2</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 2</span> </p>
               <h3 class="entry-title"><span class="entry-date">JULY 1990</span> — THE REGENTS&#x27; PARKING TICKET</h3>
             </div>
             <a class="entry-anchor" href="#item-2" aria-label="Permalink to fact 2">§</a>
@@ -1201,7 +1215,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">3</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 3</span> </p>
               <h3 class="entry-title"><span class="entry-date">JULY 1990</span> — UNION NOMINATION THREAT</h3>
             </div>
             <a class="entry-anchor" href="#item-3" aria-label="Permalink to fact 3">§</a>
@@ -1215,7 +1229,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">4</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 4</span> </p>
               <h3 class="entry-title"><span class="entry-date">APPROXIMATELY 1990–1991</span> — FOUNDING OF FUPOA</h3>
             </div>
             <a class="entry-anchor" href="#item-4" aria-label="Permalink to fact 4">§</a>
@@ -1228,7 +1242,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">5</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 5</span> </p>
               <h3 class="entry-title"><span class="entry-date">NOVEMBER 26, 1990</span> — CRIMINAL INVESTIGATION; FIRST DOCUMENTED WHISTLEBLOWING</h3>
             </div>
             <a class="entry-anchor" href="#item-5" aria-label="Permalink to fact 5">§</a>
@@ -1241,7 +1255,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">6</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 6</span> </p>
               <h3 class="entry-title"><span class="entry-date">JANUARY 1991</span> — ONSET OF PHYSICAL SYMPTOMS</h3>
             </div>
             <a class="entry-anchor" href="#item-6" aria-label="Permalink to fact 6">§</a>
@@ -1254,7 +1268,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">7</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 7</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 23, 1991</span> — FIRST DOCUMENTED CARDIAC EVENT</h3>
             </div>
             <a class="entry-anchor" href="#item-7" aria-label="Permalink to fact 7">§</a>
@@ -1267,7 +1281,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">8</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 8</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 4, 1991</span> — FIRST WORKERS&#x27; COMPENSATION FILING</h3>
             </div>
             <a class="entry-anchor" href="#item-8" aria-label="Permalink to fact 8">§</a>
@@ -1280,7 +1294,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">9</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 9</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 12, 1991</span> — FIRST DOCUMENTED CARDIAC DAMAGE</h3>
             </div>
             <a class="entry-anchor" href="#item-9" aria-label="Permalink to fact 9">§</a>
@@ -1295,7 +1309,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">10</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 10</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 15, 1991</span> — INTERVIEW NOTES SUPPRESSED</h3>
             </div>
             <a class="entry-anchor" href="#item-10" aria-label="Permalink to fact 10">§</a>
@@ -1308,7 +1322,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">11</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 11</span> </p>
               <h3 class="entry-title"><span class="entry-date">MAY 12, 1991</span> — QUID PRO QUO; RIGHTS SURRENDERED UNDER COERCION</h3>
             </div>
             <a class="entry-anchor" href="#item-11" aria-label="Permalink to fact 11">§</a>
@@ -1321,7 +1335,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">12</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 12</span> </p>
               <h3 class="entry-title"><span class="entry-date">JANUARY 6, 1992</span> — AGREEMENT BROKEN; SYMPTOMS RESUME</h3>
             </div>
             <a class="entry-anchor" href="#item-12" aria-label="Permalink to fact 12">§</a>
@@ -1336,7 +1350,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">13</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 13</span> </p>
               <h3 class="entry-title"><span class="entry-date">JUNE 17, 1992</span> — PLACED ON PAID ADMINISTRATIVE LEAVE</h3>
             </div>
             <a class="entry-anchor" href="#item-13" aria-label="Permalink to fact 13">§</a>
@@ -1349,7 +1363,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">14</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 14</span> </p>
               <h3 class="entry-title"><span class="entry-date">JULY 21–22, 1992</span> — NEXT-DAY RETALIATORY CANCELLATION</h3>
             </div>
             <a class="entry-anchor" href="#item-14" aria-label="Permalink to fact 14">§</a>
@@ -1363,7 +1377,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">15</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 15</span> </p>
               <h3 class="entry-title"><span class="entry-date">OCTOBER 1992</span> — NOVEMBER 1994 — FOUR INDEPENDENT CAMPUS INVESTIGATIONS</h3>
             </div>
             <a class="entry-anchor" href="#item-15" aria-label="Permalink to fact 15">§</a>
@@ -1376,7 +1390,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">16</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 16</span> </p>
               <h3 class="entry-title"><span class="entry-date">NOVEMBER 6, 1992</span> — MEDICAL RECORDS SUBPOENAED WITHOUT NOTICE</h3>
             </div>
             <a class="entry-anchor" href="#item-16" aria-label="Permalink to fact 16">§</a>
@@ -1389,7 +1403,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">17</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 17</span> </p>
               <h3 class="entry-title"><span class="entry-date">DECEMBER 9, 1992</span> — VANDENBERG STATEMENTS AT TRAINING SESSION; DEMOTED</h3>
             </div>
             <a class="entry-anchor" href="#item-17" aria-label="Permalink to fact 17">§</a>
@@ -1404,20 +1418,20 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">18</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 18</span> </p>
               <h3 class="entry-title"><span class="entry-date">JANUARY 29, 1993</span> — CIVIL RIGHTS LAWSUIT FILED: HAROLD v. REGENTS</h3>
             </div>
             <a class="entry-anchor" href="#item-18" aria-label="Permalink to fact 18">§</a>
           </header>
           <div class="entry-body">
-          <p>Co-plaintiffs and I filed Harold v. The Regents of the University of California, Case No. SC022125, in Santa Monica Superior Court, alleging discrimination, whistleblowing, acts against public policy, sexual harassment, and corruption. Karl T. Ross was named as a personal defendant. The Los Angeles Times published coverage on February 25, 1993, and April 24, 1994.</p>
+          <p>I and co-plaintiffs filed Harold v. The Regents of the University of California, Case No. SC022125, in Santa Monica Superior Court, alleging discrimination, whistleblowing, acts against public policy, sexual harassment, and corruption. Karl T. Ross was named as a personal defendant. The Los Angeles Times published coverage on February 25, 1993, and April 24, 1994.</p>
           </div>
         </article>
         <article class="entry" id="item-19">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">19</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 19</span> </p>
               <h3 class="entry-title"><span class="entry-date">APPROXIMATELY JUNE 1992</span> — JUNE 1993 — GRIEVANCES FILED AND SUSTAINED</h3>
             </div>
             <a class="entry-anchor" href="#item-19" aria-label="Permalink to fact 19">§</a>
@@ -1430,7 +1444,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">20</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 20</span> </p>
               <h3 class="entry-title"><span class="entry-date">OCTOBER 11, 1993</span> — FORMAL LETTER TO UC PRESIDENT PELTASON</h3>
             </div>
             <a class="entry-anchor" href="#item-20" aria-label="Permalink to fact 20">§</a>
@@ -1444,7 +1458,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">21</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 21</span> </p>
               <h3 class="entry-title"><span class="entry-date">APPROXIMATELY 1994–1995</span> — THE SKELLY HEARING; SHAIN TERMINATED</h3>
             </div>
             <a class="entry-anchor" href="#item-21" aria-label="Permalink to fact 21">§</a>
@@ -1459,7 +1473,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">22</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 22</span> </p>
               <h3 class="entry-title"><span class="entry-date">JULY 5, 1994</span> — WHISTLEBLOWER COMPLAINT FILED UNDER GOVERNMENT CODE § 8547.10</h3>
             </div>
             <a class="entry-anchor" href="#item-22" aria-label="Permalink to fact 22">§</a>
@@ -1469,6 +1483,10 @@ a:hover { color: var(--link-hover); }
           <p>No UC response has ever been received. This filing has been on record for 32 years with no institutional response of any kind.</p>
           </div>
         </article>
+      <aside class="handoffs">
+        <p class="handoffs-label">Continue to a dedicated chapter</p>
+        <div class="handoffs-grid"><a class="handoff-card" href="chapter-retaliation.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Retaliation and Whistleblowing</span><span class="handoff-desc">Vandenberg, Cueba, the November 1990 investigation, and four campus newspaper investigations.</span><span class="handoff-arrow" aria-hidden="true">→</span></a><a class="handoff-card" href="chapter-fupoa.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Founding of FUPOA</span><span class="handoff-desc">The first NLRB-recognized statewide UC bargaining unit and the union nomination threat.</span><span class="handoff-arrow" aria-hidden="true">→</span></a></div>
+      </aside>
       <p class="back-top"><a href="#top">↑ Back to top</a></p>
     </section>
     <section class="era" id="era-1995">
@@ -1483,7 +1501,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">23</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 23</span> </p>
               <h3 class="entry-title"><span class="entry-date">AUGUST 23, 1994</span> — RETURNED TO ACTIVE DUTY AFTER TWO YEARS ON LEAVE</h3>
             </div>
             <a class="entry-anchor" href="#item-23" aria-label="Permalink to fact 23">§</a>
@@ -1496,7 +1514,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">24</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 24</span> </p>
               <h3 class="entry-title"><span class="entry-date">JANUARY 19, 1996</span> — FEDERAL FLSA LAWSUIT; OFFICERS PREVAIL</h3>
             </div>
             <a class="entry-anchor" href="#item-24" aria-label="Permalink to fact 24">§</a>
@@ -1509,7 +1527,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">25</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 25</span> </p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 15, 1996</span> — CHIEF CHAPMAN: &quot;SLAM DUNK&quot; FOR MEDICAL RETIREMENT</h3>
             </div>
             <a class="entry-anchor" href="#item-25" aria-label="Permalink to fact 25">§</a>
@@ -1523,7 +1541,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">26</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 26</span> </p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 16, 1996</span> — ON-DUTY INDUSTRIAL INJURY</h3>
             </div>
             <a class="entry-anchor" href="#item-26" aria-label="Permalink to fact 26">§</a>
@@ -1536,7 +1554,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">27</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 27</span> </p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 29, 1996</span> — CARDIAC DAMAGE CONFIRMED</h3>
             </div>
             <a class="entry-anchor" href="#item-27" aria-label="Permalink to fact 27">§</a>
@@ -1549,7 +1567,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">28</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 28</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 1, 1996</span> — CLASSIFIED &quot;MEDICALLY SEPARATED;&quot; CLASSIFICATION CONTRADICTION #1</h3>
             </div>
             <a class="entry-anchor" href="#item-28" aria-label="Permalink to fact 28">§</a>
@@ -1564,7 +1582,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">29</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 29</span> </p>
               <h3 class="entry-title"><span class="entry-date">1996–2001</span> — 84 MONTHS WITHOUT DISABILITY INCOME; BANKRUPTCY; HOME LOST</h3>
             </div>
             <a class="entry-anchor" href="#item-29" aria-label="Permalink to fact 29">§</a>
@@ -1579,7 +1597,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">30</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 30</span> </p>
               <h3 class="entry-title"><span class="entry-date">APPROXIMATELY 1998–1999</span> — BRUINWATCH.ORG SUPPRESSED</h3>
             </div>
             <a class="entry-anchor" href="#item-30" aria-label="Permalink to fact 30">§</a>
@@ -1592,7 +1610,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">31</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 31</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">AUGUST 8, 2001</span> — OCTAGON RISK SERVICES: PERMANENT AND STATIONARY DISABILITY DETERMINATION</h3>
             </div>
             <a class="entry-anchor" href="#item-31" aria-label="Permalink to fact 31">§</a>
@@ -1606,7 +1624,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">32</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 32</span> </p>
               <h3 class="entry-title"><span class="entry-date">SEPTEMBER 6, 2002</span> — CCW PERMIT NO. 1 ISSUED; FIRST &quot;RETIRED&quot; DESIGNATION</h3>
             </div>
             <a class="entry-anchor" href="#item-32" aria-label="Permalink to fact 32">§</a>
@@ -1619,7 +1637,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">33</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 33</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 2003</span> — WORKERS&#x27; COMPENSATION SETTLEMENT</h3>
             </div>
             <a class="entry-anchor" href="#item-33" aria-label="Permalink to fact 33">§</a>
@@ -1633,7 +1651,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">34</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 34</span> </p>
               <h3 class="entry-title"><span class="entry-date">2002–2020</span> — UCLA PD MAINTAINS ME ON ACTIVE RETIREE CCW LIST FOR 18 YEARS</h3>
             </div>
             <a class="entry-anchor" href="#item-34" aria-label="Permalink to fact 34">§</a>
@@ -1646,7 +1664,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">35</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 35</span> </p>
               <h3 class="entry-title"><span class="entry-date">TAX YEARS 2010–2014</span> — UC FILES DISABILITY INCOME (CODE 3) UNDER PENALTY OF PERJURY</h3>
             </div>
             <a class="entry-anchor" href="#item-35" aria-label="Permalink to fact 35">§</a>
@@ -1655,13 +1673,17 @@ a:hover { color: var(--link-hover); }
           <p>UC issued annual IRS Forms 1099-R under Distribution Code 3 (Disability), confirming my income was tax-free Duty Disability Income, each filed by UC under penalty of perjury with the Internal Revenue Service: Tax Year 2010: $30,660.80 gross / $2,244.25 taxable (92.7% tax-free); Tax Year 2011: $31,274.01 / $2,289.13; Tax Year 2012: $31,899.49 / $2,334.92; Tax Year 2013: $32,537.50 / $2,381.62; Tax Year 2014: $33,188.26 / $2,429.25.</p>
           </div>
         </article>
+      <aside class="handoffs">
+        <p class="handoffs-label">Continue to a dedicated chapter</p>
+        <div class="handoffs-grid"><a class="handoff-card" href="chapter-classification.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Disability Classification Contradictions</span><span class="handoff-desc">WCAB findings, medical separation, and the start of contradictory status records.</span><span class="handoff-arrow" aria-hidden="true">→</span></a><a class="handoff-card" href="chapter-settlement.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Settlement and Records</span><span class="handoff-desc">The civil rights case resolution and the records that followed.</span><span class="handoff-arrow" aria-hidden="true">→</span></a></div>
+      </aside>
       <p class="back-top"><a href="#top">↑ Back to top</a></p>
     </section>
     <section class="era" id="era-2009">
       <header class="era-head">
         <p class="era-range">2009–2023</p>
         <h2 class="era-title">Records Corruption and Status Contradictions</h2>
-        <p class="era-sub">Compounding records-control failures and my simultaneous classification as both DDI recipient and service retiree.</p>
+        <p class="era-sub">Compounding records-control failures and the simultaneous classification of Harold as both DDI recipient and service retiree.</p>
         <p class="era-meta">Entries 36–50</p>
       </header>
       
@@ -1669,7 +1691,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">36</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 36</span> </p>
               <h3 class="entry-title"><span class="entry-date">AUGUST 29, 2013</span> — CCW PERMIT NO. 2: &quot;RETIRED IN GOOD STANDING&quot;</h3>
             </div>
             <a class="entry-anchor" href="#item-36" aria-label="Permalink to fact 36">§</a>
@@ -1682,7 +1704,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">37</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 37</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">SEPTEMBER 29, 2009</span> — JUNE 8, 2010 — ★ PATTERN ITEM 1 OF 3: THOMAS HERZ / UCOP — FIRST ATTEMPT TO TERMINATE MEDICAL COVERAGE</h3>
             </div>
             <a class="entry-anchor" href="#item-37" aria-label="Permalink to fact 37">§</a>
@@ -1697,7 +1719,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">38</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 38</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APPROXIMATELY 2014–2015</span> — ★ PATTERN ITEM 2 OF 3: THIRD-PARTY ADJUSTER / &quot;AT YOUR SERVICE&quot; — SECOND ATTEMPT: DDI CONVERSION</h3>
             </div>
             <a class="entry-anchor" href="#item-38" aria-label="Permalink to fact 38">§</a>
@@ -1711,7 +1733,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">39</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 39</span> </p>
               <h3 class="entry-title"><span class="entry-date">TAX YEAR 2015</span> — THREE CONFLICTING IRS FORMS FOR THE SAME YEAR</h3>
             </div>
             <a class="entry-anchor" href="#item-39" aria-label="Permalink to fact 39">§</a>
@@ -1724,7 +1746,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">40</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 40</span> </p>
               <h3 class="entry-title"><span class="entry-date">TAX YEARS 2016–2025</span> — UC FILES RETIREMENT INCOME (CODE 2 THEN CODE 7) UNDER PENALTY OF PERJURY</h3>
             </div>
             <a class="entry-anchor" href="#item-40" aria-label="Permalink to fact 40">§</a>
@@ -1737,7 +1759,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">41</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 41</span> </p>
               <h3 class="entry-title"><span class="entry-date">AUGUST 29, 2018</span> — CCW PERMIT NO. 2 EXPIRES; NO RENEWAL NOTICE SENT</h3>
             </div>
             <a class="entry-anchor" href="#item-41" aria-label="Permalink to fact 41">§</a>
@@ -1750,7 +1772,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">42</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 42</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 2019</span> — EMAIL ADDRESS DROPPED FROM RETIREE LIST; CORRECTED</h3>
             </div>
             <a class="entry-anchor" href="#item-42" aria-label="Permalink to fact 42">§</a>
@@ -1763,7 +1785,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">43</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 43</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 23, 2020</span> — ECHOLS CANCELS TRAINING; NEVER NOTIFIES ME OF RESUMPTION</h3>
             </div>
             <a class="entry-anchor" href="#item-43" aria-label="Permalink to fact 43">§</a>
@@ -1776,7 +1798,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">44</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 44</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 24, 2021</span> — IDA FONG CALL NO. 1 — UC DISCOVERS ITS OWN ERROR; UCOP RECEIVES ACTUAL NOTICE</h3>
             </div>
             <a class="entry-anchor" href="#item-44" aria-label="Permalink to fact 44">§</a>
@@ -1791,7 +1813,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">45</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 45</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 12, 2021 at 1:46 PM</span> — OCTAGON LETTER DELIVERED TO UCOP INBOX</h3>
             </div>
             <a class="entry-anchor" href="#item-45" aria-label="Permalink to fact 45">§</a>
@@ -1804,7 +1826,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">46</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 46</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 18, 2021</span> — IDA FONG CALL NO. 2 — UC CORRECTS MAX&#x27;S RECORD; DECLINES TO CORRECT MINE</h3>
             </div>
             <a class="entry-anchor" href="#item-46" aria-label="Permalink to fact 46">§</a>
@@ -1818,7 +1840,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">47</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 47</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">AUGUST 7, 2022 at 3:07 PM</span> — UCRAYS SCREENSHOT: MAX STILL ENROLLED AS HEALTH ENROLLEE AT AGE 28</h3>
             </div>
             <a class="entry-anchor" href="#item-47" aria-label="Permalink to fact 47">§</a>
@@ -1834,7 +1856,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">48</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 48</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">NOVEMBER 9, 2021</span> — FORMAL AUDIT REQUEST TO ALEXANDER BUSTAMANTE — NO RESPONSE — FIVE INDEPENDENT INSTITUTIONAL VIOLATIONS</h3>
             </div>
             <a class="entry-anchor" href="#item-48" aria-label="Permalink to fact 48">§</a>
@@ -1849,7 +1871,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">49</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 49</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">NOVEMBER 28, 2022</span> — CONFIRMED UCOP PORTAL LOGIN AND EVIDENTIARY PRESERVATION</h3>
             </div>
             <a class="entry-anchor" href="#item-49" aria-label="Permalink to fact 49">§</a>
@@ -1862,7 +1884,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">50</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 50</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">AUGUST 21–25, 2023</span> — CAPTAIN CHOBANIAN: &quot;ACTIVE RETIREE&quot; TO &quot;MEDICALLY SEPARATED&quot; IN FOUR DAYS</h3>
             </div>
             <a class="entry-anchor" href="#item-50" aria-label="Permalink to fact 50">§</a>
@@ -1872,6 +1894,10 @@ a:hover { color: var(--link-hover); }
           <p>PATTERN ATTEMPT #3 — DECEMBER 2025 — FEBRUARY 2026 — HEALTH COVERAGE TERMINATION CAMPAIGN</p>
           </div>
         </article>
+      <aside class="handoffs">
+        <p class="handoffs-label">Continue to a dedicated chapter</p>
+        <div class="handoffs-grid"><a class="handoff-card" href="chapter-records.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Records Corruption Timeline</span><span class="handoff-desc">UCRAYS, RASC, and the simultaneous classification problem.</span><span class="handoff-arrow" aria-hidden="true">→</span></a><a class="handoff-card" href="chapter-exhibits.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Exhibit Register</span><span class="handoff-desc">The documentary record cited throughout this statement.</span><span class="handoff-arrow" aria-hidden="true">→</span></a></div>
+      </aside>
       <p class="back-top"><a href="#top">↑ Back to top</a></p>
     </section>
     <section class="era" id="era-2025">
@@ -1886,7 +1912,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">51</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 51</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">DECEMBER 26, 2025</span> — ★ PATTERN ITEM 3 OF 3: &quot;ROBIN&quot; / RASC — THIRD ATTEMPT TO TERMINATE MEDICAL COVERAGE; WRONG UBEN FORM DELIVERED; PREMIUM DEDUCTION PIPELINE ACTIVATED</h3>
             </div>
             <a class="entry-anchor" href="#item-51" aria-label="Permalink to fact 51">§</a>
@@ -1908,7 +1934,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">52</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 52</span> </p>
               <h3 class="entry-title"><span class="entry-date">JANUARY 1, 2026</span> — UC&#x27;S OWN SYSTEMS AUTO-ENROLL ME IN MEDIGAP</h3>
             </div>
             <a class="entry-anchor" href="#item-52" aria-label="Permalink to fact 52">§</a>
@@ -1923,7 +1949,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">53</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 53</span> </p>
               <h3 class="entry-title"><span class="entry-date">JANUARY 29, 2026</span> — IMMEDIATE HOLD REQUEST TO UC RASC</h3>
             </div>
             <a class="entry-anchor" href="#item-53" aria-label="Permalink to fact 53">§</a>
@@ -1936,7 +1962,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">54</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 54</span> </p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 1, 2026</span> — I DISCOVER THE PREMIUM DEDUCTION HAS BEEN REMOVED — FROM MY BANK STATEMENT</h3>
             </div>
             <a class="entry-anchor" href="#item-54" aria-label="Permalink to fact 54">§</a>
@@ -1951,7 +1977,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">55</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 55</span> </p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 2, 2026</span> — VIA BENEFITS CONFIRMS MY INELIGIBILITY</h3>
             </div>
             <a class="entry-anchor" href="#item-55" aria-label="Permalink to fact 55">§</a>
@@ -1966,7 +1992,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">56</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 56</span> </p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 9, 2026</span> — POBR RECORDS DEMAND; CHOBANIAN REFUSES</h3>
             </div>
             <a class="entry-anchor" href="#item-56" aria-label="Permalink to fact 56">§</a>
@@ -1979,7 +2005,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">57</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 57</span> </p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 11, 2026</span> — WILLIAMS-COOK CALLS ME PERSONALLY; DOES NOT DISCLOSE PREMIUM REMOVAL</h3>
             </div>
             <a class="entry-anchor" href="#item-57" aria-label="Permalink to fact 57">§</a>
@@ -1992,7 +2018,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">58</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 58</span> </p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 19, 2026</span> — CRIME REPORT FILED UNDER LABOR CODE § 132a</h3>
             </div>
             <a class="entry-anchor" href="#item-58" aria-label="Permalink to fact 58">§</a>
@@ -2005,7 +2031,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">59</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 59</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 24, 2026</span> — POST COMPLAINTS FILED; LT. ECHOLS: THREE IRRECONCILABLE FILE STATEMENTS IN 41 MINUTES</h3>
             </div>
             <a class="entry-anchor" href="#item-59" aria-label="Permalink to fact 59">§</a>
@@ -2018,7 +2044,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">60</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 60</span> </p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 25, 2026</span> — RADICAL PROSTATECTOMY</h3>
             </div>
             <a class="entry-anchor" href="#item-60" aria-label="Permalink to fact 60">§</a>
@@ -2031,15 +2057,15 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">61</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 61</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">FEBRUARY 27, 2026</span> — THE UBEN 100 FORM SWITCHEROO — DENIAL ISSUED TWO DAYS AFTER CANCER SURGERY</h3>
             </div>
             <a class="entry-anchor" href="#item-61" aria-label="Permalink to fact 61">§</a>
           </header>
           <div class="entry-body">
           <p>Two days after my surgery, UC RASC Benefits Analyst III Beverly Jeanine Williams-Cook dated a written Administrative Review Determination denying my re-enrollment in UC High Option Supplement to Medicare. Williams-Cook processed my dispute using the superseded UBEN 100 form bearing revision code R10/21 — the same form &quot;Robin&quot; had provided to me on December 26, 2025. The current UBEN 100 form, bearing revision code R1/26, had been published by UC in January 2026 — the same month Williams-Cook was assigned my case. Williams-Cook held my dispute for 28 days and never informed me that a new version of the controlling enrollment form had been published during the period of her review. The R1/26 form contains materially different enrollment criteria relevant to my case. By processing my dispute on the superseded R10/21 form, Williams-Cook ensured a procedurally defective record regardless of the merits.</p>
-          <p>The determination states my coverage &quot;will be suspended on April 30, 2026, due to non-compliance with UC retiree health policy.&quot; The determination records four factual findings: (1) I elected regular retirement in June 2015; (2) I am not receiving UCRP Disability Income; (3) I have Medicare eligibility status; and (4) I currently reside outside of California. The determination directs me exclusively to Via Benefits as the only alternative — without disclosing my Medigap guaranteed issue rights under 42 U.S.C. § 1395ss(q)(2) and (3). Additionally, the denial letter: contained an incomplete phone number (800-888-826, missing the final digit); did not request a single document from me; did not address any of my six prior RASC filings; and was mailed late and received by me on approximately March 28–29, 2026 — 30 days after the date printed on the letter. I retained the envelope.</p>
-          <p>On February 27, 2026 — two days after my cancer surgery — the University of California issued a written determination that I was ineligible for UC High Option Supplement to Medicare coverage because I resided in Arizona, was not receiving UCRP Disability Income, and had no option other than Via Benefits, and that my coverage would terminate April 30, 2026; then, after I filed the correct current UBEN 100 (R1/26) enrollment form checking the &quot;Involuntary loss of coverage&quot; checkbox, UC re-enrolled me in the identical UC High Option Supplement to Medicare coverage it had just declared him ineligible for, in the identical state it had just declared disqualifying, under the identical disability status it had just declared irrelevant, through the identical insurer it had just directed him away from, while the only alternative UC had offered him — Via Benefits — had already confirmed in writing that I was ineligible for that alternative due to the identical disability status UC had simultaneously declared he did not have — all of this occurring while I was recovering from cancer surgery, undergoing cardiac treatment, and receiving neurological care.</p>
+          <p>The determination states Harold&#x27;s coverage &quot;will be suspended on April 30, 2026, due to non-compliance with UC retiree health policy.&quot; The determination records four factual findings: (1) Harold elected regular retirement in June 2015; (2) Harold is not receiving UCRP Disability Income; (3) Harold has Medicare eligibility status; and (4) Harold currently resides outside of California. The determination directs Harold exclusively to Via Benefits as the only alternative — without disclosing Harold&#x27;s Medigap guaranteed issue rights under 42 U.S.C. § 1395ss(q)(2) and (3). Additionally, the denial letter: contained an incomplete phone number (800-888-826, missing the final digit); did not request a single document from Harold; did not address any of Harold&#x27;s six prior RASC filings; and was mailed late and received by Harold on approximately March 28–29, 2026 — 30 days after the date printed on the letter. Harold retained the envelope.</p>
+          <p>On February 27, 2026 — two days after Harold&#x27;s cancer surgery — the University of California issued a written determination that Harold was ineligible for UC High Option Supplement to Medicare coverage because he resided in Arizona, was not receiving UCRP Disability Income, and had no option other than Via Benefits, and that his coverage would terminate April 30, 2026; then, after Harold filed the correct current UBEN 100 (R1/26) enrollment form checking the &quot;Involuntary loss of coverage&quot; checkbox, UC re-enrolled Harold in the identical UC High Option Supplement to Medicare coverage it had just declared him ineligible for, in the identical state it had just declared disqualifying, under the identical disability status it had just declared irrelevant, through the identical insurer it had just directed him away from, while the only alternative UC had offered him — Via Benefits — had already confirmed in writing that Harold was ineligible for that alternative due to the identical disability status UC had simultaneously declared he did not have — all of this occurring while Harold was recovering from cancer surgery, undergoing cardiac treatment, and receiving neurological care.</p>
           <p>MARCH 25 — APRIL 28, 2026 — REGULATORY FILINGS AND COVERAGE DISPUTE TIMELINE</p>
           </div>
         </article>
@@ -2047,7 +2073,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">62</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 62</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 25, 2026</span> — FIRST WRITTEN NOTICE TO ANTHEM BLUE CROSS</h3>
             </div>
             <a class="entry-anchor" href="#item-62" aria-label="Permalink to fact 62">§</a>
@@ -2060,7 +2086,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">63</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 63</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 27, 2026</span> — TAMIKA LYONS / CMS COMMITS IN WRITING TO RESEARCH; ACTIVE ENGAGEMENT PREDATES APRIL 1 TERMINATION</h3>
             </div>
             <a class="entry-anchor" href="#item-63" aria-label="Permalink to fact 63">§</a>
@@ -2075,7 +2101,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">64</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 64</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 30, 2026</span> — CONTROLLING LEGAL NOTICE TO ANTHEM BLUE CROSS (20-PAGE SUPERSEDING LETTER)</h3>
             </div>
             <a class="entry-anchor" href="#item-64" aria-label="Permalink to fact 64">§</a>
@@ -2089,7 +2115,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">65</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 65</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 31, 2026</span> — HIPAA RECORDS REQUEST TO ANTHEM; 30-DAY DEADLINE APRIL 30, 2026</h3>
             </div>
             <a class="entry-anchor" href="#item-65" aria-label="Permalink to fact 65">§</a>
@@ -2104,7 +2130,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">66</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 66</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 31, 2026 at 5:25 PM PACIFIC</span> — DMHC COMPLAINT FILED; A FOURTH TERMINATION DATE ENTERS THE RECORD</h3>
             </div>
             <a class="entry-anchor" href="#item-66" aria-label="Permalink to fact 66">§</a>
@@ -2118,7 +2144,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">67</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 67</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 31, 2026 at 6:35 PM</span> — I NOTIFY ANTHEM OF UC-MANUFACTURED PREMIUM NON-PAYMENT; OFFER TO PAY DIRECTLY</h3>
             </div>
             <a class="entry-anchor" href="#item-67" aria-label="Permalink to fact 67">§</a>
@@ -2133,27 +2159,27 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">68</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 68</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APRIL 1, 2026</span> — ANTHEM TERMINATES COVERAGE 29 DAYS EARLY; 24-MONTH ZERO-NOTICE RECORD</h3>
             </div>
             <a class="entry-anchor" href="#item-68" aria-label="Permalink to fact 68">§</a>
           </header>
           <div class="entry-body">
-          <p>My UC High Option Supplement to Medicare coverage is terminated on April 1, 2026 — 29 days before the April 30, 2026 date stated in the Williams-Cook determination as the coverage suspension date. I discover the termination himself upon logging into the Anthem Blue Cross member portal on April 1, 2026. The portal displays a red INACTIVE status badge on my plan. No grace period notice was sent to me prior to termination. No delinquency notice was sent. No advance written notice of any kind was sent.</p>
-          <p>In the 24-month period ending April 2, 2026, Anthem Blue Cross sent me zero notices of any kind — no premium delinquency notice, no grace period notice, no cancellation warning.</p>
+          <p>Harold&#x27;s UC High Option Supplement to Medicare coverage is terminated on April 1, 2026 — 29 days before the April 30, 2026 date stated in the Williams-Cook determination as the coverage suspension date. Harold discovers the termination himself upon logging into the Anthem Blue Cross member portal on April 1, 2026. The portal displays a red INACTIVE status badge on Harold&#x27;s plan. No grace period notice was sent to Harold prior to termination. No delinquency notice was sent. No advance written notice of any kind was sent.</p>
+          <p>In the 24-month period ending April 2, 2026, Anthem Blue Cross sent Harold zero notices of any kind — no premium delinquency notice, no grace period notice, no cancellation warning.</p>
           <p>California Insurance Code § 10273.6 and standard Medigap policy provisions require written notice before coverage is cancelled for non-payment of premium, with a grace period to cure.</p>
           <p>Who Entered April 1 into Anthem&#x27;s Enrollment System</p>
-          <p>The Anthem Blue Cross member portal plan period selector shows my 2026 coverage ending on April 1, 2026. That date did not appear in the Anthem system by accident and it did not appear because I requested it. A plan period end date of April 1, 2026 in Anthem&#x27;s enrollment system means that someone — a human being with administrative access — entered April 1, 2026 as the coverage termination date into Anthem&#x27;s group enrollment system. That entry did not occur on its own.</p>
+          <p>The Anthem Blue Cross member portal plan period selector shows Harold&#x27;s 2026 coverage ending on April 1, 2026. That date did not appear in the Anthem system by accident and it did not appear because Harold requested it. A plan period end date of April 1, 2026 in Anthem&#x27;s enrollment system means that someone — a human being with administrative access — entered April 1, 2026 as the coverage termination date into Anthem&#x27;s group enrollment system. That entry did not occur on its own.</p>
           <p>Anthem Blue Cross has represented in correspondence that UC, as the group policyholder, is the contracting party responsible for enrollment and termination decisions under the group plan. UC&#x27;s own Group Insurance Regulations state that &quot;By authority of the Regents, University of California Human Resources, located in Oakland, administers all benefit plans.&quot; Under that structure, the termination entry in Anthem&#x27;s system on or before April 1, 2026 was directed by UC — not by Anthem acting unilaterally, and not by me.</p>
           <p>The factual conflict this creates is documented entirely in UC&#x27;s and Anthem&#x27;s own records: Williams-Cook&#x27;s written determination, dated February 27, 2026, states coverage will be suspended April 30, 2026. Someone then entered April 1, 2026 — not April 30 — into Anthem&#x27;s enrollment system, causing the plan period to close 29 days before Williams-Cook&#x27;s own stated date. Allison Cumming at Elevance Health, on April 1, 2026, acknowledged in writing &quot;your policy terminating on April 30th, 2026&quot; — meaning that as of 3:14 PM on April 1, Anthem&#x27;s own Executive Concierge still had April 30 in her records, while Anthem&#x27;s own enrollment system had already closed the plan period at April 1.</p>
           <p>Three documented facts therefore stand simultaneously: First — Williams-Cook stated April 30 in writing on February 27, 2026. Second — Someone entered April 1 into Anthem&#x27;s enrollment system, closing the plan period 29 days early, before Cumming sent her email at 3:14 PM on April 1. Third — Cumming&#x27;s email at 3:14 PM on April 1 still referenced April 30 — meaning the right hand of Anthem/Elevance did not know what the left hand had already done in the enrollment system that same morning.</p>
           <p>The identity of the person who entered April 1, 2026 as the plan period end date in Anthem&#x27;s enrollment system has not been disclosed to me in writing by UC or Anthem as of the date of this sworn statement. That question — who made that entry, on whose authority, and on what date — has been directed to DMHC Case #1409109, CMS Case #7100158, and to Allison Cumming at Elevance Health. No written answer has been received.</p>
-          <p>April 1, 2026 — Allison Cumming / Elevance Health Contacts Me at 3:14 PM</p>
+          <p>April 1, 2026 — Allison Cumming / Elevance Health Contacts Harold at 3:14 PM</p>
           <p>On April 1, 2026 — the same day I logged into the Anthem portal and discovered my plan showing as INACTIVE — I received the following email:</p>
           <p>FROM: allison.cumming@elevancehealth.com  TO: chuckharold@gmail.com  DATE: Wednesday, April 1, 2026 at 3:14 PM  SUBJECT: FAX ESCALATION / CSHD (CA) / ack follow up</p>
           <p>&quot;Good morning, Mr. Harold. I tried to reach you by phone at 818-652-6400 a short time ago. Our Executive Concierge team has received your fax regarding your policy terminating on April 30th, 2026. We have assigned an analyst from our team who will investigate this on your behalf. We will provide you with an update as soon as new information becomes available. Thank you, Allison. Allison Cumming, Resolution Lead, Consumer Experience Office, Elevance Health Executive Concierge, 615-306-9712.&quot;</p>
           <p>Allison Cumming is a Resolution Lead in the Consumer Experience Office of Elevance Health — the corporate parent of Anthem Blue Cross. She contacted me proactively on April 1, 2026 after Anthem Blue Cross received my fax asking to stop all termination of my coverage. She wrote this email on the same day and at the same time Anthem&#x27;s own portal was displaying my plan as INACTIVE. She did not dispute the April 30 date. She did not correct it. She did not state that my coverage had already been terminated on April 1. She assigned an analyst to investigate.</p>
-          <p>April 1, 2026 at 10:10 AM — Lt. James Echols / UCLA PD Contacts Me</p>
+          <p>April 1, 2026 at 10:10 AM — Lt. James Echols / UCLA PD Contacts Harold</p>
           <p>Lt. James Echols, jechols@ucpd.ucla.edu, emailed me at 10:10 AM, CC: &quot;Chobanian, Jeff&quot; &lt;Chobanian@ucpd.ucla.edu&gt;, stating: &quot;Hello Chuck, I did receive a box that should have had your files in it, but it was not the correct box. I am now in the process of tracking down the correct box. It has been quite some time since you worked here so locating your files, if they still exist, is a bit challenging. I appreciate your patience as I try to assist you with your request.&quot; — signed Lieutenant James Echols, UCLA Police Department, 601 Westwood Plaza, Los Angeles, CA 90095, Office: (310) 794-7218, Cell: (213) 604-1851, jechols@ucpd.ucla.edu, 310-825-1491 (24 hr).</p>
           </div>
         </article>
@@ -2161,45 +2187,45 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">69</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 69</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APRIL 1, 2026</span> — ALL DMHC AND CMS FILINGS TRANSMITTED DIRECTLY TO ALLISON CUMMING AT ELEVANCE HEALTH</h3>
             </div>
             <a class="entry-anchor" href="#item-69" aria-label="Permalink to fact 69">§</a>
           </header>
           <div class="entry-body">
-          <p>On April 1, 2026, I forwarded all DMHC Case #1409109 and CMS Case #7100158 regulatory filings directly to Allison Cumming, Executive Concierge at Elevance Health — Anthem Blue Cross&#x27;s parent company — at allison.cumming@elevancehealth.com, with copies to Kelly Tursany and Petina Jones. I subsequently transmitted the 4th Supplemental DMHC filing directly to Cumming on April 7, 2026, at 7:47 PM (email: &quot;Good evening Allison, Attached is my 4th Supplemental report filed tonight with DMHC. After my insurance was canceled on April 1, it appears to have been reinstated, without notification, sometime after I submitted my UCBEN form April 3, 2026.&quot;), and the 5th Supplemental DMHC filing directly to Cumming on April 8, 2026 at 9:07 PM (email: &quot;Hello Allison, Attached is my 5th Supplemental report filed tonight with DMHC. This report contains an exhibit index that may help you navigate the facts.&quot;).</p>
-          <p>Anthem Blue Cross, in receipt of all five DMHC supplemental filings and the CMS complaint, took no corrective action to restore my coverage, produce my missing medical records, or resolve the guaranteed issue obligation.</p>
+          <p>On April 1, 2026, Harold forwarded all DMHC Case #1409109 and CMS Case #7100158 regulatory filings directly to Allison Cumming, Executive Concierge at Elevance Health — Anthem Blue Cross&#x27;s parent company — at allison.cumming@elevancehealth.com, with copies to Kelly Tursany and Petina Jones. Harold subsequently transmitted the 4th Supplemental DMHC filing directly to Cumming on April 7, 2026, at 7:47 PM (email: &quot;Good evening Allison, Attached is my 4th Supplemental report filed tonight with DMHC. After my insurance was canceled on April 1, it appears to have been reinstated, without notification, sometime after I submitted my UCBEN form April 3, 2026.&quot;), and the 5th Supplemental DMHC filing directly to Cumming on April 8, 2026 at 9:07 PM (email: &quot;Hello Allison, Attached is my 5th Supplemental report filed tonight with DMHC. This report contains an exhibit index that may help you navigate the facts.&quot;).</p>
+          <p>Anthem Blue Cross, in receipt of all five DMHC supplemental filings and the CMS complaint, took no corrective action to restore Harold&#x27;s coverage, produce Harold&#x27;s missing medical records, or resolve the guaranteed issue obligation.</p>
           </div>
         </article>
         <article class="entry" id="item-70">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">70</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 70</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 2, 2026</span> — ANTHEM PORTAL SCREENSHOTS; CERTIFICATE OF CREDITABLE COVERAGE ISSUED</h3>
             </div>
             <a class="entry-anchor" href="#item-70" aria-label="Permalink to fact 70">§</a>
           </header>
           <div class="entry-body">
-          <p>I capture screenshots of the Anthem member portal the day following the termination. The screenshots, preserved as Exhibit EX_32 in the evidentiary record, show: (1) my plan displaying a red INACTIVE status badge; (2) three plan periods accessible — 2024, 2025, and 2026 through April 1; and (3) $14,094.36 in documented paid claims visible in the portal. Anthem Blue Cross generates the Certificate of Creditable Coverage dated April 2, 2026, documenting:</p>
+          <p>Harold captures screenshots of the Anthem member portal the day following the termination. The screenshots, preserved as Exhibit EX_32 in the evidentiary record, show: (1) Harold&#x27;s plan displaying a red INACTIVE status badge; (2) three plan periods accessible — 2024, 2025, and 2026 through April 1; and (3) $14,094.36 in documented paid claims visible in the portal. Anthem Blue Cross generates the Certificate of Creditable Coverage dated April 2, 2026, documenting:</p>
           <p>Date of This Notice: April 1, 2026. Issued by: Anthem Blue Cross, PO Box 60007, Los Angeles, CA 90060. Subscriber Name: CHARLES HAROLD. Group Health Plan Name: UC HIGH OPTION SUPPLEMENT. Member ID: U5X808M87210. CHARLES HAROLD: Date Benefits Began January 1, 2026, Date Benefits End April 1, 2026. SILVIA HAROLD: Date Benefits Began January 1, 2026, Date Benefits End April 1, 2026.</p>
-          <p>Under 42 U.S.C. § 1395ss(q)(2) and (3) and corresponding CMS regulations, this Certificate constitutes the federal trigger document for my guaranteed issue rights — the 63-day window during which Anthem Blue Cross, as the issuer, is federally obligated to offer me an individual Medicare Supplement (Medigap) policy without medical underwriting, without pre-existing condition exclusions, and without denial. Calculated from April 1, 2026, the 63-day guaranteed issue window runs through approximately June 3, 2026.</p>
+          <p>Under 42 U.S.C. § 1395ss(q)(2) and (3) and corresponding CMS regulations, this Certificate constitutes the federal trigger document for Harold&#x27;s guaranteed issue rights — the 63-day window during which Anthem Blue Cross, as the issuer, is federally obligated to offer Harold an individual Medicare Supplement (Medigap) policy without medical underwriting, without pre-existing condition exclusions, and without denial. Calculated from April 1, 2026, the 63-day guaranteed issue window runs through approximately June 3, 2026.</p>
           </div>
         </article>
         <article class="entry" id="item-71">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">71</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 71</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APRIL 3, 2026</span> — FEDERAL GUARANTEED ISSUE RIGHTS FORMALLY INVOKED; RE-ENROLLMENT PACKAGE FILED</h3>
             </div>
             <a class="entry-anchor" href="#item-71" aria-label="Permalink to fact 71">§</a>
           </header>
           <div class="entry-body">
-          <p>On April 3, 2026 — two days after the premature April 1 termination and in compliance with the federally required procedure for involuntary loss of Medicare Supplement coverage under 42 U.S.C. § 1395ss(q)(2) and (3) — I filed the current UBEN 100 (R1/26) — the January 2026 revision that Williams-Cook did not disclose — directly with UC RASC. On the form, under Section 2 — Action Requested, I checked the enrollment checkbox and checked the specific sub-checkbox that reads: &quot;Involuntary loss of coverage — attach proof (loss of coverage date: 04-01-2026).&quot; I attached the Anthem Blue Cross Certificate of Creditable Coverage dated April 2, 2026 as the required proof document — the same document that constitutes the federal trigger under 42 U.S.C. § 1395ss(q)(2) and (3). The Comments section of the filing states: &quot;Re-enrollment follows UC&#x27;s unilateral cancellation of coverage without notice or consent. See attached cover letter. CALIFORNIA DEPT. MANAGED HEALTH CARE — DMHC Case No. 1409109 — CMS CASE NO. 7100158.&quot;</p>
-          <p>I simultaneously transmitted an email to Allison Cumming stating: &quot;Today, I re-enrolled in UC High Option Medicare Supplement. I think Medicare calls it Part G. I doubt UC will honor it. My question to your team is: What number at Blue Cross or other Elevance Health companies should I call to enroll in a Medigap Part G plan? Our attempt to do so a few days ago with Blue Cross was not successful. The representative did not know which plan we were referring to. This is a mandatory right I have under federal statutes; however, I have a small time window in which to enroll. I would appreciate any referrals you can provide.&quot;</p>
+          <p>On April 3, 2026 — two days after the premature April 1 termination and in compliance with the federally required procedure for involuntary loss of Medicare Supplement coverage under 42 U.S.C. § 1395ss(q)(2) and (3) — Harold filed the current UBEN 100 (R1/26) — the January 2026 revision that Williams-Cook did not disclose — directly with UC RASC. On the form, under Section 2 — Action Requested, Harold checked the enrollment checkbox and checked the specific sub-checkbox that reads: &quot;Involuntary loss of coverage — attach proof (loss of coverage date: 04-01-2026).&quot; Harold attached the Anthem Blue Cross Certificate of Creditable Coverage dated April 2, 2026 as the required proof document — the same document that constitutes the federal trigger under 42 U.S.C. § 1395ss(q)(2) and (3). The Comments section of the filing states: &quot;Re-enrollment follows UC&#x27;s unilateral cancellation of coverage without notice or consent. See attached cover letter. CALIFORNIA DEPT. MANAGED HEALTH CARE — DMHC Case No. 1409109 — CMS CASE NO. 7100158.&quot;</p>
+          <p>Harold simultaneously transmitted an email to Allison Cumming stating: &quot;Today, I re-enrolled in UC High Option Medicare Supplement. I think Medicare calls it Part G. I doubt UC will honor it. My question to your team is: What number at Blue Cross or other Elevance Health companies should I call to enroll in a Medigap Part G plan? Our attempt to do so a few days ago with Blue Cross was not successful. The representative did not know which plan we were referring to. This is a mandatory right I have under federal statutes; however, I have a small time window in which to enroll. I would appreciate any referrals you can provide.&quot;</p>
           <p>The re-enrollment package was faxed to UC RASC (800) 792-5178, UC OGC (510) 355-9002, Secretary to Regents (510) 987-9224, Systemwide Senior Counsel (510) 987-9757), CMS, and DMHC. Enclosures: Exhibit A — Anthem Blue Cross Certificate of Creditable Coverage, dated April 2, 2026; Exhibit B — Signed UBEN 100 (R1/26), dated April 3, 2026; Exhibit C — Octagon Risk Services &quot;Notice Regarding Start &amp; End of Permanent Disability Benefits,&quot; dated August 8, 2001.</p>
-          <p>This filing formally invoked my 63-day guaranteed issue rights under federal law. The &quot;Involuntary loss of coverage&quot; checkbox, combined with the attached termination certificate, forecloses any UC argument that I chose to leave the plan or failed to re-enroll.</p>
+          <p>This filing formally invoked Harold&#x27;s 63-day guaranteed issue rights under federal law. The &quot;Involuntary loss of coverage&quot; checkbox, combined with the attached termination certificate, forecloses any UC argument that Harold chose to leave the plan or failed to re-enroll.</p>
           <p>The Williams-Cook denial had been processed on the superseded R10/21 form; the April 3 re-enrollment on the correct R1/26 form constitutes a correction of a procedurally defective prior determination, made on the controlling form, within the federally protected window, with the correct supporting documentation attached. Via Benefits — UC&#x27;s intended transfer pathway — cannot satisfy Anthem&#x27;s obligation under § 1395ss(q)(2)–(3) as it offers no Medigap equivalent.</p>
           </div>
         </article>
@@ -2207,29 +2233,29 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">72</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 72</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 7, 2026</span> — COVERAGE REINSTATED AFTER REGULATORY INTERVENTION</h3>
             </div>
             <a class="entry-anchor" href="#item-72" aria-label="Permalink to fact 72">§</a>
           </header>
           <div class="entry-body">
-          <p>My coverage is reinstated in the Anthem Blue Cross member portal on April 7, 2026 at 3:25 PM — only after intervention by DMHC (Case #1409109) and CMS (Case #7100158). I video-recorded the entire session. The portal displays coverage for both Charles A. Harold and Silvia Z. Harold with a retroactive effective date of January 1, 2026 — not from April 1, 2026, the date the termination occurred. A Proof of Insurance was generated from that session confirming the same — coverage active from January 1, 2026, no end date displayed.</p>
-          <p>I received no advance written notice that reinstatement was occurring. I received no written confirmation from UC RASC, Anthem Blue Cross, DMHC, or CMS that reinstatement had occurred or was being processed. I discovered it by logging in.</p>
+          <p>Harold&#x27;s coverage is reinstated in the Anthem Blue Cross member portal on April 7, 2026 at 3:25 PM — only after intervention by DMHC (Case #1409109) and CMS (Case #7100158). Harold video-recorded the entire session. The portal displays coverage for both Charles A. Harold and Silvia Z. Harold with a retroactive effective date of January 1, 2026 — not from April 1, 2026, the date the termination occurred. A Proof of Insurance was generated from that session confirming the same — coverage active from January 1, 2026, no end date displayed.</p>
+          <p>Harold received no advance written notice that reinstatement was occurring. Harold received no written confirmation from UC RASC, Anthem Blue Cross, DMHC, or CMS that reinstatement had occurred or was being processed. Harold discovered it by logging in.</p>
           <p>The reinstatement creates the following documented contradiction internal to the Anthem Blue Cross system: the Anthem Certificate of Creditable Coverage, dated April 2, 2026, states that coverage terminated April 1, 2026. The reinstated portal record, as of April 7, 2026, shows continuous coverage from January 1, 2026 with no termination date. Both documents are generated by Anthem Blue Cross. Both are in the evidentiary record.</p>
-          <p>They cannot simultaneously be true. Anthem has not provided a written explanation of which document reflects the operative state of my coverage, who directed the April 1 termination entry into the enrollment system, or who directed the April 7 reinstatement.</p>
+          <p>They cannot simultaneously be true. Anthem has not provided a written explanation of which document reflects the operative state of Harold&#x27;s coverage, who directed the April 1 termination entry into the enrollment system, or who directed the April 7 reinstatement.</p>
           </div>
         </article>
         <article class="entry" id="item-73">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">73</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 73</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 8, 2026</span> — LETTER TO TAMIKA LYONS, CMS, VERSION 1: COB AUDIT REQUEST</h3>
             </div>
             <a class="entry-anchor" href="#item-73" aria-label="Permalink to fact 73">§</a>
           </header>
           <div class="entry-body">
-          <p>I transmitted a formal letter to Tamika Lyons, Health Insurance Specialist, Centers for Medicare &amp; Medicaid Services, OPOLE, Phone: 212-616-2340, Fax: 443-380-5148, Tamika.Lyons@cms.hhs.gov, dated April 8, 2026. Subject: CMS Case #7100158 — Reference 03262026Q010 — Request for CMS Coordination of Benefits Database Audit. Member: Charles A. Harold Jr., Medicare ID: 9AU6-NQ2-DD46. Dependent: Silvia Harold, Medicare ID: 2KJ0-RM4-YM15. The letter references Lyons&#x27;s March 27, 2026 email in which she committed to researching the matter further.</p>
+          <p>Harold transmitted a formal letter to Tamika Lyons, Health Insurance Specialist, Centers for Medicare &amp; Medicaid Services, OPOLE, Phone: 212-616-2340, Fax: 443-380-5148, Tamika.Lyons@cms.hhs.gov, dated April 8, 2026. Subject: CMS Case #7100158 — Reference 03262026Q010 — Request for CMS Coordination of Benefits Database Audit. Member: Charles A. Harold Jr., Medicare ID: 9AU6-NQ2-DD46. Dependent: Silvia Harold, Medicare ID: 2KJ0-RM4-YM15. The letter references Lyons&#x27;s March 27, 2026 email in which she committed to researching the matter further.</p>
           <p>The letter identifies four COB database anomalies: Anomaly 1 — A pre-65 enrollment/cancellation entry that should not exist (discovered approximately December 24, 2025, disappeared between two calls with CMS representatives); Anomaly 2 — A crossover record anomaly; Anomaly 3 — COB configuration errors causing retroactive claim denials; Anomaly 4 — Member ID retroactively changed in Anthem&#x27;s portal from pre-Medicare VUC808M87210 to post-Medicare U5X808M87210 for 2024 and 2025 plan years, corresponding temporally with the disappearance of the December 2023 Valley Fever hospitalization (approximately $230,000 in claims).</p>
           <p>The letter documents five developments since March 30, 2026: April 1 termination 29 days early; April 1–2 DMHC 1st through 3rd supplemental complaints; April 7 portal restored ACTIVE with retroactive January 1, 2026 effective date, zero notice; April 8 DMHC 5th supplemental filing documenting Chiari I malformation discovered during December 2023 covered hospitalization whose records are completely absent from Anthem&#x27;s portal. All six DMHC filings (original plus five supplementals) were transmitted to Lyons.</p>
           </div>
@@ -2238,33 +2264,33 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">74</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 74</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 9, 2026</span> — LETTER TO TAMIKA LYONS, CMS, VERSION 2 — REVISED AND EXPANDED</h3>
             </div>
             <a class="entry-anchor" href="#item-74" aria-label="Permalink to fact 74">§</a>
           </header>
           <div class="entry-body">
-          <p>I transmitted an expanded version of the CMS COB audit request letter, dated April 9, 2026, to Tamika Lyons. The letter requests verification of five specific items in the CMS COB system for Medicare IDs 9AU6-NQ2-DD46 and 2KJ0-RM4-YM15: (a) whether COB records correctly show Blue Cross of California as sole secondary insurer; (b) whether a crossover record exists; (c) whether enrollment/cancellation/modification entries exist before January 3, 2026; (d) whether retroactive Member ID changes were submitted; (e) whether any retroactive changes were submitted by Anthem or UC between April 1, 2026 and April 7, 2026 specifically. The letter states: &quot;The improper COB Coordination of Benefits in my case, could mean the difference between living a normal lifespan or my lifespan being cut short due to lack of High Option medical treatment choices.&quot;</p>
+          <p>Harold transmitted an expanded version of the CMS COB audit request letter, dated April 9, 2026, to Tamika Lyons. The letter requests verification of five specific items in the CMS COB system for Medicare IDs 9AU6-NQ2-DD46 and 2KJ0-RM4-YM15: (a) whether COB records correctly show Blue Cross of California as sole secondary insurer; (b) whether a crossover record exists; (c) whether enrollment/cancellation/modification entries exist before January 3, 2026; (d) whether retroactive Member ID changes were submitted; (e) whether any retroactive changes were submitted by Anthem or UC between April 1, 2026 and April 7, 2026 specifically. The letter states: &quot;The improper COB Coordination of Benefits in my case, could mean the difference between living a normal lifespan or my lifespan being cut short due to lack of High Option medical treatment choices.&quot;</p>
           </div>
         </article>
         <article class="entry" id="item-75">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">75</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 75</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APRIL 9, 2026</span> — ERIN MORSE 90-DAY REVIEW LETTER; CLOCK RUNNING PAST ENROLLMENT DEADLINE</h3>
             </div>
             <a class="entry-anchor" href="#item-75" aria-label="Permalink to fact 75">§</a>
           </header>
           <div class="entry-body">
-          <p>Eight days after Anthem had already shown my plan as INACTIVE and two days after the portal had been restored to ACTIVE, I received an email from DoNot.Reply@ucop.edu at 5:08 PM, subject line &quot;TIMELY LEGAL NOTICE TO STOP ALL MEDICAL COVERAGE TRANSFER ACTIONS (CRMCASEID1871390),&quot; signed by Erin Morse, Benefits/Insurance Supervisor, Retirement Administration Service Center, Erin.morse@ucop.edu, 510-987-0762. The letter&#x27;s operative language states:</p>
+          <p>Eight days after Anthem had already shown Harold&#x27;s plan as INACTIVE and two days after the portal had been restored to ACTIVE, Harold received an email from DoNot.Reply@ucop.edu at 5:08 PM, subject line &quot;TIMELY LEGAL NOTICE TO STOP ALL MEDICAL COVERAGE TRANSFER ACTIONS (CRMCASEID1871390),&quot; signed by Erin Morse, Benefits/Insurance Supervisor, Retirement Administration Service Center, Erin.morse@ucop.edu, 510-987-0762. The letter&#x27;s operative language states:</p>
           <p>&quot;Pending the Plan Administrator&#x27;s review of your Complaint, the University will preserve the status quo, and you and your spouse will continue to be enrolled in the UC High Option Supplement plan until a final decision has been made regarding your and your spouse&#x27;s continued eligibility to remain in the UC High Option Supplement plan. The RASC will inform you of the Plan Administrator&#x27;s decision within the next 90 days.&quot;</p>
-          <p>The Morse letter does not acknowledge that Anthem had already terminated my coverage on April 1, 2026. It does not acknowledge that Anthem had already generated a Certificate of Creditable Coverage documenting that termination. It does not disclose that my federal 63-day guaranteed issue window was already running.</p>
-          <p>The 90-day window stated in the Morse letter, calculated from April 9, 2026, runs through approximately July 8, 2026. The 63-day federally protected guaranteed issue window, calculated from the April 1, 2026 termination date on the Anthem Certificate of Creditable Coverage, runs through approximately June 3, 2026. The Morse 90-day review window therefore extends approximately 35 days past the expiration of my federal guaranteed issue rights.</p>
-          <p>A final determination issued by the Plan Administrator at the outer limit of the Morse review period — July 8, 2026 — would be issued after my guaranteed issue window has closed, leaving me without any underwriting-free Medigap enrollment pathway if that determination is adverse.</p>
-          <p>I have been in this position before. In 1996, Acting Chief Karl T. Ross told me that UC had up to 120 days to determine whether his workers&#x27; compensation claim was valid before paying me anything. I waited. The result was loss of my home refinance loan, bankruptcy, a drive-by shooting at his home, and the loss of my wife&#x27;s third pregnancy. In 2015, UC&#x27;s &quot;At Your Service&quot; representative told me I would &quot;lose everything&quot; if I did not immediately convert from Duty Disability Income to service retirement. I converted. I lost $1,700 per month in income and began paying $727.48 per month in premiums that had previously been paid by UC under the terms of my workers&#x27; compensation settlement.</p>
-          <p>The Morse letter presents the identical structure for the third time: a UC administrative window that, if relied upon, causes the expiration of a federal right before UC is required to give me an answer. A Medicare beneficiary who read the Morse letter on April 9, 2026 and relied on its plain language — &quot;you will continue to be enrolled until a final decision has been made&quot; — would have had no written basis from any UC source to know that the federal clock for guaranteed issue enrollment without medical underwriting was simultaneously running and would expire 35 days before UC was required to respond.</p>
-          <p>I did not wait. I went to State Farm on April 20, 2026. The State Farm policies are the documented result of that decision.</p>
+          <p>The Morse letter does not acknowledge that Anthem had already terminated Harold&#x27;s coverage on April 1, 2026. It does not acknowledge that Anthem had already generated a Certificate of Creditable Coverage documenting that termination. It does not disclose that Harold&#x27;s federal 63-day guaranteed issue window was already running.</p>
+          <p>The 90-day window stated in the Morse letter, calculated from April 9, 2026, runs through approximately July 8, 2026. The 63-day federally protected guaranteed issue window, calculated from the April 1, 2026 termination date on the Anthem Certificate of Creditable Coverage, runs through approximately June 3, 2026. The Morse 90-day review window therefore extends approximately 35 days past the expiration of Harold&#x27;s federal guaranteed issue rights.</p>
+          <p>A final determination issued by the Plan Administrator at the outer limit of the Morse review period — July 8, 2026 — would be issued after Harold&#x27;s guaranteed issue window has closed, leaving Harold without any underwriting-free Medigap enrollment pathway if that determination is adverse.</p>
+          <p>Harold has been in this position before. In 1996, Acting Chief Karl T. Ross told Harold that UC had up to 120 days to determine whether his workers&#x27; compensation claim was valid before paying him anything. Harold waited. The result was loss of his home refinance loan, bankruptcy, a drive-by shooting at his home, and the loss of his wife&#x27;s third pregnancy. In 2015, UC&#x27;s &quot;At Your Service&quot; representative told Harold he would &quot;lose everything&quot; if he did not immediately convert from Duty Disability Income to service retirement. Harold converted. Harold lost $1,700 per month in income and began paying $727.48 per month in premiums that had previously been paid by UC under the terms of his workers&#x27; compensation settlement.</p>
+          <p>The Morse letter presents the identical structure for the third time: a UC administrative window that, if relied upon, causes the expiration of a federal right before UC is required to give Harold an answer. A Medicare beneficiary who read the Morse letter on April 9, 2026 and relied on its plain language — &quot;you will continue to be enrolled until a final decision has been made&quot; — would have had no written basis from any UC source to know that the federal clock for guaranteed issue enrollment without medical underwriting was simultaneously running and would expire 35 days before UC was required to respond.</p>
+          <p>Harold did not wait. Harold went to State Farm on April 20, 2026. The State Farm policies are the documented result of that decision.</p>
           
           <p style="margin-top:14px;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:#444"><strong>Exhibit:</strong> <a href="https://bruinwatch.org/dist-ucla-compliance/uc-audit-request/exhibits/EX%2041%202026-04-09%20ERIN%20MORSE%2090%20DAY%20REVIEW%20EMAIL.pdf" target="_blank" rel="noopener" style="color:#0066cc;font-weight:700;text-decoration:underline">EX 41 — Erin Morse 90-Day Review email (April 9, 2026)</a></p>
           </div>
@@ -2273,13 +2299,13 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">76</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 76</span> </p>
               <h3 class="entry-title"><span class="entry-date">MARCH 30, 2026 (REQUEST) / APRIL 10, 2026 (RESPONSE)</span> — UCLA PRR #26-6921: RACHEL POUNDS RESPONSE</h3>
             </div>
             <a class="entry-anchor" href="#item-76" aria-label="Permalink to fact 76">§</a>
           </header>
           <div class="entry-body">
-          <p>On March 30, 2026, I filed a formal records request with UCLA Information Practices under both the California Public Records Act (CPRA) and the California Information Practices Act (IPA). UCLA received the request on March 31, 2026. UCLA Information Practices assigned the matter Public Records Request number PRR #26-6921. On April 10, 2026, Rachel Pounds, Senior Public Records Analyst, Information Practices, UCLA, 10920 Wilshire Boulevard, Suite 107, Los Angeles, CA 90024-6543, (310) 794-8741, rpounds@iprecords.ucla.edu, transmitted a letter via email acknowledging receipt and requesting additional time pursuant to Cal. Gov&#x27;t Code Section 7922.535. The stated basis for the extension: &quot;The need to search for and collect the requested records from field facilities or other establishments that are separate from the office processing the request.&quot;</p>
+          <p>On March 30, 2026, Harold filed a formal records request with UCLA Information Practices under both the California Public Records Act (CPRA) and the California Information Practices Act (IPA). UCLA received the request on March 31, 2026. UCLA Information Practices assigned the matter Public Records Request number PRR #26-6921. On April 10, 2026, Rachel Pounds, Senior Public Records Analyst, Information Practices, UCLA, 10920 Wilshire Boulevard, Suite 107, Los Angeles, CA 90024-6543, (310) 794-8741, rpounds@iprecords.ucla.edu, transmitted a letter via email acknowledging receipt and requesting additional time pursuant to Cal. Gov&#x27;t Code Section 7922.535. The stated basis for the extension: &quot;The need to search for and collect the requested records from field facilities or other establishments that are separate from the office processing the request.&quot;</p>
           <p>The Pounds letter states: &quot;IP will respond to your request no later than the close of business on April 24, 2026 with an estimated date that responsive documents will be made available.&quot; The April 24, 2026 deadline is for an estimated date of production — not for the documents themselves. As of the date of this sworn statement, the documents responsive to PRR #26-6921 have not been produced.</p>
           </div>
         </article>
@@ -2287,31 +2313,31 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">77</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 77</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 16, 2026</span> — BCBS ARIZONA AGENT SANDRA LOPEZ: CONSTRUCTIVE DENIAL OF GUARANTEED ISSUE ON RECORDED LINE</h3>
             </div>
             <a class="entry-anchor" href="#item-77" aria-label="Permalink to fact 77">§</a>
           </header>
           <div class="entry-body">
-          <p>I contacted Blue Cross Blue Shield of Arizona to obtain a Medigap quote for himself and his wife Silvia. The call was handled by agent Sandra Lopez, who identified herself by name on the recorded line. The call was recorded by both BCBS Arizona (per Ms. Lopez&#x27;s opening disclosure) and by me. The following exchange occurred verbatim on the recorded line:</p>
+          <p>Harold contacted Blue Cross Blue Shield of Arizona to obtain a Medigap quote for himself and his wife Silvia. The call was handled by agent Sandra Lopez, who identified herself by name on the recorded line. The call was recorded by both BCBS Arizona (per Ms. Lopez&#x27;s opening disclosure) and by Harold. The following exchange occurred verbatim on the recorded line:</p>
           <p>Ms. Lopez: &quot;So if you have a letter saying that you&#x27;re gonna be terminated, yes, you have a guaranteed acceptance.&quot;</p>
           <p>Mr. Harold: &quot;Yeah.&quot;</p>
           <p>Ms. Lopez: &quot;However, if you don&#x27;t have a letter saying that you&#x27;re gonna be terminated, then you have to go through medical underwriting.&quot;</p>
           <p>Mr. Harold: &quot;Yeah. I have a letter...&quot;</p>
-          <p>Despite this exchange, Ms. Lopez continued to insist I would require medical underwriting, stated &quot;Sir, you&#x27;re not in your guaranteed acceptance any longer&quot; and &quot;Arizona has different rules and regulations than California.&quot; She never asked to see my termination letter, never transferred me to enrollment, and never provided a quote. I asked for a supervisor; was told the supervisor was in a meeting and would call back. No callback was received.</p>
+          <p>Despite this exchange, Ms. Lopez continued to insist Harold would require medical underwriting, stated &quot;Sir, you&#x27;re not in your guaranteed acceptance any longer&quot; and &quot;Arizona has different rules and regulations than California.&quot; She never asked to see Harold&#x27;s termination letter, never transferred Harold to enrollment, and never provided a quote. Harold asked for a supervisor; was told the supervisor was in a meeting and would call back. No callback was received.</p>
           </div>
         </article>
         <article class="entry" id="item-78">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">78</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 78</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 16, 2026</span> — DEMAND LETTER TO BCBS ARIZONA CHIEF COMPLIANCE OFFICER ANNE SCHROCK</h3>
             </div>
             <a class="entry-anchor" href="#item-78" aria-label="Permalink to fact 78">§</a>
           </header>
           <div class="entry-body">
-          <p>I transmitted a five-page formal demand letter via fax to Blue Cross Blue Shield of Arizona at (602) 864-5340 AND (602) 544-5601. Addressed to: Chief Compliance Officer Anne Schrock, Appeals and Grievances Department, Mailstop A116, P.O. Box 13466, Phoenix, AZ 85002-3466. CC: Arizona Department of Insurance and Financial Institutions (DIFI), 2910 N. 44th Street, Ste. 210, Phoenix, AZ 85018, Fax: (602) 364-2505. Subject: &quot;Constructive Denial of Guaranteed Issue Medigap Enrollment — Formal Demand.&quot;</p>
+          <p>Harold transmitted a five-page formal demand letter via fax to Blue Cross Blue Shield of Arizona at (602) 864-5340 AND (602) 544-5601. Addressed to: Chief Compliance Officer Anne Schrock, Appeals and Grievances Department, Mailstop A116, P.O. Box 13466, Phoenix, AZ 85002-3466. CC: Arizona Department of Insurance and Financial Institutions (DIFI), 2910 N. 44th Street, Ste. 210, Phoenix, AZ 85018, Fax: (602) 364-2505. Subject: &quot;Constructive Denial of Guaranteed Issue Medigap Enrollment — Formal Demand.&quot;</p>
           <p>The letter documents the April 16, 2026 recorded call with Sandra Lopez in full detail, identifies four federal and state law violations, and notes that BCBS Arizona&#x27;s parent company Elevance Health, Inc. is a named defendant in Shea v. eHealth, Case No. 1:21-cv-11777-DJC (D. Mass.), where the motion to dismiss was denied March 25, 2026 — 22 days prior. The letter demands: (1) immediate enrollment processing for both Charles and Silvia Harold under guaranteed issue without medical underwriting, effective no later than May 1, 2026; (2) written acknowledgment of guaranteed issue qualification; (3) written explanation of corrective action regarding Sandra Lopez&#x27;s statements; (4) preservation of the April 16, 2026 call recording. If demands are not met within five business days, complaints will be filed with DIFI, CMS Case #7100158, and DMHC Case #1409109. Enclosed: Williams-Cook Administrative Review Determination dated February 27, 2026; Anthem Blue Cross Proof of Insurance dated April 16, 2026; recording of April 16, 2026 call with Sandra Lopez (available upon request).</p>
           </div>
         </article>
@@ -2319,22 +2345,22 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">79</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 79</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 16, 2026</span> — ANTHEM AGENT ROGER CONFIRMS ACTIVE COVERAGE ON RECORDED LINE; DIRECT PREMIUM PAYMENT OFFER REJECTED</h3>
             </div>
             <a class="entry-anchor" href="#item-79" aria-label="Permalink to fact 79">§</a>
           </header>
           <div class="entry-body">
-          <p>On April 16, 2026, I called Anthem Blue Cross and spoke with a customer service agent who identified himself as Roger. The call was recorded. Agent Roger confirmed on the recorded line that my coverage remained active as of that date. I offered to pay all outstanding back premiums directly to Anthem Blue Cross to ensure continuous coverage. Agent Roger&#x27;s response was:</p>
+          <p>On April 16, 2026, Harold called Anthem Blue Cross and spoke with a customer service agent who identified himself as Roger. The call was recorded. Agent Roger confirmed on the recorded line that Harold&#x27;s coverage remained active as of that date. Harold offered to pay all outstanding back premiums directly to Anthem Blue Cross to ensure continuous coverage. Agent Roger&#x27;s response was:</p>
           <p>&quot;We don&#x27;t handle that.&quot;</p>
-          <p>No explanation of the legal or contractual basis for that refusal was provided. No alternative payment mechanism was offered. No supervisor was offered. Anthem Blue Cross, on April 16, 2026, through its own customer service agent on a recorded line, simultaneously confirmed my coverage was active and refused to accept direct premium payment from me. This is the first documented rejection of my direct payment offer at the agent level. My offer to pay all outstanding back premiums — totaling approximately $2,909.92 as of April 17, 2026 — has been renewed in writing multiple times and has never been accepted or formally refused in writing by either UC or Anthem Blue Cross as of the date of this sworn statement.</p>
+          <p>No explanation of the legal or contractual basis for that refusal was provided. No alternative payment mechanism was offered. No supervisor was offered. Anthem Blue Cross, on April 16, 2026, through its own customer service agent on a recorded line, simultaneously confirmed Harold&#x27;s coverage was active and refused to accept direct premium payment from Harold. This is the first documented rejection of Harold&#x27;s direct payment offer at the agent level. Harold&#x27;s offer to pay all outstanding back premiums — totaling approximately $2,909.92 as of April 17, 2026 — has been renewed in writing multiple times and has never been accepted or formally refused in writing by either UC or Anthem Blue Cross as of the date of this sworn statement.</p>
           </div>
         </article>
         <article class="entry" id="item-80">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">80</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 80</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APRIL 17, 2026 at 6:31 AM PACIFIC</span> — ALLISON CUMMING / ELEVANCE HEALTH EXECUTIVE CONCIERGE TRANSMITS THE ANTHEM CASE-CLOSURE LETTER</h3>
             </div>
             <a class="entry-anchor" href="#item-80" aria-label="Permalink to fact 80">§</a>
@@ -2342,7 +2368,7 @@ a:hover { color: var(--link-hover); }
           <div class="entry-body">
           <p>At 6:31 AM Pacific on April 17, 2026, Allison Cumming, Resolution Lead, Consumer Experience Office, Elevance Health Executive Concierge, transmitted to chuckharold@gmail.com a brief email forwarding the Lorena Rivera case-closure letter as an attachment. Subject line: &quot;FAX ESCALATION/CSHD (CA)/closure.&quot; Cumming&#x27;s verbatim message text:</p>
           <p>&quot;Good morning, Mr. Harold. I hope you&rsquo;re doing well. Thank you so much for your patience and understanding while we reviewed your concerns. I&rsquo;ve attached the case closure letter for your records. Thank you, Allison.&quot;</p>
-          <p>The transmittal closed the Anthem-side case track of my coverage termination dispute. The attached Rivera letter, dated April 17, 2026, on Anthem letterhead, bearing Reference Number INQ-COMM-197295, is the institutional instrument catalogued in FACT 81 below. The Cumming transmittal email and the Rivera attachment together constitute the Anthem case-closure record of April 17, 2026.</p>
+          <p>The transmittal closed the Anthem-side case track of Harold&#x27;s coverage termination dispute. The attached Rivera letter, dated April 17, 2026, on Anthem letterhead, bearing Reference Number INQ-COMM-197295, is the institutional instrument catalogued in FACT 81 below. The Cumming transmittal email and the Rivera attachment together constitute the Anthem case-closure record of April 17, 2026.</p>
           
           <p style="margin-top:14px;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:#444"><strong>Exhibit:</strong> <a href="https://bruinwatch.org/dist-ucla-compliance/uc-audit-request/exhibits/EX%2042%202026-04-17%20ALLISON%20CUMMING%20ANTHEM%20CLOSURE%20INTRO%20EMAIL.pdf" target="_blank" rel="noopener" style="color:#0066cc;font-weight:700;text-decoration:underline">EX 42 — Allison Cumming transmittal email (April 17, 2026, 6:31 AM Pacific)</a></p>
           </div>
@@ -2351,7 +2377,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">81</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 81</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 17, 2026 at 6:31 AM PACIFIC</span> — LORENA RIVERA / ANTHEM BLUE CROSS: VERBATIM INSTITUTIONAL ADMISSION THAT UC DIRECTS ALL TERMINATIONS</h3>
             </div>
             <a class="entry-anchor" href="#item-81" aria-label="Permalink to fact 81">§</a>
@@ -2359,8 +2385,8 @@ a:hover { color: var(--link-hover); }
           <div class="entry-body">
           <p>On April 17, 2026, via Allison Cumming, Lorena Rivera, CX Resolution Risk Analyst, Anthem Blue Cross Executive Concierge, transmitted a case closure letter bearing Reference Number INQ-COMM-197295. Rivera&#x27;s letter contains the following verbatim statement:</p>
           <p>&quot;Please note that we enroll and terminate members as instructed by the University of California (UC), and UC communicates eligibility and enrollment to its members.&quot;</p>
-          <p>This statement, made by Anthem Blue Cross&#x27;s own Executive Concierge division in writing on April 17, 2026, constitutes Anthem Blue Cross&#x27;s documented institutional admission that the termination of my coverage was directed by the University of California — not by Anthem acting independently. This admission is consistent with and corroborates the documentary evidence established by the Anthem portal plan period selector, which shows my 2026 coverage ending on April 1, 2026 — a date that required a human entry into Anthem&#x27;s enrollment system.</p>
-          <p>Rivera&#x27;s letter also contains a material error: it states my fax sought review &quot;regarding the cancellation of your Medicare Supplement coverage, effective May 1, 2026.&quot; The actual termination date on the Certificate of Creditable Coverage issued by Anthem Blue Cross is April 1, 2026 — not May 1. Anthem&#x27;s own CX Resolution Risk Analyst, in Anthem&#x27;s own closure letter, stated a termination date that is incorrect by 30 days and is inconsistent with Anthem&#x27;s own Certificate of Creditable Coverage already in the regulatory record. Rivera directed me to contact UC RASC at 1-800-888-8267.</p>
+          <p>This statement, made by Anthem Blue Cross&#x27;s own Executive Concierge division in writing on April 17, 2026, constitutes Anthem Blue Cross&#x27;s documented institutional admission that the termination of Harold&#x27;s coverage was directed by the University of California — not by Anthem acting independently. This admission is consistent with and corroborates the documentary evidence established by the Anthem portal plan period selector, which shows Harold&#x27;s 2026 coverage ending on April 1, 2026 — a date that required a human entry into Anthem&#x27;s enrollment system.</p>
+          <p>Rivera&#x27;s letter also contains a material error: it states Harold&#x27;s fax sought review &quot;regarding the cancellation of your Medicare Supplement coverage, effective May 1, 2026.&quot; The actual termination date on the Certificate of Creditable Coverage issued by Anthem Blue Cross is April 1, 2026 — not May 1. Anthem&#x27;s own CX Resolution Risk Analyst, in Anthem&#x27;s own closure letter, stated a termination date that is incorrect by 30 days and is inconsistent with Anthem&#x27;s own Certificate of Creditable Coverage already in the regulatory record. Rivera directed Harold to contact UC RASC at 1-800-888-8267.</p>
           
           <p style="margin-top:14px;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:#444"><strong>Exhibit:</strong> <a href="https://bruinwatch.org/dist-ucla-compliance/uc-audit-request/exhibits/EX%2043%202026-04-17%20LORENA%20RIVERA%20ANTHEM%20CASE%20CLOSURE%20LETTER.pdf" target="_blank" rel="noopener" style="color:#0066cc;font-weight:700;text-decoration:underline">EX 43 — Lorena Rivera / Anthem case-closure letter, Reference INQ-COMM-197295 (April 17, 2026)</a></p>
           </div>
@@ -2369,7 +2395,7 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">82</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 82</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APRIL 17, 2026 at 1:23 PM PACIFIC</span> — UCLA COMPLIANCE OFFICE TRANSMITS THE CMP373 CLOSURE EMAIL FROM compliance@compliance.ucla.edu</h3>
             </div>
             <a class="entry-anchor" href="#item-82" aria-label="Permalink to fact 82">§</a>
@@ -2377,7 +2403,7 @@ a:hover { color: var(--link-hover); }
           <div class="entry-body">
           <p>At 1:23 PM Pacific on April 17, 2026, the UCLA Compliance Office transmitted the CMP373 closure email to chuckharold@gmail.com from the institutional address compliance@compliance.ucla.edu. Subject line: &quot;PERSONAL &amp; CONFIDENTAL//CMP373 Your Complaints related to UCLA PD.&quot; The full body of the email, in verbatim institutional language:</p>
           <p>&quot;CONFIDENTIAL &mdash; Dear Mr. Harold: The UCLA Compliance Office is responsible for investigating complaints filed against UCLA PD Sworn Officers. Our office received the three complaints you filed on February 25, 2026 with the California Commission on Peace Officer Standards &amp; Training. After reviewing your complaints and documentation we received from UCLA PD, we did not substantiate that UCLA PD Officers violated University policy when they denied your Carry &amp; Conceal Weapons permit (CCW). We now consider this matter closed. The UCLA Compliance Office, UCLA Wilshire Center, Suite 700, Los Angeles, CA 90024.&quot;</p>
-          <p>The email is the institutional instrument that closes Compliance Case CMP373. By the Compliance Office&#x27;s own admission within the email, the determination rested on &quot;complaints you filed&quot; and &quot;documentation we received from UCLA PD&quot; &mdash; the agency whose officers (Captain Jeff Chobanian, Badge #307; Chief Craig Valenzuela; Lieutenant Richard Davis, Badge #305) were the subjects of the complaint. The email contains no reference to the February 19, 2026 California Labor Code &sect; 132(a) crime report; no reference to the documented contradictions in classification status; no reference to the four mutually irreconcilable custody-of-file statements; and no statement that I was interviewed prior to the determination. The Compliance Office adjudicated complaints filed under California Penal Code &sect; 13510.8 by reference to UC internal policy alone.</p>
+          <p>The email is the institutional instrument that closes Compliance Case CMP373. By the Compliance Office&#x27;s own admission within the email, the determination rested on &quot;complaints you filed&quot; and &quot;documentation we received from UCLA PD&quot; &mdash; the agency whose officers (Captain Jeff Chobanian, Badge #307; Chief Craig Valenzuela; Lieutenant Richard Davis, Badge #305) were the subjects of the complaint. The email contains no reference to the February 19, 2026 California Labor Code &sect; 132(a) crime report; no reference to the documented contradictions in classification status; no reference to the four mutually irreconcilable custody-of-file statements; and no statement that Harold was interviewed prior to the determination. The Compliance Office adjudicated complaints filed under California Penal Code &sect; 13510.8 by reference to UC internal policy alone.</p>
           
           <p style="margin-top:14px;font-family:'Source Sans Pro',sans-serif;font-size:14px;color:#444"><strong>Exhibit:</strong> <a href="https://bruinwatch.org/dist-ucla-compliance/uc-audit-request/exhibits/EX%2044%202026-04-17%20UCLA%20COMPLIANCE%20CMP373%20CLOSURE%20EMAIL.pdf" target="_blank" rel="noopener" style="color:#0066cc;font-weight:700;text-decoration:underline">EX 44 — UCLA Compliance CMP373 closure email from compliance@compliance.ucla.edu (April 17, 2026, 1:23 PM Pacific)</a></p>
           </div>
@@ -2386,30 +2412,30 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">83</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 83</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 17, 2026</span> — THE DEFINITIVE INSTITUTIONAL ADMISSION: UCLA COMPLIANCE CLOSES CMP373</h3>
             </div>
             <a class="entry-anchor" href="#item-83" aria-label="Permalink to fact 83">§</a>
           </header>
           <div class="entry-body">
-          <p>UCLA Compliance closed Case CMP373 finding that Captain Chobanian and Chief Valenzuela committed no policy violation in denying my CCW. The denial was premised expressly on my &quot;medically separated&quot; status and current receipt of Duty Disability Income under UC Gold Book GO 21-02 § 1700.1(b)(1). By upholding that denial, UCLA Compliance — the highest UC compliance authority at the campus level — rendered an institutional determination that I am a DDI recipient who has not retired or separated from the University of California. If I was a regular retiree as UC RASC simultaneously classified him since 2015, the CCW denial would have been wrongful and CMP373 would have been sustained in my favor. It was not. UCLA Compliance affirmed the DDI classification. That determination is UC&#x27;s own.</p>
-          <p>Under either of UC&#x27;s two simultaneous classifications of my status — DDI recipient or service retiree — the Via Benefits transfer and health coverage termination are prohibited. There is no Scenario C.</p>
+          <p>UCLA Compliance closed Case CMP373 finding that Captain Chobanian and Chief Valenzuela committed no policy violation in denying Harold&#x27;s CCW. The denial was premised expressly on Harold&#x27;s &quot;medically separated&quot; status and current receipt of Duty Disability Income under UC Gold Book GO 21-02 § 1700.1(b)(1). By upholding that denial, UCLA Compliance — the highest UC compliance authority at the campus level — rendered an institutional determination that Harold is a DDI recipient who has not retired or separated from the University of California. If Harold were a regular retiree as UC RASC simultaneously classified him since 2015, the CCW denial would have been wrongful and CMP373 would have been sustained in Harold&#x27;s favor. It was not. UCLA Compliance affirmed the DDI classification. That determination is UC&#x27;s own.</p>
+          <p>Under either of UC&#x27;s two simultaneous classifications of Harold&#x27;s status — DDI recipient or service retiree — the Via Benefits transfer and health coverage termination are prohibited. There is no Scenario C.</p>
           </div>
         </article>
         <article class="entry" id="item-84">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">84</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 84</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APRIL 17, 2026 at 2:00 PM PACIFIC</span> — HAROLD&#x27;S NINE-SECTION FORMAL REJECTION TO ALLISON CUMMING AT ELEVANCE HEALTH</h3>
             </div>
             <a class="entry-anchor" href="#item-84" aria-label="Permalink to fact 84">§</a>
           </header>
           <div class="entry-body">
-          <p>At 2:00 PM, I transmitted a formal rejection email from chuckharold@gmail.com to allison.cumming@elevancehealth.com, CC: kelly.tursany@elevancehealth.com, petina.jones@elevancehealth.com, BCC: Megan Harold, Max Harold (two addresses), Silvia Harold. Subject: &quot;Re: FAX ESCALATION/CSHD (CA)/closure.&quot; The letter opens: &quot;Thank you for your prompt attention to my case. We may disagree but I do appreciate your professionalism. Respectfully, I must reject the case closure communicated in Lorena Rivera&#x27;s letter dated April 17, 2026 (Reference: INQ-COMM-197295) in its entirety and demand immediate escalation to Elevance Health Corporate Compliance.&quot;</p>
+          <p>At 2:00 PM, Harold transmitted a formal rejection email from chuckharold@gmail.com to allison.cumming@elevancehealth.com, CC: kelly.tursany@elevancehealth.com, petina.jones@elevancehealth.com, BCC: Megan Harold, Max Harold (two addresses), Silvia Harold. Subject: &quot;Re: FAX ESCALATION/CSHD (CA)/closure.&quot; The letter opens: &quot;Thank you for your prompt attention to my case. We may disagree but I do appreciate your professionalism. Respectfully, I must reject the case closure communicated in Lorena Rivera&#x27;s letter dated April 17, 2026 (Reference: INQ-COMM-197295) in its entirety and demand immediate escalation to Elevance Health Corporate Compliance.&quot;</p>
           <p><strong class="lead">Section I — Federal False Claims Act litigation disclosure</strong>: Shea v. eHealth, Case No. 1:21-cv-11777-DJC (D. Mass.), March 25, 2026 motion to dismiss denied, all seven FCA counts proceeding into discovery, Elevance Health named defendant, $230 million in alleged illegal kickbacks in violation of the Anti-Kickback Statute (42 U.S.C. § 1320a-7b) and the False Claims Act (31 U.S.C. §§ 3729–3733).</p>
           <p><strong class="lead">Section II — United States v</strong>. Aon plc, Case No. 1:21-cv-01633 (D.D.C. 2021), DOJ Complaint ¶ 47, Via Benefits&#x27; parent controls 95% of private multicarrier retiree exchange market.</p>
-          <p><strong class="lead">Section III — Temple v</strong>. Hartford Ins. Co. of Midwest, No. CV-12-2357 (D. Ariz. Aug. 26, 2014) — duty of good faith non-delegable; Anthem cannot escape liability by directing me to call UC.</p>
+          <p><strong class="lead">Section III — Temple v</strong>. Hartford Ins. Co. of Midwest, No. CV-12-2357 (D. Ariz. Aug. 26, 2014) — duty of good faith non-delegable; Anthem cannot escape liability by directing Harold to call UC.</p>
           <p><strong class="lead">Section IV — Rivera&#x27;s letter contains material error</strong>: termination date stated as May 1, 2026; actual date on Certificate is April 1, 2026.</p>
           <p>Section V — Three-stage disappearance of Anthem portal records documented.</p>
           <p>Section VI — April 16, 2026 call with Anthem agent Roger on recorded line confirming coverage active; offer to pay $2,909.92 in back premiums rejected with statement &quot;We don&#x27;t handle that.&quot;</p>
@@ -2423,13 +2449,13 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">85</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 85</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APRIL 17, 2026 at 3:03 PM PACIFIC</span> — HAROLD&#x27;S FORMAL REJECTION OF THE CMP373 CLOSURE TO THE UCLA COMPLIANCE OFFICE</h3>
             </div>
             <a class="entry-anchor" href="#item-85" aria-label="Permalink to fact 85">§</a>
           </header>
           <div class="entry-body">
-          <p>At 3:03 PM Pacific on April 17, 2026 &mdash; one hour and forty minutes after receipt of the UCLA Compliance Office CMP373 closure email &mdash; I transmitted a formal written rejection from chuckharold@gmail.com to compliance@compliance.ucla.edu, with BCC to Silvia Harold (megmaxmom@ymail.com), Megan Harold (meganharold2@gmail.com), and Max Harold (m.harold.0@outlook.com and maxharold6@gmail.com). Subject: &quot;Re: PERSONAL &amp; CONFIDENTAL//CMP373 Your Complaints related to UCLA PD.&quot;</p>
+          <p>At 3:03 PM Pacific on April 17, 2026 &mdash; one hour and forty minutes after receipt of the UCLA Compliance Office CMP373 closure email &mdash; Harold transmitted a formal written rejection from chuckharold@gmail.com to compliance@compliance.ucla.edu, with BCC to Silvia Harold (megmaxmom@ymail.com), Megan Harold (meganharold2@gmail.com), and Max Harold (m.harold.0@outlook.com and maxharold6@gmail.com). Subject: &quot;Re: PERSONAL &amp; CONFIDENTAL//CMP373 Your Complaints related to UCLA PD.&quot;</p>
           <p>The letter opens: &quot;This matter is not closed,&quot; and sets forth the factual, procedural, and legal deficiencies in the CMP373 determination across multiple sections.</p>
           <p><strong>Section 1</strong> establishes the documentary record: the February 19, 2026 California Labor Code &sect; 132(a) crime report naming Captain Chobanian (57 days of UCLA PD silence as of the date of the letter); the three POST complaints (PUBLIC-26-000212, PUBLIC-26-000213, PUBLIC-26-000214) acknowledged by POST on February 25, 2026; and the March 30, 2026 spoliation warning whose April 14, 2026 response deadline had passed without a written response from any recipient.</p>
           <p><strong>Section 2</strong> identifies the wrong legal standard applied: the UCLA Compliance Office determined no &quot;University policy&quot; violation, but POST&#x27;s own acknowledgment letters identify California Penal Code &sect; 13510.8 &mdash; not University policy &mdash; as the applicable statutory standard for the complaints filed.</p>
@@ -2443,74 +2469,78 @@ a:hover { color: var(--link-hover); }
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">86</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 86</span> </p>
               <h3 class="entry-title"><span class="entry-date">DECEMBER 2025 THROUGH APRIL 2026</span> — THREE DOCUMENTED STAGES OF ANTHEM PORTAL RECORDS DISAPPEARANCE</h3>
             </div>
             <a class="entry-anchor" href="#item-86" aria-label="Permalink to fact 86">§</a>
           </header>
           <div class="entry-body">
-          <p>The disappearance of records from my Anthem Blue Cross member portal has occurred in three documented stages, each corresponding to a regulatory contact or filing milestone.</p>
+          <p>The disappearance of records from Harold&#x27;s Anthem Blue Cross member portal has occurred in three documented stages, each corresponding to a regulatory contact or filing milestone.</p>
           <p>Stage 1 — Approximately December 24, 2025</p>
-          <p>I called Medicare at 1-800-MEDICARE approximately December 24, 2025. The Medicare representative told me on a recorded line that his Blue Cross of California coverage had been canceled approximately two years prior and that an enrollment/cancellation entry existed in the system predating his 65th birthday of January 3, 2026. A Medicare Supplement enrollment entry before my Medicare eligibility date is a factual impossibility. On December 31, 2025, I called back. Medicare representative Monica Soria searched for that same entry and stated on the recorded line: &quot;I don&#x27;t know where she looked at that because I&#x27;m not able to find it.&quot; A record visible to one CMS representative had become invisible to another within days. Stage 1 documents the first disappearance: a pre-65 enrollment/cancellation ghost entry that existed and then did not.</p>
+          <p>Harold called Medicare at 1-800-MEDICARE approximately December 24, 2025. The Medicare representative told Harold on a recorded line that his Blue Cross of California coverage had been canceled approximately two years prior and that an enrollment/cancellation entry existed in the system predating his 65th birthday of January 3, 2026. A Medicare Supplement enrollment entry before Harold&#x27;s Medicare eligibility date is a factual impossibility. On December 31, 2025, Harold called back. Medicare representative Monica Soria searched for that same entry and stated on the recorded line: &quot;I don&#x27;t know where she looked at that because I&#x27;m not able to find it.&quot; A record visible to one CMS representative had become invisible to another within days. Stage 1 documents the first disappearance: a pre-65 enrollment/cancellation ghost entry that existed and then did not.</p>
           <p>Stage 2 — April 16, 2026 — Post-BCBS Arizona Call</p>
-          <p>On April 16, 2026, at approximately 5:02 PM MST, I contacted Blue Cross Blue Shield of Arizona to obtain a Medigap quote. This call is documented in my formal demand letter to BCBS Arizona Chief Compliance Officer Anne Schrock transmitted April 16, 2026. This call and the events immediately following it correspond to the second documented stage of portal record changes. My April 17, 2026 rejection letter to Allison Cumming documents that records disappeared from my portal following this regulatory contact.</p>
+          <p>On April 16, 2026, at approximately 5:02 PM MST, Harold contacted Blue Cross Blue Shield of Arizona to obtain a Medigap quote. This call is documented in Harold&#x27;s formal demand letter to BCBS Arizona Chief Compliance Officer Anne Schrock transmitted April 16, 2026. This call and the events immediately following it correspond to the second documented stage of portal record changes. Harold&#x27;s April 17, 2026 rejection letter to Allison Cumming documents that records disappeared from Harold&#x27;s portal following this regulatory contact.</p>
           <p>Stage 3 — Documented in April 17, 2026 Rejection Letter to Cumming</p>
-          <p>My April 17, 2026 nine-section rejection letter to Allison Cumming at Elevance Health documents a third stage of portal record disappearance following regulatory contacts. The third stage corresponds to contacts with regulatory bodies in the period following the April 8, 2026 DMHC 5th Supplemental filing.</p>
-          <p>The three-stage pattern establishes the following: records visible in the portal at one point in time became invisible following specific regulatory contacts, across three separate documented instances, in a sequence that begins in December 2025 and continues through April 2026. The approximately $230,000 in Valley Fever hospitalization claims that were processed by Anthem during December 2023 and January 2024 and are now completely absent from the portal constitute the most significant single disappearance within this three-stage pattern. The audit trail of those changes — including the date, time, user, and source of each modification — is the subject of Item 10 of my March 31, 2026 HIPAA records request, which remains unanswered as of the date of this sworn statement.</p>
+          <p>Harold&#x27;s April 17, 2026 nine-section rejection letter to Allison Cumming at Elevance Health documents a third stage of portal record disappearance following regulatory contacts. The third stage corresponds to contacts with regulatory bodies in the period following the April 8, 2026 DMHC 5th Supplemental filing.</p>
+          <p>The three-stage pattern establishes the following: records visible in the portal at one point in time became invisible following specific regulatory contacts, across three separate documented instances, in a sequence that begins in December 2025 and continues through April 2026. The approximately $230,000 in Valley Fever hospitalization claims that were processed by Anthem during December 2023 and January 2024 and are now completely absent from the portal constitute the most significant single disappearance within this three-stage pattern. The audit trail of those changes — including the date, time, user, and source of each modification — is the subject of Item 10 of Harold&#x27;s March 31, 2026 HIPAA records request, which remains unanswered as of the date of this sworn statement.</p>
           </div>
         </article>
         <article class="entry" id="item-87">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">87</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 87</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APRIL 20, 2026</span> — STATE FARM MEDIGAP POLICIES PURCHASED; PREMIUM COMPARISON</h3>
             </div>
             <a class="entry-anchor" href="#item-87" aria-label="Permalink to fact 87">§</a>
           </header>
           <div class="entry-body">
-          <p>On April 20, 2026, my wife Silvia and I sat down with State Farm agent Juston Lisk at his office in Gold Canyon, Arizona — ten minutes from my home. They left in under an hour with signed Medigap supplemental insurance policies underwritten by State Farm, effective May 1, 2026 — the day after UC&#x27;s stated cancellation date of April 30, 2026. My monthly premium: $203.23. Silvia Harold&#x27;s monthly premium: $184.11. Combined State Farm monthly premium: $387.34.</p>
+          <p>On April 20, 2026, Harold and his wife Silvia Harold sat down with State Farm agent Juston Lisk at his office in Gold Canyon, Arizona — ten minutes from Harold&#x27;s home. They left in under an hour with signed Medigap supplemental insurance policies underwritten by State Farm, effective May 1, 2026 — the day after UC&#x27;s stated cancellation date of April 30, 2026. Harold&#x27;s monthly premium: $203.23. Silvia Harold&#x27;s monthly premium: $184.11. Combined State Farm monthly premium: $387.34.</p>
           <p>UC Anthem&#x27;s monthly premium had been $727.48 — $340.14 more per month, $4,081.68 more per year, for the same two people.</p>
-          <p>Based on the Williams-Cook determination&#x27;s written statement of April 30, 2026 as the coverage suspension date — the only written UC coverage-end communication I possessed on April 3, 2026 — I presented that determination to State Farm as the qualifying event documentation for involuntary loss of group Medigap coverage. State Farm accepted the enrollment.</p>
-          <p>In ten months of RASC correspondence, Via Benefits phone calls, and formal administrative review, no UC representative informed me that he retained the right to decline the Via Benefits pathway entirely and purchase a Medigap policy on the open market. The option that resolved my coverage problem was never presented by any party whose job description included informing Medicare-eligible retirees of their coverage options.</p>
+          <p>Based on the Williams-Cook determination&#x27;s written statement of April 30, 2026 as the coverage suspension date — the only written UC coverage-end communication Harold possessed on April 3, 2026 — Harold presented that determination to State Farm as the qualifying event documentation for involuntary loss of group Medigap coverage. State Farm accepted the enrollment.</p>
+          <p>In ten months of RASC correspondence, Via Benefits phone calls, and formal administrative review, no UC representative informed Harold that he retained the right to decline the Via Benefits pathway entirely and purchase a Medigap policy on the open market. The option that resolved Harold&#x27;s coverage problem was never presented by any party whose job description included informing Medicare-eligible retirees of their coverage options.</p>
           </div>
         </article>
         <article class="entry" id="item-88">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">88</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> <span class="star-badge" title="Key entry">★</span></p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 88</span> <span class="star-badge" title="Key entry">★</span></p>
               <h3 class="entry-title"><span class="entry-date">APRIL 26, 2026</span> — RECONSTRUCTED ADDRESS RECORDS, PHANTOM CLAWBACK, AND 77 MISSING PAY STUBS</h3>
             </div>
             <a class="entry-anchor" href="#item-88" aria-label="Permalink to fact 88">§</a>
           </header>
           <div class="entry-body">
-          <p>At 5:56 PM Mountain Time, I logged into the UC UCRAYS portal and captured a screenshot of the Address page under his account. The portal displays both my Arizona addresses — mailing address at 5301 S. Superstition Mountain Drive, Suite 104 PMB 350, Gold Canyon, AZ 85118-1917, and home address at 1455 N. Tomahawk Road, Apache Junction, AZ 85119-1216 — each bearing a Start Date of 10/20/2025, as if UCOP first received my Arizona address on October 20, 2025.</p>
+          <p>At 5:56 PM Mountain Time, Harold logged into the UC UCRAYS portal and captured a screenshot of the Address page under his account. The portal displays both Harold&#x27;s Arizona addresses — mailing address at 5301 S. Superstition Mountain Drive, Suite 104 PMB 350, Gold Canyon, AZ 85118-1917, and home address at 1455 N. Tomahawk Road, Apache Junction, AZ 85119-1216 — each bearing a Start Date of 10/20/2025, as if UCOP first received Harold&#x27;s Arizona address on October 20, 2025.</p>
           <p>That assertion is false on its face.</p>
-          <p>UC&#x27;s own automated ACH payment system transmitted 95 consecutive monthly retirement payments to my Arizona-registered Unify Federal Credit Union account between July 31, 2018 and March 31, 2026, totaling $167,581.83. The originating ACH metadata for those payments reads, verbatim: Description: &quot;Deposit ACH UCOP UCRS ANNUIT / TYPE: UCRS PAYMT / ID: 1942557406 / CO: UCOP UCRS ANNUIT&quot;; Entry Class Code: PPDACH; Trace Number: 043000262165091. Under the NACHA Operating Rules governing PPD-class ACH credits, the federal payment system requires the receiver&#x27;s name, account number, and routing number on file before any ACH credit can be transmitted.</p>
-          <p>UCOP&#x27;s 95 consecutive monthly transmissions to my Arizona account establish that UCOP&#x27;s master records have continuously held my Arizona banking and contact information since at least July 31, 2018 — seven years, two months, and twenty days before the October 20, 2025 &quot;start date&quot; the UCRAYS portal now claims. Additionally, from tax year 2018 through tax year 2025, UCOP filed eight successive years of IRS Forms 1099-R and 1095-B with the federal government, each bearing my Arizona mailing address, each filed under penalty of perjury.</p>
+          <p>UC&#x27;s own automated ACH payment system transmitted 95 consecutive monthly retirement payments to Harold&#x27;s Arizona-registered Unify Federal Credit Union account between July 31, 2018 and March 31, 2026, totaling $167,581.83. The originating ACH metadata for those payments reads, verbatim: Description: &quot;Deposit ACH UCOP UCRS ANNUIT / TYPE: UCRS PAYMT / ID: 1942557406 / CO: UCOP UCRS ANNUIT&quot;; Entry Class Code: PPDACH; Trace Number: 043000262165091. Under the NACHA Operating Rules governing PPD-class ACH credits, the federal payment system requires the receiver&#x27;s name, account number, and routing number on file before any ACH credit can be transmitted.</p>
+          <p>UCOP&#x27;s 95 consecutive monthly transmissions to Harold&#x27;s Arizona account establish that UCOP&#x27;s master records have continuously held Harold&#x27;s Arizona banking and contact information since at least July 31, 2018 — seven years, two months, and twenty days before the October 20, 2025 &quot;start date&quot; the UCRAYS portal now claims. Additionally, from tax year 2018 through tax year 2025, UCOP filed eight successive years of IRS Forms 1099-R and 1095-B with the federal government, each bearing Harold&#x27;s Arizona mailing address, each filed under penalty of perjury.</p>
           <p>One of two assertions is false: either the federal ACH payment record and the eight years of sworn IRS filings are false, or the UCRAYS portal record is false. The bank ledger and the federal tax-filing record independently corroborate one another. The portal record stands alone.</p>
           <p class="subhead">77 Missing Pay Stubs and the Phantom Clawback</p>
-          <p>The same UCRAYS Benefit Payment Statements page displayed only 18 pay stubs, the earliest dated November 29, 2024, truncating approximately 77 monthly pay-stub records — more than six years — from my view. Among the 18 visible stubs, one entry reads as follows: Date — April 1, 2026. Gross — $0.00. Deductions — $0.00. Reimbursements — $0.00. Net — negative $727.48.</p>
+          <p>The same UCRAYS Benefit Payment Statements page displayed only 18 pay stubs, the earliest dated November 29, 2024, truncating approximately 77 monthly pay-stub records — more than six years — from Harold&#x27;s view. Among the 18 visible stubs, one entry reads as follows: Date — April 1, 2026. Gross — $0.00. Deductions — $0.00. Reimbursements — $0.00. Net — negative $727.48.</p>
           <p>A document showing $0.00 gross, $0.00 deductions, and $0.00 reimbursements cannot mathematically reconcile to a net of negative $727.48.</p>
-          <p>No advance written notice of this entry was provided to me. No statutory citation accompanies it. No explanation through any channel has been given. No corresponding withdrawal appears in my Unify Federal Credit Union bank ledger for that date.</p>
-          <p>On April 26, 2026, I also confirmed through LinkedIn that Erin Pressman — Principal Investigator, UCOP Office of Ethics, Compliance &amp; Audit Services, one of the three UCOP officials to whom I directed contact attempts on November 9, 2021 — has departed the University of California and is now employed as an Employment Investigator at OpenAI. Her departure from UC removes her from UC&#x27;s institutional control for purposes of witness cooperation obligations under Policy 1100563 § D.4.c and the litigation hold renewed herein.</p>
+          <p>No advance written notice of this entry was provided to Harold. No statutory citation accompanies it. No explanation through any channel has been given. No corresponding withdrawal appears in Harold&#x27;s Unify Federal Credit Union bank ledger for that date.</p>
+          <p>On April 26, 2026, Harold also confirmed through LinkedIn that Erin Pressman — Principal Investigator, UCOP Office of Ethics, Compliance &amp; Audit Services, one of the three UCOP officials to whom Harold directed contact attempts on November 9, 2021 — has departed the University of California and is now employed as an Employment Investigator at OpenAI. Her departure from UC removes her from UC&#x27;s institutional control for purposes of witness cooperation obligations under Policy 1100563 § D.4.c and the litigation hold renewed herein.</p>
           </div>
         </article>
         <article class="entry" id="item-89">
           <header class="entry-head">
             <span class="entry-num" aria-hidden="true">89</span>
             <div class="entry-titles">
-              <p class="entry-eyebrow"><span class="fact-badge">FACT</span> </p>
+              <p class="entry-eyebrow"><span class="fact-badge">FACT 89</span> </p>
               <h3 class="entry-title"><span class="entry-date">APRIL 28, 2026</span> — UC MEDICARE SUPPLEMENT PPO WELCOME MAILER RECEIVED; ANTHEM PORTAL SHOWS 2024 CLAIMS</h3>
             </div>
             <a class="entry-anchor" href="#item-89" aria-label="Permalink to fact 89">§</a>
           </header>
           <div class="entry-body">
-          <p>I check my PO Box at 5301 S Superstition Mountain Drive, Suite 104, PMB 350, Gold Canyon, AZ 85118-1917. The UC Medicare Supplement PPO plan welcome mailer was not present in the box on April 20, 2026. It is present on April 28, 2026. The PRSRT STD bulk mail class carries a processing and delivery lag of multiple days to multiple weeks between the date of generation in the sender&#x27;s system and the date of physical delivery. The mailer bears the following identifying information: return address University of California, Office of the President, 1111 Franklin Street, Oakland, CA 94607; postage indicia PRSRT STD, US POSTAGE PAID, SAN FRANCISCO CA, PERMIT 5231; addressee CHARLES A HAROLD, 5301 S SUPERSTITION MOUNTAIN DR STE 104 PMB 350, GOLD CANYON AZ 85118-1917. The mailer&#x27;s headline reads: &quot;Get to know the UC Medicare Supplement PPO plan.&quot; The mailer bears co-branding logos for Anthem and NAVITUS. The mailer instructs me to register with Anthem by calling (844) 437-0486 and with Navitus by calling (833) 637-4309. The mailer describes the coverage as including: $0 Medicare Part A and B deductibles; Anthem Health Guide access; Benefits Beyond Medicare; prescription drug coverage through Navitus; global coverage; and access to UC Health providers.</p>
-          <p>On the same date, I log into the Anthem Blue Cross member portal and video-record the portal session. The portal shows both Charles A. Harold and Silvia Z. Harold enrolled and covered from January 1, 2026. The portal additionally displays dozens of claims from 2024 now appearing in the processing queue — claims that were not accessible or visible in the portal at the time of the April 2, 2026 screenshot session documented in Exhibit EX_32. My video recording of the April 28, 2026 portal session, capturing the current enrollment status and the 2024 claims now appearing in the processing queue, is preserved in my evidentiary record and is available for production.</p>
+          <p>Harold checks his PO Box at 5301 S Superstition Mountain Drive, Suite 104, PMB 350, Gold Canyon, AZ 85118-1917. The UC Medicare Supplement PPO plan welcome mailer was not present in the box on April 20, 2026. It is present on April 28, 2026. The PRSRT STD bulk mail class carries a processing and delivery lag of multiple days to multiple weeks between the date of generation in the sender&#x27;s system and the date of physical delivery. The mailer bears the following identifying information: return address University of California, Office of the President, 1111 Franklin Street, Oakland, CA 94607; postage indicia PRSRT STD, US POSTAGE PAID, SAN FRANCISCO CA, PERMIT 5231; addressee CHARLES A HAROLD, 5301 S SUPERSTITION MOUNTAIN DR STE 104 PMB 350, GOLD CANYON AZ 85118-1917. The mailer&#x27;s headline reads: &quot;Get to know the UC Medicare Supplement PPO plan.&quot; The mailer bears co-branding logos for Anthem and NAVITUS. The mailer instructs Harold to register with Anthem by calling (844) 437-0486 and with Navitus by calling (833) 637-4309. The mailer describes the coverage as including: $0 Medicare Part A and B deductibles; Anthem Health Guide access; Benefits Beyond Medicare; prescription drug coverage through Navitus; global coverage; and access to UC Health providers.</p>
+          <p>On the same date, Harold logs into the Anthem Blue Cross member portal and video-records the portal session. The portal shows both Charles A. Harold and Silvia Z. Harold enrolled and covered from January 1, 2026. The portal additionally displays dozens of claims from 2024 now appearing in the processing queue — claims that were not accessible or visible in the portal at the time of the April 2, 2026 screenshot session documented in Exhibit EX_32. Harold&#x27;s video recording of the April 28, 2026 portal session, capturing the current enrollment status and the 2024 claims now appearing in the processing queue, is preserved in Harold&#x27;s evidentiary record and is available for production.</p>
           </div>
         </article>
+      <aside class="handoffs">
+        <p class="handoffs-label">Continue to a dedicated chapter</p>
+        <div class="handoffs-grid"><a class="handoff-card" href="chapter-medigap.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Medigap Termination Timeline</span><span class="handoff-desc">Anthem, Via Benefits, DMHC, CMS, and the Schrödinger&#x27;s Retiree contradictions.</span><span class="handoff-arrow" aria-hidden="true">→</span></a><a class="handoff-card" href="chapter-8547.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">§ 8547.10 Compliance Map</span><span class="handoff-desc">Element-by-element mapping of this statement to the California Whistleblower Protection Act.</span><span class="handoff-arrow" aria-hidden="true">→</span></a><a class="handoff-card" href="chapter-exhibits.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Exhibit Register</span><span class="handoff-desc">The documentary record cited throughout this statement.</span><span class="handoff-arrow" aria-hidden="true">→</span></a></div>
+      </aside>
       <p class="back-top"><a href="#top">↑ Back to top</a></p>
     </section>
       
@@ -2519,32 +2549,32 @@ a:hover { color: var(--link-hover); }
       <div class="trailer-body">
       <p>As of April 30, 2026 — the precise date stated in the Williams-Cook Administrative Review Determination as the coverage suspension date — my insurance status is documented in five simultaneous, mutually contradictory states, each supported by a distinct written instrument in the evidentiary record.</p>
           <p class="subhead">State 1 — ENROLLED (No Termination Date):</p>
-          <p>The Anthem Blue Cross member portal, as video-recorded on April 28, 2026, shows both Charles A. Harold and Silvia Z. Harold enrolled and covered from January 1, 2026 with no termination date displayed. The UC Medicare Supplement PPO plan welcome mailer, bearing the University of California Office of the President return address and received at my PO Box on April 28, 2026, addresses me by name, confirms my coverage plan, and instructs me to activate my enrollment with Anthem and Navitus.</p>
+          <p>The Anthem Blue Cross member portal, as video-recorded on April 28, 2026, shows both Charles A. Harold and Silvia Z. Harold enrolled and covered from January 1, 2026 with no termination date displayed. The UC Medicare Supplement PPO plan welcome mailer, bearing the University of California Office of the President return address and received at Harold&#x27;s PO Box on April 28, 2026, addresses Harold by name, confirms his coverage plan, and instructs him to activate his enrollment with Anthem and Navitus.</p>
           <p class="subhead">State 2 — TERMINATED (April 1, 2026):</p>
-          <p>On April 1, 2026, I logged into the Anthem Blue Cross member portal and discovered his coverage had been terminated. The portal displayed a red INACTIVE badge on my UC High Option Supplement plan. No advance notice of any kind had been sent to me — no premium delinquency notice, no grace period notice, no cancellation warning — in the 24 months prior to that date. Anthem Blue Cross generated a Certificate of Creditable Coverage dated April 2, 2026, documenting that my coverage and Silvia&#x27;s coverage terminated April 1, 2026 — 29 days before the April 30 date stated in the Williams-Cook determination. This Certificate is the federal trigger instrument filed with DMHC Case #1409109 and CMS Case #7100158. Under 42 U.S.C. § 1395ss(q)(2) and (3), the 63-day guaranteed issue window for me to obtain a Medigap policy without medical underwriting began running from that date and closes approximately June 3, 2026.</p>
-          <p>The Anthem Blue Cross member portal plan period selector shows my 2026 coverage ending on April 1, 2026. That date did not appear in the Anthem system by accident and it did not appear because I requested it. I did not ask Anthem to terminate his coverage. I did not ask UC to terminate his coverage. I had never stopped paying — UC stopped deducting his premium in January 2026 without notifying him, and his bank records document the $727.48 increase in his February 1, 2026 pension deposit that proves the deduction was removed internally.</p>
+          <p>On April 1, 2026, Harold logged into the Anthem Blue Cross member portal and discovered his coverage had been terminated. The portal displayed a red INACTIVE badge on Harold&#x27;s UC High Option Supplement plan. No advance notice of any kind had been sent to Harold — no premium delinquency notice, no grace period notice, no cancellation warning — in the 24 months prior to that date. Anthem Blue Cross generated a Certificate of Creditable Coverage dated April 2, 2026, documenting that Harold&#x27;s coverage and Silvia&#x27;s coverage terminated April 1, 2026 — 29 days before the April 30 date stated in the Williams-Cook determination. This Certificate is the federal trigger instrument filed with DMHC Case #1409109 and CMS Case #7100158. Under 42 U.S.C. § 1395ss(q)(2) and (3), the 63-day guaranteed issue window for Harold to obtain a Medigap policy without medical underwriting began running from that date and closes approximately June 3, 2026.</p>
+          <p>The Anthem Blue Cross member portal plan period selector shows Harold&#x27;s 2026 coverage ending on April 1, 2026. That date did not appear in the Anthem system by accident and it did not appear because Harold requested it. Harold did not ask Anthem to terminate his coverage. Harold did not ask UC to terminate his coverage. Harold had never stopped paying — UC stopped deducting his premium in January 2026 without notifying him, and his bank records document the $727.48 increase in his February 1, 2026 pension deposit that proves the deduction was removed internally.</p>
           <p>A plan period end date of April 1, 2026 in Anthem&#x27;s enrollment system means that someone — a human being with administrative access — entered April 1, 2026 as the coverage termination date into Anthem&#x27;s group enrollment system. Anthem Blue Cross has represented in correspondence that UC, as the group policyholder, is the contracting party responsible for enrollment and termination decisions under the group plan. UC&#x27;s own Group Insurance Regulations state that &quot;By authority of the Regents, University of California Human Resources, located in Oakland, administers all benefit plans.&quot;</p>
           <p class="subhead">State 3 — SUSPENDED (April 30, 2026):</p>
-          <p>The Williams-Cook Administrative Review Determination dated February 27, 2026 states in writing that my coverage &quot;will be suspended on April 30, 2026,&quot; due to non-compliance with UC retiree health policy. On the same day Anthem&#x27;s own portal showed my plan as INACTIVE — April 1, 2026 — Allison Cumming, Resolution Lead, Consumer Experience Office, Elevance Health Executive Concierge, emailed me at 3:14 PM: &quot;Our Executive Concierge team has received your fax regarding your policy terminating on April 30th, 2026. We have assigned an analyst from our team who will investigate this on your behalf.&quot; Cumming is an executive at Elevance Health — the corporate parent of Anthem Blue Cross. She wrote this email on the same date Anthem&#x27;s own portal showed my plan as INACTIVE. She did not dispute the April 30 date. She did not correct it. She did not state that my coverage had already been terminated on April 1.</p>
-          <p>The Williams-Cook determination and the Cumming email together assert April 30, 2026 as the operative coverage end date — contradicting both State 1 (which shows no termination date) and State 2 (which documents April 1 as the actual termination date in Anthem&#x27;s own system). These two instruments cannot both be accurate, and neither is consistent with what Anthem&#x27;s portal showed me on April 1, 2026.</p>
+          <p>The Williams-Cook Administrative Review Determination dated February 27, 2026 states in writing that Harold&#x27;s coverage &quot;will be suspended on April 30, 2026,&quot; due to non-compliance with UC retiree health policy. On the same day Anthem&#x27;s own portal showed Harold&#x27;s plan as INACTIVE — April 1, 2026 — Allison Cumming, Resolution Lead, Consumer Experience Office, Elevance Health Executive Concierge, emailed Harold at 3:14 PM: &quot;Our Executive Concierge team has received your fax regarding your policy terminating on April 30th, 2026. We have assigned an analyst from our team who will investigate this on your behalf.&quot; Cumming is an executive at Elevance Health — the corporate parent of Anthem Blue Cross. She wrote this email on the same date Anthem&#x27;s own portal showed Harold&#x27;s plan as INACTIVE. She did not dispute the April 30 date. She did not correct it. She did not state that Harold&#x27;s coverage had already been terminated on April 1.</p>
+          <p>The Williams-Cook determination and the Cumming email together assert April 30, 2026 as the operative coverage end date — contradicting both State 1 (which shows no termination date) and State 2 (which documents April 1 as the actual termination date in Anthem&#x27;s own system). These two instruments cannot both be accurate, and neither is consistent with what Anthem&#x27;s portal showed Harold on April 1, 2026.</p>
           <p class="subhead">State 4 — REPLACED (May 1, 2026):</p>
-          <p>Based on the Williams-Cook determination&#x27;s written statement of April 30, 2026 as the coverage suspension date — the only written UC coverage-end communication I possessed on April 3, 2026 — I presented that determination to State Farm as the qualifying event documentation for involuntary loss of group Medigap coverage. On April 20, 2026, Silvia and I signed Medicare Supplement Plan G policies with State Farm agent Juston Lisk in Gold Canyon, Arizona, with an effective date of May 1, 2026, at a combined premium of $387.34/month — compared to $727.48/month under UC&#x27;s Anthem coverage. State Farm accepted the enrollment. As of April 28, 2026, I hold an active State Farm Medicare Supplement Plan G policy obtained on the basis of UC&#x27;s own written termination notice, and simultaneously hold the Anthem welcome mailer confirming UC Medicare Supplement PPO enrollment — two Medicare Supplement Plan G-equivalent policies, in force simultaneously, obtained on the basis of two mutually contradictory written determinations issued by the University of California.</p>
+          <p>Based on the Williams-Cook determination&#x27;s written statement of April 30, 2026 as the coverage suspension date — the only written UC coverage-end communication Harold possessed on April 3, 2026 — Harold presented that determination to State Farm as the qualifying event documentation for involuntary loss of group Medigap coverage. On April 20, 2026, Harold and Silvia Harold signed Medicare Supplement Plan G policies with State Farm agent Juston Lisk in Gold Canyon, Arizona, with an effective date of May 1, 2026, at a combined premium of $387.34/month — compared to $727.48/month under UC&#x27;s Anthem coverage. State Farm accepted the enrollment. As of April 28, 2026, Harold holds an active State Farm Medicare Supplement Plan G policy obtained on the basis of UC&#x27;s own written termination notice, and simultaneously holds the Anthem welcome mailer confirming UC Medicare Supplement PPO enrollment — two Medicare Supplement Plan G-equivalent policies, in force simultaneously, obtained on the basis of two mutually contradictory written determinations issued by the University of California.</p>
           <p class="subhead">State 5 — THE ONLY FEDERALLY COMPLIANT STATE:</p>
-          <p>My April 3, 2026 UBEN 100 (R1/26) filing, checked under &quot;Involuntary loss of coverage&quot; with the Anthem Certificate of Creditable Coverage attached, constitutes the only instrument in this entire record that is procedurally compliant with 42 U.S.C. § 1395ss(q)(2) and (3) and with UC&#x27;s own January 2026 enrollment form. That filing remains unacknowledged and unprocessed by UC RASC as of the date of this sworn statement. Via Benefits — UC&#x27;s intended transfer pathway — cannot satisfy Anthem&#x27;s obligation under § 1395ss(q)(2)–(3) to offer me individual Medigap upon group termination, because Via Benefits offers no Medigap equivalent. It offers only Medicare Advantage (Part C) and Part D via HRA stipend. UC&#x27;s transfer pathway was a legal nullity from the moment it was proposed.</p>
-          <p>Not one of these five states is consistent with any other. All five are simultaneously documented in the evidentiary record by instruments generated by UC, by Anthem Blue Cross, and by State Farm. The identity of the party that directed the April 1, 2026 termination entry — 29 days before UC&#x27;s own stated date — has not been disclosed to me in writing by UC or Anthem as of the date of this sworn statement.</p>
+          <p>Harold&#x27;s April 3, 2026 UBEN 100 (R1/26) filing, checked under &quot;Involuntary loss of coverage&quot; with the Anthem Certificate of Creditable Coverage attached, constitutes the only instrument in this entire record that is procedurally compliant with 42 U.S.C. § 1395ss(q)(2) and (3) and with UC&#x27;s own January 2026 enrollment form. That filing remains unacknowledged and unprocessed by UC RASC as of the date of this sworn statement. Via Benefits — UC&#x27;s intended transfer pathway — cannot satisfy Anthem&#x27;s obligation under § 1395ss(q)(2)–(3) to offer Harold individual Medigap upon group termination, because Via Benefits offers no Medigap equivalent. It offers only Medicare Advantage (Part C) and Part D via HRA stipend. UC&#x27;s transfer pathway was a legal nullity from the moment it was proposed.</p>
+          <p>Not one of these five states is consistent with any other. All five are simultaneously documented in the evidentiary record by instruments generated by UC, by Anthem Blue Cross, and by State Farm. The identity of the party that directed the April 1, 2026 termination entry — 29 days before UC&#x27;s own stated date — has not been disclosed to Harold in writing by UC or Anthem as of the date of this sworn statement.</p>
       </div>
     </section>
     <section class="trailer" id="may-1">
       <h2 class="trailer-title">MAY 1, 2026 — NO RELIABLE INSURANCE; NO PENSION</h2>
       <div class="trailer-body">
-      <p>As of May 1, 2026, the University of California&#x27;s own documents establish the following sequence and the following condition. UC RASC Benefits Analyst III Beverly Jeanine Williams-Cook&#x27;s February 27, 2026 written Administrative Review Determination stated that my coverage &quot;will be suspended on April 30, 2026&quot; — that was the original stated cancellation date. On April 1, 2026 — 29 days before even that wrongful stated date — Anthem Blue Cross terminated my coverage without prior notice of any kind. No grace period notice was sent. No delinquency notice was sent. I discovered the termination himself in the Anthem member portal on April 1, 2026. The April 2, 2026 Anthem portal screenshots — captured the day after the premature termination — show my UC High Option Supplement plan displaying a red INACTIVE status badge in Anthem&#x27;s own system. On April 3, 2026, I filed the correct current UBEN 100 (R1/26), checking the &quot;Involuntary loss of coverage&quot; checkbox and attaching the Anthem termination certificate as required documentation.</p>
+      <p>As of May 1, 2026, the University of California&#x27;s own documents establish the following sequence and the following condition. UC RASC Benefits Analyst III Beverly Jeanine Williams-Cook&#x27;s February 27, 2026 written Administrative Review Determination stated that Harold&#x27;s coverage &quot;will be suspended on April 30, 2026&quot; — that was the original stated cancellation date. On April 1, 2026 — 29 days before even that wrongful stated date — Anthem Blue Cross terminated Harold&#x27;s coverage without prior notice of any kind. No grace period notice was sent. No delinquency notice was sent. Harold discovered the termination himself in the Anthem member portal on April 1, 2026. The April 2, 2026 Anthem portal screenshots — captured the day after the premature termination — show Harold&#x27;s UC High Option Supplement plan displaying a red INACTIVE status badge in Anthem&#x27;s own system. On April 3, 2026, Harold filed the correct current UBEN 100 (R1/26), checking the &quot;Involuntary loss of coverage&quot; checkbox and attaching the Anthem termination certificate as required documentation.</p>
           <p>This April 3, 2026 invocation of federal guaranteed issue rights under 42 U.S.C. § 1395ss(q)(2) and (3) — executed on the correct current form (R1/26), with the correct trigger document attached, within 48 hours of the premature termination — remains unacknowledged and unprocessed by UC RASC.</p>
-          <p>On April 7, 2026 — only after intervention by DMHC Case #1409109 and CMS Case #7100158 — coverage was reinstated in the Anthem portal with a backdated January 1 effective date. On April 9, 2026, Erin Morse, Benefits/Insurance Supervisor at UC RASC, issued a letter initiating a &quot;90-day review&quot; and stating UC would maintain the &quot;status quo&quot; during the review period. That 90-day window runs past my federally protected ability to obtain Medigap insurance without medical underwriting. Simultaneously, Allison Cumming, Elevance Health Executive Concierge (Anthem&#x27;s parent company), has an April 30, 2026 termination date recorded in her correspondence — contradicting the April 7 reinstatement. On April 17, 2026, I sent a formal nine-section rejection to Cumming noting that Elevance&#x27;s own closure letter stated May 1, 2026 as the termination date, when Anthem&#x27;s actual system date was April 1, 2026 — Anthem&#x27;s own CX Resolution Risk Analyst did not know the correct termination date in Anthem&#x27;s own system.</p>
-          <p>As of May 1, 2026: the Morse 90-day review has not been resolved; the Cumming/Anthem records still reflect an April 30 termination date; UC&#x27;s own contracted Via Benefits administrator Joshua Lewis confirmed on February 2, 2026 that I am ineligible for Via Benefits due to his disability rating — leaving no replacement coverage through UC&#x27;s intended transfer pathway. My gross monthly pension is $2,916.21 — confirmed by the UC RASC Verification of UCRP Income dated January 13, 2026 ($2,286.99 base plus $629.22 COLA). My UCRAYS portal as of April 26, 2026 shows an anticipated May 1, 2026 net payment of $1,447.30. The same portal displays an April 1, 2026 phantom pay stub entry of negative $727.48 net ($0 gross / $0 deductions / $0 reimbursements) — internally inconsistent on its face and with no corresponding withdrawal in my Unify Federal Credit Union bank ledger,</p>
+          <p>On April 7, 2026 — only after intervention by DMHC Case #1409109 and CMS Case #7100158 — coverage was reinstated in the Anthem portal with a backdated January 1 effective date. On April 9, 2026, Erin Morse, Benefits/Insurance Supervisor at UC RASC, issued a letter initiating a &quot;90-day review&quot; and stating UC would maintain the &quot;status quo&quot; during the review period. That 90-day window runs past Harold&#x27;s federally protected ability to obtain Medigap insurance without medical underwriting. Simultaneously, Allison Cumming, Elevance Health Executive Concierge (Anthem&#x27;s parent company), has an April 30, 2026 termination date recorded in her correspondence — contradicting the April 7 reinstatement. On April 17, 2026, Harold sent a formal nine-section rejection to Cumming noting that Elevance&#x27;s own closure letter stated May 1, 2026 as the termination date, when Anthem&#x27;s actual system date was April 1, 2026 — Anthem&#x27;s own CX Resolution Risk Analyst did not know the correct termination date in Anthem&#x27;s own system.</p>
+          <p>As of May 1, 2026: the Morse 90-day review has not been resolved; the Cumming/Anthem records still reflect an April 30 termination date; UC&#x27;s own contracted Via Benefits administrator Joshua Lewis confirmed on February 2, 2026 that Harold is ineligible for Via Benefits due to his disability rating — leaving no replacement coverage through UC&#x27;s intended transfer pathway. Harold&#x27;s gross monthly pension is $2,916.21 — confirmed by the UC RASC Verification of UCRP Income dated January 13, 2026 ($2,286.99 base plus $629.22 COLA). Harold&#x27;s UCRAYS portal as of April 26, 2026 shows an anticipated May 1, 2026 net payment of $1,447.30. The same portal displays an April 1, 2026 phantom pay stub entry of negative $727.48 net ($0 gross / $0 deductions / $0 reimbursements) — internally inconsistent on its face and with no corresponding withdrawal in Harold&#x27;s Unify Federal Credit Union bank ledger,</p>
           <p>no statutory citation, and no explanation through any channel.</p>
-          <p>Applied as an offset against the anticipated May 1, 2026 net payment, that phantom clawback reduces my payment to $719.82 — or eliminates it entirely depending on how UC applies the offset. I received no advance written notice. I was afforded no pre-deprivation hearing. I have no confirmed alternative source of health coverage and no alternative source of income.</p>
+          <p>Applied as an offset against the anticipated May 1, 2026 net payment, that phantom clawback reduces Harold&#x27;s payment to $719.82 — or eliminates it entirely depending on how UC applies the offset. Harold received no advance written notice. Harold was afforded no pre-deprivation hearing. Harold has no confirmed alternative source of health coverage and no alternative source of income.</p>
           <p>The University of California has, as of May 1, 2026, removed both the medical coverage and the pension income of a documented permanently disabled peace officer, a documented 32-year whistleblower, a cancer patient, and a cardiac patient — simultaneously, without prior written notice, without a hearing, and without lawful authority under 42 U.S.C. § 1395ss(q)(1), California Labor Code § 5804, or UC Gold Book GO 21-02 § 1700.1(b)(1).</p>
-          <p>UC stopped deducting my premium in January 2026 without notice. UC then used the resulting non-payment — which UC itself manufactured — as a contributing basis for the termination of my coverage. UC then reinstated my coverage after regulatory intervention. UC then entered a phantom pay stub dated April 1, 2026 showing negative $727.48 — the exact amount of the premium UC had stopped collecting — with no gross income, no deductions, and no explanation. UC then applied that entry against my May 1, 2026 pension payment. I did not fail to pay his premium. I had no mechanism to pay it other than the deduction UC controlled and UC stopped.</p>
+          <p>UC stopped deducting Harold&#x27;s premium in January 2026 without notice. UC then used the resulting non-payment — which UC itself manufactured — as a contributing basis for the termination of Harold&#x27;s coverage. UC then reinstated Harold&#x27;s coverage after regulatory intervention. UC then entered a phantom pay stub dated April 1, 2026 showing negative $727.48 — the exact amount of the premium UC had stopped collecting — with no gross income, no deductions, and no explanation. UC then applied that entry against Harold&#x27;s May 1, 2026 pension payment. Harold did not fail to pay his premium. Harold had no mechanism to pay it other than the deduction UC controlled and UC stopped.</p>
       </div>
     </section>
     <section class="trailer trailer--declaration" id="declaration">
