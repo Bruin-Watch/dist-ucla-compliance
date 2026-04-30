@@ -148,8 +148,8 @@ a:hover { color: var(--link-hover); }
 .band-range {
   font-family: var(--sans);
   font-weight: 700;
-  font-size: 11px;
-  letter-spacing: 0.14em;
+  font-size: 13px;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
 }
@@ -161,7 +161,8 @@ a:hover { color: var(--link-hover); }
 }
 .band-meta {
   font-family: var(--sans);
-  font-size: 10.5px;
+  font-size: 12px;
+  font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
@@ -242,11 +243,35 @@ a:hover { color: var(--link-hover); }
 }
 .evidentiary-strip .evidentiary-label {
   font-family: var(--sans);
-  font-size: 10.5px;
-  letter-spacing: 0.18em;
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--muted);
-  margin: 0 0 6px;
+  color: var(--accent);
+  margin: 0 0 8px;
+}
+.star-legend {
+  margin: 14px 0 0 !important;
+  padding: 12px 16px;
+  background: rgba(176, 138, 46, 0.08);
+  border-left: 3px solid var(--gold);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.star-legend-mark {
+  font-size: 32px;
+  line-height: 1;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+.star-legend-text {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-2);
+  line-height: 1.5;
 }
 .evidentiary-strip .evidentiary-body {
   font-family: var(--mono);
@@ -310,10 +335,10 @@ a:hover { color: var(--link-hover); }
 }
 .toc-heading {
   font-weight: 700;
-  font-size: 10.5px;
-  letter-spacing: 0.2em;
+  font-size: 13px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   margin: 0 0 14px;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--rule);
@@ -330,8 +355,8 @@ a:hover { color: var(--link-hover); }
 .toc-band {
   display: block;
   font-weight: 700;
-  font-size: 10.5px;
-  letter-spacing: 0.16em;
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
 }
@@ -345,8 +370,9 @@ a:hover { color: var(--link-hover); }
 }
 .toc-group-title--static {
   font-family: var(--sans);
-  font-size: 10.5px;
-  letter-spacing: 0.2em;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--accent);
   border-bottom: 1px solid var(--rule);
@@ -416,8 +442,8 @@ a:hover { color: var(--link-hover); }
 .era-range {
   font-family: var(--sans);
   font-weight: 700;
-  font-size: 11px;
-  letter-spacing: 0.22em;
+  font-size: 13.5px;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--accent);
   margin: 0 0 10px;
@@ -441,8 +467,9 @@ a:hover { color: var(--link-hover); }
 }
 .era-meta {
   font-family: var(--sans);
-  font-size: 11px;
-  letter-spacing: 0.16em;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--muted);
   margin: 0;
@@ -477,11 +504,11 @@ a:hover { color: var(--link-hover); }
 .entry-titles { min-width: 0; }
 .entry-eyebrow {
   font-family: var(--sans);
-  font-weight: 600;
-  font-size: 10.5px;
-  letter-spacing: 0.18em;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   margin: 0 0 6px;
 }
 .entry-title {
@@ -511,10 +538,17 @@ a:hover { color: var(--link-hover); }
 
 .star-badge {
   display: inline-block;
-  margin-left: 6px;
+  margin-left: 8px;
   color: var(--gold);
-  font-size: 12px;
-  vertical-align: 2px;
+  font-size: 22px;
+  line-height: 1;
+  vertical-align: -2px;
+  text-shadow: 0 1px 0 rgba(176, 138, 46, 0.15);
+}
+.star {
+  color: var(--gold);
+  font-size: 14px;
+  vertical-align: 0;
 }
 
 .entry-body p {
@@ -568,10 +602,10 @@ a:hover { color: var(--link-hover); }
 .handoffs-label {
   font-family: var(--sans);
   font-weight: 700;
-  font-size: 10.5px;
-  letter-spacing: 0.2em;
+  font-size: 13px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   margin: 0 0 16px;
 }
 .handoffs-grid {
@@ -600,11 +634,11 @@ a:hover { color: var(--link-hover); }
 .handoff-label {
   grid-column: 1;
   font-family: var(--sans);
-  font-weight: 600;
-  font-size: 10.5px;
-  letter-spacing: 0.18em;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
 }
 .handoff-title {
   grid-column: 1;
@@ -901,11 +935,11 @@ a:hover { color: var(--link-hover); }
 <div class="nav-wrap">
 <nav class="nav-top">
 <div class="nav-top-inner">
-<a href="https://www.justice.gov/opa/pr/united-states-files-false-claims-act-complaint-against-three-national-health-insurance" target="_blank" rel="noopener noreferrer" class="nav-act home" title="DOJ: United States ex rel. Shea v. eHealth (Elevance Health/Anthem named defendant)">&#9670; BRUIN WATCH</a>
-<a href="behave-like-heroes/index.html" class="nav-act">Act I</a>
-<a href="schrodingers-uc-retiree/index.html" class="nav-act">Act II</a>
-<a href="index.html" class="nav-act current-act">Act III</a>
-<a href="epilogue/index.html" class="nav-act">Epilogue</a>
+<a href="https://bruin-watch.github.io/" class="nav-act home">&#9670; BRUIN WATCH</a>
+<a href="https://bruin-watch.github.io/behave-like-heroes/" class="nav-act">Act I</a>
+<a href="https://bruin-watch.github.io/schrodingers-uc-retiree/" class="nav-act">Act II</a>
+<a href="https://bruin-watch.github.io/uc-audit-request/" class="nav-act current-act">Act III</a>
+<a href="https://bruinwatch.org/epilogue/" class="nav-act">Epilogue</a>
 </div>
 </nav>
 <nav class="nav-bottom">
@@ -967,16 +1001,16 @@ a:hover { color: var(--link-hover); }
         <span class="band-title">Coverage termination and regulatory escalation</span>
         <span class="band-meta">Entries 51–86</span>
       </a>
-      <span class="band band--alt band--forthcoming" style="cursor:default;opacity:0.6">
+      <a href="chapter-exhibits.html" class="band band--alt">
         <span class="band-range">Exhibits</span>
         <span class="band-title">Supporting documentary record</span>
         <span class="band-meta">Register &amp; index</span>
-      </span>
-      <span class="band band--alt band--forthcoming" style="cursor:default;opacity:0.6">
+      </a>
+      <a href="chapter-8547.html" class="band band--alt">
         <span class="band-range">§ 8547.10</span>
         <span class="band-title">Compliance map</span>
         <span class="band-meta">Element-by-element</span>
-      </span>
+      </a>
     </div>
   </nav>
 
@@ -984,6 +1018,7 @@ a:hover { color: var(--link-hover); }
     <div class="evidentiary-strip-inner">
       <p class="evidentiary-label">Evidentiary record</p>
       <p class="evidentiary-body">EVIDENTIARY RECORD: This sworn statement is supported by documentary evidence archived and publicly accessible at: <a href="https://schrodingers-uc-retiree.github.io/evidentiary-record/." target="_blank" rel="noopener">schrodingers-uc-retiree.github.io/evidentiary-record/.</a> Analytics tracking (Clicky Pro Plus ID 101503318) logs regulator access.</p>
+      <p class="star-legend"><span class="star-legend-mark">★</span> <span class="star-legend-text">Marks key evidentiary entries — decisive moments in the documentary record. Pay particular attention to these.</span></p>
     </div>
   </section>
 
@@ -1345,7 +1380,7 @@ a:hover { color: var(--link-hover); }
         </article>
       <aside class="handoffs">
         <p class="handoffs-label">Continue to a dedicated chapter</p>
-        <div class="handoffs-grid"><span class="handoff-card handoff-card--forthcoming" style="cursor:default;opacity:0.7"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Retaliation and Whistleblowing</span><span class="handoff-desc">Vandenberg, Cueba, the November 1990 investigation, and four campus newspaper investigations.</span><span class="handoff-status" style="font-family:Inter,sans-serif;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:#9b8c5e;background:rgba(176,138,46,0.08);padding:3px 8px;border-radius:3px;margin-right:8px">Forthcoming</span><span class="handoff-arrow" aria-hidden="true">→</span></span><span class="handoff-card handoff-card--forthcoming" style="cursor:default;opacity:0.7"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Founding of FUPOA</span><span class="handoff-desc">The first NLRB-recognized statewide UC bargaining unit and the union nomination threat.</span><span class="handoff-status" style="font-family:Inter,sans-serif;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:#9b8c5e;background:rgba(176,138,46,0.08);padding:3px 8px;border-radius:3px;margin-right:8px">Forthcoming</span><span class="handoff-arrow" aria-hidden="true">→</span></span></div>
+        <div class="handoffs-grid"><a class="handoff-card" href="chapter-retaliation.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Retaliation and Whistleblowing</span><span class="handoff-desc">Vandenberg, Cueba, the November 1990 investigation, and four campus newspaper investigations.</span><span class="handoff-arrow" aria-hidden="true">→</span></a><a class="handoff-card" href="chapter-fupoa.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Founding of FUPOA</span><span class="handoff-desc">The first NLRB-recognized statewide UC bargaining unit and the union nomination threat.</span><span class="handoff-arrow" aria-hidden="true">→</span></a></div>
       </aside>
       <p class="back-top"><a href="#top">↑ Back to top</a></p>
     </section>
@@ -1535,7 +1570,7 @@ a:hover { color: var(--link-hover); }
         </article>
       <aside class="handoffs">
         <p class="handoffs-label">Continue to a dedicated chapter</p>
-        <div class="handoffs-grid"><span class="handoff-card handoff-card--forthcoming" style="cursor:default;opacity:0.7"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Disability Classification Contradictions</span><span class="handoff-desc">WCAB findings, medical separation, and the start of contradictory status records.</span><span class="handoff-status" style="font-family:Inter,sans-serif;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:#9b8c5e;background:rgba(176,138,46,0.08);padding:3px 8px;border-radius:3px;margin-right:8px">Forthcoming</span><span class="handoff-arrow" aria-hidden="true">→</span></span><span class="handoff-card handoff-card--forthcoming" style="cursor:default;opacity:0.7"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Settlement and Records</span><span class="handoff-desc">The civil rights case resolution and the records that followed.</span><span class="handoff-status" style="font-family:Inter,sans-serif;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:#9b8c5e;background:rgba(176,138,46,0.08);padding:3px 8px;border-radius:3px;margin-right:8px">Forthcoming</span><span class="handoff-arrow" aria-hidden="true">→</span></span></div>
+        <div class="handoffs-grid"><a class="handoff-card" href="chapter-classification.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Disability Classification Contradictions</span><span class="handoff-desc">WCAB findings, medical separation, and the start of contradictory status records.</span><span class="handoff-arrow" aria-hidden="true">→</span></a><a class="handoff-card" href="chapter-settlement.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Settlement and Records</span><span class="handoff-desc">The civil rights case resolution and the records that followed.</span><span class="handoff-arrow" aria-hidden="true">→</span></a></div>
       </aside>
       <p class="back-top"><a href="#top">↑ Back to top</a></p>
     </section>
@@ -1756,7 +1791,7 @@ a:hover { color: var(--link-hover); }
         </article>
       <aside class="handoffs">
         <p class="handoffs-label">Continue to a dedicated chapter</p>
-        <div class="handoffs-grid"><span class="handoff-card handoff-card--forthcoming" style="cursor:default;opacity:0.7"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Records Corruption Timeline</span><span class="handoff-desc">UCRAYS, RASC, and the simultaneous classification problem.</span><span class="handoff-status" style="font-family:Inter,sans-serif;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:#9b8c5e;background:rgba(176,138,46,0.08);padding:3px 8px;border-radius:3px;margin-right:8px">Forthcoming</span><span class="handoff-arrow" aria-hidden="true">→</span></span><span class="handoff-card handoff-card--forthcoming" style="cursor:default;opacity:0.7"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Exhibit Register</span><span class="handoff-desc">The documentary record cited throughout this statement.</span><span class="handoff-status" style="font-family:Inter,sans-serif;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:#9b8c5e;background:rgba(176,138,46,0.08);padding:3px 8px;border-radius:3px;margin-right:8px">Forthcoming</span><span class="handoff-arrow" aria-hidden="true">→</span></span></div>
+        <div class="handoffs-grid"><a class="handoff-card" href="chapter-records.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Records Corruption Timeline</span><span class="handoff-desc">UCRAYS, RASC, and the simultaneous classification problem.</span><span class="handoff-arrow" aria-hidden="true">→</span></a><a class="handoff-card" href="chapter-exhibits.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Exhibit Register</span><span class="handoff-desc">The documentary record cited throughout this statement.</span><span class="handoff-arrow" aria-hidden="true">→</span></a></div>
       </aside>
       <p class="back-top"><a href="#top">↑ Back to top</a></p>
     </section>
@@ -2341,7 +2376,7 @@ a:hover { color: var(--link-hover); }
         </article>
       <aside class="handoffs">
         <p class="handoffs-label">Continue to a dedicated chapter</p>
-        <div class="handoffs-grid"><span class="handoff-card handoff-card--forthcoming" style="cursor:default;opacity:0.7"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Medigap Termination Timeline</span><span class="handoff-desc">Anthem, Via Benefits, DMHC, CMS, and the Schrödinger&#x27;s Retiree contradictions.</span><span class="handoff-status" style="font-family:Inter,sans-serif;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:#9b8c5e;background:rgba(176,138,46,0.08);padding:3px 8px;border-radius:3px;margin-right:8px">Forthcoming</span><span class="handoff-arrow" aria-hidden="true">→</span></span><span class="handoff-card handoff-card--forthcoming" style="cursor:default;opacity:0.7"><span class="handoff-label">Go to chapter</span><span class="handoff-title">§ 8547.10 Compliance Map</span><span class="handoff-desc">Element-by-element mapping of this statement to the California Whistleblower Protection Act.</span><span class="handoff-status" style="font-family:Inter,sans-serif;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:#9b8c5e;background:rgba(176,138,46,0.08);padding:3px 8px;border-radius:3px;margin-right:8px">Forthcoming</span><span class="handoff-arrow" aria-hidden="true">→</span></span><span class="handoff-card handoff-card--forthcoming" style="cursor:default;opacity:0.7"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Exhibit Register</span><span class="handoff-desc">The documentary record cited throughout this statement.</span><span class="handoff-status" style="font-family:Inter,sans-serif;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:#9b8c5e;background:rgba(176,138,46,0.08);padding:3px 8px;border-radius:3px;margin-right:8px">Forthcoming</span><span class="handoff-arrow" aria-hidden="true">→</span></span></div>
+        <div class="handoffs-grid"><a class="handoff-card" href="chapter-medigap.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Medigap Termination Timeline</span><span class="handoff-desc">Anthem, Via Benefits, DMHC, CMS, and the Schrödinger&#x27;s Retiree contradictions.</span><span class="handoff-arrow" aria-hidden="true">→</span></a><a class="handoff-card" href="chapter-8547.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">§ 8547.10 Compliance Map</span><span class="handoff-desc">Element-by-element mapping of this statement to the California Whistleblower Protection Act.</span><span class="handoff-arrow" aria-hidden="true">→</span></a><a class="handoff-card" href="chapter-exhibits.html"><span class="handoff-label">Go to chapter</span><span class="handoff-title">Exhibit Register</span><span class="handoff-desc">The documentary record cited throughout this statement.</span><span class="handoff-arrow" aria-hidden="true">→</span></a></div>
       </aside>
       <p class="back-top"><a href="#top">↑ Back to top</a></p>
     </section>
