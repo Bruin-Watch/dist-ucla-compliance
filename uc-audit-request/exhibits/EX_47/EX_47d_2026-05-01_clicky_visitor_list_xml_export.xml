@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response status="ok">
+<type type="visitors-list">
+<date date="2026-05-01">
+<item><time><![CDATA[1777641690]]></time><time_pretty><![CDATA[Fri May 1 2026, 6:21a]]></time_pretty><time_total><![CDATA[30]]></time_total><ip_address><![CDATA[:3f9:2d]]></ip_address><uid><![CDATA[1581941601]]></uid><session_id><![CDATA[375653354]]></session_id><actions><![CDATA[1]]></actions><total_visits><![CDATA[1]]></total_visits><first_visit><time><![CDATA[1777641690]]></time><session_id><![CDATA[375653354]]></session_id></first_visit><landing_page><![CDATA[https://bruinwatch.org/dist-ucla-compliance/]]></landing_page><web_browser><![CDATA[Safari 26.3 mobile]]></web_browser><operating_system><![CDATA[iOS]]></operating_system><hardware><![CDATA[Apple iPhone]]></hardware><screen_resolution><![CDATA[414x896]]></screen_resolution><javascript><![CDATA[1]]></javascript><language><![CDATA[English]]></language><referrer_type><![CDATA[direct]]></referrer_type><geolocation><![CDATA[Delta, Utah, USA]]></geolocation><country_code><![CDATA[us]]></country_code><latitude><![CDATA[39.3522]]></latitude><longitude><![CDATA[-112.5772]]></longitude><organization><![CDATA[Icloud Private Relay]]></organization><stats_url><![CDATA[https://clicky.com/stats/visitors-actions?site_id=101505305&session_id=375653354]]></stats_url></item>
+</date>
+</type>
+</response>
